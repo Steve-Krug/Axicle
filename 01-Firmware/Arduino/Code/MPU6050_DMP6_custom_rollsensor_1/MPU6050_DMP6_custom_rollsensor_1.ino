@@ -342,14 +342,14 @@ void loop() {
     mpu.dmpGetQuaternion(&q, fifoBuffer);
     mpu.dmpGetGravity(&gravity, &q);
     mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-    /*
-      Serial.print("ypr\t");
-      Serial.print(ypr[0] * 180 / M_PI);
-      Serial.print("\t");
-      Serial.print(ypr[1] * 180 / M_PI);
-      Serial.print("\t");
-      Serial.println(ypr[2] * 180 / M_PI);
-    */
+    ///*
+    Serial.print("ypr\t");
+    Serial.print(ypr[0] * 180 / M_PI);
+    Serial.print("\t");
+    Serial.print(ypr[1] * 180 / M_PI);
+    Serial.print("\t");
+    Serial.println(ypr[2] * 180 / M_PI);
+    //*/
 #endif
 
 #ifdef OUTPUT_READABLE_REALACCEL
@@ -516,7 +516,7 @@ void loop() {
     dataString += ",";
     dataString += String(blinkState); //roll sensor
 
-    File dataFile = SD.open("datalog6.txt", FILE_WRITE);
+    File dataFile = SD.open("datalog11.txt", FILE_WRITE);
 
     //If file is available, write it to:
     if (dataFile) {
