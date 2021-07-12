@@ -3,7 +3,7 @@ const int MPU_addr = 0x68; // I2C address of the MPU-6050
 //Some of those boards have a pull-down resistor at AD0 (address = 0x68), others have a pull-up resistor (address = 0x69).
 int16_t AcX, AcY, AcZ;
 
-float time;
+float my_time;
 
 void setup() {
 
@@ -25,7 +25,7 @@ void setup() {
   delay(100);
   Wire.endTransmission(true);
   Serial.begin(115200);
-  time = micros();
+  my_time = micros();
 }
 
 void loop() {
@@ -43,8 +43,8 @@ void loop() {
   Serial.print(" | AcZ = "); Serial.println(AcZ);
 
   //delay(333);
-  float temp = time - micros();
+  float temp = my_time - micros();
   Serial.println(temp);
-  time = micros();
+  my_time = micros();
 
 }

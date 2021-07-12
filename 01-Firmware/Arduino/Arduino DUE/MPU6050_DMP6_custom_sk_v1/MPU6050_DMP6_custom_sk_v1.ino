@@ -1,5 +1,3 @@
-#include <SPI.h>
-#include <SD.h>
 // I2C device class (I2Cdev) demonstration Arduino sketch for MPU6050 class using DMP (MotionApps v2.0)
 // 6/21/2012 by Jeff Rowberg <jeff@rowberg.net>
 // Updates should (hopefully) always be available at https://github.com/jrowberg/i2cdevlib
@@ -164,39 +162,22 @@ void setup() {
   // join I2C bus (I2Cdev library doesn't do this automatically)
 #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
   Wire.begin();
-  TWBR = 12; // 400kHz I2C clock (200kHz if CPU is 8MHz)
-
-  //Wire.setClock(400000); //added
-
+  int TWBR = 24; // 400kHz I2C clock (200kHz if CPU is 8MHz)
 #elif I2CDEV_IMPLEMENTATION == I2CDEV_BUILTIN_FASTWIRE
   Fastwire::setup(400, true);
 #endif
+
+  pinMode(A4, INPUT);
+  //val = digitalRead(A5);
+
+  pinMode(A5, INPUT);
+  //val = digitalRead(SCL);
 
   // initialize serial communication
   // (115200 chosen because it is required for Teapot Demo output, but it's
   // really up to you depending on your project)
   Serial.begin(115200);
-
-  pinMode(10, OUTPUT); //pin 10 is output for write signal?
-
   while (!Serial); // wait for Leonardo enumeration, others continue immediately
-  Serial.println("Initializing SD card...");
-  /* if (!SD.begin(10)) {
-      Serial.println("initialization failed!");
-      while(1);
-    }
-    Serial.println("initialization done.");
-    myFile = SD.open("test1.txt", FILE_WRITE);
-  */
-  // SD Card Intialization
-  if (SD.begin(10))
-  {
-    Serial.println(" SD card ready");
-  }
-  else
-  {
-    Serial.println("SD card initialization failed");
-  }
 
   // NOTE: 8MHz or slower host processors, like the Teensy @ 3.3v or Ardunio
   // Pro Mini running at 3.3v, cannot handle this baud rate reliably due to
@@ -212,13 +193,12 @@ void setup() {
   Serial.println(F("Testing device connections..."));
   Serial.println(mpu.testConnection() ? F("MPU6050 connection successful") : F("MPU6050 connection failed"));
 
-  /*
-    // wait for ready
-    Serial.println(F("\nSend any character to begin DMP programming and demo: "));
-    while (Serial.available() && Serial.read()); // empty buffer
-    while (!Serial.available());                 // wait for data
-    while (Serial.available() && Serial.read()); // empty buffer again
-  */
+  // wait for ready
+  Serial.println(F("\nSend any character to begin DMP programming and demo: "));
+  while (Serial.available() && Serial.read()); // empty buffer
+  while (!Serial.available());                 // wait for data
+  while (Serial.available() && Serial.read()); // empty buffer again
+
   // load and configure the DMP
   Serial.println(F("Initializing DMP..."));
   devStatus = mpu.dmpInitialize();
@@ -258,7 +238,6 @@ void setup() {
 
   // configure LED for output
   pinMode(LED_PIN, OUTPUT);
-
 }
 
 
@@ -266,7 +245,6 @@ void setup() {
 // ================================================================
 // ===                    MAIN PROGRAM LOOP                     ===
 // ================================================================
-
 
 void loop() {
   // if programming failed, don't try to do anything
@@ -341,14 +319,12 @@ void loop() {
     mpu.dmpGetQuaternion(&q, fifoBuffer);
     mpu.dmpGetGravity(&gravity, &q);
     mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-    /*
-      Serial.print("ypr\t");
-      Serial.print(ypr[0] * 180 / M_PI);
-      Serial.print("\t");
-      Serial.print(ypr[1] * 180 / M_PI);
-      Serial.print("\t");
-      Serial.println(ypr[2] * 180 / M_PI);
-    */
+    Serial.print("ypr\t");
+    Serial.print(ypr[0] * 180 / M_PI);
+    Serial.print("\t");
+    Serial.print(ypr[1] * 180 / M_PI);
+    Serial.print("\t");
+    Serial.println(ypr[2] * 180 / M_PI);
 #endif
 
 #ifdef OUTPUT_READABLE_REALACCEL
@@ -395,7 +371,6 @@ void loop() {
     teapotPacket[11]++; // packetCount, loops at 0xFF on purpose
 #endif
 
-    //////////Roll Sensor//////////
     if ((ypr[2] * 180 / M_PI > 15.0) || (ypr[2] * 180 / M_PI < -15.0)) {
       blinkState = 1;
     } else {
@@ -404,33 +379,5 @@ void loop() {
     //        // blink LED to indicate activity
     //        blinkState = !blinkState;
     digitalWrite(LED_PIN, blinkState);
-    //write roll sensor result to sd card
-
-
-    //////////Data Log//////////
-    String dataString = "";
-    dataString += String(ypr[0] * 180 / M_PI); //yaw
-    dataString += ",";
-    dataString += String(ypr[1] * 180 / M_PI); //pitch
-    dataString += ",";
-    dataString += String(ypr[2] * 180 / M_PI); //roll
-    dataString += ",";
-    dataString += String(blinkState); //roll sensor
-
-    File dataFile = SD.open("datalog6.txt", FILE_WRITE);
-
-    //If file is available, write it to:
-    if (dataFile) {
-      dataFile.println(dataString);
-      dataFile.close();
-    }
-    //print to serial
-    //Serial.println(dataString);
-    //If file isn't working, throw error 
-    else {
-    Serial.println("error writing data packet to SD");
   }
-
-  }
- 
 }
