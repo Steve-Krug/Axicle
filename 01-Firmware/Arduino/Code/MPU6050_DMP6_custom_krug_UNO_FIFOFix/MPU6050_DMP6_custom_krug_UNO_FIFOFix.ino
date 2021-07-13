@@ -164,7 +164,7 @@ void setup() {
   // join I2C bus (I2Cdev library doesn't do this automatically)
 #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
   Wire.begin();
-  int TWBR = 12; // 400kHz I2C clock (200kHz if CPU is 8MHz)
+  TWBR = 24; // 400kHz I2C clock (200kHz if CPU is 8MHz)
 
   //Wire.setClock(400000); //added
 
@@ -177,19 +177,13 @@ void setup() {
   // really up to you depending on your project)
   Serial.begin(115200);
 
-  pinMode(4, OUTPUT); //pin 10 is output for write signal? 4 for DUE, 10 for uno?
+  pinMode(10, OUTPUT); //pin 10 is output for write signal? 4 for DUE, 10 for uno?
 
   while (!Serial); // wait for Leonardo enumeration, others continue immediately
   Serial.println("Initializing SD card...");
-  /* if (!SD.begin(10)) {
-      Serial.println("initialization failed!");
-      while(1);
-    }
-    Serial.println("initialization done.");
-    myFile = SD.open("test1.txt", FILE_WRITE);
-  */
+
   // SD Card Intialization
-  if (SD.begin(4))
+  if (SD.begin(10))
   {
     Serial.println(" SD card ready");
   }
@@ -417,7 +411,7 @@ void loop() {
     dataString += ",";
     dataString += String(blinkState); //roll sensor
 
-    File dataFile = SD.open("datalog6.txt", FILE_WRITE);
+    File dataFile = SD.open("datalog11.txt", FILE_WRITE);
 
     //If file is available, write it to:
     if (dataFile) {

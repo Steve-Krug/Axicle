@@ -164,7 +164,7 @@ void setup() {
   // join I2C bus (I2Cdev library doesn't do this automatically)
 #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
   Wire.begin();
-  int TWBR = 12; // 400kHz I2C clock (200kHz if CPU is 8MHz)
+  int TWBR = 24; // 400kHz I2C clock (200kHz if CPU is 8MHz)
 
   //Wire.setClock(400000); //added
 
@@ -181,13 +181,7 @@ void setup() {
 
   while (!Serial); // wait for Leonardo enumeration, others continue immediately
   Serial.println("Initializing SD card...");
-  /* if (!SD.begin(10)) {
-      Serial.println("initialization failed!");
-      while(1);
-    }
-    Serial.println("initialization done.");
-    myFile = SD.open("test1.txt", FILE_WRITE);
-  */
+
   // SD Card Intialization
   if (SD.begin(4))
   {
@@ -341,14 +335,14 @@ void loop() {
     mpu.dmpGetQuaternion(&q, fifoBuffer);
     mpu.dmpGetGravity(&gravity, &q);
     mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-    ///*
+    /*
     Serial.print("ypr\t");
     Serial.print(ypr[0] * 180 / M_PI);
     Serial.print("\t");
     Serial.print(ypr[1] * 180 / M_PI);
     Serial.print("\t");
     Serial.println(ypr[2] * 180 / M_PI);
-    //*/
+    */
 #endif
 
 #ifdef OUTPUT_READABLE_REALACCEL
@@ -417,7 +411,7 @@ void loop() {
     dataString += ",";
     dataString += String(blinkState); //roll sensor
 
-    File dataFile = SD.open("datalog6.txt", FILE_WRITE);
+    File dataFile = SD.open("datalog11.txt", FILE_WRITE);
 
     //If file is available, write it to:
     if (dataFile) {
