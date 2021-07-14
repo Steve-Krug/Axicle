@@ -1,5 +1,9 @@
 #include <SPI.h>
 #include <SD.h>
+// set up variables using the SD utility library functions:
+Sd2Card card;
+SdVolume volume;
+SdFile root;
 // I2C device class (I2Cdev) demonstration Arduino sketch for MPU6050 class using DMP (MotionApps v2.0)
 // 6/21/2012 by Jeff Rowberg <jeff@rowberg.net>
 // Updates should (hopefully) always be available at https://github.com/jrowberg/i2cdevlib
@@ -164,7 +168,7 @@ void setup() {
   // join I2C bus (I2Cdev library doesn't do this automatically)
 #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
   Wire.begin();
-  int TWBR = 12; // 400kHz I2C clock (200kHz if CPU is 8MHz)
+  TWBR = 12; // 400kHz I2C clock (200kHz if CPU is 8MHz)
 
   //Wire.setClock(400000); //added
 
@@ -177,19 +181,34 @@ void setup() {
   // really up to you depending on your project)
   Serial.begin(115200);
 
-  pinMode(4, OUTPUT); //pin 10 is output for write signal? 4 for DUE, 10 for uno?
 
   while (!Serial); // wait for Leonardo enumeration, others continue immediately
   Serial.println("Initializing SD card...");
+  pinMode(53, OUTPUT); //pin 10 is output for write signal? 4 for DUE, 10 for uno?
 
-  // SD Card Intialization
-  if (SD.begin(4))
-  {
-    Serial.println(" SD card ready");
-  }
-  else
-  {
-    Serial.println("SD card initialization failed");
+
+  /*
+    // SD Card Intialization
+    if (SD.begin(53))
+    {
+      Serial.println(" SD card ready");
+    }
+    else
+    {
+      Serial.println("SD card initialization failed");
+    }
+  */
+
+  // we'll use the initialization code from the utility libraries
+  // since we're just testing if the card is working!
+  if (!card.init(SPI_HALF_SPEED, 53)) {
+    Serial.println("initialization failed. Things to check:");
+    Serial.println("* is a card is inserted?");
+    Serial.println("* Is your wiring correct?");
+    Serial.println("* did you change the chipSelect pin to match your shield or module?");
+    return;
+  } else {
+    Serial.println("Wiring is correct and a card is present.");
   }
 
   // NOTE: 8MHz or slower host processors, like the Teensy @ 3.3v or Ardunio
@@ -300,7 +319,7 @@ void loop() {
 
     // read a packet from FIFO
     mpu.getFIFOBytes(fifoBuffer, packetSize);
-   mpu.resetFIFO(); // added based on this thread:https://arduino.stackexchange.com/questions/10308/how-to-clear-fifo-buffer-on-mpu6050
+    //mpu.resetFIFO(); // added based on this thread:https://arduino.stackexchange.com/questions/10308/how-to-clear-fifo-buffer-on-mpu6050
     // track FIFO count here in case there is > 1 packet available
     // (this lets us immediately read more without waiting for an interrupt)
     fifoCount -= packetSize;
@@ -335,14 +354,14 @@ void loop() {
     mpu.dmpGetQuaternion(&q, fifoBuffer);
     mpu.dmpGetGravity(&gravity, &q);
     mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-    ///*
+   /*
     Serial.print("ypr\t");
     Serial.print(ypr[0] * 180 / M_PI);
     Serial.print("\t");
     Serial.print(ypr[1] * 180 / M_PI);
     Serial.print("\t");
     Serial.println(ypr[2] * 180 / M_PI);
-    //*/
+    */
 #endif
 
 #ifdef OUTPUT_READABLE_REALACCEL
@@ -411,20 +430,24 @@ void loop() {
     dataString += ",";
     dataString += String(blinkState); //roll sensor
 
-    File dataFile = SD.open("datalog12.txt", FILE_WRITE);
+    
+    Serial.println(dataString);
+    
+    
+        File dataFile = SD.open("datalog13.txt", FILE_WRITE);
 
-    //If file is available, write it to:
-    if (dataFile) {
-      dataFile.println(dataString);
-      dataFile.close();
-    }
-    //print to serial
-    //Serial.println(dataString);
-    //If file isn't working, throw error
-    else {
-      Serial.println("error writing data packet to SD");
-    }
-
+        //If file is available, write it to:
+        if (dataFile) {
+          dataFile.println(dataString);
+          dataFile.close();
+        }
+        //print to serial
+        //Serial.println(dataString);
+        //If file isn't working, throw error
+        else {
+          //Serial.println("error writing data packet to SD");
+        }
+    
   }
 
 }
