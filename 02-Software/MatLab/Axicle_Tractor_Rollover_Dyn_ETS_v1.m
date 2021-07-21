@@ -20,10 +20,10 @@ time_s = linspace(0, total_run_time_s, sampling_freq_hz*total_run_time_s)';
 
 %% Mass Properties
 g_mps2 = 9.81;
-slack_angle = 5; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
+slack_angle = 10; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
 %Tractor
 TRAC_height_cg_m = 1.1;
-TRAC_mass_kg = 25000;
+TRAC_mass_kg = 6970;
 TRAC_inertia_roll_kgm2 = 37500;
 TRAC_trackwidth_m = 2.53;
 TRAC_height_cp_m = 1.925;
@@ -195,34 +195,30 @@ for t = 1:length(time_s)-1
         else % if tractor roll angle falls back down to 0, then use the tractor static torque
             tractor_torque = (TRAC_force_drag_N*TRAC_d_cp_y_m(transition_instance))-(TRAC_force_weight_N*TRAC_d_cg_x_m(transition_instance));
         end
+        
         TOTAL_tq_nm(t) = trailer_torque + tractor_torque;
         
         
+        
         %Angular Acceleration
-        %if TRAC_roll_angle_rad(t) >= 0
-        TOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TOTAL_I_kgm2;
-        %else% if tractor roll angle fell back down to zero 
-           %RTOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TRAIL_I_pat_kgm2;
-        %end
+        if TRAC_roll_angle_rad(t) >= 0
+            TOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TOTAL_I_kgm2;
+        else% if tractor roll angle fell back down to zero,
+            TOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TRAIL_I_pat_kgm2;
+        end
         %Angular Rate
         TOTAL_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
-        
-        %Resolved roll angle assuming start = 0deg. This angle will keep
-        %increasing from zero
-%         if TRAC_roll_angle_rad(t) >= 0 
+        TRAC_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
+        TRAIL_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
+        %Angle
+        if TRAC_roll_angle_rad(t) >= 0
             TRAC_roll_angle_rad(t+1) = TRAC_roll_angle_rad(t)+TOTAL_omega_rps(t+1)*dt;
             TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(transition_instance) + TRAC_roll_angle_rad(t+1);
-%         else% if tractor roll angle fell back down to zero, 
-%             TRAC_roll_angle_rad(t+1) = TRAC_roll_angle_rad(t); %tractor roll angle would be zero/slightly less than zero
-% 
-%             TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(transition_instance)+...
-%                 TRAIL_roll_angle_rad(t)+...
-%                 TOTAL_omega_rps(t+1)*dt; %trailer angle would be 
-%             
-%             %TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(transition_instance) + TRAIL_roll_angle_rad(t+1);
-%         end
-        
-        
+        else % if tractor roll angle fell back down to zero,
+            TRAC_roll_angle_rad(t+1) = TRAC_roll_angle_rad(t);
+            TRAIL_roll_angle_add_rad(t+1) = TRAC_roll_angle_rad(t)+TOTAL_omega_rps(t+1)*dt;
+            TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(transition_instance) + TRAIL_roll_angle_add_rad(t+1);
+        end
         
         
         %new angles; take previous angle value once this part of the loop started and subtract the new delta
@@ -233,13 +229,7 @@ for t = 1:length(time_s)-1
         TRAIL_theta_cp_rad(t+1) = TRAIL_theta_cp_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
         TRAC_theta_cg_rad(t+1) = TRAC_theta_cg_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
         TRAC_theta_cp_rad(t+1) = TRAC_theta_cp_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
-        
-        
-        
-        
-        %         if TRAC_roll_angle_rad(t+1) < 0
-        %             TRAC_roll_angle_rad(t+1) = 0;
-        %         end
+
         
         if (TRAIL_roll_angle_rad(t+1)*57.29) > 90 || TRAIL_roll_angle_rad(t+1)*57.29 < 0
             break
@@ -252,12 +242,22 @@ end
 
 
 
-figure(10)
+figure(1)
 plot(time_s,TRAIL_roll_angle_rad*57.29, time_s, TRAC_roll_angle_rad*57.29)
 legend({'Trailer Roll Angle','Tractor Roll Angle'})
 ylabel('Angle [deg]')
 xlabel('Time [s]')
 Plotter(1)
+
+figure(2)
+plot(time_s,TRAIL_omega_rps*57.29,'LineWidth',10)
+hold on
+plot(time_s, TRAC_omega_rps*57.29,'LineWidth',3)
+legend({'Trailer Roll Rate','Tractor Roll Rate'})
+ylabel('Angular Rate [deg/s]')
+xlabel('Time [s]')
+Plotter(1)
+
 % figure(1)
 % subplot(3,1,3)
 % plot(time_s,TRAIL_roll_angle_rad*57.29)
