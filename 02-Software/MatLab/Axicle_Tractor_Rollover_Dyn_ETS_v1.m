@@ -12,15 +12,17 @@ clc
 %% Time Series Parameters
 sampling_freq_hz = 100; %hz
 time_step_s = 1/sampling_freq_hz; % s
-total_run_time_s = 6; % sec
+total_run_time_s =15; % sec
 time_s = linspace(0, total_run_time_s, sampling_freq_hz*total_run_time_s)';
 
 %% Aero Calcs
 %use allowable windspeed table as inputs for aero calculation?
 
+
+
 %% Mass Properties
 g_mps2 = 9.81;
-slack_angle = 10; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
+slack_angle = 5; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
 %Tractor
 TRAC_height_cg_m = 1.1;
 TRAC_mass_kg = 6970;
@@ -124,7 +126,7 @@ for t = 1:length(time_s)-1
             %TRAIL_tq_nm(t) = 0;
         else
             
-            TRAC_tq_nm(t) = ((TRAC_force_drag_N*TRAC_d_cp_y_m_i)-(TRAC_force_weight_N*TRAC_d_cg_x_m_i)); %fill array with tractor net torque
+            %TRAC_tq_nm(t) = ((TRAC_force_drag_N*TRAC_d_cp_y_m_i)-(TRAC_force_weight_N*TRAC_d_cg_x_m_i)); %fill array with tractor net torque
             
             TRAIL_d_cg_x_m(t) = sin(TRAIL_theta_cg_rad(t))*TRAIL_r_cg_m; %new moment arm for new cg torque
             TRAIL_d_cp_y_m(t) = cos(TRAIL_theta_cp_rad(t))*TRAIL_r_cp_m; %new moment arm for cp torque
@@ -161,7 +163,9 @@ for t = 1:length(time_s)-1
             momentum_initial = TRAIL_I_pat_kgm2*TRAIL_omega_rps(t);
             %TT_omega_rps = TRAIL_omega_rps; %add in previous rate built up by trailer initially
             TOTAL_I_kgm2 = TRAIL_I_pat_kgm2+TRAC_I_pat_kgm2;
-            TOTAL_omega_rps(t) = momentum_initial/(TOTAL_I_kgm2); %assuming tractor "instantly" accelerates to the rate
+            %TOTAL_omega_rps(t) = momentum_initial/(TOTAL_I_kgm2); %assuming tractor "instantly" accelerates to the rate
+            TRAC_omega_rps(t) = momentum_initial/(TOTAL_I_kgm2);
+            TRAIL_omega_rps(t) = momentum_initial/(TOTAL_I_kgm2);
             %imposed based on conservation of angular momentum. Trailer is
             %also traveling at this speed now, hence "total omega".
             %TRAIL_omega_rps(t) = TOTAL_omega_rps(t);
@@ -190,10 +194,13 @@ for t = 1:length(time_s)-1
         
         
         trailer_torque = (TRAIL_force_drag_N*TRAIL_d_cp_y_m(t))-(TRAIL_force_weight_N*TRAIL_d_cg_x_m(t));
+        
         if TRAC_roll_angle_rad(t) >= 0
             tractor_torque = (TRAC_force_drag_N*TRAC_d_cp_y_m(t))-(TRAC_force_weight_N*TRAC_d_cg_x_m(t));
-        else % if tractor roll angle falls back down to 0, then use the tractor static torque
-            tractor_torque = (TRAC_force_drag_N*TRAC_d_cp_y_m(transition_instance))-(TRAC_force_weight_N*TRAC_d_cg_x_m(transition_instance));
+            %         else % if tractor roll angle falls back down to 0, then use the tractor static torque
+            %             tractor_torque = (TRAC_force_drag_N*TRAC_d_cp_y_m(transition_instance))-(TRAC_force_weight_N*TRAC_d_cg_x_m(transition_instance));
+        else % if tractor roll angle falls back down to 0, then assume NO tractor torque
+            tractor_torque = 0;
         end
         
         TOTAL_tq_nm(t) = trailer_torque + tractor_torque;
@@ -201,23 +208,38 @@ for t = 1:length(time_s)-1
         
         
         %Angular Acceleration
-        if TRAC_roll_angle_rad(t) >= 0
-            TOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TOTAL_I_kgm2;
-        else% if tractor roll angle fell back down to zero,
-            TOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TRAIL_I_pat_kgm2;
+        if TRAC_roll_angle_rad(t) >= 0 % for instance where tractor + trailer moving up
+            %TOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TOTAL_I_kgm2;
+            TRAC_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TOTAL_I_kgm2;
+            TRAIL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TOTAL_I_kgm2;
+        else% if tractor roll angle fell back down to below zero,
+            %TOTAL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TRAIL_I_pat_kgm2;
+            TRAC_alpha_rps2(t+1) = 0;
+            TRAIL_alpha_rps2(t+1) = TOTAL_tq_nm(t)/TRAIL_I_pat_kgm2;
         end
+        
         %Angular Rate
-        TOTAL_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
-        TRAC_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
-        TRAIL_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
+        if TRAC_roll_angle_rad >= 0 % for instance where tractor + trailer moving up
+            %             TOTAL_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
+            %             TRAIL_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
+            TRAC_omega_rps(t+1) = TRAC_omega_rps(t)+TRAC_alpha_rps2(t+1)*dt;
+            TRAIL_omega_rps(t+1) = TRAIL_omega_rps(t)+TRAIL_alpha_rps2(t+1)*dt;
+            
+        else % if tractor roll angle fell back down to below zero
+            %             TRAC_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
+           TRAC_omega_rps(t+1) = 0;
+           TRAIL_omega_rps(t+1) = TRAIL_omega_rps(t)+TRAIL_alpha_rps2(t+1)*dt; 
+        end
+        
         %Angle
         if TRAC_roll_angle_rad(t) >= 0
-            TRAC_roll_angle_rad(t+1) = TRAC_roll_angle_rad(t)+TOTAL_omega_rps(t+1)*dt;
-            TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(transition_instance) + TRAC_roll_angle_rad(t+1);
-        else % if tractor roll angle fell back down to zero,
-            TRAC_roll_angle_rad(t+1) = TRAC_roll_angle_rad(t);
-            TRAIL_roll_angle_add_rad(t+1) = TRAC_roll_angle_rad(t)+TOTAL_omega_rps(t+1)*dt;
-            TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(transition_instance) + TRAIL_roll_angle_add_rad(t+1);
+            TRAC_roll_angle_rad(t+1) = TRAC_roll_angle_rad(t)+TRAC_omega_rps(t+1)*dt;
+            TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(t) + TRAIL_omega_rps(t+1)*dt;
+        else % if tractor roll angle fell back down to below zero
+              TRAC_roll_angle_rad(t+1) = TRAC_roll_angle_rad(t); %just make it the previous angle that everything stopped at, slightly below zero
+%             TRAIL_roll_angle_add_rad(t+1) = TRAC_roll_angle_rad(t)+TOTAL_omega_rps(t+1)*dt; 
+%             TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(transition_instance) + TRAIL_roll_angle_add_rad(t+1);
+              TRAIL_roll_angle_rad(t+1) = TRAIL_roll_angle_rad(t) + TRAIL_omega_rps(t+1)*dt;
         end
         
         
@@ -229,11 +251,23 @@ for t = 1:length(time_s)-1
         TRAIL_theta_cp_rad(t+1) = TRAIL_theta_cp_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
         TRAC_theta_cg_rad(t+1) = TRAC_theta_cg_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
         TRAC_theta_cp_rad(t+1) = TRAC_theta_cp_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
-
         
+        % If trailer rolls over completely, terminate simulation
         if (TRAIL_roll_angle_rad(t+1)*57.29) > 90 || TRAIL_roll_angle_rad(t+1)*57.29 < 0
             break
         end
+        
+        %if tractor goes back down to zero AFTER already being rolled up
+        %slightly, terminate simulation. Tractor is stuck at zero roll
+        %angle, and trailer is just rolled on onto outer wheels and
+        %maintaining angle with zero rate
+        if TRAC_roll_angle_rad(t+1)*57.29 < 0 
+            TRAIL_alpha_rps2(t+1:end) = 0;
+            TRAIL_omega_rps(t+1:end) = 0;
+            TRAIL_roll_angle_rad(t+1:end) = TRAIL_roll_angle_rad(t);
+            break
+        end
+        
         trailer_counter = trailer_counter+1;
         
     end
@@ -255,6 +289,15 @@ hold on
 plot(time_s, TRAC_omega_rps*57.29,'LineWidth',3)
 legend({'Trailer Roll Rate','Tractor Roll Rate'})
 ylabel('Angular Rate [deg/s]')
+xlabel('Time [s]')
+Plotter(1)
+
+figure(3)
+plot(time_s,TRAIL_alpha_rps2*57.29,'LineWidth',10)
+hold on
+plot(time_s, TRAC_alpha_rps2*57.29,'LineWidth',3)
+legend({'Trailer Angular Acceleration','Tractor Angular Acceleration'})
+ylabel('Angular Acceleration [deg/s^2]')
 xlabel('Time [s]')
 Plotter(1)
 
