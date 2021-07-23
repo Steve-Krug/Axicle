@@ -17,10 +17,23 @@ time_s = linspace(0, total_run_time_s, sampling_freq_hz*total_run_time_s)';
 
 %% Aero Calcs
 %use allowable windspeed table as inputs for aero calculation?
+v_mph = 50;
+v_mps = v_mph*0.44704;
+rho_kgpm3 = 1.225;
+
+
+TRAC_Cd = 1.5;
+TRAC_A_m2 = ;
+
+TRAIL_Cd = 1.65;
+TRAIL_A_m2 = 66.42; %13.5ft x 53ft = 66.42 m^2
+
+TRAC_Fd_N = 0.5*
+TRAIL_Fd_N = 0.5*
 
 %% Mass Properties
 g_mps2 = 9.81;
-slack_angle = 1; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
+slack_angle = 50; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
 %Tractor
 TRAC_height_cg_m = 1.1;
 TRAC_mass_kg = 6970;
@@ -157,6 +170,10 @@ for t = 1:length(time_s)-1
         
         if trailer_counter == 1
             %conservation of angular momentum, add trailer + tractor
+            %using conservation of angular momentum, because when the slack
+            %is all taken up, there is energy in the roll motion of the
+            %trailer that is trasnferred to tractor + trailer, meaning it's
+            %potentially easier to roll over
             %inertias together to get initial total rate L = I*omega
             momentum_initial = TRAIL_I_pat_kgm2*TRAIL_omega_rps(t);
             %TT_omega_rps = TRAIL_omega_rps; %add in previous rate built up by trailer initially
@@ -262,7 +279,7 @@ for t = 1:length(time_s)-1
         if TRAC_roll_angle_rad(t+1)*57.29 < 0 
             TRAIL_alpha_rps2(t+1:end) = 0;
             TRAIL_omega_rps(t+1:end) = 0;
-            TRAIL_omega_rps(t+1:end) = 0;
+            TRAIL_roll_angle_rad(t+1:end) = TRAIL_roll_angle_rad(t);
             break
         end
         
@@ -287,6 +304,15 @@ hold on
 plot(time_s, TRAC_omega_rps*57.29,'LineWidth',3)
 legend({'Trailer Roll Rate','Tractor Roll Rate'})
 ylabel('Angular Rate [deg/s]')
+xlabel('Time [s]')
+Plotter(1)
+
+figure(3)
+plot(time_s,TRAIL_alpha_rps2*57.29,'LineWidth',10)
+hold on
+plot(time_s, TRAC_alpha_rps2*57.29,'LineWidth',3)
+legend({'Trailer Angular Acceleration','Tractor Angular Acceleration'})
+ylabel('Angular Acceleration [deg/s^2]')
 xlabel('Time [s]')
 Plotter(1)
 
