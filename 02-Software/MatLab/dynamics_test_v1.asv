@@ -1,0 +1,9 @@
+%% dynamics_test_v1.m
+% 7/122/21
+% S. Krug
+% Notes:
+%
+
+for i = 1:lenght(v_mph)
+    Axicle_Tractor_Rollover_Dyn_ETS_FUNCTION_v1(v_mph)
+end

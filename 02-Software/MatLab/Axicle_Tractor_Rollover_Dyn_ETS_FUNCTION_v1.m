@@ -1,3 +1,4 @@
+function [TRAIL_roll_angle_rad, TRAIL_omega_rps, TRAC_roll_angle_rad, TRAC_omega_rps, time_s] = Axicle_Tractor_Rollover_Dyn_ETS_FUNCTION_v1(v_mph)
 %% Axicle_Tractor_Rollover_Dyn_ETS_v1.m
 % 7/15/21
 % S. Krug
@@ -6,9 +7,9 @@
 % 7/15/21 - Initial start
 %
 
-clear all
-close all
-clc
+% clear all
+% close all
+% clc
 %% Time Series Parameters
 sampling_freq_hz = 100; %hz
 time_step_s = 1/sampling_freq_hz; % s
@@ -17,13 +18,13 @@ time_s = linspace(0, total_run_time_s, sampling_freq_hz*total_run_time_s)';
 
 %% Aero Calcs
 %use allowable windspeed table as inputs for aero calculation?
-v_mph = 85;
+%v_mph = 85;
 v_mps = v_mph*0.44704;
 rho_kgpm3 = 1.225;
 
 
 TRAC_Cd = 1.5;
-TRAC_A_m2 = 21;
+TRAC_A_m2 = 19;
 
 TRAIL_Cd = 1.65;
 TRAIL_A_m2 = 66.42; %13.5ft x 53ft = 66.42 m^2
@@ -33,7 +34,7 @@ TRAIL_Fd_N = 0.5*rho_kgpm3*(v_mps^2)*TRAIL_Cd*TRAIL_A_m2;
 
 %% Mass Properties
 g_mps2 = 9.81;
-slack_angle = 50; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
+slack_angle = 1.75; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
 %Tractor
 TRAC_height_cg_m = 1.1;
 TRAC_mass_kg = 6970;
@@ -45,7 +46,7 @@ TRAC_force_weight_N = g_mps2*TRAC_mass_kg;
 
 %Trailer
 TRAIL_height_cg_m = 2.1;
-TRAIL_mass_kg = 22142;
+TRAIL_mass_kg = 15875;
 TRAIL_inertia_roll_kgm2 = 95000;
 TRAIL_trackwidth_m = 2.53;
 TRAIL_height_cp_m = 2.18;
@@ -290,34 +291,34 @@ end
 
 
 
-figure(1)
-plot(time_s,TRAIL_roll_angle_rad*57.29, time_s, TRAC_roll_angle_rad*57.29)
-legend({'Trailer Roll Angle','Tractor Roll Angle'})
-ylabel('Angle [deg]')
-xlabel('Time [s]')
-Plotter(1)
-
-figure(2)
-plot(time_s,TRAIL_omega_rps*57.29,'LineWidth',10)
-hold on
-plot(time_s, TRAC_omega_rps*57.29,'LineWidth',3)
-legend({'Trailer Roll Rate','Tractor Roll Rate'})
-ylabel('Angular Rate [deg/s]')
-xlabel('Time [s]')
-Plotter(1)
-
-figure(3)
-plot(time_s,TRAIL_alpha_rps2*57.29,'LineWidth',10)
-hold on
-plot(time_s, TRAC_alpha_rps2*57.29,'LineWidth',3)
-legend({'Trailer Angular Acceleration','Tractor Angular Acceleration'})
-ylabel('Angular Acceleration [deg/s^2]')
-xlabel('Time [s]')
-Plotter(1)
-
-figure(4)
-scatter(TRAC_roll_angle_rad*57.29,TRAC_omega_rps*57.29,'LineWidth',10)
-xlabel('Tractor Roll Angle [deg]')
-ylabel('Tractor Roll Rate [deg/s]')
-Plotter(1)
-
+% figure(1)
+% plot(time_s,TRAIL_roll_angle_rad*57.29, time_s, TRAC_roll_angle_rad*57.29)
+% legend({'Trailer Roll Angle','Tractor Roll Angle'})
+% ylabel('Angle [deg]')
+% xlabel('Time [s]')
+% Plotter(1)
+% 
+% figure(2)
+% plot(time_s,TRAIL_omega_rps*57.29,'LineWidth',10)
+% hold on
+% plot(time_s, TRAC_omega_rps*57.29,'LineWidth',3)
+% legend({'Trailer Roll Rate','Tractor Roll Rate'})
+% ylabel('Angular Rate [deg/s]')
+% xlabel('Time [s]')
+% Plotter(1)
+% 
+% figure(3)
+% plot(time_s,TRAIL_alpha_rps2*57.29,'LineWidth',10)
+% hold on
+% plot(time_s, TRAC_alpha_rps2*57.29,'LineWidth',3)
+% legend({'Trailer Angular Acceleration','Tractor Angular Acceleration'})
+% ylabel('Angular Acceleration [deg/s^2]')
+% xlabel('Time [s]')
+% Plotter(1)
+% 
+% figure(4)
+% scatter(TRAC_roll_angle_rad*57.29,TRAC_omega_rps*57.29,'LineWidth',10)
+% xlabel('Tractor Roll Angle [deg]')
+% ylabel('Tractor Roll Rate [deg/s]')
+% Plotter(1)
+end
