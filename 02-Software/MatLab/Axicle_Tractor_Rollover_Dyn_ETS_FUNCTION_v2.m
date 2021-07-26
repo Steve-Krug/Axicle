@@ -1,4 +1,4 @@
-function [TRAIL_roll_angle_rad, TRAIL_omega_rps, TRAC_roll_angle_rad, TRAC_omega_rps, time_s] = Axicle_Tractor_Rollover_Dyn_ETS_FUNCTION_v1(v_mph)
+function [TRAIL_roll_angle_rad, TRAIL_omega_rps, TRAC_roll_angle_rad, TRAC_omega_rps, time_s] = Axicle_Tractor_Rollover_Dyn_ETS_FUNCTION_v2(v_mph,TRAIL_height_cg_m )
 %% Axicle_Tractor_Rollover_Dyn_ETS_v1.m
 % 7/15/21
 % S. Krug
@@ -43,8 +43,8 @@ TRAC_force_drag_N = TRAC_Fd_N;
 TRAC_force_weight_N = g_mps2*TRAC_mass_kg;
 
 %Trailer
-TRAIL_height_cg_m = 2.1;
-TRAIL_mass_kg = 15875;
+%TRAIL_height_cg_m = 2.1;
+TRAIL_mass_kg = 22142;
 TRAIL_inertia_roll_kgm2 = 95000;
 TRAIL_trackwidth_m = 2.53;
 TRAIL_height_cp_m = 2.18;
