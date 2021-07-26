@@ -6,7 +6,7 @@ clear all
 close all
 clc
 
-runs = 100;
+runs = 1000;
 
 v_mph = linspace(35,120, runs)';
 TRAIL_height_cg_m = linspace(2.1-0.15*3,2.1+0.15*3, runs)'; %2.1 +- 0.15*3
@@ -77,10 +77,15 @@ for n = 1:length(results)
     counter = counter + 1;
 end
 
-[X, Y] =meshgrid(v_mph, TRAIL_height_cg_m); %z must be a runs x runs grid with results
+[X, Y] = meshgrid(v_mph, TRAIL_height_cg_m); %z must be a runs x runs grid with results
 Z = spin';
 figure(3)
+title('Parameter Sweep')
 contour(X,Y,Z)
+ylabel('Parameter Sweep, unit')
+xlabel('Wind Speed, mph')
+legend({'Right Side of Curve = Rollover'})
+Plotter(1);
 
 % [px,py] = gradient(Z,v_mph_space,TRAIL_height_cg_m_space);
 % figure(4)
