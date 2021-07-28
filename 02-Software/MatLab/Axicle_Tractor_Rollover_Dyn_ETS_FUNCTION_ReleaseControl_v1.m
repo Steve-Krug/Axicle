@@ -103,6 +103,8 @@ TRAC_theta_cg_rad(1) = TRAC_theta_cg_rad_i; %first angle is static angle
 TRAC_theta_cp_rad(1) = TRAC_theta_cp_rad_i; %first angle is static angle
 TRAC_roll_angle_rad = zeros(length(time_s),1);
 TRAC_roll_angle_rad(1) = 0; %first angle is static angle
+trailer_torque = zeros(length(time_s),1);
+tractor_torque = zeros(length(time_s),1);
 
 TRAIL_tq_nm = zeros(length(time_s),1);
 TRAIL_d_cg_x_m = zeros(length(time_s),1);
@@ -160,8 +162,9 @@ for t = 1:length(time_s) - 1
         TRAIL_theta_cp_rad(t+1) = TRAIL_theta_cp_rad(1) - TRAIL_roll_angle_rad(t+1); %angles are decreasing in reference to cp angle to pivot
         
         
-        
-    else %add in inertias from trailer.
+    end
+
+    if roll_sensor_flag == 0 %add in inertias from trailer.
         
         % Basically, all main stuff happens here after the trailer has started rolling after slack is taken up.
         
@@ -294,7 +297,7 @@ for t = 1:length(time_s) - 1
             roll_sensor_flag = 1;
             %
             
-%             break %exits current, i.e. one for loop. starts the next outer one
+            %             break %exits current, i.e. one for loop. starts the next outer one
             
         end
         
@@ -359,21 +362,55 @@ for t = 1:length(time_s) - 1
         TRAC_theta_cg_rad(t+1) = TRAC_theta_cg_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
         TRAC_theta_cp_rad(t+1) = TRAC_theta_cp_rad(transition_instance) - TRAC_roll_angle_rad(t+1);
         
-        % If trailer rolls over completely, terminate simulation
-        if (TRAIL_roll_angle_rad(t+1)*57.29) > 90 || TRAIL_roll_angle_rad(t+1)*57.29 < 0
+        % If trailer rolls over completely and tractor settle, terminate simulation
+        if (TRAIL_roll_angle_rad(t)*57.29) > 90 && TRAC_roll_angle_rad(t)*57.29 < 0
+            
             break
+            
+        end
+        
+        %if tractor rolls over completely, and trailer rolls over
+        %completely, terminate simulation
+        if (TRAIL_roll_angle_rad(t)*57.29) > 90 && TRAC_roll_angle_rad(t)*57.29 > 90
+            
+            break
+            
+        end
+        
+        % if trailer tips on side before tractor is done settling, stop
+        % tractor at 90 deg/floor
+        if (TRAIL_roll_angle_rad(t)*57.29) > 90
+            
+            TRAIL_alpha_rps2(t:end) = 0;
+            TRAIL_omega_rps(t:end) = 0;
+            TRAIL_roll_angle_rad(t:end) = TRAIL_roll_angle_rad(t-1);
+            
+        end
+
+        if (TRAC_roll_angle_rad(t)*57.29) < 0
+            
+            TRAC_alpha_rps2(t:end) = 0;
+            TRAC_omega_rps(t:end) = 0;
+            TRAC_roll_angle_rad(t:end) = TRAC_roll_angle_rad(t-1);
+            
+        end
+        
+        if (TRAIL_roll_angle_rad(t)*57.29) > 90 && (TRAC_roll_angle_rad(t)*57.29 > 90)
+            
+            break
+            
         end
         
         %if tractor goes back down to zero AFTER already being rolled up
         %slightly, terminate simulation. Tractor is stuck at zero roll
         %angle, and trailer is just rolled on onto outer wheels and
         %maintaining angle with zero rate
-        if TRAC_roll_angle_rad(t+1)*57.29 < 0
-            TRAIL_alpha_rps2(t+1:end) = 0;
-            TRAIL_omega_rps(t+1:end) = 0;
-            TRAIL_roll_angle_rad(t+1:end) = TRAIL_roll_angle_rad(t);
-            break
-        end
+        %         if TRAC_roll_angle_rad(t+1)*57.29 < 0
+        %             TRAIL_alpha_rps2(t+1:end) = 0;
+        %             TRAIL_omega_rps(t+1:end) = 0;
+        %             TRAIL_roll_angle_rad(t+1:end) = TRAIL_roll_angle_rad(t);
+        %             break
+        %         end
         
     end
     
