@@ -6,17 +6,17 @@ clear all
 close all
 clc
 
-runs = 1000;
+runs = 400;
 
 v_mph = linspace(35,120, runs)';
-TRAIL_height_cg_m = linspace(2.1-0.15*3,2.1+0.15*3, runs)'; %2.1 +- 0.15*3
-v_mph_space = v_mph(2) - v_mph(1);
-TRAIL_height_cg_m_space = TRAIL_height_cg_m (2) - TRAIL_height_cg_m (1);
+TRAC_height_cp_m = linspace(1.925-3*.25, 1.925+3*.25, runs)'; %2.1 +- 0.15*3
+% v_mph_space = v_mph(2) - v_mph(1);
+% TRAIL_height_cg_m_space = TRAIL_inertia_roll_kgm2 (2) - TRAIL_inertia_roll_kgm2 (1);
 
 %pack inputs (should be a "runs^2 x 2" size array
 for j = 1:length(v_mph)
     input_array((j-1)*runs+1:j*runs,1) = v_mph; %vmph
-    input_array((j-1)*runs+1:j*runs,2) = TRAIL_height_cg_m(j); %trail_cgheight
+    input_array((j-1)*runs+1:j*runs,2) = TRAC_height_cp_m(j); %trail_cgheight
 end
 
 results = zeros(runs^2,3);
@@ -40,7 +40,7 @@ for i = 1:length(input_array)
 %     ylabel('Tractor Roll Rate [deg/s]')
 %     Plotter(1)
 %     hold on
-%     
+% %     
 %     figure(2)
 %     title('Tractor Roll Angle, 2deg slack, 67-70mph Wind Sweep')
 %     scatter(time_s,tcr_theta*57.29,'*')
@@ -77,12 +77,12 @@ for n = 1:length(results)
     counter = counter + 1;
 end
 
-[X, Y] = meshgrid(v_mph, TRAIL_height_cg_m); %z must be a runs x runs grid with results
+[X, Y] = meshgrid(v_mph, TRAC_height_cp_m); %z must be a runs x runs grid with results
 Z = spin';
 figure(3)
 title('Parameter Sweep')
-contour(X,Y,Z)
-ylabel('Parameter Sweep, unit')
+contourf(X,Y,Z)
+ylabel('Tractor Center of Pressure Height, m')
 xlabel('Wind Speed, mph')
 legend({'Right Side of Curve = Rollover'})
 Plotter(1);
