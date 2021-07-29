@@ -1,4 +1,8 @@
-function [TRAIL_roll_angle_rad, TRAIL_omega_rps, TRAC_roll_angle_rad, TRAC_omega_rps, time_s] = Axicle_Tractor_Rollover_Dyn_ETS_FUNCTION_ReleaseControl_v1(v_mph, TARS_roll_angle_trigger_deg, TARS_roll_rate_trigger_dps)
+function [TRAIL_roll_angle_rad, TRAIL_omega_rps, TRAC_roll_angle_rad, TRAC_omega_rps, time_s] =...
+    Axicle_Tractor_Rollover_Dyn_ETS_FUNCTION_ReleaseControl_v2...
+    (v_mph, TARS_roll_angle_trigger_deg, TARS_roll_rate_trigger_dps,...
+    TRAC_height_cg_m, TRAC_mass_kg, TRAC_trackwidth_m,TRAC_height_cp_m,...
+    TRAIL_height_cg_m, TRAIL_mass_kg, TRAIL_trackwidth_m,TRAIL_height_cp_m)
 %% Axicle_Tractor_Rollover_Dyn_ETS_v1.m
 % 7/15/21
 % S. Krug
@@ -34,20 +38,20 @@ TRAIL_Fd_N = 0.5*rho_kgpm3*(v_mps^2)*TRAIL_Cd*TRAIL_A_m2;
 g_mps2 = 9.81;
 slack_angle = 1.75; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
 %Tractor
-TRAC_height_cg_m = 1.1;
-TRAC_mass_kg = 6970;
+% TRAC_height_cg_m = 1.1;
+% TRAC_mass_kg = 6970;
 TRAC_inertia_roll_kgm2 = 37500;
-TRAC_trackwidth_m = 2.53;
-TRAC_height_cp_m = 1.925;
+% TRAC_trackwidth_m = 2.53;
+% TRAC_height_cp_m = 1.925;
 TRAC_force_drag_N = TRAC_Fd_N;
 TRAC_force_weight_N = g_mps2*TRAC_mass_kg;
 
 %Trailer
-TRAIL_height_cg_m = 2.1;
-TRAIL_mass_kg = 11400;
+% TRAIL_height_cg_m = 2.1;
+% TRAIL_mass_kg = 11400;
 TRAIL_inertia_roll_kgm2 = 95000;
-TRAIL_trackwidth_m = 2.53;
-TRAIL_height_cp_m = 2.18;
+% TRAIL_trackwidth_m = 2.53;
+% TRAIL_height_cp_m = 2.18;
 TRAIL_force_drag_N = TRAIL_Fd_N;
 TRAIL_force_weight_N = g_mps2*TRAIL_mass_kg;
 
