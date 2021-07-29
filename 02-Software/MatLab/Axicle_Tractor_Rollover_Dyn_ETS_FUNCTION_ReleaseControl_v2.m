@@ -25,7 +25,7 @@ time_s = linspace(0, total_run_time_s, sampling_freq_hz*total_run_time_s)';
 v_mps = v_mph*0.44704;
 rho_kgpm3 = 1.225;
 TRAC_Cd = 1.5;
-TRAC_A_m2 = 19;
+TRAC_A_m2 = 15;
 
 TRAIL_Cd = 1.92; %1.65 original
 TRAIL_A_m2 = 80; %13.5ft x 53ft = 66.42 m^2
@@ -36,7 +36,7 @@ TRAIL_Fd_N = 0.5*rho_kgpm3*(v_mps^2)*TRAIL_Cd*TRAIL_A_m2;
 
 % Mass Properties
 g_mps2 = 9.81;
-slack_angle = 1.75; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
+slack_angle = 1.5; %angle in deg when tractor inertia is added on, and tractor plus trailer roll together at same rate.
 %Tractor
 % TRAC_height_cg_m = 1.1;
 % TRAC_mass_kg = 6970;
@@ -164,11 +164,15 @@ for t = 1:length(time_s) - 1
         %new angles
         TRAIL_theta_cg_rad(t+1) = TRAIL_theta_cg_rad(1) - TRAIL_roll_angle_rad(t+1); %angles are decreasing in reference to cg angle to pivot
         TRAIL_theta_cp_rad(t+1) = TRAIL_theta_cp_rad(1) - TRAIL_roll_angle_rad(t+1); %angles are decreasing in reference to cp angle to pivot
-        
+        %% Energy calc
+        TRAIL_d_cg_y_m(t+1) = cos(TRAIL_theta_cg_rad(t))*TRAIL_r_cg_m; 
+        h_delta = abs(TRAIL_d_cg_y_m(t+1)-TRAIL_d_cg_y_m(t));
+        angle_delta = abs(TRAIL_theta_cg_rad(t+1) - TRAIL_theta_cg_rad(t));
+        energy_roll_rate(t+1) = sqrt( 2*( (TRAIL_mass_kg)*g_mps2*(h_delta) + TRAIL_tq_nm(t)*angle_delta)/TRAIL_I_pat_kgm2);
         
     end
 
-    if roll_sensor_flag == 0 %add in inertias from trailer.
+    if roll_sensor_flag == 0 && (TRAIL_roll_angle_rad(t)*57.29) > slack_angle%add in inertias from trailer.
         
         % Basically, all main stuff happens here after the trailer has started rolling after slack is taken up.
         
@@ -246,6 +250,9 @@ for t = 1:length(time_s) - 1
             %             TRAIL_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
             TRAC_omega_rps(t+1) = TRAC_omega_rps(t)+TRAC_alpha_rps2(t+1)*dt;
             TRAIL_omega_rps(t+1) = TRAIL_omega_rps(t)+TRAIL_alpha_rps2(t+1)*dt;
+           
+            
+            
             
         else % if tractor roll angle fell back down to below zero
             %             TRAC_omega_rps(t+1) = TOTAL_omega_rps(t)+TOTAL_alpha_rps2(t+1)*dt;
