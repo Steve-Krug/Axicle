@@ -21,7 +21,7 @@ sim_rollover_angle_deg = 90;
 start_roll_rate_dps = 0;
 start_roll_angle_deg = 0;
 
-v_mph = 150;
+v_mph = 140;
 v_mps = v_mph*0.44704;
 rho_kgpm3 = 1.225;
 TRAC_Cd = 1.5;
@@ -187,7 +187,7 @@ xlabel('Time [s]')
 ylabel('Roll Rate, Energy [deg/s]')
 legend({'Energy Based Rate',' Euler Time Step Rate'})
 title('Tractor Roll Rate')
-xlim([0 2])
+xlim([0 4])
 Plotter(1);
 hold on
 
