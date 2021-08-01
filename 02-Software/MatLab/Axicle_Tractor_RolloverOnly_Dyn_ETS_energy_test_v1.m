@@ -80,6 +80,7 @@ deltaKE_kgm2ps2 = zeros(length(time_s),1);
 omega_energy_rps = zeros(length(time_s),1);
 KE_total_kgm2ps2 = zeros(length(time_s),1);
 PE_total_kgm2ps2 = zeros(length(time_s),1);
+tractor_torque_energy = zeros(length(time_s),1);
 
 %% Main Loop Start at Initial Rate
 TRAC_omega_rps = zeros(length(time_s),1);
@@ -93,7 +94,8 @@ for t = 1:length(time_s) - 1
     TRAC_d_cg_x_m(t) = sin(TRAC_theta_cg_rad(t))*TRAC_r_cg_m; %new moment arm for new cg torque
     TRAC_d_cp_y_m(t) = cos(TRAC_theta_cp_rad(t))*TRAC_r_cp_m; %new moment arm for cp torque
     tractor_torque(t) = (TRAC_force_drag_N*TRAC_d_cp_y_m(t))-(TRAC_force_weight_N*TRAC_d_cg_x_m(t));
-    
+    tractor_torque_energy(t) = (TRAC_force_drag_N*TRAC_d_cp_y_m(t));
+
     if TRAC_roll_angle_rad(t)*57.29 < 0 % if angle of truck is below ground, stop
         break
     end
@@ -108,8 +110,10 @@ for t = 1:length(time_s) - 1
         
         deltaTheta(t) = TRAC_roll_angle_rad(t) - TRAC_roll_angle_rad(t-1);
         deltaH(t) = TRAC_d_cg_y_m(t) - TRAC_d_cg_y_m(t-1); %cg goes up, potential energy goes up. cg goes down, energy goes down
-       
-        PE_added_kgm2ps2(t) = TRAC_mass_kg*g_mps2*deltaH(t) + tractor_torque(t)*deltaTheta(t); %total energy added in this torque time step
+        
+        %total energy added in this torque time step. work is being done ON
+        %lifting the cg, so it's negative
+        PE_added_kgm2ps2(t) = -TRAC_mass_kg*g_mps2*deltaH(t) + tractor_torque_energy(t)*deltaTheta(t); 
         PE_total_kgm2ps2(t) = PE_total_kgm2ps2(t-1) + PE_added_kgm2ps2(t); %new total PE. previous plus new increment
 
 %         kinetic_energy_kgm2ps2(t) = potential_energy_kgm2ps2(t);
