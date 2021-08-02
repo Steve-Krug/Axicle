@@ -54,6 +54,8 @@ THE SOFTWARE.
     #include "Wire.h"
 #endif
 
+#include "MultiMap.h"
+
 // class default I2C address is 0x68
 // specific I2C addresses may be passed as a parameter here
 // AD0 low = 0x68 (default for SparkFun breakout and InvenSense evaluation board)
@@ -85,6 +87,10 @@ MPU6050 mpu;
 // quaternion components in a [w, x, y, z] format (not best for parsing
 // on a remote host such as Processing or something though)
 //#define OUTPUT_READABLE_QUATERNION
+
+// uncomment "OUTPUT_READABLE_GYRO" if you want to see the actual
+// gryo
+#define OUTPUT_READABLE_GYRO
 
 // uncomment "OUTPUT_READABLE_EULER" if you want to see Euler angles
 // (in degrees) calculated from the quaternions coming from the FIFO.
@@ -136,7 +142,15 @@ VectorInt16 aaReal;     // [x, y, z]            gravity-free accel sensor measur
 VectorInt16 aaWorld;    // [x, y, z]            world-frame accel sensor measurements
 VectorFloat gravity;    // [x, y, z]            gravity vector
 float euler[3];         // [psi, theta, phi]    Euler angle container
+int gyro[3];          // [x, y, z]            Gyro rate container
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
+int16_t gx, gy, gz;
+int16_t ax, ay, az;
+int16_t roll_angle_in[] =  { 0,  15,  30};
+int16_t roll_rate_out[] = {20000, 1310, 0};
+int16_t roll_rate_allowed;
+int16_t count;
+
 
 // packet structure for InvenSense teapot demo
 uint8_t teapotPacket[14] = { '$', 0x02, 0,0, 0,0, 0,0, 0,0, 0x00, 0x00, '\r', '\n' };
@@ -198,10 +212,10 @@ void setup() {
     devStatus = mpu.dmpInitialize();
 
     // supply your own gyro offsets here, scaled for min sensitivity
-    mpu.setXGyroOffset(220);
-    mpu.setYGyroOffset(76);
-    mpu.setZGyroOffset(-85);
-    mpu.setZAccelOffset(1788); // 1688 factory default for my test chip
+    mpu.setXGyroOffset(0);    // 220
+    mpu.setYGyroOffset(0);      // 76
+    mpu.setZGyroOffset(0);      // -85
+    mpu.setZAccelOffset(1688); // 1788, 1688 factory default for my test chip
 
     // make sure it worked (returns 0 if so)
     if (devStatus == 0) {
@@ -296,6 +310,30 @@ void loop() {
             Serial.println(q.z);
         #endif
 
+        #ifdef OUTPUT_READABLE_GYRO
+            // display gyro angles in degrees
+            //mpu.dmpGetGyro(gyro, fifoBuffer);
+            //Serial.print("gyro\t");
+            //Serial.print(gyro[0] * 180/M_PI);
+            //Serial.print("\t");
+            //Serial.print(gyro[1] * 180/M_PI);
+            //Serial.print("\t");
+            //Serial.println(gyro[2] * 180/M_PI);
+
+            mpu.getRotation(&gx, &gy, &gz);
+            Serial.print(millis());Serial.print(",\t");
+            Serial.print("a/g: Rotation [0.1 deg]\t,");
+            Serial.print(gx/13.1); Serial.print(",\t"); // 2000 deg/s or 131 deg/s
+            Serial.print(gy/13.1); Serial.print(",\t");
+            Serial.print(gz/31.1); Serial.print(",\t");
+      
+//            mpu.getAcceleration(&ax, &ay, &az);
+//            Serial.print("a/g: Acceleration [0.01g]\t,");
+//            Serial.print(ax/163.84); Serial.print(",\t");
+//            Serial.print(ay/163.84); Serial.print(",\t");
+//            Serial.print(az/163.84); Serial.print(",\t");
+        #endif
+
         #ifdef OUTPUT_READABLE_EULER
             // display Euler angles in degrees
             mpu.dmpGetQuaternion(&q, fifoBuffer);
@@ -313,11 +351,11 @@ void loop() {
             mpu.dmpGetQuaternion(&q, fifoBuffer);
             mpu.dmpGetGravity(&gravity, &q);
             mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-            Serial.print("ypr\t");
+            Serial.print("ypr,\t");
             Serial.print(ypr[0] * 180/M_PI);
-            Serial.print("\t");
+            Serial.print(",\t");
             Serial.print(ypr[1] * 180/M_PI);
-            Serial.print("\t");
+            Serial.print(",\t");
             Serial.println(ypr[2] * 180/M_PI);
         #endif
 
@@ -364,14 +402,30 @@ void loop() {
             Serial.write(teapotPacket, 14);
             teapotPacket[11]++; // packetCount, loops at 0xFF on purpose
         #endif
+        roll_rate_allowed = multiMap<int16_t>(abs(ypr[2])* 180/M_PI, roll_angle_in, roll_rate_out, 3);
+        //if ((ypr[2] * 180/M_PI > 15.0) || (ypr[2] * 180/M_PI < -15.0)) {
+        if ((gy > roll_rate_allowed && gy>=0) || (-gy > roll_rate_allowed && gy<0)){ //check if actual roll rate is outside the allowed range
+          Serial.print(roll_rate_allowed);
+          Serial.print("\t");
+          Serial.print(abs(gy/131.0));
+          Serial.print("\t");
+          count += 1;
+          if (count >= 3){ //persistence of 3 cycles
+            Serial.print("Triggered\t");
+            blinkState = 1;
+          }
 
-        if ((ypr[2] * 180/M_PI > 15.0) || (ypr[2] * 180/M_PI < -15.0)) {
-          blinkState = 1;
         } else {
+          count = 0;
           blinkState = 0;
+          Serial.print(roll_rate_allowed);
+          Serial.print("\t");
+          Serial.print(abs(gy/131.0));
+          Serial.print("\t");
+
         } 
-//        // blink LED to indicate activity
-//        blinkState = !blinkState;
+        // blink LED to indicate activity
+        //blinkState = !blinkState;
         digitalWrite(LED_PIN, blinkState);
     }
 }
