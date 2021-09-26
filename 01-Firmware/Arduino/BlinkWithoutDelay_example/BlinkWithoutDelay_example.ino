@@ -157,7 +157,6 @@ int16_t count;
 uint8_t teapotPacket[14] = { '$', 0x02, 0,0, 0,0, 0,0, 0,0, 0x00, 0x00, '\r', '\n' };
 
 
-
 // ================================================================
 // ===               INTERRUPT DETECTION ROUTINE                ===
 // ================================================================
@@ -169,24 +168,57 @@ void dmpDataReady() {
 
 
 
-// ================================================================
-// ===                      INITIAL SETUP                       ===
-// ================================================================
+
+/*
+  Blink without Delay
+
+  Turns on and off a light emitting diode (LED) connected to a digital pin,
+  without using the delay() function. This means that other code can run at the
+  same time without being interrupted by the LED code.
+
+  The circuit:
+  - Use the onboard LED.
+  - Note: Most Arduinos have an on-board LED you can control. On the UNO, MEGA
+    and ZERO it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN
+    is set to the correct LED pin independent of which board is used.
+    If you want to know what pin the on-board LED is connected to on your
+    Arduino model, check the Technical Specs of your board at:
+    https://www.arduino.cc/en/Main/Products
+
+  created 2005
+  by David A. Mellis
+  modified 8 Feb 2010
+  by Paul Stoffregen
+  modified 11 Nov 2013
+  by Scott Fitzgerald
+  modified 9 Jan 2017
+  by Arturo Guadalupi
+
+  This example code is in the public domain.
+
+  http://www.arduino.cc/en/Tutorial/BlinkWithoutDelay
+*/
+
+// constants won't change. Used here to set a pin number:
+//const int ledPin =  LED_BUILTIN;// the number of the LED pin
+const int ledPin =  13;// the number of the LED pin
+
+
+// Variables will change:
+int ledState = LOW;             // ledState used to set the LED
+
+// Generally, you should use "unsigned long" for variables that hold time
+// The value will quickly become too large for an int to store
+unsigned long previousMillis = 0;        // will store last time LED was updated
+
+// constants won't change:
+const long interval = 1000;           // interval at which to blink (milliseconds)
 
 void setup() {
-    // configure LED for output
-    pinMode(LED_PIN, OUTPUT);
-    pinMode(5, OUTPUT);
-    pinMode(6, OUTPUT);
-    pinMode(7, OUTPUT);
-    pinMode(8, OUTPUT);
-    pinMode(9, OUTPUT);
-    pinMode(10, OUTPUT);
-    pinMode(11, OUTPUT);
+    // set the digital pin as output:
     pinMode(12, OUTPUT);
-    pinMode(13, OUTPUT);
-
-
+    pinMode(ledPin, OUTPUT);
+  
     // join I2C bus (I2Cdev library doesn't do this automatically)
     #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
         Wire.begin();
@@ -198,7 +230,7 @@ void setup() {
     // initialize serial communication
     // (115200 chosen because it is required for Teapot Demo output, but it's
     // really up to you depending on your project)
-    Serial.begin(115200);
+    Serial.begin(115200); //115200 TODO
     while (!Serial); // wait for Leonardo enumeration, others continue immediately
 
     // NOTE: 8MHz or slower host processors, like the Teensy @ 3.3v or Ardunio
@@ -218,234 +250,72 @@ void setup() {
     // wait for ready
     Serial.println(F("\nSend any character to begin DMP programming and demo: "));
     while (Serial.available() && Serial.read()); // empty buffer
-    //while (!Serial.available());                 // wait for data
+    //while (!Serial.available());                 // wait for data TODO this line is the problem, never gets past this in setup
     while (Serial.available() && Serial.read()); // empty buffer again
 
     // load and configure the DMP
     Serial.println(F("Initializing DMP..."));
     devStatus = mpu.dmpInitialize();
 
-    // supply your own gyro offsets here, scaled for min sensitivity
-    mpu.setXGyroOffset(0);    // 220
-    mpu.setYGyroOffset(0);      // 76
-    mpu.setZGyroOffset(0);      // -85
-    mpu.setZAccelOffset(1688); // 1788, 1688 factory default for my test chip
+//    // supply your own gyro offsets here, scaled for min sensitivity
+//    mpu.setXGyroOffset(0);    // 220
+//    mpu.setYGyroOffset(0);      // 76
+//    mpu.setZGyroOffset(0);      // -85
+//    mpu.setZAccelOffset(1688); // 1788, 1688 factory default for my test chip
 
-    // make sure it worked (returns 0 if so)
-    if (devStatus == 0) {
-        // turn on the DMP, now that it's ready
-        Serial.println(F("Enabling DMP..."));
-        mpu.setDMPEnabled(true);
-
-        // enable Arduino interrupt detection
-        Serial.println(F("Enabling interrupt detection (Arduino external interrupt 0)..."));
-        attachInterrupt(0, dmpDataReady, RISING);
-        mpuIntStatus = mpu.getIntStatus();
-
-        // set our DMP Ready flag so the main loop() function knows it's okay to use it
-        Serial.println(F("DMP ready! Waiting for first interrupt..."));
-        dmpReady = true;
-
-        // get expected DMP packet size for later comparison
-        packetSize = mpu.dmpGetFIFOPacketSize();
-    } else {
-        // ERROR!
-        // 1 = initial memory load failed
-        // 2 = DMP configuration updates failed
-        // (if it's going to break, usually the code will be 1)
-        Serial.print(F("DMP Initialization failed (code "));
-        Serial.print(devStatus);
-        Serial.println(F(")"));
-    }
-
-
+//    // make sure it worked (returns 0 if so)
+//    if (devStatus == 0) {
+//        // turn on the DMP, now that it's ready
+//        Serial.println(F("Enabling DMP..."));
+//        mpu.setDMPEnabled(true);
+//
+//        // enable Arduino interrupt detection
+//        Serial.println(F("Enabling interrupt detection (Arduino external interrupt 0)..."));
+//        attachInterrupt(0, dmpDataReady, RISING);
+//        mpuIntStatus = mpu.getIntStatus();
+//
+//        // set our DMP Ready flag so the main loop() function knows it's okay to use it
+//        Serial.println(F("DMP ready! Waiting for first interrupt..."));
+//        dmpReady = true;
+//
+//        // get expected DMP packet size for later comparison
+//        packetSize = mpu.dmpGetFIFOPacketSize();
+//    } else {
+//        // ERROR!
+//        // 1 = initial memory load failed
+//        // 2 = DMP configuration updates failed
+//        // (if it's going to break, usually the code will be 1)
+//        Serial.print(F("DMP Initialization failed (code "));
+//        Serial.print(devStatus);
+//        Serial.println(F(")"));
+//    }
+  
+//    pinMode(12, OUTPUT);
+//    pinMode(ledPin, OUTPUT);
+//  
 }
 
-
-
-// ================================================================
-// ===                    MAIN PROGRAM LOOP                     ===
-// ================================================================
-
 void loop() {
-  
-    // if programming failed, don't try to do anything
-    if (!dmpReady) return;
+  // here is where you'd put code that needs to be running all the time.
 
-    // wait for MPU interrupt or extra packet(s) available
-    while (!mpuInterrupt && fifoCount < packetSize) {
-        // other program behavior stuff here
-        // .
-        // .
-        // .
-        // if you are really paranoid you can frequently test in between other
-        // stuff to see if mpuInterrupt is true, and if so, "break;" from the
-        // while() loop to immediately process the MPU data
-        // .
-        // .
-        // .
+  // check to see if it's time to blink the LED; that is, if the difference
+  // between the current time and last time you blinked the LED is bigger than
+  // the interval at which you want to blink the LED.
+  unsigned long currentMillis = millis();
+
+  if (currentMillis - previousMillis >= interval) {
+    // save the last time you blinked the LED
+    previousMillis = currentMillis;
+
+    // if the LED is off turn it on and vice-versa:
+    if (ledState == LOW) {
+      ledState = HIGH;
+    } else {
+      ledState = LOW;
     }
 
-    // reset interrupt flag and get INT_STATUS byte
-    mpuInterrupt = false;
-    mpuIntStatus = mpu.getIntStatus();
-
-    // get current FIFO count
-    fifoCount = mpu.getFIFOCount();
-
-    // check for overflow (this should never happen unless our code is too inefficient)
-    if ((mpuIntStatus & 0x10) || fifoCount == 1024) {
-        // reset so we can continue cleanly
-        mpu.resetFIFO();
-        Serial.println(F("FIFO overflow!"));
-
-    // otherwise, check for DMP data ready interrupt (this should happen frequently)
-    } else if (mpuIntStatus & 0x02) {
-        // wait for correct available data length, should be a VERY short wait
-        while (fifoCount < packetSize) fifoCount = mpu.getFIFOCount();
-
-        // read a packet from FIFO
-        mpu.getFIFOBytes(fifoBuffer, packetSize);
-        
-        // track FIFO count here in case there is > 1 packet available
-        // (this lets us immediately read more without waiting for an interrupt)
-        fifoCount -= packetSize;
-
-        #ifdef OUTPUT_READABLE_QUATERNION
-            // display quaternion values in easy matrix form: w x y z
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            Serial.print("quat\t");
-            Serial.print(q.w);
-            Serial.print("\t");
-            Serial.print(q.x);
-            Serial.print("\t");
-            Serial.print(q.y);
-            Serial.print("\t");
-            Serial.println(q.z);
-        #endif
-
-        #ifdef OUTPUT_READABLE_GYRO
-            // display gyro angles in degrees
-            //mpu.dmpGetGyro(gyro, fifoBuffer);
-            //Serial.print("gyro\t");
-            //Serial.print(gyro[0] * 180/M_PI);
-            //Serial.print("\t");
-            //Serial.print(gyro[1] * 180/M_PI);
-            //Serial.print("\t");
-            //Serial.println(gyro[2] * 180/M_PI);
-
-            mpu.getRotation(&gx, &gy, &gz);
-            Serial.print(millis());Serial.print(",\t");
-            Serial.print("a/g: Rotation [0.1 deg]\t,");
-            Serial.print(gx/13.1); Serial.print(",\t"); // 2000 deg/s or 131 deg/s
-            Serial.print(gy/13.1); Serial.print(",\t");
-            Serial.print(gz/31.1); Serial.print(",\t");
-      
-//            mpu.getAcceleration(&ax, &ay, &az);
-//            Serial.print("a/g: Acceleration [0.01g]\t,");
-//            Serial.print(ax/163.84); Serial.print(",\t");
-//            Serial.print(ay/163.84); Serial.print(",\t");
-//            Serial.print(az/163.84); Serial.print(",\t");
-        #endif
-
-        #ifdef OUTPUT_READABLE_EULER
-            // display Euler angles in degrees
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            mpu.dmpGetEuler(euler, &q);
-            Serial.print("euler\t");
-            Serial.print(euler[0] * 180/M_PI);
-            Serial.print("\t");
-            Serial.print(euler[1] * 180/M_PI);
-            Serial.print("\t");
-            Serial.println(euler[2] * 180/M_PI);
-        #endif
-
-        #ifdef OUTPUT_READABLE_YAWPITCHROLL
-            // display Euler angles in degrees
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            mpu.dmpGetGravity(&gravity, &q);
-            mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-            Serial.print("ypr,\t");
-            Serial.print(ypr[0] * 180/M_PI);
-            Serial.print(",\t");
-            Serial.print(ypr[1] * 180/M_PI);
-            Serial.print(",\t");
-            Serial.println(ypr[2] * 180/M_PI);
-        #endif
-
-        #ifdef OUTPUT_READABLE_REALACCEL
-            // display real acceleration, adjusted to remove gravity
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            mpu.dmpGetAccel(&aa, fifoBuffer);
-            mpu.dmpGetGravity(&gravity, &q);
-            mpu.dmpGetLinearAccel(&aaReal, &aa, &gravity);
-            Serial.print("areal\t");
-            Serial.print(aaReal.x);
-            Serial.print("\t");
-            Serial.print(aaReal.y);
-            Serial.print("\t");
-            Serial.println(aaReal.z);
-        #endif
-
-        #ifdef OUTPUT_READABLE_WORLDACCEL
-            // display initial world-frame acceleration, adjusted to remove gravity
-            // and rotated based on known orientation from quaternion
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            mpu.dmpGetAccel(&aa, fifoBuffer);
-            mpu.dmpGetGravity(&gravity, &q);
-            mpu.dmpGetLinearAccel(&aaReal, &aa, &gravity);
-            mpu.dmpGetLinearAccelInWorld(&aaWorld, &aaReal, &q);
-            Serial.print("aworld\t");
-            Serial.print(aaWorld.x);
-            Serial.print("\t");
-            Serial.print(aaWorld.y);
-            Serial.print("\t");
-            Serial.println(aaWorld.z);
-        #endif
-    
-        #ifdef OUTPUT_TEAPOT
-            // display quaternion values in InvenSense Teapot demo format:
-            teapotPacket[2] = fifoBuffer[0];
-            teapotPacket[3] = fifoBuffer[1];
-            teapotPacket[4] = fifoBuffer[4];
-            teapotPacket[5] = fifoBuffer[5];
-            teapotPacket[6] = fifoBuffer[8];
-            teapotPacket[7] = fifoBuffer[9];
-            teapotPacket[8] = fifoBuffer[12];
-            teapotPacket[9] = fifoBuffer[13];
-            Serial.write(teapotPacket, 14);
-            teapotPacket[11]++; // packetCount, loops at 0xFF on purpose
-        #endif
-        roll_rate_allowed = multiMap<int16_t>(abs(ypr[2])* 180/M_PI, roll_angle_in, roll_rate_out, 3);
-        //if ((ypr[2] * 180/M_PI > 15.0) || (ypr[2] * 180/M_PI < -15.0)) {
-        if ((gy > roll_rate_allowed && gy>=0) || (-gy > roll_rate_allowed && gy<0)){ //check if actual roll rate is outside the allowed range
-          Serial.print(roll_rate_allowed);
-          Serial.print("\t");
-          Serial.print(abs(gy/131.0));
-          Serial.print("\t");
-          count += 1;
-          if (count >= 3){ //persistence of 3 cycles
-            Serial.print("Triggered\t");
-            blinkState = 1;
-            //digitalWrite(RELAY_PIN, HIGH);
-          }
-
-        } else {
-          count = 0;
-          blinkState = 0;
-          //digitalWrite(RELAY_PIN, HIGH);
-          Serial.print(roll_rate_allowed);
-          Serial.print("\t");
-          Serial.print(abs(gy/131.0));
-          Serial.print("\t");
-
-        } 
-        // blink LED to indicate activity
-        //blinkState = !blinkState;
-        digitalWrite(LED_PIN, blinkState); // This seems to be working, but we're never triggering
-
-        
-
- 
-    }
+    // set the LED with the ledState of the variable:
+    digitalWrite(12, LOW);
+    digitalWrite(ledPin, ledState);
+  }
 }

@@ -90,7 +90,7 @@ MPU6050 mpu;
 
 // uncomment "OUTPUT_READABLE_GYRO" if you want to see the actual
 // gryo
-//#define OUTPUT_READABLE_GYRO // TODO put this back
+#define OUTPUT_READABLE_GYRO
 
 // uncomment "OUTPUT_READABLE_EULER" if you want to see Euler angles
 // (in degrees) calculated from the quaternions coming from the FIFO.
@@ -103,7 +103,7 @@ MPU6050 mpu;
 // from the FIFO. Note this also requires gravity vector calculations.
 // Also note that yaw/pitch/roll angles suffer from gimbal lock (for
 // more info, see: http://en.wikipedia.org/wiki/Gimbal_lock)
-//#define OUTPUT_READABLE_YAWPITCHROLL // TODO put this back
+#define OUTPUT_READABLE_YAWPITCHROLL
 
 // uncomment "OUTPUT_READABLE_REALACCEL" if you want to see acceleration
 // components with gravity removed. This acceleration reference frame is
@@ -125,7 +125,6 @@ MPU6050 mpu;
 
 
 #define LED_PIN 13 // (Arduino is 13, Teensy is 11, Teensy++ is 6)
-#define RELAY_PIN 7 // Relay output
 bool blinkState = false;
 
 // MPU control/status vars
@@ -147,8 +146,8 @@ int gyro[3];          // [x, y, z]            Gyro rate container
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
 int16_t gx, gy, gz;
 int16_t ax, ay, az;
-int16_t roll_angle_in[] =  { 0,  15,  30}; // Roll angle in deg
-int16_t roll_rate_out[] = {20000, 1310, 0}; // Roll rate in counts (131 counts to 1 deg/s)
+int16_t roll_angle_in[] =  { 0,  15,  30};
+int16_t roll_rate_out[] = {20000, 1310, 0};
 int16_t roll_rate_allowed;
 int16_t count;
 
@@ -174,19 +173,6 @@ void dmpDataReady() {
 // ================================================================
 
 void setup() {
-    // configure LED for output
-    pinMode(LED_PIN, OUTPUT);
-    pinMode(5, OUTPUT);
-    pinMode(6, OUTPUT);
-    pinMode(7, OUTPUT);
-    pinMode(8, OUTPUT);
-    pinMode(9, OUTPUT);
-    pinMode(10, OUTPUT);
-    pinMode(11, OUTPUT);
-    pinMode(12, OUTPUT);
-    pinMode(13, OUTPUT);
-
-
     // join I2C bus (I2Cdev library doesn't do this automatically)
     #if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
         Wire.begin();
@@ -218,7 +204,7 @@ void setup() {
     // wait for ready
     Serial.println(F("\nSend any character to begin DMP programming and demo: "));
     while (Serial.available() && Serial.read()); // empty buffer
-    //while (!Serial.available());                 // wait for data
+    while (!Serial.available());                 // wait for data
     while (Serial.available() && Serial.read()); // empty buffer again
 
     // load and configure the DMP
@@ -258,7 +244,8 @@ void setup() {
         Serial.println(F(")"));
     }
 
-
+    // configure LED for output
+    pinMode(LED_PIN, OUTPUT);
 }
 
 
@@ -268,7 +255,6 @@ void setup() {
 // ================================================================
 
 void loop() {
-  
     // if programming failed, don't try to do anything
     if (!dmpReady) return;
 
@@ -427,13 +413,11 @@ void loop() {
           if (count >= 3){ //persistence of 3 cycles
             Serial.print("Triggered\t");
             blinkState = 1;
-            //digitalWrite(RELAY_PIN, HIGH);
           }
 
         } else {
           count = 0;
           blinkState = 0;
-          //digitalWrite(RELAY_PIN, HIGH);
           Serial.print(roll_rate_allowed);
           Serial.print("\t");
           Serial.print(abs(gy/131.0));
@@ -442,10 +426,6 @@ void loop() {
         } 
         // blink LED to indicate activity
         //blinkState = !blinkState;
-        digitalWrite(LED_PIN, blinkState); // This seems to be working, but we're never triggering
-
-        
-
- 
+        digitalWrite(LED_PIN, blinkState);
     }
 }
