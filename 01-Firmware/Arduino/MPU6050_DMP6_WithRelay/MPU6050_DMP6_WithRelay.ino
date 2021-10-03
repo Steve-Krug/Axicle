@@ -131,6 +131,7 @@ const int relayReadPin = 10;
 const int printSerialPin = 8;
 
 bool pyroState = false;
+int startPyroCount = 0;
 
 // MPU control/status vars
 bool dmpReady = false;  // set true if DMP init was successful
@@ -149,12 +150,16 @@ VectorFloat gravity;    // [x, y, z]            gravity vector
 float euler[3];         // [psi, theta, phi]    Euler angle container
 int gyro[3];          // [x, y, z]            Gyro rate container
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
+//float gravity[3];
 int16_t gx, gy, gz;
 int16_t ax, ay, az;
 int16_t roll_angle_in[] =  { 0,  15,  30};
-int16_t roll_rate_out[] = {20000, 1310, 0};
+int16_t roll_rate_out[] = {20000, 1310, 0}; // 1/16.384 to get to deg/s, [1220, 80, 0]
 int16_t roll_rate_allowed;
 int16_t count;
+float rotationScale = 2000.0 / 32768.0;
+int16_t triggerPersistence = 3; // Number of cycles with signal high before relay triggers
+int16_t pyroPersistence = 10; // Minimum number of cycles relay will stay active before disabling
 
 
 // packet structure for InvenSense teapot demo
@@ -267,7 +272,7 @@ void loop() {
     // if programming failed, don't try to do anything
     if (!dmpReady) return;
     int relayReadValue = digitalRead(relayReadPin);
-    int printSerialValue = digitalRead(printSerialPin);
+    int printSerialValue = LOW; //digitalRead(printSerialPin);
 
 
     // wait for MPU interrupt or extra packet(s) available
@@ -324,6 +329,24 @@ void loop() {
             }
         #endif
 
+
+        #ifdef OUTPUT_READABLE_YAWPITCHROLL
+            // display Euler angles in degrees
+            mpu.dmpGetQuaternion(&q, fifoBuffer);
+            mpu.dmpGetGravity(&gravity, &q);
+            mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
+            if (printSerialValue == LOW){
+              Serial.print(millis());Serial.print(",\t");
+              Serial.print("yrp,\t");
+              Serial.print(ypr[0] * 180/M_PI);
+              Serial.print(",\t");
+              Serial.print(ypr[1] * 180/M_PI);
+              Serial.print(",\t");
+              Serial.print(ypr[2] * 180/M_PI);
+              Serial.print(",\t");
+            }
+        #endif
+
         #ifdef OUTPUT_READABLE_GYRO
             // display gyro angles in degrees
             //mpu.dmpGetGyro(gyro, fifoBuffer);
@@ -335,19 +358,23 @@ void loop() {
             //Serial.println(gyro[2] * 180/M_PI);
 
             mpu.getRotation(&gx, &gy, &gz);
+            //mpu.getAcceleration(&ax, &ay, &az);
+
             if (printSerialValue == LOW){
-              Serial.print(millis());Serial.print(",\t");
-              Serial.print("a/g: Rotation [0.1 deg]\t,");
-              Serial.print(gx/13.1); Serial.print(",\t"); // 2000 deg/s or 131 deg/s
-              Serial.print(gy/13.1); Serial.print(",\t");
-              Serial.print(gz/31.1); Serial.print(",\t");
-            }
+              Serial.print("yrp_rate\t,");
+//              Serial.print(gx/13.1); Serial.print(",\t"); // 2000 deg/s or 131 deg/s
+//              Serial.print(gy/13.1); Serial.print(",\t");
+//              Serial.print(gz/31.1); Serial.print(",\t");
+              Serial.print(gx*rotationScale); Serial.print(",\t"); // 2000 deg/s or 131 deg/s
+              Serial.print(gy*rotationScale); Serial.print(",\t");
+              Serial.print(gz*rotationScale); Serial.print(",\t");
+              //Serial.print("accel\t,");
+              //Serial.print(ax/163.84); Serial.print(",\t");
+              //Serial.print(ay/163.84); Serial.print(",\t");
+              //Serial.print(az/163.84); Serial.print(",\t");            
+              }
       
-//            mpu.getAcceleration(&ax, &ay, &az);
-//            Serial.print("a/g: Acceleration [0.01g]\t,");
-//            Serial.print(ax/163.84); Serial.print(",\t");
-//            Serial.print(ay/163.84); Serial.print(",\t");
-//            Serial.print(az/163.84); Serial.print(",\t");
+
         #endif
 
         #ifdef OUTPUT_READABLE_EULER
@@ -364,42 +391,37 @@ void loop() {
             }
         #endif
 
-        #ifdef OUTPUT_READABLE_YAWPITCHROLL
-            // display Euler angles in degrees
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            mpu.dmpGetGravity(&gravity, &q);
-            mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
-            if (printSerialValue == LOW){
-              Serial.print("ypr,\t");
-              Serial.print(ypr[0] * 180/M_PI);
-              Serial.print(",\t");
-              Serial.print(ypr[1] * 180/M_PI);
-              Serial.print(",\t");
-              Serial.println(ypr[2] * 180/M_PI);
-            }
-        #endif
     
-        roll_rate_allowed = multiMap<int16_t>(abs(ypr[2])* 180/M_PI, roll_angle_in, roll_rate_out, 3);
+        roll_rate_allowed = multiMap<int16_t>(abs(ypr[1])* 180/M_PI, roll_angle_in, roll_rate_out, 3); //Using pitch due to Arduino mounting
         //if ((ypr[2] * 180/M_PI > 15.0) || (ypr[2] * 180/M_PI < -15.0)) {
         if ((gy > roll_rate_allowed && gy>=0) || (-gy > roll_rate_allowed && gy<0)){ //check if actual roll rate is outside the allowed range
           if (printSerialValue == LOW){
             Serial.print(roll_rate_allowed);
             Serial.print(",\t");
-            Serial.print(abs(gy/131.0));
+            //Serial.print(abs(gy/131.0));
+            Serial.print(abs(gy*rotationScale));
             Serial.print(",\t");
           }
             count += 1;
-            if (count >= 3){ //persistence of 3 cycles
+            if (count >= triggerPersistence){ //persistence of 3 cycles
+              startPyroCount = pyroPersistence; //latch pyro state for 10 cycles
               pyroState = 1;
               }
 
         } else {
           count = 0;
-          pyroState = 0;
+          if (startPyroCount > 0){
+            startPyroCount -=1;
+            pyroState = 1;
+          }
+          else{
+            pyroState = 0;
+          }
           if (printSerialValue == LOW){
             Serial.print(roll_rate_allowed);
             Serial.print(",\t");
-            Serial.print(abs(gy/131.0));
+            //Serial.print(abs(gy/131.0));
+            Serial.print(abs(gy*rotationScale));
             Serial.print(",\t");
         }
 
@@ -407,8 +429,10 @@ void loop() {
           if (printSerialValue == LOW){
             Serial.print(pyroState);
             Serial.print(",\t");
-            Serial.print(relayReadValue);
+            Serial.print(startPyroCount);
             Serial.print(",\t");
+            Serial.print(relayReadValue);
+            Serial.println();
         }
         // blink LED to indicate activity
         digitalWrite(ledPin, pyroState);
