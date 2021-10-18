@@ -100,7 +100,7 @@ const int relayReadPin2 = 9;
 const int printSerialPin = 8;
 const int rollIdx = 2;  //Using 'pitch' due to Arduino mounting
 const bool fireSimultaneous = true; // True to fire both pyros at the same time
-const bool firePyro = true; // True to allow arduino to fire pyro
+const bool firePyro = false; // True to allow arduino to fire pyro
 
 bool pyroState1 = false;
 bool pyroState2 = false;
