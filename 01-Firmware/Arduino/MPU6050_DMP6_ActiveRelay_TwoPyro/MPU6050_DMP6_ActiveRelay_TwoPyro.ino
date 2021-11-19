@@ -123,7 +123,7 @@ VectorFloat gravity;    // [x, y, z]            gravity vector
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
 int16_t gx, gy, gz;
 int16_t ax, ay, az;
-int16_t roll_angle_in1[] =  { 0,  10,  15}; // Might want [0, 5, 10] here
+int16_t roll_angle_in1[] =  { 0,  10,  12}; // Might want [0, 5, 10] here
 int16_t roll_angle_in2[] =  { 0,  10,  20};
 int16_t roll_rate_out1[] = {20000, 1310, 0}; // 1/16.384 to get to deg/s, [1220, 80, 0]
 //int16_t roll_rate_out2[] = {20000, 1310, 0}; // 1/16.384 to get to deg/s, [1220, 80, 0]
@@ -186,10 +186,10 @@ void setup() {
     devStatus = mpu.dmpInitialize();
 
     // supply your own gyro offsets here, scaled for min sensitivity
-    mpu.setXGyroOffset(0);    // 220
-    mpu.setYGyroOffset(0);      // 76
-    mpu.setZGyroOffset(0);      // -85
-    mpu.setZAccelOffset(1688); // 1788, 1688 factory default for my test chip
+    mpu.setXGyroOffset(0);   //150 // 220 old is commented new is yellow
+    mpu.setYGyroOffset(40);   //40   // 76
+    mpu.setZGyroOffset(80);   //-20   // -85
+    mpu.setZAccelOffset(1688); //1588// 1788, 1688 factory default for my test chip
 
     // make sure it worked (returns 0 if so)
     if (devStatus == 0) {
@@ -350,13 +350,13 @@ void loop() {
         
           if (printSerialValue == LOW){
             Serial.print(pyroState1);
-            Serial.print(",\t");
+            //Serial.print(",\t");
             Serial.print(pyroState2);
             Serial.print(",\t");
             Serial.print(startPyroCount1);
             Serial.print(",\t");
             Serial.print(relayReadValue1);
-            Serial.println();
+            //Serial.println();
             Serial.print(relayReadValue2);
             Serial.println();
         }
