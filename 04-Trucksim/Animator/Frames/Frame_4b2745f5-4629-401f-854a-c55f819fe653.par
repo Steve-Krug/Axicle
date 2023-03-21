@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Aux Steer Controller Target`Auxiliary Steer Controller
+ADD_REFERENCE_FRAME Frame_4b2745f5-4629-401f-854a-c55f819fe653
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME target_x_a
+SET_Y_NAME target_y_a
+SET_Z_NAME target_z_a_road
+
+WRT_target_x_a
+ANI_target_x_a
+WRT_target_y_a
+ANI_target_y_a
+WRT_target_z_a_road
+ANI_target_z_a_road
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Auxiliary Steer Controller } Aux Steer Controller Target
+#Library : Animator: Reference Frame
+#DataSet : Aux Steer Controller Target
+#Category: Auxiliary Steer Controller
+#FileID  : Frame_4b2745f5-4629-401f-854a-c55f819fe653
+#Created : 12-01-2021 13:19:13
+#Modified: 12-01-2021 13:19:36
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

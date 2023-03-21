@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Events`AEB CCRm,s C. Check More Tests`Euro NCAP AEB Testing: CCRm,s
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 <=
+#RingCtrl1 >
+#RingCtrl10 2
+#RingCtrl11 4
+RESET_EVENTS
+*NAME1 Crashed
+*NAME2 Crashed
+*VALUE1 0
+*VALUE2 0
+MAKE_EVENT Crashed <= 0 ; Events\Events_8bd6ed7e-7899-4c1f-be51-26f4bf9c546c.par
+#BlueLink0 Events`AEB CCRm,s E. New Test, Increase Speed` Euro NCAP AEB Testing: CCRm,s` , Events`Events_8bd6ed7e-7899-4c1f-be51-26f4bf9c546c
+
+MAKE_EVENT Crashed > 0 ; Events\Events_e5ccbd7f-f00f-42a4-92a6-a69d0efbc14f.par
+#BlueLink1 Events`AEB CCRm,s D. Pause before ending` Euro NCAP AEB Testing: CCRm,s` , Events`Events_e5ccbd7f-f00f-42a4-92a6-a69d0efbc14f
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#If the variable Crashed is not zero, we're done
+#- The vehicle has previously contacted the target, and did not contact it on this run, so that is the formal end of the test
+#
+#If the  variable Crashed is zero, increase the test speed, and try the test again at the new higher speed
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP AEB Testing: CCRm,s } AEB CCRm,s C. Check More Tests
+#Library : Events
+#DataSet : AEB CCRm,s C. Check More Tests
+#Category: Euro NCAP AEB Testing: CCRm,s
+#FileID  : Events_0b5c34d8-0cec-442e-9115-b5c3004cbe6f
+#Created : 09-29-2021 12:29:05
+#Modified: 09-29-2021 12:34:35
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

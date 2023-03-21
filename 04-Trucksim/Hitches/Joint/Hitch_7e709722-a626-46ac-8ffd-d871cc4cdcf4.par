@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Hitch: Joint Assembly`Ball Hitch (SS_SS + SS)`Ball Hitches
+#CheckBox2 0    
+
+OPT_HITCH_TYPE 2
+WRITE_ADD_REFERENCE_FRAME_HITCH
+PARSFILE Animator\STL\Shape_a04e2164-7a01-41bf-872d-8118d95ebc60.par
+#BlueLink3 Animator: Shape File Link`Hitches: Ball Hitch (SS_SS+SS)` Common Vehicle Assets` , Hitch Shape`Shape_a04e2164-7a01-41bf-872d-8118d95ebc60
+
+SET_OFFSET_X <<hitch_x>>
+SET_OFFSET_Y <<hitch_y>>
+SET_OFFSET_Z <<hitch_z>>
+
+LOG_ENTRY Used Dataset: Hitch: Joint Assembly; { Ball Hitches } Ball Hitch (SS_SS + SS)
+#Library : Hitch: Joint Assembly
+#DataSet : Ball Hitch (SS_SS + SS)
+#Category: Ball Hitches
+#FileID  : Hitch_7e709722-a626-46ac-8ffd-d871cc4cdcf4
+#Modified: 12-13-2021 14:09:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Hitch
+
+END

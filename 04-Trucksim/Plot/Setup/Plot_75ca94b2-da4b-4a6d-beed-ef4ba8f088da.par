@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Plot: Setup`Susp. Cab: SpringRR`Suspended Cab
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Line Plots, No Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS SpringRR, Time
+PLOTCHANNELS FSMntRR, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Susp. Cab: SpringRR
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Suspended Cab } Susp. Cab: SpringRR
+#Library : Plot: Setup
+#DataSet : Susp. Cab: SpringRR
+#Category: Suspended Cab
+#FileID  : Plot_75ca94b2-da4b-4a6d-beed-ef4ba8f088da
+#Created : 05-26-2021 11:34:56
+#Modified: 06-07-2021 01:49:38
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

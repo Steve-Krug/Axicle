@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Generic VS Commands`AEB, Obj. Definition Parameters`Obstacle Avoidance
+#VehCode VS Commands
+
+#MiscYellow0
+INSTALL_SPEED_CONTROLLER ! need to install here to use SPEED_ID_SC
+
+DEFINE_PARAMETER PEDESTRIAN =  201 ; - ; Pedestrian or bike (object type)
+DEFINE_PARAMETER OBJ_NEAR = 1; -;
+DEFINE_PARAMETER OBJ_MID = 2; -;
+DEFINE_PARAMETER OBJ_FAR= 3; -;
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#Add parameters for Target messages for use in ADAS scenarios.
+#
+#This also has a function that calculates the status of a traffic light given a starting point in the cycle.
+#
+#Load a normalized speed_target that goes from 1m/s (3.6 km/h) to 0 at S = 0 to cause the path preview controller to come to a stop.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Obstacle Avoidance } AEB, Obj. Definition Parameters
+#Library : Generic VS Commands
+#DataSet : AEB, Obj. Definition Parameters
+#Category: Obstacle Avoidance
+#FileID  : GenVS_6d953eda-e72f-4f45-aebe-7e46d9179f9b
+#Created : 09-28-2021 12:29:56
+#Modified: 09-28-2021 12:30:15
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

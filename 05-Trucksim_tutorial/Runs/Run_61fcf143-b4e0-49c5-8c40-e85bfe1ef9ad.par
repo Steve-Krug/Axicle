@@ -1,0 +1,90 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Control by Torque, VS Commands`Steering System Options
+#VEHICLECODE S_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_61fcf143-b4e0-49c5-8c40-e85bfe1ef9ad
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_c40f19aa-92ca-4469-8121-69574d61ada2.par
+#BlueLink0 Animator: Camera Setup`180 Azm, 10 El, 42 m` Vehicle Reference` , Animator camera`Camera_c40f19aa-92ca-4469-8121-69574d61ada2
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 0.6 0.2 1
+SET_RUN_COLOR 0.6 0.2 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Lead_2a\Lead2a_401fc56a-f7f4-4aed-b57c-4ed2658a6280.par
+#BlueLink2 Vehicle: Lead Unit with 2 Axles`LCF Van (Power Steer)` 2A LCF Van` , Math Model`Lead2a_401fc56a-f7f4-4aed-b57c-4ed2658a6280
+
+PARSFILE Procedures\Proc_2cf54374-d6a9-4ea0-bc2f-bbaedbb3f2fb.par
+#BlueLink28 Procedures`On Center Test - Steer by Torque` Steering Tests` , Procedure`Proc_2cf54374-d6a9-4ea0-bc2f-bbaedbb3f2fb
+
+PARSFILE Generic\Group\GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991.par
+#BlueLink9 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991
+
+PARSFILE Generic\VS_commands\GenVS_b84ed38e-10b3-435e-a02b-2b57517d454d.par
+#BlueLink10 Generic VS Commands`Control SWT from Driver Model SWA` Custom Steering Controls` , Miscellaneous`GenVS_b84ed38e-10b3-435e-a02b-2b57517d454d
+
+*TSTOP 1
+PARSFILE Plot\Setup\Plot_8801cb51-21a5-49c8-ac41-f8ecbecfce4f.par
+#BlueLink15 Plot: Setup`Driver Model Handwheel Angle` Controls: Driver` , Plot`Plot_8801cb51-21a5-49c8-ac41-f8ecbecfce4f
+
+
+SPECIAL_PARSFILE Runs\Run_f09b6440-7e7c-4700-9dd4-63468e51fe2b.par
+#BlueLink23 TruckSim Run Control`On-Center Steer Test by Torque Control` Steering Tests` , Overlay run or ERD file`Run_f09b6440-7e7c-4700-9dd4-63468e51fe2b
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_2a\Lead2a_401fc56a-f7f4-4aed-b57c-4ed2658a6280.png
+WRITE_SENSOR_DETECT
+Title Control by Torque, VS Commands <Steering System Options>
+CATEGORY Steering System Options 
+DATASET_TITLE Control by Torque, VS Commands
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#In this example, the steering wheel is controlled by torque using a controller defined with VS Commands. The controller adjusts the torque to have the steering wheel angle match that requested by the driver model (the driver model is active but is set so it will not apply the angle it calculates). The controller is similar, but not identical, to TruckSim's built in controller, which is used in the overlaid run.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Steering System Options } Control by Torque, VS Commands
+#Library : TruckSim Run Control
+#DataSet : Control by Torque, VS Commands
+#Category: Steering System Options
+#FileID  : Run_61fcf143-b4e0-49c5-8c40-e85bfe1ef9ad
+#Modified: 06-07-2021 02:46:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

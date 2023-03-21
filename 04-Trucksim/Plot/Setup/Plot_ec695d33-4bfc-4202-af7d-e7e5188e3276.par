@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Plot: Setup`AEB Booleans, new`ADAS and AEB Alerts and Commands
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Show_FCW, Time
+PLOTCHANNELS Contact, Time
+PLOTCHANNELS Crashed, Time
+PLOTCHANNELS ApplyAEB_FullStop, Time
+
+#ENDMYellow
+
+YAXISLABEL AEB Flags
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE AEB Booleans, new
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { ADAS and AEB Alerts and Commands } AEB Booleans, new
+#Library : Plot: Setup
+#DataSet : AEB Booleans, new
+#Category: ADAS and AEB Alerts and Commands
+#FileID  : Plot_ec695d33-4bfc-4202-af7d-e7e5188e3276
+#Created : 09-29-2021 13:13:15
+#Modified: 09-29-2021 13:13:42
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

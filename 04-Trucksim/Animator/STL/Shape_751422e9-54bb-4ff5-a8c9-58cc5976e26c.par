@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Square: 5m x 29.3m (Pavement)`Geometric Shapes
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Geometric_Shapes\Squares\square.obj
+#ENDMYellow
+
+SET_COLOR 0.502 0.502 0.502
+SET_SCALE_X 5
+SET_SCALE_Y 29.3
+SET_OFFSET_Z -.4
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_3214ca30-6105-4f99-933d-72f345220229.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Extra Large Objects` Shape Preview` , Video Camera`Camera_3214ca30-6105-4f99-933d-72f345220229
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_751422e9-54bb-4ff5-a8c9-58cc5976e26c.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square: 5m x 29.3m (Pavement)
+#Library : Animator: Shape File Link
+#DataSet : Square: 5m x 29.3m (Pavement)
+#Category: Geometric Shapes
+#FileID  : Shape_751422e9-54bb-4ff5-a8c9-58cc5976e26c
+#Modified: 06-07-2021 01:53:49
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

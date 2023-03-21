@@ -1,0 +1,92 @@
+PARSFILE
+#FullDataName Procedures`4-Way Intersection (Electric Trucks)`Road Networks
+#CheckBox1 1    
+OPT_INIT_PATH 1
+
+#RingCtrl0 2
+#RingCtrl1 0
+#RingCtrl2 0
+OPT_STOP 0
+SSTART -175
+TSTART 0
+TSTART_WRITE = 0;
+TSTOP 45
+SSTOP = SSTART + 1 ;
+OPT_DIRECTION 1
+*SPEED 70
+*TSTOP 45
+*TSTART 0
+*SSTART -175
+
+OPT_SC 2
+PARSFILE Control\Driver\StrDM_6bb70651-34b3-4cb3-9ec1-b0679abf4f0a.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`2m Right, 0.75s Single Preview` Constant Position: Non-Zero Offset` , Steering`StrDM_6bb70651-34b3-4cb3-9ec1-b0679abf4f0a
+
+PARSFILE Control\Gear_at\GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f.par
+#BlueLink30 Control: Shifting (Closed Loop)`NGEARS, Clutch Act 0.5s, Gear 0.1s` Closed-Loop Shifting` , Shifting Control`GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f
+
+PARSFILE Control\Speed_t\SpdTime_4062591d-4d19-4f3b-8183-1da364eb8142.par
+#BlueLink31 Control: Speed (Closed Loop) Using Target Speed`Crossing, Right Turn (Air Brakes)` Speed vs. Station` , Speed vs. time`SpdTime_4062591d-4d19-4f3b-8183-1da364eb8142
+
+#MiscYellow0
+SPEED_KP 0.15
+#ENDMYellow
+
+PARSFILE Generic\Links\GenLink_c5d0848b-d264-41aa-9cee-10d72ef529a8.par
+#BlueLink0 Generic Group of Links`4-Way Intersection, Articulated Trucks` Roads and Paths` , Miscellaneous`GenLink_c5d0848b-d264-41aa-9cee-10d72ef529a8
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink8 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806.par
+#BlueLink9 Plot: Setup`Brake Control: Master Cyl. Pressure` Braking` , Plot`Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806
+
+PARSFILE Plot\Setup\Plot_096991e2-726a-4c37-b0ec-6bfbcc66e0c9.par
+#BlueLink10 Plot: Setup`Torques in Hybrid Powertrain` Powertrain (Hybrid)` , Plot`Plot_096991e2-726a-4c37-b0ec-6bfbcc66e0c9
+
+PARSFILE Plot\Setup\Plot_77579fdf-3ebb-43be-9ef8-4418316c886a.par
+#BlueLink11 Plot: Setup`Spin Rates in Hybrid Powertrain` Powertrain (Hybrid)` , Plot`Plot_77579fdf-3ebb-43be-9ef8-4418316c886a
+
+PARSFILE Plot\Setup\Plot_07737336-620f-4fa5-baca-5458abaf7d80.par
+#BlueLink12 Plot: Setup`Powers in Hybrid Powertrain` Powertrain (Hybrid)` , Plot`Plot_07737336-620f-4fa5-baca-5458abaf7d80
+
+PARSFILE Plot\Setup\Plot_f04a944d-07f4-45a4-b417-57ea1d7f7463.par
+#BlueLink13 Plot: Setup`Hybrid powertrain mode` Powertrain (Hybrid)` , Plot`Plot_f04a944d-07f4-45a4-b417-57ea1d7f7463
+
+PARSFILE Plot\Setup\Plot_4445b244-c3e7-43a0-a5f5-85a967aa04e4.par
+#BlueLink14 Plot: Setup`Battery current` Powertrain (Hybrid)` , Plot`Plot_4445b244-c3e7-43a0-a5f5-85a967aa04e4
+
+PARSFILE Plot\Setup\Plot_b837ff0c-b61c-4741-af66-a50fa6d378da.par
+#BlueLink15 Plot: Setup`Battery voltage` Powertrain (Hybrid)` , Plot`Plot_b837ff0c-b61c-4741-af66-a50fa6d378da
+
+PARSFILE Plot\Setup\Plot_d6487ae9-6a55-4d34-ad8b-ceb6cf721e3f.par
+#BlueLink16 Plot: Setup`Battery remaining level` Powertrain (Hybrid)` , Plot`Plot_d6487ae9-6a55-4d34-ad8b-ceb6cf721e3f
+
+PARSFILE Plot\Setup\Plot_49162719-e05b-4946-b09a-e5f7b94d12ef.par
+#BlueLink17 Plot: Setup`Battery efficiency` Powertrain (Hybrid)` , Plot`Plot_49162719-e05b-4946-b09a-e5f7b94d12ef
+
+PARSFILE Plot\Setup\Plot_9e7c6a3f-7f4d-4388-b203-bc0555523537.par
+#BlueLink18 Plot: Setup`Battery power limit` Powertrain (Hybrid)` , Plot`Plot_9e7c6a3f-7f4d-4388-b203-bc0555523537
+
+PARSFILE Plot\Setup\Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd.par
+#BlueLink19 Plot: Setup`Throttle: Control Input` Controls: Driver` , Plot`Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd
+
+PARSFILE Plot\Setup\Plot_154b656d-97e1-44bc-b773-25c48bc8778f.par
+#BlueLink20 Plot: Setup`Motor efficiency` Powertrain (Hybrid)` , Plot`Plot_154b656d-97e1-44bc-b773-25c48bc8778f
+
+
+#EMBEDDED_NOTES
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Road Networks } 4-Way Intersection (Electric Trucks)
+#Library : Procedures
+#DataSet : 4-Way Intersection (Electric Trucks)
+#Category: Road Networks
+#FileID  : Proc_4b8f9a32-fe03-4d23-ace2-05f6fdbabe6f
+#Modified: 06-07-2021 01:49:13
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

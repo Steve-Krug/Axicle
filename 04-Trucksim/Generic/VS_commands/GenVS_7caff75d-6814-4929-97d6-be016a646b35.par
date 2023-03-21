@@ -1,0 +1,22 @@
+PARSFILE
+#FullDataName Generic VS Commands`CPAR_Include: RemoteControl`CPAR Include
+#VehCode VS Commands
+
+#MiscYellow0
+! Include folder with various files to support running via COM, Python, etc. 
+*cpar_include Extensions\RemoteControl
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { CPAR Include } CPAR_Include: RemoteControl
+#Library : Generic VS Commands
+#DataSet : CPAR_Include: RemoteControl
+#Category: CPAR Include
+#FileID  : GenVS_7caff75d-6814-4929-97d6-be016a646b35
+#Created : 05-26-2021 17:56:14
+#Modified: 06-07-2021 01:52:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

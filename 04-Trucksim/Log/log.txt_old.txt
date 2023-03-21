@@ -1,0 +1,78 @@
+2023-01-01T16:27:06 Logfile initialized.
+2023-01-01T16:27:06 (Info):    TruckSim 2022.1
+2023-01-01T16:27:06 (Info):    -
+2023-01-01T16:27:06 (Info):    command-line: 
+2023-01-01T16:27:06 (Info):    -
+2023-01-01T16:27:06 (Info):    Working Dir: C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\04-Trucksim\
+2023-01-01T16:27:06 (Info):    Program Dir: C:\Program Files (x86)\TruckSim2022.1_Prog\
+2023-01-01T16:27:06 (Info):    -
+2023-01-01T16:27:06 (Info):    OS Version:        6.2 (build 9200)
+2023-01-01T16:27:06 (Info):    CPU Architecture:  x64
+2023-01-01T16:27:06 (Info):    CPU Count:         20
+2023-01-01T16:27:06 (Info):    CPU Level/Rev:     6/38658
+2023-01-01T16:27:06 (Info):    Start Mem Total:   32492 MB
+2023-01-01T16:27:06 (Info):    Start Mem Used:    30%
+2023-01-01T16:27:06 (Info):    -
+2023-01-01T16:27:06 (Info):    Loaded dataset index cache in 0.03s, 25.6 megabytes.
+2023-01-01T16:27:07 (Info):    Feature                  Source                       Version  Acquired  Count
+2023-01-01T16:27:07 (Info):    -----------------        -----------------            -------  --------  -----
+2023-01-01T16:27:07 (Info):    trucksimus               C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-01T16:27:07 (Info):    trucksimfus              C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-01T16:27:07 (Info):    trucksimsguius           C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-01T16:27:53 (Info):    Acquired [1] license for trucksimsguius
+2023-01-01T16:27:53 (Info):    Acquired [1] license for trucksimus
+2023-01-01T16:27:53 (Info):    Acquired [1] license for trucksimfus
+2023-01-01T16:27:53 (Info):    License check took 47.05 seconds.
+2023-01-01T16:27:54 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-01T16:27:54 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-01T16:27:55 (Info):    Initial setup took 1.31 seconds.
+2023-01-01T16:27:55 (Info):    Auto updates took 0.00 seconds.
+2023-01-01T16:27:56 (Info):    Loaded last screen in 0.70 seconds.
+2023-01-01T16:27:56 (Info):    Total init time 49.27 seconds.
+2023-01-01T16:31:46 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:31:47 (Info):    Math model run completed.
+2023-01-01T16:31:56 (Info):    Assembling animation...
+2023-01-01T16:31:56 (Info):    Animation assembly finished.
+2023-01-01T16:34:29 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:34:30 (Info):    Math model run completed.
+2023-01-01T16:34:34 (Info):    Assembling animation...
+2023-01-01T16:34:35 (Info):    Animation assembly finished.
+2023-01-01T16:35:29 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:35:29 (Info):    Math model run completed.
+2023-01-01T16:35:35 (Info):    Assembling animation...
+2023-01-01T16:35:36 (Info):    Animation assembly finished.
+2023-01-01T16:37:26 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:37:26 (Info):    Math model run completed.
+2023-01-01T16:37:31 (Info):    Assembling animation...
+2023-01-01T16:37:32 (Info):    Animation assembly finished.
+2023-01-01T16:38:58 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:38:58 (Info):    Math model run completed.
+2023-01-01T16:39:03 (Info):    Assembling animation...
+2023-01-01T16:39:04 (Info):    Animation assembly finished.
+2023-01-01T16:39:41 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:39:42 (Info):    Math model run completed.
+2023-01-01T16:39:44 (Info):    Assembling animation...
+2023-01-01T16:39:46 (Info):    Animation assembly finished.
+2023-01-01T16:40:46 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:40:47 (Info):    Math model run completed.
+2023-01-01T16:40:59 (Info):    Assembling animation...
+2023-01-01T16:41:00 (Info):    Animation assembly finished.
+2023-01-01T16:41:49 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:41:49 (Info):    Math model run completed.
+2023-01-01T16:41:56 (Info):    Assembling animation...
+2023-01-01T16:41:57 (Info):    Animation assembly finished.
+2023-01-01T16:48:01 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:48:01 (Info):    Math model run completed.
+2023-01-01T16:48:04 (Info):    Assembling animation...
+2023-01-01T16:48:05 (Info):    Animation assembly finished.
+2023-01-01T16:49:06 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:49:06 (Info):    Math model run completed.
+2023-01-01T16:49:10 (Info):    Assembling animation...
+2023-01-01T16:49:12 (Info):    Animation assembly finished.
+2023-01-01T16:50:22 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl
+2023-01-01T16:50:23 (Info):    Math model run completed.
+2023-01-02T15:55:05 (Info):    5933 index cache entries written in 0.031s
+2023-01-02T15:55:06 (Info):    Released [1] license for trucksimsguius
+2023-01-02T15:55:06 (Info):    Released [1] license for trucksimus
+2023-01-02T15:55:06 (Info):    Released [1] license for trucksimfus
+2023-01-02T15:55:06 (Info):    Exiting application...

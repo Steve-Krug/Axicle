@@ -1,0 +1,53 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`Euro Van: ACC, FCW, LKAS, (AEB off)`European Vans
+#VehCode I_I
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_2a\Lead2a_3c9ed40f-05d3-45f1-9f35-12f22269769c.par
+#BlueLink0 Vehicle: Lead Unit with 2 Axles`Euro Van (I_I)` Large European Van` , Vehicle Type`Lead2a_3c9ed40f-05d3-45f1-9f35-12f22269769c
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Generic\Group\GenGrp_07141103-3225-4aa1-83d4-b9786607e06f.par
+#BlueLink1 Generic Data Group`Euro Van: AEB (off), ACC Sensor Setup` ADAS: Sensor Setup` , Miscellaneous`GenGrp_07141103-3225-4aa1-83d4-b9786607e06f
+
+PARSFILE Animator\HUD\HUD_ee5abe11-f690-40a5-b741-404ee29f24e1.par
+#BlueLink2 Animator: HUD`Time-To-Collision Radar, Low` Euro NCAP` , Miscellaneous`HUD_ee5abe11-f690-40a5-b741-404ee29f24e1
+
+PARSFILE Generic\Group\GenGrp_fc0d7e73-c6e8-4a13-86ef-e1e493279a2c.par
+#BlueLink3 Generic Data Group`LKAS Strong Control: LDW + RDM` LKAS, LDW, RDM` , Miscellaneous`GenGrp_fc0d7e73-c6e8-4a13-86ef-e1e493279a2c
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_2a\Lead2a_3c9ed40f-05d3-45f1-9f35-12f22269769c.png
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { European Vans } Euro Van: ACC, FCW, LKAS, (AEB off)
+#Library : Vehicle: Loaded Combination
+#DataSet : Euro Van: ACC, FCW, LKAS, (AEB off)
+#Category: European Vans
+#FileID  : VehLoad_9a1c4700-fc3b-4bc0-99da-7c04f2abaf26
+#Created : 11-08-2021 14:56:45
+#Modified: 11-09-2021 10:59:54
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode I_I
+
+END

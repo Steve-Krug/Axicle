@@ -1,0 +1,77 @@
+PARSFILE
+#FullDataName Generic VS Commands`VS Commands: Platooning`VS Commands for Sensors and Traffic
+#VehCode VS Commands
+
+#MiscYellow0
+INSTALL_SPEED_CONTROLLER
+!Define Speed Controller for Trailing Platoon Trucks
+OPT_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+OPT_SC_ENGINE_BRAKING 1
+OPT_BK_SC 1
+
+!PI Controller for keeping within range of station
+define_variable spacing_target 10
+define_output target_delta DisS1_1-spacing_target
+DEFINE_VARIABLE int_target_delta
+EQ_DIFFERENTIAL int_target_delta = target_delta
+
+!PI gain values
+DEFINE_PARAMETER KP = .1
+DEFINE_PARAMETER KI = .00125
+
+eq_in KP if(diss1_1<3,.4,.1) !When the vehicle is close to the preceding truck, applies stronger proportional control
+
+eq_in speed_target_constant lead_speed/3.6+KP*target_delta+KI*int_target_delta
+
+!Apply Approximate Drag Reduction:
+AREA_AERO AREA_AERO*.9
+
+define_parameter PLATOON =  199 ; - ; Platooning Truck (object type)
+define_parameter TRAFFIC =  200 ; - ; Traffic vehicle (object type)
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Targets\Target_bf5d29b1-041f-4a1a-9722-741dcf38fcef.par
+#BlueLink2 Single Moving Object (Custom)`Platoon: Tractor Trailer Detect` Multi-Vehicle` , Miscellaneous`Target_bf5d29b1-041f-4a1a-9722-741dcf38fcef
+
+PARSFILE Plot\Setup\Plot_0e10c337-af50-4df8-a51b-b88b243d688d.par
+#BlueLink3 Plot: Setup`Distance: DisS1_1` ADAS Sensor Detections` , Plot`Plot_0e10c337-af50-4df8-a51b-b88b243d688d
+
+PARSFILE Plot\Setup\Plot_84e520fd-931c-4bcb-9372-c54cca1401a1.par
+#BlueLink4 Plot: Setup`Speed: SpdS1_1` ADAS Sensor Detections` , Plot`Plot_84e520fd-931c-4bcb-9372-c54cca1401a1
+
+PARSFILE Plot\Setup\Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9.par
+#BlueLink5 Plot: Setup`Speed Target and Actual` Speed Controller` , Plot`Plot_ac871e31-3a2e-4f60-b6cb-3284aa167ea9
+
+PARSFILE Plot\Setup\Plot_c914d18c-c4da-4cbb-982f-f016dc1e2730.par
+#BlueLink6 Plot: Setup`Platooning: Target Delta` User-Defined Variables` , Plot`Plot_c914d18c-c4da-4cbb-982f-f016dc1e2730
+
+PARSFILE Plot\Setup\Plot_31f418d3-adbb-4a29-8056-a466be0a945d.par
+#BlueLink7 Plot: Setup`Lateral Tracking` Tracking` , Plot`Plot_31f418d3-adbb-4a29-8056-a466be0a945d
+
+
+#EMBEDDED_NOTES
+#VS Commands for Platooning Trails
+#
+#Trailing vehicles use a constant speed target controller accounting for engine braking. The brake control is imported from the lead vehicle.
+#
+#A PI controller is used to seek a target distance of 10 meters from the preceding vehicle in the platoon.
+#
+#Drag reduction for trailing vehicles in a platoon is approximately 10%.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { VS Commands for Sensors and Traffic } VS Commands: Platooning
+#Library : Generic VS Commands
+#DataSet : VS Commands: Platooning
+#Category: VS Commands for Sensors and Traffic
+#FileID  : GenVS_a836dda3-f40f-4c7e-bfaa-f188380a011f
+#Created : 08-04-2021 15:47:57
+#Modified: 09-20-2021 12:35:27
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

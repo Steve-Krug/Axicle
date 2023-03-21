@@ -1,0 +1,77 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Hill Start Assist (Manual Trans)`Proving Grounds, VS Scene Builder
+#VEHICLECODE S_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_c61de1be-7781-4189-a772-97fbb8dce3ca
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Lead_2a\Lead2a_46c7d67e-b803-4bec-933d-a691b18e898b.par
+#BlueLink2 Vehicle: Lead Unit with 2 Axles`LCF Van (7-spd. MT)` 2A LCF Van` , Math Model`Lead2a_46c7d67e-b803-4bec-933d-a691b18e898b
+
+PARSFILE Procedures\Proc_6610b13b-b4f8-438b-b5fb-fd8d9f96b699.par
+#BlueLink28 Procedures`Hill Start Assist (Manual Trans)` Proving Ground` , Procedure`Proc_6610b13b-b4f8-438b-b5fb-fd8d9f96b699
+
+*TSTOP 1
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_2a\Lead2a_46c7d67e-b803-4bec-933d-a691b18e898b.png
+WRITE_SENSOR_DETECT
+Title Hill Start Assist (Manual Trans) <Proving Grounds, VS Scene Builder>
+CATEGORY Proving Grounds, VS Scene Builder 
+DATASET_TITLE Hill Start Assist (Manual Trans)
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The proving ground introduced in version 2021.0 contains a test area with various hills.
+#
+#In this example, a basic hill start assist function is implemented using VS Commands and tested using Events. This hill start assist function prevents the vehicle from rolling backwards when the brake pedal is lifted and the driver is shifting into first gear.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Proving Grounds, VS Scene Builder } Hill Start Assist (Manual Trans)
+#Library : TruckSim Run Control
+#DataSet : Hill Start Assist (Manual Trans)
+#Category: Proving Grounds, VS Scene Builder
+#FileID  : Run_c61de1be-7781-4189-a772-97fbb8dce3ca
+#Modified: 06-14-2021 14:40:19
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

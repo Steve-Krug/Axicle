@@ -1,0 +1,28 @@
+Run made by TruckSim 2022.1 at 11:58 on June 03, 2022.
+
+Started with simfile: simfile.sim
+
+Include PARSFILE "Results\Run_c3708219-012e-4bd8-be04-f6b9f90a0b2e\Run_all.par"
+Installed keywords into VS Solver for MODEL_LAYOUT S_S
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Vehicle X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 13 Azm, 4.5 El, 35 m
+ A. QS DLC Stop @ 5s <Advanced: Restore State, Linearize, Gravity>
+ B. QS DLC Continue <Advanced: Restore State, Linearize, Gravity>
+Used Dataset: TruckSim Run Control; { Advanced: Restore State, Linearize, Gravity } B. QS DLC Continue
+
+Time to read input = 0.0799325
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 1.59491 mm at T = 5
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.59491 mm at T = 5
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = -2.54933 mm at T = 5
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = -2.54933 mm at T = 5
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 3.2559 mm at T = 5
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 3.2559 mm at T = 5
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = -2.75887 mm at T = 5
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = -2.75887 mm at T = 5
+
+Run started: VS output file = Results\Run_c3708219-012e-4bd8-be04-f6b9f90a0b2e\LastRun.vsb
+
+Run stopped at t = 12. Stop time reached.
+
+Computational time ratio: RTIME = 0.0764991 (real time)/(simulation time)
+

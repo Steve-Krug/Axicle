@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Generic VS Commands`Path Follower, VS Commands`Miscellaneous Custom Controls
+#VehCode VS Commands
+
+#MiscYellow0
+! Define new units for control parameter
+define_units deg/m DR
+
+! Define 3 new parameters
+define_parameter L_FORWARD 20; m; Distance to preview point
+define_parameter LAT_TRACK -1.6; m; Distance preview point is left of target
+define_parameter GAIN_PATH_CTRL 100; deg/m; Control gain
+
+! Define 2 new outputs. Extended July 2015 to include long names.
+define_output Xpreview = Xcg_TM + L_FORWARD*cos(Yaw); m ; X coordinate of preview point
+define_output Ypreview = Ycg_TM + L_FORWARD*sin(Yaw); m ; Y coordinate of preview point
+
+! Activate steering import
+IMPORT IMP_STEER_SW vs_replace
+
+! Add equation for imported steering wheel angle. Start at 0 when T >  TSTART.
+eq_in IMP_STEER_SW = IF(T > TSTART, GAIN_PATH_CTRL* ...
+    (LAT_TRACK -ROAD_L_ID(Xpreview, Ypreview, CURRENT_ROAD_ID, 1)) , 0) ;
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#These VS commands are for the example steer controller described in the tech memo "Example: Extending a Model with VS commands and the API."
+#
+#Updated March 2021 to use newer ROAD_L_ID function and share code with CarSim and BikeSim.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Miscellaneous Custom Controls } Path Follower, VS Commands
+#Library : Generic VS Commands
+#DataSet : Path Follower, VS Commands
+#Category: Miscellaneous Custom Controls
+#FileID  : GenVS_d7bb1fff-1bb4-4778-8adf-4026514e446d
+#Modified: 06-07-2021 01:52:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

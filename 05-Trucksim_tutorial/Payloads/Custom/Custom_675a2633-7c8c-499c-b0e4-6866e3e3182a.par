@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Payload: Custom`Crate for Flatbed Utility Trailer`Crates
+DEFINE_PAYLOADS 1
+ILOAD = NLOAD
+OPT_PL_BODY_ID = IUNIT
+IOBJECT_SAVE
+SET_DESCRIPTION PAYLOAD_NAME Crate for Flatbed Utility Trailer
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Animator\STL\Shape_029acb8b-7500-45d4-b555-9fd8e2513d7b.par
+#BlueLink0 Animator: Shape File Link`Crate, Extra Small` Common Vehicle Assets: Payloads` , Animator`Shape_029acb8b-7500-45d4-b555-9fd8e2513d7b
+
+SET_OFFSET_X -4.00000018999
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.425000020186
+Z_CG_PL 425
+LX_CG_PL 4000
+Y_CG_PL 0
+M_PL 1500
+IXX_PL 240
+IYY_PL 540
+IZZ_PL 540
+IXZ_PL 0
+IXY_PL 0
+IYZ_PL 0
+*RX 0.400
+*RY 0.600
+*RZ 0.600
+
+IOBJECT_RESTORE
+
+LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Crate for Flatbed Utility Trailer
+#Library : Payload: Custom
+#DataSet : Crate for Flatbed Utility Trailer
+#Category: Crates
+#FileID  : Custom_675a2633-7c8c-499c-b0e4-6866e3e3182a
+#Created : 05-25-2021 09:18:32
+#Modified: 06-07-2021 01:49:43
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Payload: Custom
+
+END

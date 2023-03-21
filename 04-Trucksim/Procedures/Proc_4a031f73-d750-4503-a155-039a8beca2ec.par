@@ -1,0 +1,97 @@
+PARSFILE
+#FullDataName Procedures`Trailer Oscillation Test`Proving Ground
+#CheckBox1 1    
+OPT_INIT_PATH 1
+
+#RingCtrl0 2
+#RingCtrl1 -1
+#RingCtrl2 0
+OPT_STOP -1
+SSTART -100
+TSTART 0
+TSTART_WRITE = 0;
+SSTOP = SSTART + 1 ;
+OPT_DIRECTION 1
+TSTOP -1
+*SPEED 20
+*TSTOP 100
+*TSTART 0
+*SSTART -100
+*SSTOP 615
+
+OPT_SC 2
+PARSFILE Control\Driver\StrDM_deb5f723-7814-41c2-979b-da29eaf5948e.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`Lat Target for Trailer Oscillation Test` Vehicle Dynamics Tests` , Steering`StrDM_deb5f723-7814-41c2-979b-da29eaf5948e
+
+PARSFILE Control\Braking\PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT (All Available Gears)` Closed-Loop Shifting` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Control\Speed_t\SpdTime_c64a5745-347d-41a8-9bb0-134b4cc5c7cd.par
+#BlueLink31 Control: Speed (Closed Loop) Using Target Speed`Speeds for Trailer Oscillation` Speed vs. Station` , Speed vs. time`SpdTime_c64a5745-347d-41a8-9bb0-134b4cc5c7cd
+
+PARSFILE Roads\3D_Road\Road_d2010129-7485-4bf1-ad33-329bf86fc6c0.par
+#BlueLink0 Road: 3D Surface (All Properties)`Proving Ground` VS Scene Builder` , Miscellaneous`Road_d2010129-7485-4bf1-ad33-329bf86fc6c0
+
+PARSFILE Generic\Group\GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991.par
+#BlueLink1 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991
+
+#MiscYellow1
+PATH_ID_DM 1016 ! north/south test track
+define_parameter ART_H_MAX = 5; deg; Max hitch articulation allowed before recovery event
+define_parameter T_WAIT = 15; s; How long to continue run after max hitch art
+#ENDMYellow
+
+PARSFILE Events\Events_09c625d6-59e3-4d78-9dee-e56ffc144435.par
+#BlueLink7 Events`A. Monitor hitch articulation` Trailer Oscillation Test` , Miscellaneous`Events_09c625d6-59e3-4d78-9dee-e56ffc144435
+
+PARSFILE Plot\Setup\Plot_38af2fee-b452-4e50-bfca-9012303b5e16.par
+#BlueLink8 Plot: Setup`Yaw Rate of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_38af2fee-b452-4e50-bfca-9012303b5e16
+
+PARSFILE Plot\Setup\Plot_8aa6411f-4f0f-45db-b32c-d612009087f2.par
+#BlueLink9 Plot: Setup`Lateral Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_8aa6411f-4f0f-45db-b32c-d612009087f2
+
+PARSFILE Plot\Setup\Plot_6ab65115-f524-4f04-aecb-33140a974c8d.par
+#BlueLink10 Plot: Setup`Longitudinal Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_6ab65115-f524-4f04-aecb-33140a974c8d
+
+PARSFILE Plot\Setup\Plot_28c94c84-5587-4acc-a373-81fb9df7b26a.par
+#BlueLink11 Plot: Setup`Steering Wheel Angle vs. Time` Steering` , Plot`Plot_28c94c84-5587-4acc-a373-81fb9df7b26a
+
+PARSFILE Plot\Setup\Plot_c3bc997f-caac-4c8e-8974-69ef71d2b82c.par
+#BlueLink12 Plot: Setup`Steer Torque` Steering` , Plot`Plot_c3bc997f-caac-4c8e-8974-69ef71d2b82c
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink13 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_6daa361a-9613-477b-b0ba-ecec097e5c0e.par
+#BlueLink14 Plot: Setup`Hitch: Articulation Angle` Hitch` , Plot`Plot_6daa361a-9613-477b-b0ba-ecec097e5c0e
+
+PARSFILE Plot\Setup\Plot_1a980109-7e71-476e-a1d4-9576ff31b3d8.par
+#BlueLink15 Plot: Setup`Y vs. X -- Trajectory` Tracking` , Plot`Plot_1a980109-7e71-476e-a1d4-9576ff31b3d8
+
+PARSFILE Plot\Setup\Plot_6a38a39c-97c1-4891-b7bb-cbfcf0d77e3a.par
+#BlueLink16 Plot: Setup`Station vs. Time` Tracking` , Plot`Plot_6a38a39c-97c1-4891-b7bb-cbfcf0d77e3a
+
+PARSFILE Plot\Setup\Plot_c3bccf1f-980c-453e-88fc-06b3fa4c8b2d.par
+#BlueLink17 Plot: Setup`Hitch Angular Rates` Hitch` , Plot`Plot_c3bccf1f-980c-453e-88fc-06b3fa4c8b2d
+
+
+#EMBEDDED_NOTES
+#Speed is increased steadily through the straights while the steering is oscillated using a sine wave lateral target dataset.
+#
+#When hitch articulation angle exceeds a threshold, the throttle is released and the run is allowed to end after a wait period.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Proving Ground } Trailer Oscillation Test
+#Library : Procedures
+#DataSet : Trailer Oscillation Test
+#Category: Proving Ground
+#FileID  : Proc_4a031f73-d750-4503-a155-039a8beca2ec
+#Modified: 06-07-2021 01:49:12
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Generic VS Commands`Background Boxes, Upper, Large`Obstacle Avoidance
+#VehCode VS Commands
+
+#MiscYellow0
+!------------- Lower Outer Box --------------
+ADD_ENTITY hud_image Text_BG_Outer
+  size_mode absolute
+  place_mode absolute
+  align_x left
+  align_y top
+  location 5 5 440 175
+  red 0
+  green 0
+  blue 0
+  opacity .5
+!  image_file Animator\Hud\Text_Box.tga
+END_ENTITY hud_image Text_BG_Outer
+
+!------------- Lower Inner Box --------------
+ADD_ENTITY hud_image Text_BG_Inner
+  size_mode absolute
+  place_mode absolute
+  align_x left
+  align_y top
+  location 10 10 430 165
+  red 0
+  green 0
+  blue 0
+  opacity .25
+!  image_file Animator\Hud\Text_Box.tga
+END_ENTITY hud_image Text_BG_Inner
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Obstacle Avoidance } Background Boxes, Upper, Large
+#Library : Generic VS Commands
+#DataSet : Background Boxes, Upper, Large
+#Category: Obstacle Avoidance
+#FileID  : GenVS_b053c620-1bc8-44ff-a498-65d557c75695
+#Created : 10-13-2021 16:42:30
+#Modified: 10-13-2021 16:44:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

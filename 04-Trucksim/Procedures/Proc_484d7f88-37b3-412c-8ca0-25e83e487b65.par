@@ -1,0 +1,106 @@
+PARSFILE
+#FullDataName Procedures`V2V Highway Procedure, V2V Off`Multi-Vehicle
+#CheckBox1 1    
+OPT_INIT_PATH 1
+
+#RingCtrl0 2
+#RingCtrl1 1
+OPT_STOP 1
+SSTART 0
+TSTART 0
+TSTART_WRITE = 0;
+TSTOP 100
+SSTOP 6000
+OPT_DIRECTION 0
+*SPEED 0
+*TSTOP 100
+*TSTART 0
+*SSTART 0
+*SSTOP 6000
+
+OPT_SC 2
+PARSFILE Control\Driver\StrDM_e2398fab-b956-498b-8858-93e89178bdf3.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`0.6s Single Preview` Constant Position: No Offset` , Steering`StrDM_e2398fab-b956-498b-8858-93e89178bdf3
+
+PARSFILE Control\Gear_at\GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f.par
+#BlueLink30 Control: Shifting (Closed Loop)`NGEARS, Clutch Act 0.5s, Gear 0.1s` Closed-Loop Shifting` , Shifting Control`GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f
+
+PARSFILE Control\Speed_t\SpdTime_b883ca77-2e1c-4f2d-96b8-7283d4e197d5.par
+#BlueLink31 Control: Speed (Closed Loop) Using Target Speed`Constant: 0 km/h` Constant` , Speed vs. time`SpdTime_b883ca77-2e1c-4f2d-96b8-7283d4e197d5
+
+#MiscYellow0
+! ACC set speed
+DEFINE_PARAMETER EGO_SPEED = 110; km/h; ego vehicle speed
+#ENDMYellow
+
+PARSFILE Roads\3D_Road\Road_9abb622a-eb7a-4230-907a-2162a918d046.par
+#BlueLink0 Road: 3D Surface (All Properties)`Highway Loop` VS Scene Builder` , Miscellaneous`Road_9abb622a-eb7a-4230-907a-2162a918d046
+
+PARSFILE Generic\VS_commands\GenVS_272570ce-6378-4779-a26b-1fdc8e87ca9b.par
+#BlueLink1 Generic VS Commands`V2V Scenario Setup` Obstacle Avoidance` , Miscellaneous`GenVS_272570ce-6378-4779-a26b-1fdc8e87ca9b
+
+PARSFILE Generic\Group\GenGrp_ccebe0b2-600a-41a0-8b56-4c23735a6432.par
+#BlueLink2 Generic Data Group`2 Vehicles: 3A Cab-Over, 2A Trailers` Multiple Vehicles` , Miscellaneous`GenGrp_ccebe0b2-600a-41a0-8b56-4c23735a6432
+
+PARSFILE Generic\VS_commands\GenVS_f6d098a4-f675-41e6-a3f1-a61285bfe0ff.par
+#BlueLink3 Generic VS Commands`V2V AEB Actuation Off` Obstacle Avoidance` , Miscellaneous`GenVS_f6d098a4-f675-41e6-a3f1-a61285bfe0ff
+
+PARSFILE Plot\Setup\Plot_93f9222e-e03b-462f-9848-ebc24c122b1d.par
+#BlueLink8 Plot: Setup`Current Path ID` Road Network Driving` , Plot`Plot_93f9222e-e03b-462f-9848-ebc24c122b1d
+
+PARSFILE Plot\Setup\Plot_6a38a39c-97c1-4891-b7bb-cbfcf0d77e3a.par
+#BlueLink9 Plot: Setup`Station vs. Time` Tracking` , Plot`Plot_6a38a39c-97c1-4891-b7bb-cbfcf0d77e3a
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink10 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd.par
+#BlueLink11 Plot: Setup`Throttle: Control Input` Controls: Driver` , Plot`Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd
+
+PARSFILE Plot\Setup\Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806.par
+#BlueLink12 Plot: Setup`Brake Control: Master Cyl. Pressure` Braking` , Plot`Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806
+
+PARSFILE Plot\Setup\Plot_28c94c84-5587-4acc-a373-81fb9df7b26a.par
+#BlueLink13 Plot: Setup`Steering Wheel Angle vs. Time` Steering` , Plot`Plot_28c94c84-5587-4acc-a373-81fb9df7b26a
+
+PARSFILE Plot\Setup\Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6.par
+#BlueLink14 Plot: Setup`Gear Selection` Powertrain` , Plot`Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6
+
+PARSFILE Plot\Setup\Plot_6ab65115-f524-4f04-aecb-33140a974c8d.par
+#BlueLink15 Plot: Setup`Longitudinal Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_6ab65115-f524-4f04-aecb-33140a974c8d
+
+PARSFILE Plot\Setup\Plot_8aa6411f-4f0f-45db-b32c-d612009087f2.par
+#BlueLink16 Plot: Setup`Lateral Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_8aa6411f-4f0f-45db-b32c-d612009087f2
+
+PARSFILE Plot\Setup\Plot_4af2f9b1-0431-4d0f-825a-d6b3145172e5.par
+#BlueLink17 Plot: Setup`Roll Angle of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_4af2f9b1-0431-4d0f-825a-d6b3145172e5
+
+PARSFILE Plot\Setup\Plot_811b0750-5160-4ae1-aa82-2aabb3ab9af2.par
+#BlueLink19 Plot: Setup`Throttle: Closed Loop Speed Control` Controls: Driver` , Plot`Plot_811b0750-5160-4ae1-aa82-2aabb3ab9af2
+
+PARSFILE Plot\Setup\Plot_51a6644a-f50f-4fa2-847b-426fde66cec7.par
+#BlueLink20 Plot: Setup`Closed-Loop Speed Controller Properties` Speed Controller` , Plot`Plot_51a6644a-f50f-4fa2-847b-426fde66cec7
+
+PARSFILE Plot\Setup\Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31.par
+#BlueLink21 Plot: Setup`Engine RPM` Powertrain` , Plot`Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31
+
+
+#EMBEDDED_NOTES
+#V2V activation logic is located in the V2V AEB Activation Dataset
+#- This logic assumes the ego vehicle can receive the lead vehicle's longitudinal acceleration (among other lead vehicle sensor values) via a given V2V communication protocol
+#
+#This particular example does not have V2V signal transmission capabiilty turned on
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Multi-Vehicle } V2V Highway Procedure, V2V Off
+#Library : Procedures
+#DataSet : V2V Highway Procedure, V2V Off
+#Category: Multi-Vehicle
+#FileID  : Proc_484d7f88-37b3-412c-8ca0-25e83e487b65
+#Created : 10-27-2021 13:53:37
+#Modified: 11-01-2021 13:28:05
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

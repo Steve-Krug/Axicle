@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Frame node`Chassis twist study
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Geometric_Shapes\Cylinders\cylinder_Yaxis_1m_diameter_1m_long.obj
+#ENDMYellow
+
+SET_COLOR 1 0 0
+SET_SCALE_X 0.1
+SET_SCALE_Y 1.8
+SET_SCALE_Z 0.1
+SET_OFFSET_X 0
+SET_OFFSET_Y -1.00
+SET_OFFSET_Z 0
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_fc9bb165-03b5-45b2-b0f6-fa17c015d94b.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_fc9bb165-03b5-45b2-b0f6-fa17c015d94b
+
+*IMAGE_TYPE DEFAULT
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Chassis twist study } Frame node
+#Library : Animator: Shape File Link
+#DataSet : Frame node
+#Category: Chassis twist study
+#FileID  : Shape_bf4121c1-a9f6-4327-9f38-73c842ed14a1
+#Modified: 06-07-2021 01:53:40
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

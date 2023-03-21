@@ -1,0 +1,83 @@
+PARSFILE
+#FullDataName Suspension: Lateral Movement Due to Roll and Jounce`-2.4 mm/deg`Rear
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_SUSP_Y_AXLE_ROLL 0
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+SUSP_Y_AXLE_ROLL_COMBINE ADD
+
+! Note: if *TABLE_KEYWORD is not set to "SUSP_Y_AXLE_ROLL" then Y values read from the table will be reversed.
+*SCALAR2 0
+*TABLE_KEYWORD SUSP_Y_AXLE_ROLL
+
+#DiagramOne0
+SUSP_Y_AXLE_ROLL_TABLE SPLINE
+-10, 24
+-9.5, 22.8
+-9, 21.6
+-8.5, 20.4
+-8, 19.2
+-7.5, 18
+-7, 16.8
+-6.5, 15.6
+-6, 14.4
+-5.5, 13.2
+-5, 12
+-4.5, 10.8
+-4, 9.6
+-3.5, 8.4
+-3, 7.2
+-2.5, 6
+-2, 4.8
+-1.5, 3.6
+-1, 2.4
+-0.5, 1.2
+0, 0
+0.5, -1.2
+1, -2.4
+1.5, -3.6
+2, -4.8
+2.5, -6
+3, -7.2
+3.5, -8.4
+4, -9.6
+4.5, -10.8
+5, -12
+5.5, -13.2
+6, -14.4
+6.5, -15.6
+7, -16.8
+7.5, -18
+8, -19.2
+8.5, -20.4
+9, -21.6
+9.5, -22.8
+10, -24
+ENDTABLE
+SUSP_LAT_AXLE_JOUNCE_CONSTANT 0
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+#EMBEDDED_NOTES
+#Name of this dataset was "Roll Center: 139 mm Above Axle".
+#Directly/Inversely propositional relationship between "Lateral movement" and "Roll relative to axle" implies where the roll center is relative to solid axle.
+#
+#In this dataset, 5 degrees of roll corresponds to -12.093 mm of lateral movement. Hence, -12.093/(sin 5) = -139 mm (Roll center is 139 mm above Axle)
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; { Rear } -2.4 mm/deg
+#Library : Suspension: Lateral Movement Due to Roll and Jounce
+#DataSet : -2.4 mm/deg
+#Category: Rear
+#FileID  : LatRoll_d1616c06-96ba-4294-8161-d34c3e2c9eb2
+#Created : 11-24-2021 15:20:51
+#Modified: 11-24-2021 15:36:19
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Lateral Movement
+
+END

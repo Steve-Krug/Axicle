@@ -1,0 +1,70 @@
+PARSFILE
+#FullDataName ADAS Sensors for Range and Tracking`Platooning Sensor (Yellow)`Platooning Sensor
+DEFINE_SENSORS 1
+ISENSOR = NSENSOR
+NSENSORS_INCREMENT
+symbol_add <<s>> 1
+SET_DESCRIPTION SENSOR_NAME Platooning Sensor (Yellow)
+#CheckBox0 1    
+#CheckBox1 0    
+OPT_BLOCK_SENSOR 0
+#CheckBox2 1    
+OPT_SORT_OUTPUTS_SENSOR 1
+#CheckBox3 1    
+#CheckBox5 0    
+OPT_EXPORT_SENSOR 0
+#CheckBox6 1    
+
+#RingCtrl0 0
+#RingCtrl1 1
+SENSOR_DETECT_TRANSLUCENCY 1
+#RingCtrl2 1
+IUNIT_SENSOR 1
+#RingCtrl3 1
+TYPE_SENSOR 1
+PARSFILE Sensors_Traffic\Radar_Range\Range_0acd492c-7519-4409-a50d-a1a5400f8771.par
+#BlueLink0 Sensor Range and Bearing Sensitivity`25-m Range` Limit from Range` , Range & Bearing Sensitivity`Range_0acd492c-7519-4409-a50d-a1a5400f8771
+
+PARSFILE Sensors_Traffic\Radar_Elevation\SenElev_4fdaa102-cfee-4a8f-aeaf-c650b6f76306.par
+#BlueLink1 Sensor Elevation Sensitivity`Unity Gain` ` , Elevation Sensitivity`SenElev_4fdaa102-cfee-4a8f-aeaf-c650b6f76306
+
+X_SENSOR 1000
+Y_SENSOR 0
+Z_SENSOR 2900
+YAW_AIM_SENSOR 0
+PITCH_AIM_SENSOR 0
+ROLL_AIM_SENSOR 0
+SENSOR_DETECT_COLOR 1 1 0
+*SET_TRANSPARENCY 0.15
+*SET_COLOR_FIELD 1 0 0
+BEARING_MIN_SENSOR -80
+BEARING_MAX_SENSOR 80
+
+SPECIAL_PARSFILE Animator\STL\Shape_67b13483-d0c2-48d7-bef0-4c603104a0d7.par
+#BlueLink3 Animator: Shape File Link`Cube: Sensor Vector` Geometric Shapes` , Shape for vector`Shape_67b13483-d0c2-48d7-bef0-4c603104a0d7
+
+SENSOR_DETECT_OBJ Animator\STL\Shape_67b13483-d0c2-48d7-bef0-4c603104a0d7.par
+#MiscYellow0
+N_MIN_DETECTIONS 4
+ani_global_interpolation on
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#The sensor looks forward and is located in front of the vehicle origin. It has a wide field of view of 160 deg, and a range of 50 m.
+#
+#Used for the City Environement Examples.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { Platooning Sensor } Platooning Sensor (Yellow)
+#Library : ADAS Sensors for Range and Tracking
+#DataSet : Platooning Sensor (Yellow)
+#Category: Platooning Sensor
+#FileID  : Radar_2385417c-6c52-4311-abc5-8414941bb35c
+#Created : 08-10-2021 14:26:36
+#Modified: 09-20-2021 14:02:11
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode ADAS Sensor
+
+END

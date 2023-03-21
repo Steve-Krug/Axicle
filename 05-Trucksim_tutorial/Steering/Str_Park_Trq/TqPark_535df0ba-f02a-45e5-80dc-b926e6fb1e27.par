@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Steering: Parking Torque`Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+MZ_PARKING_STEER_COMBINE MULTIPLY
+MZ_PARKING_STEER_CONSTANT 0
+MZ_PARKING_STEER_FZ_CONSTANT 1
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*SCALAR 0
+*SCALAR2 1
+A_MZ_BETA 1
+
+
+LOG_ENTRY Used Dataset: Steering: Parking Torque; Zero
+#Library : Steering: Parking Torque
+#DataSet : Zero
+#Category: 
+#FileID  : TqPark_535df0ba-f02a-45e5-80dc-b926e6fb1e27
+#Modified: 06-07-2021 01:49:06
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Parking Torque
+
+END

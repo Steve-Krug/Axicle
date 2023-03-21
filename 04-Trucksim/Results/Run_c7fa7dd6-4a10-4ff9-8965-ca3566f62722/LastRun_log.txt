@@ -1,0 +1,495 @@
+Run made by TruckSim 2022.1 at 14:55 on June 02, 2022.
+
+Started with simfile: simfile_Run_c7fa7dd6-4a10-4ff9-8965-ca3566f62722.sim
+
+Include PARSFILE "Results\Run_c7fa7dd6-4a10-4ff9-8965-ca3566f62722\Run_all.par"
+Installed keywords into VS Solver for MODEL_LAYOUT I_I
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Vehicle X-Y-Z
+Used Dataset: Animator: Camera Setup; { ADAS and Euro NCAP: Camera Views } Automated Emergency Braking
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Stripe
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Brake Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV w/ Stripe
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 255/75 R16
+Used Dataset: Tire; { Touring Tires } 255/75 R16
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Stripe
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Brake Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV w/ Stripe
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 255/75 R16
+Used Dataset: Tire; { Touring Tires } 255/75 R16
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Stripe
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Brake Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV w/ Stripe
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 255/75 R16
+Used Dataset: Tire; { Touring Tires } 255/75 R16
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Tire
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Wheel
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Stripe
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Tires } 205/70 R15: Brake Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV w/ Stripe
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 255/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 255/75 R16
+Used Dataset: Tire; { Touring Tires } 255/75 R16
+Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Touring Tires } 255/75 R16
+Used Dataset: Suspension: Dive Angle (Caster Change); { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Longitudinal Movement; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Camber Angle; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Toe Angle; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Longitudinal Movement; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Camber Angle; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Toe Angle; { Utility Vehicles } Large European Van - Front
+Used Dataset: Suspension: Independent System Kinematics; { Large European Van } Large Euro Van Ind. Kinematics - Front
+Used Dataset: Suspension: Shock Absorber; { Non-linear } Large Euro Van
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 100 mm to 150 mm } +150 mm / -110 mm
+Used Dataset: Suspension: Shock Absorber; { Non-linear } Large Euro Van
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 100 mm to 150 mm } +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Large European Van } Large Euro. Van Ind. Compliance - Front
+Used Dataset: Brakes: Torque; { Hydraulic Brakes } 7.5 kN-m, Hydraulic
+Used Dataset: Brakes: Torque; { Hydraulic Brakes } 7.5 kN-m, Hydraulic
+Used Dataset: Brakes: Two-Wheel System; { Hydraulic Brakes } 7.5 kN-m capacity, Hydraulic (2 ch. ABS)
+Used Dataset: Steering System: Steer Gain vs. Speed; { Constant } Constant: One (Always Steered)
+Used Dataset: Steering System: Kinematics for One Wheel; { 4 m Wheelbase } Left Wheel, 4 m Wheelbase
+Used Dataset: Steering: Parking Torque; { Constant } Constant: Zero
+Used Dataset: Steering System: Kinematics for One Wheel; { 4 m Wheelbase } Right Wheel, 4 m Wheelbase
+Used Dataset: Steering: Parking Torque; { Constant } Constant: Zero
+Used Dataset: Steering System; { Medium - Heavy Duty Steering } Short (4 m) Wheelbase
+Used Dataset: Suspension: Dive Angle (Caster Change); { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Longitudinal Movement; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Camber Angle; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Toe Angle; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Dive Angle (Caster Change); { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Longitudinal Movement; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Camber Angle; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Toe Angle; { Utility Vehicles } Large European Van - Rear
+Used Dataset: Suspension: Independent System Kinematics; { Large European Van } Large European Van - Rear
+Used Dataset: Suspension: Spring; { Utility Vehicles } Light Duty Utility Vehicle
+Used Dataset: Suspension: Shock Absorber; { Non-linear } Large Euro Van
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 100 mm to 150 mm } +100 mm / -60 mm
+Used Dataset: Suspension: Spring; { Utility Vehicles } Light Duty Utility Vehicle
+Used Dataset: Suspension: Shock Absorber; { Non-linear } Large Euro Van
+Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 100 mm to 150 mm } +100 mm / -60 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Large European Van } Large European Van - Rear
+Used Dataset: Brakes: Torque; { Hydraulic Brakes } 7.5 kN-m, Hydraulic
+Used Dataset: Brakes: Torque; { Hydraulic Brakes } 7.5 kN-m, Hydraulic
+Used Dataset: Brakes: Two-Wheel System; { Hydraulic Brakes } 7.5 kN-m capacity, Hydraulic (2 ch. ABS)
+Used Dataset: Vehicle: Lead Unit Sprung Mass; { 2 Axle Trucks } Large European Van
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.30 at 0 deg.
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 2 at 90 deg.
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.18 at 0 deg.
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.3 at 90 deg.
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.15 at 0 deg.
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; { Spline Interpolation } Spline: 0.2 at 35 deg.
+Used Dataset: Aerodynamics: Basic; { Large European Van } Large Euro Van Aerodynamics
+WARNING: The keyword OPT_PT has been deprecated
+Used Dataset: Powertrain: Fuel Consumption Rate; { Fuel Rate Map vs. Engine Speed } 150 kW Diesel
+Used Dataset: Powertrain: Engine; { Engines: 150 kW to 250 kW } 150 kW Diesel (3000 RPM)
+Used Dataset: Powertrain: Torque Converter; { Torque Converters: 150 kW to 250 kW } 150 kW, 3000 RPM Engine
+Used Dataset: Powertrain: Shift Schedule; { 5-Speed Shift Schedule, 3100 RPM } 5 Spd. AT, 1-2, 3100 RPM
+Used Dataset: Powertrain: Shift Schedule; { 5-Speed Shift Schedule, 3100 RPM } 5 Spd. AT, 2-3, 3100 RPM
+Used Dataset: Powertrain: Shift Schedule; { 5-Speed Shift Schedule, 3100 RPM } 5 Spd. AT, 3-4, 3100 RPM
+Used Dataset: Powertrain: Shift Schedule; { 5-Speed Shift Schedule, 3100 RPM } 5 Spd. AT, 4-5, 3100 RPM
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); { 5-Speed } 5 Spd., AT, 3100 RPM
+Used Dataset: Powertrain: Rear Differential; { Open } Open Differential: Gear Ratio 3.92:1
+Used Dataset: Powertrain: Rear-Wheel Drive; { 150 kW Powertrains } 150 kW, 5 Speed AT
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Body
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Lights
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Details
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Windows (Front)
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Window Trim (Front)
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Windows (Rear)
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Window Trim (Rear)
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Seats
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Steering Wheel
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Driver (Caucasian Male)
+Used Dataset: Animator: Shape Assembly; { Vans and Buses } Large European Van
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Brake Lights
+Used Dataset: Animator: Shape File Link; { Trucks: Vans } Large Van: Reverse Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { 2A Utility Trucks and Vans } 2A Large European Van with Single Tires
+Used Dataset: Steering Wheel Torque; Linear: 1/25 (Typical)
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Hitches: Ball Hitch
+Used Dataset: Hitch: Joint Assembly; { Ball Hitches } Ball Hitch
+Used Dataset: Vehicle: Lead Unit with 2 Axles; { Large European Van } Euro Van (I_I)
+Used Dataset: Generic VS Commands; { Obstacle Avoidance } Obstacle Parameters
+Used Dataset: Sensor Range and Bearing Sensitivity; { Sensor Range w/ Equations } Pedestrian Detection
+Used Dataset: Sensor Elevation Sensitivity; Unity Gain
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { ADAS Sensor Target Properties } ID and Message of Closest Object
+Used Dataset: Plot: Setup; { ADAS Sensor Target Properties } Sensor Y for Closest Pedestrian
+Used Dataset: ADAS Sensors for Range and Tracking; { Forward Facing Sensors: FCW and ACC } Camera,Van
+WARNING: The keyword OPT_VMIN has been deprecated
+Used Dataset: Animator: HUD; { Alerts } FCW Alert (small, rt. side, high)
+Used Dataset: Generic VS Commands; { ADAS Support } FCW-AEB Tuning
+Used Dataset: Sensor Range and Bearing Sensitivity; { Sensor Range w/ Equations } 80-m Range, 2.5m Bearing
+Used Dataset: Sensor Elevation Sensitivity; Unity Gain
+Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Sensor Fields: 20 deg FOV
+Used Dataset: ADAS Sensors for Range and Tracking; { ADAS Sensor } Van: ACC, Range, Sensitivity by EQN
+Used Dataset: Sensor Reflectiveness Map; 2 Sensor Types, 2 Material Types
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Path Detections } Left Lane Marking, LKAS, RT. Lane
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Multiple Moving Objects; { Path Detections } Detected Path Visual
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Path Detections } Right Lane Marking, LKAS, RT. Lane
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Red)
+Used Dataset: Multiple Moving Objects; { Path Detections } Detected Path Visual
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Path Detections } Center of Rt. Lane
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Path Detections } Center of Rt. Lane
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Green)
+Used Dataset: Multiple Moving Objects; { Path Detections } Detected Path Visual (Green)
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Path Detector } Path Detector Origin
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Path Detector } Target Points, Road Curvature
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Path Detector } Detected Curvature at PD Origin, 4
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Path Detector } Detected Curvature Rate
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Path Detector } Detected Path Offset at PD Origin
+Used Dataset: Generic Group of Links; { Path Detection } Path Detector Plots, Four
+Used Dataset: Path Detectors for External Driver Control; Three Detected Paths Pls. Curvature Est.
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Sphere 0.2 m (Orange)
+Used Dataset: Multiple Moving Objects; { Points of Interest } Expected Vehicle Location, Closest
+Used Dataset: Plot: Setup; { Obstacle Avoidance } Object Offset Outputs
+Used Dataset: Plot: Setup; { Obstacle Avoidance } Predicted Point
+Used Dataset: Generic VS Commands; { ADAS Support } Vehicle In-Lane Detection, 4 Paths
+Used Dataset: Animator: HUD; { HUD Groups } ACC Icon, Rt. Side, Mid.
+Used Dataset: Animator: HUD; { ACC - Adaptive Cruise Control } ACC Bars, Rt. Side, Mid.
+Used Dataset: Plot: Setup; { Obstacle Avoidance } Sensing: Relative Distances and Speeds
+Used Dataset: Plot: Setup; { Obstacle Avoidance } ACC Validation Outputs: 1
+Used Dataset: Plot: Setup; { Obstacle Avoidance } ACC Validation Outputs: 2
+Used Dataset: Plot: Setup; { Obstacle Avoidance } ACC Validation: SC Gain Check
+Used Dataset: Generic VS Commands; { ADAS Support } Van, ACC Logic: w/HUD, in-lane calc.
+Used Dataset: Generic Data Group; { ADAS: Sensor Setup } Euro Van: AEB (off), ACC Sensor Setup
+Used Dataset: Generic VS Commands; { Euro NCAP } Background Boxes: Lower, Large
+Used Dataset: Animator: HUD; { Euro NCAP } Time-To-Collision Radar, Low
+Used Dataset: Generic VS Commands; { Path Detection } LKAS Strong Control.: LDW + RDM
+Used Dataset: Animator: HUD; { Alerts } Lane Departures
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { ADAS and AEB Alerts and Commands } Lane Detection Alerts: LDW From LKAS
+Used Dataset: Generic VS Commands; { ADAS Support } Lane Departure Warning, from Path Det.
+Used Dataset: Generic Data Group; { LKAS, LDW, RDM } LKAS Strong Control: LDW + RDM
+Used Dataset: Vehicle: Loaded Combination; { European Vans } Euro Van: ACC, FCW, LKAS, (AEB off)
+Used Dataset: Control: Clutch Shifting Timelines (Closed Loop); Clutch Actuation: 0.5s, Gear Change: 0.1s
+Used Dataset: Control: Shifting (Closed Loop); { Closed-Loop Shifting } NGEARS, Clutch Act 0.5s, Gear 0.1s
+Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Constant } Constant: 0 km/h
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.9
+Used Dataset: Road: Animator Surface Shapes; { Flat Test Pads } 1 km Square Surface
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Skybox (Vehicle X-Y-Z)
+Used Dataset: Animator: Shape File Link; { Environment: Sky Boxes } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Environment: Land Bowls } Light Grass
+Used Dataset: Animator: Group; { Environment Spheres } Partly Cloudy Sky with Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Proving Ground: Functional Roads } ID 999: 1 km Sq. VDA, 0.9 mu
+ Euro NCAP: Steer Assist, S-Bend <S-Turns>
+Used Dataset: Path: Segment Builder; { S-Turns } Euro NCAP: Steer Assist, S-Bend
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.9
+Used Dataset: Road: Animator Surface Shapes; { Roads } 1 km Road w/Painted Lines
+Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Skybox (Vehicle X-Y-Z)
+Used Dataset: Animator: Shape File Link; { Environment: Sky Boxes } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Environment: Land Bowls } Light Grass
+Used Dataset: Animator: Group; { Environment Spheres } Partly Cloudy Sky with Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Proving Ground: Functional Roads } 1001: 1 km, Two Lanes, Mu=0.90, Curved
+Used Dataset: Generic Group of Links; { Generic Proving Ground } PG: Curved Road, Two Lanes
+Used Dataset: Generic VS Commands; { Euro NCAP } ACC, CCRs-Curved, VUT and GVT Setup
+Used Dataset: Animator: Shape File Link; { ADAS and AV Test Assets } Euro NCAP GVT Body
+Used Dataset: Animator: Shape File Link; { ADAS and AV Test Assets } GVT Platform
+Used Dataset: Animator: Shape Assembly; { Euro NCAP } Euro NCAP GVT and Platform
+Used Dataset: Animator: Vehicles and Sensor Targets; { Sensor Targets } Euro NCAP GVT
+Used Dataset: Multiple Moving Objects; { Euro NCAP } Global Vehicle Target (GVT) for ACC
+Used Dataset: Generic VS Commands; { Euro NCAP } Backgnd Boxes: Upper, Wide
+Used Dataset: Animator: HUD; { Euro NCAP } ACC HUD, Collided Outputs
+Used Dataset: Animator: HUD; { Euro NCAP } Total Score Output, ACC
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { ADAS Sensor Detections } ACC Euro NCAP Scoring Speeds
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { ADAS Sensor Detections } ACC Euro NCAP Scoring
+Used Dataset: Generic VS Commands; { Euro NCAP } Euro NCAP: CCRs Curv Setup and Scoring
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s A. Wait for ACC to Intervene
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Vehicle Motion } Longit. Accel. of CG's vs. Time (m/s2)
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Braking } Brake Control: Master Cyl. Pressure
+Used Dataset: Plot: Format; Line Plots, No Symbols
+Used Dataset: Plot: Setup; { Powertrain } Gear Selection
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { ADAS and AEB Alerts and Commands } Euro NCAP: AEB Booleans
+Used Dataset: Procedures; { ACC: Adaptive Cruse Control } ACC Test Series: CCRs, Curved Road
+Used Dataset: Animator: HUD; { HUD Groups } Throttle and Speed, L. Side, 19% Up
+Used Dataset: Animator: HUD; { Euro NCAP } CCRs, Curved Road Label
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Cube: Sensor Vector
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+Used Dataset: Animator: Shape File Link; { Geometric Shapes } Square for Sensor Beam
+ ACC: CCRs Test Series, Curved Road <ACC: Euro NCAP Tests>
+Used Dataset: TruckSim Run Control; { ACC: Euro NCAP Tests } ACC: CCRs Test Series, Curved Road
+
+Time to read input = 0.472029
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+
+Run started: VS output file = Results\Run_c7fa7dd6-4a10-4ff9-8965-ca3566f62722\Run.vsb
+
+Event #1 occurred at t = 1.9495: minACC_Gain < 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_8de4b4a3-83b4-4f84-b8a9-11b39f5ba7e8.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s B. Monitor Braking Progress, ACC
+Function FY_TIRE_CARPET(2,1,1) extrapolated (out of range HIGH) for X = 26.092 deg at T = 2.275
+Function MZ_TIRE_CARPET(2,1,1) extrapolated (out of range HIGH) for X = 26.092 deg at T = 2.275
+
+Event #2 occurred at t = 6.199: Vxz_Fwd <= Vx_GVT + MIN_THRESH
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_bd59cbeb-2784-4f41-aa16-9db9fe11ff79.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s C. Check More Tests, ACC
+
+Event #3 occurred at t = 6.1995: Crashed <= 0
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_80f1ba63-70a1-4fc3-ac8d-0590e24a3107.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s D. New Test, Increase Speed, ACC
+
+Event #4 occurred at t = 6.2: VUT_START <= MAX_TEST_SPD
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_eaef6f73-0e25-4c26-a77f-83e7822086a3.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s F2. Reset Veh. and Targets, ACC
+
+Event #5 occurred at t = 6.2005: 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_7dbb3db2-082d-4ab8-a1b0-8d270bea0f83.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s A. Wait for ACC to Intervene
+
+Event #6 occurred at t = 8.35: minACC_Gain < 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_8de4b4a3-83b4-4f84-b8a9-11b39f5ba7e8.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s B. Monitor Braking Progress, ACC
+
+Event #7 occurred at t = 12.167: Vxz_Fwd <= Vx_GVT + MIN_THRESH
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_bd59cbeb-2784-4f41-aa16-9db9fe11ff79.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s C. Check More Tests, ACC
+
+Event #8 occurred at t = 12.1675: Crashed <= 0
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_80f1ba63-70a1-4fc3-ac8d-0590e24a3107.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s D. New Test, Increase Speed, ACC
+
+Event #9 occurred at t = 12.168: VUT_START <= MAX_TEST_SPD
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_eaef6f73-0e25-4c26-a77f-83e7822086a3.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s F2. Reset Veh. and Targets, ACC
+
+Event #10 occurred at t = 12.1685: 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_7dbb3db2-082d-4ab8-a1b0-8d270bea0f83.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s A. Wait for ACC to Intervene
+
+Event #11 occurred at t = 14.542: minACC_Gain < 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_8de4b4a3-83b4-4f84-b8a9-11b39f5ba7e8.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s B. Monitor Braking Progress, ACC
+Function FY_TIRE_CARPET(2,2,1) extrapolated (out of range HIGH) for X = 26.0588 deg at T = 17.6325
+Function MZ_TIRE_CARPET(2,2,1) extrapolated (out of range HIGH) for X = 26.0588 deg at T = 17.6325
+Function FY_TIRE_CARPET(1,1,1) extrapolated (out of range HIGH) for X = 26.9655 deg at T = 17.653
+Function MZ_TIRE_CARPET(1,1,1) extrapolated (out of range HIGH) for X = 26.9655 deg at T = 17.653
+Function FY_TIRE_CARPET(1,2,1) extrapolated (out of range HIGH) for X = 26.8537 deg at T = 17.656
+Function MZ_TIRE_CARPET(1,2,1) extrapolated (out of range HIGH) for X = 26.8537 deg at T = 17.656
+
+Event #12 occurred at t = 17.82: Vxz_Fwd <= Vx_GVT + MIN_THRESH
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_bd59cbeb-2784-4f41-aa16-9db9fe11ff79.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s C. Check More Tests, ACC
+
+Event #13 occurred at t = 17.8205: Crashed <= 0
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_80f1ba63-70a1-4fc3-ac8d-0590e24a3107.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s D. New Test, Increase Speed, ACC
+
+Event #14 occurred at t = 17.821: VUT_START <= MAX_TEST_SPD
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_eaef6f73-0e25-4c26-a77f-83e7822086a3.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s F2. Reset Veh. and Targets, ACC
+
+Event #15 occurred at t = 17.8215: 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_7dbb3db2-082d-4ab8-a1b0-8d270bea0f83.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s A. Wait for ACC to Intervene
+Function FUEL_RATE_CARPET extrapolated (out of range HIGH) for X = 2500.57 rpm at T = 17.945
+
+Event #16 occurred at t = 20.402: minACC_Gain < 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_8de4b4a3-83b4-4f84-b8a9-11b39f5ba7e8.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s B. Monitor Braking Progress, ACC
+
+Event #17 occurred at t = 22.58: Contact
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_c47f3b61-2f86-4788-bc46-5c648df621dd.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s F1: ACC New Test, Decrease Spd
+
+Event #18 occurred at t = 22.5805: 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_eaef6f73-0e25-4c26-a77f-83e7822086a3.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s F2. Reset Veh. and Targets, ACC
+
+Event #19 occurred at t = 22.581: 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_7dbb3db2-082d-4ab8-a1b0-8d270bea0f83.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s A. Wait for ACC to Intervene
+
+Event #20 occurred at t = 24.9685: minACC_Gain < 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_8de4b4a3-83b4-4f84-b8a9-11b39f5ba7e8.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s B. Monitor Braking Progress, ACC
+
+Event #21 occurred at t = 28.1285: Contact
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_c47f3b61-2f86-4788-bc46-5c648df621dd.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s F1: ACC New Test, Decrease Spd
+
+Event #22 occurred at t = 28.129: 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_eaef6f73-0e25-4c26-a77f-83e7822086a3.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s F2. Reset Veh. and Targets, ACC
+Function MENGINE_CARPET extrapolated (out of range HIGH) for X = 3692.78 rpm at T = 28.1295
+
+Event #23 occurred at t = 28.1295: 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_7dbb3db2-082d-4ab8-a1b0-8d270bea0f83.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s A. Wait for ACC to Intervene
+
+Event #24 occurred at t = 30.478: minACC_Gain < 1
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_8de4b4a3-83b4-4f84-b8a9-11b39f5ba7e8.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s B. Monitor Braking Progress, ACC
+
+Event #25 occurred at t = 33.7415: Vxz_Fwd <= Vx_GVT + MIN_THRESH
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_bd59cbeb-2784-4f41-aa16-9db9fe11ff79.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s C. Check More Tests, ACC
+
+Event #26 occurred at t = 33.742: Crashed > 0
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_1868dbf7-d963-4f39-9bd6-a359e9101735.par"
+Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s D. Pause before ending
+
+Event #27 occurred at t = 34.742: T_EVENT > SCORE_PAUSE_TIME
+Include PARSFILE "D:\product_dev\Product_Checkouts\trunk\Image\TruckSim\Core\TruckSim_Data\Events\Events_9b376ff0-310d-419e-87f0-0c4307dfa086.par"
+
+Run stopped at t = 34.742. VS Command STOP_RUN_NOW End event triggered
+Used Dataset: Events; End Events
+
+Computational time ratio: RTIME = 0.534937 (real time)/(simulation time)
+

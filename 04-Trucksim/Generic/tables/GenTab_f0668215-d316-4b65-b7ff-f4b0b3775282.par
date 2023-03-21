@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Generic Table`Driver Demand Power: Full Load 300 kW`Powertrain (HEV)
+#RingCtrl0 COEFFICIENT
+#CheckBox0 0    
+
+PWR_DRV_THROTTLE_COEFFICIENT 300
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD PWR_DRV_THROTTLE
+*X_LABEL Throttle pedal position (-)
+*Y_LABEL Driving power (kW)
+*SCALAR 300
+*X_LABEL_2 Temperature (C)
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Driver Demand Power: Full Load 300 kW
+#Library : Generic Table
+#DataSet : Driver Demand Power: Full Load 300 kW
+#Category: Powertrain (HEV)
+#FileID  : GenTab_f0668215-d316-4b65-b7ff-f4b0b3775282
+#Created : 05-14-2021 09:51:06
+#Modified: 06-07-2021 01:53:02
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

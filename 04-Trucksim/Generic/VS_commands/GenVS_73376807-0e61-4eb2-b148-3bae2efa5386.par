@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Generic VS Commands`Raise one wheel, lower one wheel`Chassis twist study
+#VehCode VS Commands
+
+#MiscYellow0
+! Amplitude of motion of the ground (m)
+define_parameter amp = 0.1; m;
+
+eq_in imp_zgnd_l1i = amp * sin(2 * pi * 0.1 * t) + amp
+eq_in imp_zgnd_r1i = -amp * sin(2 * pi * 0.1 * t) + amp
+eq_in imp_zgnd_l2i = amp
+eq_in imp_zgnd_r2i = amp
+
+import imp_zgnd_l1i vs_add amp
+import imp_zgnd_r1i vs_add amp
+import imp_zgnd_l2i vs_add amp
+import imp_zgnd_r2i vs_add amp
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#One front wheel is raised and one is lowered  while the rear wheels stay on the ground.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Chassis twist study } Raise one wheel, lower one wheel
+#Library : Generic VS Commands
+#DataSet : Raise one wheel, lower one wheel
+#Category: Chassis twist study
+#FileID  : GenVS_73376807-0e61-4eb2-b148-3bae2efa5386
+#Modified: 06-07-2021 01:52:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

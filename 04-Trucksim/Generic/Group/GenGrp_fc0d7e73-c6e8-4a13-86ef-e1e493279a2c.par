@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Generic Data Group`LKAS Strong Control: LDW + RDM`LKAS, LDW, RDM
+#VehCode Generic Group
+PARSFILE Generic\VS_commands\GenVS_959ae9f0-ddbc-4300-bc79-4ec2fc2478e0.par
+#BlueLink0 Generic VS Commands`LKAS Strong Control.: LDW + RDM` Path Detection` , Link 1`GenVS_959ae9f0-ddbc-4300-bc79-4ec2fc2478e0
+
+
+PARSFILE Generic\VS_commands\GenVS_64671015-74d3-4d7b-92b4-b483c625db4e.par
+#BlueLink1 Generic VS Commands`Lane Departure Warning, from Path Det.` ADAS Support` , Link 2`GenVS_64671015-74d3-4d7b-92b4-b483c625db4e
+
+
+
+
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#Strong LKAS Tuning:
+#- Lane Keepnig Assistance System utilzes the Path (road curvature) Detector tools, instantiated in ACC/AEB Dataset
+#- The strong LKAS PID gain values prevent the ego vehicle from wandering in it's lane, and thus prevent a need for Lane Deaprture Warnings (LDWs) or Road Departure Mitigation
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { LKAS, LDW, RDM } LKAS Strong Control: LDW + RDM
+#Library : Generic Data Group
+#DataSet : LKAS Strong Control: LDW + RDM
+#Category: LKAS, LDW, RDM
+#FileID  : GenGrp_fc0d7e73-c6e8-4a13-86ef-e1e493279a2c
+#Created : 11-08-2021 15:34:51
+#Modified: 11-08-2021 15:40:53
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Group
+
+END

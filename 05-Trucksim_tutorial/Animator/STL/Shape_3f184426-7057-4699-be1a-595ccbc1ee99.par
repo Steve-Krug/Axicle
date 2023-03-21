@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Blurred Tire (Dual)`Tires
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Tires\Blurred_Dual_Truck\blurred_dual_tire.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+*SPECULAR 0.2
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 0.2 0.2 0.2
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_eb185451-55d8-4dad-b846-bd885223bdc8.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side) Static` Shape Preview` , Video Camera`Camera_eb185451-55d8-4dad-b846-bd885223bdc8
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_3f184426-7057-4699-be1a-595ccbc1ee99.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire (Dual)
+#Library : Animator: Shape File Link
+#DataSet : Blurred Tire (Dual)
+#Category: Tires
+#FileID  : Shape_3f184426-7057-4699-be1a-595ccbc1ee99
+#Modified: 06-07-2021 01:53:51
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

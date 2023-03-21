@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Models: Export FMU/FMI`ABS Example (Structured Ports)`
+*FMU_PATH Extensions\FMU_FMI\ABS_FMI1S.fmu
+#CheckBox0 0    
+*PYTHON_RUN_FMU 0
+#CheckBox1 0    
+*SELF_CONTAIN_FMU 0
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 0    
+OPT_IO_UPDATE 0
+#CheckBox4 0    
+#CheckBox5 0    
+OPT_IO_SYNC_FM 0
+#CheckBox6 0    
+*MULTI_SOLVERS 0
+#CheckBox7 1    
+*FMU_ON_WIN 1
+#CheckBox8 0    
+*FMU_ON_LINUX 0
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#RingCtrl2 1
+*FMI_VER 1
+#RingCtrl3 2
+*FMI_PORT_TYPE 2
+#BlueLink0 ` , Import` , Import` , Import`
+
+#BlueLink1 ` , Import/Export` , Import/Export` , Import/Export`
+
+PARSFILE IO_Channels\Ports\Port_d5024695-0c9a-47a4-86c6-e98943728b54.par
+#BlueLink2 I/O Channels: Ports`ABS Example - Multi-Port (FMU)` Braking Controls` , Miscellaneous`Port_d5024695-0c9a-47a4-86c6-e98943728b54
+
+
+LOG_ENTRY Used Dataset: Models: Export FMU/FMI; ABS Example (Structured Ports)
+#Library : Models: Export FMU/FMI
+#DataSet : ABS Example (Structured Ports)
+#Category: 
+#FileID  : Fmu_b8f5da22-70df-4b82-9673-3682ab26592e
+#Modified: 06-07-2021 01:52:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 
+
+END

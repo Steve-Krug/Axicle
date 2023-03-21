@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Aux Str Ctrl Output Usage`Driver Model
+#VEHICLECODE S_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_58523a87-79b0-43e3-a86c-8c16f0cf6cc8
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_b64f8781-7641-40ce-b0ed-bcc16a27d350.par
+#BlueLink0 Animator: Camera Setup`180 Azm, 15 El, 55 m` Vehicle Reference` , Animator camera`Camera_b64f8781-7641-40ce-b0ed-bcc16a27d350
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 10
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.8 0
+SET_RUN_COLOR 0 0.8 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Lead_2a\Lead2a_401fc56a-f7f4-4aed-b57c-4ed2658a6280.par
+#BlueLink2 Vehicle: Lead Unit with 2 Axles`LCF Van (Power Steer)` 2A LCF Van` , Math Model`Lead2a_401fc56a-f7f4-4aed-b57c-4ed2658a6280
+
+PARSFILE Procedures\Proc_762aa864-44f9-45d2-b517-58478f932e91.par
+#BlueLink28 Procedures`Auxiliary Steer Control Changes Lanes` Auxiliary Steer Controller` , Procedure`Proc_762aa864-44f9-45d2-b517-58478f932e91
+
+*TSTOP 1
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_2a\Lead2a_401fc56a-f7f4-4aed-b57c-4ed2658a6280.png
+WRITE_SENSOR_DETECT
+Title Aux Str Ctrl Output Usage <Driver Model>
+CATEGORY Driver Model 
+DATASET_TITLE Aux Str Ctrl Output Usage
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The Auxiliary Steer Controller is used here to simulate autonomous driving by applying torque to the steering gear as a modification to the power steering boost torque.
+#
+#This shows a way to make use of the information provided by Auxiliary Steer Controller to simulate autonomous driving.
+#
+#Here the vehicle executes 2 lane changes on a divided highway. These are low-intensity maneuvers at highway speed typical of overtaking.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Driver Model } Aux Str Ctrl Output Usage
+#Library : TruckSim Run Control
+#DataSet : Aux Str Ctrl Output Usage
+#Category: Driver Model
+#FileID  : Run_58523a87-79b0-43e3-a86c-8c16f0cf6cc8
+#Created : 12-01-2021 13:03:56
+#Modified: 05-05-2022 11:17:56
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

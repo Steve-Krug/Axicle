@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`270 deg. Azimuth, 80 deg. El., Veh. Ref.`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+
+SET_CAMERA_REFERENCE_FRAME Frame_26d1f38d-25e9-404a-990f-5491aaf02934
+PARSFILE Animator\Frames\Frame_26d1f38d-25e9-404a-990f-5491aaf02934.par
+#BlueLink0 Animator: Reference Frame`Vehicle X-Y-Z-Yaw` Tracking: Vehicle` , Reference frame for outside camera`Frame_26d1f38d-25e9-404a-990f-5491aaf02934
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_26d1f38d-25e9-404a-990f-5491aaf02934
+SET_LOOKPOINT_X -2.5
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 1
+SET_AZIMUTH 270
+SET_ELEVATION 80
+SET_DISTANCE 18
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -2.5
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 1
+*SET_AZIMUTH 270
+*SET_ELEVATION 80
+*SET_DISTANCE 18
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 37
+SUN_POSITION 250 250 1000
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } 270 deg. Azimuth, 80 deg. El., Veh. Ref.
+#Library : Animator: Camera Setup
+#DataSet : 270 deg. Azimuth, 80 deg. El., Veh. Ref.
+#Category: Vehicle Reference
+#FileID  : Camera_0ba9ec4d-0ad1-4df5-aa5e-eb9bc351a8b3
+#Modified: 06-07-2021 01:54:07
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Camera
+
+END

@@ -1,0 +1,88 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Ind. Kinem.: Roll (OPT_IND_KIN = 0)`Suspension and Ride Tests
+#VEHICLECODE I_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_8fd46ee0-2a04-4730-b999-d5089a32071f
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_8171e95c-812f-40a2-b50b-047399467883.par
+#BlueLink0 Animator: Camera Setup`K & C View (Rear)` Test Rig Cameras` , Animator camera`Camera_8171e95c-812f-40a2-b50b-047399467883
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+ANI_T_STAMP
+TIME_CHANNEL T_STAMP
+
+#RingCtrl6 6
+#RingCtrl7 -1
+#RingCtrl4 on
+RT_WINDOW_CLOSE on
+#RingCtrl5 1
+LIVE_SERVER_MAX_CONNECTIONS 1
+PARSFILE Vehicles\Loaded\VehLoad_71ffc96f-7a7f-4b28-bc9c-1cfde387d4d0.par
+#BlueLink2 Vehicle: Loaded Combination`DRW Pickup, K&C Ref. Points` Pickup Trucks` , Math Model`VehLoad_71ffc96f-7a7f-4b28-bc9c-1cfde387d4d0
+
+PARSFILE Procedures\Proc_f8660d20-712f-436e-b744-c973ab457d57.par
+#BlueLink28 Procedures`K & C Roll Test` Kinematics and Compliance Testing` , Procedure`Proc_f8660d20-712f-436e-b744-c973ab457d57
+
+PARSFILE Generic\VS_commands\GenVS_87d3a6a0-ee96-4123-b03e-454bc6e85107.par
+#BlueLink9 Generic VS Commands`Set Static Camber/Toe` Ind. Susp. Kinematics` , Miscellaneous`GenVS_87d3a6a0-ee96-4123-b03e-454bc6e85107
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Generic\Group\GenGrp_b914c9ff-9b78-496a-a728-dd8578669db6.par
+#BlueLink20 Generic Data Group`Ind. Kinematics Outputs` Suspension Extensions` , Plot`GenGrp_b914c9ff-9b78-496a-a728-dd8578669db6
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4ee189bc-4102-46cf-a6ee-046ab79da53b.png
+WRITE_SENSOR_DETECT
+Title Ind. Kinem.: Roll (OPT_IND_KIN = 0) <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE Ind. Kinem.: Roll (OPT_IND_KIN = 0)
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#For TruckSim 2022.0, there is a new independent suspension option which offers an alternate definition of the wheel kinematics input tables. The effect is that the kinematics tables define the position and orientation of the steered, non-spinning wheel hub rather than the position and orientation of the kingpin axis.
+#
+#In this example, the new option is OFF, and the independent suspension inputs are not equivalent to the generic suspension outputs.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Suspension and Ride Tests } Ind. Kinem.: Roll (OPT_IND_KIN = 0)
+#Library : TruckSim Run Control
+#DataSet : Ind. Kinem.: Roll (OPT_IND_KIN = 0)
+#Category: Suspension and Ride Tests
+#FileID  : Run_8fd46ee0-2a04-4730-b999-d5089a32071f
+#Created : 11-17-2021 08:22:05
+#Modified: 05-05-2022 11:14:45
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

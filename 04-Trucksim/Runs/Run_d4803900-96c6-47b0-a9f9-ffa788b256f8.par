@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName TruckSim Run Control`3A Sleeper Cab with Flatbed Trailer`VS Visualizer Examples
+#VEHICLECODE S_SS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_d4803900-96c6-47b0-a9f9-ffa788b256f8
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_133008a4-a19c-40b9-a05d-3a2d60437a8c.par
+#BlueLink0 Animator: Camera Setup`160 Azm, 10 El, 28 m` Vehicle Reference` , Animator camera`Camera_133008a4-a19c-40b9-a05d-3a2d60437a8c
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+ANI_T_STAMP
+TIME_CHANNEL T_STAMP
+
+#RingCtrl6 1
+#RingCtrl7 -1
+#RingCtrl4 on
+RT_WINDOW_CLOSE on
+#RingCtrl5 1
+LIVE_SERVER_MAX_CONNECTIONS 1
+PARSFILE Vehicles\Loaded\VehLoad_ddbf60db-dff5-4e21-bc1a-259685f15291.par
+#BlueLink2 Vehicle: Loaded Combination`3A Sleeper + Flatbed, 41k lbf payload` Sleeper-Cab Tractor-Trailers` , Math Model`VehLoad_ddbf60db-dff5-4e21-bc1a-259685f15291
+
+PARSFILE Procedures\Proc_bc8b04bb-8b97-446f-8edf-7f5f6817befa.par
+#BlueLink28 Procedures`5-Lane Highway Section` Driving` , Procedure`Proc_bc8b04bb-8b97-446f-8edf-7f5f6817befa
+
+PARSFILE Plot\Setup\Plot_663191a1-39ab-4aad-85b1-61ca6ac180a2.par
+#BlueLink15 Plot: Setup`Jounce Stop Force` Suspension Forces and Moments` , Plot`Plot_663191a1-39ab-4aad-85b1-61ca6ac180a2
+
+
+*IMAGE_TYPE DEFAULT
+WRITE_SENSOR_DETECT
+Title 3A Sleeper Cab with Flatbed Trailer <VS Visualizer Examples>
+CATEGORY VS Visualizer Examples 
+DATASET_TITLE 3A Sleeper Cab with Flatbed Trailer
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This run highlights the improved animation shapes for the 3A Sleeper Cab and Flatbed trailer.  Also included are a new payload asset that has the appearance of a steel coil.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } 3A Sleeper Cab with Flatbed Trailer
+#Library : TruckSim Run Control
+#DataSet : 3A Sleeper Cab with Flatbed Trailer
+#Category: VS Visualizer Examples
+#FileID  : Run_d4803900-96c6-47b0-a9f9-ffa788b256f8
+#Modified: 04-25-2022 09:37:58
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

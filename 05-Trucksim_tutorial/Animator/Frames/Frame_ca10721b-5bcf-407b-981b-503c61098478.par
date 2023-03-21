@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`R1 Outrigger Fz`Outrigger Ref. Frames
+ADD_REFERENCE_FRAME Frame_ca10721b-5bcf-407b-981b-503c61098478
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME x_rp2
+SET_Y_NAME y_rp2
+SET_YAW_NAME Yaw
+SET_FRAME_SCALE_Z_NAME FZ_RP2/10000
+
+WRT_x_rp2
+ANI_x_rp2
+WRT_y_rp2
+ANI_y_rp2
+WRT_Yaw
+ANI_Yaw
+WRT_FZ_RP2/10000
+ANI_FZ_RP2/10000
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Outrigger Ref. Frames } R1 Outrigger Fz
+#Library : Animator: Reference Frame
+#DataSet : R1 Outrigger Fz
+#Category: Outrigger Ref. Frames
+#FileID  : Frame_ca10721b-5bcf-407b-981b-503c61098478
+#Modified: 06-07-2021 01:54:02
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

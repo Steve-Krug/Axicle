@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Steering Wheel Torque`Linear: 1/19.779`
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+M_SW_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+M_SW_COEFFICIENT 1/19.779
+M_SW_V_CONSTANT 1
+*SCALAR 1/19.779
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Steering Wheel Torque; Linear: 1/19.779
+#Library : Steering Wheel Torque
+#DataSet : Linear: 1/19.779
+#Category: 
+#FileID  : TqSW_36f966bf-0f83-4536-b46a-9bc10546fae0
+#Modified: 06-07-2021 01:49:05
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Steering Wheel Torque
+
+END

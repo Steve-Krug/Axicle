@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Generic Data Group`Suspended Cab Spring Force Arrows`Suspended Cab
+#VehCode Generic Group
+PARSFILE Output\Points\RefPt_d706b97b-b06b-4ce0-a432-6c67c9484b8a.par
+#BlueLink0 Custom Forces and Reference Points`Cab RP at Cab CG and Mounts` ` , Link 1`RefPt_d706b97b-b06b-4ce0-a432-6c67c9484b8a
+
+
+PARSFILE Animator\Groups\Group_4b2e73ea-7021-48ff-ba0a-e52121942987.par
+#BlueLink1 Animator: Group`Cab Mount Spring Force Arrows` Suspended Cab` , Link 2`Group_4b2e73ea-7021-48ff-ba0a-e52121942987
+
+
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Suspended Cab } Suspended Cab Spring Force Arrows
+#Library : Generic Data Group
+#DataSet : Suspended Cab Spring Force Arrows
+#Category: Suspended Cab
+#FileID  : GenGrp_92bac98d-83bf-41ee-92f4-97b0cb0d95b8
+#Created : 05-26-2021 11:00:04
+#Modified: 06-07-2021 01:53:05
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Group
+
+END

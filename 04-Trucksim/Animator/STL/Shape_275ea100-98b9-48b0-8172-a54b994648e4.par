@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Euro NCAP GVT Body`ADAS and AV Test Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Other_Vehicles\Euro_NCAP\Euro_NCAP_GVT.OSG
+#ENDMYellow
+
+SET_COLOR 1 1 1
+X_REF_LENGTH 4023
+Y_REF_LENGTH 1798
+Z_REF_LENGTH 1427
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_90838e05-dbe3-432a-9598-108f7c72dcdd.par
+#BlueLink2 Animator: Camera Setup`XZ Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_90838e05-dbe3-432a-9598-108f7c72dcdd
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_275ea100-98b9-48b0-8172-a54b994648e4.png
+
+#EMBEDDED_NOTES
+#Global Vehicle Target (GVT) used in modern Euro NCAP tests, and can be used for other safety tests as well
+#- has radar reflectivity
+#- moves on a remote controlled and programmable flat platform/robot
+#- the GVT breaks apart and can be reassembed if it is hit by another vehicle
+#- the motorized flat platform can be run over, and still function
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { ADAS and AV Test Assets } Euro NCAP GVT Body
+#Library : Animator: Shape File Link
+#DataSet : Euro NCAP GVT Body
+#Category: ADAS and AV Test Assets
+#FileID  : Shape_275ea100-98b9-48b0-8172-a54b994648e4
+#Created : 09-28-2021 13:30:49
+#Modified: 09-28-2021 14:14:33
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

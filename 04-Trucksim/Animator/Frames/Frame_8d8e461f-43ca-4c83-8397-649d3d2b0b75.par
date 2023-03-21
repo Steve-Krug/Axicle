@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Preview Point for Custom Driver Model`Driver Model Preview Point
+ADD_REFERENCE_FRAME Frame_8d8e461f-43ca-4c83-8397-649d3d2b0b75
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME Xpreview
+SET_Y_NAME Ypreview
+SET_Z_NAME ZCG_SM
+SET_ROLL_NAME Roll
+SET_PITCH_NAME Pitch
+SET_YAW_NAME Yaw
+
+PARSFILE Animator\STL\Shape_3fab2db8-24ea-4a55-95ed-1a25e6a6ec0b.par
+#BlueLink0 Animator: Shape File Link`2D: Tail Org (Z-Axis, XZ-Plane)` Geometric Shapes: Arrows` , Animator Data`Shape_3fab2db8-24ea-4a55-95ed-1a25e6a6ec0b
+
+PARSFILE Animator\STL\Shape_873e38b7-2930-4d1b-aee1-8e6118715c4a.par
+#BlueLink2 Animator: Shape File Link`2D: Point Org (Z-Axis, YZ-Plane)` Geometric Shapes: Arrows` , Animator Data`Shape_873e38b7-2930-4d1b-aee1-8e6118715c4a
+
+#MiscYellow0
+WRT_Xpreview
+WRT_Ypreview
+#ENDMYellow
+
+WRT_Xpreview
+ANI_Xpreview
+WRT_Ypreview
+ANI_Ypreview
+WRT_ZCG_SM
+ANI_ZCG_SM
+WRT_Roll
+ANI_Roll
+WRT_Pitch
+ANI_Pitch
+WRT_Yaw
+ANI_Yaw
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Driver Model Preview Point } Preview Point for Custom Driver Model
+#Library : Animator: Reference Frame
+#DataSet : Preview Point for Custom Driver Model
+#Category: Driver Model Preview Point
+#FileID  : Frame_8d8e461f-43ca-4c83-8397-649d3d2b0b75
+#Modified: 06-07-2021 01:54:02
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

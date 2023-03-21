@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Container Trl, 26ft: Brake Lights`Trailers (1 of 2)
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Flatbed\brakes_on.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 0.62
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X 0.24
+SET_OFFSET_Y 0
+SET_OFFSET_Z 1.15
+X_REF_LENGTH 6900
+Y_REF_LENGTH 2440
+Z_REF_LENGTH 2603
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_f83b7094-9b83-4f2c-b624-9034f092d353.par
+#BlueLink2 Animator: Camera Setup`Vehicles - Trailers (Heavy)` Shape Preview` , Video Camera`Camera_f83b7094-9b83-4f2c-b624-9034f092d353
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_2a561efb-513e-4384-86d8-6f1597bfd4b5.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers (1 of 2) } Container Trl, 26ft: Brake Lights
+#Library : Animator: Shape File Link
+#DataSet : Container Trl, 26ft: Brake Lights
+#Category: Trailers (1 of 2)
+#FileID  : Shape_2a561efb-513e-4384-86d8-6f1597bfd4b5
+#Modified: 12-13-2021 09:50:10
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

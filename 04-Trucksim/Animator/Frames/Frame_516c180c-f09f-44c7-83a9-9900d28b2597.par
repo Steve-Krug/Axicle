@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Dolly Towbar A-Frame and Pintle`Trailers: Dollies w/ Hinged Towbars
+ADD_REFERENCE_FRAME Frame_516c180c-f09f-44c7-83a9-9900d28b2597
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME Xo_hf_<<unit>>
+SET_Y_NAME Yo_hf_<<unit>>
+SET_Z_NAME Zo_hf_<<unit>>
+SET_ROLL_NAME RollBar<<unit>>
+SET_PITCH_NAME PitchBar<<unit>>
+SET_YAW_NAME YawBar_<<unit>>
+
+PARSFILE Animator\STL\Shape_7536bc67-94d5-4594-b2a0-1372831da433.par
+#BlueLink0 Animator: Shape File Link`Dolly Towbar, A-Frame (1m)` Trailers: Dollies w/ Hinged Towbars` , Animator Data`Shape_7536bc67-94d5-4594-b2a0-1372831da433
+
+PARSFILE Animator\STL\Shape_b45f602e-502a-4b7a-8b0b-356c5cb4d9a1.par
+#BlueLink1 Animator: Shape File Link`Dolly Towbar, Pintle Connection (1m)` Trailers: Dollies w/ Hinged Towbars` , Animator Data`Shape_b45f602e-502a-4b7a-8b0b-356c5cb4d9a1
+
+WRT_Xo_hf_<<unit>>
+ANI_Xo_hf_<<unit>>
+WRT_Yo_hf_<<unit>>
+ANI_Yo_hf_<<unit>>
+WRT_Zo_hf_<<unit>>
+ANI_Zo_hf_<<unit>>
+WRT_RollBar<<unit>>
+ANI_RollBar<<unit>>
+WRT_PitchBar<<unit>>
+ANI_PitchBar<<unit>>
+WRT_YawBar_<<unit>>
+ANI_YawBar_<<unit>>
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Trailers: Dollies w/ Hinged Towbars } Dolly Towbar A-Frame and Pintle
+#Library : Animator: Reference Frame
+#DataSet : Dolly Towbar A-Frame and Pintle
+#Category: Trailers: Dollies w/ Hinged Towbars
+#FileID  : Frame_516c180c-f09f-44c7-83a9-9900d28b2597
+#Created : 10-13-2021 14:47:25
+#Modified: 10-13-2021 14:49:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

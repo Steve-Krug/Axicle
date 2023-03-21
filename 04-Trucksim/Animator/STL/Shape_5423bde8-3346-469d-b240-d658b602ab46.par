@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Container Trailer (1 x 40-ft): Brakes On`Trailers (1 of 2)
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Shipping_Container_Adjustable\containerchassis_brakes.osg
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X -11.515
+SET_OFFSET_Z 1.1
+X_REF_LENGTH 10500
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_e40f1067-7925-466d-a321-708858ca34df.par
+#BlueLink2 Animator: Camera Setup`Rear View - Trailers` Shape Preview` , Video Camera`Camera_e40f1067-7925-466d-a321-708858ca34df
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_5423bde8-3346-469d-b240-d658b602ab46.png
+
+#EMBEDDED_NOTES
+#For a given container size, the container trailer brake lights should have an offset that matches the rear trailer segment, and a reference length that matches the assembly.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers (1 of 2) } Container Trailer (1 x 40-ft): Brakes On
+#Library : Animator: Shape File Link
+#DataSet : Container Trailer (1 x 40-ft): Brakes On
+#Category: Trailers (1 of 2)
+#FileID  : Shape_5423bde8-3346-469d-b240-d658b602ab46
+#Modified: 06-07-2021 01:53:52
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

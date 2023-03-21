@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName I/O Channels: Write`Parametric Sweep (Pre/Post Process)`
+#CheckBox1 1    
+
+*PRE_PROC_FILE Extensions\Parametric_Sweep\wrapper.bat
+*POST_PROC_FILE Extensions\Parametric_Sweep\Results\view_results.bat
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+#RingCtrl4 0
+
+#MiscYellow1
+DEFINE_PARAMETER PARSWEEP_VAR; ; CS_MZ_SHAFT(1,1)
+DEFINE_PARAMETER PARSWEEP_MIN = 0
+DEFINE_PARAMETER PARSWEEP_MAX = 0.0005
+
+*CPAR_INCLUDE Extensions\Parametric_Sweep\parsweep.py
+*CPAR_INCLUDE Extensions\Parametric_Sweep\wrapper.bat
+#ENDMYellow
+
+OPT_AUXOUT_CSV 0
+OPT_AUXOUT_MAT 0
+OPT_AUXOUT_PRE Extensions\Parametric_Sweep\wrapper.bat
+OPT_AUXOUT_POST Extensions\Parametric_Sweep\Results\view_results.bat
+
+#EMBEDDED_NOTES
+#The IO Write screen is used to run pre- and post-processing (referring to before and after the simulation that is executed by VS Browser).
+#
+#In this case, the application is a parametric sweep of the parameter identified by PARSWEEP_VAR. The limits of the sweep are set by PARSWEEP_MIN and PARSWEEP_MAX.
+#
+#This is accomplished by running a Python script called parsweep.py during pre-processing using wrapper.bat. The Python file duplicates the run, makes the parameter settings changes, and organizes the results into a form useful for animation and plotting.
+#
+#The post-processing step launches VS Visualizer to show the results of the parametric sweep. Once you run the parametric sweep once, you can revisit these results by running view_results.bat yourself.
+#
+#All of these files are contained in the database subdirectory Extensions\Parametric_Sweep. The files which get re-generated when you run are in the Results directory of this location. For more information, review parsweep.py.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Write; Parametric Sweep (Pre/Post Process)
+#Library : I/O Channels: Write
+#DataSet : Parametric Sweep (Pre/Post Process)
+#Category: 
+#FileID  : Write_b8846e0b-ab76-4e90-8465-2a6068a327ed
+#Created : 06-10-2022 12:41:36
+#Modified: 06-10-2022 12:44:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Write Channels
+
+END

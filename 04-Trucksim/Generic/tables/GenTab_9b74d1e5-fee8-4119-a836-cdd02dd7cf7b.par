@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Generic Table`Susp. Cab Spring: Left Front, Linear`Suspended Cab
+#MiscYellow0
+define_table Cab_Spring_LF 1
+SET_UNITS_table_row Cab_Spring_LF_table mm
+#ENDMYellow
+
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+Cab_Spring_LF_TABLE LINEAR
+-1, -100
+0, 0
+1, 100
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD Cab_Spring_LF
+*X_LABEL LF Cab Mount Deflection (mm)
+*Y_LABEL LF Cab Spring Force (N)
+
+
+#EMBEDDED_NOTES
+#Generic Table used to represent the Left Front spring rate for the suspended cab.
+#
+#This table uses a new user-defined math model root keyword Cab_Spring_LF, and the table's row units are defined to be in mm. This makes it more convenient to enter spring deflection data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Suspended Cab } Susp. Cab Spring: Left Front, Linear
+#Library : Generic Table
+#DataSet : Susp. Cab Spring: Left Front, Linear
+#Category: Suspended Cab
+#FileID  : GenTab_9b74d1e5-fee8-4119-a836-cdd02dd7cf7b
+#Created : 05-26-2021 11:20:59
+#Modified: 01-21-2022 14:00:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

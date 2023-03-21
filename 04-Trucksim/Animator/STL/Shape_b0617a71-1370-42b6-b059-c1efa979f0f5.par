@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Bike Rack: Single Hoop (1 m offset)`Environment: Props (1 of 2)
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Environment\Props\Bike_Racks\Small_Bike_Rack.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X 1
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_8677bbce-b5a2-4e33-a985-ac119201a4af.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Medium Objects` Shape Preview` , Video Camera`Camera_8677bbce-b5a2-4e33-a985-ac119201a4af
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_b0617a71-1370-42b6-b059-c1efa979f0f5.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Environment: Props (1 of 2) } Bike Rack: Single Hoop (1 m offset)
+#Library : Animator: Shape File Link
+#DataSet : Bike Rack: Single Hoop (1 m offset)
+#Category: Environment: Props (1 of 2)
+#FileID  : Shape_b0617a71-1370-42b6-b059-c1efa979f0f5
+#Modified: 06-07-2021 01:53:44
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

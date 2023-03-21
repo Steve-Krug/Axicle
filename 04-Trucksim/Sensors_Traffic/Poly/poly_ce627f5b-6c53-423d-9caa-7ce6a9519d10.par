@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Polygonal Shape Coordinates`2 Axle Tour Bus`
+PARSFILE Animator\Vehicles\AniVeh_5cb9979d-3686-4654-8ce0-3c30f81bd36c.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`2A Tour Bus` 2A Lead Units` , 3D Shape for Video`AniVeh_5cb9979d-3686-4654-8ce0-3c30f81bd36c
+
+SET_IPOLYGON_FOR_ID 0
+#DiagramOne0
+POLY_SHAPE_TABLE
+2.6, 0
+2.59, 0.55
+2.45, 1.1
+2.4, 1.21
+2.6, 1.21
+2.75, 1.32
+2.8, 1.43
+2.75, 1.54
+2.6, 1.595
+2.48, 1.595
+2.48, 1.43
+1.9, 1.375
+-7.5, 1.375
+-7.56, 1.342
+-7.6, 1.309
+-7.65, 1.21
+-7.65, -1.21
+-7.6, -1.309
+-7.56, -1.342
+-7.5, -1.375
+1.9, -1.375
+2.48, -1.43
+2.48, -1.595
+2.6, -1.595
+2.75, -1.54
+2.8, -1.43
+2.75, -1.32
+2.6, -1.21
+2.4, -1.21
+2.45, -1.1
+2.59, -0.55
+2.6, 0
+ENDTABLE
+#RadioCtrl0 0    
+
+
+LOG_ENTRY Used Dataset: Polygonal Shape Coordinates; 2 Axle Tour Bus
+#Library : Polygonal Shape Coordinates
+#DataSet : 2 Axle Tour Bus
+#Category: 
+#FileID  : poly_ce627f5b-6c53-423d-9caa-7ce6a9519d10
+#Modified: 06-07-2021 01:54:09
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Polygonal Coordinates
+
+END

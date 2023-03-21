@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Generic VS Commands`Self-Steer Axle VS Commands`Self-Steer Axle
+#VehCode Steering: External Model
+
+#MiscYellow0
+opt_steer_ext(2) = 4
+
+define_parameter ssa_off = 0; -
+define_parameter ssa_len = 300; mm
+define_parameter ssa_ang = 10; deg
+define_parameter ssa_dmp = 10; N-s/mm
+
+x_kpo(2,1) = 0; mm
+x_kpo(2,2) = 0; mm
+l_kpo(2,1) = 300; mm
+l_kpo(2,2) = 300; mm
+
+define_parameter ssa_ils = (m_us_str(2,1)+m_tire(2,1,1))*(l_kpo(2,1)^2+x_kpo(2,1)^2)+iw_xxzz(2,1)+it_xxzz(2,1,1); kg-m2
+define_parameter ssa_irs = (m_us_str(2,2)+m_tire(2,2,1))*(l_kpo(2,2)^2+x_kpo(2,2)^2)+iw_xxzz(2,2)+it_xxzz(2,2,1); kg-m2
+
+define_variable ssa_str_rate
+define_variable ssa_str
+
+eq_differential ssa_str_rate = (mz_kp_l2+mz_kp_r2-2*ssa_dmp*ssa_len*cos(ssa_ang)*avzkp_l2)/(ssa_ils+ssa_irs)
+eq_differential ssa_str = ssa_str_rate
+
+import imp_steer_l2 vs_replace 0
+import imp_steer_r2 vs_replace 0
+import imp_dsteer_l2 vs_replace 0
+import imp_dsteer_r2 vs_replace 0
+
+eq_in imp_steer_l2 = if(ssa_off, 0, ssa_str)
+eq_in imp_steer_r2 =  if(ssa_off, 0, ssa_str)
+eq_in imp_dsteer_l2 =  if(ssa_off, 0, ssa_str_rate)
+eq_in imp_dsteer_r2 =  if(ssa_off, 0, ssa_str_rate)
+#ENDMYellow
+
+*MODELCODE Steering: External Model
+
+#EMBEDDED_NOTES
+#External steering model for axle 2, implemented with VS Commands. The external steering model represents a simple self-steered axle. For more information on the implementation of the self-steer axle, see Help > Technical Memos > Example: Self-Steer Axle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Self-Steer Axle } Self-Steer Axle VS Commands
+#Library : Generic VS Commands
+#DataSet : Self-Steer Axle VS Commands
+#Category: Self-Steer Axle
+#FileID  : GenVS_a57cb54d-8418-4aec-86c3-4bb4f9eb50b4
+#Created : 06-01-2022 16:34:46
+#Modified: 06-03-2022 15:00:12
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Steering: External Model
+
+END

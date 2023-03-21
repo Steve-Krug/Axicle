@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Landing Jacks: Down (For Box Trailer)`Common Vehicle Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Landing_Jacks\landingjacks\landingjacks.osg
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X -3.15
+SET_OFFSET_Z 0.026
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9.par
+#BlueLink2 Animator: Camera Setup`XZ Plane, No Offsets - Medium Objects` Shape Preview` , Video Camera`Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_c944e73e-f904-484d-8788-820c9f38f41f.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Landing Jacks: Down (For Box Trailer)
+#Library : Animator: Shape File Link
+#DataSet : Landing Jacks: Down (For Box Trailer)
+#Category: Common Vehicle Assets
+#FileID  : Shape_c944e73e-f904-484d-8788-820c9f38f41f
+#Modified: 11-03-2021 14:57:22
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

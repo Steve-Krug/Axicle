@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Trans. Input / Output Shaft Speed Ratio`Powertrain
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Line Plots, No Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox1 0    
+
+
+#MiscYellow1
+define_output TransIO = AV_TC /(AV_Trans + 1e-15)
+#ENDMYellow
+
+#MiscYellow0
+PLOTCHANNELS TransIO, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Trans. Input / Output Shaft Speed Ratio
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Trans. Input / Output Shaft Speed Ratio
+#Library : Plot: Setup
+#DataSet : Trans. Input / Output Shaft Speed Ratio
+#Category: Powertrain
+#FileID  : Plot_7b064be7-4ae7-4172-85e7-8250264b0f5f
+#Modified: 06-07-2021 01:49:36
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

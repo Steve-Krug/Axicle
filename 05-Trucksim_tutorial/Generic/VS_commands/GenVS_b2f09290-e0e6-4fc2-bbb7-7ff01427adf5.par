@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Generic VS Commands`Disable Recirc. Ball Comp.`Ind. Susp. Kinematics
+#VehCode VS Commands
+
+#MiscYellow0
+STEER_COMP_COEFFICIENT(<<axle>>) 0
+
+! To remove the effect of the torsion bar, lock the steering gear in place:
+IMPORT IMP_STEER_CON_<<axle>> VS_REPLACE 0
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Ind. Susp. Kinematics } Disable Recirc. Ball Comp.
+#Library : Generic VS Commands
+#DataSet : Disable Recirc. Ball Comp.
+#Category: Ind. Susp. Kinematics
+#FileID  : GenVS_b2f09290-e0e6-4fc2-bbb7-7ff01427adf5
+#Created : 11-17-2021 08:31:37
+#Modified: 11-17-2021 08:39:21
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

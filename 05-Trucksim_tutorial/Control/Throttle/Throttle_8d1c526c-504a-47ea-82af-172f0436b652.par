@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Control: Throttle (Open Loop)`Constant: 1.0 (Full Throttle) #1`Constant
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+THROTTLE_ENGINE_CONSTANT .93
+*SCALAR .93
+
+
+LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 1.0 (Full Throttle) #1
+#Library : Control: Throttle (Open Loop)
+#DataSet : Constant: 1.0 (Full Throttle) #1
+#Category: Constant
+#FileID  : Throttle_8d1c526c-504a-47ea-82af-172f0436b652
+#Created : 01-16-2023 19:31:17
+#Modified: 01-16-2023 19:48:11
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Open-loop Throttle
+
+END

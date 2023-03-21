@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName TruckSim Run Control`TBC: Offset Backing`* Trailer Backing Controller
+#VEHICLECODE S_ISS + S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_b809ff63-af8c-4d0d-a7fa-d4b14c66b758
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_28a56568-7d9a-48ee-9c44-e7438a6eaa28.par
+#BlueLink0 Animator: Camera Setup`215 Az, 16 El, 75 m, Trailer Ref.` Trailer Reference` , Animator camera`Camera_28a56568-7d9a-48ee-9c44-e7438a6eaa28
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 10
+#RingCtrl2 3
+#RingCtrl3 0
+ANI_T_STAMP
+TIME_CHANNEL T_STAMP
+
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 on
+RT_WINDOW_CLOSE on
+#RingCtrl5 1
+LIVE_SERVER_MAX_CONNECTIONS 1
+PARSFILE Vehicles\Loaded\VehLoad_91543cbd-804f-438b-8ad2-a30581e0a1ae.par
+#BlueLink2 Vehicle: Loaded Combination`4A Sleeper +1A Flatbed Trl` Sleeper-Cab Tractor-Trailers` , Math Model`VehLoad_91543cbd-804f-438b-8ad2-a30581e0a1ae
+
+PARSFILE Procedures\Proc_7391a70e-b18c-4197-bd25-439b78bf4a78.par
+#BlueLink28 Procedures`TBC: Offset Backing` Driver Controls` , Procedure`Proc_7391a70e-b18c-4197-bd25-439b78bf4a78
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_79dd38bb-ad38-4925-a7c0-279912b85968.png
+WRITE_SENSOR_DETECT
+Title TBC: Offset Backing <* Trailer Backing Controller>
+CATEGORY * Trailer Backing Controller 
+DATASET_TITLE TBC: Offset Backing
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#A tractor-trailer performs an offset backing maneuver; it pulls forward from one parking spot and reverses into another spot which is to the right of the original.
+#
+#This example uses the built-in trailer backing controller (TBC) introduced in TruckSim 2022.1.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { * Trailer Backing Controller } TBC: Offset Backing
+#Library : TruckSim Run Control
+#DataSet : TBC: Offset Backing
+#Category: * Trailer Backing Controller
+#FileID  : Run_b809ff63-af8c-4d0d-a7fa-d4b14c66b758
+#Modified: 05-20-2022 18:49:47
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

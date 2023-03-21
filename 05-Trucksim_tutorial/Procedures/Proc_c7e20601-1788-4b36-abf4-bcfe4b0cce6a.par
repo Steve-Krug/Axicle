@@ -1,0 +1,77 @@
+PARSFILE
+#FullDataName Procedures`Small Smooth Bump`Ride Tests
+#CheckBox1 1    
+OPT_INIT_PATH 1
+
+#RingCtrl0 2
+#RingCtrl1 1
+OPT_STOP 1
+SSTART -10
+TSTART 0
+TSTART_WRITE = 0;
+TSTOP 20
+SSTOP 50
+OPT_DIRECTION 0
+*SPEED 5
+*TSTOP 20
+*TSTART 0
+*SSTART -10
+*SSTOP 50
+
+OPT_SC 2
+PARSFILE Control\Driver\StrDM_e2398fab-b956-498b-8858-93e89178bdf3.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`0.6s Single Preview` Constant Position: No Offset` , Steering`StrDM_e2398fab-b956-498b-8858-93e89178bdf3
+
+PARSFILE Control\Braking\PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047
+
+PARSFILE Control\Gear_at\GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f.par
+#BlueLink30 Control: Shifting (Closed Loop)`NGEARS, Clutch Act 0.5s, Gear 0.1s` Closed-Loop Shifting` , Shifting Control`GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f
+
+PARSFILE Control\Speed_t\SpdTime_00305f6c-d6d6-4071-be01-c7f905d69738.par
+#BlueLink31 Control: Speed (Closed Loop) Using Target Speed`Constant: 18 km/h` Constant` , Speed vs. time`SpdTime_00305f6c-d6d6-4071-be01-c7f905d69738
+
+PARSFILE Roads\3D_Road\Road_8190c785-8aa3-456c-af61-f09adca6a2fb.par
+#BlueLink0 Road: 3D Surface (All Properties)`Small Smooth Bump` Ride Roads` , Miscellaneous`Road_8190c785-8aa3-456c-af61-f09adca6a2fb
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink8 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_04ef7d47-6fad-4303-ae64-135680b8dead.par
+#BlueLink9 Plot: Setup`Jounce (Axle 1)` Suspension Motion` , Plot`Plot_04ef7d47-6fad-4303-ae64-135680b8dead
+
+PARSFILE Plot\Setup\Plot_d63305ed-cfb1-4cc6-8515-175ed1eef890.par
+#BlueLink10 Plot: Setup`Jounce (Axle 2)` Suspension Motion` , Plot`Plot_d63305ed-cfb1-4cc6-8515-175ed1eef890
+
+PARSFILE Plot\Setup\Plot_9bdf8244-04f6-44b1-a86e-e83fec8f2866.par
+#BlueLink11 Plot: Setup`Jounce Stop Compression` Suspension Motion` , Plot`Plot_9bdf8244-04f6-44b1-a86e-e83fec8f2866
+
+PARSFILE Plot\Setup\Plot_6097e802-cd34-47da-8271-c277e950105f.par
+#BlueLink13 Plot: Setup`Rebound Stop Compression` Suspension Motion` , Plot`Plot_6097e802-cd34-47da-8271-c277e950105f
+
+PARSFILE Plot\Setup\Plot_f411665c-58c7-4e39-86ea-1845d059059f.par
+#BlueLink15 Plot: Setup`Spring: Force vs. Compression` Suspension Forces and Moments` , Plot`Plot_f411665c-58c7-4e39-86ea-1845d059059f
+
+PARSFILE Plot\Setup\Plot_7b1dfeac-eb68-4575-9cbf-7407cb887fa8.par
+#BlueLink16 Plot: Setup`Spring Compression` Suspension Motion` , Plot`Plot_7b1dfeac-eb68-4575-9cbf-7407cb887fa8
+
+PARSFILE Plot\Setup\Plot_8ad2b097-2d03-47c3-9e69-b793f5753ae8.par
+#BlueLink17 Plot: Setup`Vertical Forces` Tire Forces` , Plot`Plot_8ad2b097-2d03-47c3-9e69-b793f5753ae8
+
+
+#EMBEDDED_NOTES
+#This Procedure uses the Small Smooth Bump road as a way of exercising the suspension.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Small Smooth Bump
+#Library : Procedures
+#DataSet : Small Smooth Bump
+#Category: Ride Tests
+#FileID  : Proc_c7e20601-1788-4b36-abf4-bcfe4b0cce6a
+#Created : 05-25-2021 18:46:42
+#Modified: 06-07-2021 01:49:13
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

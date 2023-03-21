@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Parallel VS Math Models`Tractor-Trailers Platoon: Intruder Test`Platooning
+PARSFILE Runs\Run_621ac830-8462-4925-ae8e-3e6725232ce5.par
+#BlueLink0 TruckSim Run Control`Platoon: Intruder Test; Lead Truck` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 1:`Run_621ac830-8462-4925-ae8e-3e6725232ce5
+
+PARSFILE Runs\Run_4b15ae03-169c-43b6-a2a5-f5b7c1b4ada1.par
+#BlueLink1 TruckSim Run Control`Platoon: Intruder Test; Truck 2` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 2:`Run_4b15ae03-169c-43b6-a2a5-f5b7c1b4ada1
+
+PARSFILE Runs\Run_7666401b-bc82-4d56-bc98-2311dda63a66.par
+#BlueLink2 TruckSim Run Control`Platoon: Intruder Test; Truck 3` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 3:`Run_7666401b-bc82-4d56-bc98-2311dda63a66
+
+#RingCtrl0 0
+*RUN_PLATFORM 0
+#RingCtrl1 3
+*SHOW_LINK 3
+
+#EMBEDDED_NOTES
+#To run this example in Windows:
+#1) click Open Model or Generate FMU
+#2) in Simulink, click the run button
+#
+#V: Video
+#P: Plot
+#
+#Each vehicle in the platoon uses a shared simulink model, that leverages parallel solvers to simulate the vehicles across multiple TruckSim Runs.
+#
+#To run with more than two VS Math Models you will need licenses for the extra models.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Parallel VS Math Models; { Platooning } Tractor-Trailers Platoon: Intruder Test
+#Library : Parallel VS Math Models
+#DataSet : Tractor-Trailers Platoon: Intruder Test
+#Category: Platooning
+#FileID  : MVeh_88a9206b-258c-4e88-85fc-fe78f174cf56
+#Created : 09-13-2021 10:27:30
+#Modified: 12-11-2021 11:42:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode mVeh
+
+END

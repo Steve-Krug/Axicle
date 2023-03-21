@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Brake Wheel Cylinder Pressure L1`Brake System Control
+#RingCtrl1 1
+
+#MiscYellow0
+IMP_PBK_L1 Replace 0.0! 1
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#Import variables dataset for simple ABS example.
+#
+#This dataset specifies the import variables for the brake pressure at all four wheels. The import mode Replace is used to replace the internally calculated wheel brake pressure with data imported from an external model.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Brake System Control } Brake Wheel Cylinder Pressure L1
+#Library : I/O Channels: Import
+#DataSet : Brake Wheel Cylinder Pressure L1
+#Category: Brake System Control
+#FileID  : Import_0365bdbe-6744-4c0c-9981-6e44e56a09be
+#Modified: 08-03-2021 13:32:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Import Channels
+
+END

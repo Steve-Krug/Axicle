@@ -1,0 +1,89 @@
+PARSFILE
+#FullDataName Events`AEB CCRm,s F2. Reset Veh. and Targets`Euro NCAP AEB Testing: CCRm,s
+#CheckBox1 1    
+*CLEAR
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 ZERO ~=
+#RingCtrl10 1
+#RingCtrl11 1
+#RingCtrl12 1
+RESET_EVENTS
+*NAME1 T_EVENT
+*VALUE1 1
+*SPEED VUT_START
+INSTALL_SPEED_CONTROLLER
+OPT_SC 3
+SET_ISPEED_FOR_ID 0
+set_description SPEED_TARGET_ID Event: AEB CCRm,s F2. Reset Veh. and Targets
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+SPEED_ID_SC = SPEED_TARGET_ID
+OPT_SC_ENGINE_BRAKING 0
+SPEED_TARGET_CONSTANT VUT_START
+OPT_INIT_CONFIG 1
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 1
+#MiscYellow0
+Contact = 0
+! Unchecked box for "reset vehicle x,y,yaw"
+! Locate vehicle 1.8 m to the left of the road center
+Xo  = VUT_START_STATION
+Yo = -1.8
+Yaw = 0
+#ENDMYellow
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ;
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_TARGET = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
+#MiscYellow1
+! The location of the obstacles need to be reset after each run
+! This needs to occur, AFTER all of the Event resets are complete
+! Note: the object numbers should match the two vehicle and GVT in the 
+! Echo file
+S_OBJ_1 = SSTART_GVT
+#ENDMYellow
+
+DEFINE_EVENT 1 ; Events\Events_b5b3075a-daca-4624-bde3-ca10b4a62943.par
+#BlueLink0 Events`AEB CCRm,s A. Wait for AEB to Intervene` Euro NCAP AEB Testing: CCRm,s` , Events`Events_b5b3075a-daca-4624-bde3-ca10b4a62943
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#The initialization options are checked for speed, springs, and control clocks
+#- Vehicle position is reset manually because:
+#   - The VUT start station is a paramter could change by user setting
+#   - The vehicle is using a lane-keeping assistance system (LKAS) to maintain its lane position without a driver model, so the lateral position of the vehicle at the start of the test must be manually set
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP AEB Testing: CCRm,s } AEB CCRm,s F2. Reset Veh. and Targets
+#Library : Events
+#DataSet : AEB CCRm,s F2. Reset Veh. and Targets
+#Category: Euro NCAP AEB Testing: CCRm,s
+#FileID  : Events_eb6b6c68-e5b5-4e1a-b339-4623d2af8dda
+#Created : 09-29-2021 12:27:16
+#Modified: 09-29-2021 12:28:19
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

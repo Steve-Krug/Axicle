@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Rental Trailer Tire`Tires
+*ANGLE_Z 180
+*ANGLE_Y 0
+*ANGLE_X 0
+*X_REF_LENGTH 343
+*Y_REF_LENGTH 205
+*Z_REF_LENGTH 343
+#CheckBox0 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_8e170ab2-7466-4cf2-94f0-4af769fb7439.png
+PARSFILE Animator\STL\Shape_2a65709e-b7b4-45ff-803c-d08cde89f71b.par
+#BlueLink0 Animator: Shape File Link`205/75 R15: Tire and Wheel` Common Vehicle Assets: Tires` , Shape File`Shape_2a65709e-b7b4-45ff-803c-d08cde89f71b
+
+set_angle_x 0
+set_angle_y 0
+set_angle_z 180
+x_ref_length 343
+y_ref_length 205
+z_ref_length 343
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+
+#EMBEDDED_NOTES
+#Unloaded free (outer) radius: 343 mm
+#205/75 R15
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Rental Trailer Tire
+#Library : Animator: Shape Assembly
+#DataSet : Rental Trailer Tire
+#Category: Tires
+#FileID  : ShpGrp_8e170ab2-7466-4cf2-94f0-4af769fb7439
+#Created : 12-02-2021 15:59:27
+#Modified: 12-02-2021 16:08:47
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

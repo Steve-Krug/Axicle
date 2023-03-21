@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName TruckSim Run Control`3A Tractor+2A Trl+1A Dolly+2A Trl`Vehicle Layout: Double Trailers
+#VEHICLECODE S_SS + SS + dS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_c92b33c5-0294-4cfb-9139-23a520e1c7c7
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 35 m` Vehicle Reference` , Animator camera`Camera_fba691be-6c65-4c71-b964-e852577b19ed
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_cb59853f-a3ae-487e-8ac2-4319079f0b14.par
+#BlueLink2 Vehicle: Loaded Combination`3A Tractor+2A Trl+1A Dolly+2A Trl` Sleeper-Cab Tractor-Trailers` , Math Model`VehLoad_cb59853f-a3ae-487e-8ac2-4319079f0b14
+
+PARSFILE Procedures\Proc_fdccaa91-6052-4816-adad-68e3562e08c5.par
+#BlueLink28 Procedures`DLC @ 50 km/h` Handling Tests` , Procedure`Proc_fdccaa91-6052-4816-adad-68e3562e08c5
+
+PARSFILE Generic\Group\GenGrp_0efbe827-f11e-47f7-a8e8-0369f373945b.par
+#BlueLink9 Generic Data Group`8 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_0efbe827-f11e-47f7-a8e8-0369f373945b
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55.par
+#BlueLink10 Multiple Moving Objects`1 Driver Preview Point, Set by DM` Points of Interest` , Miscellaneous`TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55
+
+PARSFILE Plot\Setup\Plot_4af2f9b1-0431-4d0f-825a-d6b3145172e5.par
+#BlueLink15 Plot: Setup`Roll Angle of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_4af2f9b1-0431-4d0f-825a-d6b3145172e5
+
+PARSFILE Plot\Setup\Plot_8aa6411f-4f0f-45db-b32c-d612009087f2.par
+#BlueLink16 Plot: Setup`Lateral Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_8aa6411f-4f0f-45db-b32c-d612009087f2
+
+
+*IMAGE_TYPE DEFAULT
+WRITE_SENSOR_DETECT
+Title 3A Tractor+2A Trl+1A Dolly+2A Trl <Vehicle Layout: Double Trailers>
+CATEGORY Vehicle Layout: Double Trailers 
+DATASET_TITLE 3A Tractor+2A Trl+1A Dolly+2A Trl
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#S_SS + SS + dS + SS
+#
+#3A Sleeper Tractor + 2A Trailer + 1A Dolly + 2A Trailer
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers } 3A Tractor+2A Trl+1A Dolly+2A Trl
+#Library : TruckSim Run Control
+#DataSet : 3A Tractor+2A Trl+1A Dolly+2A Trl
+#Category: Vehicle Layout: Double Trailers
+#FileID  : Run_c92b33c5-0294-4cfb-9139-23a520e1c7c7
+#Modified: 06-06-2022 11:00:20
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

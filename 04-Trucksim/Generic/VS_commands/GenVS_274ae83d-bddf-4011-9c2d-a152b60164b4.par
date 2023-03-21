@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Generic VS Commands`Drive Torques (Axles 1 - 4)`Plot Groups
+#VehCode VS Commands
+
+PARSFILE Plot\Setup\Plot_70cf053b-5063-4093-9e6b-3254ae359ad8.par
+#BlueLink3 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 1)` Powertrain` , Plot`Plot_70cf053b-5063-4093-9e6b-3254ae359ad8
+
+PARSFILE Plot\Setup\Plot_e7b41872-2b40-4556-aa0d-7e348d4a1a61.par
+#BlueLink4 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 2)` Powertrain` , Plot`Plot_e7b41872-2b40-4556-aa0d-7e348d4a1a61
+
+PARSFILE Plot\Setup\Plot_2dd86413-3798-4048-b033-f592b39de27f.par
+#BlueLink5 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 3)` Powertrain` , Plot`Plot_2dd86413-3798-4048-b033-f592b39de27f
+
+PARSFILE Plot\Setup\Plot_531e6d51-d21e-46f9-b005-5e7b6af41397.par
+#BlueLink6 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 4 )` Powertrain` , Plot`Plot_531e6d51-d21e-46f9-b005-5e7b6af41397
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Drive Torques (Axles 1 - 4)
+#Library : Generic VS Commands
+#DataSet : Drive Torques (Axles 1 - 4)
+#Category: Plot Groups
+#FileID  : GenVS_274ae83d-bddf-4011-9c2d-a152b60164b4
+#Modified: 06-07-2021 01:53:00
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

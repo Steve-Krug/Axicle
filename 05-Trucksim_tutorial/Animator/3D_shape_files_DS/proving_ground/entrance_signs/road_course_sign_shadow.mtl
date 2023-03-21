@@ -1,0 +1,12 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl rcshadows
+Ka  1 1 1
+Kd  1 1 1
+Ks  1 1 1
+d  1
+Ns  0
+illum 2
+map_Kd road_course_sign_shadow.tga
+#
+# EOF

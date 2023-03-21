@@ -1,0 +1,85 @@
+PARSFILE
+#FullDataName TruckSim Run Control`4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel`Vehicle Layout: Single Trailers
+#VEHICLECODE S_ISS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_725a6a2f-7909-40d9-9f7e-c98e2c24caed
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 35 m` Vehicle Reference` , Animator camera`Camera_fba691be-6c65-4c71-b964-e852577b19ed
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 1    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 10
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 4
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_519a4d99-2dc5-40b5-9939-51c8641517ed.par
+#BlueLink2 Vehicle: Loaded Combination`4A Sleeper +1A Flatbed Trl, No Trailer` Sleeper-Cab Tractor-Trailers` , Math Model`VehLoad_519a4d99-2dc5-40b5-9939-51c8641517ed
+
+PARSFILE Procedures\Proc_48641ea9-fccd-47da-955c-ba738a288d92.par
+#BlueLink28 Procedures`Crosswind Test` Stability Tests` , Procedure`Proc_48641ea9-fccd-47da-955c-ba738a288d92
+
+PARSFILE Generic\Group\GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546.par
+#BlueLink9 Generic Data Group`7 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546
+
+OPT_VS_FILETYPE 4
+#BlueLink23 TruckSim Run Control`4A Sleeper+3A Trl` Vehicle Layout: Single Trailers` , Overlay run or ERD file`Run_39331024-2720-4a23-9cc1-c27e9bbf2683
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_79dd38bb-ad38-4925-a7c0-279912b85968.png
+
+OPT_ALL_WRITE 1
+WRITE_SENSOR_DETECT
+Title 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel <Vehicle Layout: Single Trailers>
+CATEGORY Vehicle Layout: Single Trailers 
+DATASET_TITLE 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#S_SSS + SSS
+#
+#4A Sleeper Cab with Tridem Load Sharing + 3A Trailer performing a double lane change maneuver.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel
+#Library : TruckSim Run Control
+#DataSet : 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel
+#Category: Vehicle Layout: Single Trailers
+#FileID  : Run_725a6a2f-7909-40d9-9f7e-c98e2c24caed
+#Created : 01-02-2023 18:26:06
+#Modified: 01-02-2023 19:05:17
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

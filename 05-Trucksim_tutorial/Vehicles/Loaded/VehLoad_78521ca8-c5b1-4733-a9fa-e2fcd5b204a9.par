@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`4A LCF Van (SS_SS), 8x4, Ball Hitch`LCF Vans
+#VehCode SS_SS
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_4a\Lead4a_a8958391-072f-42cc-90aa-f38db7ce8314.par
+#BlueLink0 Vehicle: Lead Unit with 4 Axles`4A LCF Van (SS_SS), 8x4, Ball Hitch` 4A Vans` , Vehicle Type`Lead4a_a8958391-072f-42cc-90aa-f38db7ce8314
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Payloads\Box\Box_6503f2cf-1550-4bf2-97be-52903be4ca5e.par
+#BlueLink1 Payload: Box Shape`Conventional/LCF Van Payload (6789 kg)` Box Trucks` , Miscellaneous`Box_6503f2cf-1550-4bf2-97be-52903be4ca5e
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_b40669f7-76a5-4460-a89b-ae9179cf04f0.png
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { LCF Vans } 4A LCF Van (SS_SS), 8x4, Ball Hitch
+#Library : Vehicle: Loaded Combination
+#DataSet : 4A LCF Van (SS_SS), 8x4, Ball Hitch
+#Category: LCF Vans
+#FileID  : VehLoad_78521ca8-c5b1-4733-a9fa-e2fcd5b204a9
+#Modified: 06-07-2021 01:48:50
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode SS_SS
+
+END

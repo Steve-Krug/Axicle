@@ -1,0 +1,91 @@
+PARSFILE
+#FullDataName Procedures`Steering Step Input`Handling Tests
+#CheckBox1 1    
+OPT_INIT_PATH 1
+#CheckBox4 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 0
+OPT_STOP 0
+SSTART 0
+TSTART 0
+TSTART_WRITE = 0;
+TSTOP 15
+SSTOP = SSTART + 1 ;
+OPT_DIRECTION 1
+*SPEED 100
+*TSTOP 15
+*TSTART 0
+*SSTART 0
+
+INSTALL_SPEED_CONTROLLER
+OPT_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+set_description SPEED_TARGET_ID Procedure: Steering Step Input
+SPEED_TARGET_CONSTANT 100
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Steer\StrSW_e9efac92-71d2-4449-a16c-56c62a86dfff.par
+#BlueLink27 Control: Steering (Open Loop)`Step: 0 to 45 deg at 10 s` Step` , Steering`StrSW_e9efac92-71d2-4449-a16c-56c62a86dfff
+
+PARSFILE Control\Braking\PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT (All Available Gears)` Closed-Loop Shifting` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Roads\3D_Road\Road_1d628bf6-d343-4b53-aab3-6c447711f700.par
+#BlueLink0 Road: 3D Surface (All Properties)`1 km Square, Mu = 0.85` Flat Test Pads` , Miscellaneous`Road_1d628bf6-d343-4b53-aab3-6c447711f700
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink9 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806.par
+#BlueLink10 Plot: Setup`Brake Control: Master Cyl. Pressure` Braking` , Plot`Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806
+
+PARSFILE Plot\Setup\Plot_536a6a4d-647d-4eb4-b11f-664addaec88a.par
+#BlueLink11 Plot: Setup`Trans. Control: Gear Selected` Controls: Driver` , Plot`Plot_536a6a4d-647d-4eb4-b11f-664addaec88a
+
+PARSFILE Plot\Setup\Plot_28c94c84-5587-4acc-a373-81fb9df7b26a.par
+#BlueLink12 Plot: Setup`Steering Wheel Angle vs. Time` Steering` , Plot`Plot_28c94c84-5587-4acc-a373-81fb9df7b26a
+
+PARSFILE Plot\Setup\Plot_baf1f65f-002f-496e-8407-e07aadbc2d4d.par
+#BlueLink13 Plot: Setup`Total Steering Gear Inertia` Steering` , Plot`Plot_baf1f65f-002f-496e-8407-e07aadbc2d4d
+
+PARSFILE Plot\Setup\Plot_bd7ec4bf-05bc-4194-bd27-f73506447cb8.par
+#BlueLink14 Plot: Setup`Steering Gear Kinematics` Steering` , Plot`Plot_bd7ec4bf-05bc-4194-bd27-f73506447cb8
+
+PARSFILE Plot\Setup\Plot_0616a266-66af-4221-a68a-ad24f1a280e3.par
+#BlueLink15 Plot: Setup`Vehicle Sideslip Angle vs. Time` Vehicle Motion` , Plot`Plot_0616a266-66af-4221-a68a-ad24f1a280e3
+
+PARSFILE Plot\Setup\Plot_38af2fee-b452-4e50-bfca-9012303b5e16.par
+#BlueLink16 Plot: Setup`Yaw Rate of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_38af2fee-b452-4e50-bfca-9012303b5e16
+
+PARSFILE Plot\Setup\Plot_8aa6411f-4f0f-45db-b32c-d612009087f2.par
+#BlueLink17 Plot: Setup`Lateral Accel. of CG's vs. Time` Vehicle Motion` , Plot`Plot_8aa6411f-4f0f-45db-b32c-d612009087f2
+
+PARSFILE Plot\Setup\Plot_4af2f9b1-0431-4d0f-825a-d6b3145172e5.par
+#BlueLink18 Plot: Setup`Roll Angle of Sprung Masses vs. Time` Vehicle Motion` , Plot`Plot_4af2f9b1-0431-4d0f-825a-d6b3145172e5
+
+PARSFILE Plot\Setup\Plot_6c56dc2f-7305-48e8-96d3-4081fbab1e39.par
+#BlueLink19 Plot: Setup`Roll vs. Lateral Accel.` Vehicle Motion` , Plot`Plot_6c56dc2f-7305-48e8-96d3-4081fbab1e39
+
+
+#EMBEDDED_NOTES
+#This is a basic steering step input test. The vehicle travels at a constant speed for a brief period, followed by a step input to the steering wheel.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Handling Tests } Steering Step Input
+#Library : Procedures
+#DataSet : Steering Step Input
+#Category: Handling Tests
+#FileID  : Proc_851cd4a1-d769-4e5c-bab8-9c32f65c6e6a
+#Modified: 06-07-2021 01:49:11
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

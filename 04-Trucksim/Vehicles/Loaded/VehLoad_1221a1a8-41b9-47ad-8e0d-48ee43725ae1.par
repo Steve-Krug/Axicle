@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`Delivery Truck w/o Sensors`Misc. Utility Trucks
+#VehCode S_S
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_2a\Lead2a_76bc2d02-02f6-4bd8-9e71-455e07cc12e0.par
+#BlueLink0 Vehicle: Lead Unit with 2 Axles`Delivery Truck` Utility Vehicles` , Vehicle Type`Lead2a_76bc2d02-02f6-4bd8-9e71-455e07cc12e0
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Generic\VS_commands\GenVS_2d74e0c6-b83c-48b5-80d7-d5108490de84.par
+#BlueLink1 Generic VS Commands`Parameters for Signs and Pedestrians` ADAS Support` , Miscellaneous`GenVS_2d74e0c6-b83c-48b5-80d7-d5108490de84
+
+#MiscYellow0
+define_parameter SIGN_DETECT = 100; -; Event Group ID for handling signs
+#ENDMYellow
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_8f7dac3f-b802-4072-9832-f4b98d0cc372.png
+
+#EMBEDDED_NOTES
+#Utilty truck with manual transmission that defines parameters used in ADAS examples to stop the vehicle at a specific location. However, in this version Sensors are not included.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Misc. Utility Trucks } Delivery Truck w/o Sensors
+#Library : Vehicle: Loaded Combination
+#DataSet : Delivery Truck w/o Sensors
+#Category: Misc. Utility Trucks
+#FileID  : VehLoad_1221a1a8-41b9-47ad-8e0d-48ee43725ae1
+#Created : 05-31-2022 09:11:54
+#Modified: 05-31-2022 09:25:25
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_S
+
+END

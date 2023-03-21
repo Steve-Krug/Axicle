@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Reference Point for Next Vehicle`Parallel Solvers
+#RingCtrl1 1
+
+
+EXPORT X_RP1
+EXPORT Y_RP1
+#MiscYellow0
+#Number of Selected Channels: 2
+#CHN_NAME: X_RP1
+#CHN_NAME: Y_RP1
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { Parallel Solvers } Reference Point for Next Vehicle
+#Library : I/O Channels: Export
+#DataSet : Reference Point for Next Vehicle
+#Category: Parallel Solvers
+#FileID  : Export_9a2d0a6c-4794-4ead-8fa3-c166668d0f64
+#Modified: 06-16-2021 12:37:08
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Export Channels
+
+END

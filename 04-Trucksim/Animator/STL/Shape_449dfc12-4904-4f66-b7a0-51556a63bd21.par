@@ -1,0 +1,56 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`20-ft Shipping Container (Whole)`Common Vehicle Assets: Payloads
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\one_part_shipping_containers\Container_20ft.OSG
+#ENDMYellow
+
+SET_COLOR 0.8 0.4 0
+SET_OFFSET_X 3.025
+SET_OFFSET_Y 0
+SET_OFFSET_Z -1.295
+X_REF_LENGTH 6050
+Y_REF_LENGTH 2440
+Z_REF_LENGTH 2590
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+#MiscYellow0
+! Include folder with files to support shipping container shapes
+*cpar_include Animator\3D_Shape_Files\one_part_shipping_containers
+#ENDMYellow
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_90838e05-dbe3-432a-9598-108f7c72dcdd.par
+#BlueLink2 Animator: Camera Setup`XZ Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_90838e05-dbe3-432a-9598-108f7c72dcdd
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_449dfc12-4904-4f66-b7a0-51556a63bd21.png
+
+#EMBEDDED_NOTES
+#Shipping Container dimensions are standardized.  A 20 foot Dry Cargo Container with a standard height has the following exterior dimensions:
+#
+#Length: 6.05 m (19.88 feet)
+#Width: 2.44 m (8.00 feet)
+#Height 2.59 m (8.5 feet)
+#
+#The offsets applied here move the coordinate system to the center of mass for the empty container so that it can be used as a payload.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets: Payloads } 20-ft Shipping Container (Whole)
+#Library : Animator: Shape File Link
+#DataSet : 20-ft Shipping Container (Whole)
+#Category: Common Vehicle Assets: Payloads
+#FileID  : Shape_449dfc12-4904-4f66-b7a0-51556a63bd21
+#Modified: 06-07-2021 01:53:42
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

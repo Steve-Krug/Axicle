@@ -1,0 +1,46 @@
+2023-01-17T15:08:48 Logfile initialized.
+2023-01-17T15:08:48 (Info):    TruckSim 2022.1
+2023-01-17T15:08:48 (Info):    -
+2023-01-17T15:08:48 (Info):    command-line: 
+2023-01-17T15:08:48 (Info):    -
+2023-01-17T15:08:48 (Info):    Working Dir: C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\05-Trucksim_tutorial\
+2023-01-17T15:08:48 (Info):    Program Dir: C:\Program Files (x86)\TruckSim2022.1_Prog\
+2023-01-17T15:08:48 (Info):    -
+2023-01-17T15:08:48 (Info):    OS Version:        6.2 (build 9200)
+2023-01-17T15:08:48 (Info):    CPU Architecture:  x64
+2023-01-17T15:08:48 (Info):    CPU Count:         20
+2023-01-17T15:08:48 (Info):    CPU Level/Rev:     6/38658
+2023-01-17T15:08:48 (Info):    Start Mem Total:   32492 MB
+2023-01-17T15:08:48 (Info):    Start Mem Used:    39%
+2023-01-17T15:08:48 (Info):    -
+2023-01-17T15:08:48 (Info):    Loaded dataset index cache in 0.02s, 21.3 megabytes.
+2023-01-17T15:08:48 (Info):    Feature                  Source                       Version  Acquired  Count
+2023-01-17T15:08:48 (Info):    -----------------        -----------------            -------  --------  -----
+2023-01-17T15:08:48 (Info):    trucksimus               C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-17T15:08:48 (Info):    trucksimfus              C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-17T15:08:48 (Info):    trucksimsguius           C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-17T15:09:17 (Info):    Acquired [1] license for trucksimsguius
+2023-01-17T15:09:17 (Info):    Acquired [1] license for trucksimus
+2023-01-17T15:09:17 (Info):    Acquired [1] license for trucksimfus
+2023-01-17T15:09:17 (Info):    License check took 29.20 seconds.
+2023-01-17T15:09:17 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-17T15:09:17 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-17T15:09:18 (Info):    Initial setup took 0.97 seconds.
+2023-01-17T15:09:18 (Info):    Auto updates took 0.00 seconds.
+2023-01-17T15:09:19 (Info):    Loaded last screen in 0.55 seconds.
+2023-01-17T15:09:19 (Info):    Total init time 30.91 seconds.
+2023-01-17T15:10:47 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-17T15:10:47 (Info):    Math model run completed.
+2023-01-17T15:10:52 (Info):    Assembling animation...
+2023-01-17T15:10:52 (Info):    Animation assembly finished.
+2023-01-17T15:34:54 (Info):    Starting batch mode with 2 runs.
+2023-01-17T15:34:57 (Info):    Running math model for: { * * Quick Start Guide Example } Baseline
+2023-01-17T15:34:58 (Info):    Math model run completed.
+2023-01-17T15:34:58 (Info):    Running math model for: { * * Quick Start Guide Example } Baseline #1
+2023-01-17T15:34:58 (Info):    Math model run completed.
+2023-01-17T15:34:58 (Info):    Ended batch mode.
+2023-01-18T13:57:47 (Info):    4951 index cache entries written in 0.016s
+2023-01-18T13:57:47 (Info):    Released [1] license for trucksimsguius
+2023-01-18T13:57:47 (Info):    Released [1] license for trucksimus
+2023-01-18T13:57:47 (Info):    Released [1] license for trucksimfus
+2023-01-18T13:57:47 (Info):    Exiting application...

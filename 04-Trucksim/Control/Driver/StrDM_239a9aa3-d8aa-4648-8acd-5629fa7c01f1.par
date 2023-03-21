@@ -1,0 +1,56 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`0.3m Offset, 7s Preview, TBC`Constant Position: Non-Zero Offset
+SET_ILTARG_FOR_ID 0
+set_description LTARG_ID 0.3m Offset, 7s Preview, TBC
+#MiscYellow0
+install_dm_tbc
+tbc_gain 5
+#ENDMYellow
+
+#RingCtrl0 0
+#RingCtrl1 CONSTANT
+#RingCtrl2 1
+LTARG_CONSTANT 0.3
+#RadioCtrl0 0    
+
+*SCALAR 0.3
+SET_PATH_WIDTH 0.1
+SET_PATH_DASH_INTERVAL 1.0
+SET_PATH_VERTEX_INTERVAL 1
+SET_PATH_DZ 0.01
+SET_PATH_COLOR 0.4 0.4 1
+#CheckBox2 1    
+#CheckBox3 1    
+LTARG_ID_DM LTARG_ID
+#CheckBox0 0    
+#CheckBox1 1    
+CREATE_PATH_OBJ on
+#CheckBox4 1    
+#CheckBox5 0    
+OPT_STR_BY_TRQ 0
+OPT_DM 3
+INSTALL_DM_IMPORTS
+AV_SW_MAX_DM 1200
+A_SW_MAX_DM 720
+*TPREV 7
+VLOW_DM 10
+TPREV_CONSTANT 7
+
+#EMBEDDED_NOTES
+#The optional trailer backing controller is installed with the VS Command install_dm_tbc. This has an associated control gain parameter tbc_gain which may be set.
+#
+#When using the TBC for precision parking or docking maneuvers, the lateral offset can be used to fine tune the position of the trailer within the space.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position: Non-Zero Offset } 0.3m Offset, 7s Preview, TBC
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : 0.3m Offset, 7s Preview, TBC
+#Category: Constant Position: Non-Zero Offset
+#FileID  : StrDM_239a9aa3-d8aa-4648-8acd-5629fa7c01f1
+#Created : 05-20-2022 17:35:51
+#Modified: 05-20-2022 18:31:44
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Driver Path Follower
+
+END

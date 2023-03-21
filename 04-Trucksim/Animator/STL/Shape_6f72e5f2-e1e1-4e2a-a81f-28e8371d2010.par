@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Cylinder: Artic Bus Unit 1`Artic Bus
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Geometric_Shapes\Cylinders\cylinder_1m_radius_1m_long.obj
+#ENDMYellow
+
+SET_COLOR 0.627 0.627 0.627
+SET_SCALE_X 0.03
+SET_SCALE_Y 0.25
+SET_SCALE_Z 0.25
+SET_ANGLE_Z 0
+SET_ANGLE_Y 90
+SET_ANGLE_X 0
+SET_OFFSET_X -0.5
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.01
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_8677bbce-b5a2-4e33-a985-ac119201a4af.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Medium Objects` Shape Preview` , Video Camera`Camera_8677bbce-b5a2-4e33-a985-ac119201a4af
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_6f72e5f2-e1e1-4e2a-a81f-28e8371d2010.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Artic Bus } Cylinder: Artic Bus Unit 1
+#Library : Animator: Shape File Link
+#DataSet : Cylinder: Artic Bus Unit 1
+#Category: Artic Bus
+#FileID  : Shape_6f72e5f2-e1e1-4e2a-a81f-28e8371d2010
+#Created : 05-27-2022 17:29:43
+#Modified: 05-31-2022 10:24:12
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

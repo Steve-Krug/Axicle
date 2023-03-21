@@ -1,0 +1,97 @@
+PARSFILE
+#FullDataName TruckSim Run Control`ACC Bus, 4-Lane Rd., Fwd, Opp Traffic`ADAS and Active Safety
+#VEHICLECODE S_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_e1e67740-de4b-4e78-9961-7fb133d349ae
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_b7028f29-fdf7-4233-8487-abd35f8aee05.par
+#BlueLink0 Animator: Camera Setup`180 Azm, 10 El, 36 m` Vehicle Reference` , Animator camera`Camera_b7028f29-fdf7-4233-8487-abd35f8aee05
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_13b32a0c-cdb0-4fd4-b250-262a06f473d3.par
+#BlueLink2 Vehicle: Loaded Combination`2A Tour Bus, AEB, ACC` Tour Buses` , Math Model`VehLoad_13b32a0c-cdb0-4fd4-b250-262a06f473d3
+
+PARSFILE Procedures\Proc_90a98096-1f4a-43bc-aaae-4f006d39450a.par
+#BlueLink28 Procedures`110 km/h, 2m Right` Driver Controls` , Procedure`Proc_90a98096-1f4a-43bc-aaae-4f006d39450a
+
+PARSFILE Roads\3D_Road\Road_254626e4-6912-4d54-9b26-1ae8ad08029c.par
+#BlueLink9 Road: 3D Surface (All Properties)`4-Lane Section (Adjacent Lanes)` Multiple Lanes` , Miscellaneous`Road_254626e4-6912-4d54-9b26-1ae8ad08029c
+
+PARSFILE Generic\Group\GenGrp_e1e977b5-b693-4e76-bb03-90da295a5a5e.par
+#BlueLink10 Generic Data Group`14 Vehicles: 2 Lanes Fwd, 1 Lane Opp.` ADAS: Traffic for ACC & FCW` , Miscellaneous`GenGrp_e1e977b5-b693-4e76-bb03-90da295a5a5e
+
+PARSFILE Animator\HUD\HUD_da461033-04d1-4048-990d-edda7e26e6b5.par
+#BlueLink11 Animator: HUD`Hwy Perf.,Vehicle In Lane, Detected` Alerts` , Miscellaneous`HUD_da461033-04d1-4048-990d-edda7e26e6b5
+
+PARSFILE Plot\Setup\Plot_ec695d33-4bfc-4202-af7d-e7e5188e3276.par
+#BlueLink15 Plot: Setup`AEB Booleans, new` ADAS and AEB Alerts and Commands` , Plot`Plot_ec695d33-4bfc-4202-af7d-e7e5188e3276
+
+PARSFILE Plot\Setup\Plot_7af09c55-d65d-40f9-baff-9711827032d6.par
+#BlueLink16 Plot: Setup`Longit. Accel. of CG's vs. Time (m/s2)` Vehicle Motion` , Plot`Plot_7af09c55-d65d-40f9-baff-9711827032d6
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_d28b558f-b555-4e58-ad92-ce684db5c9e3.png
+WRITE_SENSOR_DETECT
+Title ACC Bus, 4-Lane Rd., Fwd, Opp Traffic <ADAS and Active Safety>
+CATEGORY ADAS and Active Safety 
+DATASET_TITLE ACC Bus, 4-Lane Rd., Fwd, Opp Traffic
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The ego vehicle is equipped with adaptive cruise control (ACC) and blind-spot detection, travelling on a road with forward traffic in two lanes and on-coming traffic in a third lane.
+#
+#The blind spot detection shows alerts for vehicles in the right lane, while the ACC controls the vehicle speed via throttle and brakes with a VS Command equation.  The time gap for the ACC can be modified on the ADAS sensor screen.  The number of bars displayed on the ACC HUD is dependent on the time gap.
+#
+#The blind spot detection signals include a low-pass filter that prevents alerts from flashing when on-coming vehicles are detected.
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } ACC Bus, 4-Lane Rd., Fwd, Opp Traffic
+#Library : TruckSim Run Control
+#DataSet : ACC Bus, 4-Lane Rd., Fwd, Opp Traffic
+#Category: ADAS and Active Safety
+#FileID  : Run_e1e67740-de4b-4e78-9961-7fb133d349ae
+#Created : 09-24-2021 13:40:13
+#Modified: 05-03-2022 12:51:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

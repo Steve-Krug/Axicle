@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`3A Dump Truck, Locked T-Case, Payload`Dump Trucks
+#VehCode S_SS
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_3a\Lead3a_021f11f2-3656-48ba-9646-28c4782fa729.par
+#BlueLink0 Vehicle: Lead Unit with 3 Axles`3A Dump Truck w/ Locked Transfer Case` PBS Dump Truck` , Vehicle Type`Lead3a_021f11f2-3656-48ba-9646-28c4782fa729
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Payloads\Custom\Custom_0b23c413-91af-4409-95a6-46c1045b246e.par
+#BlueLink1 Payload: Custom`Dirt for Dump Truck (20,000 kg)` Dump Trucks and Trailers` , Miscellaneous`Custom_0b23c413-91af-4409-95a6-46c1045b246e
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_5e99b800-fddc-4e1b-a23d-d8a55608d47a.png
+
+#EMBEDDED_NOTES
+#Three axle dump truck with Locked Transfer Case and 20,000 kg payload.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Dump Trucks } 3A Dump Truck, Locked T-Case, Payload
+#Library : Vehicle: Loaded Combination
+#DataSet : 3A Dump Truck, Locked T-Case, Payload
+#Category: Dump Trucks
+#FileID  : VehLoad_58c8e17c-a76f-46ea-9bf6-b11ec49767ce
+#Modified: 06-07-2021 01:48:49
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_SS
+
+END

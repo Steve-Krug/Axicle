@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`3A Sleeper + Flatbed, 41k lbf payload #1`Sleeper-Cab Tractor-Trailers
+#VehCode S_SS
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_3a\Lead3a_164cae34-f3ed-4382-aa43-98e6eee8a593.par
+#BlueLink0 Vehicle: Lead Unit with 3 Axles`3A Sleeper (18 Spd) #1` 3A Tractors` , Vehicle Type`Lead3a_164cae34-f3ed-4382-aa43-98e6eee8a593
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_3a\Lead3a_164cae34-f3ed-4382-aa43-98e6eee8a593.png
+
+#EMBEDDED_NOTES
+#Three axle sleeper with two axle flatbed trailer.
+#
+#Payload is a single 41k lbf Steel Roll.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Sleeper-Cab Tractor-Trailers } 3A Sleeper + Flatbed, 41k lbf payload #1
+#Library : Vehicle: Loaded Combination
+#DataSet : 3A Sleeper + Flatbed, 41k lbf payload #1
+#Category: Sleeper-Cab Tractor-Trailers
+#FileID  : VehLoad_7afa67c4-7c94-4fc6-a2c3-f9902df46be7
+#Created : 01-19-2023 21:28:39
+#Modified: 01-19-2023 22:57:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_SS
+
+END

@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`Platoon Intruder`Lane Changes
+SET_ILTARG_FOR_ID 2000
+set_description LTARG_ID Platoon Intruder
+#RingCtrl1 SPLINE_FLAT
+#RingCtrl2 2
+#DiagramOne0
+LTARG_TABLE SPLINE_FLAT
+1600, 0
+1680, -3.8
+1700, -3.8
+1750, -3.8
+1920, -3.8
+1950, -3.8
+1970, -3.8
+1978, -3.8
+2065, -7.6
+ENDTABLE
+#RadioCtrl0 1    
+
+SET_PATH_WIDTH 0.1
+SET_PATH_DASH_INTERVAL 0.5
+SET_PATH_VERTEX_INTERVAL 0.25
+SET_PATH_DZ 0.03
+SET_PATH_COLOR 0 0 1
+#CheckBox2 0    
+#CheckBox3 0    
+
+#EMBEDDED_NOTES
+#This target lane change path is intended to be scaled based on the width of a lane (ltarg_gain is typically set to lane_ctr) to go from the right-hand lane center to the left-hand lane center.
+#
+#The starting station SSTART_LTARG should be set via an Event to be at or in front of the vehicle's current station position. The duration of the lane change (2) is intended to be scaled by vehicle speed (m/s), meaning that the maneuver will take 2 seconds if SSCALE_LTARG is set to VX.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Lane Changes } Platoon Intruder
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : Platoon Intruder
+#Category: Lane Changes
+#FileID  : StrDM_86f57d64-04bc-4c5c-9b55-cfd24d6c59e3
+#Created : 09-29-2021 10:09:52
+#Modified: 09-29-2021 10:20:17
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Driver Path Follower
+
+END

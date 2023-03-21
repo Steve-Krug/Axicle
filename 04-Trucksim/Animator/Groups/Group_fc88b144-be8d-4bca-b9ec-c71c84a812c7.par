@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Animator: Group`Animate tire utilization - Current forces`Tire force and moment
+PARSFILE Animator\Frames\Frame_dc308630-cca1-4a2a-8f23-8fca18da3d7b.par
+#BlueLink0 Animator: Reference Frame`Tire utilization (current) - LF` Tire force and moment` , Miscellaneous`Frame_dc308630-cca1-4a2a-8f23-8fca18da3d7b
+
+PARSFILE Animator\Frames\Frame_7441fa0e-d457-4966-87c3-876467dd592a.par
+#BlueLink1 Animator: Reference Frame`Tire utilization (current) - RF` Tire force and moment` , Miscellaneous`Frame_7441fa0e-d457-4966-87c3-876467dd592a
+
+PARSFILE Animator\Frames\Frame_c1c302bc-df81-461d-b618-3a2dae2ffd5b.par
+#BlueLink2 Animator: Reference Frame`Tire utilization (current) - LR` Tire force and moment` , Miscellaneous`Frame_c1c302bc-df81-461d-b618-3a2dae2ffd5b
+
+PARSFILE Animator\Frames\Frame_c01acec2-6ce3-4e7c-97f4-d37a9a84e293.par
+#BlueLink3 Animator: Reference Frame`Tire utilization (current) - RR` Tire force and moment` , Miscellaneous`Frame_c01acec2-6ce3-4e7c-97f4-d37a9a84e293
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Tire force and moment } Animate tire utilization - Current forces
+#Library : Animator: Group
+#DataSet : Animate tire utilization - Current forces
+#Category: Tire force and moment
+#FileID  : Group_fc88b144-be8d-4bca-b9ec-c71c84a812c7
+#Modified: 06-07-2021 01:54:06
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Animator Group
+
+END

@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Semi-Active Susp.: Dampers, Tire Comp.`Suspension and Ride Control
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_9225e80a-db2e-4d7b-b544-6ab46029acab\Run_out_tab.txt
+
+
+EXPORT CmpT_L1i
+EXPORT CmpT_R1i
+EXPORT CmpT_L2i
+EXPORT CmpT_R2i
+EXPORT CmpD_L1
+EXPORT CmpD_R1
+EXPORT CmpD_L2
+EXPORT CmpD_R2
+EXPORT Vz_Wc_L1
+EXPORT Vz_Wc_R1
+EXPORT Vz_Wc_L2
+EXPORT Vz_Wc_R2
+EXPORT CmpRD_L1
+EXPORT CmpRD_R1
+EXPORT CmpRD_L2
+EXPORT CmpRD_R2
+#MiscYellow0
+#Number of Selected Channels: 16
+#CHN_NAME: CmpT_L1i
+#CHN_NAME: CmpT_R1i
+#CHN_NAME: CmpT_L2i
+#CHN_NAME: CmpT_R2i
+#CHN_NAME: CmpD_L1
+#CHN_NAME: CmpD_R1
+#CHN_NAME: CmpD_L2
+#CHN_NAME: CmpD_R2
+#CHN_NAME: Vz_Wc_L1
+#CHN_NAME: Vz_Wc_R1
+#CHN_NAME: Vz_Wc_L2
+#CHN_NAME: Vz_Wc_R2
+#CHN_NAME: CmpRD_L1
+#CHN_NAME: CmpRD_R1
+#CHN_NAME: CmpRD_L2
+#CHN_NAME: CmpRD_R2
+#ENDMYellow
+
+#BlueLink0 TruckSim Run Control`Semi-Active Suspension: L/R Bumps` Simulink Models` , example run`Run_9225e80a-db2e-4d7b-b544-6ab46029acab
+
+
+#EMBEDDED_NOTES
+#Export variables dataset for the Semi-Active Suspension / Simulink example.
+#
+#This dataset specifies the export variables for the tire compression, damper compression, wheel center vertical velocity, and damper compression rate for four wheels.
+#
+#These export variables are supplying data to a Simulink-based LQR/LQG theoretical controller originally designed around a quarter car model.
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { Suspension and Ride Control } Semi-Active Susp.: Dampers, Tire Comp.
+#Library : I/O Channels: Export
+#DataSet : Semi-Active Susp.: Dampers, Tire Comp.
+#Category: Suspension and Ride Control
+#FileID  : Export_f802fb04-32a5-4188-98b0-b4a49dbde681
+#Modified: 06-07-2021 01:52:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Export Channels
+
+END

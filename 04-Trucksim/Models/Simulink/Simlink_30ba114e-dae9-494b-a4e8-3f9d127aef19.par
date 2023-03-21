@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName Models: Simulink`Platoon; Lead`Parallel Solvers
+#RunMdlFile Extensions\Simulink\Parallel_Solver\Tractor_Trailer_Platoon.mdl
+SIMULINK_MODEL_FILE Extensions\Simulink\Parallel_Solver\Tractor_Trailer_Platoon.mdl
+#RingCtrl0 -1
+#CheckBox0 1    
+*USE_ALT_DIR 1
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 1    
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+*TSTEP 0.001
+*FREQ_MODEL 1000
+*TSTEP_OUT 0.025
+*FREQ_OUT 40
+tstep 0.001
+iprint 25
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+#AltPath Extensions\Simulink\Parallel_Solver
+*ALTERNATE_PATH Extensions\Simulink\Parallel_Solver
+PARSFILE IO_Channels\O_Channels\Export_70cef9f5-0b37-4139-ae9c-b8a9cdfd2dfc.par
+#BlueLink1 I/O Channels: Export`Lead Exports` Platoon` , Import/Export`Export_70cef9f5-0b37-4139-ae9c-b8a9cdfd2dfc
+
+PARSFILE IO_Channels\O_Channels\Export_e91d7250-ddc9-47d9-a297-0e240dda2bfa.par
+#BlueLink2 I/O Channels: Export`Vehicle Position and Orientation` Parallel Solvers` , Miscellaneous`Export_e91d7250-ddc9-47d9-a297-0e240dda2bfa
+
+#MiscYellow1
+! Include Parallel VS Math Models dataset
+*cpar_include Batch\MultiVehicles\MVeh_6ac5de20-6113-4921-92e3-993866738a03.par
+*cpar_include Batch\MultiVehicles\MVeh_31161985-6eb9-4c53-b933-f6cb3ceb2e0b.par
+*cpar_include Batch\MultiVehicles\MVeh_c8ab1438-bce5-45a4-abe6-732b949ea6f0.par
+*cpar_include Batch\MultiVehicles\MVeh_88a9206b-258c-4e88-85fc-fe78f174cf56.par
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#Models: Simulink dataset for use with the Parallel Solvers example: ACC: External Sensor, External Controls.
+#
+# -When using the Parallel Solvers library for this example the Models: Simulink dataset attached to each vehicle must:
+#  a) use the same Simulink model file,
+#  b) use identical settings for the working directory (which should also contain the Simulink .mdl or .slx file)
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Parallel Solvers } Platoon; Lead
+#Library : Models: Simulink
+#DataSet : Platoon; Lead
+#Category: Parallel Solvers
+#FileID  : Simlink_30ba114e-dae9-494b-a4e8-3f9d127aef19
+#Created : 07-21-2021 14:03:29
+#Modified: 09-24-2021 10:45:01
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 
+
+END

@@ -1,0 +1,102 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Rocky Mtn. Dbl, 3A Tractor, Rrwrd Amp.`Vehicle Layout: Double Trailers
+#VEHICLECODE S_SS + SS + dS + S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_cd0e8f4b-bc11-4b4f-bab3-8a69a448cf40
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 8
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_29df0a4e-f785-4813-acb5-b538d269e340.par
+#BlueLink2 Vehicle: Loaded Combination`Rocky Mountain Double w/ 3A Tractor` Doubles Configurations` , Math Model`VehLoad_29df0a4e-f785-4813-acb5-b538d269e340
+
+PARSFILE Procedures\Proc_70ad8d7f-795c-4e2d-9db4-1830a6f87271.par
+#BlueLink28 Procedures`PBS C14: Yaw Damping` PBS (Performance Based Standards)` , Procedure`Proc_70ad8d7f-795c-4e2d-9db4-1830a6f87271
+
+PARSFILE Generic\Group\GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546.par
+#BlueLink9 Generic Data Group`7 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546
+
+INSTALL_SPEED_CONTROLLER
+Opt_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+set_description SPEED_TARGET_ID Set from the Run Control screen
+SPEED_TARGET_CONSTANT 88
+OPT_SC_ENGINE_BRAKING 0
+*SPEED 88
+*TSTOP 1
+PARSFILE Generic\VS_commands\GenVS_8693a2ce-2dd9-4558-b52a-8705842cc876.par
+#BlueLink20 Generic VS Commands`Tire Vertical Forces (Axles 1 - 7)` Plot Groups` , Plot`GenVS_8693a2ce-2dd9-4558-b52a-8705842cc876
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_135ced7b-75b6-4a58-a554-9ed8958443d3.png
+WRITE_SENSOR_DETECT
+Title Rocky Mtn. Dbl, 3A Tractor, Rrwrd Amp. <Vehicle Layout: Double Trailers>
+CATEGORY Vehicle Layout: Double Trailers 
+DATASET_TITLE Rocky Mtn. Dbl, 3A Tractor, Rrwrd Amp.
+#MiscYellow0
+STEER_SW_GAIN = 90
+! Do not reduce speed overshoot in Speed
+! Controller.
+OPT_AUTO_RESET_IC = 0
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The dolly has one axle and uses a 5th wheel with a rigid towbar.
+#
+#A Rocky Mountain Double is a type of long combination vehicle in the United States and Canada.
+#
+#The first trailer may be between 40 feet and 53 feet in length, while the second trailer may be between 26 feet and 29 feet long.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers } Rocky Mtn. Dbl, 3A Tractor, Rrwrd Amp.
+#Library : TruckSim Run Control
+#DataSet : Rocky Mtn. Dbl, 3A Tractor, Rrwrd Amp.
+#Category: Vehicle Layout: Double Trailers
+#FileID  : Run_cd0e8f4b-bc11-4b4f-bab3-8a69a448cf40
+#Modified: 06-06-2022 11:04:12
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

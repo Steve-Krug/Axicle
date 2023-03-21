@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Turntable, 2A Dolly, 1.8m Towbar`Turntables
+*OFFSET_X <<hitch_x>>
+*OFFSET_Y <<hitch_y>>
+*OFFSET_Z <<hitch_z>>
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+PARSFILE Animator\STL\Shape_ed43a12e-1a48-4e8a-bfb8-fa087877586e.par
+#BlueLink0 Animator: Shape File Link`Hitches: Turntable` Common Vehicle Assets` , Shape File`Shape_ed43a12e-1a48-4e8a-bfb8-fa087877586e
+
+set_offset_x <<hitch_x>>
+set_offset_y <<hitch_y>>
+set_offset_z <<hitch_z>>
+PARSFILE Animator\STL\Shape_acedc146-1a6b-49b2-962b-617b04af8ab9.par
+#BlueLink1 Animator: Shape File Link`Hitches: Turntable Spacer, 2A Dolly` Common Vehicle Assets` , Shape File`Shape_acedc146-1a6b-49b2-962b-617b04af8ab9
+
+set_offset_x <<hitch_x>>
+set_offset_y <<hitch_y>>
+set_offset_z <<hitch_z>>
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_8677bbce-b5a2-4e33-a985-ac119201a4af.par
+#BlueLink17 Animator: Camera Setup`Isometric View - Medium Objects` Shape Preview` , Video Camera`Camera_8677bbce-b5a2-4e33-a985-ac119201a4af
+
+
+#EMBEDDED_NOTES
+#Turntable, 2A Dolly, 1.8m Towbar
+#
+#X coordinate set to new location of Turntable for use with 1.8 meter towbar on a 2-axle dolly.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Turntables } Turntable, 2A Dolly, 1.8m Towbar
+#Library : Animator: Shape Assembly
+#DataSet : Turntable, 2A Dolly, 1.8m Towbar
+#Category: Turntables
+#FileID  : ShpGrp_c3a7a47c-72d5-4028-b591-0117663542e7
+#Created : 11-21-2021 18:08:52
+#Modified: 11-21-2021 21:00:25
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

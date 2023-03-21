@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`2A Dolly: Brake Lights (On)`Trailers: Dollies w/ Hinged Towbars
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Dollies\Hinged_Dolly_Double_BrakeOn.obj
+#ENDMYellow
+
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_9c1b0877-e621-4d49-b32b-2ea8a18b4c99.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Rear)` Shape Preview` , Video Camera`Camera_9c1b0877-e621-4d49-b32b-2ea8a18b4c99
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_4ce82f19-d8b1-487d-91a0-fead02940831.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers: Dollies w/ Hinged Towbars } 2A Dolly: Brake Lights (On)
+#Library : Animator: Shape File Link
+#DataSet : 2A Dolly: Brake Lights (On)
+#Category: Trailers: Dollies w/ Hinged Towbars
+#FileID  : Shape_4ce82f19-d8b1-487d-91a0-fead02940831
+#Created : 10-13-2021 14:39:55
+#Modified: 06-01-2022 10:35:36
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

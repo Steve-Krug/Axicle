@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`View: Road Course`Shape Preview
+#RingCtrl1 0
+
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 1    
+
+GHOST_COUNT 0
+SET_CAMERA_REFERENCE_FRAME Frame_411a5d69-f84d-4683-99e5-7b833df0eca4
+PARSFILE Animator\Frames\Frame_411a5d69-f84d-4683-99e5-7b833df0eca4.par
+#BlueLink0 Animator: Reference Frame`Yaw for Shape Preview` Shape Preview` , Reference frame for outside camera`Frame_411a5d69-f84d-4683-99e5-7b833df0eca4
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_411a5d69-f84d-4683-99e5-7b833df0eca4
+SET_LOOKPOINT_X -100
+SET_LOOKPOINT_Y 1400
+SET_LOOKPOINT_Z 150
+SET_AZIMUTH 280
+SET_ELEVATION -6
+SET_DISTANCE 2500
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -100
+*SET_LOOKPOINT_Y 1400
+*SET_LOOKPOINT_Z 150
+*SET_AZIMUTH 280
+*SET_ELEVATION -6
+*SET_DISTANCE 2500
+GHOST_COUNT 0
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 21.1
+SUN_POSITION 10 10 100
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Shape Preview } View: Road Course
+#Library : Animator: Camera Setup
+#DataSet : View: Road Course
+#Category: Shape Preview
+#FileID  : Camera_05adff3b-2649-4bc1-9946-b6d50df90f8b
+#Modified: 06-07-2021 01:54:07
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Camera
+
+END

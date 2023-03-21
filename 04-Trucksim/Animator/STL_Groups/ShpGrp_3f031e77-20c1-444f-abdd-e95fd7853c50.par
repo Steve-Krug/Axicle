@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Container Trailer: 2 x 20-ft Containers`Trailers
+*COLOR .36 .117 .117
+*SCALE_X 1
+*SCALE_Y 1
+*SCALE_Z 1
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 1.1
+*X_REF_LENGTH 12192
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_3f031e77-20c1-444f-abdd-e95fd7853c50.png
+PARSFILE Animator\STL\Shape_5e5bbdbb-0e3a-4b33-9bd7-da88c30f7d10.par
+#BlueLink0 Animator: Shape File Link`Container Trailer: Front (Universal)` Trailers (1 of 2)` , Shape File`Shape_5e5bbdbb-0e3a-4b33-9bd7-da88c30f7d10
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_e6d1eace-b168-45a5-95c6-e4e20de2aaf1.par
+#BlueLink1 Animator: Shape File Link`Container Trailer: Mid (40-ft or 2 x 20-ft)` Trailers (1 of 2)` , Shape File`Shape_e6d1eace-b168-45a5-95c6-e4e20de2aaf1
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_c8fcf72f-83e3-45d4-9f6d-356dd74b447d.par
+#BlueLink2 Animator: Shape File Link`Container Trailer: Rear (2 x 20-ft)` Trailers (1 of 2)` , Shape File`Shape_c8fcf72f-83e3-45d4-9f6d-356dd74b447d
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_8b8d19b6-ea87-4f47-91ca-568b6b9922d4.par
+#BlueLink5 Animator: Shape File Link`Hitch Pin` Common Vehicle Assets` , Shape File`Shape_8b8d19b6-ea87-4f47-91ca-568b6b9922d4
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 1.1
+x_ref_length 12192
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_f83b7094-9b83-4f2c-b624-9034f092d353.par
+#BlueLink17 Animator: Camera Setup`Vehicles - Trailers (Heavy)` Shape Preview` , Video Camera`Camera_f83b7094-9b83-4f2c-b624-9034f092d353
+
+
+#EMBEDDED_NOTES
+#This dataset assembles the Container Trailer for use with two 20' shipping containers.
+#
+#Offsets at the Shape File Link level (the children to this dataset) will be needed to position the parts correctly.
+#
+#The front part should have no horizontal offsets.
+#
+#The mid part should be offset by the distance from the front of the container to the sprung mass coordinate system origin (675 mm) minus the length of the front container (6.05 m)
+#
+#The rear part should be offset by th distance from the front of the first container to the sprung mass coordinate system origin (675 mm) minus the total length of all containers (6050 mm x 2), minus the gap between the two containers (46 mm)
+#
+#The offset for the brake lights should match that of the rear section, and the reference lengths for the brake lights should match those of this assembly.
+#
+#Example:
+#Offset for Front: 0 m
+#
+#Offset for Mid: 0.675 m - 6.05 m = -5.375 m
+#
+#Offset for Rear: 0.675 m - 6.05 m * 2 - 0.046 m = -11.471 m
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers } Container Trailer: 2 x 20-ft Containers
+#Library : Animator: Shape Assembly
+#DataSet : Container Trailer: 2 x 20-ft Containers
+#Category: Trailers
+#FileID  : ShpGrp_3f031e77-20c1-444f-abdd-e95fd7853c50
+#Modified: 06-07-2021 01:53:37
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Generic Table`Batt. charged resis. (7 milliohms)`Powertrain (HEV)
+#RingCtrl0 2D_SPLINE
+#CheckBox0 1    
+
+*3D_XLabel Temperature (C)
+*3D_YLabel State of charged (-)
+*3D_ZLabel Resistance (V2/W)
+
+#DiagramTwo0
+*3D_DATA 3, 4 ! columns x rows
+R_CHRG_BATTERY_CARPET 2D_SPLINE
+0, 0, 25, 45
+0, 0.01645, 0.008225, 0.008225
+0.2, 0.01435, 0.007175, 0.007175
+0.6, 0.01386, 0.00693, 0.00693
+1, 0.01428, 0.00714, 0.00714
+ENDTABLE
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD R_CHRG_BATTERY
+*X_LABEL State of charged (-)
+*Y_LABEL Resistance (V2/W)
+*X_LABEL_2 Temperature (C)
+
+
+#EMBEDDED_NOTES
+#7 milli-Ohms at nominal (SOC: 60%, Temperature: 25C)
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Batt. charged resis. (7 milliohms)
+#Library : Generic Table
+#DataSet : Batt. charged resis. (7 milliohms)
+#Category: Powertrain (HEV)
+#FileID  : GenTab_ccdcc39c-ed5d-46c1-b54a-76192b5ff6a8
+#Created : 09-14-2021 12:35:36
+#Modified: 01-20-2022 14:22:19
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

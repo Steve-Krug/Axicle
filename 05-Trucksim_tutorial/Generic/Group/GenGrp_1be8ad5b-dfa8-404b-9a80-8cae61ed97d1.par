@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Generic Data Group`Susp. Cab, Linear springs, Import var`Suspended Cab
+#VehCode Generic Group
+PARSFILE Generic\tables\GenTab_9b74d1e5-fee8-4119-a836-cdd02dd7cf7b.par
+#BlueLink0 Generic Table`Susp. Cab Spring: Left Front, Linear` Suspended Cab` , Link 1`GenTab_9b74d1e5-fee8-4119-a836-cdd02dd7cf7b
+
+
+PARSFILE Generic\tables\GenTab_cac13d93-a056-489a-be61-27bb6b7675cb.par
+#BlueLink1 Generic Table`Susp. Cab Spring: Right Front, Linear` Suspended Cab` , Link 2`GenTab_cac13d93-a056-489a-be61-27bb6b7675cb
+
+
+PARSFILE Generic\tables\GenTab_8317bf13-ca71-4d57-a6a9-f5b1533dc70a.par
+#BlueLink2 Generic Table`Susp. Cab Spring: Left Rear, Linear` Suspended Cab` , Link 3`GenTab_8317bf13-ca71-4d57-a6a9-f5b1533dc70a
+
+
+PARSFILE Generic\tables\GenTab_cd82974e-c761-42d3-afb9-07ae794814e4.par
+#BlueLink3 Generic Table`Susp. Cab Spring: Right Rear, Linear` Suspended Cab` , Link 4`GenTab_cd82974e-c761-42d3-afb9-07ae794814e4
+
+
+PARSFILE Generic\VS_commands\GenVS_712d4062-af90-4afd-89ea-0521ad2806d5.par
+#BlueLink4 Generic VS Commands`Susp. Cab: Spring Import Variables` Suspended Cab` , Link 5`GenVS_712d4062-af90-4afd-89ea-0521ad2806d5
+
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#2A Cab-Over-Engine (COE) with a suspended cab.
+#
+#This truck uses four Generic Tables and four import variables to represent the suspended cab's springs.
+#
+#Although we could have defined either a single Generic Table and have it shared by all four springs, or two tables to be shared by the two front and two rear springs, this example shows how it it possible to enter four sets of independent spring data.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Suspended Cab } Susp. Cab, Linear springs, Import var
+#Library : Generic Data Group
+#DataSet : Susp. Cab, Linear springs, Import var
+#Category: Suspended Cab
+#FileID  : GenGrp_1be8ad5b-dfa8-404b-9a80-8cae61ed97d1
+#Created : 05-26-2021 11:19:47
+#Modified: 06-07-2021 01:53:05
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Group
+
+END

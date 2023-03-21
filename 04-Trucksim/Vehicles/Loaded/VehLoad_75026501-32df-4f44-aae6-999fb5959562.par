@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`4A Dump Truck (Self-Steer Axle)`Dump Trucks
+#VehCode S_SSS
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_4a\Lead4a_9135c435-85cd-40bf-a425-a42ba6d8df0e.par
+#BlueLink0 Vehicle: Lead Unit with 4 Axles`4A Dump Truck (Self-Steer Axle)` ` , Vehicle Type`Lead4a_9135c435-85cd-40bf-a425-a42ba6d8df0e
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Payloads\Custom\Custom_0b23c413-91af-4409-95a6-46c1045b246e.par
+#BlueLink1 Payload: Custom`Dirt for Dump Truck (20,000 kg)` Dump Trucks and Trailers` , Miscellaneous`Custom_0b23c413-91af-4409-95a6-46c1045b246e
+
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Dump Trucks } 4A Dump Truck (Self-Steer Axle)
+#Library : Vehicle: Loaded Combination
+#DataSet : 4A Dump Truck (Self-Steer Axle)
+#Category: Dump Trucks
+#FileID  : VehLoad_75026501-32df-4f44-aae6-999fb5959562
+#Created : 06-01-2022 16:45:20
+#Modified: 06-01-2022 16:45:40
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_SSS
+
+END

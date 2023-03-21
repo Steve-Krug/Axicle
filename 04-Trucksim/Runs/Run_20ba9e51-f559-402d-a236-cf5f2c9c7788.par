@@ -1,0 +1,75 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Split Mu Hill Climb w/ Driver Only`Proving Grounds, VS Scene Builder
+#VEHICLECODE S_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_20ba9e51-f559-402d-a236-cf5f2c9c7788
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Lead_2a\Lead2a_0e8f42e3-6607-4e9f-8f23-092fbd4f093c.par
+#BlueLink2 Vehicle: Lead Unit with 2 Axles`Conv. Van (7-spd. AT, Park Tq.)` 2A Conventional Van` , Math Model`Lead2a_0e8f42e3-6607-4e9f-8f23-092fbd4f093c
+
+PARSFILE Procedures\Proc_213d7fa6-e2d7-49cb-ab18-5c95155b2547.par
+#BlueLink28 Procedures`Split Mu 9% Grade Test` Proving Ground` , Procedure`Proc_213d7fa6-e2d7-49cb-ab18-5c95155b2547
+
+*TSTOP 1
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6f9c8392-bd5f-48c8-a1f6-6d0718604c80.png
+WRITE_SENSOR_DETECT
+Title Split Mu Hill Climb w/ Driver Only <Proving Grounds, VS Scene Builder>
+CATEGORY Proving Grounds, VS Scene Builder 
+DATASET_TITLE Split Mu Hill Climb w/ Driver Only
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The proving ground introduced in version 2021.0 contains a test area with various split-mu hills.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Proving Grounds, VS Scene Builder } Split Mu Hill Climb w/ Driver Only
+#Library : TruckSim Run Control
+#DataSet : Split Mu Hill Climb w/ Driver Only
+#Category: Proving Grounds, VS Scene Builder
+#FileID  : Run_20ba9e51-f559-402d-a236-cf5f2c9c7788
+#Modified: 06-14-2021 15:04:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

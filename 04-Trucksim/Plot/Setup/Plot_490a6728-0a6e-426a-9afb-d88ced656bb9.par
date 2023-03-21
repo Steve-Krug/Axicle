@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Plot: Setup`Damper Compression`Suspension Motion
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS CmpD_L1, Time
+PLOTCHANNELS CmpD_R1, Time
+PLOTCHANNELS CmpD_L2, Time
+PLOTCHANNELS CmpD_R2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Damper Compression
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Motion } Damper Compression
+#Library : Plot: Setup
+#DataSet : Damper Compression
+#Category: Suspension Motion
+#FileID  : Plot_490a6728-0a6e-426a-9afb-d88ced656bb9
+#Modified: 06-07-2021 01:49:39
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

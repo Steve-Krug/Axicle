@@ -1,0 +1,101 @@
+PARSFILE
+#FullDataName TruckSim Run Control`STAA Double, 2A Tractor, Rearward Amp.`Vehicle Layout: Double Trailers
+#VEHICLECODE S_S + S + dS + S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_b9cb4b7b-a36e-42a8-ab5b-68571ce539f7
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 8
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_45c7fab9-6bf7-44e8-addd-7490c9eadd5f.par
+#BlueLink2 Vehicle: Loaded Combination`STAA Double w/ 2A Tractor` Doubles Configurations` , Math Model`VehLoad_45c7fab9-6bf7-44e8-addd-7490c9eadd5f
+
+PARSFILE Procedures\Proc_70ad8d7f-795c-4e2d-9db4-1830a6f87271.par
+#BlueLink28 Procedures`PBS C14: Yaw Damping` PBS (Performance Based Standards)` , Procedure`Proc_70ad8d7f-795c-4e2d-9db4-1830a6f87271
+
+PARSFILE Generic\Group\GenGrp_48ee9e99-6d66-4ac6-ba87-2981947238fa.par
+#BlueLink9 Generic Data Group`5 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_48ee9e99-6d66-4ac6-ba87-2981947238fa
+
+INSTALL_SPEED_CONTROLLER
+Opt_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+set_description SPEED_TARGET_ID Set from the Run Control screen
+SPEED_TARGET_CONSTANT 88
+OPT_SC_ENGINE_BRAKING 0
+*SPEED 88
+*TSTOP 1
+PARSFILE Generic\VS_commands\GenVS_5af9134f-eb97-4485-9527-bf855f66b533.par
+#BlueLink20 Generic VS Commands`Tire Vertical Forces (Axles 1 - 5)` Plot Groups` , Plot`GenVS_5af9134f-eb97-4485-9527-bf855f66b533
+
+
+*IMAGE_TYPE PASS_THROUGH
+WRITE_SENSOR_DETECT
+Title STAA Double, 2A Tractor, Rearward Amp. <Vehicle Layout: Double Trailers>
+CATEGORY Vehicle Layout: Double Trailers 
+DATASET_TITLE STAA Double, 2A Tractor, Rearward Amp.
+#MiscYellow0
+STEER_SW_GAIN = 90
+! Do not reduce speed overshoot in Speed
+! Controller.
+OPT_AUTO_RESET_IC = 0
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The dolly has one axle and uses a 5th wheel with a rigid towbar.
+#
+#An STAA Double, also known as a "Western" double, is a type of long combination vehicle in the United States.
+#
+#STAA = Surface Transportation Act of 1982.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers } STAA Double, 2A Tractor, Rearward Amp.
+#Library : TruckSim Run Control
+#DataSet : STAA Double, 2A Tractor, Rearward Amp.
+#Category: Vehicle Layout: Double Trailers
+#FileID  : Run_b9cb4b7b-a36e-42a8-ab5b-68571ce539f7
+#Modified: 06-06-2022 11:04:16
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

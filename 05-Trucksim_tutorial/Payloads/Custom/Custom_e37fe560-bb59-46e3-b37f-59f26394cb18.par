@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Payload: Custom`Passengers - Unit 2`
+DEFINE_PAYLOADS 1
+ILOAD = NLOAD
+OPT_PL_BODY_ID = IUNIT
+IOBJECT_SAVE
+SET_DESCRIPTION PAYLOAD_NAME Passengers - Unit 2
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Animator\STL\Shape_b9986e8a-e0ec-460c-847d-1e889c058636.par
+#BlueLink0 Animator: Shape File Link`Unit 2 Passengers` Artic Bus` , Animator`Shape_b9986e8a-e0ec-460c-847d-1e889c058636
+
+SET_OFFSET_X -4.60000021849
+SET_OFFSET_Y 0
+SET_OFFSET_Z 2.00000009499
+Z_CG_PL 2000
+LX_CG_PL 4600
+Y_CG_PL 0
+M_PL 3300
+IXX_PL 1942
+IYY_PL 14317
+IZZ_PL 14575
+*RX 0.767
+*RY 2.083
+*RZ 2.102
+
+IOBJECT_RESTORE
+
+LOG_ENTRY Used Dataset: Payload: Custom; Passengers - Unit 2
+#Library : Payload: Custom
+#DataSet : Passengers - Unit 2
+#Category: 
+#FileID  : Custom_e37fe560-bb59-46e3-b37f-59f26394cb18
+#Created : 12-08-2021 20:12:59
+#Modified: 12-10-2021 12:38:20
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Payload: Custom
+
+END

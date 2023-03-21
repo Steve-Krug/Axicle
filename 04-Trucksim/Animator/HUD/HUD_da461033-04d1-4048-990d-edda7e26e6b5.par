@@ -1,0 +1,136 @@
+PARSFILE
+#FullDataName Animator: HUD`Hwy Perf.,Vehicle In Lane, Detected`Alerts
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox4 1    
+#CheckBox6 1    
+#CheckBox7 1    
+#CheckBox9 1    
+#CheckBox10 1    
+#CheckBox11 1    
+
+#RingCtrl0 4
+#RingCtrl1 18
+#RingCtrl2 0
+#RingCtrl3 0
+#RingCtrl4 1
+#RingCtrl5 9
+#RingCtrl6 0
+#RingCtrl7 0
+#RingCtrl8 1
+#RingCtrl9 9
+#RingCtrl10 0
+#RingCtrl11 0
+#RingCtrl12 1
+#RingCtrl13 18
+#RingCtrl14 0
+#RingCtrl15 0
+#RingCtrl16 2
+*TITLE_1 Vehicle In-Lane Detected:
+*LOCX_1 1
+*LOCY_1 7
+*COLOR_1 0.8 1 1
+*LOCX_2 14.5
+*LOCY_2 4
+*VAR_NAME_2 vehObjInLane*1.5
+*LOCX_3 14.5
+*LOCY_3 4
+*VAR_NAME_3 if(vehObjInLane, 0, 1)
+*TITLE_4 ACC Curved Highway Performance
+*LOCX_4 1
+*LOCY_4 2
+*COLOR_4 1 1 1
+
+PARSFILE Generic\VS_commands\GenVS_931541b5-ff0b-4cf9-a837-da1a14d56eac.par
+#BlueLink1 Generic VS Commands`Background Boxes, Upper, Veh. In-Lane` Obstacle Avoidance` , Miscellaneous`GenVS_931541b5-ff0b-4cf9-a837-da1a14d56eac
+
+*IMG_NAME_2 Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_ON.dds
+*IMG_NAME_3 Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_OFF.dds
+
+#Selection 18 for Icon 0
+#Selection_1 18 for Icon
+#Selection_2 Title: Vehicle In-Lane Detected: AlX 0 AlY 0
+#Selection_3 Scale 1.000000 locX 16 locY 56
+#Selection_4 Fixed: 1 VarName:   ColorStr: 0.8 1 1
+#Selection_5 ImgName: 
+ANI_
+WRT_
+ADD_ENTITY hud_text Text Output
+location 16 56 18 18
+align_x left
+align_y top
+size_mode absolute
+place_mode absolute
+# var name is 
+prefix Vehicle In-Lane Detected:
+min_width_prefix 20
+color 0.8 1 1 1.0
+END_ENTITY hud_text Text Output
+#Selection 9 for Icon 1
+#Selection_1 9 for Icon
+#Selection_2 Title:  AlX 0 AlY 0
+#Selection_3 Scale 1.000000 locX 232 locY 32
+#Selection_4 Fixed: 1 VarName: vehObjInLane*1.5  ColorStr: 0 0 0
+#Selection_5 ImgName: Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_ON.dds
+! General Icon
+ANI_vehObjInLane*1.5
+WRT_vehObjInLane*1.5
+ADD_ENTITY hud_image General Icon
+location 232 32 128 128
+align_x left
+align_y top
+size_mode absolute
+place_mode absolute
+opacity vehObjInLane*1.5
+image_file Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_ON.dds
+END_ENTITY hud_image General Icon
+#Selection 9 for Icon 2
+#Selection_1 9 for Icon
+#Selection_2 Title:  AlX 0 AlY 0
+#Selection_3 Scale 1.000000 locX 232 locY 32
+#Selection_4 Fixed: 1 VarName: if(vehObjInLane, 0, 1)  ColorStr: 0 0 0
+#Selection_5 ImgName: Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_OFF.dds
+! General Icon
+ANI_if(vehObjInLane, 0, 1)
+WRT_if(vehObjInLane, 0, 1)
+ADD_ENTITY hud_image General Icon
+location 232 32 128 128
+align_x left
+align_y top
+size_mode absolute
+place_mode absolute
+opacity if(vehObjInLane, 0, 1)
+image_file Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_OFF.dds
+END_ENTITY hud_image General Icon
+#Selection 18 for Icon 3
+#Selection_1 18 for Icon
+#Selection_2 Title: ACC Curved Highway Performance AlX 0 AlY 0
+#Selection_3 Scale 1.333333 locX 16 locY 16
+#Selection_4 Fixed: 1 VarName:   ColorStr: 1 1 1
+#Selection_5 ImgName: 
+ANI_
+WRT_
+ADD_ENTITY hud_text Text Output
+location 16 16 24 24
+align_x left
+align_y top
+size_mode absolute
+place_mode absolute
+# var name is 
+prefix ACC Curved Highway Performance
+min_width_prefix 20
+color 1 1 1 1.0
+END_ENTITY hud_text Text Output
+
+LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } Hwy Perf.,Vehicle In Lane, Detected
+#Library : Animator: HUD
+#DataSet : Hwy Perf.,Vehicle In Lane, Detected
+#Category: Alerts
+#FileID  : HUD_da461033-04d1-4048-990d-edda7e26e6b5
+#Created : 10-12-2021 15:21:18
+#Modified: 03-29-2022 16:03:20
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode HUD
+
+END

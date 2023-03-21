@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Dolly Towbar, Pintle Connection (1.8m)`Trailers: Dollies w/ Hinged Towbars
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Dollies\Hinged_Dolly_Pintle.obj
+#ENDMYellow
+
+SET_COLOR 0.878 0.878 0.878
+SET_OFFSET_X 1.74
+SET_OFFSET_Z 0.01
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_7b8c8b3c-f045-46b9-ae31-da5309303e21.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Small Objects` Shape Preview` , Video Camera`Camera_7b8c8b3c-f045-46b9-ae31-da5309303e21
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_06272b37-124f-47a8-848a-20d54de8f9ef.png
+
+#EMBEDDED_NOTES
+#Pintle connection, used with a 1.8 meter towbar and a 2-axle dolly.
+#
+#Adjust coodinate offsets for other combinations of towbar lengths and dolly axles.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers: Dollies w/ Hinged Towbars } Dolly Towbar, Pintle Connection (1.8m)
+#Library : Animator: Shape File Link
+#DataSet : Dolly Towbar, Pintle Connection (1.8m)
+#Category: Trailers: Dollies w/ Hinged Towbars
+#FileID  : Shape_06272b37-124f-47a8-848a-20d54de8f9ef
+#Created : 11-21-2021 18:13:50
+#Modified: 11-21-2021 21:11:13
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

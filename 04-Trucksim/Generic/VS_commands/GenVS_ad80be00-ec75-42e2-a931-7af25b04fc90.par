@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Generic VS Commands`Obstacle Parameters`Obstacle Avoidance
+#VehCode VS Commands
+
+#MiscYellow0
+INSTALL_SPEED_CONTROLLER ! need to install here to use SPEED_ID_SC
+
+! min detections are needed for the ACC, but not for most of the AEB examples (except w/occlusion veh.s)
+!N_MIN_DETECTIONS = 2
+
+! define codes for various target types
+define_parameter TRAFFIC =  200 ; - ; Traffic vehicle (object type)
+define_parameter VEHICLE = 202 ; - ; Vehicle (object type)
+
+DEFINE_PARAMETER OCC_VEHICLE = 500; -; Parked vehicle for sensor occlusion
+DEFINE_PARAMETER PEDESTRIAN =  201 ; - ; Pedestrian or bike (object type)
+DEFINE_PARAMETER PED_OBJ_NUM = 2 ; - ; Number assigned to the pedestrian moving object
+
+DEFINE_PARAMETER OBJ_NEAR = 1; -; closest object designation
+DEFINE_PARAMETER OBJ_MID = 2; -; 2nd closest object designation
+DEFINE_PARAMETER OBJ_FAR= 3; -; 3rd closest object designation
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Obstacle Avoidance } Obstacle Parameters
+#Library : Generic VS Commands
+#DataSet : Obstacle Parameters
+#Category: Obstacle Avoidance
+#FileID  : GenVS_ad80be00-ec75-42e2-a931-7af25b04fc90
+#Created : 09-24-2021 13:48:45
+#Modified: 09-24-2021 13:48:48
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Events`A. Monitor hitch articulation`Trailer Oscillation Test
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >=
+#RingCtrl1 <=
+#RingCtrl10 2
+#RingCtrl11 4
+*NAME1 Art_H
+*NAME2 Art_H
+*VALUE1 Art_H_Max
+*VALUE2 -Art_H_Max
+MAKE_EVENT Art_H >= Art_H_Max ; Events\Events_e29bdb2c-912e-4c06-81d3-d35a6b276655.par
+#BlueLink0 Events`B. Lift throttle, go straight` Trailer Oscillation Test` , Events`Events_e29bdb2c-912e-4c06-81d3-d35a6b276655
+
+MAKE_EVENT Art_H <= -Art_H_Max ; Events\Events_e29bdb2c-912e-4c06-81d3-d35a6b276655.par
+#BlueLink1 Events`B. Lift throttle, go straight` Trailer Oscillation Test` , Events`Events_e29bdb2c-912e-4c06-81d3-d35a6b276655
+
+SET_EVENT_ID 0 ! reset to default
+
+LOG_ENTRY Used Dataset: Events; { Trailer Oscillation Test } A. Monitor hitch articulation
+#Library : Events
+#DataSet : A. Monitor hitch articulation
+#Category: Trailer Oscillation Test
+#FileID  : Events_09c625d6-59e3-4d78-9dee-e56ffc144435
+#Modified: 06-07-2021 01:49:24
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Powertrain: Transfer Case`EV eTransfer Case: 50/50, Gr. 1.0`Electric Motor Drive
+#RingCtrl0 CONSTANT
+#RingCtrl1 2
+*EV_CONTROL 2
+M_DIFF_VISC_CONSTANT 0
+#RadioCtrl0 0    
+
+M_DIFF_XC_CONSTANT 0
+R_GEAR_XC 1
+R_EFF_F_XC 0.99
+R_EFF_R_XC 0.99
+LOCKED_XC_DAMP 8.0
+LOCKED_XC_K 80
+*SCALAR 0
+*MOTOR_BIAS 0.5
+
+R_REAR_MOTOR_BIAS 0.5
+R_GEAR_DIFF 1
+R_EFF_F_DIFF 0.99
+R_EFF_R_DIFF 0.99
+LOCKED_DIFF_DAMP 8.0
+LOCKED_DIFF_K 80
+
+LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Electric Motor Drive } EV eTransfer Case: 50/50, Gr. 1.0
+#Library : Powertrain: Transfer Case
+#DataSet : EV eTransfer Case: 50/50, Gr. 1.0
+#Category: Electric Motor Drive
+#FileID  : XC_dd4e684a-153f-4979-80c2-275bdae7f8b8
+#Modified: 06-07-2021 01:49:29
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Transfer Case
+
+END

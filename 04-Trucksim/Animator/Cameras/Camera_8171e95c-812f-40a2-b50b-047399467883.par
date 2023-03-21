@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`K & C View (Rear)`Test Rig Cameras
+#RingCtrl1 0
+
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+
+SET_CAMERA_REFERENCE_FRAME Frame_51ba0e88-c5b0-4633-a804-04814ea1368b
+PARSFILE Animator\Frames\Frame_51ba0e88-c5b0-4633-a804-04814ea1368b.par
+#BlueLink0 Animator: Reference Frame`Camera Tracking X-Y` Tracking: Road` , Reference frame for outside camera`Frame_51ba0e88-c5b0-4633-a804-04814ea1368b
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_51ba0e88-c5b0-4633-a804-04814ea1368b
+SET_LOOKPOINT_X -1.2
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 0
+SET_AZIMUTH 180
+SET_ELEVATION 20
+SET_DISTANCE 10
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -1.2
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 0
+*SET_AZIMUTH 180
+*SET_ELEVATION 20
+*SET_DISTANCE 10
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 50
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Test Rig Cameras } K & C View (Rear)
+#Library : Animator: Camera Setup
+#DataSet : K & C View (Rear)
+#Category: Test Rig Cameras
+#FileID  : Camera_8171e95c-812f-40a2-b50b-047399467883
+#Created : 11-17-2021 08:27:56
+#Modified: 11-17-2021 08:40:40
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Camera
+
+END

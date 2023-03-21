@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Events`A. Wait five seconds`Top Speed Test
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >=
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 T
+*VALUE1 5
+MAKE_EVENT T >= 5 ; Events\Events_6f4b69e9-c279-471d-8d4b-44468261480a.par
+#BlueLink0 Events`B. Monitor long accel for max speed` Top Speed Test` , Events`Events_6f4b69e9-c279-471d-8d4b-44468261480a
+
+SET_EVENT_ID 0 ! reset to default
+
+LOG_ENTRY Used Dataset: Events; { Top Speed Test } A. Wait five seconds
+#Library : Events
+#DataSet : A. Wait five seconds
+#Category: Top Speed Test
+#FileID  : Events_c19ad380-0952-4d60-81ea-c5e246bcb41c
+#Modified: 06-07-2021 01:49:23
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

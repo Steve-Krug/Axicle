@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric System`Electric Motors on Axles (Heavy Truck)`
+#RingCtrl0 2
+OPT_HEV 2
+#CheckBox1 1    
+OPT_MOTOR_ON_AXLE 1 
+N_BATTERY 40
+T_BATTERY_INIT 40
+BATTERY_CHARGE_INIT 0.6
+V_MOTOR_MIN 60
+V_BATTERY_MIN 6
+V_BATTERY_MAX 9
+
+INSTALL_ELECTRIC_DRIVE_MOTORS 
+
+PARSFILE Generic\tables\GenTab_dae23023-aa5c-459e-bbe8-fc2a3a028737.par
+#BlueLink2 Generic Table`Batt. charged resis. (2 milliohms)` Powertrain (HEV)` , Charging resistance`GenTab_dae23023-aa5c-459e-bbe8-fc2a3a028737
+
+PARSFILE Generic\tables\GenTab_246781fa-0fb1-4925-8d09-9b4d6d566c9c.par
+#BlueLink3 Generic Table`Batt. discharged resis. (2.7 milliohms)` Powertrain (HEV)` , Discharging resistance`GenTab_246781fa-0fb1-4925-8d09-9b4d6d566c9c
+
+PARSFILE Generic\tables\GenTab_366b8224-2bfb-41c4-918b-7474b312a5e7.par
+#BlueLink4 Generic Table`Battery Open-Circuit Voltage` Powertrain (HEV)` , Open-circuit voltage`GenTab_366b8224-2bfb-41c4-918b-7474b312a5e7
+
+PARSFILE Generic\tables\GenTab_1791101d-9bc6-4300-98a5-f4c1704b1f9c.par
+#BlueLink5 Generic Table`Battery Max. Capacity (eHeavy Truck)` Powertrain (HEV)` , Max. capacity`GenTab_1791101d-9bc6-4300-98a5-f4c1704b1f9c
+
+
+#EMBEDDED_NOTES
+#Motor is specified on the differential gear screen on each driven axle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Electric Motors on Axles (Heavy Truck)
+#Library : Powertrain: Hybrid/Electric System
+#DataSet : Electric Motors on Axles (Heavy Truck)
+#Category: 
+#FileID  : HEV_747c9a8b-bc83-451c-94e7-cf394f329239
+#Modified: 11-23-2021 19:31:08
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode HEV
+
+END

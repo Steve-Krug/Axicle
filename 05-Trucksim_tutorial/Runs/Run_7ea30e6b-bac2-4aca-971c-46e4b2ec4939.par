@@ -1,0 +1,101 @@
+PARSFILE
+#FullDataName TruckSim Run Control`A. Baseline w/ All Overlays`* Impaired Driver
+#VEHICLECODE S_SS + dSS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_7ea30e6b-bac2-4aca-971c-46e4b2ec4939
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 10
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_a219b9d8-24f7-4475-8f2a-1ebcf3fc662a.par
+#BlueLink2 Vehicle: Loaded Combination`S_SS + dSS + SS (15,000 kg Payloads)` Dump Trucks` , Math Model`VehLoad_a219b9d8-24f7-4475-8f2a-1ebcf3fc662a
+
+PARSFILE Procedures\Proc_5131e28f-f052-4f17-bb27-0d5941c16982.par
+#BlueLink28 Procedures`Single Lane Change, Impaired Driver` Driver Controls` , Procedure`Proc_5131e28f-f052-4f17-bb27-0d5941c16982
+
+*TSTOP 1
+
+SPECIAL_PARSFILE Runs\Run_119c8bd5-ce19-431e-a44f-ad017ef617ae.par
+#BlueLink23 TruckSim Run Control`F. 25% Impairment` * Impaired Driver` , Overlay run or ERD file`Run_119c8bd5-ce19-431e-a44f-ad017ef617ae
+
+
+SPECIAL_PARSFILE Runs\Run_30e5e5d6-4cb5-4730-8b69-02de3f089454.par
+#BlueLink24 TruckSim Run Control`E. 20% Impairment` * Impaired Driver` , Overlay run or ERD file`Run_30e5e5d6-4cb5-4730-8b69-02de3f089454
+
+
+SPECIAL_PARSFILE Runs\Run_1411e1e4-f236-4432-a310-4fbe2d2e418c.par
+#BlueLink25 TruckSim Run Control`D. 15% Impairment` * Impaired Driver` , Overlay run or ERD file`Run_1411e1e4-f236-4432-a310-4fbe2d2e418c
+
+
+SPECIAL_PARSFILE Runs\Run_3a4a9128-0dfa-4f34-9d2e-f2f029a6a8c0.par
+#BlueLink26 TruckSim Run Control`C. 10% Impairment` * Impaired Driver` , Overlay run or ERD file`Run_3a4a9128-0dfa-4f34-9d2e-f2f029a6a8c0
+
+
+SPECIAL_PARSFILE Runs\Run_9b31d222-100d-46f6-b580-bee298e96eba.par
+#BlueLink27 TruckSim Run Control`B. 5% Impairment` * Impaired Driver` , Overlay run or ERD file`Run_9b31d222-100d-46f6-b580-bee298e96eba
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_5e99b800-fddc-4e1b-a23d-d8a55608d47a.png
+WRITE_SENSOR_DETECT
+Title A. Baseline w/ All Overlays <* Impaired Driver>
+CATEGORY * Impaired Driver 
+DATASET_TITLE A. Baseline w/ All Overlays
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This is the baseline example for the impaired driver study.
+#
+#Variants of this example decrease the preview time and increase the input delay. Shortening the preview time reflects the impaired driver's difficulty in processing visual information which is further away. Increasing the input delay models how the impaired driver can be slower to act, even when they have processed the path and decided how much to steer.
+#
+# All results are overlaid here for comparison purposes.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { * Impaired Driver } A. Baseline w/ All Overlays
+#Library : TruckSim Run Control
+#DataSet : A. Baseline w/ All Overlays
+#Category: * Impaired Driver
+#FileID  : Run_7ea30e6b-bac2-4aca-971c-46e4b2ec4939
+#Created : 05-31-2022 08:23:53
+#Modified: 05-31-2022 09:10:44
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

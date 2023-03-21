@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Plot: Setup`Vertical Forces`Tire Forces
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#BlueLink1 ` , Discontinued` , Discontinued` , Discontinued`
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fz_L1i, Time
+PLOTCHANNELS Fz_R1i, Time
+PLOTCHANNELS Fz_L2i, Time
+PLOTCHANNELS Fz_L2o, Time
+PLOTCHANNELS Fz_R2i, Time
+PLOTCHANNELS Fz_R2o, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Vertical Forces
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces
+#Library : Plot: Setup
+#DataSet : Vertical Forces
+#Category: Tire Forces
+#FileID  : Plot_8ad2b097-2d03-47c3-9e69-b793f5753ae8
+#Modified: 06-07-2021 01:49:39
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Hitch: Joint Assembly`Turntable Art Bus`Turntables
+#CheckBox0 0    
+OPT_ROLL_HITCH 0
+#CheckBox1 0    
+#CheckBox2 1    
+
+OPT_HITCH_TYPE 1
+PARSFILE Hitches\Mx\HchMx_96f8431a-9b8b-4f81-9ac5-a4e898f2803e.par
+#BlueLink0 Hitch: Roll Moment`500 kN-m/deg (0 deg lash)` Turntable` , Roll Stiffness`HchMx_96f8431a-9b8b-4f81-9ac5-a4e898f2803e
+
+PARSFILE Hitches\Mz\HchMz_fd7e360a-3abe-4519-bfd2-51653ace1d0f.par
+#BlueLink2 Hitch: Yaw Moment`Artic Bus: 100 kN-m/deg (108 deg Lash)` ` , Yaw Stiffness`HchMz_fd7e360a-3abe-4519-bfd2-51653ace1d0f
+
+
+#EMBEDDED_NOTES
+#This hitch does not include damping.  To add damping or friction to the hitch, toggle on More to display those fields.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Hitch: Joint Assembly; { Turntables } Turntable Art Bus
+#Library : Hitch: Joint Assembly
+#DataSet : Turntable Art Bus
+#Category: Turntables
+#FileID  : Hitch_8af07199-151f-4ef6-880c-ca9e6ec88760
+#Created : 11-11-2021 13:56:53
+#Modified: 03-29-2022 12:53:50
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Hitch
+
+END

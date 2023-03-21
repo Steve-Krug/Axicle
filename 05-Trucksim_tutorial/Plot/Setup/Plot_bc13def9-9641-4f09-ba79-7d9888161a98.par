@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Kingpin Angular Rate`Steering
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS AVzKP_L1, Time
+PLOTCHANNELS AVzKP_R1, Time
+PLOTCHANNELS AVzKP_L2, Time
+PLOTCHANNELS AVzKP_R2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Kingpin Angular Rate
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Kingpin Angular Rate
+#Library : Plot: Setup
+#DataSet : Kingpin Angular Rate
+#Category: Steering
+#FileID  : Plot_bc13def9-9641-4f09-ba79-7d9888161a98
+#Created : 06-03-2022 13:15:13
+#Modified: 06-03-2022 13:16:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

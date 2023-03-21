@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName Procedures`ACC CCRb, Van: 40 m Spacing`ACC: Adaptive Cruse Control
+#CheckBox1 0    
+OPT_INIT_PATH 0
+
+#RingCtrl0 2
+#RingCtrl1 0
+#RingCtrl2 0
+OPT_STOP 0
+TSTART 0
+TSTART_WRITE = 0;
+TSTOP 55
+SSTOP = SSTART + 1 ;
+OPT_DIRECTION 1
+*TSTOP 55
+*TSTART 0
+*SSTART 0
+
+OPT_SC 2
+PARSFILE Control\Gear_at\GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f.par
+#BlueLink30 Control: Shifting (Closed Loop)`NGEARS, Clutch Act 0.5s, Gear 0.1s` Closed-Loop Shifting` , Shifting Control`GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f
+
+PARSFILE Control\Speed_t\SpdTime_b883ca77-2e1c-4f2d-96b8-7283d4e197d5.par
+#BlueLink31 Control: Speed (Closed Loop) Using Target Speed`Constant: 0 km/h` Constant` , Speed vs. time`SpdTime_b883ca77-2e1c-4f2d-96b8-7283d4e197d5
+
+PARSFILE Generic\Links\GenLink_60056561-8c94-43d6-a4d0-dac8df4c1b46.par
+#BlueLink0 Generic Group of Links`PG: Straight Road, Two Lanes` Generic Proving Ground` , Miscellaneous`GenLink_60056561-8c94-43d6-a4d0-dac8df4c1b46
+
+PARSFILE Generic\VS_commands\GenVS_9410b9cf-3d99-450a-9460-8ec4c7983505.par
+#BlueLink1 Generic VS Commands`ACC, CCRb-40m, VUT and GVT Setup` Euro NCAP` , Miscellaneous`GenVS_9410b9cf-3d99-450a-9460-8ec4c7983505
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_09982783-a05f-42f7-8a5b-e90f772c400c.par
+#BlueLink2 Multiple Moving Objects`Global Vehicle Target (GVT) for ACC` Euro NCAP` , Miscellaneous`TMotion_09982783-a05f-42f7-8a5b-e90f772c400c
+
+PARSFILE Generic\VS_commands\GenVS_d91265cf-9ae7-4333-b9e3-e67b60d71f70.par
+#BlueLink3 Generic VS Commands`ACC, CCRb-40m, Gen. Setup` Euro NCAP` , Miscellaneous`GenVS_d91265cf-9ae7-4333-b9e3-e67b60d71f70
+
+PARSFILE Events\Events_ef5fa4fb-f27b-4257-891a-a53f44a51d6d.par
+#BlueLink4 Events`ACC CCRb A1. Wait for ACC to Intervene` Euro NCAP ACC Testing: CCRb` , Miscellaneous`Events_ef5fa4fb-f27b-4257-891a-a53f44a51d6d
+
+#MiscYellow1
+! Unchecked box for "Set vehicle x,y,&yaw based on path?
+! Locate vehicle 2m to the right of the road center
+Xo  = VUT_START_STATION
+Yo = -2
+Yaw = 0
+! These should be reset in the Events, as well
+#ENDMYellow
+
+PARSFILE Plot\Setup\Plot_7af09c55-d65d-40f9-baff-9711827032d6.par
+#BlueLink8 Plot: Setup`Longit. Accel. of CG's vs. Time (m/s2)` Vehicle Motion` , Plot`Plot_7af09c55-d65d-40f9-baff-9711827032d6
+
+PARSFILE Plot\Setup\Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806.par
+#BlueLink9 Plot: Setup`Brake Control: Master Cyl. Pressure` Braking` , Plot`Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806
+
+PARSFILE Plot\Setup\Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6.par
+#BlueLink10 Plot: Setup`Gear Selection` Powertrain` , Plot`Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6
+
+PARSFILE Plot\Setup\Plot_8c9bbc88-a890-4baf-9791-b05739354da1.par
+#BlueLink11 Plot: Setup`Euro NCAP: AEB Booleans` ADAS and AEB Alerts and Commands` , Plot`Plot_8c9bbc88-a890-4baf-9791-b05739354da1
+
+
+#EMBEDDED_NOTES
+#ACC: Automatic Cruise Control
+#GVT: Global Vehicle Target
+#VUT: Vehicle Under Test
+#FCW: Forward Collision Warning
+#LKAS: Lane-Keeping Assistance System
+#CCRb: Car-to-Car Rear, Braking GVT
+#
+#This procedure is based on a test scenario published by Euro NCAP for ACC systems.
+#
+#No steering controller is used, as LKAS is keeping the vehicle within it's lane, per the Euro NCAP spec.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { ACC: Adaptive Cruse Control } ACC CCRb, Van: 40 m Spacing
+#Library : Procedures
+#DataSet : ACC CCRb, Van: 40 m Spacing
+#Category: ACC: Adaptive Cruse Control
+#FileID  : Proc_14d6cfd2-bc67-4121-b4f0-870af4e5c8c1
+#Created : 11-08-2021 14:54:26
+#Modified: 11-12-2021 14:00:53
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

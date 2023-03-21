@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Group`Frame rails (Node 1/4)`Chassis twist study
+PARSFILE Animator\Frames\Frame_96f21c06-e845-4441-84cb-7a8d28fbfc53.par
+#BlueLink0 Animator: Reference Frame`Frame rail (left)` Chassis twist study` , Miscellaneous`Frame_96f21c06-e845-4441-84cb-7a8d28fbfc53
+
+PARSFILE Animator\STL\Shape_adbf39b1-09c2-4506-b4b9-b4f32f5d486f.par
+#BlueLink1 Animator: Shape File Link`Frame rail L (Node 1/4)` Chassis twist study` , Miscellaneous`Shape_adbf39b1-09c2-4506-b4b9-b4f32f5d486f
+
+PARSFILE Animator\Frames\Frame_0acbc77b-a704-4761-8916-589b088189cf.par
+#BlueLink2 Animator: Reference Frame`Frame rail (right)` Chassis twist study` , Miscellaneous`Frame_0acbc77b-a704-4761-8916-589b088189cf
+
+PARSFILE Animator\STL\Shape_0663b3d3-5a6d-41ec-8091-9a9cee445ea4.par
+#BlueLink3 Animator: Shape File Link`Frame rail R (Node 1/4)` Chassis twist study` , Miscellaneous`Shape_0663b3d3-5a6d-41ec-8091-9a9cee445ea4
+
+PARSFILE Animator\Frames\Frame_49f99cf5-2b0c-484b-9cfe-31ba72703f91.par
+#BlueLink4 Animator: Reference Frame`Transverse node` Chassis twist study` , Miscellaneous`Frame_49f99cf5-2b0c-484b-9cfe-31ba72703f91
+
+PARSFILE Animator\STL\Shape_bf4121c1-a9f6-4327-9f38-73c842ed14a1.par
+#BlueLink5 Animator: Shape File Link`Frame node` Chassis twist study` , Miscellaneous`Shape_bf4121c1-a9f6-4327-9f38-73c842ed14a1
+
+
+#CheckBox0 0    
+
+
+#EMBEDDED_NOTES
+#The dataset assembles shapes and reference frames to aid in visualizing the torsional deflection of a flexible chassis.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Group; { Chassis twist study } Frame rails (Node 1/4)
+#Library : Animator: Group
+#DataSet : Frame rails (Node 1/4)
+#Category: Chassis twist study
+#FileID  : Group_fe21f5e8-3156-4c46-bd9c-fe6216ffca04
+#Modified: 06-07-2021 01:54:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Animator Group
+
+END

@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Generic Table`Susp. Cab Spring: Right Rear, Linear`Suspended Cab
+#MiscYellow0
+define_table Cab_Spring_RR 1
+SET_UNITS_table_row Cab_Spring_RR_table mm
+#ENDMYellow
+
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+Cab_Spring_RR_TABLE LINEAR
+-1, -100
+0, 0
+1, 100
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD Cab_Spring_RR
+*X_LABEL RR Cab Mount Deflection (mm)
+*Y_LABEL RR Cab Spring Force (N)
+
+
+#EMBEDDED_NOTES
+#Generic Table used to represent the Right Rear spring rate for the suspended cab.
+#
+#This table uses a new user-defined math model root keyword Cab_Spring_RR, and the table's row units are defined to be in mm. This makes it more convenient to enter spring deflection data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Suspended Cab } Susp. Cab Spring: Right Rear, Linear
+#Library : Generic Table
+#DataSet : Susp. Cab Spring: Right Rear, Linear
+#Category: Suspended Cab
+#FileID  : GenTab_cd82974e-c761-42d3-afb9-07ae794814e4
+#Created : 05-26-2021 11:29:55
+#Modified: 01-21-2022 14:00:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

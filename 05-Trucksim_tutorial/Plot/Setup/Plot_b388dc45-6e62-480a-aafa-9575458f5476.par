@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Plot: Setup`Torsional deflection`Chassis twist study
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS A_Tor1, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Torsional deflection
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Chassis twist study } Torsional deflection
+#Library : Plot: Setup
+#DataSet : Torsional deflection
+#Category: Chassis twist study
+#FileID  : Plot_b388dc45-6e62-480a-aafa-9575458f5476
+#Modified: 06-07-2021 01:49:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

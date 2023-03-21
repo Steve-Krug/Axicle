@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Flatbed Trailer: Brake Lights (On)  (New)`Trailers (1 of 2)
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Flatbed\Flatbed_Trailer_Brakes_ON.OSG
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_Z 1.1
+X_REF_LENGTH 11440
+Y_REF_LENGTH 2438
+Z_REF_LENGTH 180
+*SPECULAR 1
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_a0ee28ce-0abd-4bb3-ac55-f31f3a118632.par
+#BlueLink2 Animator: Camera Setup`Rear View` Shape Preview` , Video Camera`Camera_a0ee28ce-0abd-4bb3-ac55-f31f3a118632
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_eab6b376-a28b-4adf-911b-451b9f6d0c1a.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers (1 of 2) } Flatbed Trailer: Brake Lights (On)  (New)
+#Library : Animator: Shape File Link
+#DataSet : Flatbed Trailer: Brake Lights (On)  (New)
+#Category: Trailers (1 of 2)
+#FileID  : Shape_eab6b376-a28b-4adf-911b-451b9f6d0c1a
+#Modified: 07-08-2021 09:21:42
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`1A Rental Trl (Large): Brake Lights HD`Trailers (2 of 2)
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Rental_Trailer_1A\brakes_on_V2.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_Z 0.435
+X_REF_LENGTH 2864
+Y_REF_LENGTH 2024
+Z_REF_LENGTH 1757
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9.par
+#BlueLink2 Animator: Camera Setup`XZ Plane, No Offsets - Medium Objects` Shape Preview` , Video Camera`Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_1a28eb72-c279-44f7-9d27-ac6c2903e9ca.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers (2 of 2) } 1A Rental Trl (Large): Brake Lights HD
+#Library : Animator: Shape File Link
+#DataSet : 1A Rental Trl (Large): Brake Lights HD
+#Category: Trailers (2 of 2)
+#FileID  : Shape_1a28eb72-c279-44f7-9d27-ac6c2903e9ca
+#Created : 11-24-2021 10:22:50
+#Modified: 12-01-2021 17:17:52
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

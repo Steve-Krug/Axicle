@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Generic Table`Platoon Intruder Speed`Traffic
+#MiscYellow0
+define_table intruder_spd
+#ENDMYellow
+
+#RingCtrl0 LINEAR_FLAT
+#CheckBox0 0    
+
+#DiagramOne0
+intruder_spd_TABLE LINEAR_FLAT
+10, 21
+15, 19.8
+30, 19.8
+32, 22
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD intruder_spd
+*X_LABEL t
+*Y_LABEL Intruder Speed
+
+
+LOG_ENTRY Used Dataset: Generic Table; { Traffic } Platoon Intruder Speed
+#Library : Generic Table
+#DataSet : Platoon Intruder Speed
+#Category: Traffic
+#FileID  : GenTab_49db18e2-639a-44aa-a109-c6368a376315
+#Created : 09-14-2021 15:07:08
+#Modified: 01-21-2022 14:00:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

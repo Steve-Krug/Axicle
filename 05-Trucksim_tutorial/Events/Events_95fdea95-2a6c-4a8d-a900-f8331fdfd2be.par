@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Events`Wait 2s at Stop`Sign Detection
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 ZERO ~=
+#RingCtrl10 1
+#RingCtrl11 4
+*VALUE1 T_Event > 2
+#MiscYellow0
+TSTART_T_EVENT = T ! reset T_Event to 0
+#ENDMYellow
+
+DEFINE_EVENT T_Event > 2 ; Events\Events_95f161e0-b78f-4438-815c-fc6776e93622.par
+#BlueLink0 Events`Restart and go to speed limit` Sign Detection` , Events`Events_95f161e0-b78f-4438-815c-fc6776e93622
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#Wait 2 seconds then go to the next part of the simulation.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Sign Detection } Wait 2s at Stop
+#Library : Events
+#DataSet : Wait 2s at Stop
+#Category: Sign Detection
+#FileID  : Events_95fdea95-2a6c-4a8d-a900-f8331fdfd2be
+#Created : 05-31-2022 09:55:25
+#Modified: 05-31-2022 13:34:08
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

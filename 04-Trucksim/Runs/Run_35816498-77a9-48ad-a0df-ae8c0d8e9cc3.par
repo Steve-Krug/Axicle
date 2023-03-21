@@ -1,0 +1,114 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Stop Sign, No ADAS Sensors`* Automatic Clutch Control
+#VEHICLECODE S_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_35816498-77a9-48ad-a0df-ae8c0d8e9cc3
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_12afd0d3-c9b8-47b4-9b7e-1cd0582e975b.par
+#BlueLink0 Animator: Camera Setup`175 Azm, 5 El, 20 m` Vehicle Reference` , Animator camera`Camera_12afd0d3-c9b8-47b4-9b7e-1cd0582e975b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 10
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 6
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_1221a1a8-41b9-47ad-8e0d-48ee43725ae1.par
+#BlueLink2 Vehicle: Loaded Combination`Delivery Truck w/o Sensors` Misc. Utility Trucks` , Math Model`VehLoad_1221a1a8-41b9-47ad-8e0d-48ee43725ae1
+
+PARSFILE Procedures\Proc_f5696e49-f0ae-4d9f-b188-e7fc0eac1760.par
+#BlueLink28 Procedures`3-Way Intersection, Speed Sign` Road Networks` , Procedure`Proc_f5696e49-f0ae-4d9f-b188-e7fc0eac1760
+
+PARSFILE Sensors_Traffic\Targets\Target_52def45e-2e44-4c92-a673-3f8a91fb8dda.par
+#BlueLink9 Single Moving Object (Custom)`Stop Sign` Traffic Signs and Lights` , Miscellaneous`Target_52def45e-2e44-4c92-a673-3f8a91fb8dda
+
+PARSFILE Events\Events_f44ac348-c285-4bac-b101-fc4379024256.par
+#BlueLink11 Events`Initialize for Stopping Scenario` Stop Conditions` , Miscellaneous`Events_f44ac348-c285-4bac-b101-fc4379024256
+
+*TSTEP 0.0005
+*FREQ_MODEL 2000
+*TSTEP_OUT 0.01
+*FREQ_OUT 100
+tstep 0.0005
+iprint 20
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6.par
+#BlueLink15 Plot: Setup`Gear Selection` Powertrain` , Plot`Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6
+
+PARSFILE Plot\Setup\Plot_5fce4da0-0324-481f-a86b-bdc773b0f9f2.par
+#BlueLink16 Plot: Setup`Clutch Control Input` Powertrain` , Plot`Plot_5fce4da0-0324-481f-a86b-bdc773b0f9f2
+
+PARSFILE Plot\Setup\Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31.par
+#BlueLink17 Plot: Setup`Engine RPM` Powertrain` , Plot`Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink18 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd.par
+#BlueLink19 Plot: Setup`Throttle: Control Input` Controls: Driver` , Plot`Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd
+
+PARSFILE Plot\Setup\Plot_26dc2eb1-dd9b-4776-8f9f-09208d63924a.par
+#BlueLink20 Plot: Setup`Event Count` Event Control` , Plot`Plot_26dc2eb1-dd9b-4776-8f9f-09208d63924a
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_8f7dac3f-b802-4072-9832-f4b98d0cc372.png
+WRITE_SENSOR_DETECT
+Title Stop Sign, No ADAS Sensors <* Automatic Clutch Control>
+CATEGORY * Automatic Clutch Control 
+DATASET_TITLE Stop Sign, No ADAS Sensors
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This example shows how to come to a stop and restart for a vehicle with a manual transmission. This example was made by taking an ADAS example and removing the sensor (and the requirement for a Sensor license).
+#
+#It uses Events to switch from initializing to match a speed limit, to braking based on a target stppping point, to waiting 2s, to accelerating to a new speed limit.
+#
+#The speed controller is set to path preview (OPT_SC = 4) for the entire simulation. The target speed is changed for the different parts of the run.
+#
+#The output interval is 100 Hz to show the clutch timelines.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { * Automatic Clutch Control } Stop Sign, No ADAS Sensors
+#Library : TruckSim Run Control
+#DataSet : Stop Sign, No ADAS Sensors
+#Category: * Automatic Clutch Control
+#FileID  : Run_35816498-77a9-48ad-a0df-ae8c0d8e9cc3
+#Created : 05-31-2022 08:47:52
+#Modified: 06-01-2022 10:07:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

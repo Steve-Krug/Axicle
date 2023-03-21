@@ -1,0 +1,95 @@
+PARSFILE
+#FullDataName Vehicle: Dolly with 2 Axles`2A Dolly w/ Hinged Towbar, Turntable`
+IUNIT_INCREMENT
+symbol_add  <<unit>> 1
+NAXLES 2
+ITANDEM 1
+#CheckBox0 0    
+
+*LX_AXLE_2 3911
+*LX_H 3289
+*Y_H 0
+*H_H 1120
+R_TANDEM 0.5
+CFZ_MY_TAND 0
+*LX_AXLE_1 2667
+R_TAND_TRAIL_STATIC 0.5
+symbol_push  <<axle_temp>> <<axle>>
+PARSFILE Tires\Group_2a\Tire2a_495bbb51-78b4-41b1-b832-c820c236847b.par
+#BlueLink9 Tires: Vehicle Unit with 2 Axles`3000 kg Tandem (510 mm), Duals` TS 2A Trailer Tires` , Tires`Tire2a_495bbb51-78b4-41b1-b832-c820c236847b
+
+symbol_push  <<axle>> <<axle_temp>>
+
+iaxle 1
+OPT_STEER_EXT 1
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+LX_AXLE 2667
+PARSFILE Suspensions\Kin_Solid\KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783.par
+#BlueLink10 Suspension: Solid Axle System Kinematics`22.5 kip, Dolly, Dual Wheels` Dolly Axle` , Kinematics`KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269.par
+#BlueLink12 Suspension: Solid Axle Compliance, Springs, and Dampers`22.5 kip Leaf, Dolly: +100 mm, -60 mm` Leaf Springs` , Suspension compliance`CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269
+
+PARSFILE Brakes\2W_System\Brk2W_3e38a8a4-fda6-483f-8c08-941e067e6ca9.par
+#BlueLink4 Brakes: Two-Wheel System`10 kN-m Capacity, Air (2 ch. ABS)` Air Brakes` , Brakes`Brk2W_3e38a8a4-fda6-483f-8c08-941e067e6ca9
+
+
+iaxle 2
+OPT_STEER_EXT 1
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+LX_AXLE 3911
+PARSFILE Suspensions\Kin_Solid\KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783.par
+#BlueLink11 Suspension: Solid Axle System Kinematics`22.5 kip, Dolly, Dual Wheels` Dolly Axle` , Kinematics`KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269.par
+#BlueLink13 Suspension: Solid Axle Compliance, Springs, and Dampers`22.5 kip Leaf, Dolly: +100 mm, -60 mm` Leaf Springs` , Suspension compliance`CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269
+
+PARSFILE Brakes\2W_System\Brk2W_3e38a8a4-fda6-483f-8c08-941e067e6ca9.par
+#BlueLink7 Brakes: Two-Wheel System`10 kN-m Capacity, Air (2 ch. ABS)` Air Brakes` , Brakes`Brk2W_3e38a8a4-fda6-483f-8c08-941e067e6ca9
+
+
+WRITE_ADD_REFERENCE_FRAME_BODY
+x_length 3911
+PARSFILE Vehicles\Trl_Sprung_Mass\TrlSprM_690a427b-358f-4838-a653-02ad2ff175d0.par
+#BlueLink1 Vehicle: Trailer Sprung Mass`2A Dolly w/ Hinged Tow Bar (1.8m)` Dollies` , Sprung Mass`TrlSprM_690a427b-358f-4838-a653-02ad2ff175d0
+
+PARSFILE Animator\Vehicles\AniVeh_972dce56-8a98-48bf-8331-6f3dfdf1c51f.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`2A Dolly w/ Hinged Towbar (1.8m)` Trailers: Dollies` , Animator Shape(s)`AniVeh_972dce56-8a98-48bf-8331-6f3dfdf1c51f
+
+symbol_push  <<hitch_x>> -3.289000
+symbol_push  <<hitch_y>> 0.000000
+symbol_push  <<hitch_z>> 1.120000
+PARSFILE Hitches\Joint\Hitch_1bd76c92-e5dd-4ea1-ab73-167025524dd5.par
+#BlueLink2 Hitch: Joint Assembly`Turntable, 2A Dolly, 1.8m Towbar` Turntables` , Hitch`Hitch_1bd76c92-e5dd-4ea1-ab73-167025524dd5
+
+LX_H(<<unit>>) 3289
+Y_H(<<unit>>) 0
+H_H(<<unit>>) 1120
+R_TAND_TRAIL_STATIC 0.5
+*IMAGE_FILE Animator\Vehicles\AniVeh_972dce56-8a98-48bf-8331-6f3dfdf1c51f.png
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_972dce56-8a98-48bf-8331-6f3dfdf1c51f.png
+
+#EMBEDDED_NOTES
+#The dolly uses a turntable with a hinged towbar.
+#
+#The hinged towbar is 1.8 meters long, set on the dolly's Sprung Mass screen.
+#
+#When adjusting the length of the towbar relative to 1m, the hitch and dolly axles have to be adjusted if the goal is to keep the same relative locations with respect to the main dolly frame.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Dolly with 2 Axles; 2A Dolly w/ Hinged Towbar, Turntable
+#Library : Vehicle: Dolly with 2 Axles
+#DataSet : 2A Dolly w/ Hinged Towbar, Turntable
+#Category: 
+#FileID  : Dly2a_27439ee8-4368-461d-8330-735ac98f3282
+#Created : 11-21-2021 18:02:36
+#Modified: 11-21-2021 20:57:35
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode dSS
+
+END

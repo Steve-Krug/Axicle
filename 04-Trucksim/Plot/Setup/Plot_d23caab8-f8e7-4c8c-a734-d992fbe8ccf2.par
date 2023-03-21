@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Plot: Setup`Hitch Pitch Angles`Hitch
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Line Plots, No Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Pitch_H, Time
+PLOTCHANNELS Pitch_H2, Time
+PLOTCHANNELS Pitch_H3, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Hitch Pitch Angles
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Pitch Angles
+#Library : Plot: Setup
+#DataSet : Hitch Pitch Angles
+#Category: Hitch
+#FileID  : Plot_d23caab8-f8e7-4c8c-a734-d992fbe8ccf2
+#Created : 10-15-2021 16:11:07
+#Modified: 10-15-2021 16:11:23
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

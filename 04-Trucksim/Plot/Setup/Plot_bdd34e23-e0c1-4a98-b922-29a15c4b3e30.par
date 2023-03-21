@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Lead Truck Acceleration`Obstacle Avoidance
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS A_Obj_16, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Lead Truck Acceleration
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Obstacle Avoidance } Lead Truck Acceleration
+#Library : Plot: Setup
+#DataSet : Lead Truck Acceleration
+#Category: Obstacle Avoidance
+#FileID  : Plot_bdd34e23-e0c1-4a98-b922-29a15c4b3e30
+#Created : 10-26-2021 10:44:59
+#Modified: 10-26-2021 12:13:37
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

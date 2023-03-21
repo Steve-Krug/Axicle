@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Single Moving Object (Custom)`IUNIT_OBJ, Platoon`Multi-Vehicle
+DEFINE_MOVING_OBJECTS 1
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME IUNIT_OBJ, Platoon
+OPT_SPEED_OBJ 0
+
+IUNIT_OBJ IUNIT
+#CheckBox3 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+
+#RingCtrl0 6
+#RingCtrl1 1
+#MiscYellow0
+define_parameter platoon 199
+#ENDMYellow
+
+H_OBJ -1
+*COLOR 0 0.2 0.8
+*S_INIT 0
+*L_INIT 0
+OPT_SHAPE_OBJ 1
+SHAPE_TYPE_OBJ 1
+DZ_OBJECT 0
+*SIZE 17.25
+LENGTH_OBJ 17.25
+WIDTH_OBJ 3
+LX_FRONT_OBJ 1.5
+MATERIAL_TYPE_OBJ 0
+#MiscYellow1
+TypeO_<<o>> = Platoon ! type of target
+MsgObj_<<o>> = 4 ! boundary, limit for reaching target
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#Add an object that is attached to the current vehicle unit IUNIT. Only valid for simulations with multiple vehicles in one instance of the solver.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Multi-Vehicle } IUNIT_OBJ, Platoon
+#Library : Single Moving Object (Custom)
+#DataSet : IUNIT_OBJ, Platoon
+#Category: Multi-Vehicle
+#FileID  : Target_dc6d9550-5200-41f2-825d-0fc608a7dfc9
+#Created : 09-30-2021 10:06:50
+#Modified: 11-02-2021 11:02:25
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Moving Object (Custom)
+
+END

@@ -1,0 +1,83 @@
+PARSFILE
+#FullDataName TruckSim Run Control`2A Suspended Cab (baseline)`Suspended Cab with Tables
+#VEHICLECODE F_S_S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_d9de6f40-d25b-44d2-869a-6be3a6ce07fb
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Lead_2a\Lead2a_453c9484-cd9a-4351-b1a9-9759fce1a47e.par
+#BlueLink2 Vehicle: Lead Unit with 2 Axles`2A Euro Cab (Transp, Susp)` 2A Tractors` , Math Model`Lead2a_453c9484-cd9a-4351-b1a9-9759fce1a47e
+
+PARSFILE Procedures\Proc_43e83c27-1e91-4ddd-be82-c9406e8e4300.par
+#BlueLink28 Procedures`Four Small Bumps, 0.3 m, Susp. Cab` Ride Tests` , Procedure`Proc_43e83c27-1e91-4ddd-be82-c9406e8e4300
+
+PARSFILE Generic\Group\GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991.par
+#BlueLink9 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55.par
+#BlueLink10 Multiple Moving Objects`1 Driver Preview Point, Set by DM` Points of Interest` , Miscellaneous`TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55
+
+*TSTOP 1
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_2a\Lead2a_453c9484-cd9a-4351-b1a9-9759fce1a47e.png
+WRITE_SENSOR_DETECT
+Title 2A Suspended Cab (baseline) <Suspended Cab with Tables>
+CATEGORY Suspended Cab with Tables 
+DATASET_TITLE 2A Suspended Cab (baseline)
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#A 2A tractor with a suspended cab drives over four small bumps.
+#
+#This truck uses linear coefficients for the suspended cab's springs and dampers as specified on the Suspended Cab screen and serves as a baseline run for other examples.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Suspended Cab with Tables } 2A Suspended Cab (baseline)
+#Library : TruckSim Run Control
+#DataSet : 2A Suspended Cab (baseline)
+#Category: Suspended Cab with Tables
+#FileID  : Run_d9de6f40-d25b-44d2-869a-6be3a6ce07fb
+#Modified: 04-25-2022 09:36:38
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

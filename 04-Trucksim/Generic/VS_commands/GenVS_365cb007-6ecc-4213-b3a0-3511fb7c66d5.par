@@ -1,0 +1,134 @@
+PARSFILE
+#FullDataName Generic VS Commands`Peak force information`Tire force and moment
+#VehCode VS Commands
+
+#MiscYellow0
+! Parameter to prevent dividing by zero
+define_parameter f_eps = 1e-10; N;
+! Slip angles for peak lateral force at current load
+! Combined slip effects ignored
+define_output AlpPkL1i = alpha_fy_peak(fz_l1i, 1); deg;
+define_output AlpPkR1i = alpha_fy_peak(fz_r1i, 2); deg;
+define_output AlpPkL2i = alpha_fy_peak(fz_l2i, 5); deg;
+define_output AlpPkR2i = alpha_fy_peak(fz_r2i, 6); deg;
+! Peak lateral force at current load and mu
+! Combined slip effects ignored
+define_output FyPkL1i = max(f_eps, abs(fy_tire(fz_l1i, AlpPkL1i, 1)) * muy_l1i/mu_ref_y(1,1,1)); N;
+define_output FyPkR1i = max(f_eps, abs(fy_tire(fz_r1i, AlpPkR1i, 2)) * muy_r1i/mu_ref_y(1,2,1)); N;
+define_output FyPkL2i = max(f_eps, abs(fy_tire(fz_l2i, AlpPkL2i, 5)) * muy_l2i/mu_ref_y(2,1,1)); N;
+define_output FyPkR2i = max(f_eps, abs(fy_tire(fz_r2i, AlpPkR2i, 6)) * muy_r2i/mu_ref_y(2,2,1)); N;
+! Percent lateral force saturation at current load
+! Combined slip effects ignored
+define_output FyUseL1i = fy_l1i / FyPkL1i * 100; -;
+define_output FyUseR1i = fy_r1i / FyPkR1i * 100; -;
+define_output FyUseL2i = fy_l2i / FyPkL2i * 100; -;
+define_output FyUseR2i = fy_r2i / FyPkR2i * 100; -;
+
+! Slip ratios for peak longitudinal force at current load
+! Combined slip effects ignored
+define_output KapPkL1i = Kappa_fx_peak(fz_l1i, 1); -;
+define_output KapPkR1i = Kappa_fx_peak(fz_r1i, 2); -;
+define_output KapPkL2i = Kappa_fx_peak(fz_l2i, 5); -;
+define_output KapPkR2i = Kappa_fx_peak(fz_r2i, 6); -;
+! Peak longitudinal force at current load and mu
+! Combined slip effects ignored
+define_output FxPkL1i = max(f_eps, abs(fx_tire(fz_l1i, KapPkL1i, 1)) * mux_l1i/mu_ref_x(1,1,1)); N;
+define_output FxPkR1i = max(f_eps, abs(fx_tire(fz_r1i, KapPkR1i, 2)) * mux_r1i/mu_ref_x(1,2,1)); N;
+define_output FxPkL2i = max(f_eps, abs(fx_tire(fz_l2i, KapPkL2i, 5)) * mux_l2i/mu_ref_x(2,1,1)); N;
+define_output FxPkR2i = max(f_eps, abs(fx_tire(fz_r2i, KapPkR2i, 6)) * mux_r2i/mu_ref_x(2,2,1)); N;
+! Percent lateral force saturation at current load
+! Combined slip effects ignored
+define_output FxUseL1i = fx_l1i / FxPkL1i * 100; -;
+define_output FxUseR1i = fx_r1i / FxPkR1i * 100; -;
+define_output FxUseL2i = fx_l2i / FxPkL2i * 100; -;
+define_output FxUseR2i = fx_r2i / FxPkR2i * 100; -;
+
+! Tire force directions and magnitudes
+! Force magnitude
+define_output MagF_L1i = (fx_l1i^2 + fy_l1i^2)^0.5;
+define_output MagF_R1i = (fx_r1i^2 + fy_r1i^2)^0.5;
+define_output MagF_L2i = (fx_l2i^2 + fy_l2i^2)^0.5;
+define_output MagF_R2i = (fx_r2i^2 + fy_r2i^2)^0.5;
+! Global direction (yaw angle) of force
+define_output AF_L1i = atan2(fy_l1i,fx_l1i) + Yaw_L1; deg;
+define_output AF_R1i = atan2(fy_r1i,fx_r1i) + Yaw_R1; deg;
+define_output AF_L2i = atan2(fy_l2i,fx_l2i) + Yaw_L2; deg;
+define_output AF_R2i = atan2(fy_r2i,fx_r2i) + Yaw_R2; deg;
+
+! Get S and L for each tire contact
+define_output Tr_S_L1i = ROAD_S_ID(Xctc_L1i, Yctc_L1i, RdID_L1i, 1); m; Station at Tire L1i CTC
+define_output Tr_S_R1i = ROAD_S_ID(Xctc_R1i, Yctc_R1i, RdID_R1i, 2); m; Station at Tire R1i CTC
+define_output Tr_S_L2i = ROAD_S_ID(Xctc_L2i, Yctc_L2i, RdID_L2i, 5); m; Station at Tire L2i CTC
+define_output Tr_S_R2i = ROAD_S_ID(Xctc_R2i, Yctc_R2i, RdID_R2i, 6); m; Station at Tire R2i CTC
+
+define_output Tr_L_L1i = ROAD_L_ID(Xctc_L1i, Yctc_L1i, RdID_L1i, 1); m; Station at Tire L1i CTC
+define_output Tr_L_R1i = ROAD_L_ID(Xctc_R1i, Yctc_R1i, RdID_R1i, 2); m; Station at Tire R1i CTC
+define_output Tr_L_L2i = ROAD_L_ID(Xctc_L2i, Yctc_L2i, RdID_L2i, 5); m; Station at Tire L2i CTC
+define_output Tr_L_R2i = ROAD_L_ID(Xctc_R2i, Yctc_R2i, RdID_R2i, 6); m; Station at Tire R2i CTC
+
+! Get the Euler pitch angle of the road in the direction of each tire
+define_output TrPtchL1i = ROAD_PITCH_SL_I(Tr_S_L1i, Tr_L_L1i, Yaw_L1, 1); deg; Road pitch for F_L1i;
+define_output TrPtchR1i = ROAD_PITCH_SL_I(Tr_S_R1i, Tr_L_R1i, Yaw_R1, 1); deg; Road pitch for F_R1i;
+define_output TrPtchL2i = ROAD_PITCH_SL_I(Tr_S_L2i, Tr_L_L2i, Yaw_L2, 1); deg; Road pitch for F_L2i;
+define_output TrPtchR2i = ROAD_PITCH_SL_I(Tr_S_R2i, Tr_L_R2i, Yaw_R2, 1); deg; Road pitch for F_R2i;
+
+! Get the Euler roll angle of the road in the direction of each tire
+define_output TrRollL1i = ROAD_ROLL_SL_I(Tr_S_L1i, Tr_L_L1i, Yaw_L1, 1); deg; Road roll for F_L1i;
+define_output TrRollR1i = ROAD_ROLL_SL_I(Tr_S_R1i, Tr_L_R1i, Yaw_R1, 1); deg; Road roll for F_R1i;
+define_output TrRollL2i = ROAD_ROLL_SL_I(Tr_S_L2i, Tr_L_L2i, Yaw_L2, 1); deg; Road roll for F_L2i;
+define_output TrRollR2i = ROAD_ROLL_SL_I(Tr_S_R2i, Tr_L_R2i, Yaw_R2, 1); deg; Road roll for F_R2i;
+
+! Get the Euler pitch angle of the road in the direction of each tire force vector
+define_output TfPtchL1i = ROAD_PITCH_SL_I(Tr_S_L1i, Tr_L_L1i, AF_L1i, 1); deg; Road pitch for F_L1i;
+define_output TfPtchR1i = ROAD_PITCH_SL_I(Tr_S_R1i, Tr_L_R1i, AF_R1i, 1); deg; Road pitch for F_R1i;
+define_output TfPtchL2i = ROAD_PITCH_SL_I(Tr_S_L2i, Tr_L_L2i, AF_L2i, 1); deg; Road pitch for F_L2i;
+define_output TfPtchR2i = ROAD_PITCH_SL_I(Tr_S_R2i, Tr_L_R2i, AF_R2i, 1); deg; Road pitch for F_R2i;
+
+! Get the Euler roll angle of the road in the direction of each tire force vector
+define_output TfRollL1i = ROAD_ROLL_SL_I(Tr_S_L1i, Tr_L_L1i, AF_L1i, 1); deg; Road roll for F_L1i;
+define_output TfRollR1i = ROAD_ROLL_SL_I(Tr_S_R1i, Tr_L_R1i, AF_R1i, 1); deg; Road roll for F_R1i;
+define_output TfRollL2i = ROAD_ROLL_SL_I(Tr_S_L2i, Tr_L_L2i, AF_L2i, 1); deg; Road roll for F_L2i;
+define_output TfRollR2i = ROAD_ROLL_SL_I(Tr_S_R2i, Tr_L_R2i, AF_R2i, 1); deg; Road roll for F_R2i;
+
+!
+#ENDMYellow
+
+PARSFILE Generic\Group\GenGrp_498394c6-e7e0-4116-9e11-2ac309df2030.par
+#BlueLink0 Generic Data Group`Tire utilization` Tire force and moment` , Miscellaneous`GenGrp_498394c6-e7e0-4116-9e11-2ac309df2030
+
+PARSFILE Plot\Setup\Plot_c4c3292e-a7a8-4e76-ac42-d4417cae8266.par
+#BlueLink3 Plot: Setup`Slip angle for peak lateral force` Tire utilization` , Plot`Plot_c4c3292e-a7a8-4e76-ac42-d4417cae8266
+
+PARSFILE Plot\Setup\Plot_eac11f03-9a95-48ce-a9d2-c7d22ee9d056.par
+#BlueLink4 Plot: Setup`Peak lateral force at Fz` Tire utilization` , Plot`Plot_eac11f03-9a95-48ce-a9d2-c7d22ee9d056
+
+PARSFILE Plot\Setup\Plot_3acb2701-4814-4f6c-acf2-bc2fea573a6e.par
+#BlueLink5 Plot: Setup`Lateral force pct utilization` Tire utilization` , Plot`Plot_3acb2701-4814-4f6c-acf2-bc2fea573a6e
+
+PARSFILE Plot\Setup\Plot_41d9e38c-dce2-4d37-8d50-d0ab2e3e84bc.par
+#BlueLink6 Plot: Setup`Lateral Forces` Tire utilization` , Plot`Plot_41d9e38c-dce2-4d37-8d50-d0ab2e3e84bc
+
+PARSFILE Plot\Setup\Plot_29fb5878-9e46-49b0-b65e-d9487f074d38.par
+#BlueLink7 Plot: Setup`Slip ratio for peak longitudinal force` Tire utilization` , Plot`Plot_29fb5878-9e46-49b0-b65e-d9487f074d38
+
+PARSFILE Plot\Setup\Plot_f5814b7d-c6b6-48bb-8cb3-af3db3f1cd73.par
+#BlueLink8 Plot: Setup`Peak longitudinal force at Fz` Tire utilization` , Plot`Plot_f5814b7d-c6b6-48bb-8cb3-af3db3f1cd73
+
+PARSFILE Plot\Setup\Plot_70aada47-0a9a-4923-be25-bbf75f183a4d.par
+#BlueLink9 Plot: Setup`Longitudinal force pct utilization` Tire utilization` , Plot`Plot_70aada47-0a9a-4923-be25-bbf75f183a4d
+
+PARSFILE Plot\Setup\Plot_479b76c1-4627-427d-9a58-dc1b8deaeb64.par
+#BlueLink10 Plot: Setup`Longitudinal Forces` Tire utilization` , Plot`Plot_479b76c1-4627-427d-9a58-dc1b8deaeb64
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Tire force and moment } Peak force information
+#Library : Generic VS Commands
+#DataSet : Peak force information
+#Category: Tire force and moment
+#FileID  : GenVS_365cb007-6ecc-4213-b3a0-3511fb7c66d5
+#Modified: 06-07-2021 01:53:01
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

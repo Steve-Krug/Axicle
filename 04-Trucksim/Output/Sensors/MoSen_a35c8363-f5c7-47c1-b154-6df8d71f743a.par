@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Positions, Velocities, and Accelerations`Trailer Hitch Position (correct sign)`Sprung Mass and Suspended Cab
+#RingCtrl0 0
+#RingCtrl2 1
+#RingCtrl3 1
+#RingCtrl4 1
+#RingCtrl5 1
+*BODY_ID_1 1
+*X_S1 -LX_H(1)
+*Y_S1 Y_H(1)
+*Z_S1 H_H(1)
+
+ISENSOR_M = 1
+DEFINE_MOTION_SENSORS 1 + ISENSOR_M -1 -NSENSOR_M
+
+OPT_S_BODY_TYPE 1
+OPT_S_OUTPUT 1
+OPT_S_BODY_ID 1
+X_S -LX_H(1)
+Y_S Y_H(1)
+Z_S H_H(1)
+SET_DESCRIPTION MOTION_SENSOR_NAME Trailer Hitch Position (correct sign)
+
+MAKE_MOTION_SENSOR_OUTPUTS
+
+#EMBEDDED_NOTES
+#Position motion sensor at hitch point for unit 1.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { Sprung Mass and Suspended Cab } Trailer Hitch Position (correct sign)
+#Library : Positions, Velocities, and Accelerations
+#DataSet : Trailer Hitch Position (correct sign)
+#Category: Sprung Mass and Suspended Cab
+#FileID  : MoSen_a35c8363-f5c7-47c1-b154-6df8d71f743a
+#Created : 03-29-2022 17:34:15
+#Modified: 03-29-2022 17:34:22
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Motion Sensors
+
+END

@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Position and Orientation (3 Targets)`Parallel Solvers
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_43667604-72f6-4753-b3e8-5669faf14c4d\Run_imp_tab.txt
+
+#MiscYellow0
+#ENDMYellow
+
+#MiscYellow1
+DEFINE_IMPORT IMP_Car1_X
+DEFINE_IMPORT IMP_Car1_Y
+DEFINE_IMPORT IMP_Car1_Z
+DEFINE_IMPORT IMP_Car1_Roll
+DEFINE_IMPORT IMP_Car1_Pitch
+DEFINE_IMPORT IMP_Car1_Yaw
+IMPORT IMP_Car1_X
+IMPORT IMP_Car1_Y
+IMPORT IMP_Car1_Z
+IMPORT IMP_Car1_Roll
+IMPORT IMP_Car1_Pitch
+IMPORT IMP_Car1_Yaw
+
+
+DEFINE_IMPORT IMP_Car2_X
+DEFINE_IMPORT IMP_Car2_Y
+DEFINE_IMPORT IMP_Car2_Z
+DEFINE_IMPORT IMP_Car2_Roll
+DEFINE_IMPORT IMP_Car2_Pitch
+DEFINE_IMPORT IMP_Car2_Yaw
+IMPORT IMP_Car2_X
+IMPORT IMP_Car2_Y
+IMPORT IMP_Car2_Z
+IMPORT IMP_Car2_Roll
+IMPORT IMP_Car2_Pitch
+IMPORT IMP_Car2_Yaw
+
+DEFINE_IMPORT IMP_Car3_X
+DEFINE_IMPORT IMP_Car3_Y
+DEFINE_IMPORT IMP_Car3_Z
+DEFINE_IMPORT IMP_Car3_Roll
+DEFINE_IMPORT IMP_Car3_Pitch
+DEFINE_IMPORT IMP_Car3_Yaw
+IMPORT IMP_Car3_X
+IMPORT IMP_Car3_Y
+IMPORT IMP_Car3_Z
+IMPORT IMP_Car3_Roll
+IMPORT IMP_Car3_Pitch
+IMPORT IMP_Car3_Yaw
+#ENDMYellow
+
+#BlueLink0 TruckSim Run Control`City (4 Parallel Solvers): Truck 1` Multiple Vehicles, Parallel Solvers` , example run`Run_43667604-72f6-4753-b3e8-5669faf14c4d
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Parallel Solvers } Position and Orientation (3 Targets)
+#Library : I/O Channels: Import
+#DataSet : Position and Orientation (3 Targets)
+#Category: Parallel Solvers
+#FileID  : Import_64209b5e-3154-4948-9ff3-13096bef6a28
+#Modified: 06-07-2021 01:52:56
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Import Channels
+
+END

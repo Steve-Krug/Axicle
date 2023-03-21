@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName Generic VS Commands`Susp. Cab: Damper Import Variables`Suspended Cab
+#VehCode VS Commands
+
+#MiscYellow0
+! VS Commands for use with 1D Tables representing suspended cab dampers
+
+! Use eq_in to calculate the data coming out of the tables each time step, and assign the table output
+! to the import variables for the cab spring dampers. 
+
+! Four new output variables are created to allow plotting of the data being imported into TruckSim. 
+! These are compared to the TruckSim-calculated suspended cab damper forces. 
+
+! Front
+eq_in IMP_FD_MNT_LF = Cab_Damper_LF(0, DDfMntLF, 1);
+eq_in IMP_FD_MNT_RF = Cab_Damper_RF(0, DDfMntRF, 1);
+
+! Rear
+eq_in IMP_FD_MNT_LR = Cab_Damper_LR(0, DDfMntLR, 1);
+eq_in IMP_FD_MNT_RR = Cab_Damper_RR(0, DDfMntRR, 1);
+
+
+! Import Commands
+
+! Front
+IMP_FD_MNT_LF Replace 0;
+IMP_FD_MNT_RF Replace 0;
+
+! Rear
+IMP_FD_MNT_LR Replace 0;
+IMP_FD_MNT_RR Replace 0;
+
+
+! Plots
+define_output DamperLF = IMP_FD_MNT_LF;
+define_output DamperRF = IMP_FD_MNT_RF;
+define_output DamperLR = IMP_FD_MNT_LR;
+define_output DamperRR = IMP_FD_MNT_RR;
+#ENDMYellow
+
+PARSFILE Plot\Setup\Plot_739a82e7-8e8c-426f-a2c0-2f501c24acc4.par
+#BlueLink3 Plot: Setup`Susp. Cab: DamperLF` Suspended Cab` , Plot`Plot_739a82e7-8e8c-426f-a2c0-2f501c24acc4
+
+PARSFILE Plot\Setup\Plot_8ca7f503-0c3a-4ef8-a0e5-1ac13dd2320c.par
+#BlueLink4 Plot: Setup`Susp. Cab: DamperRF` Suspended Cab` , Plot`Plot_8ca7f503-0c3a-4ef8-a0e5-1ac13dd2320c
+
+PARSFILE Plot\Setup\Plot_39a1a29d-b6d1-4110-b6ec-4b567f38e958.par
+#BlueLink5 Plot: Setup`Susp. Cab: DamperLR` Suspended Cab` , Plot`Plot_39a1a29d-b6d1-4110-b6ec-4b567f38e958
+
+PARSFILE Plot\Setup\Plot_1cfff50d-0ed4-44ed-a967-4f8720119448.par
+#BlueLink6 Plot: Setup`Susp. Cab: DamperRR` Suspended Cab` , Plot`Plot_1cfff50d-0ed4-44ed-a967-4f8720119448
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Suspended Cab } Susp. Cab: Damper Import Variables
+#Library : Generic VS Commands
+#DataSet : Susp. Cab: Damper Import Variables
+#Category: Suspended Cab
+#FileID  : GenVS_73309b75-804c-40fd-acb5-e9ebdb35f0eb
+#Created : 05-26-2021 12:03:11
+#Modified: 06-07-2021 01:53:01
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

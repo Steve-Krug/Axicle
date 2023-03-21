@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Plot: Setup`Driver Model Handwheel Angle`Controls: Driver
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Line Plots, No Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Steer_DM, Time
+PLOTCHANNELS Steer_SW, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Driver Model Handwheel Angle
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Driver } Driver Model Handwheel Angle
+#Library : Plot: Setup
+#DataSet : Driver Model Handwheel Angle
+#Category: Controls: Driver
+#FileID  : Plot_8801cb51-21a5-49c8-ac41-f8ecbecfce4f
+#Modified: 06-07-2021 01:49:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

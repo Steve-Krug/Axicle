@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Control: Steering Preview Time for the Driver Model`0.6s Forward, 3.5s Reversing`
+#CheckBox0 0    
+
+#RingCtrl0 STEP
+#RadioCtrl0 0    
+
+#DiagramOne0
+TPREV_TABLE STEP
+-10, 3.5
+0, 0.6
+10, 0.6
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Control: Steering Preview Time for the Driver Model; 0.6s Forward, 3.5s Reversing
+#Library : Control: Steering Preview Time for the Driver Model
+#DataSet : 0.6s Forward, 3.5s Reversing
+#Category: 
+#FileID  : Tprev_8322fe0d-a470-43d1-9e0c-0c9e4f72e742
+#Created : 05-20-2022 19:12:03
+#Modified: 05-20-2022 19:32:14
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Preview Time vs. Speed
+
+END

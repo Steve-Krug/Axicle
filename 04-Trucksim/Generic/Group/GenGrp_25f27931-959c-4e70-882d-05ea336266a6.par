@@ -1,0 +1,86 @@
+PARSFILE
+#FullDataName Generic Data Group`Tractor-Trailer Platoon: Brake Test`Multiple Vehicles
+#VehCode S_SS__SS S_SS__SS S_SS__SS
+#MiscYellow0
+SET_RUN_COLOR Blue
+#ENDMYellow
+
+PARSFILE Vehicles\Loaded\VehLoad_d78f3f31-9bf9-4f82-9c67-855a40d05bfe.par
+#BlueLink0 Vehicle: Loaded Combination`3A Lead + 2A Container Trailer (Platoon)` Cab-Over Tractor-Trailers` , Link 1`VehLoad_d78f3f31-9bf9-4f82-9c67-855a40d05bfe
+
+
+PARSFILE Procedures\Proc_63d9d90c-6369-42bd-a921-189ff9cd9c7c.par
+#BlueLink1 Procedures`Platoon Brake Test (Controls + Setup)` Multiple Vehicles` , Link 2`Proc_63d9d90c-6369-42bd-a921-189ff9cd9c7c
+
+
+#MiscYellow2
+eq_in pbk_con_constant if(station<=200, 10000000, pbk_con_CONSTANT)
+#ENDMYellow
+
+
+#MiscYellow3
+SET_RUN_COLOR Red
+#ENDMYellow
+
+PARSFILE Vehicles\Loaded\VehLoad_d78f3f31-9bf9-4f82-9c67-855a40d05bfe.par
+#BlueLink3 Vehicle: Loaded Combination`3A Lead + 2A Container Trailer (Platoon)` Cab-Over Tractor-Trailers` , Link 4`VehLoad_d78f3f31-9bf9-4f82-9c67-855a40d05bfe
+
+
+#MiscYellow4
+SSTART 327
+opt_direction -1
+#ENDMYellow
+
+PARSFILE Procedures\Proc_7a6cacca-7035-4428-86c4-db10eda1b373.par
+#BlueLink4 Procedures`Platoon (Controls), Truck 2` Multiple Vehicles` , Link 5`Proc_7a6cacca-7035-4428-86c4-db10eda1b373
+
+
+#MiscYellow5
+SPEED_TARGET_CONSTANT 100
+#ENDMYellow
+
+
+#MiscYellow6
+SET_RUN_COLOR Yellow
+#ENDMYellow
+
+PARSFILE Vehicles\Loaded\VehLoad_d78f3f31-9bf9-4f82-9c67-855a40d05bfe.par
+#BlueLink6 Vehicle: Loaded Combination`3A Lead + 2A Container Trailer (Platoon)` Cab-Over Tractor-Trailers` , Link 7`VehLoad_d78f3f31-9bf9-4f82-9c67-855a40d05bfe
+
+
+#MiscYellow7
+SSTART 354
+opt_direction -1
+#ENDMYellow
+
+PARSFILE Procedures\Proc_1c994a25-e9e5-42b7-b930-9e8594df7385.par
+#BlueLink7 Procedures`Platoon (Controls), Truck 3` Multiple Vehicles` , Link 8`Proc_1c994a25-e9e5-42b7-b930-9e8594df7385
+
+
+#MiscYellow8
+SPEED_TARGET_CONSTANT 100
+#ENDMYellow
+
+
+*MODELCODE S_SS__SS S_SS__SS S_SS__SS
+
+#EMBEDDED_NOTES
+#This dataset has the MODEL_LAYOUT code used by the solver to create 3 vehicles, each with configuration S_SS__SS.
+#
+#There are four pairs of links to Vehicle data and Procedure data. The linked Procedure dataset for vehicle 1 includes the environment. The other linked procedures go to the same dataset, which simply defines the closed-loop controls used by the associated vehicle.
+#
+#The initial positions of vehicles 2 - 3 are set in miscellaneous fields after each vehicle is specified.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Multiple Vehicles } Tractor-Trailer Platoon: Brake Test
+#Library : Generic Data Group
+#DataSet : Tractor-Trailer Platoon: Brake Test
+#Category: Multiple Vehicles
+#FileID  : GenGrp_25f27931-959c-4e70-882d-05ea336266a6
+#Created : 11-02-2021 11:34:23
+#Modified: 11-16-2021 10:39:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_SS__SS S_SS__SS S_SS__SS
+
+END

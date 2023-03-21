@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Group (More)`Frame Rails: 2A Truck`Frame Rails
+PARSFILE Animator\Frames\Frame_ed68061a-5a41-4295-9aaa-3dbc9b1ccca9.par
+#BlueLink0 Animator: Reference Frame`Frame Rail: Cab (L)` Frame Rails` , Miscellaneous`Frame_ed68061a-5a41-4295-9aaa-3dbc9b1ccca9
+
+PARSFILE Animator\STL_Groups\ShpGrp_5dcf5a00-1ea4-4360-808a-700418885375.par
+#BlueLink1 Animator: Shape Assembly`Cab Over: Frame Rail (L) Assembly` Cab Over` , Miscellaneous`ShpGrp_5dcf5a00-1ea4-4360-808a-700418885375
+
+PARSFILE Animator\Frames\Frame_39a7a84e-1025-4672-807c-68f0525f1343.par
+#BlueLink2 Animator: Reference Frame`Frame Rail: Cab (R)` Frame Rails` , Miscellaneous`Frame_39a7a84e-1025-4672-807c-68f0525f1343
+
+PARSFILE Animator\STL_Groups\ShpGrp_9f573b81-71dd-4557-a6db-d9ca41737515.par
+#BlueLink3 Animator: Shape Assembly`Cab Over: Frame  Rail (R) Assembly` Cab Over` , Miscellaneous`ShpGrp_9f573b81-71dd-4557-a6db-d9ca41737515
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+
+LOG_ENTRY Used Dataset: Animator: Group (More); { Frame Rails } Frame Rails: 2A Truck
+#Library : Animator: Group (More)
+#DataSet : Frame Rails: 2A Truck
+#Category: Frame Rails
+#FileID  : GroupM_de02e0d7-8039-464b-be3c-a46754d367ce
+#Modified: 06-07-2021 01:54:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Group (More)
+
+END

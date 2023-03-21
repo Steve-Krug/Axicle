@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Articulated Bus Rear Cube`
+ADD_REFERENCE_FRAME Frame_8a680a75-0369-4ac5-91e4-66dd714f2295
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME xo_hf_2
+SET_Y_NAME yo_hf_2
+SET_Z_NAME zo_hf_2
+SET_ROLL_NAME roll_e_2
+SET_PITCH_NAME pitch_2
+SET_YAW_NAME yaw_2
+
+PARSFILE Animator\STL\Shape_cf264102-4b84-4838-8d9f-70451f2edd50.par
+#BlueLink0 Animator: Shape File Link`Cube: Stretched for Art Bus` Geometric Shapes` , Animator Data`Shape_cf264102-4b84-4838-8d9f-70451f2edd50
+
+#MiscYellow0
+set_offset_z -0.6
+set_offset_x -0.5
+x_length 6000
+#ENDMYellow
+
+WRT_xo_hf_2
+ANI_xo_hf_2
+WRT_yo_hf_2
+ANI_yo_hf_2
+WRT_zo_hf_2
+ANI_zo_hf_2
+WRT_roll_e_2
+ANI_roll_e_2
+WRT_pitch_2
+ANI_pitch_2
+WRT_yaw_2
+ANI_yaw_2
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; Articulated Bus Rear Cube
+#Library : Animator: Reference Frame
+#DataSet : Articulated Bus Rear Cube
+#Category: 
+#FileID  : Frame_8a680a75-0369-4ac5-91e4-66dd714f2295
+#Created : 11-30-2021 16:17:59
+#Modified: 04-12-2022 16:56:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Road: Reference Line Elevation`Hill and Dip in the Road - opposite side`Hills and Valleys
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+ROAD_ZS_TABLE SPLINE_FLAT
+-92, 0
+-90, -0.1
+-88, -0.2
+-86, -0.3
+-84, -0.4
+-82, -0.5
+-80, -0.52
+-78, -0.52
+-76, -0.52
+-74, -0.5
+-72, -0.4
+-70, -0.3
+-68, -0.2
+-66, -0.1
+-64, 0
+-60, 0
+-58, 0.1
+-56, 0.25
+-54, 0.4
+-52, 0.6
+-50, 0.8
+-48, 0.82
+-46, 0.82
+-44, 0.82
+-42, 0.8
+-40, 0.6
+-38, 0.4
+-36, 0.25
+-34, 0.1
+-32, 0
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Road: Reference Line Elevation; { Hills and Valleys } Hill and Dip in the Road - opposite side
+#Library : Road: Reference Line Elevation
+#DataSet : Hill and Dip in the Road - opposite side
+#Category: Hills and Valleys
+#FileID  : RdRefZ_766d63a7-bc35-4157-8323-a049affa16bc
+#Created : 05-27-2022 16:30:09
+#Modified: 05-27-2022 16:30:49
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Zs vs S
+
+END

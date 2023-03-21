@@ -1,0 +1,104 @@
+PARSFILE
+#FullDataName Vehicle: Dolly with 1 Axle`1A Dolly w/ Hinged Towbar, Turntable`
+IUNIT_INCREMENT
+symbol_add  <<unit>> 1
+NAXLES 1
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+
+*LDUAL 310
+*LX_H 1980
+*Y_H 0
+*H_H 1120
+symbol_add  <<axle>> 1
+
+iaxle 1
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 310
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_cc56c1f1-53e4-49ee-986b-55210099b095.par
+#BlueLink7 Tire`510 mm Radius (Trailer)` 3000 kg Rating` , Tires`Tire_cc56c1f1-53e4-49ee-986b-55210099b095
+
+itire 2
+symbol_push  <<tire>> R<<axle>>o
+STORE_WHEEL_OFFSET 0.155000
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+PARSFILE Tires\Tire\Tire_cc56c1f1-53e4-49ee-986b-55210099b095.par
+#BlueLink999 Tire`510 mm Radius (Trailer)` 3000 kg Rating` , Tires`Tire_cc56c1f1-53e4-49ee-986b-55210099b095
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_cc56c1f1-53e4-49ee-986b-55210099b095.par
+#BlueLink999 Tire`510 mm Radius (Trailer)` 3000 kg Rating` , Tires`Tire_cc56c1f1-53e4-49ee-986b-55210099b095
+
+itire 2
+symbol_push  <<tire>> L<<axle>>o
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+STORE_WHEEL_OFFSET 0.155000
+PARSFILE Tires\Tire\Tire_cc56c1f1-53e4-49ee-986b-55210099b095.par
+#BlueLink999 Tire`510 mm Radius (Trailer)` 3000 kg Rating` , Tires`Tire_cc56c1f1-53e4-49ee-986b-55210099b095
+
+
+iaxle 1
+OPT_STEER_EXT 1
+LX_AXLE 1980
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783.par
+#BlueLink10 Suspension: Solid Axle System Kinematics`22.5 kip, Dolly, Dual Wheels` Dolly Axle` , Kinematics (solid axle)`KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269.par
+#BlueLink11 Suspension: Solid Axle Compliance, Springs, and Dampers`22.5 kip Leaf, Dolly: +100 mm, -60 mm` Leaf Springs` , Suspension compliance`CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269
+
+PARSFILE Brakes\2W_System\Brk2W_42eb5e36-2168-45bb-af03-57b1f18c5363.par
+#BlueLink4 Brakes: Two-Wheel System`7.5 kN-m Capacity, Air (2 ch. ABS)` Air Brakes` , Brakes`Brk2W_42eb5e36-2168-45bb-af03-57b1f18c5363
+
+
+WRITE_ADD_REFERENCE_FRAME_BODY
+x_length 1980
+PARSFILE Vehicles\Trl_Sprung_Mass\TrlSprM_b883319c-49a9-446e-aad4-f040c98dea27.par
+#BlueLink1 Vehicle: Trailer Sprung Mass`1A Dolly w/ Hinged Towbar` Dollies` , Sprung mass`TrlSprM_b883319c-49a9-446e-aad4-f040c98dea27
+
+PARSFILE Animator\Vehicles\AniVeh_414f82b9-6db0-48c8-893a-5e9666c1790d.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`1A Dolly w/ Hinged Towbar` Trailers: Dollies` , Animator Shape(s)`AniVeh_414f82b9-6db0-48c8-893a-5e9666c1790d
+
+symbol_push  <<hitch_x>> -1.980000
+symbol_push  <<hitch_y>> 0.000000
+symbol_push  <<hitch_z>> 1.120000
+PARSFILE Hitches\Joint\Hitch_d9435e42-9892-4829-a39e-17d9933ffa42.par
+#BlueLink2 Hitch: Joint Assembly`Turntable, 1A Dolly, 1m Towbar` Turntables` , Hitch`Hitch_d9435e42-9892-4829-a39e-17d9933ffa42
+
+LX_H(<<unit>>) 1980
+Y_H(<<unit>>) 0
+H_H(<<unit>>) 1120
+*IMAGE_FIT_MODE 1
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_414f82b9-6db0-48c8-893a-5e9666c1790d.png
+
+#EMBEDDED_NOTES
+#The dolly uses a turntable with a hinged towbar.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Dolly with 1 Axle; 1A Dolly w/ Hinged Towbar, Turntable
+#Library : Vehicle: Dolly with 1 Axle
+#DataSet : 1A Dolly w/ Hinged Towbar, Turntable
+#Category: 
+#FileID  : Dly1a_f2c8d643-7cd5-4f70-b436-75cbbc9b9ef6
+#Created : 09-28-2021 17:01:29
+#Modified: 10-19-2021 16:50:15
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode dS
+
+END

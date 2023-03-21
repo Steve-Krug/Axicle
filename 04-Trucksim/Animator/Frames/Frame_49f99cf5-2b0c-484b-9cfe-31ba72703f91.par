@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Transverse node`Chassis twist study
+ADD_REFERENCE_FRAME Frame_49f99cf5-2b0c-484b-9cfe-31ba72703f91
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME XFrL_1
+SET_Y_NAME YFrL_1
+SET_Z_NAME ZFrL_1
+SET_ROLL_NAME Roll
+SET_PITCH_NAME Pitch
+SET_YAW_NAME Yaw
+
+WRT_XFrL_1
+ANI_XFrL_1
+WRT_YFrL_1
+ANI_YFrL_1
+WRT_ZFrL_1
+ANI_ZFrL_1
+WRT_Roll
+ANI_Roll
+WRT_Pitch
+ANI_Pitch
+WRT_Yaw
+ANI_Yaw
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Chassis twist study } Transverse node
+#Library : Animator: Reference Frame
+#DataSet : Transverse node
+#Category: Chassis twist study
+#FileID  : Frame_49f99cf5-2b0c-484b-9cfe-31ba72703f91
+#Modified: 06-07-2021 01:54:01
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

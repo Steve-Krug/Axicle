@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`2A Trailer (Large Rental)`2A Trailer
+H_CG_SU 970
+Z_LENGTH 2030
+LX_CG_SU 2207
+M_SU 698.6
+IXX_SU 1067
+IYY_SU 2719
+IZZ_SU 2651
+IXZ_SU 0
+*RX 1.236
+*RY 1.973
+*RZ 1.948
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2450
+H_H_FRONT 565
+X_LENGTH 3650
+LX_F_SM 1.38
+HT_SM 2030
+WID_SM 2450
+LEN_SM 3650
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 0
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 2A Trailer } 2A Trailer (Large Rental)
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : 2A Trailer (Large Rental)
+#Category: 2A Trailer
+#FileID  : TrlSprM_f71d4f23-2908-42ea-8c3e-975197a5a74c
+#Created : 11-29-2021 14:42:06
+#Modified: 03-21-2022 15:08:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Trailer Sprung Mass
+
+END

@@ -1,0 +1,21 @@
+PARSFILE
+#FullDataName Animator: Group`2A Dolly w/ Hinged Towbar`Trailers: Dollies w/ Hinged Towbars
+PARSFILE Animator\Frames\Frame_6ec878b5-5927-469e-a7e0-cad54086c5cb.par
+#BlueLink0 Animator: Reference Frame`2A Dolly Frame, Hinged Towbar` Trailers: Dollies w/ Hinged Towbars` , Miscellaneous`Frame_6ec878b5-5927-469e-a7e0-cad54086c5cb
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Trailers: Dollies w/ Hinged Towbars } 2A Dolly w/ Hinged Towbar
+#Library : Animator: Group
+#DataSet : 2A Dolly w/ Hinged Towbar
+#Category: Trailers: Dollies w/ Hinged Towbars
+#FileID  : Group_f765c953-a9a4-4453-bf80-ee5022e75b5c
+#Created : 09-27-2021 16:51:33
+#Modified: 06-01-2022 10:35:24
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Animator Group
+
+END

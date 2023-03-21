@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Path Detectors for External Driver Control`Central Lane Curvature Detect, DM`
+#RingCtrl0 1
+INSTALL_PATH_DETECTOR 1
+
+IDETECTOR 1
+symbol_push  <<detector>> 1
+X_DETECTOR_SM(1) 0
+Y_DETECTOR_SM(1) 0
+#CheckBox0 0    
+OPT_PATH_PD(1) 1
+PATH_ID_PD(1) PATH_ID_DM
+PARSFILE Control\Driver\StrDM_a36bbf93-0b8a-4a99-8b63-e52cc035a002.par
+#BlueLink0 Control: Steering by the Closed-loop Driver Model`Left Lane Marking` Path Detections` , lateral target`StrDM_a36bbf93-0b8a-4a99-8b63-e52cc035a002
+
+LTARG_ID_PD(1) = LTARG_ID
+PARSFILE Sensors_Traffic\Traffic\TMotion_117afed3-f839-4b65-83a5-c1a2e01bf69e.par
+#BlueLink5 Multiple Moving Objects`Detected Path Visual (Green)` Path Detections` , multiple moving objects`TMotion_117afed3-f839-4b65-83a5-c1a2e01bf69e
+
+#MiscYellow0
+EQ_IN L_PVW_PD(1) = Vxz_Fwd*3 ! Center Lane Marker Path Detector Preview Distance, based on speed
+#ENDMYellow
+
+PARSFILE Generic\Links\GenLink_f8e10b0f-dbcb-4959-b4ce-d7121f850795.par
+#BlueLink16 Generic Group of Links`Path Detector Plots` Path Detection` , Miscellaneous`GenLink_f8e10b0f-dbcb-4959-b4ce-d7121f850795
+
+
+#EMBEDDED_NOTES
+#One instance of the Path Detector is installed
+#
+#The calculated preview distances are proportional to the vehicle speed
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Path Detectors for External Driver Control; Central Lane Curvature Detect, DM
+#Library : Path Detectors for External Driver Control
+#DataSet : Central Lane Curvature Detect, DM
+#Category: 
+#FileID  : PathDet_7db3eef3-a61f-4a24-aef7-4157a2db6211
+#Created : 10-14-2021 17:59:15
+#Modified: 10-14-2021 18:10:43
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Path Detectors
+
+END

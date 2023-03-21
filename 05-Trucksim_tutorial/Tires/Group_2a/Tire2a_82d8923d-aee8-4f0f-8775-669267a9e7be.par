@@ -1,0 +1,72 @@
+PARSFILE
+#FullDataName Tires: Vehicle Unit with 2 Axles`Base vehicle (invisible tires)`Chassis twist study
+
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+
+*LDUAL_2 310
+
+symbol_add  <<axle>> 1
+
+iaxle 1
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 0
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3.par
+#BlueLink1 Tire`3000 kg Rating, 510 mm Radius (Invisible)` Chassis twist study` , Tires`Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3.par
+#BlueLink999 Tire`3000 kg Rating, 510 mm Radius (Invisible)` Chassis twist study` , Tires`Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3
+
+symbol_add  <<axle>> 1
+
+iaxle 2
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 0
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3.par
+#BlueLink5 Tire`3000 kg Rating, 510 mm Radius (Invisible)` Chassis twist study` , Tires`Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3.par
+#BlueLink999 Tire`3000 kg Rating, 510 mm Radius (Invisible)` Chassis twist study` , Tires`Tire_683797a0-289a-4d0a-9f69-ec1909b73eb3
+
+
+#EMBEDDED_NOTES
+#Invisible tires (no animator shapes) to produce less cluttered animations
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { Chassis twist study } Base vehicle (invisible tires)
+#Library : Tires: Vehicle Unit with 2 Axles
+#DataSet : Base vehicle (invisible tires)
+#Category: Chassis twist study
+#FileID  : Tire2a_82d8923d-aee8-4f0f-8775-669267a9e7be
+#Modified: 06-07-2021 01:48:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 2a Tire Group
+
+END

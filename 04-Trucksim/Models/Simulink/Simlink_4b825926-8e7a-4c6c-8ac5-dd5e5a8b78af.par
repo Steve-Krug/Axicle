@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Models: Simulink`Autnomous (Detect One Other Vehicle)`Parallel Solvers
+#RunMdlFile Extensions\Simulink\Parallel_Solver\City_Env_2Car_TS2020.mdl
+SIMULINK_MODEL_FILE Extensions\Simulink\Parallel_Solver\City_Env_2Car_TS2020.mdl
+#RingCtrl0 -1
+#CheckBox0 1    
+*USE_ALT_DIR 1
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 1    
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+*TSTEP 0.001
+*FREQ_MODEL 1000
+*TSTEP_OUT 0.025
+*FREQ_OUT 40
+tstep 0.001
+iprint 25
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+#AltPath Extensions\Simulink\Parallel_Solver
+*ALTERNATE_PATH Extensions\Simulink\Parallel_Solver
+PARSFILE IO_Channels\I_Channels\Import_357ee5e5-deaf-40ed-970d-e6e2e3868066.par
+#BlueLink0 I/O Channels: Import`Position and Orientation (1 Target)` Parallel Solvers` , Import`Import_357ee5e5-deaf-40ed-970d-e6e2e3868066
+
+PARSFILE IO_Channels\O_Channels\Export_e91d7250-ddc9-47d9-a297-0e240dda2bfa.par
+#BlueLink1 I/O Channels: Export`Vehicle Position and Orientation` Parallel Solvers` , Import/Export`Export_e91d7250-ddc9-47d9-a297-0e240dda2bfa
+
+#MiscYellow1
+! Include Parallel VS Math Models dataset
+*cpar_include Batch\MultiVehicles\MVeh_dc5d73a5-32bd-4224-9f0a-ee67b6211c92.par
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#Models: Simulink dataset for use with the Parallel Solvers example: City Environment (2 Trucks).
+#
+# -When using the Parallel Solvers library for this example the Models: Simulink dataset attached to each vehicle must:
+#  a) use the same Simulink model file,
+#  b) use identical settings for the working directory (which should also contain the Simulink .mdl or .slx file), and
+#  c) adhere to the following Import/Export configuration guidelines:
+#     - Each vehicle should export its:
+#         * X, Y, and Z position in global coordinates
+#         * Roll, Pitch, and Yaw orientation
+#     - Each vehicle should import (for each additional vehicle):
+#         * X, Y and Z position
+#         * Roll, Pitch, and Yaw orientation
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Parallel Solvers } Autnomous (Detect One Other Vehicle)
+#Library : Models: Simulink
+#DataSet : Autnomous (Detect One Other Vehicle)
+#Category: Parallel Solvers
+#FileID  : Simlink_4b825926-8e7a-4c6c-8ac5-dd5e5a8b78af
+#Modified: 06-07-2021 01:52:56
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 
+
+END

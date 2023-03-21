@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Powertrain: AT Clutch Schedule`2nd Gear, Lock`Lock-up Torque Converter: 7-Speed AT, 2100 RPM
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+#DiagramOne0
+LOCK_AT_TABLE
+0, 5000
+1, 5000
+ENDTABLE
+#DiagramOne1
+UNLOCK_AT_TABLE
+0, 4000
+1, 4000
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Powertrain: AT Clutch Schedule; { Lock-up Torque Converter: 7-Speed AT, 2100 RPM } 2nd Gear, Lock
+#Library : Powertrain: AT Clutch Schedule
+#DataSet : 2nd Gear, Lock
+#Category: Lock-up Torque Converter: 7-Speed AT, 2100 RPM
+#FileID  : ClSched_e39acf24-1e64-4db1-96a7-f26e0b5bbd0d
+#Modified: 09-28-2021 11:44:29
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Clutch Schedule
+
+END

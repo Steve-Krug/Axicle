@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Two Spheres in Art Bus Trailer`Articulated Bus Simple Animation
+ADD_REFERENCE_FRAME Frame_5e3a3940-5429-461f-9199-bc64211ccb22
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME xo_2
+SET_Y_NAME yo_2
+SET_Z_NAME zo_2
+SET_ROLL_NAME roll_e_2
+SET_PITCH_NAME pitch_2
+SET_YAW_NAME yaw_2
+
+PARSFILE Animator\STL\Shape_0f41e94c-8317-47b7-914f-3aef26946d3a.par
+#BlueLink0 Animator: Shape File Link`Sphere 0.2 m (Green) Z = .625` Geometric Shapes` , Animator Data`Shape_0f41e94c-8317-47b7-914f-3aef26946d3a
+
+PARSFILE Animator\STL\Shape_fcfe718a-b563-4d89-854d-9a6ac5bf45de.par
+#BlueLink1 Animator: Shape File Link`Sphere 0.2 m, X = -0.5m, Blue` Geometric Shapes` , Animator Data`Shape_fcfe718a-b563-4d89-854d-9a6ac5bf45de
+
+WRT_xo_2
+ANI_xo_2
+WRT_yo_2
+ANI_yo_2
+WRT_zo_2
+ANI_zo_2
+WRT_roll_e_2
+ANI_roll_e_2
+WRT_pitch_2
+ANI_pitch_2
+WRT_yaw_2
+ANI_yaw_2
+
+#EMBEDDED_NOTES
+#Two spheres: green in front at coordinate system origin, blue in rear at articulation point.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Articulated Bus Simple Animation } Two Spheres in Art Bus Trailer
+#Library : Animator: Reference Frame
+#DataSet : Two Spheres in Art Bus Trailer
+#Category: Articulated Bus Simple Animation
+#FileID  : Frame_5e3a3940-5429-461f-9199-bc64211ccb22
+#Created : 03-29-2022 12:34:44
+#Modified: 03-29-2022 12:48:50
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

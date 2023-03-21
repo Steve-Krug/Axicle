@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Generic Group of Links`Electric Generator: Max. Load 132 N-m`Powertrain (HEV)
+#VehCode Generic Links
+PARSFILE Generic\tables\GenTab_0b34730c-2bd3-454a-a7fe-7fe6458ad10d.par
+#BlueLink0 Generic Table`Electric Generator: Max. Load 132 N-m` Powertrain (HEV)` , Miscellaneous`GenTab_0b34730c-2bd3-454a-a7fe-7fe6458ad10d
+
+PARSFILE Generic\tables\GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440.par
+#BlueLink1 Generic Table`Generator efficiency` Powertrain (HEV)` , Miscellaneous`GenTab_1a3ad104-4c12-4abe-9041-6f0e6fcd4440
+
+#MiscYellow0
+TC_GNRTR 0.05
+IGNRTR 0.0476
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Powertrain (HEV) } Electric Generator: Max. Load 132 N-m
+#Library : Generic Group of Links
+#DataSet : Electric Generator: Max. Load 132 N-m
+#Category: Powertrain (HEV)
+#FileID  : GenLink_725045e5-1cff-4791-86ec-efb812c86432
+#Created : 09-14-2021 12:33:02
+#Modified: 09-14-2021 12:33:40
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Links
+
+END

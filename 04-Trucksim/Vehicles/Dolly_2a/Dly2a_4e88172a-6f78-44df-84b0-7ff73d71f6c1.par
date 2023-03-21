@@ -1,0 +1,90 @@
+PARSFILE
+#FullDataName Vehicle: Dolly with 2 Axles`2A Dolly w/ Rigid Towbar (No ABS)`
+IUNIT_INCREMENT
+symbol_add  <<unit>> 1
+NAXLES 2
+ITANDEM 1
+#CheckBox0 1    
+
+*LX_AXLE_2 3111
+*LX_H 2489
+*Y_H 0
+*H_H 1065
+R_TANDEM 0.5
+CFZ_MY_TAND 0
+*LX_AXLE_1 1867
+R_TAND_TRAIL_STATIC 0.5
+symbol_push  <<axle_temp>> <<axle>>
+PARSFILE Tires\Group_2a\Tire2a_495bbb51-78b4-41b1-b832-c820c236847b.par
+#BlueLink9 Tires: Vehicle Unit with 2 Axles`3000 kg Tandem (510 mm), Duals` TS 2A Trailer Tires` , Tires`Tire2a_495bbb51-78b4-41b1-b832-c820c236847b
+
+symbol_push  <<axle>> <<axle_temp>>
+
+iaxle 1
+OPT_STEER_EXT 1
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+LX_AXLE 1867
+PARSFILE Suspensions\Kin_Solid\KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783.par
+#BlueLink10 Suspension: Solid Axle System Kinematics`22.5 kip, Dolly, Dual Wheels` Dolly Axle` , Kinematics`KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269.par
+#BlueLink12 Suspension: Solid Axle Compliance, Springs, and Dampers`22.5 kip Leaf, Dolly: +100 mm, -60 mm` Leaf Springs` , Suspension compliance`CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269
+
+PARSFILE Brakes\2W_System\Brk2W_b6f14525-7233-4fd7-b700-de03bd681ce2.par
+#BlueLink4 Brakes: Two-Wheel System`10 kN-m Capacity, Air (No ABS)` Air Brakes` , Brakes`Brk2W_b6f14525-7233-4fd7-b700-de03bd681ce2
+
+
+iaxle 2
+OPT_STEER_EXT 1
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+LX_AXLE 3111
+PARSFILE Suspensions\Kin_Solid\KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783.par
+#BlueLink11 Suspension: Solid Axle System Kinematics`22.5 kip, Dolly, Dual Wheels` Dolly Axle` , Kinematics`KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269.par
+#BlueLink13 Suspension: Solid Axle Compliance, Springs, and Dampers`22.5 kip Leaf, Dolly: +100 mm, -60 mm` Leaf Springs` , Suspension compliance`CmpSA_3c5326f4-fc7e-4bca-a9d8-e2b4f6bda269
+
+PARSFILE Brakes\2W_System\Brk2W_b6f14525-7233-4fd7-b700-de03bd681ce2.par
+#BlueLink7 Brakes: Two-Wheel System`10 kN-m Capacity, Air (No ABS)` Air Brakes` , Brakes`Brk2W_b6f14525-7233-4fd7-b700-de03bd681ce2
+
+
+WRITE_ADD_REFERENCE_FRAME_BODY
+x_length 3111
+PARSFILE Vehicles\Trl_Sprung_Mass\TrlSprM_5aa8a296-97da-4f5a-a29c-3e3c44b0b6c6.par
+#BlueLink1 Vehicle: Trailer Sprung Mass`2A Dolly w/ Rigid Tow Bar` Dollies` , Sprung Mass`TrlSprM_5aa8a296-97da-4f5a-a29c-3e3c44b0b6c6
+
+PARSFILE Animator\STL_Groups\ShpGrp_f136b211-7036-4dff-93c1-cf40a170efc5.par
+#BlueLink0 Animator: Shape Assembly`2A Dolly w/ Rigid Towbar` Trailers: Dollies` , Animator Shape(s)`ShpGrp_f136b211-7036-4dff-93c1-cf40a170efc5
+
+symbol_push  <<hitch_x>> -2.489000
+symbol_push  <<hitch_y>> 0.000000
+symbol_push  <<hitch_z>> 1.065000
+PARSFILE Hitches\Joint\Hitch_df12db86-5a7e-49b5-a80d-b69efc0b69b5.par
+#BlueLink2 Hitch: Joint Assembly`5th Wheel (dollies)` 5th Wheel Hitches` , Hitch`Hitch_df12db86-5a7e-49b5-a80d-b69efc0b69b5
+
+LX_H(<<unit>>) 2489
+Y_H(<<unit>>) 0
+H_H(<<unit>>) 1065
+R_TAND_TRAIL_STATIC 0.5
+*IMAGE_FILE Vehicles\Dolly_2a\Dly2a_4e88172a-6f78-44df-84b0-7ff73d71f6c1.png
+*IMAGE_TYPE PASTED_3X1
+*IMAGE_PASTED Vehicles\Dolly_2a\Dly2a_4e88172a-6f78-44df-84b0-7ff73d71f6c1.png
+
+#EMBEDDED_NOTES
+#The dolly uses a 5th wheel with a rigid towbar.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Dolly with 2 Axles; 2A Dolly w/ Rigid Towbar (No ABS)
+#Library : Vehicle: Dolly with 2 Axles
+#DataSet : 2A Dolly w/ Rigid Towbar (No ABS)
+#Category: 
+#FileID  : Dly2a_4e88172a-6f78-44df-84b0-7ff73d71f6c1
+#Created : 10-19-2021 17:45:26
+#Modified: 04-25-2022 08:55:10
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode dSS
+
+END

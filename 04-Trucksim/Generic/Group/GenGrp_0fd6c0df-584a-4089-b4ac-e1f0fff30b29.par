@@ -1,0 +1,88 @@
+PARSFILE
+#FullDataName Generic Data Group`3A Cab-Over, AEB, ACC Sensor Setup`ADAS: Sensor Setup
+#VehCode Generic Group
+PARSFILE Generic\VS_commands\GenVS_ad80be00-ec75-42e2-a931-7af25b04fc90.par
+#BlueLink0 Generic VS Commands`Obstacle Parameters` Obstacle Avoidance` , Link 1`GenVS_ad80be00-ec75-42e2-a931-7af25b04fc90
+
+
+PARSFILE Sensors_Traffic\Radar\Radar_a5545ac1-baab-4362-9ab6-e1870b534855.par
+#BlueLink1 ADAS Sensors for Range and Tracking`Pedestrian Camera, 3A Cab-Over` Forward Facing Sensors: FCW and ACC` , Link 2`Radar_a5545ac1-baab-4362-9ab6-e1870b534855
+
+
+#MiscYellow2
+! the first sensor is the vehicle camera
+DEFINE_PARAMETER ID_CAM = ISENSOR; - ; ...
+number assigned to the camera sensor
+define_output LxBumper =  LX_F_SM - X_SENSOR ; ...
+  m; Bumper dist from camera
+#ENDMYellow
+
+PARSFILE Generic\VS_commands\GenVS_ea8f8f8a-292c-4235-a44e-f977ce126f7e.par
+#BlueLink2 Generic VS Commands`FCW Alert, AEB Control, 3A Cab-Over` ADAS Support` , Link 3`GenVS_ea8f8f8a-292c-4235-a44e-f977ce126f7e
+
+
+#MiscYellow3
+! note: N_MIN_DETECTIONS is needed to 
+!access sensed objects > 1, for any sensor 
+!logic which initializes before the first time step
+N_MIN_DETECTIONS = 2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Radar\Radar_17f22cab-91d8-4d6c-887e-db2f8054b7cf.par
+#BlueLink3 ADAS Sensors for Range and Tracking`ACC, Range, Sensitivity by EQN` ADAS Sensor` , Link 4`Radar_17f22cab-91d8-4d6c-887e-db2f8054b7cf
+
+
+#MiscYellow4
+define_output LxBumperRadar =  LX_F_SM - X_SENSOR ; ...
+  m; Bumper dist from camera
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Type_Map\TypeMap_e2f7e559-12a6-4d46-b853-026f27768405.par
+#BlueLink4 Sensor Reflectiveness Map`2 Sensor Types, 2 Material Types` ` , Link 5`TypeMap_e2f7e559-12a6-4d46-b853-026f27768405
+
+
+#MiscYellow5
+!Set ACC desired speed
+DEFINE_PARAMETER SPEED_LIMIT = 80; km/h ; Top speed limit for ACC
+EQ_INIT SPEED_LIMIT = speed_target(station,t,1);
+define_output speedLimitOut = SPEED_LIMIT; km/h; ACC set speed
+DEFINE_PARAMETER LANE_WIDTH = 4; m; defined lane width
+#ENDMYellow
+
+PARSFILE Output\PathDetectors\PathDet_7db3eef3-a61f-4a24-aef7-4157a2db6211.par
+#BlueLink5 Path Detectors for External Driver Control`Central Lane Curvature Detect, DM` ` , Link 6`PathDet_7db3eef3-a61f-4a24-aef7-4157a2db6211
+
+
+PARSFILE Generic\VS_commands\GenVS_e4317bf9-c769-44b7-b165-086e7c0db744.par
+#BlueLink6 Generic VS Commands`Vehicle In-Lane Detection, 1 Path` ADAS Support` , Link 7`GenVS_e4317bf9-c769-44b7-b165-086e7c0db744
+
+
+PARSFILE Generic\VS_commands\GenVS_99b45a1c-fdf5-4b0d-91a6-ad066795409d.par
+#BlueLink7 Generic VS Commands`ACC Logic: w/HUD, in-lane calc., 3A Truck` ADAS Support` , Link 8`GenVS_99b45a1c-fdf5-4b0d-91a6-ad066795409d
+
+
+PARSFILE Animator\HUD\HUD_2b6ced4d-001a-45db-a5b8-47e5017b26d1.par
+#BlueLink8 Animator: HUD`Time-to-Collision, Radar, Low` HUD Groups` , Link 9`HUD_2b6ced4d-001a-45db-a5b8-47e5017b26d1
+
+
+
+#EMBEDDED_NOTES
+#AEB utilizes a dedicated camera sensor
+#
+#ACC utilizes a radar-type of sensor
+#- The ACC sensor logic reflects a decision-based method, and is located in the ACC Logic Dataset
+#- The ACC logic also utilizes an estimation of the road curvature based on the Path Detector, to better understand if an object ahead lies in the lane of the ego vehicle, especially on a curved road
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Sensor Setup } 3A Cab-Over, AEB, ACC Sensor Setup
+#Library : Generic Data Group
+#DataSet : 3A Cab-Over, AEB, ACC Sensor Setup
+#Category: ADAS: Sensor Setup
+#FileID  : GenGrp_0fd6c0df-584a-4089-b4ac-e1f0fff30b29
+#Created : 10-14-2021 14:13:47
+#Modified: 11-01-2021 13:20:16
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Group
+
+END

@@ -1,0 +1,106 @@
+PARSFILE
+#FullDataName Vehicle: Lead Unit with 2 Axles`Pickup, Midsize: Electric`Pickup Trucks
+#VehCode I_S
+IUNIT_INCREMENT
+IVEHICLE = IVEHICLE + 1
+symbol_add  <<unit>> 1
+symbol_add  <<vehicle>> 1
+NAXLES 2
+
+IOBJECT_SAVE
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 3
+#RingCtrl1 3
+#RingCtrl2 4
+symbol_push  <<axle_temp>> <<axle>>
+PARSFILE Tires\Group_2a\Tire2a_8977188d-3561-4ebd-ac26-d7724c846c09.par
+#BlueLink8 Tires: Vehicle Unit with 2 Axles`265/75 R16 Off-Road Shape, F&R` TS 2A Light Truck Tires` , Tires`Tire2a_8977188d-3561-4ebd-ac26-d7724c846c09
+
+symbol_push  <<axle>> <<axle_temp>>
+*LX_AXLE_1 0
+*LX_AXLE_2 3261
+
+iaxle 1
+symbol_add  <<axle>> 1
+LX_AXLE 0
+PARSFILE Suspensions\Kin_Indy\KinInd_f27715fc-cf6c-4bcb-8562-c41c7ff3f82e.par
+#BlueLink21 Suspension: Independent System Kinematics`Pickup, Midsize, Electric - Front` Pickup Trucks` , Kinematics`KinInd_f27715fc-cf6c-4bcb-8562-c41c7ff3f82e
+
+PARSFILE Suspensions\Compliance\CmpInd_f85405f0-8895-4015-bf3a-dc2a13b83e17.par
+#BlueLink23 Suspension: Independent Compliance, Springs, and Dampers`Pickup, Compact - Front` Pickup Trucks` , Suspension compliance`CmpInd_f85405f0-8895-4015-bf3a-dc2a13b83e17
+
+OPT_STEER_EXT 0
+PARSFILE Brakes\2W_System\Brk2W_187e68d9-ad11-42d8-ab77-ad13eb87f381.par
+#BlueLink11 Brakes: Two-Wheel System`Pickup, Full Size w/ ABS - Front` Pickup Trucks and SUVs` , Brakes`Brk2W_187e68d9-ad11-42d8-ab77-ad13eb87f381
+
+PARSFILE Steering\System\StrSys_7a7c6cf4-f225-4f3e-adcc-d47e1ec362ca.par
+#BlueLink13 Steering System`Midsize: Power, Rack & Pinion` Pickup Trucks` , Steering`StrSys_7a7c6cf4-f225-4f3e-adcc-d47e1ec362ca
+
+
+iaxle 2
+symbol_add  <<axle>> 1
+LX_AXLE 3261
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_529fae94-8ce0-4a99-8381-3ef79986addb.par
+#BlueLink16 Suspension: Solid Axle System Kinematics`Pickup, Midsize, Electric - Rear` Pickup Trucks` , Kinematics`KinSA_529fae94-8ce0-4a99-8381-3ef79986addb
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_7019433b-81e0-4376-aa1b-523e00a63742.par
+#BlueLink18 Suspension: Solid Axle Compliance, Springs, and Dampers`Pickup, Midsize, Electric - Rear` Pickup Trucks` , Suspension compliance`CmpSA_7019433b-81e0-4376-aa1b-523e00a63742
+
+OPT_STEER_EXT 1
+PARSFILE Brakes\2W_System\Brk2W_8335fd63-98df-4a37-853c-a74afc0ea87a.par
+#BlueLink12 Brakes: Two-Wheel System`Pickup, Full Size w/ ABS - Rear` Pickup Trucks and SUVs` , Brakes`Brk2W_8335fd63-98df-4a37-853c-a74afc0ea87a
+
+
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_8f22c0b9-c01e-40c5-af73-78341e5e3f6c.par
+#BlueLink1 Vehicle: Lead Unit Sprung Mass`Pickup, Midsize, Electric` 2 Axle Pickup Trucks` , Sprung Mass`SprMass_8f22c0b9-c01e-40c5-af73-78341e5e3f6c
+
+PARSFILE Aerodynamics\Aero_Main\Aero_7d568269-d71e-4dfc-a760-0a886b21dee5.par
+#BlueLink2 Aerodynamics: Basic`Pickup, Midsize Aero` Pickup Trucks` , Aerodynamics`Aero_7d568269-d71e-4dfc-a760-0a886b21dee5
+
+PARSFILE Powertrain\4wd\4WD_d559df29-5db8-4457-af3d-4b091c857bac.par
+#BlueLink5 Powertrain: 4-Wheel Drive`300 kW Electric Dual-Motor AWD` 300 kW Powertrains` , Powertrain or dolly`4WD_d559df29-5db8-4457-af3d-4b091c857bac
+
+x_length 3261.000000
+PARSFILE Animator\Vehicles\AniVeh_22dd936c-47d3-4e9e-a8a9-ea7cda15ef14.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`Pickup, Midsize: Regular Cab` Pickup Trucks` , Animator Shape(s)`AniVeh_22dd936c-47d3-4e9e-a8a9-ea7cda15ef14
+
+PARSFILE Steering\Steer_Column\StrCol_9e2b99ff-0444-40f7-a176-96c7b8e6298b.par
+#BlueLink6 Steering Column and Assist`Pickup, Midsize: Power, Rack & Pinion` 2A Pickup Trucks and Utility Vehicles` , Steering wheel torque`StrCol_9e2b99ff-0444-40f7-a176-96c7b8e6298b
+
+symbol_push  <<hitch_x>> -4.300000
+symbol_push  <<hitch_y>> 0.000000
+symbol_push  <<hitch_z>> 0.470000
+PARSFILE Hitches\Joint\Hitch_f3df368e-2b61-4939-8f40-95f979c57785.par
+#BlueLink7 Hitch: Joint Assembly`Ball Hitch` Ball Hitches` , Hitch`Hitch_f3df368e-2b61-4939-8f40-95f979c57785
+
+LX_H 4300
+Y_H 0
+H_H 470
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Vehicles\Lead_2a\Lead2a_0ec095cb-b758-4731-899b-fc0a9bbbf86f.png
+IOBJECT_RESTORE
+
+#EMBEDDED_NOTES
+#Identical in size to the standard midsize pickup, the electric version has different mass and suspension properties to account for the electric powertrain. It also has stronger brakes taken from the full size truck examples.
+#
+#The truck also uses larger tires than the standard midsize, giving it a slightly more aggressive stance.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { Pickup Trucks } Pickup, Midsize: Electric
+#Library : Vehicle: Lead Unit with 2 Axles
+#DataSet : Pickup, Midsize: Electric
+#Category: Pickup Trucks
+#FileID  : Lead2a_0ec095cb-b758-4731-899b-fc0a9bbbf86f
+#Created : 05-13-2021 12:14:15
+#Modified: 09-01-2021 12:48:50
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode I_S
+
+END

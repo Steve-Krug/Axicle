@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Models: Simulink`ACC w/ External Sensor - Truck 1`Parallel Solvers
+#RunMdlFile Extensions\Simulink\Parallel_Solver\ACC_2_Vehicle_Ext_Sensor_Ext_Control.mdl
+SIMULINK_MODEL_FILE Extensions\Simulink\Parallel_Solver\ACC_2_Vehicle_Ext_Sensor_Ext_Control.mdl
+#RingCtrl0 -1
+#CheckBox0 1    
+*USE_ALT_DIR 1
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 1    
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+*TSTEP 0.001
+*FREQ_MODEL 1000
+*TSTEP_OUT 0.025
+*FREQ_OUT 40
+tstep 0.001
+iprint 25
+#CheckBox5 0    
+*MULTI_SOLVERS 0
+#AltPath Extensions\Simulink\Parallel_Solver
+*ALTERNATE_PATH Extensions\Simulink\Parallel_Solver
+PARSFILE IO_Channels\O_Channels\Export_cf359a4c-d5e9-4a0f-bfba-d2637ea8503e.par
+#BlueLink1 I/O Channels: Export`Velocity, Position, and Orientation` Parallel Solvers` , Import/Export`Export_cf359a4c-d5e9-4a0f-bfba-d2637ea8503e
+
+#MiscYellow1
+! Include Parallel VS Math Models dataset
+*cpar_include Batch\MultiVehicles\MVeh_b98af3c7-bbe4-4e90-a29e-e89d23b343ba.par
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#Models: Simulink dataset for use with the Parallel Solvers example: ACC: External Sensor, External Controls.
+#
+# -When using the Parallel Solvers library for this example the Models: Simulink dataset attached to each vehicle must:
+#  a) use the same Simulink model file,
+#  b) use identical settings for the working directory (which should also contain the Simulink .mdl or .slx file), and
+#  c) adhere to the following Import/Export configuration guidelines:
+#     - Both vehicles should export their:
+#         * Longitudinal velocity
+#         * X and Y position in global coordinates
+#         * Yaw rotation
+#     - The lead vehicle has no imports
+#     - The following vehicle should import:
+#         * Throttle position
+#         * Brake master cylinder pressure
+#         * A custom variable for sensor detection magnitude
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Parallel Solvers } ACC w/ External Sensor - Truck 1
+#Library : Models: Simulink
+#DataSet : ACC w/ External Sensor - Truck 1
+#Category: Parallel Solvers
+#FileID  : Simlink_2fc71e9a-bddb-41d3-9379-f33f69bdd7e5
+#Modified: 06-07-2021 01:52:56
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 
+
+END

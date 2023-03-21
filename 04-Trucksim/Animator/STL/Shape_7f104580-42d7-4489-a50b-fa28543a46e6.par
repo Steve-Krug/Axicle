@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`GVT Platform`ADAS and AV Test Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Other_Vehicles\Euro_NCAP\Euro_NCAP_base.OSG
+#ENDMYellow
+
+SET_COLOR 1 1 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_90838e05-dbe3-432a-9598-108f7c72dcdd.par
+#BlueLink2 Animator: Camera Setup`XZ Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_90838e05-dbe3-432a-9598-108f7c72dcdd
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_7f104580-42d7-4489-a50b-fa28543a46e6.png
+
+#EMBEDDED_NOTES
+#Motion platform for the GVT Body
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { ADAS and AV Test Assets } GVT Platform
+#Library : Animator: Shape File Link
+#DataSet : GVT Platform
+#Category: ADAS and AV Test Assets
+#FileID  : Shape_7f104580-42d7-4489-a50b-fa28543a46e6
+#Created : 09-28-2021 13:31:17
+#Modified: 09-28-2021 14:16:31
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName Procedures`Low Speed Steer Test, Figure 8, R = 12m`Steering Tests
+#CheckBox1 1    
+OPT_INIT_PATH 1
+#CheckBox4 0    
+
+#RingCtrl0 1
+#RingCtrl1 1
+OPT_STOP 1
+SSTART 0
+TSTART 0
+TSTART_WRITE = 0;
+TSTOP 60
+SSTOP 200
+OPT_DIRECTION 0
+*SPEED 10
+*TSTOP 60
+*TSTART 0
+*SSTART 0
+*SSTOP 200
+
+INSTALL_SPEED_CONTROLLER
+OPT_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+set_description SPEED_TARGET_ID Procedure: Low Speed Steer Test, Figure 8, R = 12m
+SPEED_TARGET_CONSTANT 10
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Driver\StrDM_e2398fab-b956-498b-8858-93e89178bdf3.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`0.6s Single Preview` Constant Position: No Offset` , Steering`StrDM_e2398fab-b956-498b-8858-93e89178bdf3
+
+PARSFILE Control\Braking\PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047
+
+PARSFILE Control\Gear_at\GearCL_67616a71-3f6c-412d-b003-347b4f8a1a5a.par
+#BlueLink30 Control: Shifting (Closed Loop)`Max 4th Gear, Clutch Act 0.5s, Gear 0.1s` Closed-Loop Shifting` , Shifting Control`GearCL_67616a71-3f6c-412d-b003-347b4f8a1a5a
+
+PARSFILE Generic\Links\GenLink_e6830fa9-dd75-4ca8-b236-5cf6230cb79c.par
+#BlueLink0 Generic Group of Links`1 km Square w/ Figure 8 Path, R = 12m` Roads and Paths` , Miscellaneous`GenLink_e6830fa9-dd75-4ca8-b236-5cf6230cb79c
+
+PARSFILE Generic\VS_commands\GenVS_274ae83d-bddf-4011-9c2d-a152b60164b4.par
+#BlueLink5 Generic VS Commands`Drive Torques (Axles 1 - 4)` Plot Groups` , Miscellaneous`GenVS_274ae83d-bddf-4011-9c2d-a152b60164b4
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink8 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_28c94c84-5587-4acc-a373-81fb9df7b26a.par
+#BlueLink9 Plot: Setup`Steering Wheel Angle vs. Time` Steering` , Plot`Plot_28c94c84-5587-4acc-a373-81fb9df7b26a
+
+PARSFILE Plot\Setup\Plot_c3bc997f-caac-4c8e-8974-69ef71d2b82c.par
+#BlueLink10 Plot: Setup`Steer Torque` Steering` , Plot`Plot_c3bc997f-caac-4c8e-8974-69ef71d2b82c
+
+PARSFILE Plot\Setup\Plot_8520205c-aa65-43cc-a951-dad2237a5dc7.par
+#BlueLink11 Plot: Setup`Road Wheel Steer (Axles 1-2)` Steering` , Plot`Plot_8520205c-aa65-43cc-a951-dad2237a5dc7
+
+PARSFILE Plot\Setup\Plot_ffefc8f5-5d1c-4f51-9683-c551c08eb4db.par
+#BlueLink12 Plot: Setup`Slip Angles, Lagged (Axles 1-2)` Tire Kinematics` , Plot`Plot_ffefc8f5-5d1c-4f51-9683-c551c08eb4db
+
+PARSFILE Plot\Setup\Plot_b1c88f03-e9ae-4a16-8dcf-7e0bdd9f61a9.par
+#BlueLink15 Plot: Setup`Lateral Tracking vs. Station` Tracking` , Plot`Plot_b1c88f03-e9ae-4a16-8dcf-7e0bdd9f61a9
+
+PARSFILE Plot\Setup\Plot_1a980109-7e71-476e-a1d4-9576ff31b3d8.par
+#BlueLink16 Plot: Setup`Y vs. X -- Trajectory` Tracking` , Plot`Plot_1a980109-7e71-476e-a1d4-9576ff31b3d8
+
+PARSFILE Plot\Setup\Plot_99715334-1a08-46b2-82dc-eb8e016dc359.par
+#BlueLink18 Plot: Setup`Lateral Forces (Axles 1-2, Single Tires)` Tire Forces` , Plot`Plot_99715334-1a08-46b2-82dc-eb8e016dc359
+
+PARSFILE Plot\Setup\Plot_32590661-a857-40b8-ba36-1ae455aac4e2.par
+#BlueLink19 Plot: Setup`Longitudinal Forces (Axle 3, Dual Tires)` Tire Forces` , Plot`Plot_32590661-a857-40b8-ba36-1ae455aac4e2
+
+PARSFILE Plot\Setup\Plot_d31b9323-7c9c-48d5-93f7-f6c3ecd3e355.par
+#BlueLink20 Plot: Setup`Longitudinal Forces (Axle 4, Dual Tires)` Tire Forces` , Plot`Plot_d31b9323-7c9c-48d5-93f7-f6c3ecd3e355
+
+
+LOG_ENTRY Used Dataset: Procedures; { Steering Tests } Low Speed Steer Test, Figure 8, R = 12m
+#Library : Procedures
+#DataSet : Low Speed Steer Test, Figure 8, R = 12m
+#Category: Steering Tests
+#FileID  : Proc_34ed2eec-fa51-418a-b95e-4a94cd2d5ff3
+#Modified: 06-07-2021 01:49:14
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

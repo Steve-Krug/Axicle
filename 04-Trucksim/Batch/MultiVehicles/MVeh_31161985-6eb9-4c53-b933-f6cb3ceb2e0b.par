@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Parallel VS Math Models`Tractor-Trailers Platoon DLC`Platooning
+PARSFILE Runs\Run_7365da52-cb3a-4cd0-9db4-0f67c358f56c.par
+#BlueLink0 TruckSim Run Control`Platoon: DLC; Lead Truck` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 1:`Run_7365da52-cb3a-4cd0-9db4-0f67c358f56c
+
+PARSFILE Runs\Run_d4e100ff-2c42-477c-996c-2cbc1ac162d1.par
+#BlueLink1 TruckSim Run Control`Platoon: DLC; Truck 2` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 2:`Run_d4e100ff-2c42-477c-996c-2cbc1ac162d1
+
+PARSFILE Runs\Run_da06a50d-ff23-494e-a379-1ba2b420fb1f.par
+#BlueLink2 TruckSim Run Control`Platoon: DLC; Truck 3` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 3:`Run_da06a50d-ff23-494e-a379-1ba2b420fb1f
+
+#RingCtrl0 0
+*RUN_PLATFORM 0
+#RingCtrl1 3
+*SHOW_LINK 3
+
+#EMBEDDED_NOTES
+#To run this example in Windows:
+#1) click Open Model or Generate FMU
+#2) in Simulink, click the run button
+#
+#V: Video
+#P: Plot
+#
+#Each vehicle in the platoon uses a shared simulink model, that leverages parallel solvers to simulate the vehicles across multiple TruckSim Runs.
+#
+#To run with more than two VS Math Models you will need licenses for the extra models.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Parallel VS Math Models; { Platooning } Tractor-Trailers Platoon DLC
+#Library : Parallel VS Math Models
+#DataSet : Tractor-Trailers Platoon DLC
+#Category: Platooning
+#FileID  : MVeh_31161985-6eb9-4c53-b933-f6cb3ceb2e0b
+#Created : 09-08-2021 18:34:35
+#Modified: 12-11-2021 11:42:46
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode mVeh
+
+END

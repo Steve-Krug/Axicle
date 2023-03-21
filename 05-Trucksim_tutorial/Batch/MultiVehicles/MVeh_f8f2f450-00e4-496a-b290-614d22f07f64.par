@@ -1,0 +1,19 @@
+PARSFILE
+#FullDataName Parallel VS Math Models`No Data`Empty (You should edit or delete this)
+#RingCtrl0 0
+*RUN_PLATFORM 0
+#RingCtrl1 2
+*SHOW_LINK 2
+
+LOG_ENTRY Used Dataset: Parallel VS Math Models; { Empty (You should edit or delete this) } No Data
+#Library : Parallel VS Math Models
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : MVeh_f8f2f450-00e4-496a-b290-614d22f07f64
+#Created : 01-15-2023 18:01:44
+#Modified: 01-15-2023 18:01:44
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode mVeh
+
+END

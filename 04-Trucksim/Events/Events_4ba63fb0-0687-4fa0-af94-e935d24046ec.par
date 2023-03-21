@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Events`AEB CCRm B. Monitor Braking Progress`Euro NCAP AEB Testing: CCRm,s
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 <=
+#RingCtrl1 ZERO ~=
+#RingCtrl10 2
+#RingCtrl11 4
+RESET_EVENTS
+*NAME1 Vxz_Fwd
+*NAME2 Vx
+*VALUE1 Vx_GVT + MIN_THRESH
+*VALUE2 Contact
+MAKE_EVENT Vxz_Fwd <= Vx_GVT + MIN_THRESH ; Events\Events_0b5c34d8-0cec-442e-9115-b5c3004cbe6f.par
+#BlueLink0 Events`AEB CCRm,s C. Check More Tests` Euro NCAP AEB Testing: CCRm,s` , Events`Events_0b5c34d8-0cec-442e-9115-b5c3004cbe6f
+
+DEFINE_EVENT Contact ; Events\Events_9c09a47b-6114-4c73-b18c-34a765403e22.par
+#BlueLink1 Events`AEB CCRm,s F1: New Test, Decrease Spd` Euro NCAP AEB Testing: CCRm,s` , Events`Events_9c09a47b-6114-4c73-b18c-34a765403e22
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#For this CCRb example the VUT must brake to avoid hitting the GVT:
+#- If the VUT Vx is less than Vx_GVT, without hitting the GVT, add a scored point in the test
+#- If the VUT contacts the GVT, the example will end
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP AEB Testing: CCRm,s } AEB CCRm B. Monitor Braking Progress
+#Library : Events
+#DataSet : AEB CCRm B. Monitor Braking Progress
+#Category: Euro NCAP AEB Testing: CCRm,s
+#FileID  : Events_4ba63fb0-0687-4fa0-af94-e935d24046ec
+#Created : 09-29-2021 12:24:51
+#Modified: 09-29-2021 12:34:08
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Lateral force pct utilization`Tire utilization
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS FyUseL1i, time
+PLOTCHANNELS FyUseR1i, time
+PLOTCHANNELS FyUseL2i, time
+PLOTCHANNELS FyUseR2i, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Lateral force pct utilization
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire utilization } Lateral force pct utilization
+#Library : Plot: Setup
+#DataSet : Lateral force pct utilization
+#Category: Tire utilization
+#FileID  : Plot_3acb2701-4814-4f6c-acf2-bc2fea573a6e
+#Modified: 06-07-2021 01:49:41
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

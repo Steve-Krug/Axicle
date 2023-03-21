@@ -1,0 +1,84 @@
+# Max2Obj Version 4.0 Mar 10th, 2001
+#
+mtllib ./vdasigns_shadows.mtl
+g
+# object (null) to come ...
+#
+v  -285.85614 72.45334 0
+v  -258.14227 72.45334 0
+v  -285.85614 99.74246 0
+v  -258.14227 99.74246 0
+# 4 vertices
+
+vt  0.98 0.96529 0
+vt  0.02 0.96529 0
+vt  0.98 0.02 0
+vt  0.02 0.02 0
+# 4 texture vertices
+
+g (null)
+usemtl bush2
+f -4/-4 -3/-3 -1/-1 -2/-2
+# 1 faces
+
+g
+# object (null) to come ...
+#
+v  -28.61827 174.01581 0
+v  -0.9044 174.01581 0
+v  -28.61827 201.30493 0
+v  -0.9044 201.30493 0
+# 4 vertices
+
+vt  0.98 0.96529 0
+vt  0.02 0.96529 0
+vt  0.98 0.02 0
+vt  0.02 0.02 0
+# 4 texture vertices
+
+g (null)
+usemtl bush2
+f -4/-4 -3/-3 -1/-1 -2/-2
+# 1 faces
+
+g
+# object (null) to come ...
+#
+v  -27.68525 -27.42641 0
+v  0.02862 -27.42641 0
+v  -27.68525 -0.13729 0
+v  0.02862 -0.13729 0
+# 4 vertices
+
+vt  0.98 0.96529 0
+vt  0.02 0.96529 0
+vt  0.98 0.02 0
+vt  0.02 0.02 0
+# 4 texture vertices
+
+g (null)
+usemtl bush2
+f -4/-4 -3/-3 -1/-1 -2/-2
+# 1 faces
+
+g
+# object (null) to come ...
+#
+v  173.72914 -73.65762 0
+v  201.44301 -73.65762 0
+v  173.72914 -46.3685 0
+v  201.44301 -46.3685 0
+# 4 vertices
+
+vt  0.98 0.96529 0
+vt  0.02 0.96529 0
+vt  0.98 0.02 0
+vt  0.02 0.02 0
+# 4 texture vertices
+
+g (null)
+usemtl bush2
+f -4/-4 -3/-3 -1/-1 -2/-2
+# 1 faces
+
+g

@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Generic Group of Links`PG: Straight Road, Two Lanes`Generic Proving Ground
+#VehCode Generic Links
+PARSFILE Roads\3D_Road\Road_2c928c3a-21c6-4d88-bbce-d8b153ed112e.par
+#BlueLink0 Road: 3D Surface (All Properties)`ID 999: 1 km Sq. VDA, 0.9 mu` Proving Ground: Functional Roads` , Miscellaneous`Road_2c928c3a-21c6-4d88-bbce-d8b153ed112e
+
+PARSFILE Roads\3D_Road\Road_f54025a2-9298-4a87-ab9b-5c54da3acdcb.par
+#BlueLink1 Road: 3D Surface (All Properties)`ID 1001: Two Lanes, Mu=0.90, Straight` Proving Ground: Functional Roads` , Miscellaneous`Road_f54025a2-9298-4a87-ab9b-5c54da3acdcb
+
+#MiscYellow0
+! set road id to the layer with painted lines
+! desired path in Road Dataset needs to match
+! road id
+CURRENT_ROAD_ID = 1001
+DEFINE_PARAMETER CURRENT_PATH_ID = 1001; - ;
+#ENDMYellow
+
+#MiscYellow1
+!These are only needed if the path detector is being used
+PATH_ID_PD(1) = CURRENT_PATH_ID
+PATH_ID_PD(2) = CURRENT_PATH_ID
+PATH_ID_PD(3) = CURRENT_PATH_ID
+PATH_ID_PD(4) = CURRENT_PATH_ID
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Generic Proving Ground } PG: Straight Road, Two Lanes
+#Library : Generic Group of Links
+#DataSet : PG: Straight Road, Two Lanes
+#Category: Generic Proving Ground
+#FileID  : GenLink_60056561-8c94-43d6-a4d0-dac8df4c1b46
+#Created : 09-28-2021 12:45:42
+#Modified: 11-12-2021 15:21:15
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Links
+
+END

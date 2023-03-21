@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Generic Table`Batt. discharged resis. (9 milliohms)`Powertrain (HEV)
+#RingCtrl0 2D_SPLINE
+#CheckBox0 1    
+
+*3D_XLabel Temperature (C)
+*3D_YLabel State of charged (-)
+*3D_ZLabel Resistance (V2/W)
+
+#DiagramTwo0
+*3D_DATA 3, 4 ! columns x rows
+R_DIS_BATTERY_CARPET 2D_SPLINE
+0, 0, 25, 45
+0, 0.02639, 0.013195, 0.013195
+0.2, 0.021, 0.0105, 0.0105
+0.6, 0.01883, 0.009415, 0.009415
+1, 0.02184, 0.01092, 0.01092
+ENDTABLE
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD R_DIS_BATTERY
+*X_LABEL State of charged (-)
+*Y_LABEL Resistance (V2/W)
+*X_LABEL_2 Temperature (C)
+
+
+#EMBEDDED_NOTES
+#9 milli-Ohms at nominal (SOC: 60%, Temperature: 25C)
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Batt. discharged resis. (9 milliohms)
+#Library : Generic Table
+#DataSet : Batt. discharged resis. (9 milliohms)
+#Category: Powertrain (HEV)
+#FileID  : GenTab_70dac1d9-0bf5-4abd-a212-23207685feaf
+#Created : 09-14-2021 12:36:13
+#Modified: 01-20-2022 14:23:10
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

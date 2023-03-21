@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Road Course`Generic Proving Ground: Roads
+#MiscYellow3
+add_obj Animator\3D_shape_files_DS\proving_ground\RoadCourse.OSG
+#ENDMYellow
+
+SET_COLOR 0.878 0.878 0.878
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_ANGLE_Z 0
+SET_ANGLE_Y 0
+SET_ANGLE_X 0
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_05adff3b-2649-4bc1-9946-b6d50df90f8b.par
+#BlueLink2 Animator: Camera Setup`View: Road Course` Shape Preview` , Video Camera`Camera_05adff3b-2649-4bc1-9946-b6d50df90f8b
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_03157a45-5649-44a9-9e4d-efae1e5d24b7.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Generic Proving Ground: Roads } Road Course
+#Library : Animator: Shape File Link
+#DataSet : Road Course
+#Category: Generic Proving Ground: Roads
+#FileID  : Shape_03157a45-5649-44a9-9e4d-efae1e5d24b7
+#Modified: 06-07-2021 01:53:48
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

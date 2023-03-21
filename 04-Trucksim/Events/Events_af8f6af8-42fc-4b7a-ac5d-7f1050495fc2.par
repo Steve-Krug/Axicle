@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Events`ACC CCRb B. Monitor Speed`Euro NCAP ACC Testing: CCRb
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 <
+#RingCtrl1 ZERO ~=
+#RingCtrl10 2
+#RingCtrl11 4
+RESET_EVENTS
+*NAME1 Vxz_Fwd
+*VALUE1 MIN_THRESH
+*VALUE2 Contact
+MAKE_EVENT Vxz_Fwd < MIN_THRESH ; Events\Events_379fcd8b-f7f6-4d6e-90fb-951ef97b0fe8.par
+#BlueLink0 Events`ACC CCRb C1. Monitor Stop Speed` Euro NCAP ACC Testing: CCRb` , Events`Events_379fcd8b-f7f6-4d6e-90fb-951ef97b0fe8
+
+DEFINE_EVENT Contact ; Events\Events_d65e4ad0-5d45-4010-a5e9-db0a83194323.par
+#BlueLink1 Events`ACC CCRb C2. Contact, Add Score` Euro NCAP ACC Testing: CCRb` , Events`Events_d65e4ad0-5d45-4010-a5e9-db0a83194323
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#For this CCRb example the VUT must brake to avoid hitting the GVT:
+#- If the VUT Vx is less than MIN_THRESH (small pos. number close to 0) without hitting the GVT, or the VUT contacts the GVT, the example will end
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP ACC Testing: CCRb } ACC CCRb B. Monitor Speed
+#Library : Events
+#DataSet : ACC CCRb B. Monitor Speed
+#Category: Euro NCAP ACC Testing: CCRb
+#FileID  : Events_af8f6af8-42fc-4b7a-ac5d-7f1050495fc2
+#Created : 11-09-2021 10:51:11
+#Modified: 11-10-2021 15:12:20
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

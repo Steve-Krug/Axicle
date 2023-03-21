@@ -1,0 +1,91 @@
+PARSFILE
+#FullDataName TruckSim Run Control`V2V, Severe Braking Ahead, Avoid Collis.`ADAS and Active Safety
+#VEHICLECODE S_SS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_30ad1ce9-8a7e-476c-82de-77ce5ea199d1
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_0672dd6d-a9ac-46cc-ac71-347cf048d447.par
+#BlueLink0 Animator: Camera Setup`160 Azm, 15 El, 35 m` Vehicle Reference` , Animator camera`Camera_0672dd6d-a9ac-46cc-ac71-347cf048d447
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.2 0.4 1
+SET_RUN_COLOR 0.2 0.4 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_c37b87d6-be24-441f-a523-a680d0aade18.par
+#BlueLink2 Vehicle: Loaded Combination`3A Lead + 2A Container Trailer, AEB, ACC` Cab-Over Tractor-Trailers` , Math Model`VehLoad_c37b87d6-be24-441f-a523-a680d0aade18
+
+PARSFILE Procedures\Proc_2c03dd71-0ed1-4759-8ce2-4f65f25b6240.par
+#BlueLink28 Procedures`V2V Highway Procedure, V2V On` Multi-Vehicle` , Procedure`Proc_2c03dd71-0ed1-4759-8ce2-4f65f25b6240
+
+PARSFILE Animator\HUD\HUD_37c80567-ab15-40c4-b774-eb58940b7805.par
+#BlueLink9 Animator: HUD`V2V: Emergency Stop Detected` Alerts` , Miscellaneous`HUD_37c80567-ab15-40c4-b774-eb58940b7805
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_3a\Lead3a_0acbf48f-de89-4017-b8d9-e6da5c0404ca.png
+WRITE_SENSOR_DETECT
+Title V2V, Severe Braking Ahead, Avoid Collis. <ADAS and Active Safety>
+CATEGORY ADAS and Active Safety 
+DATASET_TITLE V2V, Severe Braking Ahead, Avoid Collis.
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#ACC: Adaptive Cruise Control
+#AEB: Autonomous Emergency Braking
+#V2V: Vehicle-to-Vehicle
+#
+#This example involves Vehicle-to-Vehicle Communication with two large trucks and smaller vehicles ahead that come to an abupt stop on a multi-lane highway
+#-In the previous example a collision occurs because the ego vehicle cannot stop quicly enough to avod the stopped traffic ahead
+#- In this example, collisions are avoided using V2V communication tied to AEB logic for the ego vehicle
+#
+#Whole Scenario:
+#Slower, lighter vehicles brake in front of large lead  truck to force an emergency stop
+#- The large lead truck must brake suddenly, and has the capability to send it's sensor data (longitudinal acceleration)
+#- Lead truck conveys its longitudinal acceleration datato the ego truck
+#- Ego truck brakes in time to avoid hitting the lead truck, only when the V2V information is received
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } V2V, Severe Braking Ahead, Avoid Collis.
+#Library : TruckSim Run Control
+#DataSet : V2V, Severe Braking Ahead, Avoid Collis.
+#Category: ADAS and Active Safety
+#FileID  : Run_30ad1ce9-8a7e-476c-82de-77ce5ea199d1
+#Modified: 05-05-2022 10:25:41
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

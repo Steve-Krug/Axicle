@@ -1,0 +1,110 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Self-Steer Axle: Figure 8 (SSA Off)`* Self-Steer Axle
+#VEHICLECODE S_SSS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_0582618e-01c7-424e-bbf2-56dbb7fe0580
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_01a91f54-c17b-4469-a0a5-abc41b6f538d.par
+#BlueLink0 Animator: Camera Setup`30 Azm, 1 El, 15 m, Yaw` Vehicle Reference` , Animator camera`Camera_01a91f54-c17b-4469-a0a5-abc41b6f538d
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 6
+#RingCtrl7 -1
+*RUN_COLOR 1 0 0
+SET_RUN_COLOR 1 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_75026501-32df-4f44-aae6-999fb5959562.par
+#BlueLink2 Vehicle: Loaded Combination`4A Dump Truck (Self-Steer Axle)` Dump Trucks` , Math Model`VehLoad_75026501-32df-4f44-aae6-999fb5959562
+
+PARSFILE Procedures\Proc_34ed2eec-fa51-418a-b95e-4a94cd2d5ff3.par
+#BlueLink28 Procedures`Low Speed Steer Test, Figure 8, R = 12m` Steering Tests` , Procedure`Proc_34ed2eec-fa51-418a-b95e-4a94cd2d5ff3
+
+PARSFILE Generic\Group\GenGrp_6a9e56b7-5200-4f87-a50a-a4543703f7b8.par
+#BlueLink9 Generic Data Group`4 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_6a9e56b7-5200-4f87-a50a-a4543703f7b8
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink15 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_28c94c84-5587-4acc-a373-81fb9df7b26a.par
+#BlueLink16 Plot: Setup`Steering Wheel Angle vs. Time` Steering` , Plot`Plot_28c94c84-5587-4acc-a373-81fb9df7b26a
+
+PARSFILE Plot\Setup\Plot_31f418d3-adbb-4a29-8056-a466be0a945d.par
+#BlueLink17 Plot: Setup`Lateral Tracking` Tracking` , Plot`Plot_31f418d3-adbb-4a29-8056-a466be0a945d
+
+PARSFILE Plot\Setup\Plot_ffefc8f5-5d1c-4f51-9683-c551c08eb4db.par
+#BlueLink18 Plot: Setup`Slip Angles, Lagged (Axles 1-2)` Tire Kinematics` , Plot`Plot_ffefc8f5-5d1c-4f51-9683-c551c08eb4db
+
+PARSFILE Plot\Setup\Plot_6fdb2c99-9d1f-4738-9f31-b9eb06cd7e3f.par
+#BlueLink19 Plot: Setup`Slip Angles, Lagged (Axles 3-4)` Tire Kinematics` , Plot`Plot_6fdb2c99-9d1f-4738-9f31-b9eb06cd7e3f
+
+PARSFILE Generic\VS_commands\GenVS_cd8c16be-922e-4833-8fd5-8b5ef1bd77f9.par
+#BlueLink20 Generic VS Commands`Self-Steer Axle Plots` Self-Steer Axle` , Plot`GenVS_cd8c16be-922e-4833-8fd5-8b5ef1bd77f9
+
+
+SPECIAL_PARSFILE Runs\Run_192a475e-b66b-46e4-8b83-95d5ac5b6f74.par
+#BlueLink23 TruckSim Run Control`Self-Steer Axle: Figure 8` * Self-Steer Axle` , Overlay run or ERD file`Run_192a475e-b66b-46e4-8b83-95d5ac5b6f74
+
+
+*IMAGE_TYPE PASS_THROUGH
+WRITE_SENSOR_DETECT
+Title Self-Steer Axle: Figure 8 (SSA Off) <* Self-Steer Axle>
+CATEGORY * Self-Steer Axle 
+DATASET_TITLE Self-Steer Axle: Figure 8 (SSA Off)
+#MiscYellow0
+! disable the self-steer axle
+ssa_off 1
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This example includes a truck with a external steering model for axle 2, implemented with VS Commands. The external steering model represents a simple self-steered axle. For more information on the implementation of the self-steer axle, see Help > Technical Memos > Example: Self-Steer Axle.
+#
+#NOTE: The self-steer axle is disabled for this example for comparison purposes.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { * Self-Steer Axle } Self-Steer Axle: Figure 8 (SSA Off)
+#Library : TruckSim Run Control
+#DataSet : Self-Steer Axle: Figure 8 (SSA Off)
+#Category: * Self-Steer Axle
+#FileID  : Run_0582618e-01c7-424e-bbf2-56dbb7fe0580
+#Created : 06-03-2022 14:11:10
+#Modified: 06-03-2022 14:57:42
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

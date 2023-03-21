@@ -1,0 +1,100 @@
+PARSFILE
+#FullDataName Tires: Vehicle Unit with 2 Axles`Trailer Duals (350 mm)`TS 2A Trailer Tires
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+*LDUAL_1 253
+*LDUAL_2 253
+
+symbol_add  <<axle>> 1
+
+iaxle 1
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 253
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.126500
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink1 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+itire 2
+symbol_push  <<tire>> R<<axle>>o
+STORE_WHEEL_OFFSET 0.126500
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink999 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.126500
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink999 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+itire 2
+symbol_push  <<tire>> L<<axle>>o
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+STORE_WHEEL_OFFSET 0.126500
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink999 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+symbol_add  <<axle>> 1
+
+iaxle 2
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 253
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.126500
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink5 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+itire 2
+symbol_push  <<tire>> R<<axle>>o
+STORE_WHEEL_OFFSET 0.126500
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink999 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.126500
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink999 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+itire 2
+symbol_push  <<tire>> L<<axle>>o
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+STORE_WHEEL_OFFSET 0.126500
+PARSFILE Tires\Tire\Tire_cde306e5-2a08-432e-af45-8d11344c5b50.par
+#BlueLink999 Tire`350 mm Radius (Trailer)` 2000 kg Rating` , Tires`Tire_cde306e5-2a08-432e-af45-8d11344c5b50
+
+
+LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Trailer Tires } Trailer Duals (350 mm)
+#Library : Tires: Vehicle Unit with 2 Axles
+#DataSet : Trailer Duals (350 mm)
+#Category: TS 2A Trailer Tires
+#FileID  : Tire2a_caac5820-ac8b-4fd4-a372-44bd68e0f1e4
+#Created : 02-28-2022 17:11:33
+#Modified: 02-28-2022 17:17:00
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 2a Tire Group
+
+END

@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Trailer X-Y-Z`Tracking: Vehicle
+ADD_REFERENCE_FRAME Frame_264412e3-43ac-4510-a2de-b5c8b5edd764
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME Xo_2
+SET_Y_NAME Yo_2
+SET_Z_NAME Zo_2
+
+WRT_Xo_2
+ANI_Xo_2
+WRT_Yo_2
+ANI_Yo_2
+WRT_Zo_2
+ANI_Zo_2
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Trailer X-Y-Z
+#Library : Animator: Reference Frame
+#DataSet : Trailer X-Y-Z
+#Category: Tracking: Vehicle
+#FileID  : Frame_264412e3-43ac-4510-a2de-b5c8b5edd764
+#Created : 12-09-2021 15:02:43
+#Modified: 12-09-2021 15:03:54
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Reference Frame
+
+END

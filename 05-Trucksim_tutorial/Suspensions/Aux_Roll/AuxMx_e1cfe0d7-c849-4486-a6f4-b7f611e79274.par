@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Suspension: Auxiliary Roll Moment`Linear: 5700 N-m/deg`Linear
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+MX_AUX_COMBINE ADD
+#RadioCtrl0 1    
+#RadioCtrl1 0    
+
+MX_AUX_COEFFICIENT 5700
+MX_AUX_FSTATIC_CONSTANT 0
+*SCALAR 5700
+*SCALAR2 0
+
+
+LOG_ENTRY Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 5700 N-m/deg
+#Library : Suspension: Auxiliary Roll Moment
+#DataSet : Linear: 5700 N-m/deg
+#Category: Linear
+#FileID  : AuxMx_e1cfe0d7-c849-4486-a6f4-b7f611e79274
+#Created : 10-13-2021 14:54:57
+#Modified: 10-13-2021 14:55:03
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Aux. Roll Moment
+
+END

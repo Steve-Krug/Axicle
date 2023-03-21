@@ -1,0 +1,117 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`2A Gooseneck Trailer w Dual Wheels`Trailers: 2-axle
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 0    
+#CheckBox8 0    
+
+#RingCtrl0 2
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
+OBJ_X_LENGTH 12178
+OBJ_Y_LENGTH 2710
+OBJ_Z_LENGTH 2068
+*DZ_V 0
+*LAT_WC 1800
+*LAT_WC_2 1800
+*HWC 391
+*WHEEL_RATIO 1.2
+*LAXLE_1 11014
+*LAXLE_2 12178
+*DUAL_1 290
+*DUAL_2 290
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_ea3fced0-a13b-49c6-b33d-bd82d33a3fd4.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X -11.014
+SET_OFFSET_Y 0.755
+SET_OFFSET_Z 0.37145
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X -11.014
+SET_OFFSET_Y -0.755
+SET_OFFSET_Z 0.37145
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X -11.014
+SET_OFFSET_Y 1.045
+SET_OFFSET_Z 0.37145
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X -11.014
+SET_OFFSET_Y -1.045
+SET_OFFSET_Z 0.37145
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X -12.178
+SET_OFFSET_Y 0.755
+SET_OFFSET_Z 0.37145
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X -12.178
+SET_OFFSET_Y -0.755
+SET_OFFSET_Z 0.37145
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X -12.178
+SET_OFFSET_Y 1.045
+SET_OFFSET_Z 0.37145
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X -12.178
+SET_OFFSET_Y -1.045
+SET_OFFSET_Z 0.37145
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL_Groups\ShpGrp_4b42c615-0793-46df-b429-d1be29989940.par
+#BlueLink1 Animator: Shape Assembly`2A Gooseneck Trailer w Dual Wheels` Trailers` , Vehicle Body`ShpGrp_4b42c615-0793-46df-b429-d1be29989940
+
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_90838e05-dbe3-432a-9598-108f7c72dcdd.par
+#BlueLink5 Animator: Camera Setup`XZ Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_90838e05-dbe3-432a-9598-108f7c72dcdd
+
+EXPORT_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+#BlueLink2 Animator: Shape File Link`Blurred Tire: Car` Common Vehicle Assets: Tires` , Tire for traffic vehicle`Shape_c500746e-28db-47d2-91ed-d32247db7d4d
+
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Trailers: 2-axle } 2A Gooseneck Trailer w Dual Wheels
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : 2A Gooseneck Trailer w Dual Wheels
+#Category: Trailers: 2-axle
+#FileID  : AniVeh_ea3fced0-a13b-49c6-b33d-bd82d33a3fd4
+#Created : 02-28-2022 13:35:33
+#Modified: 04-18-2022 12:23:48
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Vehicle Shape
+
+END

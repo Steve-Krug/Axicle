@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Small Smooth Bump`Suspension and Ride Tests
+#VEHICLECODE S_SSS + SS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_5c402627-4f66-4325-81dc-d8e93f530eca
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_1cda02f1-83b2-420a-a133-a4725146fd4e.par
+#BlueLink0 Animator: Camera Setup`25 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_1cda02f1-83b2-420a-a133-a4725146fd4e
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_b12560cc-bb4a-4b8a-823f-687863f3bfa7.par
+#BlueLink2 Vehicle: Loaded Combination`4A Day+2x2A Trl` Day-Cab Tractor-Trailers` , Math Model`VehLoad_b12560cc-bb4a-4b8a-823f-687863f3bfa7
+
+PARSFILE Procedures\Proc_c7e20601-1788-4b36-abf4-bcfe4b0cce6a.par
+#BlueLink28 Procedures`Small Smooth Bump` Ride Tests` , Procedure`Proc_c7e20601-1788-4b36-abf4-bcfe4b0cce6a
+
+PARSFILE Generic\Group\GenGrp_a285032f-2447-441d-a2c1-4896e9579705.par
+#BlueLink9 Generic Data Group`9 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_a285032f-2447-441d-a2c1-4896e9579705
+
+PARSFILE Plot\Setup\Plot_f1bca470-3dfd-4391-b66a-62ded8ede3b9.par
+#BlueLink15 Plot: Setup`Spring: Force vs. Comp (Axles 2 - 4)` Suspension Forces and Moments` , Plot`Plot_f1bca470-3dfd-4391-b66a-62ded8ede3b9
+
+
+*IMAGE_TYPE DEFAULT
+WRITE_SENSOR_DETECT
+Title Small Smooth Bump <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE Small Smooth Bump
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#A B-Train vehicle configuration drives over a small smooth bump as a way of exercising the suspension.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Suspension and Ride Tests } Small Smooth Bump
+#Library : TruckSim Run Control
+#DataSet : Small Smooth Bump
+#Category: Suspension and Ride Tests
+#FileID  : Run_5c402627-4f66-4325-81dc-d8e93f530eca
+#Modified: 04-25-2022 09:36:53
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

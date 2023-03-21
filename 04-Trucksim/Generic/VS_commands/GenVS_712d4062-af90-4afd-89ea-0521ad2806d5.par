@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName Generic VS Commands`Susp. Cab: Spring Import Variables`Suspended Cab
+#VehCode VS Commands
+
+#MiscYellow0
+! VS Commands for use with 1D Tables representing suspended cab springs
+
+! Use eq_in to calculate the data coming out of the tables each time step, and assign the table output
+! to the import variables for the cab spring forces. 
+
+! Four new output variables are created to allow plotting of the data being imported into TruckSim. 
+! These are compared to the TruckSim-calculated suspended cab spring forces. 
+
+! Front
+eq_in IMP_FS_MNT_LF = Cab_Spring_LF(0, DefMntLF, 1);
+eq_in IMP_FS_MNT_RF = Cab_Spring_RF(0, DefMntRF, 1);
+
+! Rear
+eq_in IMP_FS_MNT_LR = Cab_Spring_LR(0, DefMntLR, 1);
+eq_in IMP_FS_MNT_RR = Cab_Spring_RR(0, DefMntRR, 1);
+
+
+! Import Commands
+
+! Front
+IMP_FS_MNT_LF Replace 0;
+IMP_FS_MNT_RF Replace 0;
+
+! Rear
+IMP_FS_MNT_LR Replace 0;
+IMP_FS_MNT_RR Replace 0;
+
+
+! Plots
+define_output SpringLF = IMP_FS_MNT_LF;
+define_output SpringRF = IMP_FS_MNT_RF;
+define_output SpringLR = IMP_FS_MNT_LR;
+define_output SpringRR = IMP_FS_MNT_RR;
+#ENDMYellow
+
+PARSFILE Plot\Setup\Plot_0bb1d86b-3aff-4e87-9a0d-fe2f471ec506.par
+#BlueLink3 Plot: Setup`Susp. Cab: SpringLF` Suspended Cab` , Plot`Plot_0bb1d86b-3aff-4e87-9a0d-fe2f471ec506
+
+PARSFILE Plot\Setup\Plot_502d083f-ebac-4f33-9b4b-de028a7641e8.par
+#BlueLink4 Plot: Setup`Susp. Cab: SpringRF` Suspended Cab` , Plot`Plot_502d083f-ebac-4f33-9b4b-de028a7641e8
+
+PARSFILE Plot\Setup\Plot_354e9399-8484-4ca4-9407-a53f160f334d.par
+#BlueLink5 Plot: Setup`Susp. Cab: SpringLR` Suspended Cab` , Plot`Plot_354e9399-8484-4ca4-9407-a53f160f334d
+
+PARSFILE Plot\Setup\Plot_75ca94b2-da4b-4a6d-beed-ef4ba8f088da.par
+#BlueLink6 Plot: Setup`Susp. Cab: SpringRR` Suspended Cab` , Plot`Plot_75ca94b2-da4b-4a6d-beed-ef4ba8f088da
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Suspended Cab } Susp. Cab: Spring Import Variables
+#Library : Generic VS Commands
+#DataSet : Susp. Cab: Spring Import Variables
+#Category: Suspended Cab
+#FileID  : GenVS_712d4062-af90-4afd-89ea-0521ad2806d5
+#Created : 05-26-2021 11:31:03
+#Modified: 06-07-2021 01:53:01
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

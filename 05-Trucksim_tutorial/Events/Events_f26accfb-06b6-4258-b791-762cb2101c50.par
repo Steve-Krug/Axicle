@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Events`C. Wait`Top Speed Test
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 1    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >=
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 T
+*VALUE1 T_Check
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 0
+#MiscYellow0
+T_CHECK = T_STAMP+5
+#ENDMYellow
+
+MAKE_EVENT T >= T_Check ; Events\Events_a4e0f7ec-138d-42c9-b48d-ed9f0c1580f9.par
+#BlueLink0 Events`D. Recheck Ax` Top Speed Test` , Events`Events_a4e0f7ec-138d-42c9-b48d-ed9f0c1580f9
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#Wait to make sure the decreased Ax is not transient.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Top Speed Test } C. Wait
+#Library : Events
+#DataSet : C. Wait
+#Category: Top Speed Test
+#FileID  : Events_f26accfb-06b6-4258-b791-762cb2101c50
+#Modified: 06-07-2021 01:49:23
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

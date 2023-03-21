@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Models: Export FMU/FMI`ABS Example (Flat Ports)`
+*FMU_PATH Extensions\FMU_FMI\ABS_FMI1F.fmu
+#CheckBox0 0    
+*PYTHON_RUN_FMU 0
+#CheckBox1 0    
+*SELF_CONTAIN_FMU 0
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 0    
+OPT_IO_UPDATE 0
+#CheckBox4 0    
+#CheckBox5 0    
+OPT_IO_SYNC_FM 0
+#CheckBox6 0    
+*MULTI_SOLVERS 0
+#CheckBox7 1    
+*FMU_ON_WIN 1
+#CheckBox8 0    
+*FMU_ON_LINUX 0
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#RingCtrl2 1
+*FMI_VER 1
+#RingCtrl3 1
+*FMI_PORT_TYPE 1
+PARSFILE IO_Channels\I_Channels\Import_fb6f5ede-415e-4f25-bf48-5686cd190ba4.par
+#BlueLink0 I/O Channels: Import`ABS: Wheel Cylinder Pressures` Brake System Control` , Import`Import_fb6f5ede-415e-4f25-bf48-5686cd190ba4
+
+PARSFILE IO_Channels\O_Channels\Export_35c937bb-9c77-44fc-b62e-29c711f820f4.par
+#BlueLink1 I/O Channels: Export`ABS: Vehicle Speed, M/C Pressure` Brake System Control` , Import/Export`Export_35c937bb-9c77-44fc-b62e-29c711f820f4
+
+
+LOG_ENTRY Used Dataset: Models: Export FMU/FMI; ABS Example (Flat Ports)
+#Library : Models: Export FMU/FMI
+#DataSet : ABS Example (Flat Ports)
+#Category: 
+#FileID  : Fmu_ee929179-9d18-4adc-be50-1d9cad18ce10
+#Modified: 06-07-2021 01:52:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 
+
+END

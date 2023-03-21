@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Animator: HUD`Hill Start Assist (Manual Trans)`Alerts
+#CheckBox1 1    
+#CheckBox2 1    
+
+#RingCtrl0 1
+#RingCtrl1 5
+#RingCtrl2 0
+#RingCtrl3 2
+#RingCtrl4 2
+*TITLE_1 Hill Start Assist
+*LOCX_1 2
+*VAR_NAME_1 HillStartAssist
+*COLOR_1 1 0 0
+*VAR_NAME_2 Alert_R
+
+
+#Selection 5 for Icon 0
+#Selection_1 5 for Icon
+#Selection_2 Title: Hill Start Assist AlX 0 AlY 2
+#Selection_3 Scale 1.333333 locX 32 locY 0
+#Selection_4 Fixed: 1 VarName: HillStartAssist  ColorStr: 1 0 0
+#Selection_5 ImgName: 
+ADD_ENTITY hud_image Brake Fill BG
+location 32 0 133 133
+align_x left
+align_y bottom
+size_mode absolute
+place_mode absolute
+image_file Resources\Animator\2D_HUD_Icons\Indicator_Lamp\LIGHT_OFF.dds
+END_ENTITY hud_image Brake Fill BG
+ADD_ENTITY hud_text Icon Text for Type #5
+prefix Hill Start Assist
+location 13 138 100 18
+align_x left
+align_y bottom
+size_mode absolute
+place_mode absolute
+color 1.0 1.0 1.0 1.0
+outline_color .3 .3 .3 0.5
+font VeraMono.ttf
+END_ENTITY hud_text Icon Text for Type #5
+ANI_HillStartAssist
+WRT_HillStartAssist
+ADD_ENTITY hud_image Brake Fill BG
+location 32 0 133 133
+red 1
+green 0
+blue 0
+align_x left
+align_y bottom
+size_mode absolute
+place_mode absolute
+opacity HillStartAssist*0.65
+image_file Resources\Animator\2D_HUD_Icons\Indicator_Lamp\LIGHT_ON.dds
+END_ENTITY hud_image Brake Fill BG
+
+LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } Hill Start Assist (Manual Trans)
+#Library : Animator: HUD
+#DataSet : Hill Start Assist (Manual Trans)
+#Category: Alerts
+#FileID  : HUD_094891c0-4027-4836-a014-d142ac2881cc
+#Modified: 03-29-2022 16:03:20
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode HUD
+
+END

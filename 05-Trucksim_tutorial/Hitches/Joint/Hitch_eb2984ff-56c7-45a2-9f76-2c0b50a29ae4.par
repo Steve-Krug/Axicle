@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Hitch: Joint Assembly`5th Wheel w/ Frame Flex`5th Wheel Hitches
+#CheckBox0 1    
+OPT_ROLL_HITCH 1
+#CheckBox1 0    
+#CheckBox2 1    
+
+OPT_HITCH_TYPE 1
+PARSFILE Hitches\Mx\HchMx_f7f9a25f-5efd-40bd-b479-8c8d535d5c2c.par
+#BlueLink0 Hitch: Roll Moment`100 kN-m/deg (1 deg lash)` ` , Roll Stiffness`HchMx_f7f9a25f-5efd-40bd-b479-8c8d535d5c2c
+
+PARSFILE Hitches\My\HchMy_0157f1ef-0440-4b85-83e0-5514a7e36578.par
+#BlueLink1 Hitch: Pitch Moment`100 kN-m/deg (-11 to 7 deg Lash)` ` , Pitch Stiffness`HchMy_0157f1ef-0440-4b85-83e0-5514a7e36578
+
+PARSFILE Hitches\Mz\HchMz_50b298cc-cb30-46df-b78a-f6edcd587091.par
+#BlueLink2 Hitch: Yaw Moment`100 kN-m/deg (180 deg Lash)` ` , Yaw Stiffness`HchMz_50b298cc-cb30-46df-b78a-f6edcd587091
+
+WRITE_ADD_REFERENCE_FRAME_HITCH
+PARSFILE Animator\STL\Shape_aab0d54a-b5e4-44d5-859a-f8ff2fd23d62.par
+#BlueLink3 Animator: Shape File Link`Hitches: 5th Wheel (OSG)` Common Vehicle Assets` , Hitch Shape`Shape_aab0d54a-b5e4-44d5-859a-f8ff2fd23d62
+
+SET_OFFSET_X <<hitch_x>>
+SET_OFFSET_Y <<hitch_y>>
+SET_OFFSET_Z <<hitch_z>>
+
+LOG_ENTRY Used Dataset: Hitch: Joint Assembly; { 5th Wheel Hitches } 5th Wheel w/ Frame Flex
+#Library : Hitch: Joint Assembly
+#DataSet : 5th Wheel w/ Frame Flex
+#Category: 5th Wheel Hitches
+#FileID  : Hitch_eb2984ff-56c7-45a2-9f76-2c0b50a29ae4
+#Created : 09-28-2021 11:50:34
+#Modified: 04-20-2022 15:27:32
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Hitch
+
+END

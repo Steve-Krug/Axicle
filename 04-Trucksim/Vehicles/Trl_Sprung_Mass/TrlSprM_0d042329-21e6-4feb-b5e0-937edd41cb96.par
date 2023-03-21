@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`1A Van Trailer, 28-ft`1A Trailer
+H_CG_SU 1935
+LX_CG_SU 3500
+M_SU 2116
+IXX_SU 5592.5
+IYY_SU 40672.8
+IZZ_SU 40672.8
+IXZ_SU 0
+*RX 1.626
+*RY 4.384
+*RZ 4.384
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2438
+H_H_FRONT 1100
+L_FRAME 8534
+W_FRAME 2591
+X_NODE 3350
+K_FRAME 10000
+C_FRAME 100
+H_NODE 1935
+WID_SM 2438
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 0
+
+#EMBEDDED_NOTES
+#Reference
+#
+#UMTRI Factbook
+#page 182 / 202
+#NHTSA Benchmark single axle semi-trailer
+#
+#Note: The benchmark trailer was 27 ft.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 1A Trailer } 1A Van Trailer, 28-ft
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : 1A Van Trailer, 28-ft
+#Category: 1A Trailer
+#FileID  : TrlSprM_0d042329-21e6-4feb-b5e0-937edd41cb96
+#Created : 10-28-2021 14:46:29
+#Modified: 03-21-2022 15:08:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Trailer Sprung Mass
+
+END

@@ -1,0 +1,103 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Platoon: Brake Test; Truck 2`Tractor Trailer Platoon, Parallel Solvers
+#VEHICLECODE S_SS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_44c00f26-d3c6-4e83-b06a-62bf8c51e8d3
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_106f8040-f5bc-46bc-bb0e-914148be54aa.par
+#BlueLink12 Models: Simulink`Platoon; Trail` Parallel Solvers` , Models`Simlink_106f8040-f5bc-46bc-bb0e-914148be54aa
+
+PARSFILE Animator\Cameras\Camera_160d463e-5b87-4cc6-9b4b-d8a5d77fc91c.par
+#BlueLink0 Animator: Camera Setup`90 Azm, 90m, 50 FOV` Vehicle Reference` , Animator camera`Camera_160d463e-5b87-4cc6-9b4b-d8a5d77fc91c
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 2
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 0 0
+SET_RUN_COLOR 1 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_f80ced7c-a750-41c6-9049-2270e9403fbd.par
+#BlueLink2 Vehicle: Loaded Combination`3A Lead + 2A Container Trailer (1 x 40-ft)` Cab-Over Tractor-Trailers` , Math Model`VehLoad_f80ced7c-a750-41c6-9049-2270e9403fbd
+
+PARSFILE Procedures\Proc_4e8c8b45-c661-49b9-ae2c-fbd4cdbc19e9.par
+#BlueLink28 Procedures`Tractor Trailer Platoon: Brake Test` Multi-Vehicle` , Procedure`Proc_4e8c8b45-c661-49b9-ae2c-fbd4cdbc19e9
+
+PARSFILE Sensors_Traffic\Radar\Radar_45452944-880d-4937-b8c5-8dd08dd0fc0b.par
+#BlueLink9 ADAS Sensors for Range and Tracking`Platooning Sensor (Red)` Platooning Sensor` , Miscellaneous`Radar_45452944-880d-4937-b8c5-8dd08dd0fc0b
+
+PARSFILE Generic\VS_commands\GenVS_a836dda3-f40f-4c7e-bfaa-f188380a011f.par
+#BlueLink10 Generic VS Commands`VS Commands: Platooning` VS Commands for Sensors and Traffic` , Miscellaneous`GenVS_a836dda3-f40f-4c7e-bfaa-f188380a011f
+
+
+SPECIAL_PARSFILE Runs\Run_ad72dc17-eed1-4f62-8e61-d41e4873fbb2.par
+#BlueLink23 TruckSim Run Control`Platoon: Brake Test; Lead Truck` Tractor Trailer Platoon, Parallel Solvers` , Overlay run or ERD file`Run_ad72dc17-eed1-4f62-8e61-d41e4873fbb2
+
+
+SPECIAL_PARSFILE Runs\Run_97115c0a-49a8-43f3-a9c4-460918cbc450.par
+#BlueLink24 TruckSim Run Control`Platoon: Brake Test; Truck 3` Tractor Trailer Platoon, Parallel Solvers` , Overlay run or ERD file`Run_97115c0a-49a8-43f3-a9c4-460918cbc450
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_3a\Lead3a_0acbf48f-de89-4017-b8d9-e6da5c0404ca.png
+WRITE_SENSOR_DETECT
+Title Platoon: Brake Test; Truck 2 <Tractor Trailer Platoon, Parallel Solvers>
+CATEGORY Tractor Trailer Platoon, Parallel Solvers 
+DATASET_TITLE Platoon: Brake Test; Truck 2
+#MiscYellow0
+SSTART 325
+SPEED_TARGET_CONSTANT 100  !Initializes the truck at the same speed as the lead
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#Platoon Lead Truck
+#Truck 2 of 3-Truck Platoon.
+#
+#A platoon of tractor trailers slipstreaming very close behind one another. Truck platooning can help optimize road activity, improve fuel economy, and reduce CO2 emissions.
+#
+#The brake test for the platoon has the platoon starting at a steady-state 100kph. After five seconds, the lead truck applies brakes to come to a complete stop.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Tractor Trailer Platoon, Parallel Solvers } Platoon: Brake Test; Truck 2
+#Library : TruckSim Run Control
+#DataSet : Platoon: Brake Test; Truck 2
+#Category: Tractor Trailer Platoon, Parallel Solvers
+#FileID  : Run_44c00f26-d3c6-4e83-b06a-62bf8c51e8d3
+#Modified: 05-03-2022 12:50:27
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

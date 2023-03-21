@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Plot: Setup`Transmission: Reverse Flag`Controls: Driver
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Line Plots, No Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS RevFlag, Time, Reverse Flag
+
+#ENDMYellow
+
+YAXISLABEL Transmission: Reverse Flag
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Transmission: Reverse Flag
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Driver } Transmission: Reverse Flag
+#Library : Plot: Setup
+#DataSet : Transmission: Reverse Flag
+#Category: Controls: Driver
+#FileID  : Plot_8a9b0c5b-13c2-4ff3-b77a-0ffc3a07e222
+#Modified: 06-07-2021 01:49:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

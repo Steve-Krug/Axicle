@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`6 ft. Box: Reverse Lights (Midsize)`Trucks: Pickup Beds
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trucks\Pickup_Trucks\Beds\8_Foot_Box\reverse_ON.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 0.832
+SET_SCALE_Y 0.9
+SET_SCALE_Z 0.88
+SET_OFFSET_X -1.93
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.375
+X_REF_LENGTH 3261
+Y_REF_LENGTH 2152
+Z_REF_LENGTH 1418
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_73a79405-78f0-48df-a491-24a8e7660200.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trucks: Pickup Beds } 6 ft. Box: Reverse Lights (Midsize)
+#Library : Animator: Shape File Link
+#DataSet : 6 ft. Box: Reverse Lights (Midsize)
+#Category: Trucks: Pickup Beds
+#FileID  : Shape_73a79405-78f0-48df-a491-24a8e7660200
+#Modified: 06-07-2021 01:53:58
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

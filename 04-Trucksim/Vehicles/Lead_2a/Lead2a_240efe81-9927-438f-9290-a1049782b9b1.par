@@ -1,0 +1,93 @@
+PARSFILE
+#FullDataName Vehicle: Lead Unit with 2 Axles`Base vehicle (node aft)`Chassis twist study
+#VehCode F_I_I
+IUNIT_INCREMENT
+IVEHICLE = IVEHICLE + 1
+symbol_add  <<unit>> 1
+symbol_add  <<vehicle>> 1
+NAXLES 2
+
+IOBJECT_SAVE
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 0
+#RingCtrl1 3
+#RingCtrl2 5
+INSTALL_SPEED_CONTROLLER
+symbol_push  <<axle_temp>> <<axle>>
+PARSFILE Tires\Group_2a\Tire2a_63d74229-a0d3-4b52-93a8-c398395c8aec.par
+#BlueLink8 Tires: Vehicle Unit with 2 Axles`Base vehicle` Chassis twist study` , Tires`Tire2a_63d74229-a0d3-4b52-93a8-c398395c8aec
+
+symbol_push  <<axle>> <<axle_temp>>
+PMAX_SC 200
+*R_DRIVE_SC_1 0.5
+*R_DRIVE_SC_2 0.5
+*LX_AXLE_1 0
+*LX_AXLE_2 5000
+
+iaxle 1
+symbol_add  <<axle>> 1
+LX_AXLE 0
+PARSFILE Suspensions\Kin_Indy\KinInd_5c91d469-29aa-4137-ac54-a59476d48d50.par
+#BlueLink21 Suspension: Independent System Kinematics`Base vehicle` Chassis twist study` , Kinematics`KinInd_5c91d469-29aa-4137-ac54-a59476d48d50
+
+PARSFILE Suspensions\Compliance\CmpInd_7047adae-218e-4389-84a3-1362c0982bb0.par
+#BlueLink23 Suspension: Independent Compliance, Springs, and Dampers`Base vehicle` Chassis twist study` , Suspension compliance`CmpInd_7047adae-218e-4389-84a3-1362c0982bb0
+
+OPT_STEER_EXT 0
+PARSFILE Brakes\2W_System\Brk2W_deb93958-1ae1-4195-a66e-4a44840aeb8b.par
+#BlueLink11 Brakes: Two-Wheel System`Base vehicle` Chassis twist study` , Brakes`Brk2W_deb93958-1ae1-4195-a66e-4a44840aeb8b
+
+PARSFILE Steering\System\StrSys_e5f1e1ed-9dec-44e2-b702-fd0fadf91fe0.par
+#BlueLink13 Steering System`Base vehicle` Chassis twist study` , Steering`StrSys_e5f1e1ed-9dec-44e2-b702-fd0fadf91fe0
+
+R_DRIVE_SC 0.5
+
+iaxle 2
+symbol_add  <<axle>> 1
+LX_AXLE 5000
+PARSFILE Suspensions\Kin_Indy\KinInd_5c91d469-29aa-4137-ac54-a59476d48d50.par
+#BlueLink22 Suspension: Independent System Kinematics`Base vehicle` Chassis twist study` , Kinematics`KinInd_5c91d469-29aa-4137-ac54-a59476d48d50
+
+PARSFILE Suspensions\Compliance\CmpInd_7047adae-218e-4389-84a3-1362c0982bb0.par
+#BlueLink24 Suspension: Independent Compliance, Springs, and Dampers`Base vehicle` Chassis twist study` , Suspension compliance`CmpInd_7047adae-218e-4389-84a3-1362c0982bb0
+
+OPT_STEER_EXT 1
+PARSFILE Brakes\2W_System\Brk2W_deb93958-1ae1-4195-a66e-4a44840aeb8b.par
+#BlueLink12 Brakes: Two-Wheel System`Base vehicle` Chassis twist study` , Brakes`Brk2W_deb93958-1ae1-4195-a66e-4a44840aeb8b
+
+R_DRIVE_SC 0.5
+
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_b035710e-3294-4dd0-ac68-ca6330c38713.par
+#BlueLink1 Vehicle: Lead Unit Sprung Mass`Base vehicle (node aft)` Chassis twist study` , Sprung Mass`SprMass_b035710e-3294-4dd0-ac68-ca6330c38713
+
+PARSFILE Aerodynamics\Aero_Main\Aero_2dcf0dd6-b552-482c-b346-939b627511c9.par
+#BlueLink2 Aerodynamics: Basic`No Aerodynamics` ` , Aerodynamics`Aero_2dcf0dd6-b552-482c-b346-939b627511c9
+
+x_length 5000.000000
+PARSFILE Steering\Str_Wheel_Tq\TqSW_82068ba7-78b3-4a7d-9c28-1e0bbbbbcc3f.par
+#BlueLink6 Steering Wheel Torque`Linear: 1/16` Chassis twist study` , Steering wheel torque`TqSW_82068ba7-78b3-4a7d-9c28-1e0bbbbbcc3f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Vehicles\Lead_2a\Lead2a_240efe81-9927-438f-9290-a1049782b9b1.png
+IOBJECT_RESTORE
+
+#EMBEDDED_NOTES
+#See the Tech Memo "Chassis Torsional Flexibility in CarSim" describes the selection of parameters for this test vehicle.
+#
+#This one places the node point for chassis flexibility at the rear axle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { Chassis twist study } Base vehicle (node aft)
+#Library : Vehicle: Lead Unit with 2 Axles
+#DataSet : Base vehicle (node aft)
+#Category: Chassis twist study
+#FileID  : Lead2a_240efe81-9927-438f-9290-a1049782b9b1
+#Modified: 09-01-2021 12:48:50
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode F_I_I
+
+END

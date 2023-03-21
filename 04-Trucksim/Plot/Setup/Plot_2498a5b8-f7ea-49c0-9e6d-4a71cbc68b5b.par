@@ -1,0 +1,48 @@
+PARSFILE
+#FullDataName Plot: Setup`Towbar Angles`Hitch, Hinged Towbar
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Line Plots, No Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS YawBar_2, Time
+PLOTCHANNELS YawBar_3, Time
+PLOTCHANNELS PitchBar2, Time
+PLOTCHANNELS PitchBar3, Time
+PLOTCHANNELS PtchBarRel2, Time
+PLOTCHANNELS PtchBarRel3, Time
+PLOTCHANNELS RollBar2, Time
+PLOTCHANNELS RollBar3, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Towbar Angles
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Hitch, Hinged Towbar } Towbar Angles
+#Library : Plot: Setup
+#DataSet : Towbar Angles
+#Category: Hitch, Hinged Towbar
+#FileID  : Plot_2498a5b8-f7ea-49c0-9e6d-4a71cbc68b5b
+#Created : 09-28-2021 15:55:31
+#Modified: 10-04-2021 16:06:16
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

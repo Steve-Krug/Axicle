@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName TruckSim Run Control`3A Sleeper + 2A Container Trailer`VS Visualizer Examples
+#VEHICLECODE S_SS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_5ec2c70f-ffc6-464f-9153-09b34686fe42
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_8d52f4c4-d34c-40f5-b476-b19fa43cd2c9.par
+#BlueLink0 Animator: Camera Setup`-20 Azm, 7.3 El, 22m, No Yaw` Vehicle Reference` , Animator camera`Camera_8d52f4c4-d34c-40f5-b476-b19fa43cd2c9
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.878 0.878 0.878
+SET_RUN_COLOR 0.878 0.878 0.878
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_18b5c9d0-de8c-4ce7-8336-b2ffd1b8da0b.par
+#BlueLink2 Vehicle: Loaded Combination`3A Lead + 2A Container Trailer` Cab-Over Tractor-Trailers` , Math Model`VehLoad_18b5c9d0-de8c-4ce7-8336-b2ffd1b8da0b
+
+PARSFILE Procedures\Proc_bc8b04bb-8b97-446f-8edf-7f5f6817befa.par
+#BlueLink28 Procedures`5-Lane Highway Section` Driving` , Procedure`Proc_bc8b04bb-8b97-446f-8edf-7f5f6817befa
+
+*SSTOP 220
+
+*IMAGE_TYPE DEFAULT
+WRITE_SENSOR_DETECT
+Title 3A Sleeper + 2A Container Trailer <VS Visualizer Examples>
+CATEGORY VS Visualizer Examples 
+DATASET_TITLE 3A Sleeper + 2A Container Trailer
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This run presents a 3A lead unit with a configurable trailer meant for hauling shipping containers.
+#
+#The trailer is made of three pieces.  The front piece houses the hitch, as well as a set of pins for supporting containers of different lengths.  The mid piece contains the frame rails to which the suspension components are attached.  The rear piece can be adjusted rearward to accomodate larger containers.
+#
+#In this run, there are no containers.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } 3A Sleeper + 2A Container Trailer
+#Library : TruckSim Run Control
+#DataSet : 3A Sleeper + 2A Container Trailer
+#Category: VS Visualizer Examples
+#FileID  : Run_5ec2c70f-ffc6-464f-9153-09b34686fe42
+#Modified: 04-25-2022 09:37:44
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

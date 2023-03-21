@@ -1,0 +1,9 @@
+INFO - MF-Tyre/MF-Swift 2021.1  (0b4aeac7c749)
+WARNING - Override value 0.000000 for TV_MODEL is ignored, because it is not supported at fittype 60.
+WARNING - Override value 0.000000 for TV_MODEL is ignored, because it is not supported at fittype 60.
+WARNING - Override value 0.000000 for TV_MODEL is ignored, because it is not supported at fittype 60.
+WARNING - Override value 0.000000 for TV_MODEL is ignored, because it is not supported at fittype 60.
+WARNING - Override value 0.000000 for TV_MODEL is ignored, because it is not supported at fittype 60.
+WARNING - Override value 0.000000 for TV_MODEL is ignored, because it is not supported at fittype 60.
+WARNING - Vertical load is above tire file maximum parameter FZMAX. It is capped at (60000).
+WARNING - Vertical load is below tire file parameter FZMIN. It is capped at (100).

@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Events`Stop at Stop Sign`Stop Conditions
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 <
+#RingCtrl10 1
+#RingCtrl11 4
+RESET_EVENTS
+*NAME1 Vxz_Fwd
+*VALUE1 .1
+#MiscYellow0
+set_ispeed_for_id STOP_ID ! set scope for next 2 lines
+speed_target_gain = Vxz_Fwd ! scale target speed
+sstart_speed_target = -12 ! station to stop at
+speed_id_sc = STOP_ID ! have speed controller use this dataset
+#ENDMYellow
+
+MAKE_EVENT Vxz_Fwd < .1 ; Events\Events_95fdea95-2a6c-4a8d-a900-f8331fdfd2be.par
+#BlueLink0 Events`Wait 2s at Stop` Sign Detection` , Events`Events_95fdea95-2a6c-4a8d-a900-f8331fdfd2be
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#This requires a parameter STOP_ID to have been defined. This logic matches that used in a simular simulation that involves ADAS sensors to trigger events.
+#
+#In this simplified case, a speed target dataset with ID STOP_ID is scaled to match the current vehicle speed, Vxz_Fwd.
+#
+#The target speed dataset is also shifted such that the target speed is zero when station = -12m.
+#
+#When the speed is nearly zero, an Event is triggered to go into a Wait mode.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Stop Conditions } Stop at Stop Sign
+#Library : Events
+#DataSet : Stop at Stop Sign
+#Category: Stop Conditions
+#FileID  : Events_8909a153-9214-4bf7-81c4-2f02c904e0e6
+#Created : 05-31-2022 09:49:50
+#Modified: 05-31-2022 13:33:16
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

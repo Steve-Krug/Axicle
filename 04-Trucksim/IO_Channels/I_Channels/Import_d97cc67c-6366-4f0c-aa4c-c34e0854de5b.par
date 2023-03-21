@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName I/O Channels: Import`R1 (Right Front) Twin Clutch`Powertrain Control and Ext. Models
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_b5930bcd-9e79-4391-85f0-db38470c7f69\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_CLUTCH_R1 Add 0.0! 0
+#ENDMYellow
+
+#BlueLink0 TruckSim Run Control`Active Transfer Case Control - Multi-Port` Simulink Models` , example run`Run_b5930bcd-9e79-4391-85f0-db38470c7f69
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Powertrain Control and Ext. Models } R1 (Right Front) Twin Clutch
+#Library : I/O Channels: Import
+#DataSet : R1 (Right Front) Twin Clutch
+#Category: Powertrain Control and Ext. Models
+#FileID  : Import_d97cc67c-6366-4f0c-aa4c-c34e0854de5b
+#Modified: 06-07-2021 01:52:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Import Channels
+
+END

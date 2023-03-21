@@ -1,0 +1,58 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`4A Sleeper +1A Flatbed Trl, No Trailer`Sleeper-Cab Tractor-Trailers
+#VehCode S_ISS
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_4a\Lead4a_55b86d43-fc7d-45a4-9245-9a16d7973abe.par
+#BlueLink0 Vehicle: Lead Unit with 4 Axles`4A Sleeper Cab (S_ISS)` 4A Sleeper Cabs` , Vehicle Type`Lead4a_55b86d43-fc7d-45a4-9245-9a16d7973abe
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+#BlueLink1 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink5 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_79dd38bb-ad38-4925-a7c0-279912b85968.png
+
+#EMBEDDED_NOTES
+#Four-axle Sleeper Cab tractor (S_ISS) with an 8x4 powertrain and an 18-speed manual transmission.
+#
+#The 1-axle trailer uses a solid axle suspension (vehicle code "S") and has a single payload.
+#
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Sleeper-Cab Tractor-Trailers } 4A Sleeper +1A Flatbed Trl, No Trailer
+#Library : Vehicle: Loaded Combination
+#DataSet : 4A Sleeper +1A Flatbed Trl, No Trailer
+#Category: Sleeper-Cab Tractor-Trailers
+#FileID  : VehLoad_519a4d99-2dc5-40b5-9939-51c8641517ed
+#Created : 01-02-2023 19:04:43
+#Modified: 01-02-2023 19:04:44
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_ISS
+
+END

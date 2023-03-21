@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Axle Rails (New) (Offset for Box Trailer)`Common Vehicle Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Solid_Axles\Trailer_Axle\Axle_Rail_Long.osg
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X -12.76
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9.par
+#BlueLink2 Animator: Camera Setup`XZ Plane, No Offsets - Medium Objects` Shape Preview` , Video Camera`Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_c273b1a6-1715-4281-ba2f-11adda931d9a.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Axle Rails (New) (Offset for Box Trailer)
+#Library : Animator: Shape File Link
+#DataSet : Axle Rails (New) (Offset for Box Trailer)
+#Category: Common Vehicle Assets
+#FileID  : Shape_c273b1a6-1715-4281-ba2f-11adda931d9a
+#Modified: 11-03-2021 15:04:04
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName TruckSim Run Control`C. 10% Impairment`* Impaired Driver
+#VEHICLECODE S_SS + dSS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_3a4a9128-0dfa-4f34-9d2e-f2f029a6a8c0
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.4 0
+SET_RUN_COLOR 0 0.4 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_a219b9d8-24f7-4475-8f2a-1ebcf3fc662a.par
+#BlueLink2 Vehicle: Loaded Combination`S_SS + dSS + SS (15,000 kg Payloads)` Dump Trucks` , Math Model`VehLoad_a219b9d8-24f7-4475-8f2a-1ebcf3fc662a
+
+PARSFILE Procedures\Proc_5131e28f-f052-4f17-bb27-0d5941c16982.par
+#BlueLink28 Procedures`Single Lane Change, Impaired Driver` Driver Controls` , Procedure`Proc_5131e28f-f052-4f17-bb27-0d5941c16982
+
+*TSTOP 1
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_5e99b800-fddc-4e1b-a23d-d8a55608d47a.png
+WRITE_SENSOR_DETECT
+Title C. 10% Impairment <* Impaired Driver>
+CATEGORY * Impaired Driver 
+DATASET_TITLE C. 10% Impairment
+#MiscYellow0
+driver_impairment_level 10
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#Decrease the preview time and increase the input delay. Shortening the preview time reflects the impaired driver's difficulty in processing visual information which is further away. Increasing the input delay models how the impaired driver can be slower to act, even when they have processed the path and decided how much to steer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { * Impaired Driver } C. 10% Impairment
+#Library : TruckSim Run Control
+#DataSet : C. 10% Impairment
+#Category: * Impaired Driver
+#FileID  : Run_3a4a9128-0dfa-4f34-9d2e-f2f029a6a8c0
+#Created : 05-31-2022 08:33:51
+#Modified: 05-31-2022 09:11:00
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

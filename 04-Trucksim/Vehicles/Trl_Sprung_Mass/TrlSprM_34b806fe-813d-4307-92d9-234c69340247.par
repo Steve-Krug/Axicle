@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`2A Flatbed Utility Trailer`2A Trailer
+H_CG_SU 500
+Z_LENGTH 1357
+LX_CG_SU 3700
+M_SU 700
+IXX_SU 226.5
+IYY_SU 6247.3
+IZZ_SU 6247.3
+IXZ_SU 0
+*RX 0.569
+*RY 2.987
+*RZ 2.987
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2679
+H_H_FRONT 350
+X_LENGTH 4800
+HT_SM 1357
+WID_SM 2679
+LEN_SM 4800
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 0
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 2A Trailer } 2A Flatbed Utility Trailer
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : 2A Flatbed Utility Trailer
+#Category: 2A Trailer
+#FileID  : TrlSprM_34b806fe-813d-4307-92d9-234c69340247
+#Modified: 03-21-2022 15:08:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Trailer Sprung Mass
+
+END

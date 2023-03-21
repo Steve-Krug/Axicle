@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`Gooseneck Trailer (2A) w Dual Wheels`2A Trailer
+H_CG_SU 1077
+Z_LENGTH 2068
+LX_CG_SU 9750
+M_SU 3305
+IXX_SU 3909
+IYY_SU 51331
+IZZ_SU 52363
+IXZ_SU 0
+*RX 1.088
+*RY 3.941
+*RZ 3.980
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2438
+H_H_FRONT 900
+HT_SM 2068
+WID_SM 2438
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 0
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 2A Trailer } Gooseneck Trailer (2A) w Dual Wheels
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : Gooseneck Trailer (2A) w Dual Wheels
+#Category: 2A Trailer
+#FileID  : TrlSprM_573c0cb2-efb9-41d2-9d22-dc93348b7cf9
+#Created : 02-28-2022 13:32:42
+#Modified: 03-21-2022 15:08:58
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Trailer Sprung Mass
+
+END

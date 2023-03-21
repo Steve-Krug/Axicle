@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Events`CCRm,s D. Pause before ending`Euro NCAP ACC Testing: CCRm,s
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 T_EVENT
+*VALUE1 SCORE_PAUSE_TIME
+#MiscYellow0
+TSTART_T_EVENT = T ;
+#ENDMYellow
+
+MAKE_EVENT T_EVENT > SCORE_PAUSE_TIME ; Events\Events_9b376ff0-310d-419e-87f0-0c4307dfa086.par
+#BlueLink0 Events`End Events` ` , Events`Events_9b376ff0-310d-419e-87f0-0c4307dfa086
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#Wait some time to see final score, before ending
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP ACC Testing: CCRm,s } CCRm,s D. Pause before ending
+#Library : Events
+#DataSet : CCRm,s D. Pause before ending
+#Category: Euro NCAP ACC Testing: CCRm,s
+#FileID  : Events_1868dbf7-d963-4f39-9bd6-a359e9101735
+#Created : 11-12-2021 11:09:52
+#Modified: 11-12-2021 11:10:39
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

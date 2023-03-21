@@ -1,0 +1,107 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Self-Steer Axle: 3-Pt. Turn`* Self-Steer Axle
+#VEHICLECODE S_SSS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_41ab6248-d7a3-4c6e-8597-6aeadb1921c0
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_0cad41b8-7c47-4d6d-bae2-bd6a5f3bc892.par
+#BlueLink0 Animator: Camera Setup`210 Azm, 10 El, 15 m` Vehicle Reference` , Animator camera`Camera_0cad41b8-7c47-4d6d-bae2-bd6a5f3bc892
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 6
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_75026501-32df-4f44-aae6-999fb5959562.par
+#BlueLink2 Vehicle: Loaded Combination`4A Dump Truck (Self-Steer Axle)` Dump Trucks` , Math Model`VehLoad_75026501-32df-4f44-aae6-999fb5959562
+
+PARSFILE Procedures\Proc_809cfa83-5558-4465-b3c3-26a99c3a1e7b.par
+#BlueLink28 Procedures`3-Point Turn` Driver Controls` , Procedure`Proc_809cfa83-5558-4465-b3c3-26a99c3a1e7b
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55.par
+#BlueLink10 Multiple Moving Objects`1 Driver Preview Point, Set by DM` Points of Interest` , Miscellaneous`TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55
+
+PARSFILE Animator\HUD\HUD_264f659d-344a-48dd-8ad1-4fbed527e0c9.par
+#BlueLink11 Animator: HUD`Throt, Brakes, Speed, Gear, Reverse` HUD Groups` , Miscellaneous`HUD_264f659d-344a-48dd-8ad1-4fbed527e0c9
+
+*TSTOP 1
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_dc3bd4cb-2a9b-4dbc-8126-38a398aefd1b.par
+#BlueLink15 Plot: Setup`Steering Wheel Angle` Steering` , Plot`Plot_dc3bd4cb-2a9b-4dbc-8126-38a398aefd1b
+
+PARSFILE Plot\Setup\Plot_27ad32d4-9ff0-4701-9d4d-99a04a7ff85b.par
+#BlueLink16 Plot: Setup`Clutch: Control Input` Controls: Driver` , Plot`Plot_27ad32d4-9ff0-4701-9d4d-99a04a7ff85b
+
+PARSFILE Plot\Setup\Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd.par
+#BlueLink17 Plot: Setup`Throttle: Control Input` Controls: Driver` , Plot`Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd
+
+PARSFILE Plot\Setup\Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6.par
+#BlueLink18 Plot: Setup`Gear Selection` Powertrain` , Plot`Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6
+
+PARSFILE Plot\Setup\Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806.par
+#BlueLink19 Plot: Setup`Brake Control: Master Cyl. Pressure` Braking` , Plot`Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806
+
+PARSFILE Generic\VS_commands\GenVS_cd8c16be-922e-4833-8fd5-8b5ef1bd77f9.par
+#BlueLink20 Generic VS Commands`Self-Steer Axle Plots` Self-Steer Axle` , Plot`GenVS_cd8c16be-922e-4833-8fd5-8b5ef1bd77f9
+
+
+*IMAGE_TYPE PASS_THROUGH
+WRITE_SENSOR_DETECT
+Title Self-Steer Axle: 3-Pt. Turn <* Self-Steer Axle>
+CATEGORY * Self-Steer Axle 
+DATASET_TITLE Self-Steer Axle: 3-Pt. Turn
+#MiscYellow0
+! tune speed control parameters
+speed_target_constant 30
+bk_perf_sc 0.5
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This example includes a truck with a external steering model for axle 2, implemented with VS Commands. The external steering model represents a simple self-steered axle. For more information on the implementation of the self-steer axle, see Help > Technical Memos > Example: Self-Steer Axle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { * Self-Steer Axle } Self-Steer Axle: 3-Pt. Turn
+#Library : TruckSim Run Control
+#DataSet : Self-Steer Axle: 3-Pt. Turn
+#Category: * Self-Steer Axle
+#FileID  : Run_41ab6248-d7a3-4c6e-8597-6aeadb1921c0
+#Created : 06-03-2022 11:33:14
+#Modified: 06-13-2022 13:33:09
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

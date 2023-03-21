@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Parallel VS Math Models`Tractor-Trailers Platoon Brake Test`Platooning
+PARSFILE Runs\Run_ad72dc17-eed1-4f62-8e61-d41e4873fbb2.par
+#BlueLink0 TruckSim Run Control`Platoon: Brake Test; Lead Truck` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 1:`Run_ad72dc17-eed1-4f62-8e61-d41e4873fbb2
+
+PARSFILE Runs\Run_44c00f26-d3c6-4e83-b06a-62bf8c51e8d3.par
+#BlueLink1 TruckSim Run Control`Platoon: Brake Test; Truck 2` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 2:`Run_44c00f26-d3c6-4e83-b06a-62bf8c51e8d3
+
+PARSFILE Runs\Run_97115c0a-49a8-43f3-a9c4-460918cbc450.par
+#BlueLink2 TruckSim Run Control`Platoon: Brake Test; Truck 3` Tractor Trailer Platoon, Parallel Solvers` , Vehicle 3:`Run_97115c0a-49a8-43f3-a9c4-460918cbc450
+
+#RingCtrl0 0
+*RUN_PLATFORM 0
+#RingCtrl1 3
+*SHOW_LINK 3
+
+#EMBEDDED_NOTES
+#To run this example in Windows:
+#1) click Open Model or Generate FMU
+#2) in Simulink, click the run button
+#
+#V: Video
+#P: Plot
+#
+#Each vehicle in the platoon uses a shared simulink model, that leverages parallel solvers to simulate the vehicles across multiple TruckSim Runs.
+#
+#To run with more than two VS Math Models you will need licenses for the extra models.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Parallel VS Math Models; { Platooning } Tractor-Trailers Platoon Brake Test
+#Library : Parallel VS Math Models
+#DataSet : Tractor-Trailers Platoon Brake Test
+#Category: Platooning
+#FileID  : MVeh_6ac5de20-6113-4921-92e3-993866738a03
+#Created : 09-09-2021 10:22:52
+#Modified: 12-11-2021 11:42:40
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode mVeh
+
+END

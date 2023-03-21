@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Powertrain: Hybrid/Electric Power Management Control`Power Management: Full Load 495kW`
+! Hybrid Power Management Controller. 
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_REGEN_OFF_THRT 0
+VLOW_ENG_MODE 45
+PWR_ENG_MODE 300
+K_BATTERY_CHARGE 150
+BATTERY_CHARGE_TARG 0.6
+BATTERY_CHARGE_LOW 0.55
+AV_GNRTR_LIMIT 5850
+GNR_CONTROL_KP 0.0157
+GNR_CONTROL_KI 0.0000873
+VLOW_BATTERY_CHARGE 15
+PWR_HEV_DRV_MAX 500
+TC_PWR_HYBRID_AV 0.8
+KPW_PBK_HEV 160
+PWR_EV_MODE 100
+REGEN_BRK_OFF 0.8
+
+PARSFILE Generic\tables\GenTab_b06f5a28-dc73-4c60-8b66-40a80a7c1fc9.par
+#BlueLink0 Generic Table`Driver Demand Power: Full Load 495 kW` Powertrain (HEV)` , Driver Demand Power`GenTab_b06f5a28-dc73-4c60-8b66-40a80a7c1fc9
+
+PARSFILE Generic\tables\GenTab_d5035bc4-acab-4be1-8329-5b5080350249.par
+#BlueLink1 Generic Table`Optimal engine speed` Powertrain (HEV)` , Engine Optimal Speed`GenTab_d5035bc4-acab-4be1-8329-5b5080350249
+
+
+LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric Power Management Control; Power Management: Full Load 495kW
+#Library : Powertrain: Hybrid/Electric Power Management Control
+#DataSet : Power Management: Full Load 495kW
+#Category: 
+#FileID  : PMC_b076f40e-d53c-446e-b392-bd292462b132
+#Modified: 08-03-2021 13:29:47
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Power Management (HEV)
+
+END

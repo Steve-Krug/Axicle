@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Generic Table`Susp. Cab Damper: Left Rear, Linear`Suspended Cab
+#MiscYellow0
+define_table Cab_Damper_LR 1
+SET_UNITS_table_row Cab_Damper_LR_table mm/s
+#ENDMYellow
+
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+Cab_Damper_LR_TABLE LINEAR
+-1, -10
+0, 0
+1, 10
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD Cab_Damper_LR
+*X_LABEL LR Cab Compression Rate (mm/s)
+*Y_LABEL LR Cab Damper Force (N)
+
+
+#EMBEDDED_NOTES
+#Generic Table used to represent the Left Rear damper for the suspended cab.
+#
+#This table uses a new user-defined math model root keyword Cab_Damper_LR, and the table's row units are defined to be in mm/s. This makes it more convenient to enter damper compression rate data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Suspended Cab } Susp. Cab Damper: Left Rear, Linear
+#Library : Generic Table
+#DataSet : Susp. Cab Damper: Left Rear, Linear
+#Category: Suspended Cab
+#FileID  : GenTab_9787d1d2-96f3-4009-aae6-b964ebccde6a
+#Created : 05-26-2021 11:56:26
+#Modified: 01-21-2022 14:00:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

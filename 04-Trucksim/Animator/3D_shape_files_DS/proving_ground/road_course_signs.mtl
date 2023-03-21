@@ -1,0 +1,66 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl either_way
+Ka  1 1 1
+Kd  1 1 1
+Ks  0.9 0.9 0.9
+d  1
+Ns  0
+illum 2
+map_Kd either_way.tga
+#
+newmtl either_way_back
+Ka  1 1 1
+Kd  1 1 1
+Ks  0.9 0.9 0.9
+d  1
+Ns  0
+illum 2
+map_Kd either_way_back.tga
+#
+newmtl exit_left
+Ka  1 1 1
+Kd  1 1 1
+Ks  0.9 0.9 0.9
+d  1
+Ns  0
+illum 2
+map_Kd exit_left.tga
+#
+newmtl 8_-_Default
+Ka  1 1 1
+Kd  1 1 1
+Ks  0.9 0.9 0.9
+d  1
+Ns  0
+illum 2
+map_Kd road_course_back.tga
+#
+newmtl stop_back
+Ka  1 1 1
+Kd  1 1 1
+Ks  0.9 0.9 0.9
+d  1
+Ns  0
+illum 2
+map_Kd stop_back.tga
+#
+newmtl stop
+Ka  1 1 1
+Kd  1 1 1
+Ks  0.9 0.9 0.9
+d  1
+Ns  0
+illum 2
+map_Kd stop.tga
+#
+newmtl exit_right
+Ka  1 1 1
+Kd  1 1 1
+Ks  0.9 0.9 0.9
+d  1
+Ns  0
+illum 2
+map_Kd exit_right.tga
+#
+# EOF

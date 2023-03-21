@@ -1,0 +1,56 @@
+PARSFILE
+#FullDataName Payload: Custom`40-foot Dry Cargo Container (Empty)`Shipping Containers
+DEFINE_PAYLOADS 1
+ILOAD = NLOAD
+OPT_PL_BODY_ID = IUNIT
+IOBJECT_SAVE
+SET_DESCRIPTION PAYLOAD_NAME 40-foot Dry Cargo Container (Empty)
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Animator\STL\Shape_e8bd107e-9f32-424e-8e00-27da5710c7f3.par
+#BlueLink0 Animator: Shape File Link`40-ft Shipping Container (Whole)` Common Vehicle Assets: Payloads` , Animator`Shape_e8bd107e-9f32-424e-8e00-27da5710c7f3
+
+SET_OFFSET_X -5.42000025744
+SET_OFFSET_Y 0
+SET_OFFSET_Z 2.54200012074
+Z_CG_PL 2542
+LX_CG_PL 5420
+Y_CG_PL 0
+M_PL 3980
+IXX_PL 7977.38
+IYY_PL 62623.01
+IZZ_PL 62259.93
+IXZ_PL 0
+IXY_PL 0
+IYZ_PL 0
+*RX 1.416
+*RY 3.967
+*RZ 3.955
+
+IOBJECT_RESTORE
+
+#EMBEDDED_NOTES
+#This payload represents a 40-foot Dry Cargo Container (Empty)
+#
+#Dimensions:
+#-Length: 12.19 m
+#-Width: 2.44 m
+#-Height: 2.59 m (Standard 8' 6")
+#
+#Empty mass: 3,980 kg (8,776 lbf)
+#
+#Total Capacity: 26,500 kg (58,433 lbf)
+#
+#The front of the cargo container is 675 mm forward of the sprung mass origin for the trailer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Payload: Custom; { Shipping Containers } 40-foot Dry Cargo Container (Empty)
+#Library : Payload: Custom
+#DataSet : 40-foot Dry Cargo Container (Empty)
+#Category: Shipping Containers
+#FileID  : Custom_3031ade2-38a8-4aca-9124-3ea64fb686df
+#Modified: 06-07-2021 01:49:43
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Payload: Custom
+
+END

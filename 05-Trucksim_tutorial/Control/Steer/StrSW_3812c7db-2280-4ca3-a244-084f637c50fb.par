@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Control: Steering (Open Loop)`Step: 0 to 60 deg at 1 sec`Constant
+OPT_DM 0
+OPT_STR_BY_TRQ 0
+#CheckBox0 0    
+
+#RingCtrl0 STEP
+#RadioCtrl0 0    
+
+#DiagramOne0
+STEER_SW_TABLE STEP
+0, 0
+1, 60
+ENDTABLE
+*SCALAR 0
+
+
+LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Constant } Step: 0 to 60 deg at 1 sec
+#Library : Control: Steering (Open Loop)
+#DataSet : Step: 0 to 60 deg at 1 sec
+#Category: Constant
+#FileID  : StrSW_3812c7db-2280-4ca3-a244-084f637c50fb
+#Modified: 06-07-2021 01:53:08
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Open-Loop Steering
+
+END

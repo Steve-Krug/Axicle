@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Events`AEB CCRm,s A. Wait for AEB to Intervene`Euro NCAP AEB Testing: CCRm,s
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 ZERO ~=
+#RingCtrl10 1
+#RingCtrl11 4
+RESET_EVENTS
+*NAME1 T_EVENT
+*VALUE1 ApplyAEB_FullStop
+DEFINE_EVENT ApplyAEB_FullStop ; Events\Events_4ba63fb0-0687-4fa0-af94-e935d24046ec.par
+#BlueLink0 Events`AEB CCRm B. Monitor Braking Progress` Euro NCAP AEB Testing: CCRm,s` , Events`Events_4ba63fb0-0687-4fa0-af94-e935d24046ec
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#ApplyAEB is the command to apply the brakes.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP AEB Testing: CCRm,s } AEB CCRm,s A. Wait for AEB to Intervene
+#Library : Events
+#DataSet : AEB CCRm,s A. Wait for AEB to Intervene
+#Category: Euro NCAP AEB Testing: CCRm,s
+#FileID  : Events_b5b3075a-daca-4624-bde3-ca10b4a62943
+#Created : 09-29-2021 12:23:23
+#Modified: 09-29-2021 12:25:07
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

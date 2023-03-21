@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Tires: Vehicle Unit with 2 Axles`175/65 R14`TS 2A Touring Tires
+
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+
+
+symbol_add  <<axle>> 1
+
+iaxle 1
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 0
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_76fe8d6a-5f7e-4855-93df-de3427664207.par
+#BlueLink1 Tire`175/65 R14` Touring Tires` , Tires`Tire_76fe8d6a-5f7e-4855-93df-de3427664207
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_76fe8d6a-5f7e-4855-93df-de3427664207.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tires`Tire_76fe8d6a-5f7e-4855-93df-de3427664207
+
+symbol_add  <<axle>> 1
+
+iaxle 2
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 0
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_76fe8d6a-5f7e-4855-93df-de3427664207.par
+#BlueLink5 Tire`175/65 R14` Touring Tires` , Tires`Tire_76fe8d6a-5f7e-4855-93df-de3427664207
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_76fe8d6a-5f7e-4855-93df-de3427664207.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tires`Tire_76fe8d6a-5f7e-4855-93df-de3427664207
+
+
+LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Touring Tires } 175/65 R14
+#Library : Tires: Vehicle Unit with 2 Axles
+#DataSet : 175/65 R14
+#Category: TS 2A Touring Tires
+#FileID  : Tire2a_d5f0d91d-a09c-4037-b446-816e25db25a3
+#Created : 05-05-2021 14:45:54
+#Modified: 06-07-2021 01:48:55
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 2a Tire Group
+
+END

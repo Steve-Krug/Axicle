@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Events`B. Monitor long accel for max speed`Top Speed Test
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >=
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 T
+*VALUE1 T_CHECK
+#MiscYellow0
+T_CHECK = T_STAMP+5
+#ENDMYellow
+
+MAKE_EVENT T >= T_CHECK ; Events\Events_f26accfb-06b6-4258-b791-762cb2101c50.par
+#BlueLink0 Events`C. Wait` Top Speed Test` , Events`Events_f26accfb-06b6-4258-b791-762cb2101c50
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#The top speed is assumed to be reached when the vehicle is no longer accelerating more than the tolerance set here.
+#
+#There is a deadband period to avoid false positives; see next Event.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Top Speed Test } B. Monitor long accel for max speed
+#Library : Events
+#DataSet : B. Monitor long accel for max speed
+#Category: Top Speed Test
+#FileID  : Events_6f4b69e9-c279-471d-8d4b-44468261480a
+#Modified: 06-07-2021 01:49:23
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

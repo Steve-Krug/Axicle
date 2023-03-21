@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Z vs. Time`Suspension - Ind. Kin. Outputs
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Zrel_<<tire>>, Time
+PLOTCHANNELS Zrel_<<tire>>_Alt, Time, Wheel center <<tire>> (input)
+
+#ENDMYellow
+
+YAXISLABEL <<tire>> - Sprung mass Z [mm]
+XAXISLABEL Time [s]
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Z vs. Time
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } Z vs. Time
+#Library : Plot: Setup
+#DataSet : Z vs. Time
+#Category: Suspension - Ind. Kin. Outputs
+#FileID  : Plot_8d16017d-3177-4806-8b6b-6763cba3e492
+#Created : 11-17-2021 08:37:42
+#Modified: 11-17-2021 08:38:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

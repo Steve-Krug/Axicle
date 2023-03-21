@@ -1,0 +1,84 @@
+PARSFILE
+#FullDataName TruckSim Run Control`001 Raise 1 whl, lower 1 whl: Node aft`Chassis Twist
+#VEHICLECODE F_I_I
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_e9cba5e2-7192-4fe0-b88d-a0903b3c4196
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_1cda02f1-83b2-420a-a133-a4725146fd4e.par
+#BlueLink0 Animator: Camera Setup`25 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_1cda02f1-83b2-420a-a133-a4725146fd4e
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 1 0
+SET_RUN_COLOR 1 1 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Lead_2a\Lead2a_d630bfd6-a5b1-450e-a57f-c3d53deb8fd1.par
+#BlueLink2 Vehicle: Lead Unit with 2 Axles`Base vehicle (node aft) (Invisible tires)` Chassis twist study` , Math Model`Lead2a_d630bfd6-a5b1-450e-a57f-c3d53deb8fd1
+
+PARSFILE Procedures\Proc_72c4b2bc-7df1-4f50-8050-810ba06026af.par
+#BlueLink28 Procedures`Raise one wheel, lower one wheel` Chassis twist study` , Procedure`Proc_72c4b2bc-7df1-4f50-8050-810ba06026af
+
+PARSFILE Animator\Groups\Group_dc81b81d-c7c7-4b19-9235-86cde6c5ce0e.par
+#BlueLink9 Animator: Group`Frame rails (Node aft)` Chassis twist study` , Miscellaneous`Group_dc81b81d-c7c7-4b19-9235-86cde6c5ce0e
+
+
+SPECIAL_PARSFILE Runs\Run_5303788d-7e1b-447f-b451-3d6919c8b091.par
+#BlueLink23 TruckSim Run Control`001 Raise 1 whl, lower 1 whl: Node ctr` Chassis Twist` , Overlay run or ERD file`Run_5303788d-7e1b-447f-b451-3d6919c8b091
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_2a\Lead2a_d630bfd6-a5b1-450e-a57f-c3d53deb8fd1.png
+WRITE_SENSOR_DETECT
+Title 001 Raise 1 whl, lower 1 whl: Node aft <Chassis Twist>
+CATEGORY Chassis Twist 
+DATASET_TITLE 001 Raise 1 whl, lower 1 whl: Node aft
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#Overlay run for comparison to
+#* 001 Raise 1 whl, lower 1 whl: Node ctr
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Chassis Twist } 001 Raise 1 whl, lower 1 whl: Node aft
+#Library : TruckSim Run Control
+#DataSet : 001 Raise 1 whl, lower 1 whl: Node aft
+#Category: Chassis Twist
+#FileID  : Run_e9cba5e2-7192-4fe0-b88d-a0903b3c4196
+#Modified: 06-10-2021 08:55:14
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

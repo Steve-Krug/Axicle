@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Articulated Bus - Front`Vans and Buses
+*COLOR .36 .117 .117
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0
+*X_REF_LENGTH 5375
+*Y_REF_LENGTH 2632
+*Z_REF_LENGTH 2973
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE CUSTOM
+*IMAGE_FILE Animator\STL_Groups\ShpGrp_5e218565-4cb7-449d-9813-da9174add7cd.png
+PARSFILE Animator\STL\Shape_88b40ebd-d892-49db-8796-cf3304da02ab.par
+#BlueLink0 Animator: Shape File Link`Articulated Bus: Body` Artic Bus` , Shape File`Shape_88b40ebd-d892-49db-8796-cf3304da02ab
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0
+PARSFILE Animator\STL\Shape_d458fb0e-05ef-4ae7-b1f2-1076e337b288.par
+#BlueLink1 Animator: Shape File Link`Artic Bus: Driver (Caucasian Male)` Artic Bus` , Shape File`Shape_d458fb0e-05ef-4ae7-b1f2-1076e337b288
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0
+x_ref_length 5375
+y_ref_length 2632
+z_ref_length 2973
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Vans and Buses } Articulated Bus - Front
+#Library : Animator: Shape Assembly
+#DataSet : Articulated Bus - Front
+#Category: Vans and Buses
+#FileID  : ShpGrp_5e218565-4cb7-449d-9813-da9174add7cd
+#Created : 09-29-2021 17:27:56
+#Modified: 12-10-2021 10:54:26
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

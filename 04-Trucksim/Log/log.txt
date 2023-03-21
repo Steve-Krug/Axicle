@@ -1,0 +1,87 @@
+2023-01-02T17:02:14 Logfile initialized.
+2023-01-02T17:02:14 (Info):    TruckSim 2022.1
+2023-01-02T17:02:14 (Info):    -
+2023-01-02T17:02:14 (Info):    command-line: 
+2023-01-02T17:02:14 (Info):    -
+2023-01-02T17:02:14 (Info):    Working Dir: C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\04-Trucksim\
+2023-01-02T17:02:14 (Info):    Program Dir: C:\Program Files (x86)\TruckSim2022.1_Prog\
+2023-01-02T17:02:14 (Info):    -
+2023-01-02T17:02:14 (Info):    OS Version:        6.2 (build 9200)
+2023-01-02T17:02:14 (Info):    CPU Architecture:  x64
+2023-01-02T17:02:14 (Info):    CPU Count:         20
+2023-01-02T17:02:14 (Info):    CPU Level/Rev:     6/38658
+2023-01-02T17:02:14 (Info):    Start Mem Total:   32492 MB
+2023-01-02T17:02:14 (Info):    Start Mem Used:    37%
+2023-01-02T17:02:14 (Info):    -
+2023-01-02T17:02:14 (Info):    Loaded dataset index cache in 0.01s, 25.6 megabytes.
+2023-01-02T17:02:14 (Info):    Feature                  Source                       Version  Acquired  Count
+2023-01-02T17:02:14 (Info):    -----------------        -----------------            -------  --------  -----
+2023-01-02T17:02:15 (Info):    trucksimus               C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-02T17:02:15 (Info):    trucksimfus              C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-02T17:02:15 (Info):    trucksimsguius           C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-02T17:02:38 (Info):    Acquired [1] license for trucksimsguius
+2023-01-02T17:02:38 (Info):    Acquired [1] license for trucksimus
+2023-01-02T17:02:38 (Info):    Acquired [1] license for trucksimfus
+2023-01-02T17:02:39 (Info):    License check took 24.34 seconds.
+2023-01-02T17:02:39 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-02T17:02:39 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-02T17:02:39 (Info):    Initial setup took 0.19 seconds.
+2023-01-02T17:02:39 (Info):    Auto updates took 0.00 seconds.
+2023-01-02T17:02:39 (Info):    Loaded last screen in 0.20 seconds.
+2023-01-02T17:02:39 (Info):    Total init time 24.92 seconds.
+2023-01-02T17:21:57 (Info):    Released [1] license for trucksimsguius
+2023-01-02T17:21:57 (Info):    Released [1] license for trucksimus
+2023-01-02T17:21:57 (Info):    Released [1] license for trucksimfus
+2023-01-02T17:21:57 (Info):    Feature                  Source                       Version  Acquired  Count
+2023-01-02T17:21:57 (Info):    -----------------        -----------------            -------  --------  -----
+2023-01-02T17:21:57 (Info):    trucksimus               C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-02T17:21:57 (Info):    trucksimfus              C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-02T17:21:57 (Info):    trucksimsguius           C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-02T17:22:35 (Info):    Acquired [1] license for trucksimsguius
+2023-01-02T17:22:35 (Info):    Acquired [1] license for trucksimus
+2023-01-02T17:22:35 (Info):    Acquired [1] license for trucksimfus
+2023-01-02T17:54:53 (Info):    Dataset created in "Runs\": { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1 (UUID: Run_8f328aed-cb5e-4770-a4b4-6dd26abfadfb).
+2023-01-02T17:56:26 (Info):    Dataset created in "Procedures\": { Stability Tests } Wind rollover (UUID: Proc_cab72959-8e96-4623-ab10-078c80d860cc).
+2023-01-02T17:56:45 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-02T17:56:46 (Info):    Regenerated road shapes for "Roads\3D_Road\Road_880696de-6885-420f-8234-39da6683a732.ani" linked from "Roads\3D_Road\Road_880696de-6885-420f-8234-39da6683a732.par".
+2023-01-02T17:56:46 (Info):    Math model run completed.
+2023-01-02T17:56:50 (Info):    Assembling animation...
+2023-01-02T17:56:50 (Info):    Animation assembly finished.
+2023-01-02T18:05:00 (Info):    Dataset created in "Vehicles\Trailer_3a\": { Flatbed Trailers } 18t Flatbed Trailer, Tridem, Added Aero (UUID: Trl3a_d2eb1b13-fe4b-48a7-8126-02a40a048d30).
+2023-01-02T18:05:25 (Info):    Dataset created in "Aerodynamics\Aero_Main\": { Buses } Trailer Aero (UUID: Aero_b6f77630-8f6b-4093-b53f-926eb8746113).
+2023-01-02T18:07:10 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-02T18:07:10 (Info):    Math model run completed.
+2023-01-02T18:07:14 (Info):    Assembling animation...
+2023-01-02T18:07:16 (Info):    Animation assembly finished.
+2023-01-02T18:07:57 (Info):    Assembling animation...
+2023-01-02T18:07:58 (Info):    Animation assembly finished.
+2023-01-02T18:09:14 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-02T18:09:14 (Info):    Math model run completed.
+2023-01-02T18:09:19 (Info):    Assembling animation...
+2023-01-02T18:09:21 (Info):    Animation assembly finished.
+2023-01-02T18:14:08 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-02T18:14:08 (Info):    Math model run completed.
+2023-01-02T18:14:16 (Info):    Assembling animation...
+2023-01-02T18:14:17 (Info):    Animation assembly finished.
+2023-01-02T18:16:34 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-02T18:16:35 (Info):    Math model run completed.
+2023-01-02T18:16:39 (Info):    Assembling animation...
+2023-01-02T18:16:40 (Info):    Animation assembly finished.
+2023-01-02T18:22:41 (Info):    Assembling animation...
+2023-01-02T18:22:42 (Info):    Animation assembly finished.
+2023-01-02T18:26:06 (Info):    Dataset created in "Runs\": { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel (UUID: Run_725a6a2f-7909-40d9-9f7e-c98e2c24caed).
+2023-01-02T18:27:23 (Info):    Dataset created in "Hitches\Joint\": { 5th Wheel Hitches } 5th Wheel, No Torsional Resistance (UUID: Hitch_9cace750-abb9-4cdd-8429-1c0dacd511b9).
+2023-01-02T18:27:46 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel
+2023-01-02T18:27:46 (Info):    Math model run completed.
+2023-01-02T18:27:50 (Info):    Assembling animation...
+2023-01-02T18:27:53 (Info):    Animation assembly finished.
+2023-01-02T18:32:12 (Info):    Assembling animation...
+2023-01-02T18:32:13 (Info):    Animation assembly finished.
+2023-01-02T18:37:01 (Info):    Assembling animation...
+2023-01-02T18:37:03 (Info):    Animation assembly finished.
+2023-01-02T18:52:19 (Info):    Assembling animation...
+2023-01-02T18:52:21 (Info):    Animation assembly finished.
+2023-01-02T19:04:43 (Info):    Dataset created in "Vehicles\Loaded\": { Sleeper-Cab Tractor-Trailers } 4A Sleeper +1A Flatbed Trl, No Trailer (UUID: VehLoad_519a4d99-2dc5-40b5-9939-51c8641517ed).
+2023-01-02T19:04:52 (Info):    Assembling animation...
+2023-01-02T19:04:53 (Info):    Animation assembly finished.
+2023-01-02T19:05:20 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl , Crosswind Ti

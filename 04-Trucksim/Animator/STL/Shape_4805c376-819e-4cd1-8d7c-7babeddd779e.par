@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Box Trailer, 53-ft: Walls`Trailers (1 of 2)
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Box_Trailer\Box_Trailer53.osg
+#ENDMYellow
+
+SET_COLOR 1 1 1
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_4805c376-819e-4cd1-8d7c-7babeddd779e.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers (1 of 2) } Box Trailer, 53-ft: Walls
+#Library : Animator: Shape File Link
+#DataSet : Box Trailer, 53-ft: Walls
+#Category: Trailers (1 of 2)
+#FileID  : Shape_4805c376-819e-4cd1-8d7c-7babeddd779e
+#Created : 12-08-2021 10:15:25
+#Modified: 12-08-2021 10:18:18
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

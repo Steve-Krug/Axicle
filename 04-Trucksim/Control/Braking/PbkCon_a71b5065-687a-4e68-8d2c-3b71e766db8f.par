@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Control: Braking MC Pressure (Open Loop)`Constant: AEB_MAX_BK_REQ`Constant
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+PBK_CON_CONSTANT AEB_MAX_BK_REQ
+*SCALAR AEB_MAX_BK_REQ
+
+
+#EMBEDDED_NOTES
+#AEB_MAX_BK_REQ is defined in the Vehicle AEB logic
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: AEB_MAX_BK_REQ
+#Library : Control: Braking MC Pressure (Open Loop)
+#DataSet : Constant: AEB_MAX_BK_REQ
+#Category: Constant
+#FileID  : PbkCon_a71b5065-687a-4e68-8d2c-3b71e766db8f
+#Created : 09-29-2021 14:16:53
+#Modified: 09-29-2021 14:17:00
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Brake Control
+
+END

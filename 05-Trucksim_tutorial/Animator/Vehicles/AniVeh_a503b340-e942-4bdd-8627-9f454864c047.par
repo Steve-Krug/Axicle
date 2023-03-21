@@ -1,0 +1,53 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`Cube for sprung mass`2A Lead Units
+
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 1    
+#CheckBox8 0    
+
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
+*LAT_WC 2300
+*LAT_WC_2 1863
+*HWC 520
+*WHEEL_RATIO 0.99
+*LAXLE_1 0
+*LAXLE_2 5375
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_a503b340-e942-4bdd-8627-9f454864c047.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL\Shape_cf264102-4b84-4838-8d9f-70451f2edd50.par
+#BlueLink1 Animator: Shape File Link`Cube: Stretched for Art Bus` Geometric Shapes` , Vehicle Body`Shape_cf264102-4b84-4838-8d9f-70451f2edd50
+
+WRITE_REFERENCE_FRAME_SIZE
+#MiscYellow0
+set_offset_x -0.19
+#ENDMYellow
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_ff6bc5e6-2783-41e9-95e8-dfe41220bfe5.par
+#BlueLink5 Animator: Camera Setup`XY Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_ff6bc5e6-2783-41e9-95e8-dfe41220bfe5
+
+
+#EMBEDDED_NOTES
+#The cube has a reference length of 600, which gives reasonable scaling in the X direction for the two units in the artriculated bus.
+#
+#The X offset is set separately for the lead unit and trailer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { 2A Lead Units } Cube for sprung mass
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : Cube for sprung mass
+#Category: 2A Lead Units
+#FileID  : AniVeh_a503b340-e942-4bdd-8627-9f454864c047
+#Created : 11-18-2021 08:47:37
+#Modified: 04-18-2022 12:23:43
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Vehicle Shape
+
+END

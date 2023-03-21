@@ -1,0 +1,104 @@
+PARSFILE
+#FullDataName TruckSim Run Control`TRT, Tandem drive, tri-axle, tandem dolly`Vehicle Layout: Triple Trailers
+#VEHICLECODE S_SS + SSS + dSS + SSS + dSS + SSS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_46f676c0-af40-4374-aa53-a9a746b34679
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 5
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Generic\Links\GenLink_2262f681-8374-4f6c-920f-978a937b3432.par
+#BlueLink2 Generic Group of Links`TRT, Tandem drive, tri-axle, tand. dolly` Conventional Triple Road Train` , Math Model`GenLink_2262f681-8374-4f6c-920f-978a937b3432
+
+PARSFILE Procedures\Proc_fdccaa91-6052-4816-adad-68e3562e08c5.par
+#BlueLink28 Procedures`DLC @ 50 km/h` Handling Tests` , Procedure`Proc_fdccaa91-6052-4816-adad-68e3562e08c5
+
+PARSFILE Generic\Group\GenGrp_e73733d6-ad3c-4b1f-a1f0-6687c71cd171.par
+#BlueLink9 Generic Data Group`16 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_e73733d6-ad3c-4b1f-a1f0-6687c71cd171
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55.par
+#BlueLink10 Multiple Moving Objects`1 Driver Preview Point, Set by DM` Points of Interest` , Miscellaneous`TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55
+
+*SPEED 0
+*TSTOP 1
+PARSFILE Plot\Setup\Plot_ae1e2c83-8feb-442b-b3a9-3ca8bb0e3211.par
+#BlueLink15 Plot: Setup`Hitch Moments` Hitch` , Plot`Plot_ae1e2c83-8feb-442b-b3a9-3ca8bb0e3211
+
+PARSFILE Plot\Setup\Plot_4b320824-e59a-413e-a4e8-f0e24902e3dc.par
+#BlueLink16 Plot: Setup`Hitch Forces (X)` Hitch` , Plot`Plot_4b320824-e59a-413e-a4e8-f0e24902e3dc
+
+PARSFILE Plot\Setup\Plot_327033c6-8353-4ad6-b2c1-217e61800c9c.par
+#BlueLink17 Plot: Setup`Hitch Forces (Y)` Hitch` , Plot`Plot_327033c6-8353-4ad6-b2c1-217e61800c9c
+
+PARSFILE Plot\Setup\Plot_d0698602-2ff2-4e05-b2cf-765d91039258.par
+#BlueLink18 Plot: Setup`Hitch Forces (Z)` Hitch` , Plot`Plot_d0698602-2ff2-4e05-b2cf-765d91039258
+
+PARSFILE Plot\Setup\Plot_2498a5b8-f7ea-49c0-9e6d-4a71cbc68b5b.par
+#BlueLink19 Plot: Setup`Towbar Angles` Hitch, Hinged Towbar` , Plot`Plot_2498a5b8-f7ea-49c0-9e6d-4a71cbc68b5b
+
+
+*IMAGE_TYPE PASS_THROUGH
+WRITE_SENSOR_DETECT
+Title TRT, Tandem drive, tri-axle, tandem dolly <Vehicle Layout: Triple Trailers>
+CATEGORY Vehicle Layout: Triple Trailers 
+DATASET_TITLE TRT, Tandem drive, tri-axle, tandem dolly
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#S_SS + SSS + dSS + SSS + dSS + SSS
+#
+#The two dollies have two axles each and use a 5th wheel with a hinged towbar.
+#
+#A Conventional Triple Road Train may also be referred to as a Type II road train, or an A-triple.
+#
+#This vehicle configuration consists of a prime mover coupled to a semi-trailer, then 2 dog trailers connected via an A-coupling.
+#
+#The dolly-trailer groups comprise of a converter dolly and a semi-trailer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Triple Trailers } TRT, Tandem drive, tri-axle, tandem dolly
+#Library : TruckSim Run Control
+#DataSet : TRT, Tandem drive, tri-axle, tandem dolly
+#Category: Vehicle Layout: Triple Trailers
+#FileID  : Run_46f676c0-af40-4374-aa53-a9a746b34679
+#Modified: 06-06-2022 11:07:37
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

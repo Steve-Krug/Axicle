@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`90 Azm, 5 El, 60 m, 32 FOV`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+
+SET_CAMERA_REFERENCE_FRAME Frame_26d1f38d-25e9-404a-990f-5491aaf02934
+PARSFILE Animator\Frames\Frame_26d1f38d-25e9-404a-990f-5491aaf02934.par
+#BlueLink0 Animator: Reference Frame`Vehicle X-Y-Z-Yaw` Tracking: Vehicle` , Reference frame for outside camera`Frame_26d1f38d-25e9-404a-990f-5491aaf02934
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_26d1f38d-25e9-404a-990f-5491aaf02934
+SET_LOOKPOINT_X -15
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 0.5
+SET_AZIMUTH 90
+SET_ELEVATION 5
+SET_DISTANCE 60
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -15
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 0.5
+*SET_AZIMUTH 90
+*SET_ELEVATION 5
+*SET_DISTANCE 60
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 32
+
+#EMBEDDED_NOTES
+#This Animator: Camera dataset is set up to view Long Combination Vehicles (LCV).
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } 90 Azm, 5 El, 60 m, 32 FOV
+#Library : Animator: Camera Setup
+#DataSet : 90 Azm, 5 El, 60 m, 32 FOV
+#Category: Vehicle Reference
+#FileID  : Camera_0b2dedc7-7ef8-4659-a29b-85fc0a17fddf
+#Created : 10-04-2021 16:24:20
+#Modified: 10-04-2021 16:59:49
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Camera
+
+END

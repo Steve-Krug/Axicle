@@ -1,0 +1,70 @@
+PARSFILE
+#FullDataName Powertrain: 4-Wheel Drive`43kW/40kW, Axle-split Parallel Hybrid`Hybrid: 43kW/40kW (Engine + Motor)
+INSTALL_POWERTRAIN 3
+OPT_PT 3
+INSTALL_ENGINE
+
+R_REAR_DRIVE_SC 0.5
+
+#RingCtrl0 1
+R_MDRIVE 1
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 1
+
+OPT_ENGINE_INTERNAL 1
+OPT_PWR_CPL_INTERNAL 0
+OPT_TRANS_INTERNAL 0
+IDIFF 1
+OPT_DIFF_INTERNAL 1
+IDIFF 2
+OPT_DIFF_INTERNAL 1
+IDIFF 3
+OPT_DIFF_INTERNAL 1
+
+PARSFILE Powertrain\Engine\Engine_3968f013-3ba7-4b5c-8ee4-09dfd8f1b514.par
+#BlueLink0 Powertrain: Engine`1.5L, 43 kW  Engine w/o delay` 32 kW - 125 kW Engines` , Engine`Engine_3968f013-3ba7-4b5c-8ee4-09dfd8f1b514
+
+PARSFILE Powertrain\HEV\HEV_6115869a-913b-414d-8703-2679a0eeb2b3.par
+#BlueLink11 Powertrain: Hybrid/Electric System`Paralle Hybrid, Motor on Axle` ` , Hybrid system`HEV_6115869a-913b-414d-8703-2679a0eeb2b3
+
+PARSFILE Powertrain\HEV_PMC\PMC_6d3286a1-e52e-4798-994a-7dcf2e96446a.par
+#BlueLink12 Powertrain: Hybrid/Electric Power Management Control`PL-Hyb. Pwr Mgmt: Full Load 165kW` ` , Transmission`PMC_6d3286a1-e52e-4798-994a-7dcf2e96446a
+
+
+IDIFF 3
+PARSFILE Powertrain\Centerdiff\XC_761f3586-6323-481e-b9aa-541104fcaddd.par
+#BlueLink3 Powertrain: Transfer Case`A.Split Hyb.: Fr Elect.; Rr IC, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_761f3586-6323-481e-b9aa-541104fcaddd
+
+
+IDIFF 1
+PARSFILE Powertrain\Frontdiff\DiffF_a1c20165-1bc1-4d4e-bcd0-2ef383e380e9.par
+#BlueLink4 Powertrain: Front Differential`EV Open Diff.: Gear Ratio 3.92:1 (40kW)` Electric Motor Drive (40 kW)` , Differential front`DiffF_a1c20165-1bc1-4d4e-bcd0-2ef383e380e9
+
+
+IDIFF 2
+PARSFILE Powertrain\Reardiff\DiffR_22e66ed6-351f-499c-88c6-1b3bc46c91f1.par
+#BlueLink5 Powertrain: Rear Differential`Open Differential: Gear Ratio 3.92:1` Open` , Differential rear`DiffR_22e66ed6-351f-499c-88c6-1b3bc46c91f1
+
+
+#EMBEDDED_NOTES
+#A generic 43 kW engine is connected with a  6-speed transmission through a mechanical clutch which poweres rear wheels, while an independent 40 kW electric motor is equipped on front drive axle as an axle-split parallel hybrid structure.
+#
+#In this powertrain setting, ICE + transmission drives rear wheels (see the transfer case screen, mechanical fraction torque on rear shaft is set to 100% ); while a generic independent 40 kW electric motor is equipped on front axle (see also the transfer case screen, electrical torque distribution to rear is set to 0%).
+#
+#Power manegement range is 165kW with full loaded throttle pedal.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { Hybrid: 43kW/40kW (Engine + Motor) } 43kW/40kW, Axle-split Parallel Hybrid
+#Library : Powertrain: 4-Wheel Drive
+#DataSet : 43kW/40kW, Axle-split Parallel Hybrid
+#Category: Hybrid: 43kW/40kW (Engine + Motor)
+#FileID  : 4WD_ae30ca37-ae40-4aa9-b671-4f553d844119
+#Created : 11-29-2021 16:31:19
+#Modified: 02-09-2022 16:01:07
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 4WD
+
+END

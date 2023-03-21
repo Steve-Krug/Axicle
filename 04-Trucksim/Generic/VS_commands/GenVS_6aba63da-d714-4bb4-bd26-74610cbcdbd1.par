@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Generic VS Commands`ACC, CCRs-Curved, VUT and GVT Setup`Euro NCAP
+#VehCode AEB, ACC Euro NCAP Setup
+
+#MiscYellow0
+******************************** VUT SETUP ********************************
+DEFINE_PARAMETER VUT_INIT_SPD = 70; km/h; Start speed of driven vehicle (VUT)
+! This gap distance should allow the initial time-to-collsion to be above 4.0s
+! This gap distance should allow the initial time-to-collsion to be above 4.0s
+DEFINE_PARAMETER INIT_TTC = 4.1; s; target TTC at start of test
+DEFINE_PARAMETER VUT_GVT_GAP = VUT_INIT_SPD*INIT_TTC; m; gap dist. btw. vut and gvt
+
+
+******************************** GVT SETUP ********************************
+DEFINE_PARAMETER SSTART_GVT =115; m ; Starting station of GVT
+DEFINE_PARAMETER LAT_GVT = -1.65; m ; Starting LTARG of GVT
+DEFINE_PARAMETER LEN_GVT = 4.1; m ; Length of GVT
+DEFINE_OUTPUT Vx_GVT = 0; km/h; GVT Speed
+#ENDMYellow
+
+*MODELCODE AEB, ACC Euro NCAP Setup
+
+#EMBEDDED_NOTES
+#Location and speed setup for the Euro NCAP VUT and GVT, used in vehicle-to-vehicle tests
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Euro NCAP } ACC, CCRs-Curved, VUT and GVT Setup
+#Library : Generic VS Commands
+#DataSet : ACC, CCRs-Curved, VUT and GVT Setup
+#Category: Euro NCAP
+#FileID  : GenVS_6aba63da-d714-4bb4-bd26-74610cbcdbd1
+#Created : 11-12-2021 13:45:31
+#Modified: 11-12-2021 13:45:40
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode AEB, ACC Euro NCAP Setup
+
+END

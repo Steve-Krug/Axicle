@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Import Path DM Target`Platoon
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_ee001fc3-0794-453e-b5ec-a278d5579738\Run_imp_tab.txt
+
+#MiscYellow0
+#ENDMYellow
+
+#MiscYellow1
+define_import imp_lead_speed_target
+import imp_lead_speed_target
+define_output lead_speed imp_lead_speed_target
+
+IMP_PCON_BK Add 0.0
+#ENDMYellow
+
+#BlueLink0 TruckSim Run Control`Platoon: Highway; Truck 2` Tractor Trailer Platoon, Parallel Solvers` , example run`Run_ee001fc3-0794-453e-b5ec-a278d5579738
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Platoon } Import Path DM Target
+#Library : I/O Channels: Import
+#DataSet : Import Path DM Target
+#Category: Platoon
+#FileID  : Import_ed5c6278-3fab-4a31-8472-a48dd2ebe788
+#Created : 07-21-2021 14:09:47
+#Modified: 09-09-2021 14:27:26
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Import Channels
+
+END

@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Animator: Group`Aux Steer Target Point (Red)`Auxiliary Steer Controller
+PARSFILE Animator\Frames\Frame_4b2745f5-4629-401f-854a-c55f819fe653.par
+#BlueLink0 Animator: Reference Frame`Aux Steer Controller Target` Auxiliary Steer Controller` , Miscellaneous`Frame_4b2745f5-4629-401f-854a-c55f819fe653
+
+PARSFILE Animator\STL\Shape_4c42a3ab-4872-4de6-af53-4f1ddce1c193.par
+#BlueLink1 Animator: Shape File Link`Target Point (Red)` Auxiliary Steer Controller` , Miscellaneous`Shape_4c42a3ab-4872-4de6-af53-4f1ddce1c193
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Auxiliary Steer Controller } Aux Steer Target Point (Red)
+#Library : Animator: Group
+#DataSet : Aux Steer Target Point (Red)
+#Category: Auxiliary Steer Controller
+#FileID  : Group_bcf3d69c-0017-4d18-a8f7-9bbb321a6da0
+#Created : 12-01-2021 13:18:28
+#Modified: 12-01-2021 13:20:32
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Animator Group
+
+END

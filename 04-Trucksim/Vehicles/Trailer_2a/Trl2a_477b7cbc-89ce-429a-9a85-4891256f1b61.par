@@ -1,0 +1,83 @@
+PARSFILE
+#FullDataName Vehicle: Trailer with 2 Axles`2A Large Rental Trailer`
+#VehCode SS
+IUNIT_INCREMENT
+symbol_add  <<unit>> 1
+NAXLES 2
+ITANDEM 1
+IOBJECT_SAVE
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 1
+#RingCtrl1 1
+#RingCtrl2 0
+symbol_push  <<axle_temp>> <<axle>>
+PARSFILE Tires\Group_2a\Tire2a_d5f0d91d-a09c-4037-b446-816e25db25a3.par
+#BlueLink11 Tires: Vehicle Unit with 2 Axles`175/65 R14` TS 2A Touring Tires` , Tires`Tire2a_d5f0d91d-a09c-4037-b446-816e25db25a3
+
+symbol_push  <<axle>> <<axle_temp>>
+*LX_AXLE_2 3672
+R_TANDEM 0.5
+CFZ_MY_TAND 0
+*LX_AXLE_1 2878
+R_TAND_TRAIL_STATIC 0.5
+R_TAND_TRAIL_STATIC 0.5
+
+iaxle 1
+OPT_STEER_EXT 1
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+LX_AXLE 2878
+PARSFILE Suspensions\Kin_Solid\KinSA_588de29a-476c-42e6-a9a4-e1b609405b3d.par
+#BlueLink14 Suspension: Solid Axle System Kinematics`Susp. Kinematics: Lg 2A Rental Trailer` Trailer Axle` , Kinematics`KinSA_588de29a-476c-42e6-a9a4-e1b609405b3d
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_be5d5879-0664-480d-b7c0-15ccd0498146.par
+#BlueLink16 Suspension: Solid Axle Compliance, Springs, and Dampers`Susp. Compliance: 1A Rental Trailer` Trailers` , Suspension compliance`CmpSA_be5d5879-0664-480d-b7c0-15ccd0498146
+
+PARSFILE Brakes\2W_System\Brk2W_bccc201a-3028-4048-acd0-5037c9aa79ce.par
+#BlueLink5 Brakes: Two-Wheel System`Trailer (2A): MC Press. , No ABS` Trailer Brakes` , Brakes`Brk2W_bccc201a-3028-4048-acd0-5037c9aa79ce
+
+
+iaxle 2
+OPT_STEER_EXT 1
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+LX_AXLE 3672
+PARSFILE Suspensions\Kin_Solid\KinSA_588de29a-476c-42e6-a9a4-e1b609405b3d.par
+#BlueLink15 Suspension: Solid Axle System Kinematics`Susp. Kinematics: Lg 2A Rental Trailer` Trailer Axle` , Kinematics`KinSA_588de29a-476c-42e6-a9a4-e1b609405b3d
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_be5d5879-0664-480d-b7c0-15ccd0498146.par
+#BlueLink17 Suspension: Solid Axle Compliance, Springs, and Dampers`Susp. Compliance: 1A Rental Trailer` Trailers` , Suspension compliance`CmpSA_be5d5879-0664-480d-b7c0-15ccd0498146
+
+PARSFILE Brakes\2W_System\Brk2W_bccc201a-3028-4048-acd0-5037c9aa79ce.par
+#BlueLink8 Brakes: Two-Wheel System`Trailer (2A): MC Press. , No ABS` Trailer Brakes` , Brakes`Brk2W_bccc201a-3028-4048-acd0-5037c9aa79ce
+
+
+WRITE_ADD_REFERENCE_FRAME_BODY
+x_length 3672
+PARSFILE Vehicles\Trl_Sprung_Mass\TrlSprM_f71d4f23-2908-42ea-8c3e-975197a5a74c.par
+#BlueLink1 Vehicle: Trailer Sprung Mass`2A Trailer (Large Rental)` 2A Trailer` , Sprung Mass`TrlSprM_f71d4f23-2908-42ea-8c3e-975197a5a74c
+
+PARSFILE Animator\Vehicles\AniVeh_1a9992a8-2265-4823-8af9-21b75027b9bd.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`2A Large Rental Trailer` Trailers: 2-axle` , Animator Shape(s)`AniVeh_1a9992a8-2265-4823-8af9-21b75027b9bd
+
+PARSFILE Aerodynamics\Aero_Main\Aero_2dcf0dd6-b552-482c-b346-939b627511c9.par
+#BlueLink2 Aerodynamics: Basic`No Aerodynamics` ` , Aerodynamics`Aero_2dcf0dd6-b552-482c-b346-939b627511c9
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_1a9992a8-2265-4823-8af9-21b75027b9bd.png
+IOBJECT_RESTORE
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer with 2 Axles; 2A Large Rental Trailer
+#Library : Vehicle: Trailer with 2 Axles
+#DataSet : 2A Large Rental Trailer
+#Category: 
+#FileID  : Trl2a_477b7cbc-89ce-429a-9a85-4891256f1b61
+#Created : 11-29-2021 18:36:24
+#Modified: 02-01-2022 14:28:39
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode SS
+
+END

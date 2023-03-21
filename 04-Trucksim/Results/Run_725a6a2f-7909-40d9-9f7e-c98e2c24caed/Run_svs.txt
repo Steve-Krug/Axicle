@@ -1,0 +1,896 @@
+TruckSim 2022.1
+MODEL_LAYOUT S_SSS__SSS
+
+DATASET_TITLE 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel
+CATEGORY Vehicle Layout: Single Trailers
+TITLE 4A Sleeper+3A Trl , Crosswind Tipover, No Torsion in 5th wheel <Vehicle Layout: Single Trailers>
+This file was generated 18:42 on January 02, 2023.
+
+For this run, the TruckSim 2022.1 math model has 257 ordinary differential
+equations (ODEs) and an additional 612 state variables (SVs), for a total of 869
+state variables. If the SV has an output name, it is shown in {braces}.
+
+SV_ABS_ON_OFF_L1 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L1
+SV_ABS_ON_OFF_L2 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L2
+SV_ABS_ON_OFF_L3 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L3
+SV_ABS_ON_OFF_L4 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L4
+SV_ABS_ON_OFF_L5 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L5
+SV_ABS_ON_OFF_L6 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L6
+SV_ABS_ON_OFF_L7 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L7
+SV_ABS_ON_OFF_R1 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L1
+SV_ABS_ON_OFF_R2 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L2
+SV_ABS_ON_OFF_R3 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L3
+SV_ABS_ON_OFF_R4 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L4
+SV_ABS_ON_OFF_R5 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L5
+SV_ABS_ON_OFF_R6 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L6
+SV_ABS_ON_OFF_R7 (-) ABS state: 1 -> apply brake, 0 -> release, wheel L7
+SV_AERO_ROAD_ID_1 (-) Road surface ID for tracked aero road point
+SV_AERO_ROAD_ID_2 (-) Road surface ID for tracked aero road point
+SV_AERO_ROAD_STA_1 (m) Road path station for tracked aero road point
+SV_AERO_ROAD_STA_2 (m) Road path station for tracked aero road point
+SV_ART_H1_OLD (deg) Articulation (2-1-3) for hitch 1
+SV_AT_LOCKED (-) Lock state of automatic transmission {TC_Lock}
+SV_AVX (deg/s) ODE: Body-X roll rate of sprung-mass, unit 1 {AVx}
+SV_AVX_2 (deg/s) ODE: Body-X roll rate of sprung-mass 2 {AVx_2}
+SV_AVX_A1 (deg/s) ODE: Roll rate of axle 1
+SV_AVX_A2 (deg/s) ODE: Roll rate of axle 2
+SV_AVX_A3 (deg/s) ODE: Roll rate of axle 3
+SV_AVX_A4 (deg/s) ODE: Roll rate of axle 4
+SV_AVX_A5 (deg/s) ODE: Roll rate of axle 5
+SV_AVX_A6 (deg/s) ODE: Roll rate of axle 6
+SV_AVX_A7 (deg/s) ODE: Roll rate of axle 7
+SV_AVY (deg/s) ODE: Body-Y pitch rate of sprung-mass, unit 1 {AVy}
+SV_AVY_2 (deg/s) ODE: Body-Y pitch rate of sprung-mass 2 {AVy_2}
+SV_AVY_L1 (rpm) ODE: Spin of wheel L1 {AVy_L1}
+SV_AVY_L1_OLD (rpm) Spin of wheel L1 (previous time step)
+SV_AVY_L2 (rpm) ODE: Spin of wheel L2 {AVy_L2}
+SV_AVY_L2_OLD (rpm) Spin of wheel L2 (previous time step)
+SV_AVY_L3 (rpm) ODE: Spin of wheel L3 {AVy_L3}
+SV_AVY_L3_OLD (rpm) Spin of wheel L3 (previous time step)
+SV_AVY_L4 (rpm) ODE: Spin of wheel L4 {AVy_L4}
+SV_AVY_L4_OLD (rpm) Spin of wheel L4 (previous time step)
+SV_AVY_L5 (rpm) ODE: Spin of wheel L5 {AVy_L5}
+SV_AVY_L5_OLD (rpm) Spin of wheel L5 (previous time step)
+SV_AVY_L6 (rpm) ODE: Spin of wheel L6 {AVy_L6}
+SV_AVY_L6_OLD (rpm) Spin of wheel L6 (previous time step)
+SV_AVY_L7 (rpm) ODE: Spin of wheel L7 {AVy_L7}
+SV_AVY_L7_OLD (rpm) Spin of wheel L7 (previous time step)
+SV_AVY_R1 (rpm) ODE: Spin of wheel R1 {AVy_R1}
+SV_AVY_R1_OLD (rpm) Spin of wheel R1 (previous time step)
+SV_AVY_R2 (rpm) ODE: Spin of wheel R2 {AVy_R2}
+SV_AVY_R2_OLD (rpm) Spin of wheel R2 (previous time step)
+SV_AVY_R3 (rpm) ODE: Spin of wheel R3 {AVy_R3}
+SV_AVY_R3_OLD (rpm) Spin of wheel R3 (previous time step)
+SV_AVY_R4 (rpm) ODE: Spin of wheel R4 {AVy_R4}
+SV_AVY_R4_OLD (rpm) Spin of wheel R4 (previous time step)
+SV_AVY_R5 (rpm) ODE: Spin of wheel R5 {AVy_R5}
+SV_AVY_R5_OLD (rpm) Spin of wheel R5 (previous time step)
+SV_AVY_R6 (rpm) ODE: Spin of wheel R6 {AVy_R6}
+SV_AVY_R6_OLD (rpm) Spin of wheel R6 (previous time step)
+SV_AVY_R7 (rpm) ODE: Spin of wheel R7 {AVy_R7}
+SV_AVY_R7_OLD (rpm) Spin of wheel R7 (previous time step)
+SV_AVZ (deg/s) ODE: Body-Z yaw rate of sprung-mass, unit 1 {AVz}
+SV_AVZ_2 (deg/s) ODE: Body-Z yaw rate of sprung-mass 2 {AVz_2}
+SV_AV_CL (rpm) Clutch relative spin, previous time step
+SV_AV_COL_CONTROL (deg/s) ODE: Steering wheel angular rate
+SV_AV_ENG (rpm) ODE: Engine crankshaft spin {AV_Eng}
+SV_AV_SHAFT_L_D1 (rpm) ODE: Diff1 Left (first) output shaft speed {AV_DS_L2}
+SV_AV_SHAFT_L_D4 (rpm) ODE: Diff4 Left (first) output shaft speed {AV_DS_L3}
+SV_AV_SHAFT_L_D5 (rpm) ODE: Diff5 Left (first) output shaft speed {AV_DS_L4}
+SV_AV_SHAFT_L_D6 (rpm) ODE: Diff6 Left (first) output shaft speed 
+SV_AV_SHAFT_L_D7 (rpm) ODE: Diff7 Left (first) output shaft speed 
+SV_AV_SHAFT_R_D1 (rpm) ODE: Diff1 Right (second) output shaft speed {AV_DS_R2}
+SV_AV_SHAFT_R_D4 (rpm) ODE: Diff4 Right (second) output shaft speed {AV_DS_R3}
+SV_AV_SHAFT_R_D5 (rpm) ODE: Diff5 Right (second) output shaft speed {AV_DS_R4}
+SV_AV_SHAFT_R_D6 (rpm) ODE: Diff6 Right (second) output shaft speed 
+SV_AV_SHAFT_R_D7 (rpm) ODE: Diff7 Right (second) output shaft speed 
+SV_AV_SW (deg/s) ODE: Steering wheel angular rate {StrAV_SW}
+SV_AV_TC (rpm) ODE: Torque coupling output shaft spin {AV_TC}
+SV_AV_TR_OUT (rpm) ODE: Transmission output shaft spin
+SV_A_CONTROL (deg) ODE: Str whl angle from driver model in torque control
+SV_BETA (deg) Sideslip (ISO)
+SV_BETA_2 (deg) Sideslip (ISO)
+SV_BETA_RD (deg) Sideslip using road axes
+SV_BETA_RD_2 (deg) Sideslip using road axes
+SV_CL_2ND_DIFF_LOCKED_1 (-) 2nd Clutch lock state, 1st drive axle diff, prev. time
+    step
+SV_CL_2ND_DIFF_LOCKED_4 (-) 2nd Clutch lock state, 3rd drive axle diff, prev. time
+    step
+SV_CL_2ND_DIFF_LOCKED_5 (-) 2nd Clutch lock state, 4th drive axle diff, prev. time
+    step
+SV_CL_2ND_DIFF_LOCKED_6 (-) 2nd Clutch lock state, inter-axle diff for drive axles
+    3,4, prev. time step
+SV_CL_2ND_DIFF_LOCKED_7 (-) 2nd Clutch lock state, master transfer case, prev. time
+    step
+SV_CL_2ND_DIFF_SLIP_REF_1 (deg) 2nd Clutch ref. angle for 1st drive axle diff
+SV_CL_2ND_DIFF_SLIP_REF_4 (deg) 2nd Clutch ref. angle for 3rd drive axle diff
+SV_CL_2ND_DIFF_SLIP_REF_5 (deg) 2nd Clutch ref. angle for 4th drive axle diff
+SV_CL_2ND_DIFF_SLIP_REF_6 (deg) 2nd Clutch ref. angle for inter-axle diff for drive
+    axles 3,4
+SV_CL_2ND_DIFF_SLIP_REF_7 (deg) 2nd Clutch ref. angle for master transfer case
+SV_CL_2ND_DIFF_SPIN_1 (rpm) 2nd Clutch rel. spin for 1st drive axle diff
+SV_CL_2ND_DIFF_SPIN_4 (rpm) 2nd Clutch rel. spin for 3rd drive axle diff
+SV_CL_2ND_DIFF_SPIN_5 (rpm) 2nd Clutch rel. spin for 4th drive axle diff
+SV_CL_2ND_DIFF_SPIN_6 (rpm) 2nd Clutch rel. spin for inter-axle diff for drive
+    axles 3,4
+SV_CL_2ND_DIFF_SPIN_7 (rpm) 2nd Clutch rel. spin for master transfer case
+SV_CL_ACCEL_START (-) Boolean: low-speed accel mode started prev. time step
+SV_CL_AUTO_ACCEL (-) Boolean: clutch is re-engaging to accelerate from stop
+SV_CL_AUTO_BRAKE (-) Boolean: clutch is disengaging to stop
+SV_CL_AUTO_INIT (-) Initiate closed-loop clutch, set in previous time step: -1 ->
+    accel, 0 -> no change, or 1 -> brake
+SV_CL_AUTO_SHIFT (-) Boolean: gear shift with clutch is in progress
+SV_CL_BRAKE_STOP (-) Boolean: low-speed brake mode started prev. time step
+SV_CL_CON (-) Transmission clutch control {ClutchTr}
+SV_CL_DIFF_LOCKED_1 (-) Clutch lock state for 1st drive axle diff
+SV_CL_DIFF_LOCKED_4 (-) Clutch lock state for 3rd drive axle diff
+SV_CL_DIFF_LOCKED_5 (-) Clutch lock state for 4th drive axle diff
+SV_CL_DIFF_LOCKED_6 (-) Clutch lock state for inter-axle diff for drive axles 3,4
+SV_CL_DIFF_LOCKED_7 (-) Clutch lock state for master transfer case
+SV_CL_DIFF_SLIP_REF_1 (deg) Clutch ref. angle for 1st drive axle diff
+SV_CL_DIFF_SLIP_REF_4 (deg) Clutch ref. angle for 3rd drive axle diff
+SV_CL_DIFF_SLIP_REF_5 (deg) Clutch ref. angle for 4th drive axle diff
+SV_CL_DIFF_SLIP_REF_6 (deg) Clutch ref. angle for inter-axle diff for drive axles
+    3,4
+SV_CL_DIFF_SLIP_REF_7 (deg) Clutch ref. angle for master transfer case
+SV_CL_DIFF_SPIN_1 (rpm) Clutch rel. spin, 1st drive axle diff, prev. time step
+SV_CL_DIFF_SPIN_4 (rpm) Clutch rel. spin, 3rd drive axle diff, prev. time step
+SV_CL_DIFF_SPIN_5 (rpm) Clutch rel. spin, 4th drive axle diff, prev. time step
+SV_CL_DIFF_SPIN_6 (rpm) Clutch rel. spin, inter-axle diff for drive axles 3,4,
+    prev. time step
+SV_CL_DIFF_SPIN_7 (rpm) Clutch rel. spin, master transfer case, prev. time step
+SV_CL_LOCKED (-) Clutch lockup state {Cl_Stat}
+SV_CL_TWIN_LOCKED_LF (-) Lock state of LF twin clutch
+SV_CL_TWIN_LOCKED_RF (-) Lock state of RF twin clutch
+SV_CL_TWIN_SPIN_LF (rpm) Rel. spin of LF twin clutch, prev. time step
+SV_CL_TWIN_SPIN_RF (rpm) Rel. spin of RF twin clutch, prev. time step
+SV_CMP_S_L1 (mm) Compression of ride spring L1
+SV_CMP_S_L2 (mm) Compression of ride spring L2
+SV_CMP_S_L3 (mm) Compression of ride spring L3
+SV_CMP_S_L4 (mm) Compression of ride spring L4
+SV_CMP_S_L5 (mm) Compression of ride spring L5
+SV_CMP_S_L6 (mm) Compression of ride spring L6
+SV_CMP_S_L7 (mm) Compression of ride spring L7
+SV_CMP_S_R1 (mm) Compression of ride spring R1
+SV_CMP_S_R2 (mm) Compression of ride spring R2
+SV_CMP_S_R3 (mm) Compression of ride spring R3
+SV_CMP_S_R4 (mm) Compression of ride spring R4
+SV_CMP_S_R5 (mm) Compression of ride spring R5
+SV_CMP_S_R6 (mm) Compression of ride spring R6
+SV_CMP_S_R7 (mm) Compression of ride spring R7
+SV_CONTACT_ID_L1I (-) Road surface ID for tire contact {RdID_L1I}
+SV_CONTACT_ID_L1O (-) Road surface ID for tire contact {RdID_L1O}
+SV_CONTACT_ID_L2I (-) Road surface ID for tire contact {RdID_L2I}
+SV_CONTACT_ID_L2O (-) Road surface ID for tire contact {RdID_L2O}
+SV_CONTACT_ID_L3I (-) Road surface ID for tire contact {RdID_L3I}
+SV_CONTACT_ID_L3O (-) Road surface ID for tire contact {RdID_L3O}
+SV_CONTACT_ID_L4I (-) Road surface ID for tire contact {RdID_L4I}
+SV_CONTACT_ID_L4O (-) Road surface ID for tire contact {RdID_L4O}
+SV_CONTACT_ID_L5I (-) Road surface ID for tire contact {RdID_L5I}
+SV_CONTACT_ID_L5O (-) Road surface ID for tire contact {RdID_L5O}
+SV_CONTACT_ID_L6I (-) Road surface ID for tire contact {RdID_L6I}
+SV_CONTACT_ID_L6O (-) Road surface ID for tire contact {RdID_L6O}
+SV_CONTACT_ID_L7I (-) Road surface ID for tire contact {RdID_L7I}
+SV_CONTACT_ID_L7O (-) Road surface ID for tire contact {RdID_L7O}
+SV_CONTACT_ID_R1I (-) Road surface ID for tire contact {RdID_R1I}
+SV_CONTACT_ID_R1O (-) Road surface ID for tire contact {RdID_R1O}
+SV_CONTACT_ID_R2I (-) Road surface ID for tire contact {RdID_R2I}
+SV_CONTACT_ID_R2O (-) Road surface ID for tire contact {RdID_R2O}
+SV_CONTACT_ID_R3I (-) Road surface ID for tire contact {RdID_R3I}
+SV_CONTACT_ID_R3O (-) Road surface ID for tire contact {RdID_R3O}
+SV_CONTACT_ID_R4I (-) Road surface ID for tire contact {RdID_R4I}
+SV_CONTACT_ID_R4O (-) Road surface ID for tire contact {RdID_R4O}
+SV_CONTACT_ID_R5I (-) Road surface ID for tire contact {RdID_R5I}
+SV_CONTACT_ID_R5O (-) Road surface ID for tire contact {RdID_R5O}
+SV_CONTACT_ID_R6I (-) Road surface ID for tire contact {RdID_R6I}
+SV_CONTACT_ID_R6O (-) Road surface ID for tire contact {RdID_R6O}
+SV_CONTACT_ID_R7I (-) Road surface ID for tire contact {RdID_R7I}
+SV_CONTACT_ID_R7O (-) Road surface ID for tire contact {RdID_R7O}
+SV_CONTACT_STA_L1I (m) Road path station for tire contact {S_Rd_L1I}
+SV_CONTACT_STA_L1O (m) Road path station for tire contact {S_Rd_L1O}
+SV_CONTACT_STA_L2I (m) Road path station for tire contact {S_Rd_L2I}
+SV_CONTACT_STA_L2O (m) Road path station for tire contact {S_Rd_L2O}
+SV_CONTACT_STA_L3I (m) Road path station for tire contact {S_Rd_L3I}
+SV_CONTACT_STA_L3O (m) Road path station for tire contact {S_Rd_L3O}
+SV_CONTACT_STA_L4I (m) Road path station for tire contact {S_Rd_L4I}
+SV_CONTACT_STA_L4O (m) Road path station for tire contact {S_Rd_L4O}
+SV_CONTACT_STA_L5I (m) Road path station for tire contact {S_Rd_L5I}
+SV_CONTACT_STA_L5O (m) Road path station for tire contact {S_Rd_L5O}
+SV_CONTACT_STA_L6I (m) Road path station for tire contact {S_Rd_L6I}
+SV_CONTACT_STA_L6O (m) Road path station for tire contact {S_Rd_L6O}
+SV_CONTACT_STA_L7I (m) Road path station for tire contact {S_Rd_L7I}
+SV_CONTACT_STA_L7O (m) Road path station for tire contact {S_Rd_L7O}
+SV_CONTACT_STA_R1I (m) Road path station for tire contact {S_Rd_R1I}
+SV_CONTACT_STA_R1O (m) Road path station for tire contact {S_Rd_R1O}
+SV_CONTACT_STA_R2I (m) Road path station for tire contact {S_Rd_R2I}
+SV_CONTACT_STA_R2O (m) Road path station for tire contact {S_Rd_R2O}
+SV_CONTACT_STA_R3I (m) Road path station for tire contact {S_Rd_R3I}
+SV_CONTACT_STA_R3O (m) Road path station for tire contact {S_Rd_R3O}
+SV_CONTACT_STA_R4I (m) Road path station for tire contact {S_Rd_R4I}
+SV_CONTACT_STA_R4O (m) Road path station for tire contact {S_Rd_R4O}
+SV_CONTACT_STA_R5I (m) Road path station for tire contact {S_Rd_R5I}
+SV_CONTACT_STA_R5O (m) Road path station for tire contact {S_Rd_R5O}
+SV_CONTACT_STA_R6I (m) Road path station for tire contact {S_Rd_R6I}
+SV_CONTACT_STA_R6O (m) Road path station for tire contact {S_Rd_R6O}
+SV_CONTACT_STA_R7I (m) Road path station for tire contact {S_Rd_R7I}
+SV_CONTACT_STA_R7O (m) Road path station for tire contact {S_Rd_R7O}
+SV_DRGEAR_CVT (-) Derivative of delayed CVT gear ratio
+SV_DZDX_GND (-) dZ/dX of ground at unit 1 aero ref. pt (saved)
+SV_DZDX_GND_2 (-) dZ/dX of ground at unit 2 aero ref. pt (saved)
+SV_DZDX_L1I (-) Ground X slope under tire L1i (saved)
+SV_DZDX_L1O (-) Ground X slope under tire L1o (saved)
+SV_DZDX_L2I (-) Ground X slope under tire L2i (saved)
+SV_DZDX_L2O (-) Ground X slope under tire L2o (saved)
+SV_DZDX_L3I (-) Ground X slope under tire L3i (saved)
+SV_DZDX_L3O (-) Ground X slope under tire L3o (saved)
+SV_DZDX_L4I (-) Ground X slope under tire L4i (saved)
+SV_DZDX_L4O (-) Ground X slope under tire L4o (saved)
+SV_DZDX_L5I (-) Ground X slope under tire L5i (saved)
+SV_DZDX_L5O (-) Ground X slope under tire L5o (saved)
+SV_DZDX_L6I (-) Ground X slope under tire L6i (saved)
+SV_DZDX_L6O (-) Ground X slope under tire L6o (saved)
+SV_DZDX_L7I (-) Ground X slope under tire L7i (saved)
+SV_DZDX_L7O (-) Ground X slope under tire L7o (saved)
+SV_DZDX_R1I (-) Ground X slope under tire R1i (saved)
+SV_DZDX_R1O (-) Ground X slope under tire R1o (saved)
+SV_DZDX_R2I (-) Ground X slope under tire R2i (saved)
+SV_DZDX_R2O (-) Ground X slope under tire R2o (saved)
+SV_DZDX_R3I (-) Ground X slope under tire R3i (saved)
+SV_DZDX_R3O (-) Ground X slope under tire R3o (saved)
+SV_DZDX_R4I (-) Ground X slope under tire R4i (saved)
+SV_DZDX_R4O (-) Ground X slope under tire R4o (saved)
+SV_DZDX_R5I (-) Ground X slope under tire R5i (saved)
+SV_DZDX_R5O (-) Ground X slope under tire R5o (saved)
+SV_DZDX_R6I (-) Ground X slope under tire R6i (saved)
+SV_DZDX_R6O (-) Ground X slope under tire R6o (saved)
+SV_DZDX_R7I (-) Ground X slope under tire R7i (saved)
+SV_DZDX_R7O (-) Ground X slope under tire R7o (saved)
+SV_DZDY_GND (-) dZ/dY of ground at unit 1 aero ref. pt (saved)
+SV_DZDY_GND_2 (-) dZ/dY of ground at unit 2 aero ref. pt (saved)
+SV_DZDY_L1I (-) Ground Y slope under tire L1i  (saved)
+SV_DZDY_L1O (-) Ground Y slope under tire L1o  (saved)
+SV_DZDY_L2I (-) Ground Y slope under tire L2i  (saved)
+SV_DZDY_L2O (-) Ground Y slope under tire L2o  (saved)
+SV_DZDY_L3I (-) Ground Y slope under tire L3i  (saved)
+SV_DZDY_L3O (-) Ground Y slope under tire L3o  (saved)
+SV_DZDY_L4I (-) Ground Y slope under tire L4i  (saved)
+SV_DZDY_L4O (-) Ground Y slope under tire L4o  (saved)
+SV_DZDY_L5I (-) Ground Y slope under tire L5i  (saved)
+SV_DZDY_L5O (-) Ground Y slope under tire L5o  (saved)
+SV_DZDY_L6I (-) Ground Y slope under tire L6i  (saved)
+SV_DZDY_L6O (-) Ground Y slope under tire L6o  (saved)
+SV_DZDY_L7I (-) Ground Y slope under tire L7i  (saved)
+SV_DZDY_L7O (-) Ground Y slope under tire L7o  (saved)
+SV_DZDY_R1I (-) Ground Y slope under tire R1i  (saved)
+SV_DZDY_R1O (-) Ground Y slope under tire R1o  (saved)
+SV_DZDY_R2I (-) Ground Y slope under tire R2i  (saved)
+SV_DZDY_R2O (-) Ground Y slope under tire R2o  (saved)
+SV_DZDY_R3I (-) Ground Y slope under tire R3i  (saved)
+SV_DZDY_R3O (-) Ground Y slope under tire R3o  (saved)
+SV_DZDY_R4I (-) Ground Y slope under tire R4i  (saved)
+SV_DZDY_R4O (-) Ground Y slope under tire R4o  (saved)
+SV_DZDY_R5I (-) Ground Y slope under tire R5i  (saved)
+SV_DZDY_R5O (-) Ground Y slope under tire R5o  (saved)
+SV_DZDY_R6I (-) Ground Y slope under tire R6i  (saved)
+SV_DZDY_R6O (-) Ground Y slope under tire R6o  (saved)
+SV_DZDY_R7I (-) Ground Y slope under tire R7i  (saved)
+SV_DZDY_R7O (-) Ground Y slope under tire R7o  (saved)
+SV_D_ALPHA_L1I (-) Delta Alpha (Fy 0-crossing), tire L1i
+SV_D_ALPHA_L1O (-) Delta Alpha (Fy 0-crossing), tire L1o
+SV_D_ALPHA_L2I (-) Delta Alpha (Fy 0-crossing), tire L2i
+SV_D_ALPHA_L2O (-) Delta Alpha (Fy 0-crossing), tire L2o
+SV_D_ALPHA_L3I (-) Delta Alpha (Fy 0-crossing), tire L3i
+SV_D_ALPHA_L3O (-) Delta Alpha (Fy 0-crossing), tire L3o
+SV_D_ALPHA_L4I (-) Delta Alpha (Fy 0-crossing), tire L4i
+SV_D_ALPHA_L4O (-) Delta Alpha (Fy 0-crossing), tire L4o
+SV_D_ALPHA_L5I (-) Delta Alpha (Fy 0-crossing), tire L5i
+SV_D_ALPHA_L5O (-) Delta Alpha (Fy 0-crossing), tire L5o
+SV_D_ALPHA_L6I (-) Delta Alpha (Fy 0-crossing), tire L6i
+SV_D_ALPHA_L6O (-) Delta Alpha (Fy 0-crossing), tire L6o
+SV_D_ALPHA_L7I (-) Delta Alpha (Fy 0-crossing), tire L7i
+SV_D_ALPHA_L7O (-) Delta Alpha (Fy 0-crossing), tire L7o
+SV_D_ALPHA_MX_L1I (-) Delta Alpha (Mx 0-crossing), tire L1i
+SV_D_ALPHA_MX_L1O (-) Delta Alpha (Mx 0-crossing), tire L1o
+SV_D_ALPHA_MX_L2I (-) Delta Alpha (Mx 0-crossing), tire L2i
+SV_D_ALPHA_MX_L2O (-) Delta Alpha (Mx 0-crossing), tire L2o
+SV_D_ALPHA_MX_L3I (-) Delta Alpha (Mx 0-crossing), tire L3i
+SV_D_ALPHA_MX_L3O (-) Delta Alpha (Mx 0-crossing), tire L3o
+SV_D_ALPHA_MX_L4I (-) Delta Alpha (Mx 0-crossing), tire L4i
+SV_D_ALPHA_MX_L4O (-) Delta Alpha (Mx 0-crossing), tire L4o
+SV_D_ALPHA_MX_L5I (-) Delta Alpha (Mx 0-crossing), tire L5i
+SV_D_ALPHA_MX_L5O (-) Delta Alpha (Mx 0-crossing), tire L5o
+SV_D_ALPHA_MX_L6I (-) Delta Alpha (Mx 0-crossing), tire L6i
+SV_D_ALPHA_MX_L6O (-) Delta Alpha (Mx 0-crossing), tire L6o
+SV_D_ALPHA_MX_L7I (-) Delta Alpha (Mx 0-crossing), tire L7i
+SV_D_ALPHA_MX_L7O (-) Delta Alpha (Mx 0-crossing), tire L7o
+SV_D_ALPHA_MX_R1I (-) Delta Alpha (Mx 0-crossing), tire R1i
+SV_D_ALPHA_MX_R1O (-) Delta Alpha (Mx 0-crossing), tire R1o
+SV_D_ALPHA_MX_R2I (-) Delta Alpha (Mx 0-crossing), tire R2i
+SV_D_ALPHA_MX_R2O (-) Delta Alpha (Mx 0-crossing), tire R2o
+SV_D_ALPHA_MX_R3I (-) Delta Alpha (Mx 0-crossing), tire R3i
+SV_D_ALPHA_MX_R3O (-) Delta Alpha (Mx 0-crossing), tire R3o
+SV_D_ALPHA_MX_R4I (-) Delta Alpha (Mx 0-crossing), tire R4i
+SV_D_ALPHA_MX_R4O (-) Delta Alpha (Mx 0-crossing), tire R4o
+SV_D_ALPHA_MX_R5I (-) Delta Alpha (Mx 0-crossing), tire R5i
+SV_D_ALPHA_MX_R5O (-) Delta Alpha (Mx 0-crossing), tire R5o
+SV_D_ALPHA_MX_R6I (-) Delta Alpha (Mx 0-crossing), tire R6i
+SV_D_ALPHA_MX_R6O (-) Delta Alpha (Mx 0-crossing), tire R6o
+SV_D_ALPHA_MX_R7I (-) Delta Alpha (Mx 0-crossing), tire R7i
+SV_D_ALPHA_MX_R7O (-) Delta Alpha (Mx 0-crossing), tire R7o
+SV_D_ALPHA_R1I (-) Delta Alpha (Fy 0-crossing), tire R1i
+SV_D_ALPHA_R1O (-) Delta Alpha (Fy 0-crossing), tire R1o
+SV_D_ALPHA_R2I (-) Delta Alpha (Fy 0-crossing), tire R2i
+SV_D_ALPHA_R2O (-) Delta Alpha (Fy 0-crossing), tire R2o
+SV_D_ALPHA_R3I (-) Delta Alpha (Fy 0-crossing), tire R3i
+SV_D_ALPHA_R3O (-) Delta Alpha (Fy 0-crossing), tire R3o
+SV_D_ALPHA_R4I (-) Delta Alpha (Fy 0-crossing), tire R4i
+SV_D_ALPHA_R4O (-) Delta Alpha (Fy 0-crossing), tire R4o
+SV_D_ALPHA_R5I (-) Delta Alpha (Fy 0-crossing), tire R5i
+SV_D_ALPHA_R5O (-) Delta Alpha (Fy 0-crossing), tire R5o
+SV_D_ALPHA_R6I (-) Delta Alpha (Fy 0-crossing), tire R6i
+SV_D_ALPHA_R6O (-) Delta Alpha (Fy 0-crossing), tire R6o
+SV_D_ALPHA_R7I (-) Delta Alpha (Fy 0-crossing), tire R7i
+SV_D_ALPHA_R7O (-) Delta Alpha (Fy 0-crossing), tire R7o
+SV_D_CONI_L1I (-) Delta Coni (Mz 0-crossing), tire L1i
+SV_D_CONI_L1O (-) Delta Coni (Mz 0-crossing), tire L1o
+SV_D_CONI_L2I (-) Delta Coni (Mz 0-crossing), tire L2i
+SV_D_CONI_L2O (-) Delta Coni (Mz 0-crossing), tire L2o
+SV_D_CONI_L3I (-) Delta Coni (Mz 0-crossing), tire L3i
+SV_D_CONI_L3O (-) Delta Coni (Mz 0-crossing), tire L3o
+SV_D_CONI_L4I (-) Delta Coni (Mz 0-crossing), tire L4i
+SV_D_CONI_L4O (-) Delta Coni (Mz 0-crossing), tire L4o
+SV_D_CONI_L5I (-) Delta Coni (Mz 0-crossing), tire L5i
+SV_D_CONI_L5O (-) Delta Coni (Mz 0-crossing), tire L5o
+SV_D_CONI_L6I (-) Delta Coni (Mz 0-crossing), tire L6i
+SV_D_CONI_L6O (-) Delta Coni (Mz 0-crossing), tire L6o
+SV_D_CONI_L7I (-) Delta Coni (Mz 0-crossing), tire L7i
+SV_D_CONI_L7O (-) Delta Coni (Mz 0-crossing), tire L7o
+SV_D_CONI_R1I (-) Delta Coni (Mz 0-crossing), tire R1i
+SV_D_CONI_R1O (-) Delta Coni (Mz 0-crossing), tire R1o
+SV_D_CONI_R2I (-) Delta Coni (Mz 0-crossing), tire R2i
+SV_D_CONI_R2O (-) Delta Coni (Mz 0-crossing), tire R2o
+SV_D_CONI_R3I (-) Delta Coni (Mz 0-crossing), tire R3i
+SV_D_CONI_R3O (-) Delta Coni (Mz 0-crossing), tire R3o
+SV_D_CONI_R4I (-) Delta Coni (Mz 0-crossing), tire R4i
+SV_D_CONI_R4O (-) Delta Coni (Mz 0-crossing), tire R4o
+SV_D_CONI_R5I (-) Delta Coni (Mz 0-crossing), tire R5i
+SV_D_CONI_R5O (-) Delta Coni (Mz 0-crossing), tire R5o
+SV_D_CONI_R6I (-) Delta Coni (Mz 0-crossing), tire R6i
+SV_D_CONI_R6O (-) Delta Coni (Mz 0-crossing), tire R6o
+SV_D_CONI_R7I (-) Delta Coni (Mz 0-crossing), tire R7i
+SV_D_CONI_R7O (-) Delta Coni (Mz 0-crossing), tire R7o
+SV_D_KAPPA_L1I (-) Delta Kappa (Fx 0-crossing), tire L1i
+SV_D_KAPPA_L1O (-) Delta Kappa (Fx 0-crossing), tire L1o
+SV_D_KAPPA_L2I (-) Delta Kappa (Fx 0-crossing), tire L2i
+SV_D_KAPPA_L2O (-) Delta Kappa (Fx 0-crossing), tire L2o
+SV_D_KAPPA_L3I (-) Delta Kappa (Fx 0-crossing), tire L3i
+SV_D_KAPPA_L3O (-) Delta Kappa (Fx 0-crossing), tire L3o
+SV_D_KAPPA_L4I (-) Delta Kappa (Fx 0-crossing), tire L4i
+SV_D_KAPPA_L4O (-) Delta Kappa (Fx 0-crossing), tire L4o
+SV_D_KAPPA_L5I (-) Delta Kappa (Fx 0-crossing), tire L5i
+SV_D_KAPPA_L5O (-) Delta Kappa (Fx 0-crossing), tire L5o
+SV_D_KAPPA_L6I (-) Delta Kappa (Fx 0-crossing), tire L6i
+SV_D_KAPPA_L6O (-) Delta Kappa (Fx 0-crossing), tire L6o
+SV_D_KAPPA_L7I (-) Delta Kappa (Fx 0-crossing), tire L7i
+SV_D_KAPPA_L7O (-) Delta Kappa (Fx 0-crossing), tire L7o
+SV_D_KAPPA_R1I (-) Delta Kappa (Fx 0-crossing), tire R1i
+SV_D_KAPPA_R1O (-) Delta Kappa (Fx 0-crossing), tire R1o
+SV_D_KAPPA_R2I (-) Delta Kappa (Fx 0-crossing), tire R2i
+SV_D_KAPPA_R2O (-) Delta Kappa (Fx 0-crossing), tire R2o
+SV_D_KAPPA_R3I (-) Delta Kappa (Fx 0-crossing), tire R3i
+SV_D_KAPPA_R3O (-) Delta Kappa (Fx 0-crossing), tire R3o
+SV_D_KAPPA_R4I (-) Delta Kappa (Fx 0-crossing), tire R4i
+SV_D_KAPPA_R4O (-) Delta Kappa (Fx 0-crossing), tire R4o
+SV_D_KAPPA_R5I (-) Delta Kappa (Fx 0-crossing), tire R5i
+SV_D_KAPPA_R5O (-) Delta Kappa (Fx 0-crossing), tire R5o
+SV_D_KAPPA_R6I (-) Delta Kappa (Fx 0-crossing), tire R6i
+SV_D_KAPPA_R6O (-) Delta Kappa (Fx 0-crossing), tire R6o
+SV_D_KAPPA_R7I (-) Delta Kappa (Fx 0-crossing), tire R7i
+SV_D_KAPPA_R7O (-) Delta Kappa (Fx 0-crossing), tire R7o
+SV_ESC_STATE (-) State of ESC engine torque control, prev. time step
+SV_FBK (N) ODE: Instant boost force (above input force)
+SV_FBOOST (N) ODE: Delayed boost force {F_boost}
+SV_FS_L1 (N) Force from ride spring L1
+SV_FS_L2 (N) Force from ride spring L2
+SV_FS_L3 (N) Force from ride spring L3
+SV_FS_L4 (N) Force from ride spring L4
+SV_FS_L5 (N) Force from ride spring L5
+SV_FS_L6 (N) Force from ride spring L6
+SV_FS_L7 (N) Force from ride spring L7
+SV_FS_R1 (N) Force from ride spring R1
+SV_FS_R2 (N) Force from ride spring R2
+SV_FS_R3 (N) Force from ride spring R3
+SV_FS_R4 (N) Force from ride spring R4
+SV_FS_R5 (N) Force from ride spring R5
+SV_FS_R6 (N) Force from ride spring R6
+SV_FS_R7 (N) Force from ride spring R7
+SV_FUEL (kg) ODE: Mass of fuel consumed {Mfuel}
+SV_FX_SM_L1 (N) Tire force [sx] component, wheel L1
+SV_FX_SM_L2 (N) Tire force [sx] component, wheel L2
+SV_FX_SM_L3 (N) Tire force [sx] component, wheel L3
+SV_FX_SM_L4 (N) Tire force [sx] component, wheel L4
+SV_FX_SM_L5 (N) Tire force [sx] component, wheel L5
+SV_FX_SM_L6 (N) Tire force [sx] component, wheel L6
+SV_FX_SM_L7 (N) Tire force [sx] component, wheel L7
+SV_FX_SM_R1 (N) Tire force [sx] component, wheel R1
+SV_FX_SM_R2 (N) Tire force [sx] component, wheel R2
+SV_FX_SM_R3 (N) Tire force [sx] component, wheel R3
+SV_FX_SM_R4 (N) Tire force [sx] component, wheel R4
+SV_FX_SM_R5 (N) Tire force [sx] component, wheel R5
+SV_FX_SM_R6 (N) Tire force [sx] component, wheel R6
+SV_FX_SM_R7 (N) Tire force [sx] component, wheel R7
+SV_FY_SM_L1 (N) Tire force [sy] component, wheel L1
+SV_FY_SM_L2 (N) Tire force [sy] component, wheel L2
+SV_FY_SM_L3 (N) Tire force [sy] component, wheel L3
+SV_FY_SM_L4 (N) Tire force [sy] component, wheel L4
+SV_FY_SM_L5 (N) Tire force [sy] component, wheel L5
+SV_FY_SM_L6 (N) Tire force [sy] component, wheel L6
+SV_FY_SM_L7 (N) Tire force [sy] component, wheel L7
+SV_FY_SM_R1 (N) Tire force [sy] component, wheel R1
+SV_FY_SM_R2 (N) Tire force [sy] component, wheel R2
+SV_FY_SM_R3 (N) Tire force [sy] component, wheel R3
+SV_FY_SM_R4 (N) Tire force [sy] component, wheel R4
+SV_FY_SM_R5 (N) Tire force [sy] component, wheel R5
+SV_FY_SM_R6 (N) Tire force [sy] component, wheel R6
+SV_FY_SM_R7 (N) Tire force [sy] component, wheel R7
+SV_FZ_SM_L1 (N) Tire force force [sz] component, wheel L1
+SV_FZ_SM_L2 (N) Tire force force [sz] component, wheel L2
+SV_FZ_SM_L3 (N) Tire force force [sz] component, wheel L3
+SV_FZ_SM_L4 (N) Tire force force [sz] component, wheel L4
+SV_FZ_SM_L5 (N) Tire force force [sz] component, wheel L5
+SV_FZ_SM_L6 (N) Tire force force [sz] component, wheel L6
+SV_FZ_SM_L7 (N) Tire force force [sz] component, wheel L7
+SV_FZ_SM_R1 (N) Tire force force [sz] component, wheel R1
+SV_FZ_SM_R2 (N) Tire force force [sz] component, wheel R2
+SV_FZ_SM_R3 (N) Tire force force [sz] component, wheel R3
+SV_FZ_SM_R4 (N) Tire force force [sz] component, wheel R4
+SV_FZ_SM_R5 (N) Tire force force [sz] component, wheel R5
+SV_FZ_SM_R6 (N) Tire force force [sz] component, wheel R6
+SV_FZ_SM_R7 (N) Tire force force [sz] component, wheel R7
+SV_F_HYS_RACK_A1 (N) Friction force at rack
+SV_F_HYS_RACK_A2 (N) Friction force at rack
+SV_F_HYS_RACK_A3 (N) Friction force at rack
+SV_F_HYS_RACK_A4 (N) Friction force at rack
+SV_F_HYS_RACK_A5 (N) Friction force at rack
+SV_F_HYS_RACK_A6 (N) Friction force at rack
+SV_F_HYS_RACK_A7 (N) Friction force at rack
+SV_GEAR (-) Automatic transmission gear {Gear_CL}
+SV_GEAR_DELAY (-) Delayed transmission gear position {Gear_Del}
+SV_GEAR_MEM (-) Gear saved in memory, used for transition
+SV_GEAR_STAT (-) Transmission gear status {GearStat}
+SV_IVERR (m) ODE: Integral of SC speed error {Vx_IErr}
+SV_I_GEAR_SHIFT (kg-m2) Transmission gear inertia modulated by shift
+SV_I_GEAR_SHIFT_START (kg-m2) Gear spin inertia when automatic shift started
+SV_JNCR_A1 (m/s) ODE: Jounce rate of axle 1
+SV_JNCR_A2 (m/s) ODE: Jounce rate of axle 2
+SV_JNCR_A3 (m/s) ODE: Jounce rate of axle 3
+SV_JNCR_A4 (m/s) ODE: Jounce rate of axle 4
+SV_JNCR_A5 (m/s) ODE: Jounce rate of axle 5
+SV_JNCR_A6 (m/s) ODE: Jounce rate of axle 6
+SV_JNCR_A7 (m/s) ODE: Jounce rate of axle 7
+SV_JNC_A1 (m) ODE: Jounce of axle 1
+SV_JNC_A2 (m) ODE: Jounce of axle 2
+SV_JNC_A3 (m) ODE: Jounce of axle 3
+SV_JNC_A4 (m) ODE: Jounce of axle 4
+SV_JNC_A5 (m) ODE: Jounce of axle 5
+SV_JNC_A6 (m) ODE: Jounce of axle 6
+SV_JNC_A7 (m) ODE: Jounce of axle 7
+SV_LK_WHL_L1 (-) Lockup state for wheel L1
+SV_LK_WHL_L2 (-) Lockup state for wheel L2
+SV_LK_WHL_L3 (-) Lockup state for wheel L3
+SV_LK_WHL_L4 (-) Lockup state for wheel L4
+SV_LK_WHL_L5 (-) Lockup state for wheel L5
+SV_LK_WHL_L6 (-) Lockup state for wheel L6
+SV_LK_WHL_L7 (-) Lockup state for wheel L7
+SV_LK_WHL_R1 (-) Lockup state for wheel R1
+SV_LK_WHL_R2 (-) Lockup state for wheel R2
+SV_LK_WHL_R3 (-) Lockup state for wheel R3
+SV_LK_WHL_R4 (-) Lockup state for wheel R4
+SV_LK_WHL_R5 (-) Lockup state for wheel R5
+SV_LK_WHL_R6 (-) Lockup state for wheel R6
+SV_LK_WHL_R7 (-) Lockup state for wheel R7
+SV_LOCKED_CLUTCH_NEUTRAL (-) Clutch locked while in neutral in previous time step
+SV_MBOOST (N-m) ODE: Delayed boost torque {M_boost}
+SV_MX_H1 (N-m) Roll moment minus damping, hitch 1
+SV_MY_BRK_L1 (N-m) Spin moment, wheel L1
+SV_MY_BRK_L2 (N-m) Spin moment, wheel L2
+SV_MY_BRK_L3 (N-m) Spin moment, wheel L3
+SV_MY_BRK_L4 (N-m) Spin moment, wheel L4
+SV_MY_BRK_L5 (N-m) Spin moment, wheel L5
+SV_MY_BRK_L6 (N-m) Spin moment, wheel L6
+SV_MY_BRK_L7 (N-m) Spin moment, wheel L7
+SV_MY_BRK_R1 (N-m) Spin moment, wheel R1
+SV_MY_BRK_R2 (N-m) Spin moment, wheel R2
+SV_MY_BRK_R3 (N-m) Spin moment, wheel R3
+SV_MY_BRK_R4 (N-m) Spin moment, wheel R4
+SV_MY_BRK_R5 (N-m) Spin moment, wheel R5
+SV_MY_BRK_R6 (N-m) Spin moment, wheel R6
+SV_MY_BRK_R7 (N-m) Spin moment, wheel R7
+SV_MY_H1 (N-m) Pitch moment minus damping, hitch 1
+SV_MZ_H1 (N-m) Articulation moment minus damping, hitch 1
+SV_MZ_WHEEL_L1 (N-m) Tire Mz, wheel L1
+SV_MZ_WHEEL_L2 (N-m) Tire Mz, wheel L2
+SV_MZ_WHEEL_L3 (N-m) Tire Mz, wheel L3
+SV_MZ_WHEEL_L4 (N-m) Tire Mz, wheel L4
+SV_MZ_WHEEL_L5 (N-m) Tire Mz, wheel L5
+SV_MZ_WHEEL_L6 (N-m) Tire Mz, wheel L6
+SV_MZ_WHEEL_L7 (N-m) Tire Mz, wheel L7
+SV_MZ_WHEEL_R1 (N-m) Tire Mz, wheel R1
+SV_MZ_WHEEL_R2 (N-m) Tire Mz, wheel R2
+SV_MZ_WHEEL_R3 (N-m) Tire Mz, wheel R3
+SV_MZ_WHEEL_R4 (N-m) Tire Mz, wheel R4
+SV_MZ_WHEEL_R5 (N-m) Tire Mz, wheel R5
+SV_MZ_WHEEL_R6 (N-m) Tire Mz, wheel R6
+SV_MZ_WHEEL_R7 (N-m) Tire Mz, wheel R7
+SV_M_CL2_CAP_D4_DYN (N-m) ODE: 2nd Clutch capacity for 3rd drive axle diff
+SV_M_CL2_CAP_D5_DYN (N-m) ODE: 2nd Clutch capacity for 4th drive axle diff
+SV_M_CL2_CAP_D6_DYN (N-m) ODE: 2nd Clutch capacity for inter-axle diff for drive
+    axles 3,4
+SV_M_CL2_CAP_D7_DYN (N-m) ODE: 2nd Clutch capacity for master transfer case
+SV_M_CL2_CAP_FD_DYN (N-m) ODE: 2nd Clutch capacity for 1st drive axle diff
+SV_M_CLUTCH_DEL (N-m) ODE: Time delayed clutch torque capacity
+SV_M_CL_CAP_D4_DYN (N-m) ODE: Clutch capacity for 3rd drive axle diff
+SV_M_CL_CAP_D5_DYN (N-m) ODE: Clutch capacity for 4th drive axle diff
+SV_M_CL_CAP_D6_DYN (N-m) ODE: Clutch capacity for inter-axle diff for drive axles
+    3,4
+SV_M_CL_CAP_D7_DYN (N-m) ODE: Clutch capacity for master transfer case
+SV_M_CL_CAP_FD_DYN (N-m) ODE: Clutch capacity for 1st drive axle diff
+SV_M_CL_LF_CAP_DYN (N-m) ODE: Left twin clutch capacity for 1st drive axle diff
+SV_M_CL_L_D4_CAP_DYN (N-m) ODE: Left twin clutch capacity for 3rd drive axle diff
+SV_M_CL_L_D5_CAP_DYN (N-m) ODE: Left twin clutch capacity for 4th drive axle diff
+SV_M_CL_L_D6_CAP_DYN (N-m) ODE: Left twin clutch capacity for inter-axle diff for
+    drive axles 3,4
+SV_M_CL_L_D7_CAP_DYN (N-m) ODE: Left twin clutch capacity for master transfer case
+SV_M_CL_RF_CAP_DYN (N-m) ODE: Right twin clutch capacity for 1st drive axle diff
+SV_M_CL_R_D4_CAP_DYN (N-m) ODE: Right twin clutch capacity for 3rd drive axle diff
+SV_M_CL_R_D5_CAP_DYN (N-m) ODE: Right twin clutch capacity for 4th drive axle diff
+SV_M_CL_R_D6_CAP_DYN (N-m) ODE: Right twin clutch capacity for inter-axle diff for
+    drive axles 3,4
+SV_M_CL_R_D7_CAP_DYN (N-m) ODE: Right twin clutch capacity for master transfer case
+SV_M_ENG_ESC_APPLY (N-m) ODE: Applied engine torque from ESC/TCS
+SV_M_ENG_ESC_ERROR (N-m-s) ODE: Integral of error from ESC request
+SV_M_HYS_COL (N-m) Steering column friction
+SV_M_HYS_GEAR_A1 (N-m) Friction torque for recirculating ball
+SV_M_HYS_GEAR_A2 (N-m) Friction torque for recirculating ball
+SV_M_HYS_GEAR_A3 (N-m) Friction torque for recirculating ball
+SV_M_HYS_GEAR_A4 (N-m) Friction torque for recirculating ball
+SV_M_HYS_GEAR_A5 (N-m) Friction torque for recirculating ball
+SV_M_HYS_GEAR_A6 (N-m) Friction torque for recirculating ball
+SV_M_HYS_GEAR_A7 (N-m) Friction torque for recirculating ball
+SV_M_KP_L1 (N-m) Kingpin moment, wheel L1
+SV_M_KP_L2 (N-m) Kingpin moment, wheel L2
+SV_M_KP_L3 (N-m) Kingpin moment, wheel L3
+SV_M_KP_L4 (N-m) Kingpin moment, wheel L4
+SV_M_KP_L5 (N-m) Kingpin moment, wheel L5
+SV_M_KP_L6 (N-m) Kingpin moment, wheel L6
+SV_M_KP_L7 (N-m) Kingpin moment, wheel L7
+SV_M_KP_R1 (N-m) Kingpin moment, wheel R1
+SV_M_KP_R2 (N-m) Kingpin moment, wheel R2
+SV_M_KP_R3 (N-m) Kingpin moment, wheel R3
+SV_M_KP_R4 (N-m) Kingpin moment, wheel R4
+SV_M_KP_R5 (N-m) Kingpin moment, wheel R5
+SV_M_KP_R6 (N-m) Kingpin moment, wheel R6
+SV_M_KP_R7 (N-m) Kingpin moment, wheel R7
+SV_M_PARK_L1 (N-m) Kingpin steer park torque, wheel L1
+SV_M_PARK_L2 (N-m) Kingpin steer park torque, wheel L2
+SV_M_PARK_L3 (N-m) Kingpin steer park torque, wheel L3
+SV_M_PARK_L4 (N-m) Kingpin steer park torque, wheel L4
+SV_M_PARK_L5 (N-m) Kingpin steer park torque, wheel L5
+SV_M_PARK_L6 (N-m) Kingpin steer park torque, wheel L6
+SV_M_PARK_L7 (N-m) Kingpin steer park torque, wheel L7
+SV_M_PARK_R1 (N-m) Kingpin steer park torque, wheel R1
+SV_M_PARK_R2 (N-m) Kingpin steer park torque, wheel R2
+SV_M_PARK_R3 (N-m) Kingpin steer park torque, wheel R3
+SV_M_PARK_R4 (N-m) Kingpin steer park torque, wheel R4
+SV_M_PARK_R5 (N-m) Kingpin steer park torque, wheel R5
+SV_M_PARK_R6 (N-m) Kingpin steer park torque, wheel R6
+SV_M_PARK_R7 (N-m) Kingpin steer park torque, wheel R7
+SV_M_TC (N-m) Transmission input shaft torque {M_TC}
+SV_N_START_CROSS (-) Count of start-crossings on looped driver path
+SV_PBK_L1 (MPa) ODE: Brake actuator pressure for wheel L1
+SV_PBK_L2 (MPa) ODE: Brake actuator pressure for wheel L2
+SV_PBK_L3 (MPa) ODE: Brake actuator pressure for wheel L3
+SV_PBK_L4 (MPa) ODE: Brake actuator pressure for wheel L4
+SV_PBK_L5 (MPa) ODE: Brake actuator pressure for wheel L5
+SV_PBK_L6 (MPa) ODE: Brake actuator pressure for wheel L6
+SV_PBK_L7 (MPa) ODE: Brake actuator pressure for wheel L7
+SV_PBK_R1 (MPa) ODE: Brake actuator pressure for wheel R1
+SV_PBK_R2 (MPa) ODE: Brake actuator pressure for wheel R2
+SV_PBK_R3 (MPa) ODE: Brake actuator pressure for wheel R3
+SV_PBK_R4 (MPa) ODE: Brake actuator pressure for wheel R4
+SV_PBK_R5 (MPa) ODE: Brake actuator pressure for wheel R5
+SV_PBK_R6 (MPa) ODE: Brake actuator pressure for wheel R6
+SV_PBK_R7 (MPa) ODE: Brake actuator pressure for wheel R7
+SV_PITCH (deg) ODE: Pitch of sprung mass, unit 1 {Pitch}
+SV_PITCH_H1_OLD (deg) Relative pitch (2-1-3) for hitch 1
+SV_PITCH_REL_2 (deg) ODE: Relative pitch (3-2-1) for unit 2
+SV_RGEAR_CVT (-) ODE: Delayed CVT gear ratio
+SV_ROLL (deg) ODE: Roll (Euler) of sprung mass, unit 1 {Roll_E}
+SV_ROLL_A1 (deg) ODE: Roll of axle 1
+SV_ROLL_A2 (deg) ODE: Roll of axle 2
+SV_ROLL_A3 (deg) ODE: Roll of axle 3
+SV_ROLL_A4 (deg) ODE: Roll of axle 4
+SV_ROLL_A5 (deg) ODE: Roll of axle 5
+SV_ROLL_A6 (deg) ODE: Roll of axle 6
+SV_ROLL_A7 (deg) ODE: Roll of axle 7
+SV_ROLL_H1_OLD (deg) Relative roll (2-1-3) for hitch 1
+SV_ROLL_REL_2 (deg) ODE: Relative roll (3-2-1) for unit 2
+SV_ROT_L1 (rev) ODE: Rotation of wheel L1
+SV_ROT_L2 (rev) ODE: Rotation of wheel L2
+SV_ROT_L3 (rev) ODE: Rotation of wheel L3
+SV_ROT_L4 (rev) ODE: Rotation of wheel L4
+SV_ROT_L5 (rev) ODE: Rotation of wheel L5
+SV_ROT_L6 (rev) ODE: Rotation of wheel L6
+SV_ROT_L7 (rev) ODE: Rotation of wheel L7
+SV_ROT_LK_L1 (rev) Rotation reference of wheel L1 in "locked" mode
+SV_ROT_LK_L2 (rev) Rotation reference of wheel L2 in "locked" mode
+SV_ROT_LK_L3 (rev) Rotation reference of wheel L3 in "locked" mode
+SV_ROT_LK_L4 (rev) Rotation reference of wheel L4 in "locked" mode
+SV_ROT_LK_L5 (rev) Rotation reference of wheel L5 in "locked" mode
+SV_ROT_LK_L6 (rev) Rotation reference of wheel L6 in "locked" mode
+SV_ROT_LK_L7 (rev) Rotation reference of wheel L7 in "locked" mode
+SV_ROT_LK_R1 (rev) Rotation reference of wheel R1 in "locked" mode
+SV_ROT_LK_R2 (rev) Rotation reference of wheel R2 in "locked" mode
+SV_ROT_LK_R3 (rev) Rotation reference of wheel R3 in "locked" mode
+SV_ROT_LK_R4 (rev) Rotation reference of wheel R4 in "locked" mode
+SV_ROT_LK_R5 (rev) Rotation reference of wheel R5 in "locked" mode
+SV_ROT_LK_R6 (rev) Rotation reference of wheel R6 in "locked" mode
+SV_ROT_LK_R7 (rev) Rotation reference of wheel R7 in "locked" mode
+SV_ROT_R1 (rev) ODE: Rotation of wheel R1
+SV_ROT_R2 (rev) ODE: Rotation of wheel R2
+SV_ROT_R3 (rev) ODE: Rotation of wheel R3
+SV_ROT_R4 (rev) ODE: Rotation of wheel R4
+SV_ROT_R5 (rev) ODE: Rotation of wheel R5
+SV_ROT_R6 (rev) ODE: Rotation of wheel R6
+SV_ROT_R7 (rev) ODE: Rotation of wheel R7
+SV_ROT_SHAFT_1 (rev) ODE: 1st drive axle diff input shaft rotation {Rot_D7f}
+SV_ROT_SHAFT_4 (rev) ODE: 3rd drive axle diff input shaft rotation {Rot_D6f}
+SV_ROT_SHAFT_5 (rev) ODE: 4th drive axle diff input shaft rotation {Rot_D6r}
+SV_ROT_SHAFT_6 (rev) ODE: Inter-axle diff for drive axles 3,4 input shaft rotation
+    {Rot_D7r}
+SV_ROT_SHAFT_7 (rev) ODE: Master transfer case input shaft rotation 
+SV_ROT_SHAFT_L_D1 (rev) ODE: Diff1 Left (first) output shaft rotation
+SV_ROT_SHAFT_L_D4 (rev) ODE: Diff4 Left (first) output shaft rotation
+SV_ROT_SHAFT_L_D5 (rev) ODE: Diff5 Left (first) output shaft rotation
+SV_ROT_SHAFT_L_D6 (rev) ODE: Diff6 Left (first) output shaft rotation
+SV_ROT_SHAFT_L_D7 (rev) ODE: Diff7 Left (first) output shaft rotation
+SV_ROT_SHAFT_R_D1 (rev) ODE: Diff1 Right (second) output shaft rotation
+SV_ROT_SHAFT_R_D4 (rev) ODE: Diff4 Right (second) output shaft rotation
+SV_ROT_SHAFT_R_D5 (rev) ODE: Diff5 Right (second) output shaft rotation
+SV_ROT_SHAFT_R_D6 (rev) ODE: Diff6 Right (second) output shaft rotation
+SV_ROT_SHAFT_R_D7 (rev) ODE: Diff7 Right (second) output shaft rotation
+SV_ROT_TC (rev) ODE: Torque coupling output shaft rotation {Rot_TC}
+SV_ROT_TR_OUT (rev) ODE: Transmission output shaft rotation
+SV_R_GEAR_SHIFT (-) Transmission gear ratio modulated by gear shift
+SV_R_GEAR_SHIFT_START (-) Gear ratio when automatic shift started
+SV_R_GEAR_TOTAL_SC (-) Driveline total gear ratio for speed controller
+SV_R_KP_GND_L1 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_L2 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_L3 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_L4 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_L5 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_L6 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_L7 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_R1 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_R2 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_R3 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_R4 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_R5 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_R6 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_KP_GND_R7 (-) Kingpin steer / ground steer (-1 for vertical KP)
+SV_R_L1I (m) Deflected radius for tire L1i (saved)
+SV_R_L1O (m) Deflected radius for tire L1o (saved)
+SV_R_L2I (m) Deflected radius for tire L2i (saved)
+SV_R_L2O (m) Deflected radius for tire L2o (saved)
+SV_R_L3I (m) Deflected radius for tire L3i (saved)
+SV_R_L3O (m) Deflected radius for tire L3o (saved)
+SV_R_L4I (m) Deflected radius for tire L4i (saved)
+SV_R_L4O (m) Deflected radius for tire L4o (saved)
+SV_R_L5I (m) Deflected radius for tire L5i (saved)
+SV_R_L5O (m) Deflected radius for tire L5o (saved)
+SV_R_L6I (m) Deflected radius for tire L6i (saved)
+SV_R_L6O (m) Deflected radius for tire L6o (saved)
+SV_R_L7I (m) Deflected radius for tire L7i (saved)
+SV_R_L7O (m) Deflected radius for tire L7o (saved)
+SV_R_R1I (m) Deflected radius for tire R1i (saved)
+SV_R_R1O (m) Deflected radius for tire R1o (saved)
+SV_R_R2I (m) Deflected radius for tire R2i (saved)
+SV_R_R2O (m) Deflected radius for tire R2o (saved)
+SV_R_R3I (m) Deflected radius for tire R3i (saved)
+SV_R_R3O (m) Deflected radius for tire R3o (saved)
+SV_R_R4I (m) Deflected radius for tire R4i (saved)
+SV_R_R4O (m) Deflected radius for tire R4o (saved)
+SV_R_R5I (m) Deflected radius for tire R5i (saved)
+SV_R_R5O (m) Deflected radius for tire R5o (saved)
+SV_R_R6I (m) Deflected radius for tire R6i (saved)
+SV_R_R6O (m) Deflected radius for tire R6o (saved)
+SV_R_R7I (m) Deflected radius for tire R7i (saved)
+SV_R_R7O (m) Deflected radius for tire R7o (saved)
+SV_SHIFT_DELAY (-) Boolean: shifting delay in T.C. is active, prev. time step
+SV_SLIP_LAT_L1I (-) ODE: Lagged tan of lateral slip, tire L1i
+SV_SLIP_LAT_L1O (-) ODE: Lagged tan of lateral slip, tire L1o
+SV_SLIP_LAT_L2I (-) ODE: Lagged tan of lateral slip, tire L2i
+SV_SLIP_LAT_L2O (-) ODE: Lagged tan of lateral slip, tire L2o
+SV_SLIP_LAT_L3I (-) ODE: Lagged tan of lateral slip, tire L3i
+SV_SLIP_LAT_L3O (-) ODE: Lagged tan of lateral slip, tire L3o
+SV_SLIP_LAT_L4I (-) ODE: Lagged tan of lateral slip, tire L4i
+SV_SLIP_LAT_L4O (-) ODE: Lagged tan of lateral slip, tire L4o
+SV_SLIP_LAT_L5I (-) ODE: Lagged tan of lateral slip, tire L5i
+SV_SLIP_LAT_L5O (-) ODE: Lagged tan of lateral slip, tire L5o
+SV_SLIP_LAT_L6I (-) ODE: Lagged tan of lateral slip, tire L6i
+SV_SLIP_LAT_L6O (-) ODE: Lagged tan of lateral slip, tire L6o
+SV_SLIP_LAT_L7I (-) ODE: Lagged tan of lateral slip, tire L7i
+SV_SLIP_LAT_L7O (-) ODE: Lagged tan of lateral slip, tire L7o
+SV_SLIP_LAT_R1I (-) ODE: Lagged tan of lateral slip, tire R1i
+SV_SLIP_LAT_R1O (-) ODE: Lagged tan of lateral slip, tire R1o
+SV_SLIP_LAT_R2I (-) ODE: Lagged tan of lateral slip, tire R2i
+SV_SLIP_LAT_R2O (-) ODE: Lagged tan of lateral slip, tire R2o
+SV_SLIP_LAT_R3I (-) ODE: Lagged tan of lateral slip, tire R3i
+SV_SLIP_LAT_R3O (-) ODE: Lagged tan of lateral slip, tire R3o
+SV_SLIP_LAT_R4I (-) ODE: Lagged tan of lateral slip, tire R4i
+SV_SLIP_LAT_R4O (-) ODE: Lagged tan of lateral slip, tire R4o
+SV_SLIP_LAT_R5I (-) ODE: Lagged tan of lateral slip, tire R5i
+SV_SLIP_LAT_R5O (-) ODE: Lagged tan of lateral slip, tire R5o
+SV_SLIP_LAT_R6I (-) ODE: Lagged tan of lateral slip, tire R6i
+SV_SLIP_LAT_R6O (-) ODE: Lagged tan of lateral slip, tire R6o
+SV_SLIP_LAT_R7I (-) ODE: Lagged tan of lateral slip, tire R7i
+SV_SLIP_LAT_R7O (-) ODE: Lagged tan of lateral slip, tire R7o
+SV_SLIP_LONG_L1I (-) ODE: Lagged long. slip, tire L1i {KappL_L1i}
+SV_SLIP_LONG_L1O (-) ODE: Lagged long. slip, tire L1o {KappL_L1o}
+SV_SLIP_LONG_L2I (-) ODE: Lagged long. slip, tire L2i {KappL_L2i}
+SV_SLIP_LONG_L2O (-) ODE: Lagged long. slip, tire L2o {KappL_L2o}
+SV_SLIP_LONG_L3I (-) ODE: Lagged long. slip, tire L3i {KappL_L3i}
+SV_SLIP_LONG_L3O (-) ODE: Lagged long. slip, tire L3o {KappL_L3o}
+SV_SLIP_LONG_L4I (-) ODE: Lagged long. slip, tire L4i {KappL_L4i}
+SV_SLIP_LONG_L4O (-) ODE: Lagged long. slip, tire L4o {KappL_L4o}
+SV_SLIP_LONG_L5I (-) ODE: Lagged long. slip, tire L5i {KappL_L5i}
+SV_SLIP_LONG_L5O (-) ODE: Lagged long. slip, tire L5o {KappL_L5o}
+SV_SLIP_LONG_L6I (-) ODE: Lagged long. slip, tire L6i {KappL_L6i}
+SV_SLIP_LONG_L6O (-) ODE: Lagged long. slip, tire L6o {KappL_L6o}
+SV_SLIP_LONG_L7I (-) ODE: Lagged long. slip, tire L7i {KappL_L7i}
+SV_SLIP_LONG_L7O (-) ODE: Lagged long. slip, tire L7o {KappL_L7o}
+SV_SLIP_LONG_R1I (-) ODE: Lagged long. slip, tire R1i {KappL_R1i}
+SV_SLIP_LONG_R1O (-) ODE: Lagged long. slip, tire R1o {KappL_R1o}
+SV_SLIP_LONG_R2I (-) ODE: Lagged long. slip, tire R2i {KappL_R2i}
+SV_SLIP_LONG_R2O (-) ODE: Lagged long. slip, tire R2o {KappL_R2o}
+SV_SLIP_LONG_R3I (-) ODE: Lagged long. slip, tire R3i {KappL_R3i}
+SV_SLIP_LONG_R3O (-) ODE: Lagged long. slip, tire R3o {KappL_R3o}
+SV_SLIP_LONG_R4I (-) ODE: Lagged long. slip, tire R4i {KappL_R4i}
+SV_SLIP_LONG_R4O (-) ODE: Lagged long. slip, tire R4o {KappL_R4o}
+SV_SLIP_LONG_R5I (-) ODE: Lagged long. slip, tire R5i {KappL_R5i}
+SV_SLIP_LONG_R5O (-) ODE: Lagged long. slip, tire R5o {KappL_R5o}
+SV_SLIP_LONG_R6I (-) ODE: Lagged long. slip, tire R6i {KappL_R6i}
+SV_SLIP_LONG_R6O (-) ODE: Lagged long. slip, tire R6o {KappL_R6o}
+SV_SLIP_LONG_R7I (-) ODE: Lagged long. slip, tire R7i {KappL_R7i}
+SV_SLIP_LONG_R7O (-) ODE: Lagged long. slip, tire R7o {KappL_R7o}
+SV_SO_DIST (m) ODE: Distance  used for tire "wandering profiles" {Sta_Prof}
+SV_SPEED_DVDS (-) dVdS derivative for speed control
+SV_SPEED_PREVIEW_SSTART (m) Start station in path preview array
+SV_SPEED_PREVIEW_V_TARGET (km/h) Initial target speed in preview array
+SV_STATION (m) Station of vehicle on driver path PATH_ID_DM {Station}
+SV_STA_ROAD (m) Vehicle station on road CURRENT_ROAD_ID {Sta_Road}
+SV_STR_DM (deg) Road-wheel steer from driver model
+SV_STR_DM_OLD (deg) Road-wheel steer from driver model (prev. time step)
+SV_STR_IN_DGR_A1 (-) ODE: Steering gear input rate, axle 1
+SV_STR_IN_DGR_A2 (-) ODE: Steering gear input rate, axle 2
+SV_STR_IN_DGR_A3 (-) ODE: Steering gear input rate, axle 3
+SV_STR_IN_DGR_A4 (-) ODE: Steering gear input rate, axle 4
+SV_STR_IN_DGR_A5 (-) ODE: Steering gear input rate, axle 5
+SV_STR_IN_DGR_A6 (-) ODE: Steering gear input rate, axle 6
+SV_STR_IN_DGR_A7 (-) ODE: Steering gear input rate, axle 7
+SV_STR_IN_GR_A1 (-) ODE: Steering gear input position, axle 1 {A_StrIn1}
+SV_STR_IN_GR_A2 (-) ODE: Steering gear input position, axle 2 {A_StrIn2}
+SV_STR_IN_GR_A3 (-) ODE: Steering gear input position, axle 3 {A_StrIn3}
+SV_STR_IN_GR_A4 (-) ODE: Steering gear input position, axle 4 {A_StrIn4}
+SV_STR_IN_GR_A5 (-) ODE: Steering gear input position, axle 5 {A_StrIn5}
+SV_STR_IN_GR_A6 (-) ODE: Steering gear input position, axle 6 {A_StrIn6}
+SV_STR_IN_GR_A7 (-) ODE: Steering gear input position, axle 7 {A_StrIn7}
+SV_STR_KP_L1 (deg) Kingpin steer angle, wheel L1
+SV_STR_KP_L1_OLD (deg) Kingpin steer angle, wheel L1 (previous time step)
+SV_STR_KP_L2_OLD (deg) Kingpin steer angle, wheel L2 (previous time step)
+SV_STR_KP_L3_OLD (deg) Kingpin steer angle, wheel L3 (previous time step)
+SV_STR_KP_L4_OLD (deg) Kingpin steer angle, wheel L4 (previous time step)
+SV_STR_KP_L5_OLD (deg) Kingpin steer angle, wheel L5 (previous time step)
+SV_STR_KP_L6_OLD (deg) Kingpin steer angle, wheel L6 (previous time step)
+SV_STR_KP_L7_OLD (deg) Kingpin steer angle, wheel L7 (previous time step)
+SV_STR_KP_R1 (deg) Kingpin steer angle, wheel R1
+SV_STR_KP_R1_OLD (deg) Kingpin steer angle, wheel R1 (previous time step)
+SV_STR_KP_R2_OLD (deg) Kingpin steer angle, wheel R2 (previous time step)
+SV_STR_KP_R3_OLD (deg) Kingpin steer angle, wheel R3 (previous time step)
+SV_STR_KP_R4_OLD (deg) Kingpin steer angle, wheel R4 (previous time step)
+SV_STR_KP_R5_OLD (deg) Kingpin steer angle, wheel R5 (previous time step)
+SV_STR_KP_R6_OLD (deg) Kingpin steer angle, wheel R6 (previous time step)
+SV_STR_KP_R7_OLD (deg) Kingpin steer angle, wheel R7 (previous time step)
+SV_STR_OUT_GR_A1 (-) Steering gear output
+SV_STR_OUT_GR_A2 (-) Steering gear output
+SV_STR_OUT_GR_A3 (-) Steering gear output
+SV_STR_OUT_GR_A4 (-) Steering gear output
+SV_STR_OUT_GR_A5 (-) Steering gear output
+SV_STR_OUT_GR_A6 (-) Steering gear output
+SV_STR_OUT_GR_A7 (-) Steering gear output
+SV_SWA (deg) ODE: Steering wheel angle
+SV_SWA_DM (deg) Steering wheel angle from DM
+SV_SWA_OL (deg) Steering wheel angle from open loop control
+SV_SWA_OLD (deg) Steering wheel angle (previous time step)
+SV_THROTTLE (-) ODE: Time delayed engine throttle
+SV_THR_REQ (-) Requested Throttle
+SV_TH_AUTO_SHIFT (-) Boolean: auto throttle, gear shift, prev. time step
+SV_TROT_L1 (C) ODE: Brake rotor L1 temperature {T_Rtr_L1}
+SV_TROT_L2 (C) ODE: Brake rotor L2 temperature {T_Rtr_L2}
+SV_TROT_L3 (C) ODE: Brake rotor L3 temperature {T_Rtr_L3}
+SV_TROT_L4 (C) ODE: Brake rotor L4 temperature {T_Rtr_L4}
+SV_TROT_L5 (C) ODE: Brake rotor L5 temperature {T_Rtr_L5}
+SV_TROT_L6 (C) ODE: Brake rotor L6 temperature {T_Rtr_L6}
+SV_TROT_L7 (C) ODE: Brake rotor L7 temperature {T_Rtr_L7}
+SV_TROT_R1 (C) ODE: Brake rotor R1 temperature {T_Rtr_R1}
+SV_TROT_R2 (C) ODE: Brake rotor R2 temperature {T_Rtr_R2}
+SV_TROT_R3 (C) ODE: Brake rotor R3 temperature {T_Rtr_R3}
+SV_TROT_R4 (C) ODE: Brake rotor R4 temperature {T_Rtr_R4}
+SV_TROT_R5 (C) ODE: Brake rotor R5 temperature {T_Rtr_R5}
+SV_TROT_R6 (C) ODE: Brake rotor R6 temperature {T_Rtr_R6}
+SV_TROT_R7 (C) ODE: Brake rotor R7 temperature {T_Rtr_R7}
+SV_T_ESC_STATE_CHANGE (s) Time when ESC control status last changed
+SV_T_SHIFT_START (s) Time when automatic gear shift started
+SV_VBK_L1 (mm3) ODE: Brake caliper L1 volume
+SV_VBK_L2 (mm3) ODE: Brake caliper L2 volume
+SV_VBK_L3 (mm3) ODE: Brake caliper L3 volume
+SV_VBK_L4 (mm3) ODE: Brake caliper L4 volume
+SV_VBK_L5 (mm3) ODE: Brake caliper L5 volume
+SV_VBK_L6 (mm3) ODE: Brake caliper L6 volume
+SV_VBK_L7 (mm3) ODE: Brake caliper L7 volume
+SV_VBK_R1 (mm3) ODE: Brake caliper R1 volume
+SV_VBK_R2 (mm3) ODE: Brake caliper R2 volume
+SV_VBK_R3 (mm3) ODE: Brake caliper R3 volume
+SV_VBK_R4 (mm3) ODE: Brake caliper R4 volume
+SV_VBK_R5 (mm3) ODE: Brake caliper R5 volume
+SV_VBK_R6 (mm3) ODE: Brake caliper R6 volume
+SV_VBK_R7 (mm3) ODE: Brake caliper R7 volume
+SV_VERR_OLD (km/h) Speed controller error at previous time step
+SV_VXS (km/h) ODE: Body-X speed of laden sprung-mass CG, unit 1
+SV_VXS_2 (km/h) ODE: Body X speed of laden sprung-mass CG_2
+SV_VYS (m/s) ODE: Body-Y speed of laden sprung-mass CG, unit 1
+SV_VYS_2 (m/s) ODE: Body Y speed of laden sprung-mass CG_2
+SV_VZS (m/s) ODE: Body-Z speed of laden sprung-mass CG, unit 1
+SV_VZS_2 (m/s) ODE: Body Z speed of laden sprung-mass CG_2
+SV_XO (m) ODE: Global X coord. of sprung-mass origin, unit 1 {Xo}
+SV_X_GND (m) X coord, ground, unit 1 aero ref. pt (saved)
+SV_X_GND_2 (m) X coord, ground, unit 2 aero ref. pt (saved)
+SV_X_H1 (mm) ODE: X translation for hitch 1
+SV_YAW (deg) ODE: Yaw of sprung mass, unit 1 {Yaw}
+SV_YAW_REL_2 (deg) ODE: Relative yaw (3-2-1) for unit 2
+SV_YO (m) ODE: Global Y coord. of sprung-mass origin, unit 1 {Yo}
+SV_Y_GND (m) Y coord, ground, unit 1 aero ref. pt (saved)
+SV_Y_GND_2 (m) Y coord, ground, unit 2 aero ref. pt (saved)
+SV_Y_H1 (mm) ODE: Y translation for hitch 1
+SV_ZO (m) ODE: Global Z coord. of sprung-mass origin, unit 1 {Zo}
+SV_Z_CTC_L1I (m) Center of tire contact L1i {Zgnd_L1i}
+SV_Z_CTC_L1O (m) Center of tire contact L1o {Zgnd_L1o}
+SV_Z_CTC_L2I (m) Center of tire contact L2i {Zgnd_L2i}
+SV_Z_CTC_L2O (m) Center of tire contact L2o {Zgnd_L2o}
+SV_Z_CTC_L3I (m) Center of tire contact L3i {Zgnd_L3i}
+SV_Z_CTC_L3O (m) Center of tire contact L3o {Zgnd_L3o}
+SV_Z_CTC_L4I (m) Center of tire contact L4i {Zgnd_L4i}
+SV_Z_CTC_L4O (m) Center of tire contact L4o {Zgnd_L4o}
+SV_Z_CTC_L5I (m) Center of tire contact L5i {Zgnd_L5i}
+SV_Z_CTC_L5O (m) Center of tire contact L5o {Zgnd_L5o}
+SV_Z_CTC_L6I (m) Center of tire contact L6i {Zgnd_L6i}
+SV_Z_CTC_L6O (m) Center of tire contact L6o {Zgnd_L6o}
+SV_Z_CTC_L7I (m) Center of tire contact L7i {Zgnd_L7i}
+SV_Z_CTC_L7O (m) Center of tire contact L7o {Zgnd_L7o}
+SV_Z_CTC_R1I (m) Center of tire contact R1i {Zgnd_R1i}
+SV_Z_CTC_R1O (m) Center of tire contact R1o {Zgnd_R1o}
+SV_Z_CTC_R2I (m) Center of tire contact R2i {Zgnd_R2i}
+SV_Z_CTC_R2O (m) Center of tire contact R2o {Zgnd_R2o}
+SV_Z_CTC_R3I (m) Center of tire contact R3i {Zgnd_R3i}
+SV_Z_CTC_R3O (m) Center of tire contact R3o {Zgnd_R3o}
+SV_Z_CTC_R4I (m) Center of tire contact R4i {Zgnd_R4i}
+SV_Z_CTC_R4O (m) Center of tire contact R4o {Zgnd_R4o}
+SV_Z_CTC_R5I (m) Center of tire contact R5i {Zgnd_R5i}
+SV_Z_CTC_R5O (m) Center of tire contact R5o {Zgnd_R5o}
+SV_Z_CTC_R6I (m) Center of tire contact R6i {Zgnd_R6i}
+SV_Z_CTC_R6O (m) Center of tire contact R6o {Zgnd_R6o}
+SV_Z_CTC_R7I (m) Center of tire contact R7i {Zgnd_R7i}
+SV_Z_CTC_R7O (m) Center of tire contact R7o {Zgnd_R7o}
+SV_Z_GND (m) Z coord, ground, unit 1 aero ref. pt (saved)
+SV_Z_GND_2 (m) Z coord, ground, unit 2 aero ref. pt (saved)
+SV_Z_H1 (mm) ODE: Z translation for hitch 1

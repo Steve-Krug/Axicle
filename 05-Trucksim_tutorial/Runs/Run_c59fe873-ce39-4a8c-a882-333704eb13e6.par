@@ -1,0 +1,101 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Gravel Train, 3A Tractor, 2A Dolly (H)`Vehicle Layout: Double Trailers
+#VEHICLECODE S_SS + SSS + dSS + SSS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_c59fe873-ce39-4a8c-a882-333704eb13e6
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 8
+#RingCtrl7 -1
+*RUN_COLOR 0 1 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_8da96765-f311-41e8-8fcf-569dc9d3f211.par
+#BlueLink2 Vehicle: Loaded Combination`Gravel Train w/ 3A Tractor, 2A Dolly (H)` Doubles Configurations` , Math Model`VehLoad_8da96765-f311-41e8-8fcf-569dc9d3f211
+
+PARSFILE Procedures\Proc_70ad8d7f-795c-4e2d-9db4-1830a6f87271.par
+#BlueLink28 Procedures`PBS C14: Yaw Damping` PBS (Performance Based Standards)` , Procedure`Proc_70ad8d7f-795c-4e2d-9db4-1830a6f87271
+
+PARSFILE Generic\Group\GenGrp_dd5993e3-9519-44e4-aba8-1927cf24ff83.par
+#BlueLink9 Generic Data Group`11 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_dd5993e3-9519-44e4-aba8-1927cf24ff83
+
+INSTALL_SPEED_CONTROLLER
+Opt_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+set_description SPEED_TARGET_ID Set from the Run Control screen
+SPEED_TARGET_CONSTANT 88
+OPT_SC_ENGINE_BRAKING 0
+*SPEED 88
+*TSTOP 1
+PARSFILE Generic\VS_commands\GenVS_3ac23f3d-2a94-4d05-9d52-33560dc86923.par
+#BlueLink20 Generic VS Commands`Tire Vertical Forces (Axles 1 - 9)` Plot Groups` , Plot`GenVS_3ac23f3d-2a94-4d05-9d52-33560dc86923
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_210bf516-a418-4707-bed2-da7b93f14f00.png
+WRITE_SENSOR_DETECT
+Title Gravel Train, 3A Tractor, 2A Dolly (H) <Vehicle Layout: Double Trailers>
+CATEGORY Vehicle Layout: Double Trailers 
+DATASET_TITLE Gravel Train, 3A Tractor, 2A Dolly (H)
+#MiscYellow0
+STEER_SW_GAIN = 90
+! Do not reduce speed overshoot in Speed
+! Controller.
+OPT_AUTO_RESET_IC = 0
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#The dolly has two axles and uses a turntable with a hinged towbar.
+#
+#This vehicle configuration represents a gravel train, common in Michigan and other states, used to haul aggregrate. Broadly speaking, aggregate is coarse to medium-graimed particulate material used in construction and includes sand, gravel, and crushed stone.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers } Gravel Train, 3A Tractor, 2A Dolly (H)
+#Library : TruckSim Run Control
+#DataSet : Gravel Train, 3A Tractor, 2A Dolly (H)
+#Category: Vehicle Layout: Double Trailers
+#FileID  : Run_c59fe873-ce39-4a8c-a882-333704eb13e6
+#Modified: 06-06-2022 11:03:16
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

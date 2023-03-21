@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Plot: Setup`n/v (rpm/mph)`Powertrain
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#CheckBox1 0    
+
+
+#MiscYellow1
+define_output n_v = (AV_Eng*9.549)/(vxz_fwd*2.23693629205+1e-15)
+#ENDMYellow
+
+#MiscYellow0
+PLOTCHANNELS n_v, Time
+
+#ENDMYellow
+
+YMAX 700
+YMIN 0
+
+#RingCtrl2 Manual
+YMaxmin Manual
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+YAXIS 0, 700
+
+PTITLE n/v (rpm/mph)
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } n/v (rpm/mph)
+#Library : Plot: Setup
+#DataSet : n/v (rpm/mph)
+#Category: Powertrain
+#FileID  : Plot_cff519e4-c31d-4a23-92ba-6cb3118932ff
+#Modified: 06-07-2021 01:49:36
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

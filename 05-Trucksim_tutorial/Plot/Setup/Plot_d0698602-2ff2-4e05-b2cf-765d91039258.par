@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Plot: Setup`Hitch Forces (Z)`Hitch
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fz_H, Time
+PLOTCHANNELS Fz_H2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Hitch Forces (Z)
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Forces (Z)
+#Library : Plot: Setup
+#DataSet : Hitch Forces (Z)
+#Category: Hitch
+#FileID  : Plot_d0698602-2ff2-4e05-b2cf-765d91039258
+#Created : 09-28-2021 16:17:26
+#Modified: 09-28-2021 16:17:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Hitch: Yaw Moment`Artic Bus: 100 kN-m/deg (108 deg Lash)`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR
+#RadioCtrl0 0    
+
+#DiagramOne0
+MZ_HITCH_TABLE LINEAR
+-55, -100000
+-54, 0
+54, 0
+55, 100000
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Hitch: Yaw Moment; Artic Bus: 100 kN-m/deg (108 deg Lash)
+#Library : Hitch: Yaw Moment
+#DataSet : Artic Bus: 100 kN-m/deg (108 deg Lash)
+#Category: 
+#FileID  : HchMz_fd7e360a-3abe-4519-bfd2-51653ace1d0f
+#Created : 12-09-2021 09:44:43
+#Modified: 12-09-2021 09:44:43
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Hitch Mz
+
+END

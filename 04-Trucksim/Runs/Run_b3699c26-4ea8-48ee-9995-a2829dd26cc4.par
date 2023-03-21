@@ -1,0 +1,99 @@
+PARSFILE
+#FullDataName TruckSim Run Control`AEB CCRb, Van: -2 m/s^2, 12 m`AEB: Euro NCAP Tests
+#VEHICLECODE I_I
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_b3699c26-4ea8-48ee-9995-a2829dd26cc4
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_6a030c0f-0bb9-408f-96f1-b927223d953f.par
+#BlueLink0 Animator: Camera Setup`Automated Emergency Braking` ADAS and Euro NCAP: Camera Views` , Animator camera`Camera_6a030c0f-0bb9-408f-96f1-b927223d953f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_f831fbdf-1788-40b6-94b6-c53259b1f606.par
+#BlueLink2 Vehicle: Loaded Combination`Euro Van, with FCW and AEB` European Vans` , Math Model`VehLoad_f831fbdf-1788-40b6-94b6-c53259b1f606
+
+PARSFILE Procedures\Proc_daa1195d-072e-4e81-93a5-61de9491ac0e.par
+#BlueLink28 Procedures`AEB Single Test: CCRb, Van` AEB: Automated Emergency Braking` , Procedure`Proc_daa1195d-072e-4e81-93a5-61de9491ac0e
+
+PARSFILE Control\Speed_t\SpdTime_f34b0135-42b7-46ce-b413-366894b9b1a0.par
+#BlueLink9 Control: Speed (Closed Loop) Using Target Speed`50-0kmh, -2 m/s/s, ISPEED = 2` AEB CCRb Target Speed` , Miscellaneous`SpdTime_f34b0135-42b7-46ce-b413-366894b9b1a0
+
+PARSFILE Animator\HUD\HUD_ea50d363-ad9d-4be3-9122-f0f7f618e97b.par
+#BlueLink10 Animator: HUD`AEB CCRb Label: 12 m, -2 m/s2` Euro NCAP` , Miscellaneous`HUD_ea50d363-ad9d-4be3-9122-f0f7f618e97b
+
+PARSFILE Animator\HUD\HUD_c67e5896-ef2d-4a1c-ba60-3c7a531a9259.par
+#BlueLink11 Animator: HUD`Time-To-Collision` Euro NCAP` , Miscellaneous`HUD_c67e5896-ef2d-4a1c-ba60-3c7a531a9259
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4ee189bc-4102-46cf-a6ee-046ab79da53b.png
+WRITE_SENSOR_DETECT
+Title AEB CCRb, Van: -2 m/s^2, 12 m <AEB: Euro NCAP Tests>
+CATEGORY AEB: Euro NCAP Tests 
+DATASET_TITLE AEB CCRb, Van: -2 m/s^2, 12 m
+#MiscYellow0
+! Adjust the start distance of the GVT ahead of
+! the ego vehilce (instantiated in Procedure)
+START_DISTANCE = 12+LEN_GVT
+#ENDMYellow
+
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#AEB : Autonomous Emergency Braking
+#GVT : Global Vehicle Target
+#VUT : Vehicle Under Test
+#FCW : Forward Collision Warning
+#CCRb : Car-to-Car Rear, Braking GVT
+#
+#This example is based on a test scenario published by Euro NCAP for AEB systems. the target (GVT) is moving at 50 km/h and decelerates at 2 m/s^2. The VUT is trailing with a distance of 12 m.
+#
+#The GVT speed is defined with an output parameter Vx_GVT that can be set as a constant or managed with an equation.
+#
+#Set START_DISTANCE in the Misc. yellow field on the Run Control screen.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { AEB: Euro NCAP Tests } AEB CCRb, Van: -2 m/s^2, 12 m
+#Library : TruckSim Run Control
+#DataSet : AEB CCRb, Van: -2 m/s^2, 12 m
+#Category: AEB: Euro NCAP Tests
+#FileID  : Run_b3699c26-4ea8-48ee-9995-a2829dd26cc4
+#Modified: 05-03-2022 12:52:24
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

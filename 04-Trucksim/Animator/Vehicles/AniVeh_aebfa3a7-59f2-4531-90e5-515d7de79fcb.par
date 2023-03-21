@@ -1,0 +1,75 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`1A Large Rental Trailer`Trailers: 1-axle
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox8 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+OPT_TRAILER_REF_FRAME 0
+OBJ_X_LENGTH 2864
+OBJ_Y_LENGTH 2024
+OBJ_Z_LENGTH 1757
+*DZ_V -65
+*LAT_WC 2024
+*LAT_WC_2 2024
+*HWC 290
+*WHEEL_RATIO 1
+*LAXLE_1 2864
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_aebfa3a7-59f2-4531-90e5-515d7de79fcb.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X -2.864
+SET_OFFSET_Y 1.012
+SET_OFFSET_Z 0.2755
+TIRE_ANI_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_ANGLE_X 180
+SET_OFFSET_X -2.864
+SET_OFFSET_Y -1.012
+SET_OFFSET_Z 0.2755
+DZ_OBJECT -0.065
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL_Groups\ShpGrp_6539efbd-032d-4b88-8727-5439a2cd0987.par
+#BlueLink1 Animator: Shape Assembly`1A Large Rental Trailer` Trailers` , Vehicle Body`ShpGrp_6539efbd-032d-4b88-8727-5439a2cd0987
+
+WRITE_REFERENCE_FRAME_SIZE
+WRITE_ADD_REFERENCE_FRAME_BRAKES
+PARSFILE Animator\STL\Shape_1a28eb72-c279-44f7-9d27-ac6c2903e9ca.par
+#BlueLink3 Animator: Shape File Link`1A Rental Trl (Large): Brake Lights HD` Trailers (2 of 2)` , Brake Lights`Shape_1a28eb72-c279-44f7-9d27-ac6c2903e9ca
+
+set_lighting on
+set_fogging on
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9.par
+#BlueLink5 Animator: Camera Setup`XZ Plane, No Offsets - Medium Objects` Shape Preview` , Video Camera`Camera_efdb7ca9-660a-460a-9bea-fad67b8275d9
+
+EXPORT_PARSFILE Animator\STL\Shape_c500746e-28db-47d2-91ed-d32247db7d4d.par
+#BlueLink2 Animator: Shape File Link`Blurred Tire: Car` Common Vehicle Assets: Tires` , Tire for traffic vehicle`Shape_c500746e-28db-47d2-91ed-d32247db7d4d
+
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Trailers: 1-axle } 1A Large Rental Trailer
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : 1A Large Rental Trailer
+#Category: Trailers: 1-axle
+#FileID  : AniVeh_aebfa3a7-59f2-4531-90e5-515d7de79fcb
+#Modified: 04-18-2022 12:23:47
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Vehicle Shape
+
+END

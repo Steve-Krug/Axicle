@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName Generic VS Commands`Ind. Kinematics Outputs`Ind. Susp. Kinematics
+#VehCode VS Commands
+
+#MiscYellow0
+! The general suspension kinematics outputs are
+!
+! DiveG_<<tire>>. The wheel spin change (with locked outboard brakes).
+!
+! Camber<<tire>>. The angle between sprung mass Z and the wheel plane, with
+! usual sign.
+!
+! Steer_<<tire>>. Measured between the sprung mass X axis and the line of
+! intersection of the wheel plane and a sprung mass X-Y plane.
+!
+! Xrel_<<tire>>, Yrel_<<tire>>, Zrel_<<tire>>. The wheel center in sprung mass
+! coordinates.
+!
+! The objective of these VS Commands is to compute the above outputs, but only
+! using the suspension input data, in order to check the consistency
+! of the input and output definitions.
+
+define_output DiveG_<<tire>>_Alt = ...
+  SUSP_DIVE(Jnc_<<tire_os>>, Jnc_<<tire>>, <<wheel>>); deg
+
+define_output Camber<<tire>>_Alt = ...
+  A_CAMBER(<<axle>>,<<side2>>) + ...
+  CAMBER(Jnc_<<tire_os>>, Jnc_<<tire>>, <<wheel>>); deg
+  
+define_output Steer_<<tire>>_Alt = ...
+  <<side>>*A_TOE(<<axle>>, <<side2>>) + ...
+  RACK_KIN(0, Y_Rack<<axle>>, <<wheel>>) + ...
+  <<side>>*TOE(Jnc_<<tire_os>>, Jnc_<<tire>>, <<wheel>>); deg
+  
+define_output Xrel_<<tire>>_Alt = ...
+  SUSP_X(Jnc_<<tire_os>>, Jnc_<<tire>>, <<wheel>>) + ...
+  -LX_AXLE(<<axle>>); mm
+
+define_output Yrel_<<tire>>_Alt = ...
+  <<side>> * SUSP_LAT(Jnc_<<tire_os>>, Jnc_<<tire>>, <<wheel>>) + ...
+  Y_CL_SUSP(<<axle>>) + ...
+  -<<side>>*L_TRACK(<<axle>>)/2; mm
+  
+define_output Zrel_<<tire>>_Alt = ...
+  Jnc_<<tire>> + ...
+  -JNC_DESIGN(<<axle>>, <<side2>>) + ...
+  H_WC(<<axle>>, <<side2>>); mm
+#ENDMYellow
+
+PARSFILE Plot\Setup\Plot_cffa6127-d13f-4fcb-a024-aeea7e317966.par
+#BlueLink3 Plot: Setup`Dive vs. Time` Suspension - Ind. Kin. Outputs` , Plot`Plot_cffa6127-d13f-4fcb-a024-aeea7e317966
+
+PARSFILE Plot\Setup\Plot_ce252f35-b6bd-44e4-a6c1-159557e2d823.par
+#BlueLink4 Plot: Setup`Camber vs. Time` Suspension - Ind. Kin. Outputs` , Plot`Plot_ce252f35-b6bd-44e4-a6c1-159557e2d823
+
+PARSFILE Plot\Setup\Plot_481b5a18-9c6d-47e1-a173-27d858fbff74.par
+#BlueLink5 Plot: Setup`Steer vs. Time` Suspension - Ind. Kin. Outputs` , Plot`Plot_481b5a18-9c6d-47e1-a173-27d858fbff74
+
+PARSFILE Plot\Setup\Plot_7186e098-05d0-4679-ad0e-7812512868f5.par
+#BlueLink6 Plot: Setup`X vs. Time` Suspension - Ind. Kin. Outputs` , Plot`Plot_7186e098-05d0-4679-ad0e-7812512868f5
+
+PARSFILE Plot\Setup\Plot_47bcd139-86cb-4c57-8b93-fdb32567deda.par
+#BlueLink7 Plot: Setup`Y vs. Time` Suspension - Ind. Kin. Outputs` , Plot`Plot_47bcd139-86cb-4c57-8b93-fdb32567deda
+
+PARSFILE Plot\Setup\Plot_8d16017d-3177-4806-8b6b-6763cba3e492.par
+#BlueLink8 Plot: Setup`Z vs. Time` Suspension - Ind. Kin. Outputs` , Plot`Plot_8d16017d-3177-4806-8b6b-6763cba3e492
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Ind. Susp. Kinematics } Ind. Kinematics Outputs
+#Library : Generic VS Commands
+#DataSet : Ind. Kinematics Outputs
+#Category: Ind. Susp. Kinematics
+#FileID  : GenVS_b97641a3-9571-4800-afb4-ac67467d98b8
+#Created : 11-17-2021 08:35:27
+#Modified: 11-19-2021 09:42:44
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

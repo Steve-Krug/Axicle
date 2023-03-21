@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Powertrain: Front Differential`EV Open Diff.: Gear Ratio 3.92:1 (40kW)`Electric Motor Drive (40 kW)
+#CheckBox0 0    
+LOCKED_FD_OPT 0
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 0
+*EV_CONTROL 0
+OPT_LOCKED_DIFF 0
+M_DIFF_VISC_CONSTANT 0
+#RadioCtrl0 0    
+
+M_DIFF_FD_CONSTANT 0
+R_GEAR_FD 3.92
+R_EFF_F_FD 0.99
+R_EFF_R_FD 0.99
+LOCKED_FD_DAMP 0.8
+LOCKED_FD_K 80
+IDS_F 0.013
+IHS_LF 0.009
+IHS_RF 0.009
+*SCALAR 0
+
+OPT_MOTOR_ON_WHEEL 0
+
+ISIDE 1
+PARSFILE Powertrain\Motor\MMotor_9c4019ad-c573-405a-aa24-20a17ddaef20.par
+#BlueLink0 Powertrain: Electric Motor Torque`Max. Output 305 N-m` Electric Motor` , Differential Clutch`MMotor_9c4019ad-c573-405a-aa24-20a17ddaef20
+
+R_GEAR_DIFF 3.92
+R_EFF_F_DIFF 0.99
+R_EFF_R_DIFF 0.99
+LOCKED_DIFF_DAMP 0.8
+LOCKED_DIFF_K 80
+IDS 0.013
+IHS_L 0.009
+IHS_R 0.009
+
+#EMBEDDED_NOTES
+#Generic a 40 kW electric motor is equipped.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Front Differential; { Electric Motor Drive (40 kW) } EV Open Diff.: Gear Ratio 3.92:1 (40kW)
+#Library : Powertrain: Front Differential
+#DataSet : EV Open Diff.: Gear Ratio 3.92:1 (40kW)
+#Category: Electric Motor Drive (40 kW)
+#FileID  : DiffF_a1c20165-1bc1-4d4e-bcd0-2ef383e380e9
+#Created : 11-30-2021 18:40:08
+#Modified: 12-01-2021 12:07:45
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Front Differential
+
+END

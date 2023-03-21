@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName Plot: Setup`Spin Rates in Hybrid Powertrain`Powertrain (Hybrid)
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par
+#BlueLink0 Plot: Format`Default Plot Settings` ` , Plot format`PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS AV_Eng, Time, Engine (planetary carrier)
+PLOTCHANNELS AV_Motor, Time
+PLOTCHANNELS AV_Gnrtr, Time
+PLOTCHANNELS AV_Trans, Time
+PLOTCHANNELS AV_D3f, Time
+PLOTCHANNELS AV_D3r, Time
+PLOTCHANNELS AV_Mt_D1, Time
+PLOTCHANNELS AV_Mt_D2, Time
+PLOTCHANNELS AV_Mt_D1_L, Time
+PLOTCHANNELS AV_Mt_D1_R, Time
+PLOTCHANNELS AV_Mt_D2_L, Time
+PLOTCHANNELS AV_Mt_D2_R, Time
+PLOTCHANNELS AV_D6f, Time
+PLOTCHANNELS AV_D6r, Time
+PLOTCHANNELS AV_Mt_D4, Time
+PLOTCHANNELS AV_Mt_D5, Time
+PLOTCHANNELS AV_Mt_D4_L, Time
+PLOTCHANNELS AV_Mt_D4_R, Time
+PLOTCHANNELS AV_Mt_D5_L, Time
+PLOTCHANNELS AV_Mt_D5_R, Time
+PLOTCHANNELS AV_D9f, Time
+PLOTCHANNELS AV_D9r, Time
+PLOTCHANNELS AV_Mt_D8, Time
+PLOTCHANNELS AV_Mt_D8_L, Time
+PLOTCHANNELS AV_Mt_D8_R, Time
+
+#ENDMYellow
+
+YAXISLABEL RPM
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Spin Rates in Hybrid Powertrain
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Spin Rates in Hybrid Powertrain
+#Library : Plot: Setup
+#DataSet : Spin Rates in Hybrid Powertrain
+#Category: Powertrain (Hybrid)
+#FileID  : Plot_77579fdf-3ebb-43be-9ef8-4418316c886a
+#Modified: 06-07-2021 01:49:36
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Powertrain: Rear Differential`EV Twin-Motor: Gr 3.92:1, 50kW x2`Electric Motor Drive (100 kW)
+#CheckBox0 0    
+LOCKED_RD_OPT 0
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 1
+*EV_CONTROL 1
+OPT_LOCKED_DIFF 0
+M_DIFF_VISC_CONSTANT 0
+#RadioCtrl0 0    
+
+M_DIFF_RD_CONSTANT 0
+R_GEAR_RD 3.92
+R_EFF_F_RD 0.99
+R_EFF_R_RD 0.99
+LOCKED_RD_DAMP 0.8
+LOCKED_RD_K 80
+IDS_R 0.013
+IHS_LR 0.009
+IHS_RR 0.009
+*SCALAR 0
+
+OPT_MOTOR_ON_WHEEL 1
+
+#CheckBox1 0    
+OPT_WHEEL_MOTOR_REACTION 0
+
+ISIDE 1
+PARSFILE Powertrain\Motor\MMotor_bda5ee1e-e8b1-49b7-93df-a17b6f582989.par
+#BlueLink1 Powertrain: Electric Motor Torque`Max. Output 1960 N-m` Electric Motor` , Electric Motor Center/Left`MMotor_bda5ee1e-e8b1-49b7-93df-a17b6f582989
+
+ISIDE 2
+PARSFILE Powertrain\Motor\MMotor_bda5ee1e-e8b1-49b7-93df-a17b6f582989.par
+#BlueLink2 Powertrain: Electric Motor Torque`Max. Output 1960 N-m` Electric Motor` , Electric Motor Right`MMotor_bda5ee1e-e8b1-49b7-93df-a17b6f582989
+
+ISIDE 1
+R_GEAR_DIFF 3.92
+R_EFF_F_DIFF 0.99
+R_EFF_R_DIFF 0.99
+LOCKED_DIFF_DAMP 0.8
+LOCKED_DIFF_K 80
+IDS 0.013
+IHS_L 0.009
+IHS_R 0.009
+
+#EMBEDDED_NOTES
+#Generic a 20 kW electric motor is equipped.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { Electric Motor Drive (100 kW) } EV Twin-Motor: Gr 3.92:1, 50kW x2
+#Library : Powertrain: Rear Differential
+#DataSet : EV Twin-Motor: Gr 3.92:1, 50kW x2
+#Category: Electric Motor Drive (100 kW)
+#FileID  : DiffR_4125b424-8794-4f15-9af1-aed0abda60fa
+#Modified: 06-07-2021 01:49:30
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Rear Differential
+
+END

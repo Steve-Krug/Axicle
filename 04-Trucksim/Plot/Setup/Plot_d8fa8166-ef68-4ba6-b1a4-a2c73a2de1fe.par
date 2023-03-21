@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Plot: Setup`Predicted Point`Obstacle Avoidance
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS xSensLocate, Time
+PLOTCHANNELS ySensLocate, Time
+PLOTCHANNELS xSensOutGlob, Time
+PLOTCHANNELS ySensOutGlob, Time
+PLOTCHANNELS xObjLocatGlob, Time
+PLOTCHANNELS yObjLocatGlob, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Predicted Point
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Obstacle Avoidance } Predicted Point
+#Library : Plot: Setup
+#DataSet : Predicted Point
+#Category: Obstacle Avoidance
+#FileID  : Plot_d8fa8166-ef68-4ba6-b1a4-a2c73a2de1fe
+#Created : 10-12-2021 15:13:12
+#Modified: 10-12-2021 15:13:16
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

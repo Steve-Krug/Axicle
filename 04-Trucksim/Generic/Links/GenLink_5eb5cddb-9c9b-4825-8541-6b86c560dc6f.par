@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Generic Group of Links`Path Detector Plots, Four`Path Detection
+#VehCode Generic Links
+PARSFILE Plot\Setup\Plot_4f1e2ac5-69c1-40e8-ba95-eb648ee4a915.par
+#BlueLink0 Plot: Setup`Path Detector Origin` Path Detector` , Miscellaneous`Plot_4f1e2ac5-69c1-40e8-ba95-eb648ee4a915
+
+PARSFILE Plot\Setup\Plot_5d25a1ad-bee0-4f4c-a417-61638bec506b.par
+#BlueLink1 Plot: Setup`Target Points, Road Curvature` Path Detector` , Miscellaneous`Plot_5d25a1ad-bee0-4f4c-a417-61638bec506b
+
+PARSFILE Plot\Setup\Plot_65f75d12-5cc9-4c7c-8112-c047eb95fe26.par
+#BlueLink2 Plot: Setup`Detected Curvature at PD Origin, 4` Path Detector` , Miscellaneous`Plot_65f75d12-5cc9-4c7c-8112-c047eb95fe26
+
+PARSFILE Plot\Setup\Plot_09e22cd9-af73-4fd6-8b9b-0560e3ec452d.par
+#BlueLink3 Plot: Setup`Detected Curvature Rate` Path Detector` , Miscellaneous`Plot_09e22cd9-af73-4fd6-8b9b-0560e3ec452d
+
+PARSFILE Plot\Setup\Plot_58d09d01-4621-4103-b0bf-07c7e0883ce7.par
+#BlueLink4 Plot: Setup`Detected Path Offset at PD Origin` Path Detector` , Miscellaneous`Plot_58d09d01-4621-4103-b0bf-07c7e0883ce7
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Path Detection } Path Detector Plots, Four
+#Library : Generic Group of Links
+#DataSet : Path Detector Plots, Four
+#Category: Path Detection
+#FileID  : GenLink_5eb5cddb-9c9b-4825-8541-6b86c560dc6f
+#Created : 11-08-2021 16:05:46
+#Modified: 11-08-2021 16:07:00
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Links
+
+END

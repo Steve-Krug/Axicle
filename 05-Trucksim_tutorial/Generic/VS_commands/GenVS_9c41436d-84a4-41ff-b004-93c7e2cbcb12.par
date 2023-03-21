@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Generic VS Commands`Driver Impairment Model`Miscellaneous Custom Controls
+#VehCode VS Commands
+
+#MiscYellow0
+! The impaired driver is modeled as having a decrease in preview time and an increase in input
+! delay time. They are considered to change by the same percentage. For this to work, the 10-pt
+! driver model option must be used with a nonzero input delay setting, as well as a constant
+! preview time. The default setting of the impairment level is zero; this value can be easily changed
+! elsewhere.
+
+define_parameter driver_impairment_level = 0; %
+
+eq_pre_init tprev_constant = (1-driver_impairment_level)*tprev_constant
+
+eq_pre_init tlag_dm = (1+driver_impairment_level)*tlag_dm
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Miscellaneous Custom Controls } Driver Impairment Model
+#Library : Generic VS Commands
+#DataSet : Driver Impairment Model
+#Category: Miscellaneous Custom Controls
+#FileID  : GenVS_9c41436d-84a4-41ff-b004-93c7e2cbcb12
+#Created : 05-31-2022 08:31:02
+#Modified: 05-31-2022 08:31:06
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

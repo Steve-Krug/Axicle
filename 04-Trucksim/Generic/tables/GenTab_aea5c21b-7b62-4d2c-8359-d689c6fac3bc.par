@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Generic Table`723 V Battery, Total Capacity`Powertrain (HEV)
+#RingCtrl0 LINEAR
+#CheckBox0 0    
+
+#DiagramOne0
+CAP_BATTERY_MAX_TABLE LINEAR
+-20, 80
+-10, 100
+0, 120
+25, 129.2
+45, 129.2
+ENDTABLE
+_CONSTANT 0
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*KEYWORD CAP_BATTERY_MAX
+*X_LABEL Temperature (C)
+*Y_LABEL Capacity (A-h)
+*SCALAR 129.2
+*X_LABEL_2 Temperature (C)
+*SCALAR2 0
+
+
+#EMBEDDED_NOTES
+#Intended for use with the 723 V nominal battery pack, yielding ~93 kW-h of energy at warm temperatures.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } 723 V Battery, Total Capacity
+#Library : Generic Table
+#DataSet : 723 V Battery, Total Capacity
+#Category: Powertrain (HEV)
+#FileID  : GenTab_aea5c21b-7b62-4d2c-8359-d689c6fac3bc
+#Created : 05-14-2021 12:05:45
+#Modified: 06-07-2021 01:53:02
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode table
+
+END

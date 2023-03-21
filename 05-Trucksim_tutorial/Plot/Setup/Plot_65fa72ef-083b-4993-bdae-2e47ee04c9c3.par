@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`PARTIAL: Kappa deriv. of Fx`User-Defined Variables
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS fx_par_k, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE PARTIAL: Kappa deriv. of Fx
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { User-Defined Variables } PARTIAL: Kappa deriv. of Fx
+#Library : Plot: Setup
+#DataSet : PARTIAL: Kappa deriv. of Fx
+#Category: User-Defined Variables
+#FileID  : Plot_65fa72ef-083b-4993-bdae-2e47ee04c9c3
+#Created : 06-01-2022 14:05:49
+#Modified: 06-01-2022 14:36:30
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

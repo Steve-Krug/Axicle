@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Vehicle: Loaded Combination`2A Tour Bus, AEB, ACC`Tour Buses
+#VehCode S_S
+#CheckBox0 0    
+#CheckBox2 0    
+
+PARSFILE Vehicles\Lead_2a\Lead2a_359a9ec0-18bc-47f9-865e-0a2dd895199d.par
+#BlueLink0 Vehicle: Lead Unit with 2 Axles`Tour Bus (S_S)` 2A Tour Bus` , Vehicle Type`Lead2a_359a9ec0-18bc-47f9-865e-0a2dd895199d
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Generic\Group\GenGrp_977dc6b4-0ea7-4127-bf78-6cfdb0d78621.par
+#BlueLink1 Generic Data Group`Tour Bus, AEB, ACC Sensor Setup` ADAS: Sensor Setup` , Miscellaneous`GenGrp_977dc6b4-0ea7-4127-bf78-6cfdb0d78621
+
+PARSFILE Animator\HUD\HUD_2b6ced4d-001a-45db-a5b8-47e5017b26d1.par
+#BlueLink2 Animator: HUD`Time-to-Collision, Radar, Low` HUD Groups` , Miscellaneous`HUD_2b6ced4d-001a-45db-a5b8-47e5017b26d1
+
+PARSFILE Sensors_Traffic\Radar\Radar_8bceb8da-d7ab-4b8b-b0a5-a48d29bf5015.par
+#BlueLink3 ADAS Sensors for Range and Tracking`Left Blind-Spot, Vx` Blind-Spot Sensors` , Miscellaneous`Radar_8bceb8da-d7ab-4b8b-b0a5-a48d29bf5015
+
+PARSFILE Sensors_Traffic\Radar\Radar_4285a377-cb42-4763-9b76-f352bfd3c5bd.par
+#BlueLink4 ADAS Sensors for Range and Tracking`Right Blind-Spot, Vx` Blind-Spot Sensors` , Miscellaneous`Radar_4285a377-cb42-4763-9b76-f352bfd3c5bd
+
+PARSFILE Animator\HUD\HUD_5d5f7982-ee80-49a3-98b1-add3ef4a979a.par
+#BlueLink5 Animator: HUD`Blind Spot Alerts` Alerts` , Miscellaneous`HUD_5d5f7982-ee80-49a3-98b1-add3ef4a979a
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_5cb9979d-3686-4654-8ce0-3c30f81bd36c.png
+
+#EMBEDDED_NOTES
+#Two-axle Tour Bus (S_S) with a 4x2 powertrain, a 7-speed automatic transmission, and a Yaw Control Differential.
+#
+#Both axles are solid axles.
+#
+#Two payloads are used to represent left and right side passengers, respectively.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Tour Buses } 2A Tour Bus, AEB, ACC
+#Library : Vehicle: Loaded Combination
+#DataSet : 2A Tour Bus, AEB, ACC
+#Category: Tour Buses
+#FileID  : VehLoad_13b32a0c-cdb0-4fd4-b250-262a06f473d3
+#Created : 09-24-2021 13:54:59
+#Modified: 10-12-2021 15:19:33
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_S
+
+END

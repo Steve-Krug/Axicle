@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Generic Data Group`11 Axle - Fx, Fy, Fz`Tire Force Arrows
+#VehCode Generic Group
+PARSFILE Animator\Arrows\Arrows_cd33b5cd-ef49-4f89-9cc4-6f54b91b1188.par
+#BlueLink0 Animator: Wheel Arrows and Other Indicators`11A - Fx Tire Force Arrows` Tire Force Arrows (11 Axles)` , Link 1`Arrows_cd33b5cd-ef49-4f89-9cc4-6f54b91b1188
+
+
+PARSFILE Animator\Arrows\Arrows_9efb228e-b685-4404-875a-460f63530595.par
+#BlueLink1 Animator: Wheel Arrows and Other Indicators`11A - Fy Tire Force Arrows` Tire Force Arrows (11 Axles)` , Link 2`Arrows_9efb228e-b685-4404-875a-460f63530595
+
+
+PARSFILE Animator\Arrows\Arrows_a3e70e0a-8a5f-4f91-bd70-0e1767a93c2e.par
+#BlueLink2 Animator: Wheel Arrows and Other Indicators`11A - Fz Tire Force Arrows` Tire Force Arrows (11 Axles)` , Link 3`Arrows_a3e70e0a-8a5f-4f91-bd70-0e1767a93c2e
+
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Tire Force Arrows } 11 Axle - Fx, Fy, Fz
+#Library : Generic Data Group
+#DataSet : 11 Axle - Fx, Fy, Fz
+#Category: Tire Force Arrows
+#FileID  : GenGrp_dd5993e3-9519-44e4-aba8-1927cf24ff83
+#Created : 12-09-2021 10:24:57
+#Modified: 12-09-2021 10:28:32
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Group
+
+END

@@ -1,0 +1,53 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Ext. Driver Model w/ Driver Preview Pts.`Steering System Control
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_306eca81-f11d-43e5-a321-90aff424ff4e\Run_out_tab.txt
+
+
+EXPORT L_Drv_1
+EXPORT L_Drv_2
+EXPORT L_Drv_3
+EXPORT L_Drv_4
+EXPORT L_Drv_5
+EXPORT A_Drv_1
+EXPORT A_Drv_2
+EXPORT A_Drv_3
+EXPORT A_Drv_4
+EXPORT A_Drv_5
+#MiscYellow0
+#Number of Selected Channels: 10
+#CHN_NAME: L_Drv_1
+#CHN_NAME: L_Drv_2
+#CHN_NAME: L_Drv_3
+#CHN_NAME: L_Drv_4
+#CHN_NAME: L_Drv_5
+#CHN_NAME: A_Drv_1
+#CHN_NAME: A_Drv_2
+#CHN_NAME: A_Drv_3
+#CHN_NAME: A_Drv_4
+#CHN_NAME: A_Drv_5
+#ENDMYellow
+
+#BlueLink0 TruckSim Run Control`External Driver Model w/ Driver Sensors` Simulink Models` , example run`Run_306eca81-f11d-43e5-a321-90aff424ff4e
+
+
+#EMBEDDED_NOTES
+#Export variables dataset for the Preview Points for External Driver Control dataset / Simulink-based Simple Driver Model example.
+#
+#This dataset specifies the export variables for the preview points designed to be used for an externally defined driver controller.
+#
+#These export variables represent each preview point's lateral distance from the vehicle sprung mass coordinate system origin X-axis projection and the road design path, as well as the error proportional to the area between the vehicle's sprung mass coordinate system origin X-axis projection and the road design path.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { Steering System Control } Ext. Driver Model w/ Driver Preview Pts.
+#Library : I/O Channels: Export
+#DataSet : Ext. Driver Model w/ Driver Preview Pts.
+#Category: Steering System Control
+#FileID  : Export_034f14a6-5f70-4071-8c28-4165959287e5
+#Modified: 06-07-2021 01:52:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Export Channels
+
+END

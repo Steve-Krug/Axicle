@@ -1,0 +1,64 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Flatbed Trailer (New)`Trailers
+*COLOR .36 .117 .117
+*OFFSET_Z 1.1
+*X_REF_LENGTH 11440
+*Y_REF_LENGTH 2438
+*Z_REF_LENGTH 180
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_54113b7c-1550-4e2f-944a-d12224f7a500.png
+PARSFILE Animator\STL\Shape_4b54068f-9bc0-4956-885d-8e6d73ccc6ec.par
+#BlueLink0 Animator: Shape File Link`Flatbed Trailer (New)` Trailers (1 of 2)` , Shape File`Shape_4b54068f-9bc0-4956-885d-8e6d73ccc6ec
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_1a642dd1-d63f-4efd-9645-42dc026019bb.par
+#BlueLink1 Animator: Shape File Link`Landing Jacks: Up (For Flatbed Trailer)` Common Vehicle Assets` , Shape File`Shape_1a642dd1-d63f-4efd-9645-42dc026019bb
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_cc4279bc-65b7-4b8b-804b-2efc16a756a0.par
+#BlueLink2 Animator: Shape File Link`Axle Rails (New) (For Flatbed Trailer)` Common Vehicle Assets` , Shape File`Shape_cc4279bc-65b7-4b8b-804b-2efc16a756a0
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_b077f14c-8b79-4d5e-94aa-f55ec55121b2.par
+#BlueLink3 Animator: Shape File Link`Axle Brackets: Flatbed Axle 1 (New)` Common Vehicle Assets` , Shape File`Shape_b077f14c-8b79-4d5e-94aa-f55ec55121b2
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_bf6c0cd6-e297-4f98-98b3-fcd07be695a6.par
+#BlueLink4 Animator: Shape File Link`Axle Brackets: Flatbed Axle 2 (New)` Common Vehicle Assets` , Shape File`Shape_bf6c0cd6-e297-4f98-98b3-fcd07be695a6
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_5b780ad5-7bfc-42af-8f81-138d6510778d.par
+#BlueLink5 Animator: Shape File Link`Mudflaps (New): Offset for Flatbed` Common Vehicle Assets` , Shape File`Shape_5b780ad5-7bfc-42af-8f81-138d6510778d
+
+set_offset_z 1.1
+x_ref_length 11440
+y_ref_length 2438
+z_ref_length 180
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_90838e05-dbe3-432a-9598-108f7c72dcdd.par
+#BlueLink17 Animator: Camera Setup`XZ Plane, No Offsets - Large Objects` Shape Preview` , Video Camera`Camera_90838e05-dbe3-432a-9598-108f7c72dcdd
+
+
+#EMBEDDED_NOTES
+#The Z offset for the assembly shifts the group up so that the shape origin matches that of the Ego vehicle.  The value here is from the parameter H_H_FRONT in the trailer's Sprung Mass dataset, converted to m.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers } Flatbed Trailer (New)
+#Library : Animator: Shape Assembly
+#DataSet : Flatbed Trailer (New)
+#Category: Trailers
+#FileID  : ShpGrp_54113b7c-1550-4e2f-944a-d12224f7a500
+#Modified: 06-07-2021 01:53:37
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

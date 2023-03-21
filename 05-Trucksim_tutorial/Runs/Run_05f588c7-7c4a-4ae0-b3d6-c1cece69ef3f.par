@@ -1,0 +1,98 @@
+PARSFILE
+#FullDataName TruckSim Run Control`eTractor 10x10, 10 Motors: Intersection`Powertrain: Electric
+#VEHICLECODE SS_SSS + S
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_05f588c7-7c4a-4ae0-b3d6-c1cece69ef3f
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Animator\Cameras\Camera_3a97376b-143b-4b6c-b830-542595e9039b.par
+#BlueLink0 Animator: Camera Setup`45 Azm, 30 El, 30 m Dist, 50 FoV, No Yaw` Vehicle Reference` , Animator camera`Camera_3a97376b-143b-4b6c-b830-542595e9039b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 5
+#RingCtrl7 -1
+*RUN_COLOR 0 0.4 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_dde4006b-e19a-4d6b-b1ce-05111482aff5.par
+#BlueLink2 Vehicle: Loaded Combination`5A eTractor +1A Flatbed Trl` Sleeper-Cab Tractor-Trailers` , Math Model`VehLoad_dde4006b-e19a-4d6b-b1ce-05111482aff5
+
+PARSFILE Procedures\Proc_4b8f9a32-fe03-4d23-ace2-05f6fdbabe6f.par
+#BlueLink28 Procedures`4-Way Intersection (Electric Trucks)` Road Networks` , Procedure`Proc_4b8f9a32-fe03-4d23-ace2-05f6fdbabe6f
+
+PARSFILE Generic\Group\GenGrp_7c3148c6-de37-4027-be86-a5d25fcb2727.par
+#BlueLink9 Generic Data Group`6 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_7c3148c6-de37-4027-be86-a5d25fcb2727
+
+PARSFILE Plot\Setup\Plot_70cf053b-5063-4093-9e6b-3254ae359ad8.par
+#BlueLink15 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 1)` Powertrain` , Plot`Plot_70cf053b-5063-4093-9e6b-3254ae359ad8
+
+PARSFILE Plot\Setup\Plot_e7b41872-2b40-4556-aa0d-7e348d4a1a61.par
+#BlueLink16 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 2)` Powertrain` , Plot`Plot_e7b41872-2b40-4556-aa0d-7e348d4a1a61
+
+PARSFILE Plot\Setup\Plot_2dd86413-3798-4048-b033-f592b39de27f.par
+#BlueLink17 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 3)` Powertrain` , Plot`Plot_2dd86413-3798-4048-b033-f592b39de27f
+
+PARSFILE Plot\Setup\Plot_531e6d51-d21e-46f9-b005-5e7b6af41397.par
+#BlueLink18 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 4 )` Powertrain` , Plot`Plot_531e6d51-d21e-46f9-b005-5e7b6af41397
+
+PARSFILE Plot\Setup\Plot_27dbe29a-c88f-4d94-9501-7d1009626a70.par
+#BlueLink19 Plot: Setup`My_Dr -- Wheel Drive Torque (Axle 5)` Powertrain` , Plot`Plot_27dbe29a-c88f-4d94-9501-7d1009626a70
+
+
+*IMAGE_TYPE PASS_THROUGH
+WRITE_SENSOR_DETECT
+Title eTractor 10x10, 10 Motors: Intersection <Powertrain: Electric>
+CATEGORY Powertrain: Electric 
+DATASET_TITLE eTractor 10x10, 10 Motors: Intersection
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#A 5-axle truck with a battery electric powertrain (10x10).
+#
+#This example demonstrates an electric powertrain that includes an electric motor, electric powertrain assembly, and power management control.
+#
+#The vehicle in this example is 10x10 in which an electric motor is equipped on each wheel (total 10 motors).
+#
+#The Procedure has deceleration, tight turning and acceleration.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: Electric } eTractor 10x10, 10 Motors: Intersection
+#Library : TruckSim Run Control
+#DataSet : eTractor 10x10, 10 Motors: Intersection
+#Category: Powertrain: Electric
+#FileID  : Run_05f588c7-7c4a-4ae0-b3d6-c1cece69ef3f
+#Modified: 05-24-2022 13:34:05
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Run
+
+END

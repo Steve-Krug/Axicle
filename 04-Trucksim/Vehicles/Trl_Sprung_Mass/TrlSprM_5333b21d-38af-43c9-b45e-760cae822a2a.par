@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`3A Van Trailer, 53-ft`3A Trailer
+H_CG_SU 1803
+LX_CG_SU 7887
+M_SU 6350
+IXX_SU 9980
+IYY_SU 165781
+IZZ_SU 165781
+IXZ_SU 0
+*RX 1.254
+*RY 5.110
+*RZ 5.110
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2590.8
+H_H_FRONT 1100
+L_FRAME 11735
+W_FRAME 1000
+X_NODE 5867
+K_FRAME 10000
+C_FRAME 100
+H_NODE 528
+LX_F_SM 1500
+WID_SM 2590.8
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 0
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 3A Trailer } 3A Van Trailer, 53-ft
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : 3A Van Trailer, 53-ft
+#Category: 3A Trailer
+#FileID  : TrlSprM_5333b21d-38af-43c9-b45e-760cae822a2a
+#Created : 11-18-2021 15:47:02
+#Modified: 03-21-2022 15:08:58
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Trailer Sprung Mass
+
+END

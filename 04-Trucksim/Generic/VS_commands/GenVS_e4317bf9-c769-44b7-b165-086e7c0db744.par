@@ -1,0 +1,89 @@
+PARSFILE
+#FullDataName Generic VS Commands`Vehicle In-Lane Detection, 1 Path`ADAS Support
+#VehCode VS Commands, ADAS
+
+#MiscYellow0
+! Minimum relative distance to objects ahead of the sensor, with respect to the sensor origin
+define_output minRelDist = if(DisS2_1 > 0 & DisS2_2 > 0, MIN(DisS2_1,DisS2_2),DisS2_1) ; m 
+
+! Lateral offset distance ACC tuning threshold value, between the predicted road curvature, and the sensed objects ahead
+DEFINE_PARAMETER OBJ_LAT_OFFSET_THRESH = 0.75; m; obj-to-road curvature lat offset
+! Lateral offset distance ACC tuning threshold value, for merging vehicle scenarios
+DEFINE_PARAMETER OBJ_LAT_OFFSET_THRESH2 = 2.2; m; obj-to-road curvature lat offset
+! Lateral speed ACC tuning threshold value, between the predicted road curvature, and the sensed objects ahead
+DEFINE_PARAMETER OBJ_LAT_SPEED_THRESH = 0.75; m/s; obj-to-road curvature lat offset
+
+! Minimum relative distance to objects ahead of the sensor, with respect to the ego front bumper
+define_output RelDistBump1 = if(MagS2_1, DisS2_1-LxBumperRadar, 0); m; 1st veh. rel. dist, frt. bump
+define_output minRelDistBump = RelDistBump1; m; min. rel. dist from frt. bumper
+define_output RelDistBump2= if(MagS2_2, DisS2_2-LxBumperRadar, 0); m; 2nd veh. rel. dist, frt. bump
+define_output RelDistBump3 = if(MagS2_3, DisS2_3-LxBumperRadar, 0); m; 3rd veh. rel. dist, frt. bump
+
+define_output obj1LatSpeed =  if(MagS2_1, SpdS2_1*sin(BrCS2_1), 0); m/s; 1st veh. lateral speed
+define_output obj2LatSpeed =  if(MagS2_2, SpdS2_2*sin(BrCS2_2), 0); m/s; 1st veh. lateral speed
+define_output obj3LatSpeed =  if(MagS2_3, SpdS2_3*sin(BrCS2_3), 0); m/s; 1st veh. lateral speed
+
+! the lateral offset between between the predicted road curvature, and the sensed objects ahead
+*** Closest Object *** 
+define_output relLatOff1 =   if(MagS2_1, RelDistBump1*sin(BrCS2_1), 0); m; relative lat offset
+define_output objRadCurvOffset1_max = if(relLatOff1, abs(relLatOff1 - ypdtarg3_1), 0); m; offset from last prev. point
+define_output objRadCurvOffset1_mid = if(relLatOff1, abs(relLatOff1 - ypdtarg2_1), 0); m; offset from last prev. point
+define_output objRadCurvOffset1 = if(relLatOff1, MIN(objRadCurvOffset1_max, objRadCurvOffset1_mid), 0); m; offset from last prev. point
+*** Middle Distance Object *** 
+define_output relLatOff2 =   if(MagS2_2, RelDistBump2*sin(BrCS2_2), 0); m; relative lat offset
+define_output objRadCurvOffset2_max = if(relLatOff2, abs(relLatOff2 - ypdtarg3_1), 0); m; offset from last prev. point
+define_output objRadCurvOffset2_mid = if(relLatOff2, abs(relLatOff2 - ypdtarg2_1), 0); m; offset from last prev. point
+define_output objRadCurvOffset2 = if(relLatOff2, MIN(objRadCurvOffset2_max, objRadCurvOffset2_mid), 0); m; offset from last prev. point
+*** Furthest Object *** 
+define_output relLatOff3 =   if(MagS2_3, RelDistBump3*sin(BrCS2_3), 0); m; relative lat offset
+define_output objRadCurvOffset3_max = if(relLatOff3, abs(relLatOff3 - ypdtarg3_1), 0); m; offset from last prev. point
+define_output objRadCurvOffset3_mid = if(relLatOff3, abs(relLatOff3 - ypdtarg2_1), 0); m; offset from last prev. point
+define_output objRadCurvOffset3 = if(relLatOff3, MIN(objRadCurvOffset3_max, objRadCurvOffset3_mid), 0); m; offset from last prev. point
+
+! Dectection criteria for whether a vehicle is in the lane of the ego
+define_output vehObjInLane1 = if( (objRadCurvOffset1<OBJ_LAT_OFFSET_THRESH & objRadCurvOffset1 > 0) | ...
+(objRadCurvOffset1<OBJ_LAT_OFFSET_THRESH2 & abs(obj1LatSpeed) > OBJ_LAT_SPEED_THRESH) , 1, 0); - ; boolean sensed veh in-lane
+define_output vehObjInLane2 = if( objRadCurvOffset2<OBJ_LAT_OFFSET_THRESH & objRadCurvOffset2 > 0, 1, 0); - ; boolean sensed veh in-lane
+define_output vehObjInLane3 = if( objRadCurvOffset3<OBJ_LAT_OFFSET_THRESH & objRadCurvOffset3 > 0, 1, 0); - ; boolean sensed veh in-lane
+
+! Determine if any of 1 - 3 sensed objects are in the ego lane
+define_output vehObjInLane = if( vehObjInLane1 | vehObjInLane2 | vehObjInLane3, 1, 0 ); - ; bool, sensed veh in-lane
+
+! Sensor 2 is the ACC Radar
+define_output xSensLocate = X_SENSOR(2)+Xo; m;
+define_output ySensLocate = Y_SENSOR(2)+Yo; m;
+define_output xSensOutGlob1 =  minRelDistBump*cos(Yaw + BrCS2_1)  ; m; y sensed obj global x-pos, inert.
+define_output ySensOutGlob1 =   minRelDistBump*sin(Yaw + BrCS2_1) ; m; x sensed obj global y-pos, inert.
+
+define_output xObjLocatGlob1 = xSensLocate + xSensOutGlob1 ; m; x moving obj. location
+define_output yObjLocatGlob1= ySensLocate + ySensOutGlob1; m; y moving obj. location
+#ENDMYellow
+
+*MODELCODE VS Commands, ADAS
+PARSFILE Sensors_Traffic\Traffic\TMotion_a0b40d36-2d6c-49d8-b294-103d4003e3a1.par
+#BlueLink0 Multiple Moving Objects`Expected Vehicle Location, Closest` Points of Interest` , Miscellaneous`TMotion_a0b40d36-2d6c-49d8-b294-103d4003e3a1
+
+PARSFILE Plot\Setup\Plot_266c1f91-96d2-4a50-a344-a5007d51564c.par
+#BlueLink3 Plot: Setup`Object Offset Outputs` Obstacle Avoidance` , Plot`Plot_266c1f91-96d2-4a50-a344-a5007d51564c
+
+PARSFILE Plot\Setup\Plot_d8fa8166-ef68-4ba6-b1a4-a2c73a2de1fe.par
+#BlueLink4 Plot: Setup`Predicted Point` Obstacle Avoidance` , Plot`Plot_d8fa8166-ef68-4ba6-b1a4-a2c73a2de1fe
+
+
+#EMBEDDED_NOTES
+#This logic is used to determined if the vehicle ahead that is sensed by the ACC sensor is located within the ego vehicle's lane, or outside of it
+#- This works for up to three sensed vehicles ahead
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Vehicle In-Lane Detection, 1 Path
+#Library : Generic VS Commands
+#DataSet : Vehicle In-Lane Detection, 1 Path
+#Category: ADAS Support
+#FileID  : GenVS_e4317bf9-c769-44b7-b165-086e7c0db744
+#Created : 10-12-2021 15:10:18
+#Modified: 10-13-2021 10:13:11
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands, ADAS
+
+END

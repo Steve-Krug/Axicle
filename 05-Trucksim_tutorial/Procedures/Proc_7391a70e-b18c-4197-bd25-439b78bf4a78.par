@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName Procedures`TBC: Offset Backing`Driver Controls
+#CheckBox1 1    
+OPT_INIT_PATH 1
+
+#RingCtrl0 4
+#RingCtrl1 -1
+#RingCtrl2 0
+OPT_STOP -1
+SSTART 27
+TSTART 0
+TSTART_WRITE = 0;
+SSTOP = SSTART + 1 ;
+OPT_DIRECTION 1
+TSTOP -1
+*SPEED 10
+*TSTOP 10
+*TSTART 0
+*SSTART 27
+*SSTOP 100
+
+PARSFILE Control\Driver\StrDM_a1acd985-eb57-418f-b6b0-c2cce507013d.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`1.8m Left, 0.6s Fwd, 3.5s Rev., TBC` Constant Position: Non-Zero Offset` , Steering`StrDM_a1acd985-eb57-418f-b6b0-c2cce507013d
+
+PARSFILE Control\Gear_at\GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f.par
+#BlueLink30 Control: Shifting (Closed Loop)`NGEARS, Clutch Act 0.5s, Gear 0.1s` Closed-Loop Shifting` , Shifting Control`GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55.par
+#BlueLink0 Multiple Moving Objects`1 Driver Preview Point, Set by DM` Points of Interest` , Miscellaneous`TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55
+
+PARSFILE Roads\3D_Road\Road_e4cc7c23-1b4d-4fbf-8cf5-7d5f1d3a3ed2.par
+#BlueLink3 Road: 3D Surface (All Properties)`Offset Backing Test Pad` Flat Test Pads` , Miscellaneous`Road_e4cc7c23-1b4d-4fbf-8cf5-7d5f1d3a3ed2
+
+PARSFILE Events\Events_8a67e9ce-cd05-440a-9c0f-94da809bc909.par
+#BlueLink4 Events`A. Pull Forward & Stop` Offset Backing` , Miscellaneous`Events_8a67e9ce-cd05-440a-9c0f-94da809bc909
+
+PARSFILE Plot\Setup\Plot_da8cecab-a3d5-4231-b725-2264d40d49f8.par
+#BlueLink8 Plot: Setup`Hitch Articulation vs. Desired` Hitch` , Plot`Plot_da8cecab-a3d5-4231-b725-2264d40d49f8
+
+PARSFILE Plot\Setup\Plot_dc3bd4cb-2a9b-4dbc-8126-38a398aefd1b.par
+#BlueLink9 Plot: Setup`Steering Wheel Angle` Steering` , Plot`Plot_dc3bd4cb-2a9b-4dbc-8126-38a398aefd1b
+
+PARSFILE Plot\Setup\Plot_fb40649e-5709-463b-80ff-4ef7702ceb39.par
+#BlueLink10 Plot: Setup`Steering Wheel Angular Rate` Steering` , Plot`Plot_fb40649e-5709-463b-80ff-4ef7702ceb39
+
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink12 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806.par
+#BlueLink13 Plot: Setup`Brake Control: Master Cyl. Pressure` Braking` , Plot`Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806
+
+PARSFILE Plot\Setup\Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6.par
+#BlueLink14 Plot: Setup`Gear Selection` Powertrain` , Plot`Plot_2b6a3c36-224b-459f-9276-82732f9dd1c6
+
+PARSFILE Plot\Setup\Plot_27ad32d4-9ff0-4701-9d4d-99a04a7ff85b.par
+#BlueLink15 Plot: Setup`Clutch: Control Input` Controls: Driver` , Plot`Plot_27ad32d4-9ff0-4701-9d4d-99a04a7ff85b
+
+PARSFILE Plot\Setup\Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31.par
+#BlueLink16 Plot: Setup`Engine RPM` Powertrain` , Plot`Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31
+
+
+#EMBEDDED_NOTES
+#This procedure directs the vehicle to pull forward from one parking spot and reverse into another spot which is to the right of the original.
+#
+#The trailer backing controller (TBC) is used when reversing the trailer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Driver Controls } TBC: Offset Backing
+#Library : Procedures
+#DataSet : TBC: Offset Backing
+#Category: Driver Controls
+#FileID  : Proc_7391a70e-b18c-4197-bd25-439b78bf4a78
+#Modified: 05-22-2022 16:42:03
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Procedure
+
+END

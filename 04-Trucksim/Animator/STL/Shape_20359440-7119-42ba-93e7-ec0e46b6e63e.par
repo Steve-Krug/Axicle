@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Van Trailer, 28-ft: TruckSim Logo`Trailers (1 of 2)
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Trailers\Van_Trailer\van_trailer_28_logos.osg
+#ENDMYellow
+
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_600527c9-492b-40a9-850d-8a57b9317d73.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Large Objects` Shape Preview` , Video Camera`Camera_600527c9-492b-40a9-850d-8a57b9317d73
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_20359440-7119-42ba-93e7-ec0e46b6e63e.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailers (1 of 2) } Van Trailer, 28-ft: TruckSim Logo
+#Library : Animator: Shape File Link
+#DataSet : Van Trailer, 28-ft: TruckSim Logo
+#Category: Trailers (1 of 2)
+#FileID  : Shape_20359440-7119-42ba-93e7-ec0e46b6e63e
+#Created : 10-28-2021 15:24:20
+#Modified: 12-10-2021 15:54:53
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

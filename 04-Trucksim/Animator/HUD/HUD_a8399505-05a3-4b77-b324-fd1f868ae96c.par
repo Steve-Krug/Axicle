@@ -1,0 +1,64 @@
+PARSFILE
+#FullDataName Animator: HUD`Total Score Output, AEB`Euro NCAP
+#CheckBox1 1    
+#CheckBox2 1    
+
+#RingCtrl0 1
+#RingCtrl1 18
+#RingCtrl2 0
+#RingCtrl3 0
+#RingCtrl4 1
+*TITLE_1 Total Euro NCAP AEB Score
+*LOCX_1 1
+*LOCY_1 10
+*VAR_NAME_1 TotalScore
+*COLOR_1 0.6 0.8 1
+*PREC1 2
+*LOCX_2 13.5
+*LOCY_2 12
+*VAR_NAME_2 Contact*1.5
+*LOCX_3 13.5
+*LOCY_3 12
+*VAR_NAME_3 if(Contact, 0, 1)
+
+*IMG_NAME_2 Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_ON.dds
+*IMG_NAME_3 Animator\2D_HUD_Icons\Indicator_Lamp\RectangleLIGHT_OFF.dds
+
+#Selection 18 for Icon 0
+#Selection_1 18 for Icon
+#Selection_2 Title: Total Euro NCAP AEB Score AlX 0 AlY 0
+#Selection_3 Scale 1.000000 locX 16 locY 80
+#Selection_4 Fixed: 1 VarName: TotalScore  ColorStr: 0.6 0.8 1
+#Selection_5 ImgName: 
+ANI_TotalScore
+WRT_TotalScore
+ADD_ENTITY hud_text Text Output
+location 16 80 18 18
+align_x left
+align_y top
+size_mode absolute
+place_mode absolute
+# var name is TotalScore
+prefix Total Euro NCAP AEB Score
+min_width_prefix 20
+value TotalScore
+precision 2
+color 0.6 0.8 1 1.0
+END_ENTITY hud_text Text Output
+
+#EMBEDDED_NOTES
+#Cumulative score during the Euro NCAP AEB Testing
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } Total Score Output, AEB
+#Library : Animator: HUD
+#DataSet : Total Score Output, AEB
+#Category: Euro NCAP
+#FileID  : HUD_a8399505-05a3-4b77-b324-fd1f868ae96c
+#Created : 09-28-2021 14:27:44
+#Modified: 03-29-2022 16:03:24
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode HUD
+
+END

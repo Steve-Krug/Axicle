@@ -1,0 +1,85 @@
+PARSFILE
+#FullDataName Generic Data Group`Euro Van: AEB (off), ACC Sensor Setup`ADAS: Sensor Setup
+#VehCode Generic Group
+PARSFILE Generic\VS_commands\GenVS_ad80be00-ec75-42e2-a931-7af25b04fc90.par
+#BlueLink0 Generic VS Commands`Obstacle Parameters` Obstacle Avoidance` , Link 1`GenVS_ad80be00-ec75-42e2-a931-7af25b04fc90
+
+
+PARSFILE Sensors_Traffic\Radar\Radar_4e087fcf-2c19-4996-99eb-a46e9d3929e3.par
+#BlueLink1 ADAS Sensors for Range and Tracking`Camera,Van` Forward Facing Sensors: FCW and ACC` , Link 2`Radar_4e087fcf-2c19-4996-99eb-a46e9d3929e3
+
+
+#MiscYellow2
+! the first sensor is the vehicle camera
+DEFINE_PARAMETER ID_CAM = ISENSOR; - ; ...
+number assigned to the camera sensor
+define_output LxBumper =  LX_F_SM - X_SENSOR ; ...
+  m; Bumper dist from camera
+#ENDMYellow
+
+PARSFILE Generic\VS_commands\GenVS_dcdaf0cd-81b0-480c-9abc-3f5e65ec3e17.par
+#BlueLink2 Generic VS Commands`FCW-AEB Tuning` ADAS Support` , Link 3`GenVS_dcdaf0cd-81b0-480c-9abc-3f5e65ec3e17
+
+
+#MiscYellow3
+! note: N_MIN_DETECTIONS is needed to 
+!access sensed objects > 1, for any sensor 
+!logic which initializes before the first time step
+N_MIN_DETECTIONS = 2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Radar\Radar_1b904222-8c5c-4251-adc8-de376c6a29a4.par
+#BlueLink3 ADAS Sensors for Range and Tracking`Van: ACC, Range, Sensitivity by EQN` ADAS Sensor` , Link 4`Radar_1b904222-8c5c-4251-adc8-de376c6a29a4
+
+
+#MiscYellow4
+define_output LxBumperRadar =  LX_F_SM - X_SENSOR ; ...
+  m; Bumper dist from camera
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Type_Map\TypeMap_e2f7e559-12a6-4d46-b853-026f27768405.par
+#BlueLink4 Sensor Reflectiveness Map`2 Sensor Types, 2 Material Types` ` , Link 5`TypeMap_e2f7e559-12a6-4d46-b853-026f27768405
+
+
+#MiscYellow5
+!Set ACC desired speed
+DEFINE_PARAMETER SPEED_LIMIT = 55; km/h ; Top speed limit for ACC
+EQ_INIT SPEED_LIMIT = speed_target(station,t,1);
+define_output speedLimitOut = SPEED_LIMIT; km/h; ACC set speed
+
+DEFINE_PARAMETER LANE_WIDTH = 4; m; defined lane width
+#ENDMYellow
+
+PARSFILE Output\PathDetectors\PathDet_1e9d09f5-9904-4fe2-b87d-9529c95c06b8.par
+#BlueLink5 Path Detectors for External Driver Control`Three Detected Paths Pls. Curvature Est.` ` , Link 6`PathDet_1e9d09f5-9904-4fe2-b87d-9529c95c06b8
+
+
+PARSFILE Generic\VS_commands\GenVS_bd1f2278-4c8f-408c-b80c-d1a514fd977d.par
+#BlueLink6 Generic VS Commands`Vehicle In-Lane Detection, 4 Paths` ADAS Support` , Link 7`GenVS_bd1f2278-4c8f-408c-b80c-d1a514fd977d
+
+
+PARSFILE Generic\VS_commands\GenVS_8a613b98-8fd6-488e-8205-ef0f86c03a56.par
+#BlueLink7 Generic VS Commands`Van, ACC Logic: w/HUD, in-lane calc.` ADAS Support` , Link 8`GenVS_8a613b98-8fd6-488e-8205-ef0f86c03a56
+
+
+
+
+#EMBEDDED_NOTES
+#For this ADAS setup AEB parameters and logic are included, but AEB is deactivated with a single parameter: AEB_On = 0. This is to help review ACC performance only.
+#- There is some overlap of AEB and ACC performance, which must not occur for the Euro NCAP test. This overlap should be resolved by the user.
+#
+#The ACC sensor logic reflects a decision-based method, and is located in the ACC Logic Dataset
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Sensor Setup } Euro Van: AEB (off), ACC Sensor Setup
+#Library : Generic Data Group
+#DataSet : Euro Van: AEB (off), ACC Sensor Setup
+#Category: ADAS: Sensor Setup
+#FileID  : GenGrp_07141103-3225-4aa1-83d4-b9786607e06f
+#Created : 11-08-2021 15:01:05
+#Modified: 11-10-2021 14:49:20
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Group
+
+END

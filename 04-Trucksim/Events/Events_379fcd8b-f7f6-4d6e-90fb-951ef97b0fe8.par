@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Events`ACC CCRb C1. Monitor Stop Speed`Euro NCAP ACC Testing: CCRb
+#CheckBox1 1    
+*CLEAR
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 >=
+#RingCtrl10 1
+#RingCtrl11 4
+RESET_EVENTS
+*NAME1 Vxz_Fwd
+*VALUE1 0.01
+#MiscYellow0
+! increase score, one full point
+SCORE_NEW = SCORE_OLD + 1
+SCORE_OLD = SCORE_NEW
+#ENDMYellow
+
+MAKE_EVENT Vxz_Fwd >= 0.01 ; Events\Events_13a77498-bf0a-46f0-bb9f-a55cc8339a40.par
+#BlueLink0 Events`AEB CCRb D. Pause before ending AEB` Euro NCAP AEB Testing: CCRb` , Events`Events_13a77498-bf0a-46f0-bb9f-a55cc8339a40
+
+SET_EVENT_ID 0 ! reset to default
+
+#EMBEDDED_NOTES
+#Monitor the stopping speed to see if the VUT has come to a complete stop, and add up the score
+#- Continue braking at AEB_MAX_BK_REQ MPa
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP ACC Testing: CCRb } ACC CCRb C1. Monitor Stop Speed
+#Library : Events
+#DataSet : ACC CCRb C1. Monitor Stop Speed
+#Category: Euro NCAP ACC Testing: CCRb
+#FileID  : Events_379fcd8b-f7f6-4d6e-90fb-951ef97b0fe8
+#Created : 11-09-2021 10:56:13
+#Modified: 11-10-2021 14:43:47
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Events
+
+END

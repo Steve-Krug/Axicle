@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`145/80 R13`Tires
+*X_REF_LENGTH 281
+*Y_REF_LENGTH 145
+*Z_REF_LENGTH 281
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_1f716429-4bc4-4b63-bcf7-bbbd798aea1a.png
+PARSFILE Animator\STL\Shape_5896de3c-f7d4-40f8-9c89-92b8db8b0ec4.par
+#BlueLink0 Animator: Shape File Link`145/80 R13: Tire` Common Vehicle Assets: Tires` , Shape File`Shape_5896de3c-f7d4-40f8-9c89-92b8db8b0ec4
+
+PARSFILE Animator\STL\Shape_5a752897-c914-483a-9dee-c26b31722dea.par
+#BlueLink1 Animator: Shape File Link`145/80 R13: Wheel` Common Vehicle Assets: Tires` , Shape File`Shape_5a752897-c914-483a-9dee-c26b31722dea
+
+PARSFILE Animator\STL\Shape_4512a3e0-4070-40a5-b75c-f24db70fff9e.par
+#BlueLink2 Animator: Shape File Link`145/80 R13: Stripe` Common Vehicle Assets: Tires` , Shape File`Shape_4512a3e0-4070-40a5-b75c-f24db70fff9e
+
+x_ref_length 281
+y_ref_length 145
+z_ref_length 281
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4a9bac2f-07cd-4972-a47c-cce6ee83389e.par
+#BlueLink17 Animator: Camera Setup`YZ Plane, No Offsets (with Yaw)` Shape Preview` , Video Camera`Camera_4a9bac2f-07cd-4972-a47c-cce6ee83389e
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } 145/80 R13
+#Library : Animator: Shape Assembly
+#DataSet : 145/80 R13
+#Category: Tires
+#FileID  : ShpGrp_1f716429-4bc4-4b63-bcf7-bbbd798aea1a
+#Created : 05-05-2021 15:01:26
+#Modified: 06-07-2021 01:53:36
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

@@ -1,0 +1,48 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`1A Large Rental Trailer`Trailers
+*ANGLE_Z 0
+*ANGLE_Y 0
+*ANGLE_X 0
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.435
+*X_REF_LENGTH 2864
+*Y_REF_LENGTH 2024
+*Z_REF_LENGTH 1757
+*TRANSPARENCY 0.9
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_6539efbd-032d-4b88-8727-5439a2cd0987.png
+PARSFILE Animator\STL\Shape_5a6ef07f-8b61-4de3-93f3-92ecb2724667.par
+#BlueLink0 Animator: Shape File Link`1A Rental Trl: HD Solid Axle, Leaf Springs` Trailers (2 of 2)` , Shape File`Shape_5a6ef07f-8b61-4de3-93f3-92ecb2724667
+
+set_transparency 0.9
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.435
+x_ref_length 2864
+y_ref_length 2024
+z_ref_length 1757
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers } 1A Large Rental Trailer
+#Library : Animator: Shape Assembly
+#DataSet : 1A Large Rental Trailer
+#Category: Trailers
+#FileID  : ShpGrp_6539efbd-032d-4b88-8727-5439a2cd0987
+#Modified: 12-08-2021 19:13:51
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

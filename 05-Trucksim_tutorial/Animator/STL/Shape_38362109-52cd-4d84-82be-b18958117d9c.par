@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Infinite Road: Shadows of Signs`Generic Proving Ground: Signs
+#MiscYellow3
+add_obj Animator\3D_shape_files_DS\proving_ground\entrance_signs\infinite_road_sign_shadow.obj
+#ENDMYellow
+
+SET_COLOR 0.125 0.125 0.125
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_Z .02
+*SPECULAR 1
+*TRANSPARENCY .3
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+set_transparency .3
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+*IMAGE_TYPE DEFAULT
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Generic Proving Ground: Signs } Infinite Road: Shadows of Signs
+#Library : Animator: Shape File Link
+#DataSet : Infinite Road: Shadows of Signs
+#Category: Generic Proving Ground: Signs
+#FileID  : Shape_38362109-52cd-4d84-82be-b18958117d9c
+#Modified: 06-07-2021 01:53:48
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

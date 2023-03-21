@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Hitches: Turntable Spacer, 2A Dolly`Common Vehicle Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Hitches\Turntable\Turntable_Spacer.osg
+#ENDMYellow
+
+SET_COLOR 0.314 0.314 0.314
+SET_SCALE_Z 2
+SET_OFFSET_X 3.29
+SET_OFFSET_Z -1.22
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_8677bbce-b5a2-4e33-a985-ac119201a4af.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Medium Objects` Shape Preview` , Video Camera`Camera_8677bbce-b5a2-4e33-a985-ac119201a4af
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_acedc146-1a6b-49b2-962b-617b04af8ab9.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Hitches: Turntable Spacer, 2A Dolly
+#Library : Animator: Shape File Link
+#DataSet : Hitches: Turntable Spacer, 2A Dolly
+#Category: Common Vehicle Assets
+#FileID  : Shape_acedc146-1a6b-49b2-962b-617b04af8ab9
+#Created : 11-21-2021 18:09:44
+#Modified: 11-21-2021 21:06:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

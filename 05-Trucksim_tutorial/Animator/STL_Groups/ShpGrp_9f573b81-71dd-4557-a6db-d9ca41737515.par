@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Cab Over: Frame  Rail (R) Assembly`Cab Over
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_9f573b81-71dd-4557-a6db-d9ca41737515.png
+PARSFILE Animator\STL\Shape_eed6dca9-459d-4f3b-9bc1-787db0a27d09.par
+#BlueLink0 Animator: Shape File Link`Cab Over: Frame Rail (R)` Trucks: Cabs` , Shape File`Shape_eed6dca9-459d-4f3b-9bc1-787db0a27d09
+
+PARSFILE Animator\STL\Shape_551d5ea9-3cc4-408e-a088-121d827cb3ea.par
+#BlueLink1 Animator: Shape File Link`Cab Over: Brake Light (R)` Trucks: Cabs` , Shape File`Shape_551d5ea9-3cc4-408e-a088-121d827cb3ea
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Cab Over } Cab Over: Frame  Rail (R) Assembly
+#Library : Animator: Shape Assembly
+#DataSet : Cab Over: Frame  Rail (R) Assembly
+#Category: Cab Over
+#FileID  : ShpGrp_9f573b81-71dd-4557-a6db-d9ca41737515
+#Modified: 06-07-2021 01:53:33
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

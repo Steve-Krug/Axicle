@@ -1,0 +1,56 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`2A Dolly w/ Rigid Towbar`Trailers: Dollies
+*COLOR .36 .117 .117
+*SCALE_X 1
+*SCALE_Y 1
+*SCALE_Z 1
+*OFFSET_X -2.1
+*OFFSET_Y 0
+*OFFSET_Z -0.37
+*X_REF_LENGTH 3125
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_f136b211-7036-4dff-93c1-cf40a170efc5.png
+PARSFILE Animator\STL\Shape_d4145ed0-66fb-40ed-9b4a-ab1e979985a1.par
+#BlueLink0 Animator: Shape File Link`2A Dolly: Frame, Rigid Towbar` Trailers: Dollies w/ Rigid Towbars` , Shape File`Shape_d4145ed0-66fb-40ed-9b4a-ab1e979985a1
+
+set_offset_x -2.1
+set_offset_y 0
+set_offset_z -0.37
+PARSFILE Animator\STL\Shape_ee5a965e-2006-4028-ad01-46bec9f8c9d7.par
+#BlueLink1 Animator: Shape File Link`2A Dolly: Brake Lights and Mudflaps` Trailers: Dollies w/ Rigid Towbars` , Shape File`Shape_ee5a965e-2006-4028-ad01-46bec9f8c9d7
+
+set_offset_x -2.1
+set_offset_y 0
+set_offset_z -0.37
+PARSFILE Animator\STL\Shape_36c55b6a-0cb0-4537-947b-3594d4dba2f6.par
+#BlueLink2 Animator: Shape File Link`Dolly Towbar, Pintle Ring` Trailers: Dollies w/ Rigid Towbars` , Shape File`Shape_36c55b6a-0cb0-4537-947b-3594d4dba2f6
+
+set_offset_x -2.1
+set_offset_y 0
+set_offset_z -0.37
+x_ref_length 3125
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers: Dollies } 2A Dolly w/ Rigid Towbar
+#Library : Animator: Shape Assembly
+#DataSet : 2A Dolly w/ Rigid Towbar
+#Category: Trailers: Dollies
+#FileID  : ShpGrp_f136b211-7036-4dff-93c1-cf40a170efc5
+#Created : 10-19-2021 17:30:11
+#Modified: 10-19-2021 17:36:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

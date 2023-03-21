@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Generic Group of Links`1 km Square w/ Figure 8 Path, R = 12m`Roads and Paths
+#VehCode Generic Links
+PARSFILE Roads\3D_Road\Road_1d628bf6-d343-4b53-aab3-6c447711f700.par
+#BlueLink0 Road: 3D Surface (All Properties)`1 km Square, Mu = 0.85` Flat Test Pads` , Miscellaneous`Road_1d628bf6-d343-4b53-aab3-6c447711f700
+
+PARSFILE Roads\BuilderSegment\RoadSeg_a28f0cf6-4176-4adf-b5f6-97994a20e0c5.par
+#BlueLink1 Path: Segment Builder`Figure 8, Radius = 12m (ID = 1000)` Figure 8` , Miscellaneous`RoadSeg_a28f0cf6-4176-4adf-b5f6-97994a20e0c5
+
+#MiscYellow0
+Path_ID_DM = 1000
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Roads and Paths } 1 km Square w/ Figure 8 Path, R = 12m
+#Library : Generic Group of Links
+#DataSet : 1 km Square w/ Figure 8 Path, R = 12m
+#Category: Roads and Paths
+#FileID  : GenLink_e6830fa9-dd75-4ca8-b236-5cf6230cb79c
+#Modified: 06-07-2021 01:53:03
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Generic Links
+
+END

@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Generic VS Commands`Hill Assist (MT) Set Up`Miscellaneous Custom Controls
+#VehCode VS Commands
+
+#MiscYellow0
+! Create hill start assist command based on
+!   vehicle pitch negative,
+!   clutch disengaged (clutch pedal pressed in),
+!   brake disengaged,
+!   vehicle speed negative.
+
+define_output HillStartAssist 0; -; 1 for active, 0 for inactive
+eq_in HillStartAssist = if( (Pitch < 0) & ClutchTr & ~Bk_Stat & (Vxz_Fwd < 0), 1, 0)
+
+! Assumed to act through electric parking brake on the rear axle only
+import IMP_MYUSM_L2 vs_replace 0
+import IMP_MYUSM_R2 vs_replace 0
+
+eq_in IMP_MYUSM_L2 = if(HillStartAssist, 500, 0)
+eq_in IMP_MYUSM_R2 = if(HillStartAssist, 500, 0)
+#ENDMYellow
+
+PARSFILE Animator\HUD\HUD_094891c0-4027-4836-a014-d142ac2881cc.par
+#BlueLink0 Animator: HUD`Hill Start Assist (Manual Trans)` Alerts` , Miscellaneous`HUD_094891c0-4027-4836-a014-d142ac2881cc
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Miscellaneous Custom Controls } Hill Assist (MT) Set Up
+#Library : Generic VS Commands
+#DataSet : Hill Assist (MT) Set Up
+#Category: Miscellaneous Custom Controls
+#FileID  : GenVS_7eead293-f948-4d73-aa7a-050da74ae065
+#Modified: 06-07-2021 01:52:59
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode VS Commands
+
+END

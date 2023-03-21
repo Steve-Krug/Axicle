@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`2A Dolly w/ Hinged Tow Bar`Dollies
+H_CG_SU 1000
+Z_LENGTH 759
+LX_CG_SU 2489
+M_SU 2177
+IXX_SU 737
+IYY_SU 995
+IZZ_SU 995
+IXZ_SU 0
+*RX 0.582
+*RY 0.676
+*RZ 0.676
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2407
+H_H_FRONT 850
+X_LENGTH 3390
+HT_SM 759
+WID_SM 2407
+LEN_SM 3390
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 3
+SYMBOL_PUSH <<h>> <<unit>>
+SYMBOL_ADD <<h>> -1
+OPT_HITCH_TYPE(<<h>>) = 3
+LEN_TOW_BAR 1000
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { Dollies } 2A Dolly w/ Hinged Tow Bar
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : 2A Dolly w/ Hinged Tow Bar
+#Category: Dollies
+#FileID  : TrlSprM_65cd9f02-c0f7-4a5f-a9f0-4e573b184458
+#Created : 09-27-2021 16:50:47
+#Modified: 03-21-2022 15:08:58
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Trailer Sprung Mass
+
+END

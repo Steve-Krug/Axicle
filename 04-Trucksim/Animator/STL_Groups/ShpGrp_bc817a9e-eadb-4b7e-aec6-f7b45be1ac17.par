@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Off-Road Tire`Tires
+*X_REF_LENGTH 470
+*Y_REF_LENGTH 320
+*Z_REF_LENGTH 470
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_bc817a9e-eadb-4b7e-aec6-f7b45be1ac17.png
+PARSFILE Animator\STL\Shape_a0b5a6df-c6c8-4514-829c-c76c42583cdc.par
+#BlueLink0 Animator: Shape File Link`Off-Road: Tire` Common Vehicle Assets: Tires` , Shape File`Shape_a0b5a6df-c6c8-4514-829c-c76c42583cdc
+
+PARSFILE Animator\STL\Shape_b6aae324-24b3-4b5d-a99b-e70e2befc14f.par
+#BlueLink1 Animator: Shape File Link`Off-Road: Wheel` Common Vehicle Assets: Tires` , Shape File`Shape_b6aae324-24b3-4b5d-a99b-e70e2befc14f
+
+PARSFILE Animator\STL\Shape_659507d3-d6cc-4285-a66d-8ed59324a3b1.par
+#BlueLink2 Animator: Shape File Link`Off-Road: Stripe` Common Vehicle Assets: Tires` , Shape File`Shape_659507d3-d6cc-4285-a66d-8ed59324a3b1
+
+PARSFILE Animator\STL\Shape_9fb19040-e6aa-4169-8e5b-af3f8749aafa.par
+#BlueLink3 Animator: Shape File Link`Off-Road: Bolts` Common Vehicle Assets: Tires` , Shape File`Shape_9fb19040-e6aa-4169-8e5b-af3f8749aafa
+
+PARSFILE Animator\STL\Shape_152f8a62-3c8a-45eb-8bd0-46f82d85fa0e.par
+#BlueLink4 Animator: Shape File Link`Off-Road: Inflator Guard` Common Vehicle Assets: Tires` , Shape File`Shape_152f8a62-3c8a-45eb-8bd0-46f82d85fa0e
+
+x_ref_length 470
+y_ref_length 320
+z_ref_length 470
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4a9bac2f-07cd-4972-a47c-cce6ee83389e.par
+#BlueLink17 Animator: Camera Setup`YZ Plane, No Offsets (with Yaw)` Shape Preview` , Video Camera`Camera_4a9bac2f-07cd-4972-a47c-cce6ee83389e
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+#Library : Animator: Shape Assembly
+#DataSet : Off-Road Tire
+#Category: Tires
+#FileID  : ShpGrp_bc817a9e-eadb-4b7e-aec6-f7b45be1ac17
+#Created : 05-14-2021 08:26:42
+#Modified: 06-07-2021 01:53:36
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

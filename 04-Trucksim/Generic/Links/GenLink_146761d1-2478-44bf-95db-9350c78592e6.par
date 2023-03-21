@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Generic Group of Links`TRT, Tandem drive, tri-axle, tri-dolly`Conventional Triple Road Train
+#VehCode S_SS + SSS + dSSS + SSS + dSSS + SSS
+PARSFILE Vehicles\Lead_3a\Lead3a_9e25d126-51f7-4fcd-902a-89d256db0b7a.par
+#BlueLink0 Vehicle: Lead Unit with 3 Axles`3A Sleeper (18 Spd)` 3A Tractors` , Miscellaneous`Lead3a_9e25d126-51f7-4fcd-902a-89d256db0b7a
+
+PARSFILE Vehicles\Loaded\VehLoad_110f5616-4465-4059-b1e1-49d11cf39d50.par
+#BlueLink1 Vehicle: Loaded Combination`SSS + dSSS + SSS (first group)` Conventional Triple Road Train` , Miscellaneous`VehLoad_110f5616-4465-4059-b1e1-49d11cf39d50
+
+PARSFILE Vehicles\Loaded\VehLoad_9bec8afc-1691-46c0-9df5-7c5ebf35790b.par
+#BlueLink2 Vehicle: Loaded Combination`dSSS + SSS (second group)` Conventional Triple Road Train` , Miscellaneous`VehLoad_9bec8afc-1691-46c0-9df5-7c5ebf35790b
+
+*MODELCODE S_SS + SSS + dSSS + SSS + dSSS + SSS
+
+#EMBEDDED_NOTES
+#S_SS + SSS + dSSS + SSS + dSSS + SSS
+#
+#The two dollies have three axles each and use a 5th wheel with a hinged towbar.
+#
+#A Conventional Triple Road Train may also be referred to as a Type II road train, or an A-triple.
+#
+#This vehicle configuration consists of a prime mover coupled to a semi-trailer, then 2 dog trailers connected via an A-coupling.
+#
+#The dolly-trailer groups comprise of a converter dolly and a semi-trailer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Conventional Triple Road Train } TRT, Tandem drive, tri-axle, tri-dolly
+#Library : Generic Group of Links
+#DataSet : TRT, Tandem drive, tri-axle, tri-dolly
+#Category: Conventional Triple Road Train
+#FileID  : GenLink_146761d1-2478-44bf-95db-9350c78592e6
+#Created : 09-29-2021 13:07:55
+#Modified: 10-04-2021 16:19:52
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode S_SS + SSS + dSSS + SSS + dSSS + SSS
+
+END

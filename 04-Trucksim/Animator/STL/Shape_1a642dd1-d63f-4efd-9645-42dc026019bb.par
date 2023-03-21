@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Landing Jacks: Up (For Flatbed Trailer)`Common Vehicle Assets
+#MiscYellow3
+add_obj Animator\3D_Shape_Files\Common_Vehicle_Assets\Landing_Jacks\landingjacks\landingjacks_up.osg
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X -3.075
+SET_OFFSET_Z 0.021
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_8677bbce-b5a2-4e33-a985-ac119201a4af.par
+#BlueLink2 Animator: Camera Setup`Isometric View - Medium Objects` Shape Preview` , Video Camera`Camera_8677bbce-b5a2-4e33-a985-ac119201a4af
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_1a642dd1-d63f-4efd-9645-42dc026019bb.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Common Vehicle Assets } Landing Jacks: Up (For Flatbed Trailer)
+#Library : Animator: Shape File Link
+#DataSet : Landing Jacks: Up (For Flatbed Trailer)
+#Category: Common Vehicle Assets
+#FileID  : Shape_1a642dd1-d63f-4efd-9645-42dc026019bb
+#Modified: 11-03-2021 14:58:26
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

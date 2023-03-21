@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Oval to Road Course Link Road`Generic Proving Ground: Roads
+#MiscYellow3
+add_obj Animator\3D_shape_files_DS\proving_ground\OvalToRoadCourseRoad.OSG
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_ANGLE_Z 0
+SET_ANGLE_Y 0
+SET_ANGLE_X 0
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+*IMAGE_TYPE DEFAULT
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Generic Proving Ground: Roads } Oval to Road Course Link Road
+#Library : Animator: Shape File Link
+#DataSet : Oval to Road Course Link Road
+#Category: Generic Proving Ground: Roads
+#FileID  : Shape_ab048e9d-349a-4fce-9e08-215b301c22b4
+#Modified: 06-07-2021 01:53:48
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape File
+
+END

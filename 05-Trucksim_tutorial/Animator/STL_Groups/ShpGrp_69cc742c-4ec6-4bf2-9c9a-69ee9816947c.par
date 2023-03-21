@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`2A Van Trailer, 48-ft`Trailers
+*COLOR .36 .117 .117
+*OFFSET_Z 1.1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_69cc742c-4ec6-4bf2-9c9a-69ee9816947c.png
+PARSFILE Animator\STL\Shape_3a7aa1f3-9fbd-445d-91c3-d4aec0d539a0.par
+#BlueLink0 Animator: Shape File Link`Van Trailer, 48-ft: Walls` Trailers (1 of 2)` , Shape File`Shape_3a7aa1f3-9fbd-445d-91c3-d4aec0d539a0
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_26c4ec5a-cb97-42c1-b899-fafd8e52a6f7.par
+#BlueLink1 Animator: Shape File Link`Van Trailer, 48-ft: TruckSim Logo` Trailers (1 of 2)` , Shape File`Shape_26c4ec5a-cb97-42c1-b899-fafd8e52a6f7
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_ea2ed453-cb17-40a6-8964-915ead58fdf8.par
+#BlueLink3 Animator: Shape File Link`2A Van Trailer, 48-ft: Axle Rails` Trailers (1 of 2)` , Shape File`Shape_ea2ed453-cb17-40a6-8964-915ead58fdf8
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_695a22b6-4d28-4f0a-9400-2a7b81a98833.par
+#BlueLink4 Animator: Shape File Link`2A Van Trailer, 48-ft: Landing Jacks` Trailers (1 of 2)` , Shape File`Shape_695a22b6-4d28-4f0a-9400-2a7b81a98833
+
+set_offset_z 1.1
+PARSFILE Animator\STL\Shape_06660036-500f-4c5c-9885-bf7bd84b917b.par
+#BlueLink5 Animator: Shape File Link`2A Van Trailer, 48-ft: Mudflaps` Trailers (1 of 2)` , Shape File`Shape_06660036-500f-4c5c-9885-bf7bd84b917b
+
+set_offset_z 1.1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_4f51a664-0690-47ba-aff2-3a5c29523a33.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_4f51a664-0690-47ba-aff2-3a5c29523a33
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers } 2A Van Trailer, 48-ft
+#Library : Animator: Shape Assembly
+#DataSet : 2A Van Trailer, 48-ft
+#Category: Trailers
+#FileID  : ShpGrp_69cc742c-4ec6-4bf2-9c9a-69ee9816947c
+#Created : 11-09-2021 15:59:25
+#Modified: 03-30-2022 10:34:57
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Shape Assembly
+
+END

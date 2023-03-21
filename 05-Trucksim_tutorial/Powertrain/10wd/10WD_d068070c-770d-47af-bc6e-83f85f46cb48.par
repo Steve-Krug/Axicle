@@ -1,0 +1,108 @@
+PARSFILE
+#FullDataName Powertrain: 10-Wheel Drive`Electric 10x10, 50 kW x10 motors`Electric: 500 kW
+INSTALL_POWERTRAIN 6
+#RingCtrl0 0
+R_MDRIVE 0
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 1
+#RingCtrl8 1
+#RingCtrl9 1
+#RingCtrl10 1
+#RingCtrl11 1
+#RingCtrl12 1
+#RingCtrl13 2
+IDS_F 0.015
+IDS_R 0.015
+IDS_9 0.015
+OPT_ENGINE_INTERNAL 0
+OPT_PWR_CPL_INTERNAL 0
+OPT_TRANS_INTERNAL 0
+OPT_SHIFT_INTERNAL 0
+OPT_TR_GEAR_INTERNAL 0
+IDIFF 1
+OPT_DIFF_INTERNAL 1
+IDIFF 2
+OPT_DIFF_INTERNAL 1
+IDIFF 3
+OPT_DIFF_INTERNAL 1
+IDIFF 4
+OPT_DIFF_INTERNAL 1
+IDIFF 5
+OPT_DIFF_INTERNAL 1
+IDIFF 6
+OPT_DIFF_INTERNAL 1
+IDIFF 7
+OPT_DIFF_INTERNAL 1
+IDIFF 8
+OPT_DIFF_INTERNAL 1
+IDIFF 9
+OPT_DIFF_INTERNAL 1
+
+PARSFILE Powertrain\HEV\HEV_747c9a8b-bc83-451c-94e7-cf394f329239.par
+#BlueLink15 Powertrain: Hybrid/Electric System`Electric Motors on Axles (Heavy Truck)` ` , Hybrid system`HEV_747c9a8b-bc83-451c-94e7-cf394f329239
+
+PARSFILE Powertrain\HEV_PMC\PMC_b076f40e-d53c-446e-b392-bd292462b132.par
+#BlueLink16 Powertrain: Hybrid/Electric Power Management Control`Power Management: Full Load 495kW` ` , Transmission`PMC_b076f40e-d53c-446e-b392-bd292462b132
+
+
+IDIFF 3
+IDS 0.015
+PARSFILE Powertrain\Centerdiff\XC_dd4e684a-153f-4979-80c2-275bdae7f8b8.par
+#BlueLink3 Powertrain: Transfer Case`EV eTransfer Case: 50/50, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_dd4e684a-153f-4979-80c2-275bdae7f8b8
+
+
+IDIFF 1
+PARSFILE Powertrain\Frontdiff\DiffF_123b5e7d-1aa4-4a2b-b24e-66f5325403df.par
+#BlueLink4 Powertrain: Front Differential`EV Twin-Motor: Gr 3.92:1, 50kW x2` Electric Motor Drive (100 kW)` , Differential front`DiffF_123b5e7d-1aa4-4a2b-b24e-66f5325403df
+
+
+IDIFF 2
+PARSFILE Powertrain\Reardiff\DiffR_4125b424-8794-4f15-9af1-aed0abda60fa.par
+#BlueLink5 Powertrain: Rear Differential`EV Twin-Motor: Gr 3.92:1, 50kW x2` Electric Motor Drive (100 kW)` , Differential rear`DiffR_4125b424-8794-4f15-9af1-aed0abda60fa
+
+
+IDIFF 6
+IDS 0.015
+PARSFILE Powertrain\Centerdiff\XC_a879ad0c-6ea8-46b5-b154-3f5ce5daadf0.par
+#BlueLink6 Powertrain: Transfer Case`EV eTransfer Case: 33/66, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_a879ad0c-6ea8-46b5-b154-3f5ce5daadf0
+
+
+IDIFF 4
+PARSFILE Powertrain\Frontdiff\DiffF_123b5e7d-1aa4-4a2b-b24e-66f5325403df.par
+#BlueLink7 Powertrain: Front Differential`EV Twin-Motor: Gr 3.92:1, 50kW x2` Electric Motor Drive (100 kW)` , Differential front`DiffF_123b5e7d-1aa4-4a2b-b24e-66f5325403df
+
+
+IDIFF 5
+PARSFILE Powertrain\Reardiff\DiffR_4125b424-8794-4f15-9af1-aed0abda60fa.par
+#BlueLink8 Powertrain: Rear Differential`EV Twin-Motor: Gr 3.92:1, 50kW x2` Electric Motor Drive (100 kW)` , Differential rear`DiffR_4125b424-8794-4f15-9af1-aed0abda60fa
+
+
+IDIFF 7
+PARSFILE Powertrain\Centerdiff\XC_0af32d28-fefb-4f4f-a314-62bbebb57f3e.par
+#BlueLink9 Powertrain: Transfer Case`EV eTransfer Case: 40/60, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_0af32d28-fefb-4f4f-a314-62bbebb57f3e
+
+
+IDIFF 8
+PARSFILE Powertrain\Reardiff\DiffR_4125b424-8794-4f15-9af1-aed0abda60fa.par
+#BlueLink13 Powertrain: Rear Differential`EV Twin-Motor: Gr 3.92:1, 50kW x2` Electric Motor Drive (100 kW)` , Differential rear`DiffR_4125b424-8794-4f15-9af1-aed0abda60fa
+
+
+IDIFF 9
+IDS 0.015
+PARSFILE Powertrain\Centerdiff\XC_dd4e684a-153f-4979-80c2-275bdae7f8b8.par
+#BlueLink14 Powertrain: Transfer Case`EV eTransfer Case: 50/50, Gr. 1.0` Electric Motor Drive` , Transfer case`XC_dd4e684a-153f-4979-80c2-275bdae7f8b8
+
+
+LOG_ENTRY Used Dataset: Powertrain: 10-Wheel Drive; { Electric: 500 kW } Electric 10x10, 50 kW x10 motors
+#Library : Powertrain: 10-Wheel Drive
+#DataSet : Electric 10x10, 50 kW x10 motors
+#Category: Electric: 500 kW
+#FileID  : 10WD_d068070c-770d-47af-bc6e-83f85f46cb48
+#Modified: 01-26-2022 13:59:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode 10WD
+
+END

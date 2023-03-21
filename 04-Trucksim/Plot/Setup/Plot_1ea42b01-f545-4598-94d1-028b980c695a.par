@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Plot: Setup`Warp deflection`Chassis twist study
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS A_Warp1, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Warp deflection
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Chassis twist study } Warp deflection
+#Library : Plot: Setup
+#DataSet : Warp deflection
+#Category: Chassis twist study
+#FileID  : Plot_1ea42b01-f545-4598-94d1-028b980c695a
+#Modified: 06-07-2021 01:49:34
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode Plot Setup
+
+END

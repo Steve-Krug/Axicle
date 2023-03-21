@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Parallel VS Math Models`Adaptive Cruise Control`ADAS and Active Safety
+PARSFILE Runs\Run_847d4cba-de30-43e5-821a-fbd87c1c71e8.par
+#BlueLink0 TruckSim Run Control`ACC: Ext Sensor, Ext Control (Truck 1)` Multiple Vehicles, Parallel Solvers` , Vehicle 1:`Run_847d4cba-de30-43e5-821a-fbd87c1c71e8
+
+PARSFILE Runs\Run_fff10c6c-446c-4559-9a1e-7b6e3a4020e6.par
+#BlueLink1 TruckSim Run Control`ACC: Ext Sensor, Ext Control (Truck 2)` Multiple Vehicles, Parallel Solvers` , Vehicle 2:`Run_fff10c6c-446c-4559-9a1e-7b6e3a4020e6
+
+#RingCtrl0 0
+*RUN_PLATFORM 0
+#RingCtrl1 2
+*SHOW_LINK 2
+
+#EMBEDDED_NOTES
+#To run this example in Windows:
+#1) click Open Model or Generate FMU
+#2) in Simulink, click the run button
+#3) review results from the last vehicle
+#
+#V: Video
+#P: Plot
+#
+#Each vehicle in the platoon uses a shared simulink model that leverages parallel solvers to simulate the vehicles across multiple TruckSim Runs.
+#
+#The vehicles following the lead vehicle have negative station values so that they may properly obtain steering reference values from the vehicle(s) in front of them
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Parallel VS Math Models; { ADAS and Active Safety } Adaptive Cruise Control
+#Library : Parallel VS Math Models
+#DataSet : Adaptive Cruise Control
+#Category: ADAS and Active Safety
+#FileID  : MVeh_b98af3c7-bbe4-4e90-a29e-e89d23b343ba
+#Modified: 12-11-2021 11:40:02
+#Product : TruckSim 2022.1
+#DataVer : 2022.1
+#VehCode mVeh
+
+END
