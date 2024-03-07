@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire; { 2000 kg Rating } 390 mm Radius (Drive)
 #Category: 2000 kg Rating
 #FileID  : Tire_ee4d7f23-17c7-480e-b48d-24ba40b4ae78
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

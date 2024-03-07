@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Events; { Offset Backing } A. Pull Forward & Stop
 #Category: Offset Backing
 #FileID  : Events_8a67e9ce-cd05-440a-9c0f-94da809bc909
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -56,8 +56,8 @@ LOG_ENTRY Used Dataset: Vehicle: Suspended Cab; { Cab-Over-Engine tractors } 2A 
 #FileID  : Cab_cd95c22a-e337-4720-a140-255d6f88396c
 #Created : 05-26-2021 10:29:31
 #Modified: 06-07-2021 01:48:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Suspended Cab
 
 END

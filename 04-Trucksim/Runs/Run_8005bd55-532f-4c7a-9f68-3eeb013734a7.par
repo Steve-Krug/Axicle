@@ -31,6 +31,7 @@ PARSFILE Animator\Cameras\Camera_2f297a2a-ddb7-42f4-ae83-067b2569451e.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -98,9 +99,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Performance Based Standards (PBS
 #DataSet : PBS  C5: Tracking Ability
 #Category: Performance Based Standards (PBS)
 #FileID  : Run_8005bd55-532f-4c7a-9f68-3eeb013734a7
-#Modified: 04-25-2022 09:30:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

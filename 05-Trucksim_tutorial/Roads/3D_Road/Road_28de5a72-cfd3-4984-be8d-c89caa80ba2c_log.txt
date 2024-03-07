@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_28de5a72-cfd3-4984-be8d-c89caa80ba2c.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_110cfb2b-d2dc-42e8-add7-68eac34353ab.par"
+ 1004: West Entrance, Right Turn <Crossing with Curbs>
+Used Dataset: Path: Segment Builder; { Crossing with Curbs } 1004: West Entrance, Right Turn
+Include PARSFILE "Roads\dZ_Map\RdMapZ_6efd998e-857b-4b19-ab53-7e21922819e9.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Curbs, Ditches } Cross-slope, Curb for Intersection
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_279934d1-1a5b-49a4-a267-2abe42e65532.par"
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Right Turn w/ Curb
+ 1004: Enter West, Exit South <Intersection, 3D Roads with Curbs>
+Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Roads with Curbs } 1004: Enter West, Exit South
+
+Time to read input = 0.0004701
+
+Run stopped at t = 17.92. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_28de5a72-cfd3-4984-be8d-c89caa80ba2c.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

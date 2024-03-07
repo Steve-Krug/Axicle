@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Events; { Hill Start Assist (Manual Trans) } A. Wait a f
 #Category: Hill Start Assist (Manual Trans)
 #FileID  : Events_0ef73ca9-9e9a-451a-ab57-332b9f3d202a
 #Modified: 06-07-2021 01:49:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

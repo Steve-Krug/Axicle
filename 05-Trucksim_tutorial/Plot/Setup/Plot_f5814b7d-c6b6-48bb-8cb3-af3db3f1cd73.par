@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire utilization } Peak longitudinal forc
 #Category: Tire utilization
 #FileID  : Plot_f5814b7d-c6b6-48bb-8cb3-af3db3f1cd73
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

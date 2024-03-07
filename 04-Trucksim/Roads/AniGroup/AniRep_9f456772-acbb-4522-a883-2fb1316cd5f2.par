@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: Road: Animator Repeated Object; { Signs } Speed Limit 70
 #Category: Signs
 #FileID  : AniRep_9f456772-acbb-4522-a883-2fb1316cd5f2
 #Modified: 06-07-2021 01:51:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Repeated Object
 
 END

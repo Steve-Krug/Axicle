@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Parking Brake Engaged Text
 #Category: HUD Groups
 #FileID  : HUD_4a1f8c80-8d4c-4db0-a516-58312aee5751
 #Modified: 03-29-2022 16:03:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

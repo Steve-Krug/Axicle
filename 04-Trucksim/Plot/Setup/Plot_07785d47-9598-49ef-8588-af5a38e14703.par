@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Traffic Motion } Traffic Speed v. St
 #Category: ADAS Traffic Motion
 #FileID  : Plot_07785d47-9598-49ef-8588-af5a38e14703
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: Events; { PBS  C2A: Maintain Motion } Stop if Speed Goes
 #Category: PBS  C2A: Maintain Motion
 #FileID  : Events_6c1fe2b6-0bfa-4f7a-9b0d-c674c1c2c47c
 #Modified: 06-07-2021 01:49:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

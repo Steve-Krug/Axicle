@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { SAE Steer Tire } Fy; Steer Tire S
 #Category: SAE Steer Tire
 #FileID  : TireFy_22489820-cb11-4fa5-9440-f738b86de39b
 #Modified: 06-07-2021 01:48:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fy
 
 END

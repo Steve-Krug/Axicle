@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Detection } Stop Sign v4
 #Category: ADAS Detection
 #FileID  : Events_96b2daa5-7055-4265-85b4-aea2549ae5b6
 #Modified: 06-07-2021 01:49:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

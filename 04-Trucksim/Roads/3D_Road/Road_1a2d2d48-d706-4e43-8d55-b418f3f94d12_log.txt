@@ -1,0 +1,28 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_1a2d2d48-d706-4e43-8d55-b418f3f94d12.par"
+Include PARSFILE "Roads\Center_XY\PathXY_ff4458e7-8a36-423f-9726-28d38c3fe5b6.par"
+Used Dataset: Path: X-Y Coordinates; { Public Road Section } Alt 3 Road from FHWA
+Include PARSFILE "Roads\Center_Z\RdRefZ_bd9f8996-1992-4c6d-92e6-3bf51b367ea5.par"
+Used Dataset: Road: Reference Line Elevation; { Hills and Valleys } FHWA Alt 3
+Include PARSFILE "Roads\dZ_Map\RdMapZ_e2cf805e-caeb-48e8-a609-92ee207ddb59.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Roads } Road w/ Low Shoulder at 5 m
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_c9276ac1-53a5-4aca-bc14-efee6c30dd05.par"
+Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } Alt 3 FHWA Road
+ Alt 3 from FHWA <Scenic Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Scenic Roads } Alt 3 from FHWA
+
+Time to read input = 0.0013074
+
+Run stopped at t = 14.44. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_1a2d2d48-d706-4e43-8d55-b418f3f94d12.vsb
+Function ROAD_DZ_CARPET(1) extrapolated (out of range HIGH) for XCOL = 60 m at T = 14.44
+Function ROAD_ZS_TABLE(1) extrapolated (out of range HIGH) for X = 1050 m at T = 14.44
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

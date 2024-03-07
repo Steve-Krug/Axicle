@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -86,9 +87,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: ICE } Half Throttle 
 #DataSet : Half Throttle Accel.: AT
 #Category: Powertrain: ICE
 #FileID  : Run_d9998440-9fab-44d3-9a56-ea8677f90b62
-#Modified: 05-24-2022 13:34:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

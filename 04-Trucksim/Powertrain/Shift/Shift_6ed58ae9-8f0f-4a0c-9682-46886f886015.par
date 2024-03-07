@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 7-Speed Shift Schedule, 30
 #Category: 7-Speed Shift Schedule, 3000 RPM
 #FileID  : Shift_6ed58ae9-8f0f-4a0c-9682-46886f886015
 #Modified: 06-07-2021 01:49:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shift Schedule
 
 END

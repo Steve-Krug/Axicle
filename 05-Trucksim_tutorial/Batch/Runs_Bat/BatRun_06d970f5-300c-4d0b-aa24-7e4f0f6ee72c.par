@@ -10,7 +10,6 @@ PARSFILE
 #<Vehicle Layout: Single Trailers> 2A Cab+3A Trl (Frame Flex)
 #<Vehicle Layout: Single Trailers> 2A Euro Van + 2A Utility Trailer, DLC
 #<Vehicle Layout: Single Trailers> 2A Euro+1A Trl
-#<Vehicle Layout: Single Trailers> 2A Pickup + 3A Gooseneck Trailer
 #<Vehicle Layout: Single Trailers> 2A Pickup Truck + 2A HD Utility Trl, DLC
 #<Vehicle Layout: Single Trailers> 2A Van+1A Trl
 #<Vehicle Layout: Single Trailers> 2A Van+2A Trl
@@ -396,6 +395,8 @@ PARSFILE
 #<Vehicle Layout: Triple Trailers> 3A Day+3 1A Trls+2 1A Dollies
 #<Vehicle Layout: Triple Trailers> TRT, Tandem drive, tri-axle, tandem dolly
 #<Vehicle Layout: Triple Trailers> TRT, Tandem drive, tri-axle, tri-dolly
+#<Vehicle Layout: Single Trailers> 2A Pickup + 3A Gooseneck Trailer
+#<Vehicle Layout: Single Trailers> 4A Sleeper+3A Trl #2 AxicleTest1
 #ENDMYellow
 
 
@@ -406,9 +407,9 @@ LOG_ENTRY Used Dataset: Batch Runs; { Empty (You should edit or delete this) } N
 #Category: Empty (You should edit or delete this)
 #FileID  : BatRun_06d970f5-300c-4d0b-aa24-7e4f0f6ee72c
 #Created : 01-15-2023 17:38:25
-#Modified: 01-17-2023 15:35:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 05-04-2023 16:51:00
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Batch Run
 
 END

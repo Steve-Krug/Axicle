@@ -174,8 +174,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { PBS Tests } 
 #Category: PBS Tests
 #FileID  : MoSen_c34b5327-7b24-4351-b377-f42dcce87b7c
 #Modified: 06-07-2021 01:53:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Motion Sensors
 
 END

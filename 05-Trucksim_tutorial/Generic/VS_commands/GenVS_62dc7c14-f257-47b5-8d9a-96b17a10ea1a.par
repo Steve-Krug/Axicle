@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Lift Axle } Define Lift Axle Vari
 #Category: Lift Axle
 #FileID  : GenVS_62dc7c14-f257-47b5-8d9a-96b17a10ea1a
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

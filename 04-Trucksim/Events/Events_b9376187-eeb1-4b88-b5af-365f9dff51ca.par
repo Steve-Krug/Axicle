@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Events; { Hill Hold with Parking Brake: Auto. Trans. } L
 #Category: Hill Hold with Parking Brake: Auto. Trans.
 #FileID  : Events_b9376187-eeb1-4b88-b5af-365f9dff51ca
 #Modified: 06-07-2021 01:49:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

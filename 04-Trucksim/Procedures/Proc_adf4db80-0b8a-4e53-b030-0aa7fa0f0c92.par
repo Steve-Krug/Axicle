@@ -84,8 +84,8 @@ LOG_ENTRY Used Dataset: Procedures; { Mcity } Mcity Baseline, 30 km/h
 #Category: Mcity
 #FileID  : Proc_adf4db80-0b8a-4e53-b030-0aa7fa0f0c92
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

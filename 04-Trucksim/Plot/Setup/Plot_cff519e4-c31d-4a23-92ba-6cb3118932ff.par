@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } n/v (rpm/mph)
 #Category: Powertrain
 #FileID  : Plot_cff519e4-c31d-4a23-92ba-6cb3118932ff
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

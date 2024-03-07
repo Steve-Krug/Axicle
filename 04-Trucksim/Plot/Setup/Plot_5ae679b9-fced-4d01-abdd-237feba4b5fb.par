@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces (Axle 1, Sin
 #Category: Tire Forces
 #FileID  : Plot_5ae679b9-fced-4d01-abdd-237feba4b5fb
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

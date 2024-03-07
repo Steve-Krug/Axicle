@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Cross Slope Sine Sweep Test
 #Category: Ride Tests
 #FileID  : Proc_f44eeac3-bab3-4146-a214-ab5c9877d945
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

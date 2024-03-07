@@ -2,6 +2,12 @@ PARSFILE
 #FullDataName Control: Steering by the Closed-loop Driver Model`DLC (Ten Point Preview)`Vehicle Dynamics Tests
 SET_ILTARG_FOR_ID 0
 set_description LTARG_ID DLC (Ten Point Preview)
+INSTALL_DM_PATH_FOLLOWER
+#CheckBox4 0    
+OPT_DM 1
+#CheckBox6 1    
+#CheckBox7 1    
+OPT_DM_2019 1
 #RingCtrl0 0
 #RingCtrl1 SPLINE_FLAT
 #RingCtrl2 1
@@ -37,13 +43,8 @@ LTARG_ID_DM LTARG_ID
 #CheckBox0 0    
 #CheckBox1 1    
 CREATE_PATH_OBJ on
-#CheckBox4 0    
 #CheckBox5 0    
 OPT_STR_BY_TRQ 0
-OPT_DM 1
-#CheckBox6 1    
-#CheckBox7 1    
-OPT_DM_2019 1
 AV_SW_MAX_DM 1200
 A_SW_MAX_DM 1000
 *TPREV 1
@@ -62,9 +63,9 @@ LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Veh
 #DataSet : DLC (Ten Point Preview)
 #Category: Vehicle Dynamics Tests
 #FileID  : StrDM_9f51b449-390c-4448-9a32-0449b96e4508
-#Modified: 06-13-2022 11:18:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:47:48
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Driver Path Follower
 
 END

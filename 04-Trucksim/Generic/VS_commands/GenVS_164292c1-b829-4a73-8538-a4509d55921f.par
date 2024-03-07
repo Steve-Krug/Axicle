@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } AX_AEB Functions
 #Category: ADAS Support
 #FileID  : GenVS_164292c1-b829-4a73-8538-a4509d55921f
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode AX_AEB Functions
 
 END

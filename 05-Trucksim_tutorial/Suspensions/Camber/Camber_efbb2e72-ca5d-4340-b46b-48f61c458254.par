@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Suspension: Camber Angle; { Utility Vehicles } Large Eur
 #Category: Utility Vehicles
 #FileID  : Camber_efbb2e72-ca5d-4340-b46b-48f61c458254
 #Modified: 06-07-2021 01:49:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camber
 
 END

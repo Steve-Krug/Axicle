@@ -60,8 +60,8 @@ LOG_ENTRY Used Dataset: Events; { Sign Detection } Look for Traffic Signs
 #Category: Sign Detection
 #FileID  : Events_00671864-a3ba-40e9-bca2-44dd7c3c56a3
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Suspension: Camber Angle; { SLA } Front SLA - Camber Cha
 #Category: SLA
 #FileID  : Camber_1f791aeb-5ce4-45d3-a169-3527167dadbb
 #Modified: 06-07-2021 01:49:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camber
 
 END

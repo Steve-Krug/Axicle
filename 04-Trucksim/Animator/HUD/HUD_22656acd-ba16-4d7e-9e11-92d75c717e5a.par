@@ -108,8 +108,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } AEB HUD, Collided Outputs, 
 #FileID  : HUD_22656acd-ba16-4d7e-9e11-92d75c717e5a
 #Created : 09-28-2021 14:21:06
 #Modified: 03-29-2022 16:03:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

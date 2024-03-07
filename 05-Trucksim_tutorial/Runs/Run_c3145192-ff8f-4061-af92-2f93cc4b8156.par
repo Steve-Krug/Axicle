@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -80,9 +81,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Output Options } GPS and 64-bit 
 #DataSet : GPS and 64-bit Output
 #Category: Output Options
 #FileID  : Run_c3145192-ff8f-4061-af92-2f93cc4b8156
-#Modified: 08-18-2021 11:11:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

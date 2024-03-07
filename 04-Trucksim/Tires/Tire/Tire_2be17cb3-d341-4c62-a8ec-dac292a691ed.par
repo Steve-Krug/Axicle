@@ -74,8 +74,8 @@ LOG_ENTRY Used Dataset: Tire; { 3500 kg Rating } 528 mm Radius (Drive)
 #Category: 3500 kg Rating
 #FileID  : Tire_2be17cb3-d341-4c62-a8ec-dac292a691ed
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

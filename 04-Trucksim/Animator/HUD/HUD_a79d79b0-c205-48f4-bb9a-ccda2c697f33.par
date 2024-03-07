@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } AEB CCRm Label, GVT 20 km/h
 #FileID  : HUD_a79d79b0-c205-48f4-bb9a-ccda2c697f33
 #Created : 09-29-2021 12:13:56
 #Modified: 03-29-2022 16:03:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

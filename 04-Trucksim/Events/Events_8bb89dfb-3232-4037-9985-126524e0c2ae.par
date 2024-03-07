@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Events; { Shift 2WD to 4WD } A. Get Stuck
 #Category: Shift 2WD to 4WD
 #FileID  : Events_8bb89dfb-3232-4037-9985-126524e0c2ae
 #Modified: 06-07-2021 01:49:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Tire Tester; { Sweep Gamma +/- 5 deg } Sweep Gamma: Fz =
 #Category: Sweep Gamma +/- 5 deg
 #FileID  : TestTire_f63c30b0-9349-4370-93f7-65ce591b63f2
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire Tester
 
 END

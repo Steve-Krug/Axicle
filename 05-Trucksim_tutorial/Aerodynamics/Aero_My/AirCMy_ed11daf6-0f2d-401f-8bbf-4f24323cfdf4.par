@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; { S
 #Category: Spline Interpolation
 #FileID  : AirCMy_ed11daf6-0f2d-401f-8bbf-4f24323cfdf4
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode My vs. Aero Slip
 
 END

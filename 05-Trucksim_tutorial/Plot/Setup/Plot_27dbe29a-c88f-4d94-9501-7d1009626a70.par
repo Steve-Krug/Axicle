@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } My_Dr -- Wheel Drive Torque 
 #Category: Powertrain
 #FileID  : Plot_27dbe29a-c88f-4d94-9501-7d1009626a70
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

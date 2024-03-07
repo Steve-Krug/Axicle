@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Speed Controller } Vx_IErr: Integrated Sp
 #Category: Speed Controller
 #FileID  : Plot_70cea5f1-86db-49ea-9a3f-9e6438526478
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

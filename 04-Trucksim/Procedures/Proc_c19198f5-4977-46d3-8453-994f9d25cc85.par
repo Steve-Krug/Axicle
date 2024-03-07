@@ -66,8 +66,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Highway Intersection
 #Category: Driving
 #FileID  : Proc_c19198f5-4977-46d3-8453-994f9d25cc85
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

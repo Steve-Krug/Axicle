@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Path Detection } Path Detector
 #Category: Path Detection
 #FileID  : GenLink_f8e10b0f-dbcb-4959-b4ce-d7121f850795
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Links
 
 END

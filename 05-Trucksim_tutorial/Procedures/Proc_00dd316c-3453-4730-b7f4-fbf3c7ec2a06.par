@@ -83,8 +83,8 @@ LOG_ENTRY Used Dataset: Procedures; { Animation Asset-based Scenarios } Telescop
 #Category: Animation Asset-based Scenarios
 #FileID  : Proc_00dd316c-3453-4730-b7f4-fbf3c7ec2a06
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -1,84 +1,51 @@
 PARSFILE
 ! VS Road Calculator
 ! Utility to calculate road and path coordinates for visualization
-! Revision 181270, June 8, 2022
+! Revision 192897, December 7, 2022
 
-DATASET_TITLE 4A Sleeper+3A Trl #1
+DATASET_TITLE 3A Sleeper + Flatbed, Payload, AxicleTest1
 CATEGORY Vehicle Layout: Single Trailers
-TITLE 4A Sleeper+3A Trl #1 <Vehicle Layout: Single Trailers>
+TITLE 3A Sleeper + Flatbed, Payload, AxicleTest1 <Vehicle Layout: Single Trailers>
 
 ! Echo: Runs\Target_Path_echo.par
-! This run was made 13:56 on January 20, 2023.
+! This run was made 13:25 on June 13, 2023.
 
 !------------------------------------------------------------------------------------
 ! SYSTEM PARAMETERS (SIMULATION OPTIONS)
 !------------------------------------------------------------------------------------
-! [D] (default) indicates that a parameter was not set by reading from a Parsfile.
 ! [I] indicates that changing the parameter via an Event triggers an initialization.
 ! [L] indicates that the parameter is locked once the simulation starts.
 
 ID_EVENT            0 ; - ! ID number that can be assigned to the current event
 ID_RUN              0 ; - ! ID number that can be assigned to a simulation run
-IPRINT             50 ! Print interval: output time step TSTEP_WRITE = TSTEP*IPRINT;
+IPRINT              2 ! Print interval: output time step TSTEP_WRITE = TSTEP*IPRINT;
                       ! set IPRINT = 0 for debug (TSTEP_WRITE = T_DT) [L]
-NDIGITS_ECHO       10 ! [D] Max. no. of digits for printing floating-point numbers
-! NIMPORT           0 ! Number of variables activated for import (read only)
 ! NOUT_ANI_LIVE     4 ! Number of variables sent live to animators (read only)
-! NOUT_EXPORT       0 ! Number of output variables activated for export (read only)
-! NOUT_WRITE        5 ! Number of output variables written to file (read only)
+! NOUT_WRITE        4 ! Number of output variables written to file (read only)
 OPT_ALL_WRITE       0 ! Write all outputs to file? 1 -> all, 0 -> only activated
                       ! outputs
-OPT_BUFFER_WRITE    0 ! [D] Retain output data in memory buffer until end of run? 0
-                      ! -> no, write immediately to file, 1 -> yes, buffer during
-                      ! run and write to file after run finishes [L]
-OPT_CHECK_MATH      2 ! [D] Check for math exceptions? 2 -> as errors, 1 -> as
-                      ! warnings, 0 -> no checks
-OPT_ECHO_ALL_PARS   0 ! [D] Echo all parameters in this VS Solver? 0 -> no, 1 -> yes
-OPT_ECHO_ALL_UNITS  0 ! [D] Echo list of units and scale factors? 0 -> no, 1 -> yes
-OPT_ECHO_ANI_LIVE   0 ! [D] Echo variables sent live to video? 0 -> no, 1 -> yes
-OPT_ECHO_DEFAULT    1 ! [D] Identify values not read? 1 -> yes, show [D], 0 -> no
-OPT_ECHO_ICS        0 ! [D] Echo initial conditions? 0 -> no, 1 -> yes
-OPT_ECHO_KEYWORDS_LC 0 ! [D] Echo all keywords in lowercase? 0 -> no, 1 -> yes
-OPT_ECHO_WRITE      0 ! [D] Echo written outputs? 0 -> no, 1 -> yes
+OPT_ECHO_DEFAULT    2 ! Show values that were not set by reading from a file? 1 ->
+                      ! show with [D] indicator, 0 -> show without [D], 2 -> do not
+                      ! show the property at all
 OPT_ERROR_DIALOG    0 ! Show pop-up dialog box if fatal error occurs: 1 -> yes
                       ! (normal use), 0 -> no (for batch runs)
-OPT_ERROR_DUP_DEF   0 ! [D] Handle case where DEFINE_IMPORT, DEFINE_OUTPUT,
-                      ! DEFINE_PARAMETER, or DEFINE_VARIABLE attempts to define a
-                      ! variable with a name that is already in use. 0 -> write
-                      ! warning in log file, 1 -> generate error [L]
-OPT_ERROR_SHOW_ALL  0 ! [D] Show pop-up boxes for all errors: 0 -> only show the
-                      ! first, 1 -> also show subsequent errors
-OPT_LOG_DEBUG       0 ! [D] Log file writing: 0 -> normal, 1 -> crash expected
-OPT_LOG_VERBOSE     2 ! [D] Log file verbosity: 2 -> errors + most events + parsfile
-                      ! names, 0 -> errors only, 1 -> errors + events, 3 ->
-                      ! advanced diagnostics
-OPT_LOG_WARNINGS    1 ! [D] Write warnings into log file? 1 -> yes, 0 -> no
-OPT_PAUSE           0 ! [D] Pause at end of run with window open? 0 -> no, 1 -> yes
-OPT_SKIP_INIT_DYN   0 ! [D] Skip initial dynamic calculations (for some RT systems)?
-                      ! 0 -> no, 1 -> yes
-OPT_SORT_WRITE      1 ! [D] Sort written outputs? 1 -> alphabetical, 0 -> as entered
 OPT_STOP            0 ! Option for stopping the run: 0 -> stop when T reaches TSTOP;
                       ! 1 -> stop when T reaches TSTOP or station reaches SSTOP; -1
                       ! -> run until stopped using VS Commands or external control
-OPT_VS_FILETYPE     4 ! Type of output file: 1-> 64-bit VS, 2-> 32-bit VS, 3 ->
+OPT_VS_FILETYPE     2 ! Type of output file: 1-> 64-bit VS, 2-> 32-bit VS, 3 ->
                       ! 32-bit ERD, 4 -> text CSV (no binary), 0 -> no output file
 OPT_WRITE           0 ; - ! Write outputs when T > TSTART_WRITE? 1 -> write, 0 ->
                       ! don't write; change this using VS Commands or Events
 TSTART              0 ; s ! Starting time for the simulation clock
-TSTART_T_EVENT      0 ; s ! [D] Event clock reset time: T_EVENT = T - TSTART_T_EVENT
 TSTART_WRITE        0 ; s ! Start writing outputs when this time is reached
 TSTEP          0.0005 ; s ! Time step for numerical integration [L]
-! TSTEP_WRITE   0.025 ; s ! CALC -- Time interval in output time-series file
-TSTOP               8 ; s ! Stop when this time is reached
+! TSTEP_WRITE   0.001 ; s ! CALC -- Time interval in output time-series file
+TSTOP              10 ; s ! Stop when this time is reached
 ! T_DT         0.0005 ; s ! CALC -- Time increment between calculations
 
 !------------------------------------------------------------------------------------
 ! SYSTEM CONSTANTS
 !------------------------------------------------------------------------------------
-! DR      57.29577951 ; - ! Deg/rad symbol to use in formulas (read-only)
-! G           9.80665 ; - ! Symbol for gravity constant m/s/s (read-only)
-! PI      3.141592654 ; - ! Symbol for PI to use in formulas (read-only)
-! ZERO              0 ; - ! Symbol for zero to use in VS Events (read-only)
 
 !------------------------------------------------------------------------------------
 ! REFERENCE PATHS
@@ -88,30 +55,20 @@ TSTOP               8 ; s ! Stop when this time is reached
 ! positions of moving objects. In addition to the parameters shown in this section,
 ! the paths may include spline X-Y tables (keyword = SEGMENT_XY_TABLE).
 
-OPT_SL_METHOD       1 ! [D] Use curvature in iteration for S-L from X-Y? 1 -> yes, 0
-                      ! -> no
-TOL_SL_METHOD       1 ; mm ! [D] Stop iteration if X-Y from S-L solution is no
-                      ! further from requested X-Y than this
 ! NPATH             1 ! Number of installed paths available for roads, driver model,
                       ! and moving objects (read only)
 DEFINE_PATHS        1 ! VS Command to install reference paths
 
-PATH_ID(1)          1 ! [D] ID number for this Reference Path
 OPT_PATH_START(1)   0 ! Set initial heading and X-Y coordinates of the path? 0 -> no
                       ! (legacy, using table data), 1 -> yes
 OPT_PATH_LOOP(1)    0 ! Is this path looped? 0 -> no, 1 -> yes
 SPATH_START(1)      0 ; m ! Station at the start of this path
-! HEADING_START(1)  0 ; deg ! Heading at the start of this path
-! X_PATH_START(1)   0 ; m ! Global X coordinate at the start of this path
-! Y_PATH_START(1)   0 ; m ! Global Y coordinate at the start of this path
 
 NSEGMENTS(1)        1 ! Number of segments in this path
 SEGMENT_TYPE(1,1)   0 ! 0 -> straight, 1 -> table, 2 -> rho, 3 -> radius, 4 -> cloth
 SEGMENT_LENGTH(1,1) 100 ; m ! Segment length
 ! S_SEGMENT_END(1,1) 100 ; m ! CALC -- Station at end of this segment
 ! X_SEGMENT_END(1,1) 100 ; m ! CALC -- X coordinate at end of segment
-! Y_SEGMENT_END(1,1) 0 ; m ! CALC -- Y coordinate at end of segment
-! HEADING_END(1,1)  0 ; deg ! CALC -- Heading at end of segment
 
 !------------------------------------------------------------------------------------
 ! ROAD SURFACES
@@ -125,17 +82,10 @@ SEGMENT_LENGTH(1,1) 100 ; m ! Segment length
 ! use of the Configurable Functions ROAD_L_BOUNDARY, ROAD_NEW_ID, and ROAD_NEW_S.
 
 ! NROAD             1 ! Number of installed road surfaces (read only)
-NROAD_DZ            0 ! [D] Number of ROAD_DZ datasets
 DEFINE_ROADS        1 ! VS Command to define road surfaces
 CURRENT_ROAD_ID     1 ! ROAD_ID for the vehicle during initialization [I]
 
-ROAD_ID(1)          1 ! [D] ID number for this road
 ROAD_PATH_ID(1)     1 ! PATH_ID of reference path used for this road [I]
-ROAD_SMAX_NEW_ID(1) 0 ! [D] 0 -> No SMAX limit, -1 -> stop if S > ROAD_SMAX, > 0 ->
-                      ! switch to road with this ID if S > ROAD_SMAX
-ROAD_SMIN_NEW_ID(1) 0 ! [D] 0 -> No SMIN limit, -1 -> stop if S < ROAD_SMIN, > 0 ->
-                      ! switch to road with this ID if S < ROAD_SMIN
-ROAD_N_DZ(1)        0 ! [D] Number of ROAD_DZ layers added to the surface
 
 !------------------------------------------------------------------------------------
 ! START AND STOP INFORMATION FOR PATH
@@ -158,79 +108,864 @@ SSTART              0 ; m ! Start the vehicle at this station on path PATH_ID_DM
 ! CONFIGURABLE FUNCTIONS
 !------------------------------------------------------------------------------------
 
-! LTARG: Target lateral offset (+ -> left, - -> right). This offset is combined with
-! a reference path to produce a modified path for steering control, moving objects,
-! lane definition, etc. Lateral offset is a function of station (CONSTANT,
-! COEFFICIENT, or TABLE). Lateral offset from the calculation can be adjusted with
-! LTARG_GAIN and LTARG_OFFSET. Station used in the calculation can be adjusted with
-! SSCALE_LTARG and SSTART_LTARG. The derivative of this function is used internally.
-! This configurable function supports 500 datasets; if indices shown below are not
-! used, e.g., (2), the current value of the index ILTARG is used to identify the
-! dataset when reading data.
+! LTARG: Function that calculates lateral offset from station
 
 LTARG_ID(1)         1  ! User-defined ID number for this dataset
-LTARG_CONSTANT(1)   0 ; m ! Constant lateral offset
-LTARG_OFFSET(1)     0 ; m ! Offset added (after gain) to get lateral offset
 
-! MU_ROAD: Tire/road friction coefficient (MU) for a road surface. Use MU = -1 for
-! original tire data (no scaling). MU can be a nonlinear CARPET function of lateral
-! position and station or a function of station (CONSTANT or TABLE) combined with a
-! function MU_ROAD_L of lateral position (CONSTANT or TABLE). Alternatively, a custom
-! equation can be defined at runtime. MU from the calculation can be adjusted with
-! MU_ROAD_GAIN and MU_ROAD_OFFSET. Station used in the calculation can be adjusted
-! with SSCALE_MU_ROAD and SSTART_MU_ROAD. Lateral position used in the calculation
-! can be adjusted with L_SCALE_MU_ROAD and L_START_MU_ROAD. This configurable
-! function supports 200 datasets; if indices shown below are not used, e.g., (2), the
-! current value of the index IROAD is used to identify the dataset when reading data.
+! Col 1 = station (m), col 2 = lateral offset (m)
+LTARG_TABLE(1) SPLINE_FLAT ! spline interpolation, flat-line extrapolation
+ 69.444, 0
+ 70.444, 0.0010246
+ 71.444, 0.0040926
+ 72.444, 0.0091977
+ 73.444, 0.01633
+ 74.444, 0.025473
+ 75.444, 0.036605
+ 76.444, 0.049719
+ 77.444, 0.064776
+ 78.444, 0.081746
+ 79.444, 0.10059
+ 80.444, 0.12129
+ 81.444, 0.14378
+ 82.444, 0.168
+ 83.444, 0.19394
+ 84.444, 0.22154
+ 85.444, 0.25073
+ 86.444, 0.28145
+ 87.444, 0.31361
+ 88.444, 0.34721
+ 89.444, 0.38214
+ 90.444, 0.41834
+ 91.444, 0.45573
+ 92.444, 0.4942
+ 93.444, 0.53373
+ 94.444, 0.57422
+ 95.444, 0.61559
+ 96.444, 0.65774
+ 97.444, 0.70054
+ 98.444, 0.74401
+ 99.444, 0.78799
+ 100.44, 0.83205
+ 101.44, 0.87689
+ 102.44, 0.92199
+ 103.44, 0.96724
+ 104.44, 1.0126
+ 105.44, 1.0574
+ 106.44, 1.1026
+ 107.44, 1.1475
+ 108.44, 1.1922
+ 109.44, 1.2365
+ 110.44, 1.2799
+ 111.44, 1.323
+ 112.44, 1.3656
+ 113.44, 1.4074
+ 114.44, 1.4484
+ 115.44, 1.4881
+ 116.44, 1.5271
+ 117.44, 1.5651
+ 118.44, 1.6018
+ 119.44, 1.6374
+ 120.44, 1.6714
+ 121.44, 1.7042
+ 122.44, 1.7357
+ 123.44, 1.7656
+ 124.44, 1.794
+ 125.44, 1.8205
+ 126.44, 1.8455
+ 127.44, 1.8689
+ 128.44, 1.8904
+ 129.44, 1.9101
+ 130.44, 1.9277
+ 131.44, 1.9438
+ 132.44, 1.9577
+ 133.44, 1.9698
+ 134.44, 1.9799
+ 135.44, 1.9878
+ 136.44, 1.9939
+ 137.44, 1.9978
+ 138.44, 1.9998
+ 139.44, 1.9994
+ 140.44, 1.9951
+ 141.44, 1.9867
+ 142.44, 1.9743
+ 143.44, 1.9577
+ 144.44, 1.9372
+ 145.44, 1.9129
+ 146.44, 1.8845
+ 147.44, 1.8522
+ 148.44, 1.8161
+ 149.44, 1.7763
+ 150.44, 1.7332
+ 151.44, 1.6863
+ 152.44, 1.6358
+ 153.44, 1.582
+ 154.44, 1.5249
+ 155.44, 1.4653
+ 156.44, 1.4021
+ 157.44, 1.336
+ 158.44, 1.2672
+ 159.44, 1.1958
+ 160.44, 1.1227
+ 161.44, 1.0465
+ 162.44, 0.96822
+ 163.44, 0.88793
+ 164.44, 0.80581
+ 165.44, 0.72287
+ 166.44, 0.63763
+ 167.44, 0.55108
+ 168.44, 0.4634
+ 169.44, 0.37476
+ 170.44, 0.28535
+ 171.44, 0.19536
+ 172.44, 0.10587
+ 173.44, 0.015259
+ 174.44, -0.07538
+ 175.44, -0.16586
+ 176.44, -0.25601
+ 177.44, -0.34474
+ 178.44, -0.43366
+ 179.44, -0.52168
+ 180.44, -0.60863
+ 181.44, -0.69434
+ 182.44, -0.77779
+ 183.44, -0.86048
+ 184.44, -0.94141
+ 185.44, -1.0204
+ 186.44, -1.0973
+ 187.44, -1.1712
+ 188.44, -1.2435
+ 189.44, -1.3132
+ 190.44, -1.3801
+ 191.44, -1.4443
+ 192.44, -1.5049
+ 193.44, -1.5631
+ 194.44, -1.618
+ 195.44, -1.6697
+ 196.44, -1.7178
+ 197.44, -1.762
+ 198.44, -1.8031
+ 199.44, -1.8405
+ 200.44, -1.874
+ 201.44, -1.9038
+ 202.44, -1.9293
+ 203.44, -1.9512
+ 204.44, -1.9691
+ 205.44, -1.9829
+ 206.44, -1.9927
+ 207.44, -1.9984
+ 208.44, -2
+ 209.44, -1.9975
+ 210.44, -1.9908
+ 211.44, -1.9802
+ 212.44, -1.9656
+ 213.44, -1.9468
+ 214.44, -1.9241
+ 215.44, -1.8973
+ 216.44, -1.8667
+ 217.44, -1.8326
+ 218.44, -1.7945
+ 219.44, -1.7526
+ 220.44, -1.7072
+ 221.44, -1.6582
+ 222.44, -1.6063
+ 223.44, -1.5507
+ 224.44, -1.4919
+ 225.44, -1.43
+ 226.44, -1.3652
+ 227.44, -1.2982
+ 228.44, -1.2279
+ 229.44, -1.1551
+ 230.44, -1.08
+ 231.44, -1.0026
+ 232.44, -0.92393
+ 233.44, -0.84261
+ 234.44, -0.75956
+ 235.44, -0.67494
+ 236.44, -0.58893
+ 237.44, -0.50259
+ 238.44, -0.41436
+ 239.44, -0.32527
+ 240.44, -0.23552
+ 241.44, -0.14528
+ 242.44, -0.055644
+ 243.44, 0.035004
+ 244.44, 0.12558
+ 245.44, 0.2159
+ 246.44, 0.30577
+ 247.44, 0.39414
+ 248.44, 0.48259
+ 249.44, 0.57004
+ 250.44, 0.65632
+ 251.44, 0.74125
+ 252.44, 0.82384
+ 253.44, 0.90558
+ 254.44, 0.98545
+ 255.44, 1.0633
+ 256.44, 1.139
+ 257.44, 1.2116
+ 258.44, 1.2824
+ 259.44, 1.3507
+ 260.44, 1.4161
+ 261.44, 1.4786
+ 262.44, 1.5376
+ 263.44, 1.594
+ 264.44, 1.6471
+ 265.44, 1.6968
+ 266.44, 1.743
+ 267.44, 1.7853
+ 268.44, 1.8243
+ 269.44, 1.8596
+ 270.44, 1.891
+ 271.44, 1.9185
+ 272.44, 1.942
+ 273.44, 1.9617
+ 274.44, 1.9773
+ 275.44, 1.9889
+ 276.44, 1.9964
+ 277.44, 1.9997
+ 278.44, 1.9991
+ 279.44, 1.9943
+ 280.44, 1.9855
+ 281.44, 1.9725
+ 282.44, 1.9557
+ 283.44, 1.9347
+ 284.44, 1.9097
+ 285.44, 1.8809
+ 286.44, 1.8481
+ 287.44, 1.812
+ 288.44, 1.7717
+ 289.44, 1.7278
+ 290.44, 1.6804
+ 291.44, 1.6296
+ 292.44, 1.5759
+ 293.44, 1.5185
+ 294.44, 1.4579
+ 295.44, 1.3944
+ 296.44, 1.328
+ 297.44, 1.2596
+ 298.44, 1.1879
+ 299.44, 1.1138
+ 300.44, 1.0373
+ 301.44, 0.95878
+ 302.44, 0.87907
+ 303.44, 0.79677
+ 304.44, 0.71282
+ 305.44, 0.62741
+ 306.44, 0.54071
+ 307.44, 0.45379
+ 308.44, 0.36506
+ 309.44, 0.27558
+ 310.44, 0.18554
+ 311.44, 0.09511
+ 312.44, 0.0053854
+ 313.44, -0.085245
+ 314.44, -0.1757
+ 315.44, -0.2658
+ 316.44, -0.35535
+ 317.44, -0.44329
+ 318.44, -0.5312
+ 319.44, -0.61803
+ 320.44, -0.70359
+ 321.44, -0.7877
+ 322.44, -0.86938
+ 323.44, -0.95011
+ 324.44, -1.0289
+ 325.44, -1.1055
+ 326.44, -1.1799
+ 327.44, -1.2512
+ 328.44, -1.3206
+ 329.44, -1.3873
+ 330.44, -1.4511
+ 331.44, -1.512
+ 332.44, -1.5693
+ 333.44, -1.6238
+ 334.44, -1.6751
+ 335.44, -1.7228
+ 336.44, -1.7671
+ 337.44, -1.8074
+ 338.44, -1.8443
+ 339.44, -1.8775
+ 340.44, -1.9068
+ 341.44, -1.9322
+ 342.44, -1.9533
+ 343.44, -1.9708
+ 344.44, -1.9842
+ 345.44, -1.9935
+ 346.44, -1.9988
+ 347.44, -1.9999
+ 348.44, -1.997
+ 349.44, -1.9899
+ 350.44, -1.9788
+ 351.44, -1.9636
+ 352.44, -1.9445
+ 353.44, -1.9214
+ 354.44, -1.8942
+ 355.44, -1.8631
+ 356.44, -1.8283
+ 357.44, -1.7901
+ 358.44, -1.7478
+ 359.44, -1.702
+ 360.44, -1.6527
+ 361.44, -1.5999
+ 362.44, -1.5444
+ 363.44, -1.4853
+ 364.44, -1.4231
+ 365.44, -1.3579
+ 366.44, -1.29
+ 367.44, -1.2201
+ 368.44, -1.1471
+ 369.44, -1.0717
+ 370.44, -0.99403
+ 371.44, -0.91437
+ 372.44, -0.83364
+ 373.44, -0.75041
+ 374.44, -0.66564
+ 375.44, -0.57949
+ 376.44, -0.49216
+ 377.44, -0.4047
+ 378.44, -0.31553
+ 379.44, -0.22571
+ 380.44, -0.13543
+ 381.44, -0.044876
+ 382.44, 0.044876
+ 383.44, 0.13543
+ 384.44, 0.22571
+ 385.44, 0.31553
+ 386.44, 0.4047
+ 387.44, 0.49216
+ 388.44, 0.57949
+ 389.44, 0.66564
+ 390.44, 0.75041
+ 391.44, 0.83364
+ 392.44, 0.91437
+ 393.44, 0.99403
+ 394.44, 1.0717
+ 395.44, 1.1471
+ 396.44, 1.2201
+ 397.44, 1.29
+ 398.44, 1.3579
+ 399.44, 1.4231
+ 400.44, 1.4853
+ 401.44, 1.5444
+ 402.44, 1.5999
+ 403.44, 1.6527
+ 404.44, 1.702
+ 405.44, 1.7478
+ 406.44, 1.7901
+ 407.44, 1.8283
+ 408.44, 1.8631
+ 409.44, 1.8942
+ 410.44, 1.9213
+ 411.44, 1.9445
+ 412.44, 1.9636
+ 413.44, 1.9788
+ 414.44, 1.9899
+ 415.44, 1.9969
+ 416.44, 1.9999
+ 417.44, 1.9988
+ 418.44, 1.9935
+ 419.44, 1.9842
+ 420.44, 1.9708
+ 421.44, 1.9533
+ 422.44, 1.9322
+ 423.44, 1.9068
+ 424.44, 1.8775
+ 425.44, 1.8443
+ 426.44, 1.8074
+ 427.44, 1.7671
+ 428.44, 1.7229
+ 429.44, 1.6751
+ 430.44, 1.6238
+ 431.44, 1.5693
+ 432.44, 1.512
+ 433.44, 1.4511
+ 434.44, 1.3873
+ 435.44, 1.3206
+ 436.44, 1.2512
+ 437.44, 1.1799
+ 438.44, 1.1056
+ 439.44, 1.0289
+ 440.44, 0.95011
+ 441.44, 0.86938
+ 442.44, 0.7877
+ 443.44, 0.70359
+ 444.44, 0.61803
+ 445.44, 0.5312
+ 446.44, 0.44329
+ 447.44, 0.35535
+ 448.44, 0.2658
+ 449.44, 0.1757
+ 450.44, 0.085245
+ 451.44, -0.0053854
+ 452.44, -0.09511
+ 453.44, -0.18554
+ 454.44, -0.27558
+ 455.44, -0.36506
+ 456.44, -0.45379
+ 457.44, -0.54071
+ 458.44, -0.62741
+ 459.44, -0.71282
+ 460.44, -0.79677
+ 461.44, -0.87907
+ 462.44, -0.95878
+ 463.44, -1.0373
+ 464.44, -1.1138
+ 465.44, -1.1879
+ 466.44, -1.2596
+ 467.44, -1.328
+ 468.44, -1.3944
+ 469.44, -1.4579
+ 470.44, -1.5185
+ 471.44, -1.5759
+ 472.44, -1.6296
+ 473.44, -1.6804
+ 474.44, -1.7278
+ 475.44, -1.7717
+ 476.44, -1.812
+ 477.44, -1.8481
+ 478.44, -1.8809
+ 479.44, -1.9097
+ 480.44, -1.9347
+ 481.44, -1.9557
+ 482.44, -1.9725
+ 483.44, -1.9855
+ 484.44, -1.9943
+ 485.44, -1.9991
+ 486.44, -1.9997
+ 487.44, -1.9964
+ 488.44, -1.9889
+ 489.44, -1.9773
+ 490.44, -1.9617
+ 491.44, -1.942
+ 492.44, -1.9185
+ 493.44, -1.891
+ 494.44, -1.8596
+ 495.44, -1.8243
+ 496.44, -1.7853
+ 497.44, -1.743
+ 498.44, -1.6968
+ 499.44, -1.6471
+ 500.44, -1.594
+ 501.44, -1.5376
+ 502.44, -1.4786
+ 503.44, -1.4161
+ 504.44, -1.3507
+ 505.44, -1.2824
+ 506.44, -1.2116
+ 507.44, -1.139
+ 508.44, -1.0633
+ 509.44, -0.98545
+ 510.44, -0.90558
+ 511.44, -0.82384
+ 512.44, -0.74125
+ 513.44, -0.65632
+ 514.44, -0.57004
+ 515.44, -0.48259
+ 516.44, -0.39414
+ 517.44, -0.30577
+ 518.44, -0.2159
+ 519.44, -0.12558
+ 520.44, -0.035004
+ 521.44, 0.055644
+ 522.44, 0.14528
+ 523.44, 0.23552
+ 524.44, 0.32527
+ 525.44, 0.41436
+ 526.44, 0.50259
+ 527.44, 0.58893
+ 528.44, 0.67494
+ 529.44, 0.75956
+ 530.44, 0.84261
+ 531.44, 0.92393
+ 532.44, 1.0026
+ 533.44, 1.08
+ 534.44, 1.1551
+ 535.44, 1.2279
+ 536.44, 1.2982
+ 537.44, 1.3652
+ 538.44, 1.43
+ 539.44, 1.4919
+ 540.44, 1.5507
+ 541.44, 1.6063
+ 542.44, 1.6582
+ 543.44, 1.7072
+ 544.44, 1.7526
+ 545.44, 1.7945
+ 546.44, 1.8326
+ 547.44, 1.8667
+ 548.44, 1.8973
+ 549.44, 1.9241
+ 550.44, 1.9468
+ 551.44, 1.9656
+ 552.44, 1.9802
+ 553.44, 1.9908
+ 554.44, 1.9975
+ 555.44, 2
+ 556.44, 1.9984
+ 557.44, 1.9927
+ 558.44, 1.9829
+ 559.44, 1.9691
+ 560.44, 1.9512
+ 561.44, 1.9293
+ 562.44, 1.9038
+ 563.44, 1.874
+ 564.44, 1.8405
+ 565.44, 1.8031
+ 566.44, 1.762
+ 567.44, 1.7178
+ 568.44, 1.6697
+ 569.44, 1.618
+ 570.44, 1.5631
+ 571.44, 1.5049
+ 572.44, 1.4443
+ 573.44, 1.3801
+ 574.44, 1.3132
+ 575.44, 1.2435
+ 576.44, 1.1712
+ 577.44, 1.0973
+ 578.44, 1.0204
+ 579.44, 0.94141
+ 580.44, 0.86048
+ 581.44, 0.77779
+ 582.44, 0.69434
+ 583.44, 0.60863
+ 584.44, 0.52168
+ 585.44, 0.43366
+ 586.44, 0.34474
+ 587.44, 0.25601
+ 588.44, 0.16586
+ 589.44, 0.07538
+ 590.44, -0.015259
+ 591.44, -0.10587
+ 592.44, -0.19536
+ 593.44, -0.28535
+ 594.44, -0.37476
+ 595.44, -0.4634
+ 596.44, -0.55108
+ 597.44, -0.63678
+ 598.44, -0.72204
+ 599.44, -0.80581
+ 600.44, -0.88793
+ 601.44, -0.96822
+ 602.44, -1.0457
+ 603.44, -1.122
+ 604.44, -1.1958
+ 605.44, -1.2672
+ 606.44, -1.336
+ 607.44, -1.4014
+ 608.44, -1.4647
+ 609.44, -1.5249
+ 610.44, -1.582
+ 611.44, -1.6358
+ 612.44, -1.6858
+ 613.44, -1.7328
+ 614.44, -1.7763
+ 615.44, -1.8161
+ 616.44, -1.8522
+ 617.44, -1.8842
+ 618.44, -1.9126
+ 619.44, -1.9372
+ 620.44, -1.9577
+ 621.44, -1.9743
+ 622.44, -1.9866
+ 623.44, -1.995
+ 624.44, -1.9994
+ 625.44, -1.9996
+ 626.44, -1.9957
+ 627.44, -1.9878
+ 628.44, -1.9758
+ 629.44, -1.9597
+ 630.44, -1.9396
+ 631.44, -1.9155
+ 632.44, -1.8878
+ 633.44, -1.8559
+ 634.44, -1.8202
+ 635.44, -1.7808
+ 636.44, -1.7377
+ 637.44, -1.6916
+ 638.44, -1.6414
+ 639.44, -1.588
+ 640.44, -1.5313
+ 641.44, -1.4714
+ 642.44, -1.4091
+ 643.44, -1.3434
+ 644.44, -1.2748
+ 645.44, -1.2037
+ 646.44, -1.1301
+ 647.44, -1.0549
+ 648.44, -0.97685
+ 649.44, -0.89677
+ 650.44, -0.81484
+ 651.44, -0.73124
+ 652.44, -0.64699
+ 653.44, -0.56056
+ 654.44, -0.473
+ 655.44, -0.38446
+ 656.44, -0.29512
+ 657.44, -0.20608
+ 658.44, -0.11573
+ 659.44, -0.025132
+ 660.44, 0.065513
+ 661.44, 0.15602
+ 662.44, 0.24532
+ 663.44, 0.33501
+ 664.44, 0.42401
+ 665.44, 0.51214
+ 666.44, 0.59922
+ 667.44, 0.68423
+ 668.44, 0.76868
+ 669.44, 0.85156
+ 670.44, 0.93268
+ 671.44, 1.0119
+ 672.44, 1.0883
+ 673.44, 1.1632
+ 674.44, 1.2357
+ 675.44, 1.3057
+ 676.44, 1.373
+ 677.44, 1.4369
+ 678.44, 1.4984
+ 679.44, 1.5569
+ 680.44, 1.6122
+ 681.44, 1.6642
+ 682.44, 1.7123
+ 683.44, 1.7573
+ 684.44, 1.7988
+ 685.44, 1.8366
+ 686.44, 1.8706
+ 687.44, 1.9004
+ 688.44, 1.9267
+ 689.44, 1.9491
+ 690.44, 1.9674
+ 691.44, 1.9816
+ 692.44, 1.9918
+ 693.44, 1.998
+ 694.44, 2
+ 695.44, 1.998
+ 696.44, 1.9918
+ 697.44, 1.9816
+ 698.44, 1.9674
+ 699.44, 1.9491
+ 700.44, 1.9267
+ 701.44, 1.9004
+ 702.44, 1.8706
+ 703.44, 1.8366
+ 704.44, 1.7988
+ 705.44, 1.7573
+ 706.44, 1.7123
+ 707.44, 1.6642
+ 708.44, 1.6122
+ 709.44, 1.5569
+ 710.44, 1.4984
+ 711.44, 1.4369
+ 712.44, 1.373
+ 713.44, 1.3057
+ 714.44, 1.2357
+ 715.44, 1.1632
+ 716.44, 1.0883
+ 717.44, 1.0119
+ 718.44, 0.93268
+ 719.44, 0.85156
+ 720.44, 0.76868
+ 721.44, 0.68423
+ 722.44, 0.59922
+ 723.44, 0.51214
+ 724.44, 0.42401
+ 725.44, 0.33501
+ 726.44, 0.24532
+ 727.44, 0.15602
+ 728.44, 0.065513
+ 729.44, -0.025132
+ 730.44, -0.11573
+ 731.44, -0.20608
+ 732.44, -0.29512
+ 733.44, -0.38446
+ 734.44, -0.473
+ 735.44, -0.56056
+ 736.44, -0.64699
+ 737.44, -0.73124
+ 738.44, -0.81484
+ 739.44, -0.89677
+ 740.44, -0.97685
+ 741.44, -1.0549
+ 742.44, -1.1301
+ 743.44, -1.2037
+ 744.44, -1.2748
+ 745.44, -1.3434
+ 746.44, -1.4091
+ 747.44, -1.4714
+ 748.44, -1.5313
+ 749.44, -1.588
+ 750.44, -1.6414
+ 751.44, -1.6916
+ 752.44, -1.7377
+ 753.44, -1.7808
+ 754.44, -1.8202
+ 755.44, -1.8559
+ 756.44, -1.8878
+ 757.44, -1.9155
+ 758.44, -1.9396
+ 759.44, -1.9597
+ 760.44, -1.9758
+ 761.44, -1.9878
+ 762.44, -1.9957
+ 763.44, -1.9996
+ 764.44, -1.9994
+ 765.44, -1.995
+ 766.44, -1.9866
+ 767.44, -1.9743
+ 768.44, -1.9577
+ 769.44, -1.9372
+ 770.44, -1.9126
+ 771.44, -1.8842
+ 772.44, -1.8522
+ 773.44, -1.8161
+ 774.44, -1.7763
+ 775.44, -1.7327
+ 776.44, -1.6858
+ 777.44, -1.6358
+ 778.44, -1.5819
+ 779.44, -1.5249
+ 780.44, -1.4647
+ 781.44, -1.4014
+ 782.44, -1.336
+ 783.44, -1.2672
+ 784.44, -1.1958
+ 785.44, -1.122
+ 786.44, -1.0457
+ 787.44, -0.96822
+ 788.44, -0.88793
+ 789.44, -0.80581
+ 790.44, -0.72204
+ 791.44, -0.63678
+ 792.44, -0.55108
+ 793.44, -0.4634
+ 794.44, -0.37476
+ 795.44, -0.28535
+ 796.44, -0.19536
+ 797.44, -0.10587
+ 798.44, -0.015259
+ 799.44, 0.07538
+ 800.44, 0.16586
+ 801.44, 0.25601
+ 802.44, 0.34474
+ 803.44, 0.43366
+ 804.44, 0.52168
+ 805.44, 0.60863
+ 806.44, 0.69434
+ 807.44, 0.77779
+ 808.44, 0.86048
+ 809.44, 0.94141
+ 810.44, 1.0204
+ 811.44, 1.0973
+ 812.44, 1.1712
+ 813.44, 1.2435
+ 814.44, 1.3132
+ 815.44, 1.3802
+ 816.44, 1.4443
+ 817.44, 1.5049
+ 818.44, 1.5631
+ 819.44, 1.618
+ 820.44, 1.6697
+ 821.44, 1.7178
+ 822.44, 1.762
+ 823.44, 1.8031
+ 824.44, 1.8405
+ 825.44, 1.874
+ 826.44, 1.9038
+ 827.44, 1.9293
+ 828.44, 1.9512
+ 829.44, 1.9691
+ 830.44, 1.9829
+ 831.44, 1.9927
+ 832.44, 1.9984
+ 833.44, 2
+ 834.44, 1.9987
+ 835.44, 1.9955
+ 836.44, 1.9901
+ 837.44, 1.9828
+ 838.44, 1.9734
+ 839.44, 1.962
+ 840.44, 1.9487
+ 841.44, 1.9334
+ 842.44, 1.9163
+ 843.44, 1.8972
+ 844.44, 1.8763
+ 845.44, 1.8536
+ 846.44, 1.8291
+ 847.44, 1.8032
+ 848.44, 1.7754
+ 849.44, 1.7459
+ 850.44, 1.715
+ 851.44, 1.6826
+ 852.44, 1.6491
+ 853.44, 1.614
+ 854.44, 1.5776
+ 855.44, 1.54
+ 856.44, 1.5013
+ 857.44, 1.462
+ 858.44, 1.4213
+ 859.44, 1.3798
+ 860.44, 1.3374
+ 861.44, 1.2944
+ 862.44, 1.2513
+ 863.44, 1.2072
+ 864.44, 1.1626
+ 865.44, 1.1178
+ 866.44, 1.0726
+ 867.44, 1.0278
+ 868.44, 0.9825
+ 869.44, 0.93721
+ 870.44, 0.89205
+ 871.44, 0.84711
+ 872.44, 0.80293
+ 873.44, 0.75871
+ 874.44, 0.71498
+ 875.44, 0.67184
+ 876.44, 0.62938
+ 877.44, 0.58808
+ 878.44, 0.54721
+ 879.44, 0.50727
+ 880.44, 0.46835
+ 881.44, 0.43052
+ 882.44, 0.39421
+ 883.44, 0.35878
+ 884.44, 0.32467
+ 885.44, 0.29194
+ 886.44, 0.26068
+ 887.44, 0.23121
+ 888.44, 0.20302
+ 889.44, 0.17647
+ 890.44, 0.15161
+ 891.44, 0.1285
+ 892.44, 0.10737
+ 893.44, 0.087862
+ 894.44, 0.070224
+ 895.44, 0.054501
+ 896.44, 0.040719
+ 897.44, 0.029013
+ 898.44, 0.019174
+ 899.44, 0.011348
+ 900.44, 0.0055599
+ 901.44, 0.0018126
+ 902.44, 0.00012125
+ENDTABLE
+SSCALE_LTARG(1)   0.4 ! Divided into (station - SSTART_LTARG)
 
-MU_ROAD_CONSTANT(1) 0.85 ; - ! Constant MU component due to station
-MU_ROAD_GAIN(1)     1 ! Gain multiplied with calculated value to get MU
-MU_ROAD_OFFSET(1)   0 ; - ! Offset added (after gain) to get MU
+! MU_ROAD: 2D function that calculates MU as a function of lateral position and
+! station
+
+MU_ROAD_CONSTANT(1) 0.85 ; - ! MU component due to station
 MU_ROAD_COMBINE(1) ADD ! How to combine the two components
-MU_ROAD_L_CONSTANT(1) 0 ; - ! Constant MU component due to lateral position
+MU_ROAD_L_CONSTANT(1) 0 ; - ! MU component due to lateral position
 
-! ROAD_NEW_ID: Left/right boundary: 0 -> no boundary, -1 stop when L reaches
-! boundary, > 0 ID of adjacent road. ID is a function of S (CONSTANT, COEFFICIENT, or
-! TABLE). Alternatively, a custom equation can be defined at runtime. ID from the
-! calculation can be adjusted with ROAD_NEW_ID_GAIN and ROAD_NEW_ID_OFFSET. S used in
-! the calculation can be adjusted with SSCALE_ROAD_NEW_ID and SSTART_ROAD_NEW_ID.
-! This configurable function supports 400 datasets; if indices shown below are not
-! used, e.g., (1,2), the current values of the indices IROAD and ISIDE are used to
-! identify the dataset when reading data.
+! ROAD_NEW_ID: Function that calculates ID from S
 
-ROAD_NEW_ID_CONSTANT(1,1) 0 ; - ! [D] Constant ID, Road 1, left side boundary
-ROAD_NEW_ID_OFFSET(1,1) 0 ; - ! Offset added (after gain) to get ID
+! ROAD_ZS: Function that calculates elevation from station
 
-ROAD_NEW_ID_CONSTANT(1,2) 0 ; - ! [D] Constant ID, Road 1, right side boundary
-ROAD_NEW_ID_OFFSET(1,2) 0 ; - ! Offset added (after gain) to get ID
+! RR_SURF: 2D function that calculates RR_SURF as a function of lateral position and
+! station
 
-! ROAD_ZS: Road elevation component related only to road station S. Elevation is a
-! function of station (CONSTANT, COEFFICIENT, or TABLE). Elevation from the
-! calculation can be adjusted with ROAD_ZS_GAIN and ROAD_ZS_OFFSET. Station used in
-! the calculation can be adjusted with SSCALE_ROAD_ZS and SSTART_ROAD_ZS. The
-! derivative of this function is used internally. This configurable function supports
-! 200 datasets; if indices shown below are not used, e.g., (2), the current value of
-! the index IROAD is used to identify the dataset when reading data.
-
-ROAD_ZS_CONSTANT(1) 0 ; m ! [D] Constant elevation
-ROAD_ZS_OFFSET(1)   0 ; m ! Offset added (after gain) to get elevation
-
-! RR_SURF: Tire/road rolling resistance surface-effect coefficient. RR_SURF can be a
-! nonlinear CARPET function of lateral position and station or a function of station
-! (CONSTANT or TABLE) combined with a function RR_SURF_L of lateral position
-! (CONSTANT or TABLE). Alternatively, a custom equation can be defined at runtime.
-! RR_SURF from the calculation can be adjusted with RR_SURF_GAIN and RR_SURF_OFFSET.
-! Station used in the calculation can be adjusted with SSCALE_RR_SURF and
-! SSTART_RR_SURF. Lateral position used in the calculation can be adjusted with
-! L_SCALE_RR_SURF and L_START_RR_SURF. This configurable function supports 200
-! datasets; if indices shown below are not used, e.g., (2), the current value of the
-! index IROAD is used to identify the dataset when reading data.
-
-RR_SURF_CONSTANT(1) 1 ; - ! Constant RR_SURF component due to station
-RR_SURF_GAIN(1)     1 ! Gain multiplied with calculated value to get RR_SURF
-RR_SURF_OFFSET(1)   0 ; - ! Offset added (after gain) to get RR_SURF
-RR_SURF_COMBINE(1) MULTIPLY ! How to combine the two components
-RR_SURF_L_CONSTANT(1) 1 ; - ! [D] Constant RR_SURF component due to lateral position
+RR_SURF_CONSTANT(1) 1 ; - ! RR_SURF component due to station
 
 
 END

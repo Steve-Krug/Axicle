@@ -83,8 +83,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Multiple Vehicles } Tractor-Traile
 #FileID  : GenGrp_e6121e5b-bc13-42f2-ac5d-47a4f934324f
 #Created : 11-02-2021 13:11:02
 #Modified: 11-11-2021 09:19:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS__SS S_SS__SS S_SS__SS
 
 END

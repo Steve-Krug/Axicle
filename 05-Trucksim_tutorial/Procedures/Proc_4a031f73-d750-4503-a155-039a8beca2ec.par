@@ -90,8 +90,8 @@ LOG_ENTRY Used Dataset: Procedures; { Proving Ground } Trailer Oscillation Test
 #Category: Proving Ground
 #FileID  : Proc_4a031f73-d750-4503-a155-039a8beca2ec
 #Modified: 06-07-2021 01:49:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

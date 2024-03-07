@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Procedures; { ACC: Adaptive Cruse Control } ACC Test Ser
 #FileID  : Proc_25941e96-4540-405c-a401-ceb07721ae34
 #Created : 11-12-2021 13:44:32
 #Modified: 11-12-2021 15:20:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

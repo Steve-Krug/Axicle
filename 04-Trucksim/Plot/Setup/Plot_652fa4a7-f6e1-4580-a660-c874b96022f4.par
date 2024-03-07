@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Speed Controller } Speed Target and Actua
 #Category: Speed Controller
 #FileID  : Plot_652fa4a7-f6e1-4580-a660-c874b96022f4
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Mcity } 190 Azm, 10 El, 30 m
 #Category: Mcity
 #FileID  : Camera_c3db04fd-1003-4965-859a-f0c90492a847
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

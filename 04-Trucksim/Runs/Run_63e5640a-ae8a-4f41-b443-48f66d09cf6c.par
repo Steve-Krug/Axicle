@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_6a030c0f-0bb9-408f-96f1-b927223d953f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -100,9 +101,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { AEB: Euro NCAP Tests } AEB Test 
 #DataSet : AEB Test Series for CCRm
 #Category: AEB: Euro NCAP Tests
 #FileID  : Run_63e5640a-ae8a-4f41-b443-48f66d09cf6c
-#Modified: 06-07-2021 02:06:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

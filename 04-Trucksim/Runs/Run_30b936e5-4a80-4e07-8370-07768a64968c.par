@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_224cf8be-922d-42cf-9230-21d63f232ab5.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 1
 #RingCtrl1 0
@@ -82,9 +83,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Beyond the GUI O
 #DataSet : 2A Tractor+14 Dollies & Semitrailers
 #Category: Vehicle Layout: Beyond the GUI Options
 #FileID  : Run_30b936e5-4a80-4e07-8370-07768a64968c
-#Modified: 06-06-2022 10:51:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

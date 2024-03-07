@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of Lead U
 #FileID  : Plot_803cba75-dd75-46fe-bdb8-7b9f2a770396
 #Created : 05-31-2022 08:29:20
 #Modified: 05-31-2022 08:29:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

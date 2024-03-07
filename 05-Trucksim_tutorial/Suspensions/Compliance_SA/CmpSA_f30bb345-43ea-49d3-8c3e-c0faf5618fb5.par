@@ -109,8 +109,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers;
 #Category: Leaf Springs
 #FileID  : CmpSA_f30bb345-43ea-49d3-8c3e-c0faf5618fb5
 #Modified: 06-07-2021 01:49:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Solid Axle
 
 END

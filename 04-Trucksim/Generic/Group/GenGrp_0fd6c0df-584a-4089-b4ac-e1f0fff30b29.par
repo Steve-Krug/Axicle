@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Sensor Setup } 3A Cab-Over, 
 #FileID  : GenGrp_0fd6c0df-584a-4089-b4ac-e1f0fff30b29
 #Created : 10-14-2021 14:13:47
 #Modified: 11-01-2021 13:20:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

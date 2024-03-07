@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Euro NCAP: Sensor 
 #Category: ADAS Support
 #FileID  : GenVS_a457c487-412b-4434-b9ea-dd2b01c50266
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands, AEB
 
 END

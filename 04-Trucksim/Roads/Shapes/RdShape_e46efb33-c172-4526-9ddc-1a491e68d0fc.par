@@ -132,8 +132,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Lane Change Roads } Rig
 #Category: Lane Change Roads
 #FileID  : RdShape_e46efb33-c172-4526-9ddc-1a491e68d0fc
 #Modified: 06-07-2021 01:51:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

@@ -97,8 +97,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers
 #Category: Large European Van
 #FileID  : CmpInd_a7323ac2-7bce-4f3e-b329-1f39b5b49fd9
 #Modified: 06-07-2021 01:49:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Springs and Dampers
 
 END

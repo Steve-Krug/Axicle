@@ -1467,8 +1467,8 @@ LOG_ENTRY Used Dataset: Steering System: Gear Kinematics; { Constant Ratio with 
 #Category: Constant Ratio with Intermediate Shaft
 #FileID  : GearKin_b8b51f97-088a-4c3e-95c9-ce23f8d0cf6b
 #Modified: 06-07-2021 01:49:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Gear
 
 END

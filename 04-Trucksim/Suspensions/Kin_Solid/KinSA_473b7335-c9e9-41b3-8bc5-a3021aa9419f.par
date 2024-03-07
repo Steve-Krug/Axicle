@@ -85,8 +85,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Trailer Axle
 #FileID  : KinSA_473b7335-c9e9-41b3-8bc5-a3021aa9419f
 #Created : 10-28-2021 14:55:04
 #Modified: 11-10-2021 13:18:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Solid Axle
 
 END

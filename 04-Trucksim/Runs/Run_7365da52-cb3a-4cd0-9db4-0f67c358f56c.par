@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tractor Trailer Platoon, Paralle
 #DataSet : Platoon: DLC; Lead Truck
 #Category: Tractor Trailer Platoon, Parallel Solvers
 #FileID  : Run_7365da52-cb3a-4cd0-9db4-0f67c358f56c
-#Modified: 05-03-2022 12:50:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

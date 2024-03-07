@@ -108,8 +108,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } Sine Sweep Steer @ 60 km/
 #Category: Steering Tests
 #FileID  : Proc_8d6624f3-b861-4d97-a0e1-c380c26644b3
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

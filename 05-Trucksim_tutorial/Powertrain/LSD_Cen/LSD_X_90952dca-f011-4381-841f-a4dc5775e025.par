@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Powertrain: Limited Slip Differential for Center Case; {
 #Category: Differential Clutch
 #FileID  : LSD_X_90952dca-f011-4381-841f-a4dc5775e025
 #Modified: 06-07-2021 01:49:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Limited Slip Diff.
 
 END

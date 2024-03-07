@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Path: X-Y Coordinates for Segment; { Highway Intersectio
 #Category: Highway Intersection
 #FileID  : XYtab_9558f458-4ef7-472e-849a-96a27e4701e7
 #Modified: 06-07-2021 01:51:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y Coordinates of Segment
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Road Reference } 90 Azm, 5 El,
 #Category: Road Reference
 #FileID  : Camera_ee6f517f-f3ec-4f6c-bb1f-7feb10468033
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

@@ -90,8 +90,8 @@ LOG_ENTRY Used Dataset: Calculator: Symbolic; { Steering } ISO 14791 Lane Change
 #Category: Steering
 #FileID  : Calc_942d25e8-46df-4e3a-9741-f3d44147d1aa
 #Modified: 12-11-2021 11:33:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Calculator
 
 END

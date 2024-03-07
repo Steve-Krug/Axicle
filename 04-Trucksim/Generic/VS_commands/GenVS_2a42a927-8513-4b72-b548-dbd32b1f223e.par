@@ -183,8 +183,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Pickup, ACC Logic:
 #FileID  : GenVS_2a42a927-8513-4b72-b548-dbd32b1f223e
 #Created : 10-13-2021 13:35:54
 #Modified: 10-13-2021 13:36:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands, ADAS
 
 END

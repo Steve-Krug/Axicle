@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Braking } Wheel Cylinder Pressures (Axle 
 #Category: Braking
 #FileID  : Plot_d521d9f1-e118-423c-ad9b-621567dc97ab
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Steering Wheel Angle vs.
 #Category: Vehicle Motion
 #FileID  : Plot_8ad048f3-25bb-4267-8c8b-cc2bea080444
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

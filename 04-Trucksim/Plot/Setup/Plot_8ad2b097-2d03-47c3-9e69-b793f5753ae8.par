@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces
 #Category: Tire Forces
 #FileID  : Plot_8ad2b097-2d03-47c3-9e69-b793f5753ae8
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

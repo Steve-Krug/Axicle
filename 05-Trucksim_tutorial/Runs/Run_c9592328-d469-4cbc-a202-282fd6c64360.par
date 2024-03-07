@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_0f5c43ef-ab77-4055-86ff-be8da1e4debf.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -91,9 +92,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { * Articulated Bus } Artic Bus, D
 #Category: * Articulated Bus
 #FileID  : Run_c9592328-d469-4cbc-a202-282fd6c64360
 #Created : 12-09-2021 23:24:30
-#Modified: 05-31-2022 14:11:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

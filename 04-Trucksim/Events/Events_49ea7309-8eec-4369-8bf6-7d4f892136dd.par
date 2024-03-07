@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Events; { Roundabout Network, D = 36 m } C. Exit West
 #Category: Roundabout Network, D = 36 m
 #FileID  : Events_49ea7309-8eec-4369-8bf6-7d4f892136dd
 #Modified: 06-07-2021 01:49:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

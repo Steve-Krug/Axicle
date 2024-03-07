@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_5e57d0ab-1307-40fe-b0a4-579025103560.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -70,9 +71,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } ADAS Se
 #DataSet : ADAS Sensor Collision Detection
 #Category: ADAS and Active Safety
 #FileID  : Run_70650f3f-53eb-4df8-bf88-3ec4743684eb
-#Modified: 12-13-2021 13:46:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

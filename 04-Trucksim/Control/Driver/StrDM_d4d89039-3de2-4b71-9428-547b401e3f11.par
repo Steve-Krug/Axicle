@@ -17,8 +17,8 @@ LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Pat
 #Category: Path Detections
 #FileID  : StrDM_d4d89039-3de2-4b71-9428-547b401e3f11
 #Modified: 06-07-2021 01:53:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Driver Path Follower
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -77,9 +78,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Brake Tests } Split Mu on Hill: 
 #DataSet : Split Mu on Hill: Tractor Trailer w/ ABS
 #Category: Brake Tests
 #FileID  : Run_954c4401-fd7f-4ff2-8a4b-64b16ea292ea
-#Modified: 04-25-2022 09:22:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

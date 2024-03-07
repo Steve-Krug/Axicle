@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire; { Normalized Tires } Normalized 1D, 510 mm Radius 
 #Category: Normalized Tires
 #FileID  : Tire_4339d062-cee8-4596-bc87-b6637f6f892a
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

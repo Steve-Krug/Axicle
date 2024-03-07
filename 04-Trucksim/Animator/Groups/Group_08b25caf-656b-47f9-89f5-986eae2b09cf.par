@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Suspended Cab } Forward Control Cab
 #Category: Suspended Cab
 #FileID  : Group_08b25caf-656b-47f9-89f5-986eae2b09cf
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

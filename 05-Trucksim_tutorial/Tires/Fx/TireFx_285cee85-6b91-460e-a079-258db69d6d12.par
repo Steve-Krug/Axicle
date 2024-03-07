@@ -108,8 +108,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { SAE Drive Tire } Fx; Drive T
 #Category: SAE Drive Tire
 #FileID  : TireFx_285cee85-6b91-460e-a079-258db69d6d12
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

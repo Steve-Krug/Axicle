@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.707
 *RZ 0.707
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { 2A Conventional Van } Large Drum (Row 4, Left)
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { 2A Conventional Van } Large Drum (Row
 #DataSet : Large Drum (Row 4, Left)
 #Category: 2A Conventional Van
 #FileID  : Custom_0051b85f-05b3-432b-b005-eb6ef06cbfa3
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:39
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

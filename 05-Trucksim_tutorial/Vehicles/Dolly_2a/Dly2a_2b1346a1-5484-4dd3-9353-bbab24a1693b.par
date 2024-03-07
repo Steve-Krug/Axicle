@@ -6,6 +6,8 @@ NAXLES 2
 ITANDEM 1
 #CheckBox0 1    
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 *LX_AXLE_2 3111
 *LX_H 2489
 *Y_H 0
@@ -82,9 +84,9 @@ LOG_ENTRY Used Dataset: Vehicle: Dolly with 2 Axles; 2A Dolly w/ Rigid Towbar
 #Category: 
 #FileID  : Dly2a_2b1346a1-5484-4dd3-9353-bbab24a1693b
 #Created : 09-27-2021 16:31:27
-#Modified: 04-25-2022 08:55:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:12
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dSS
 
 END

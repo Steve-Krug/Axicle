@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Tire Tester; { Sweep Alpha +/- 10 deg } Sweep Alpha: Fz 
 #Category: Sweep Alpha +/- 10 deg
 #FileID  : TestTire_64b84188-fb72-4077-bc2e-a6e68507d601
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire Tester
 
 END

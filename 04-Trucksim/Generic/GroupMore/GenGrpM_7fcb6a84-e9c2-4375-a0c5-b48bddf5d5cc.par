@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Generic Data Group (More); { Multiple Vehicles (Running 
 #FileID  : GenGrpM_7fcb6a84-e9c2-4375-a0c5-b48bddf5d5cc
 #Created : 10-18-2021 14:36:09
 #Modified: 10-26-2021 18:43:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { Hybrid: 43/40 kW (Engine
 #Category: Hybrid: 43/40 kW (Engine + Motor)
 #FileID  : RWD_09ce7b4e-e92e-4f16-898a-3f65d0841f79
 #Modified: 01-06-2022 16:54:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RWD
 
 END

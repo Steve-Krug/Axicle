@@ -111,8 +111,8 @@ LOG_ENTRY Used Dataset: Powertrain: 10-Wheel Drive; 10 x 10  295 kW
 #Category: 
 #FileID  : 10WD_37900348-f5ba-4793-9ccb-e8bf43c26941
 #Modified: 11-24-2021 14:13:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 10WD
 
 END

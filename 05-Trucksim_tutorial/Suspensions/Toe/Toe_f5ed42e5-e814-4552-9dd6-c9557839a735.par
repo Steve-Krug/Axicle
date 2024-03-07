@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Suspension: Toe Angle; { SLA } Front SLA - Toe Change
 #Category: SLA
 #FileID  : Toe_f5ed42e5-e814-4552-9dd6-c9557839a735
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Toe
 
 END

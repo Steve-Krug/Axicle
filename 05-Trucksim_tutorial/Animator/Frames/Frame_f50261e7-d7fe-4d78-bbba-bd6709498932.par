@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Traffic Signals } Overhead 
 #Category: Traffic Signals
 #FileID  : Frame_f50261e7-d7fe-4d78-bbba-bd6709498932
 #Modified: 06-07-2021 01:54:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

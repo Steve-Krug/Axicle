@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Steering System; { Pickup Trucks } Full Size: Power, Col
 #Category: Pickup Trucks
 #FileID  : StrSys_b8a7ea0f-caad-4d44-87f1-4197e57fb18e
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

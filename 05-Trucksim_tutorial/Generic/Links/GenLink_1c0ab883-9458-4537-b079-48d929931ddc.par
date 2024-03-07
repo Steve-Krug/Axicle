@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Roads and Paths } 3D Highway E
 #Category: Roads and Paths
 #FileID  : GenLink_1c0ab883-9458-4537-b079-48d929931ddc
 #Modified: 06-07-2021 01:53:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Highway Intersection
 
 END

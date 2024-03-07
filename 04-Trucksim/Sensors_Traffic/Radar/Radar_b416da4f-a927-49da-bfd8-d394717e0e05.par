@@ -55,8 +55,8 @@ LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { Wall Detection } 
 #Category: Wall Detection
 #FileID  : Radar_b416da4f-a927-49da-bfd8-d394717e0e05
 #Modified: 06-07-2021 01:54:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ADAS Sensor
 
 END

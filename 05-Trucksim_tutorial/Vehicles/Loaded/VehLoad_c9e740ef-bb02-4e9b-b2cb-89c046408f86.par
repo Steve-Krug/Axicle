@@ -55,8 +55,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Misc. Utility Trucks } De
 #FileID  : VehLoad_c9e740ef-bb02-4e9b-b2cb-89c046408f86
 #Created : 05-20-2022 12:07:58
 #Modified: 05-31-2022 08:47:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

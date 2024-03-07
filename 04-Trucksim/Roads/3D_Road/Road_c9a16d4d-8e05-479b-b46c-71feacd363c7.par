@@ -55,8 +55,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Roundabout, Single 
 #Category: Roundabout, Single Lane, D = 36 m
 #FileID  : Road_c9a16d4d-8e05-479b-b46c-71feacd363c7
 #Modified: 03-18-2022 15:52:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

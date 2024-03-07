@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Events; { K & C Testing } End Design Load Run
 #Category: K & C Testing
 #FileID  : Events_1f85239c-a586-45a4-9a80-6354bfda1501
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

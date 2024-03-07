@@ -1,0 +1,27 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_20e0d688-aee1-430a-8473-cac2e55158ac.par"
+Include PARSFILE "Roads\Builder\Build_61223960-7a7b-48aa-a557-bad424dc9a1d.par"
+Used Dataset: Path/Road: Segment Builder (Simple 3D); { Paths with Banking } 3 Turns w/ Banking
+Include PARSFILE "Roads\Center_Z\RdRefZ_e5f2cd5e-dff8-4f81-b987-9ad1d6798aad.par"
+Used Dataset: Road: Reference Line Elevation; { Hills and Valleys } 10 m Dip in the Road
+Include PARSFILE "Roads\dZ_Map\RdMapZ_2f45ffce-a7ec-49a1-b2e3-36084174ed44.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Flat } Flat
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_ec782ab1-ce67-43a2-96bb-4b82eae0e136.par"
+Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } Long Road (S Stop = 5000 m)
+ Curvy Road <Scenic Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Scenic Roads } Curvy Road
+
+Time to read input = 0.0005483
+
+Run stopped at t = 28.6. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_20e0d688-aee1-430a-8473-cac2e55158ac.vsb
+Function ROAD_DZ_CARPET(1) extrapolated (out of range LOW) for X = 0 m at T = 28.6
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Diesel Engine Sound Modifier
 #Category: Diesel Engine Sound Modifiers
 #FileID  : SndMod_5d00d5dd-35ce-4ff2-8f0c-60bf06e35e0a
 #Modified: 06-07-2021 01:53:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Sound Modifier
 
 END

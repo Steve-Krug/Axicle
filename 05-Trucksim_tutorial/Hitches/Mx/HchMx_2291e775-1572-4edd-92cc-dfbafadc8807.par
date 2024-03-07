@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Hitch: Roll Moment`AxicleReleaseTest #1`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR
+#RadioCtrl0 0    
+
+#DiagramOne0
+MX_HITCH_TABLE LINEAR
+-90, -50
+-6, -50
+-5, -50000
+-2, -50000
+2, 50000
+5, 50000
+6, 50
+90, 50
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#This table has separate regions to show lash in the fifth wheel of about 1 deg in the fifth heel.
+#
+#The table has a linear stiffness of the hitch of 100,000 N-m/deg between +-0.5 deg. At +-0.5 to +-1.5 deg, the trailer lifts off of the hitch turntalbe, with the moment remaining constant at +-50,000 N-m. With more roll, the hitch turntable is engaged again, with a stiffness of 100,000 N-m/deg.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Hitch: Roll Moment; AxicleReleaseTest #1
+#Library : Hitch: Roll Moment
+#DataSet : AxicleReleaseTest #1
+#Category: 
+#FileID  : HchMx_2291e775-1572-4edd-92cc-dfbafadc8807
+#Created : 05-03-2023 16:18:15
+#Modified: 05-03-2023 16:30:26
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Hitch Mx
+
+END

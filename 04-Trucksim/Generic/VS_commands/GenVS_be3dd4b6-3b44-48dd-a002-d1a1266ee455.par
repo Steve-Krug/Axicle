@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Custom Steering Controls } Parame
 #Category: Custom Steering Controls
 #FileID  : GenVS_be3dd4b6-3b44-48dd-a002-d1a1266ee455
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

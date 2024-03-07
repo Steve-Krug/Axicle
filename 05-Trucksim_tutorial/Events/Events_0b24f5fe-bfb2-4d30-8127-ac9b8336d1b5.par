@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Events; { Braking on Split Mu Surface } B. Shift to Neut
 #Category: Braking on Split Mu Surface
 #FileID  : Events_0b24f5fe-bfb2-4d30-8127-ac9b8336d1b5
 #Modified: 06-07-2021 01:49:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

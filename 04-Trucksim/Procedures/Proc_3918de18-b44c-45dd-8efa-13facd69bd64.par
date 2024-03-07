@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } Sine Wave 0.2 Hz, 450 deg
 #Category: Steering Tests
 #FileID  : Proc_3918de18-b44c-45dd-8efa-13facd69bd64
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

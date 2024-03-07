@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Pickup Trucks } Crew Cab 8 f
 #Category: Pickup Trucks
 #FileID  : ShpGrp_54eb946f-cda5-46dd-a4b6-0ccdf645fbce
 #Modified: 06-07-2021 01:53:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

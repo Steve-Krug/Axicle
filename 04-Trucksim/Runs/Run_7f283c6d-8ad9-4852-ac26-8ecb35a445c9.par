@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_f7554333-df25-4cb0-9949-01a3d4268e99.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -87,9 +88,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tire Models } MF-Tyre, Sym.: Sma
 #DataSet : MF-Tyre, Sym.: Small Bump
 #Category: Tire Models
 #FileID  : Run_7f283c6d-8ad9-4852-ac26-8ecb35a445c9
-#Modified: 12-13-2021 22:09:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:20
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

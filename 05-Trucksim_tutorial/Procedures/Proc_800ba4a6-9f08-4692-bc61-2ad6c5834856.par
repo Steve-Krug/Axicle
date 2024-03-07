@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Procedures; { Animation Asset-based Scenarios } Stopping
 #Category: Animation Asset-based Scenarios
 #FileID  : Proc_800ba4a6-9f08-4692-bc61-2ad6c5834856
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

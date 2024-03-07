@@ -161,8 +161,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for One Wheel; { Compact Uti
 #Category: Compact Utility Truck
 #FileID  : StrKin_7ddb58ef-a88c-4c96-b945-320cd854801e
 #Modified: 06-07-2021 01:49:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Kinematics
 
 END

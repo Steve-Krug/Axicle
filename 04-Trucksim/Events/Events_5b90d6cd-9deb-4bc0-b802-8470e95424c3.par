@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Events; { Roundabout Network, D = 36 m } B: Switch to Ro
 #Category: Roundabout Network, D = 36 m
 #FileID  : Events_5b90d6cd-9deb-4bc0-b802-8470e95424c3
 #Modified: 06-07-2021 01:49:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Powertrain: Engine; { Engines: 251 kW to 350 kW } 330 kW
 #Category: Engines: 251 kW to 350 kW
 #FileID  : Engine_22f67d6b-0b55-4b68-8eb9-f2fd5db94aee
 #Modified: 05-22-2022 16:39:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2D Table 
 
 END

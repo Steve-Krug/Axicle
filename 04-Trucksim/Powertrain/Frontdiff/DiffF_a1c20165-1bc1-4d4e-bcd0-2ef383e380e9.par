@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Powertrain: Front Differential; { Electric Motor Drive (
 #FileID  : DiffF_a1c20165-1bc1-4d4e-bcd0-2ef383e380e9
 #Created : 11-30-2021 18:40:08
 #Modified: 12-01-2021 12:07:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Front Differential
 
 END

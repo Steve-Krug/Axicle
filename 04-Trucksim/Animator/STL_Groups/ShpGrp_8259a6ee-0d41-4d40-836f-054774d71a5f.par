@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Traffic Vehicles: Motorcycle
 #Category: Traffic Vehicles: Motorcycles
 #FileID  : ShpGrp_8259a6ee-0d41-4d40-836f-054774d71a5f
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

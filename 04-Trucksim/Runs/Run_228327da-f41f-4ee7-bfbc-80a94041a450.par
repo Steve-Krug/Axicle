@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 1
@@ -85,9 +86,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Handling and Stability Tests } T
 #DataSet : Transient Response Times
 #Category: Handling and Stability Tests
 #FileID  : Run_228327da-f41f-4ee7-bfbc-80a94041a450
-#Modified: 06-07-2021 02:17:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

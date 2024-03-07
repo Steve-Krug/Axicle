@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Aerodynamics and Wind } Aerodynamic Slip 
 #Category: Aerodynamics and Wind
 #FileID  : Plot_b5d96882-42a4-46e6-b782-67d5b876327f
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

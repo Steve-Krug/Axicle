@@ -1,0 +1,26 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_0f169aba-2718-49bb-b4f1-27f4cdfcae60.par"
+Include PARSFILE "Roads\Center_XY\PathXY_ff4458e7-8a36-423f-9726-28d38c3fe5b6.par"
+Used Dataset: Path: X-Y Coordinates; { Public Road Section } Alt 3 Road from FHWA
+Include PARSFILE "Roads\dZ_Map\RdMapZ_d8a861b9-fdec-4838-ba80-7917be3b5687.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { 6-Lane Highway } 6-Lane Hwy w/ Walls and Access Roads
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_b6d6a6c0-fc46-4f9b-859b-1694bb0d8963.par"
+Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } 6-Ln Hwy: Left Wall for Access Roads
+Include PARSFILE "Roads\dZ_Map\RdMapZ_f51cb7ac-52a1-4782-8571-3abdb4460262.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { 6-Lane Highway } 6-Lane Highway: Road Crown
+ 6-Lane Highway: Left Wall <Multiple Lanes>
+Used Dataset: Road: 3D Surface (All Properties); { Multiple Lanes } 6-Lane Highway: Left Wall
+
+Time to read input = 0.0007624
+
+Run stopped at t = 12.68. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_0f169aba-2718-49bb-b4f1-27f4cdfcae60.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

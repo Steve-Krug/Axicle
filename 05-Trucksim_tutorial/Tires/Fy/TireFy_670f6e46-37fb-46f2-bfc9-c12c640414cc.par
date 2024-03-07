@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Extended with Camber Details } Ex
 #Category: Extended with Camber Details
 #FileID  : TireFy_670f6e46-37fb-46f2-bfc9-c12c640414cc
 #Modified: 06-07-2021 01:48:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fy
 
 END

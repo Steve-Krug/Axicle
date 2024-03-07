@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Electric Motor Drive } EV e
 #Category: Electric Motor Drive
 #FileID  : XC_dd4e684a-153f-4979-80c2-275bdae7f8b8
 #Modified: 06-07-2021 01:49:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Transfer Case
 
 END

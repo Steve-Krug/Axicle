@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Ports; { Braking Controls } ABS Controller
 #FileID  : Port_d2e596f3-caa9-4f58-8769-8df63dc22c8a
 #Created : 07-08-2021 12:45:59
 #Modified: 07-08-2021 12:47:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I/O Ports
 
 END

@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Brakes: Booster Force; Piecewise Linear, 5.56 Gain
 #Category: 
 #FileID  : BrkBst_bad7937d-7309-4abb-a8d5-b56f6275de6b
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Boost
 
 END

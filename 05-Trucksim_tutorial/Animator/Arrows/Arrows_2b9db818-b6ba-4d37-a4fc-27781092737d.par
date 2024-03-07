@@ -147,8 +147,8 @@ LOG_ENTRY Used Dataset: Animator: Wheel Arrows and Other Indicators; { Chassis t
 #Category: Chassis twist study
 #FileID  : Arrows_2b9db818-b6ba-4d37-a4fc-27781092737d
 #Modified: 06-07-2021 01:53:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Wheel Indicators
 
 END

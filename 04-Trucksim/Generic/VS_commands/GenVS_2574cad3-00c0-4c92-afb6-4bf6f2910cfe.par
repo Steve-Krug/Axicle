@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Blind Spot Detecti
 #Category: ADAS Support
 #FileID  : GenVS_2574cad3-00c0-4c92-afb6-4bf6f2910cfe
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

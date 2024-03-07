@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Procedures; { VS Scene Builder } OpenDRIVE Procedure
 #Category: VS Scene Builder
 #FileID  : Proc_19ff45ca-aa80-4254-ae35-0782e7601b94
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

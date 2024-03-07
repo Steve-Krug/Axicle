@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; { Tractor }
 #Category: Tractor
 #FileID  : AirCFx_f171cb57-0931-4375-8fd7-aa752c6039fd
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Drag vs. Aero Slip
 
 END

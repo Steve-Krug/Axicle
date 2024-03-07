@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { 150 kW Powertrains } 150
 #Category: 150 kW Powertrains
 #FileID  : RWD_d755252d-e774-4d95-a915-564d27973efb
 #Modified: 01-06-2022 16:54:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RWD
 
 END

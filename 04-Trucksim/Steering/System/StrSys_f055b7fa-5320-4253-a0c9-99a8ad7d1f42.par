@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Steering System; { Medium - Heavy Duty Steering } Short 
 #Category: Medium - Heavy Duty Steering
 #FileID  : StrSys_f055b7fa-5320-4253-a0c9-99a8ad7d1f42
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

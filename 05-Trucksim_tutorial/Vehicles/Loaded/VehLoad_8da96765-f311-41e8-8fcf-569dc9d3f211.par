@@ -97,8 +97,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Doubles Configurations } 
 #FileID  : VehLoad_8da96765-f311-41e8-8fcf-569dc9d3f211
 #Created : 11-21-2021 17:59:37
 #Modified: 11-21-2021 21:44:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS + SSS + dSS + SSS
 
 END

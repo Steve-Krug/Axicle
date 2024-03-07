@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Position, Accel. and Rate Sensors } Senso
 #Category: Position, Accel. and Rate Sensors
 #FileID  : Plot_de8c1e5e-37ce-4a6c-8c0e-0a8f168d688d
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

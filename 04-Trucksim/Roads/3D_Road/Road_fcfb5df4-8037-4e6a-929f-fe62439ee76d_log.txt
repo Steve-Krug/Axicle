@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_fcfb5df4-8037-4e6a-929f-fe62439ee76d.par"
+Include PARSFILE "Roads\Center_XY\PathXY_d2b497e1-8e3c-4bc3-a7a1-695be07b0410.par"
+Used Dataset: Path: X-Y Coordinates; { Parking Lot } Parking Lot: Eastern Curb Path
+Include PARSFILE "Roads\dZ_Map\RdMapZ_263616a0-fb5b-4290-8569-ab5db85aa493.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Parking Lot } Parking Lot: dZ for Curbs
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_6ca499c0-722f-46b7-af6d-79dd53fdda7b.par"
+Used Dataset: Road: Animator Surface Shapes; { Parking Lot } East Curbs and Border Grass
+ East Curbs, Exterior Grass <Parking Lot>
+Used Dataset: Road: 3D Surface (All Properties); { Parking Lot } East Curbs, Exterior Grass
+
+Time to read input = 0.0005084
+Function ROAD_DZ_CARPET(1) extrapolated (out of range HIGH) for X = 194.861 m at T = 5.6
+
+Run started: VS output file = Roads\3D_Road\Road_fcfb5df4-8037-4e6a-929f-fe62439ee76d.vsb
+
+Run stopped at t = 5.6. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

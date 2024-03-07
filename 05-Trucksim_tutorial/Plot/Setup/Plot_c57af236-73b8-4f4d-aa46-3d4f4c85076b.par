@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed (Vxz_
 #Category: Vehicle Motion
 #FileID  : Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

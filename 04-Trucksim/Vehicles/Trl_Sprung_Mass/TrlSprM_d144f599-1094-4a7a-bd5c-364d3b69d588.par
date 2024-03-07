@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 4A Trailer } Short Teles
 #Category: 4A Trailer
 #FileID  : TrlSprM_d144f599-1094-4a7a-bd5c-364d3b69d588
 #Modified: 03-21-2022 15:08:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Trailer Sprung Mass
 
 END

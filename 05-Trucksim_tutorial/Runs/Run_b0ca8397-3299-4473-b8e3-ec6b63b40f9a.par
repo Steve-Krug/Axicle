@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_7ea80950-b7ed-48df-bd55-8f14715877a9.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -85,9 +86,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Roads and Intersections } Rounda
 #DataSet : Roundabout Network (Flat)
 #Category: Roads and Intersections
 #FileID  : Run_b0ca8397-3299-4473-b8e3-ec6b63b40f9a
-#Modified: 06-07-2021 02:30:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

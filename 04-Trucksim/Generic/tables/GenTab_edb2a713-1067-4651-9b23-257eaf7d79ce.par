@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Batt. charged resis.
 #FileID  : GenTab_edb2a713-1067-4651-9b23-257eaf7d79ce
 #Created : 01-20-2022 14:31:36
 #Modified: 01-20-2022 14:32:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

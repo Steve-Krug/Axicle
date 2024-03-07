@@ -79,8 +79,8 @@ LOG_ENTRY Used Dataset: Tire; { Camber Extensions } Internal Tire
 #Category: Camber Extensions
 #FileID  : Tire_dfb36669-9d9d-419a-8602-4fda8e10174a
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

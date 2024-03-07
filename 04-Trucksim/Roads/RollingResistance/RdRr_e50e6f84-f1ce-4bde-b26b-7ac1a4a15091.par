@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Road: Rolling Resistance Map, S-L Grid; { Handling Cours
 #Category: Handling Course
 #FileID  : RdRr_e50e6f84-f1ce-4bde-b26b-7ac1a4a15091
 #Modified: 06-07-2021 01:51:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RR via S-L Grid
 
 END

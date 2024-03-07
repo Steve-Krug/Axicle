@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit Sprung Mass; { 3 Axle Trucks } 3A Tou
 #Category: 3 Axle Trucks
 #FileID  : SprMass_982fc486-2721-4668-b3b0-f6c506fa7c50
 #Modified: 03-21-2022 15:09:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rigid
 
 END

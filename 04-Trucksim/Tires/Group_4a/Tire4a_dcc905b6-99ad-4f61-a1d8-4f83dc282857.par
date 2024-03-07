@@ -174,8 +174,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 4 Axles; { TS 4A Trailer Tires 
 #Category: TS 4A Trailer Tires
 #FileID  : Tire4a_dcc905b6-99ad-4f61-a1d8-4f83dc282857
 #Modified: 06-07-2021 01:48:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4a Tire Group
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Vertical Accel. of CG's 
 #Category: Vehicle Motion
 #FileID  : Plot_3be558fc-e426-4615-8a49-35b8460f781c
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

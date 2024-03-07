@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 2A Trailer } 2A Trailer 
 #FileID  : TrlSprM_f71d4f23-2908-42ea-8c3e-975197a5a74c
 #Created : 11-29-2021 14:42:06
 #Modified: 03-21-2022 15:08:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Trailer Sprung Mass
 
 END

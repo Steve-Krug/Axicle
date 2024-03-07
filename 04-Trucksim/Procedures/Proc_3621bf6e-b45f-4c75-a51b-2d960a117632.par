@@ -98,8 +98,8 @@ LOG_ENTRY Used Dataset: Procedures; { Stability Tests } J-Turn-type Stability Te
 #Category: Stability Tests
 #FileID  : Proc_3621bf6e-b45f-4c75-a51b-2d960a117632
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -122,8 +122,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 3 Axles; { 3A Tractors } 3A Cab-
 #FileID  : Lead3a_1ec9afa7-2ae9-4aa5-aed2-774876b3370d
 #Created : 12-13-2021 11:38:13
 #Modified: 04-25-2022 08:54:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

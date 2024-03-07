@@ -25,6 +25,7 @@ OPT_VS_FILETYPE 2
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -82,9 +83,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tire Tester } MF-Tyre Frict. Ell
 #DataSet : MF-Tyre Frict. Ellipse - Alpha = -6 deg
 #Category: Tire Tester
 #FileID  : Run_5ef713bc-ab59-4f76-a4f3-916962a16066
-#Modified: 05-19-2022 14:44:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:25
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

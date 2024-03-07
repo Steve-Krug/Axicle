@@ -96,8 +96,8 @@ LOG_ENTRY Used Dataset: Procedures; { Event Triggered Tests } Start, Drive, Stop
 #Category: Event Triggered Tests
 #FileID  : Proc_ba5c4b83-67a5-4d21-89ab-8dc2ad5a03e1
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

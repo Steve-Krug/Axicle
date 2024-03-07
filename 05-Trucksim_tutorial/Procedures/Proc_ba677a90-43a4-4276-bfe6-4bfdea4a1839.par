@@ -14,7 +14,7 @@ TSTART_WRITE = 0;
 TSTOP 20
 SSTOP = SSTART + 1 ;
 OPT_DIRECTION 1
-*SPEED 50
+*SPEED 100
 *TSTOP 20
 *TSTART 0
 *SSTART 0
@@ -26,7 +26,7 @@ SPEED_ID_SC = SPEED_TARGET_ID
 SPEED_TARGET_COMBINE ADD
 SPEED_TARGET_S_CONSTANT 0
 set_description SPEED_TARGET_ID Procedure: Sine Steer @ 50 km/h
-SPEED_TARGET_CONSTANT 50
+SPEED_TARGET_CONSTANT 100
 OPT_SC_ENGINE_BRAKING 0
 PARSFILE Control\Steer\StrSW_bef315ec-ec4d-4d9a-8630-5c852e04f534.par
 #BlueLink27 Control: Steering (Open Loop)`Sine Wave for Test (Smooth Start/Stop)` Sine Wave` , Steering`StrSW_bef315ec-ec4d-4d9a-8630-5c852e04f534
@@ -90,9 +90,9 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } Sine Steer @ 50 km/h
 #DataSet : Sine Steer @ 50 km/h
 #Category: Steering Tests
 #FileID  : Proc_ba677a90-43a4-4276-bfe6-4bfdea4a1839
-#Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-13-2023 12:46:38
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

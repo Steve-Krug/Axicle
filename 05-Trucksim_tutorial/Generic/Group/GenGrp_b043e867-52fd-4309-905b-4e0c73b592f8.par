@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Wind and Environment } 100 km/h Wi
 #FileID  : GenGrp_b043e867-52fd-4309-905b-4e0c73b592f8
 #Created : 01-15-2023 18:24:52
 #Modified: 01-15-2023 18:28:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

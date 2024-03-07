@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Path Detectors for External Driver Control; Central Lane
 #FileID  : PathDet_c9da7940-b794-49f2-8a52-f39d0b036b00
 #Created : 10-12-2021 15:06:30
 #Modified: 10-12-2021 15:09:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Detectors
 
 END

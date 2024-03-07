@@ -1387,8 +1387,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Test Facilities } L
 #Category: Test Facilities
 #FileID  : Road_a7c456ab-63f4-417e-8ab5-aaed34db5efe
 #Modified: 01-21-2022 14:00:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

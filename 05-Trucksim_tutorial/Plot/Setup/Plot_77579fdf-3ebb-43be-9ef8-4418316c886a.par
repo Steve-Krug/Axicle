@@ -58,8 +58,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Spin Rates in Hybri
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_77579fdf-3ebb-43be-9ef8-4418316c886a
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

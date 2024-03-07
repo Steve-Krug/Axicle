@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Events; { Pedestrian and Bike Detection } Watch Bike Lan
 #Category: Pedestrian and Bike Detection
 #FileID  : Events_47dbe4b0-b396-4448-9f95-8f589c6c5e4a
 #Modified: 06-07-2021 01:49:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

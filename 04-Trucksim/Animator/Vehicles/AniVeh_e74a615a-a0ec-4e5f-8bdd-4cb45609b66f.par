@@ -86,8 +86,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { 2A Utility Truc
 #Category: 2A Utility Trucks and Vans
 #FileID  : AniVeh_e74a615a-a0ec-4e5f-8bdd-4cb45609b66f
 #Modified: 04-18-2022 12:23:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<fmiModelDescription
+ fmiVersion="2.0"
+ modelName="TruckSim FMU -- FMI2.0"
+ guid="{0c4e810f-abce-4a00-8276-176fa3ca0000}"
+ description="{ Vehicle Layout: Single Trailers } 3A Sleeper + Flatbed, Payload, AxicleTest1"
+ generationTool="TruckSim 2023.0"
+ generationDateAndTime="2023-06-09T18:25:08Z"
+ variableNamingConvention="flat"
+ numberOfEventIndicators="0">
+
+<CoSimulation
+  modelIdentifier="vs_fmi2"
+  canHandleVariableCommunicationStepSize="true"/>
+
+<LogCategories>
+  <Category name="logAll"/>
+  <Category name="logError"/>
+  <Category name="logFmiCall"/>
+  <Category name="logEvent"/>
+</LogCategories>
+
+<DefaultExperiment startTime="0.000000" stopTime="10.000000" stepSize="0.000500"/>
+
+<ModelVariables>
+ <ScalarVariable name="imp_m_pl" valueReference="0" description="Input variable" causality = "input">
+     <Real start="0"/>
+ </ScalarVariable>
+ <ScalarVariable name="imp_Z_CG_PL" valueReference="1" description="Input variable" causality = "input">
+     <Real start="0"/>
+ </ScalarVariable>
+ <ScalarVariable name="imp_SPEED_TARGET_CONSTANT" valueReference="2" description="Input variable" causality = "input">
+     <Real start="0"/>
+ </ScalarVariable>
+</ModelVariables>
+
+<ModelStructure>
+  <Outputs>
+  </Outputs>
+</ModelStructure>
+
+</fmiModelDescription>

@@ -6,8 +6,6 @@ PARSFILE
 #CheckBox1 1    
 *USE_WRAPPER 1
 #CheckBox3 0    
-#CheckBox4 0    
-OPT_IO_SYNC_FM 0
 #CheckBox5 1    
 *PAUSE 1
 *WRAPPER Programs\VS_SolverWrapper_CLI_64.exe
@@ -24,9 +22,9 @@ LOG_ENTRY Used Dataset: Models: Self-Contained Solvers; { Wrappers: Standard } V
 #Category: Wrappers: Standard
 #FileID  : Extern_f7470b69-8809-4687-bd44-5ccaf072404f
 #Created : 04-13-2021 12:10:11
-#Modified: 06-07-2021 01:52:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 05-04-2023 20:48:29
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

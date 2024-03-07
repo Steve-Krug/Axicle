@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Events; { Trailer Oscillation Test } B. Lift throttle, g
 #Category: Trailer Oscillation Test
 #FileID  : Events_e29bdb2c-912e-4c06-81d3-d35a6b276655
 #Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

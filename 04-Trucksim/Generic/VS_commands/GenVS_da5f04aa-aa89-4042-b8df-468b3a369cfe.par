@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { PBS Tests } Control R1 Tire Sidew
 #Category: PBS Tests
 #FileID  : GenVS_da5f04aa-aa89-4042-b8df-468b3a369cfe
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

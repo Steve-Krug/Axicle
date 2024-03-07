@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Roads } Rough Road Text
 #Category: Roads
 #FileID  : RdShape_b9196394-f9d5-4606-b83a-9a9a23d5a0a2
 #Modified: 06-07-2021 01:51:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

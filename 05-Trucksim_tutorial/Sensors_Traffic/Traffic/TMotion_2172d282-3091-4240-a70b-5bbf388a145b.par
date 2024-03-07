@@ -339,8 +339,8 @@ LOG_ENTRY Used Dataset: Multiple Moving Objects; { Highway Intersection } Cars a
 #Category: Highway Intersection
 #FileID  : TMotion_2172d282-3091-4240-a70b-5bbf388a145b
 #Modified: 01-17-2022 14:34:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Multiple Objects
 
 END

@@ -1,0 +1,18 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_d2010129-7485-4bf1-ad33-329bf86fc6c0.par"
+Include PARSFILE "Roads\ExScene\SceneImp_85a3280a-83c9-49a4-bd32-53c5a1aa98bf.par"
+Used Dataset: Scene: External Import; { VS Scene Builder } Proving Ground
+ Proving Ground <VS Scene Builder>
+Used Dataset: Road: 3D Surface (All Properties); { VS Scene Builder } Proving Ground
+
+Time to read input = 0.112936
+
+Run stopped at t = 25.56. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_d2010129-7485-4bf1-ad33-329bf86fc6c0.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Path Detection } LKAS Example
 #Category: Path Detection
 #FileID  : GenVS_a6d4abc5-e5c9-4ab8-b748-7ad13c92427a
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

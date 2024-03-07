@@ -205,8 +205,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } 4x4, Speedo, Tach, Brake, 
 #Category: HUD Groups
 #FileID  : HUD_ab8c71e2-152f-420f-85d0-3214a3d8fbaf
 #Modified: 03-29-2022 16:03:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

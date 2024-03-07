@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Hitch, Hinged Towbar } Towbar Angles
 #FileID  : Plot_2498a5b8-f7ea-49c0-9e6d-4a71cbc68b5b
 #Created : 09-28-2021 15:55:31
 #Modified: 10-04-2021 16:06:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

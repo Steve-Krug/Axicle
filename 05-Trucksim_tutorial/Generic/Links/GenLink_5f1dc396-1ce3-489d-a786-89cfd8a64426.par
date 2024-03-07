@@ -65,8 +65,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Roads and Paths } 36 m Roundab
 #Category: Roads and Paths
 #FileID  : GenLink_5f1dc396-1ce3-489d-a786-89cfd8a64426
 #Modified: 06-07-2021 01:53:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Links
 
 END

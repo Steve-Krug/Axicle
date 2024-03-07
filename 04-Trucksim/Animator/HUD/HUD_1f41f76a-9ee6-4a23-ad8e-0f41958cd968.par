@@ -140,8 +140,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Roll Back Values Text
 #Category: HUD Groups
 #FileID  : HUD_1f41f76a-9ee6-4a23-ad8e-0f41958cd968
 #Modified: 03-29-2022 16:03:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

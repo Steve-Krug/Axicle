@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Write; Copy 3 Variables to Excel and MATLA
 #Category: 
 #FileID  : Write_dc8bc2e0-07f2-4e4f-ba78-a2a662821bf1
 #Modified: 05-20-2022 16:30:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Write Channels
 
 END

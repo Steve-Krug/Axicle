@@ -1,0 +1,31 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_c7228ae3-e5ca-45ae-94d0-3050ef1f00a5.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_fd7b5e14-6a33-4cf9-82c2-19e18cd88eb4.par"
+ Japanese Hilly Road w/ Turns <Japanese Environment>
+Used Dataset: Path: Segment Builder; { Japanese Environment } Japanese Hilly Road w/ Turns
+Include PARSFILE "Roads\Center_Z\RdRefZ_fc5e3249-f1e0-433e-a01f-568055eed05a.par"
+Used Dataset: Road: Reference Line Elevation; { Hills and Valleys } Japanese Road: Centerline Elevation
+Include PARSFILE "Roads\dZ_Map_V_Wdth\VarWidZ_1ee23fdf-f287-478f-b727-ffd768b0891f.par"
+Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Variable Width Roads } Japanese Hilly Road: Var. Width Elev.
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_d88062cb-9045-4300-95c9-e432804c104c.par"
+Used Dataset: Road: Animator Surface Shapes; { Japanese Environment } Japanese Env.: Hilly Road w/ Turns
+Include PARSFILE "Roads\dZ_Map\RdMapZ_0fb2a615-8813-4926-89cd-10db2cd7b0bf.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Japanese Grid Environment } Japanese Hilly Road: Incr. Elevation
+Include PARSFILE "Roads\dZ_Map_V_Wdth\VarWidZ_7a2b61f8-6864-4bc1-be16-a4e89311af25.par"
+Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Variable Width Roads } Railroad Tracks
+ Hilly Road: Turns and Shrubs <Japanese Environment>
+Used Dataset: Road: 3D Surface (All Properties); { Japanese Environment } Hilly Road: Turns and Shrubs
+
+Time to read input = 0.000819
+
+Run started: VS output file = Roads\3D_Road\Road_c7228ae3-e5ca-45ae-94d0-3050ef1f00a5.vsb
+
+Run stopped at t = 8.88. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Events; { Straight Line Braking } B. Brake to a Stop
 #FileID  : Events_9fd870af-703d-47ae-8433-3cec87ee0671
 #Created : 09-28-2021 15:36:34
 #Modified: 09-28-2021 15:37:46
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Rollover } J-Turn Steer
 #Category: Rollover
 #FileID  : StrSW_b090844f-0fbb-4f57-b5e6-d06588892bd4
 #Modified: 06-07-2021 01:53:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Steering
 
 END

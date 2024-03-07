@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } Handling Course, Aggress
 #Category: Driver Controls
 #FileID  : Proc_4f22df52-5070-43c4-b2ae-cf719a030182
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

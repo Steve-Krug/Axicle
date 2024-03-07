@@ -155,8 +155,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Trailers: Dolli
 #FileID  : AniVeh_2c19eeec-35f0-4590-b5f6-35f904a67eaf
 #Created : 10-13-2021 15:47:21
 #Modified: 06-01-2022 10:37:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.577
 *RZ 0.577
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Crate, Flatbed Trl, Container Box
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Crate, Flatbed Trl, Containe
 #DataSet : Crate, Flatbed Trl, Container Box
 #Category: Crates
 #FileID  : Custom_26590d04-8dd7-41cc-8fe4-81cec5bbec38
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:39
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

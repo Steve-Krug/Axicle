@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -94,9 +95,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Driver Model } Aux Str Ctrl, LTA
 #Category: Driver Model
 #FileID  : Run_d72a70d4-7bf0-408a-b3e8-e15587d29b97
 #Created : 12-01-2021 13:00:08
-#Modified: 05-05-2022 11:17:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:16
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

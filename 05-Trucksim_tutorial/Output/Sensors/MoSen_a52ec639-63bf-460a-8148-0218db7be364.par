@@ -98,8 +98,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { K & C Test R
 #Category: K & C Test Rig
 #FileID  : MoSen_a52ec639-63bf-460a-8148-0218db7be364
 #Modified: 06-07-2021 01:53:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Motion Sensors
 
 END

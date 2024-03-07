@@ -91,8 +91,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { 2A Tour Bus } Tour Bu
 #Category: 2A Tour Bus
 #FileID  : Lead2a_d2d3b9ad-931a-4877-bfc7-24d8e99e7238
 #Modified: 09-01-2021 12:48:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

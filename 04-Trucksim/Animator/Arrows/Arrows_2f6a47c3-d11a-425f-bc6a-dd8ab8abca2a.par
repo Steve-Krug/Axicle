@@ -381,8 +381,8 @@ LOG_ENTRY Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Forc
 #Category: Tire Force Arrows (6 Axles)
 #FileID  : Arrows_2f6a47c3-d11a-425f-bc6a-dd8ab8abca2a
 #Modified: 06-07-2021 01:53:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Wheel Indicators
 
 END

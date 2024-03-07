@@ -134,8 +134,8 @@ LOG_ENTRY Used Dataset: Path: X-Y Coordinates; { Mcity } Main Loop Path
 #Category: Mcity
 #FileID  : PathXY_015f63f5-0f49-4037-8480-824238110897
 #Modified: 06-07-2021 01:51:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y Coordinates of Path
 
 END

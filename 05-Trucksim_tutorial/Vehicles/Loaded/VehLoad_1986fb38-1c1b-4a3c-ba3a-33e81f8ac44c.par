@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Conventional Triple Road 
 #FileID  : VehLoad_1986fb38-1c1b-4a3c-ba3a-33e81f8ac44c
 #Created : 09-29-2021 12:53:38
 #Modified: 09-29-2021 14:59:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode  + SSS + dSS + SSS
 
 END

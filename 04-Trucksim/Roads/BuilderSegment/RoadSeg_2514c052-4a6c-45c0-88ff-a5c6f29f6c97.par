@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Straight } Straight South, Path
 #Category: Straight
 #FileID  : RoadSeg_2514c052-4a6c-45c0-88ff-a5c6f29f6c97
 #Modified: 06-07-2021 01:51:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Multiple Moving Objects; { Parked Vehicles } Parked Vehi
 #Category: Parked Vehicles
 #FileID  : TMotion_23192352-d945-4c07-9ce2-86cc49e6ea6f
 #Modified: 06-07-2021 01:54:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Multiple Objects
 
 END

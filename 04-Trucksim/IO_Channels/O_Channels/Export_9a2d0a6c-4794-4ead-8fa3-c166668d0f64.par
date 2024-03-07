@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { Parallel Solvers } Reference Poi
 #Category: Parallel Solvers
 #FileID  : Export_9a2d0a6c-4794-4ead-8fa3-c166668d0f64
 #Modified: 06-16-2021 12:37:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Export Channels
 
 END

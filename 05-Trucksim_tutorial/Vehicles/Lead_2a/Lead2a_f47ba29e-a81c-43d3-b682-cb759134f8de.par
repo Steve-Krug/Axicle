@@ -88,8 +88,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { 2A Conventional Van }
 #Category: 2A Conventional Van
 #FileID  : Lead2a_f47ba29e-a81c-43d3-b682-cb759134f8de
 #Modified: 09-01-2021 12:48:48
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

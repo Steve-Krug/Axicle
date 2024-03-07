@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -67,9 +68,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Proving Grounds, VS Scene Builde
 #DataSet : Sine Bumps - Out of Phase
 #Category: Proving Grounds, VS Scene Builder
 #FileID  : Run_d31e4630-82ba-4928-903e-404e80de901f
-#Modified: 06-14-2021 14:51:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Events; { Stop Conditions } Stop Due to Lateral Accelera
 #Category: Stop Conditions
 #FileID  : Events_6b337dcc-dfd9-44fd-94b2-6fae7ff1ff11
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

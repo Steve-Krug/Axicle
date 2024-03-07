@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Braking } Brake Test Cycle
 #Category: Braking
 #FileID  : Plot_0a91ecd1-6768-4c3f-afc2-b6911293a3f6
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

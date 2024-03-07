@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: Road Boundary: Lateral Edge; { Intersections and Roundab
 #Category: Intersections and Roundabouts
 #FileID  : RdBdL_611be0eb-3b8d-4f6f-90ca-26e59be93489
 #Modified: 06-07-2021 01:50:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road BOundary L
 
 END

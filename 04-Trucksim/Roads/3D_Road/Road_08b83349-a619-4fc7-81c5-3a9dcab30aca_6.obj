@@ -1,0 +1,20 @@
+# Shape file for lane 6
+v 8 4 0.02
+vt 0 0
+v 8 -4 0.02
+vt 2 0
+v 1500.00001 4 0.02
+vt 0 298.400002
+v 1500.00001 -4 0.02
+vt 2 298.400002
+mtllib Roads\3D_Road\Road_08b83349-a619-4fc7-81c5-3a9dcab30aca_6.mtl
+usemtl Tile Ice
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

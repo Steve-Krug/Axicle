@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_1cf53bf3-ef4e-4184-90a0-780f176c62b0.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Steering Tests } Parking Torque 
 #DataSet : Parking Torque Test: Zero Speed
 #Category: Steering Tests
 #FileID  : Run_86782231-9ff2-48bf-b72f-c9981ee32300
-#Modified: 06-07-2021 02:46:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -1,0 +1,35 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_e9ba12ed-a3c1-4355-b2ef-69f833a3b67a.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c.par"
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Include PARSFILE "Roads\dZ_Map\RdMapZ_a8d74076-456b-4e04-aa90-333ef6c354ad.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { PBS Tests } PBS C11: Normalized Tilt Table
+Include PARSFILE "Roads\Friction\RdMu_4f2f2491-f28f-499f-b597-378d010449da.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 2.0 (Tilt Table)
+Include PARSFILE "Roads\Shapes\RdShape_e629bef4-89b3-4a54-a25b-c76081077abd.par"
+Used Dataset: Road: Animator Surface Shapes; { Test Facilities } Tilt Table Road
+Include PARSFILE "Generic\VS_commands\GenVS_c33c0556-d8e4-4753-b8d7-a4582364fafb.par"
+Include PARSFILE "Plot\Setup\Plot_486245c8-36a9-4da6-8d71-d4790f9b6079.par"
+Include PARSFILE "Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par"
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Kinematics } Slip Ratios (Axles 1- 3)
+Include PARSFILE "Plot\Setup\Plot_f0db74be-1c22-43e5-b618-3f3cfa3ae4df.par"
+Include PARSFILE "Plot\Format\PlotFmt_0ad33551-a968-4b78-b662-5c083cc08b21.par"
+Used Dataset: Plot: Format; Default Plot Settings
+Used Dataset: Plot: Setup; { Tire Kinematics } Slip Ratios (Axles 4 - 5)
+Used Dataset: Generic VS Commands; { PBS Tests } PBS C11: Tilt Table VS Commands
+ PBS C11: Tilt Table Road <PBS Tests>
+Used Dataset: Road: 3D Surface (All Properties); { PBS Tests } PBS C11: Tilt Table Road
+
+Time to read input = 0.0006884
+
+Run started: VS output file = Roads\3D_Road\Road_e9ba12ed-a3c1-4355-b2ef-69f833a3b67a.vsb
+
+Run stopped at t = 9.8. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

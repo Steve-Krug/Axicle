@@ -65,8 +65,8 @@ LOG_ENTRY Used Dataset: Steering System; { Wind Turbine Trailer } Wind Turbine T
 #Category: Wind Turbine Trailer
 #FileID  : StrSys_38143ff2-c40e-4659-b012-7cae870d07d8
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_482bd937-c91e-48a2-96a8-25eea7ce17da.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Roads and Intersections } VS Ter
 #DataSet : VS Terrain File: Man. Defined - Curb Hop
 #Category: Roads and Intersections
 #FileID  : Run_49221a5e-0c16-4d5e-9247-d6314c0121b6
-#Modified: 06-07-2021 02:31:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

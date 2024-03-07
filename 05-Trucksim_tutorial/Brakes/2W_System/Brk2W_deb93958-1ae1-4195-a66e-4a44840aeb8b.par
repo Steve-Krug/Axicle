@@ -51,8 +51,8 @@ LOG_ENTRY Used Dataset: Brakes: Two-Wheel System; { Chassis twist study } Base v
 #Category: Chassis twist study
 #FileID  : Brk2W_deb93958-1ae1-4195-a66e-4a44840aeb8b
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brakes
 
 END

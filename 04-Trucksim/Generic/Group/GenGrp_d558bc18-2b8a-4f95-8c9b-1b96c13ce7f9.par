@@ -64,8 +64,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Traffic for ACC & FCW } 3 La
 #Category: ADAS: Traffic for ACC & FCW
 #FileID  : GenGrp_d558bc18-2b8a-4f95-8c9b-1b96c13ce7f9
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

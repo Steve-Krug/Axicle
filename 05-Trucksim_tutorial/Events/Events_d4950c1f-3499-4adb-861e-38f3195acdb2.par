@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Events; { Shift 2WD to 4WD } D Apply Throttle
 #Category: Shift 2WD to 4WD
 #FileID  : Events_d4950c1f-3499-4adb-861e-38f3195acdb2
 #Modified: 06-07-2021 01:49:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

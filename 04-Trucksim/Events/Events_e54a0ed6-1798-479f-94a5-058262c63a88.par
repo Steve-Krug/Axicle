@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Events; { Traffic Vehicle and Traffic LIght } Set Exit S
 #Category: Traffic Vehicle and Traffic LIght
 #FileID  : Events_e54a0ed6-1798-479f-94a5-058262c63a88
 #Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_11889618-f473-4866-be04-5cf968fea505.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -80,9 +81,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Extended Models } Trailer Revers
 #DataSet : Trailer Reversing into Loading Dock
 #Category: Extended Models
 #FileID  : Run_d79023bc-980b-46aa-ab89-4865a574c641
-#Modified: 04-25-2022 09:23:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

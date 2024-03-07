@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Euro NCAP } Backgnd Boxes: Upper,
 #FileID  : GenVS_abd5a383-ea81-4878-a922-22613eccef29
 #Created : 09-28-2021 14:25:22
 #Modified: 09-28-2021 14:26:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Background Boxes for HUD
 
 END

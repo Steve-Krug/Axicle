@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 2.088
 *RZ 2.083
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { PBS Tests } Dump Trailer Payload (PBS)
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { PBS Tests } Dump Trailer Payload (PBS
 #DataSet : Dump Trailer Payload (PBS)
 #Category: PBS Tests
 #FileID  : Custom_29362c67-fe5a-4e61-a9b2-da6054f5ec5d
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:39
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

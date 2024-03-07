@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Procedures; { Auxiliary Steer Controller } Auxiliary Ste
 #FileID  : Proc_762aa864-44f9-45d2-b517-58478f932e91
 #Created : 12-01-2021 13:05:53
 #Modified: 12-01-2021 13:24:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

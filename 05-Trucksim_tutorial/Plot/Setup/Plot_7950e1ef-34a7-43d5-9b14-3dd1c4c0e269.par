@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces: Multiple Vehicle Units } Ver
 #Category: Tire Forces: Multiple Vehicle Units
 #FileID  : Plot_7950e1ef-34a7-43d5-9b14-3dd1c4c0e269
 #Modified: 06-07-2021 01:49:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

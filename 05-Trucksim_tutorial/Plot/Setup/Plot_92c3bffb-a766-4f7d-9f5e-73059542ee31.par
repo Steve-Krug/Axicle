@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Engine RPM
 #Category: Powertrain
 #FileID  : Plot_92c3bffb-a766-4f7d-9f5e-73059542ee31
 #Modified: 06-16-2021 09:55:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

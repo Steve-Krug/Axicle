@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Battery remaining l
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_d6487ae9-6a55-4d34-ad8b-ceb6cf721e3f
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

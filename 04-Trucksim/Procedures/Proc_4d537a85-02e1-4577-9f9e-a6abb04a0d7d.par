@@ -96,8 +96,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } 180 deg. Step Steer @ 40 
 #Category: Steering Tests
 #FileID  : Proc_4d537a85-02e1-4577-9f9e-a6abb04a0d7d
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

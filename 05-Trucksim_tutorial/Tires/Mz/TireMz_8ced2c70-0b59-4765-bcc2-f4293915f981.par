@@ -185,8 +185,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { MF-Tyre / MF-Swift Example } MF
 #Category: MF-Tyre / MF-Swift Example
 #FileID  : TireMz_8ced2c70-0b59-4765-bcc2-f4293915f981
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mz
 
 END

@@ -3257,8 +3257,8 @@ LOG_ENTRY Used Dataset: Tire (External); { * MF-Tyre / MF-Swift } 510 mm Radius 
 #Category: * MF-Tyre / MF-Swift
 #FileID  : TireExt_88bd73fa-a47d-47c9-a5a8-08f59fdade37
 #Modified: 06-01-2022 12:29:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire (External)
 
 END

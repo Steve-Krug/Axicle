@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Heavy Duty U
 #Category: Heavy Duty Utility Vehicles
 #FileID  : KinSA_3728e51a-c08a-4f67-9eb0-2ee0a93b034c
 #Modified: 06-07-2021 01:49:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Solid Axle
 
 END

@@ -96,8 +96,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } River Crossing
 #Category: Driving
 #FileID  : Proc_c3a5e64a-169b-4805-9775-f4b05308747f
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

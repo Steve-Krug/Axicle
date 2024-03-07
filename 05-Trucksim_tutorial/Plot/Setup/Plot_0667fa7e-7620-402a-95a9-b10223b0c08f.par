@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed vs. T
 #Category: Vehicle Motion
 #FileID  : Plot_0667fa7e-7620-402a-95a9-b10223b0c08f
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Pickup Trucks } 2A Pickup
 #FileID  : VehLoad_da646ffe-7eb9-45c2-97ba-3c37666ab4ec
 #Created : 05-25-2021 09:47:33
 #Modified: 06-07-2021 01:48:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_S + SS
 
 END

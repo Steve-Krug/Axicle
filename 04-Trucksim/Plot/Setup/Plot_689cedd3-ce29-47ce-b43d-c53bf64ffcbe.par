@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Hill Hold with Parking Brake } Roll-Back 
 #Category: Hill Hold with Parking Brake
 #FileID  : Plot_689cedd3-ce29-47ce-b43d-c53bf64ffcbe
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

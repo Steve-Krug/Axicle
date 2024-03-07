@@ -79,8 +79,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } Coastdown from 
 #Category: Acceleration and Braking
 #FileID  : Proc_3c3c9a43-9e1e-4729-953e-2e4426841e35
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

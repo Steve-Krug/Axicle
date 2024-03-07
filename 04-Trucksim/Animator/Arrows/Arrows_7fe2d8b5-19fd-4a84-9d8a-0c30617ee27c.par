@@ -142,8 +142,8 @@ LOG_ENTRY Used Dataset: Animator: Wheel Arrows and Other Indicators; { Wheel-cen
 #Category: Wheel-center Force Arrows (2 Axles)
 #FileID  : Arrows_7fe2d8b5-19fd-4a84-9d8a-0c30617ee27c
 #Modified: 06-07-2021 01:53:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Wheel Indicators
 
 END

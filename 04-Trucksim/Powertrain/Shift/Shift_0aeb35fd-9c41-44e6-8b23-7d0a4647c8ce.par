@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 16-Speed Shift Schedule, 2
 #Category: 16-Speed Shift Schedule, 2100 RPM
 #FileID  : Shift_0aeb35fd-9c41-44e6-8b23-7d0a4647c8ce
 #Modified: 06-07-2021 01:49:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shift Schedule
 
 END

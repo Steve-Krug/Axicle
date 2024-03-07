@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Driver View } Driver View: LCF
 #FileID  : Camera_cc83ad7c-0625-4ff8-9879-c42ff5f1abe6
 #Created : 05-26-2021 08:55:41
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

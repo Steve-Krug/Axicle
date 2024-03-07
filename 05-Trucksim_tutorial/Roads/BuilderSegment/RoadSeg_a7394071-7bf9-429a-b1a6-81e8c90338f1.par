@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Crossing with Curbs } 1003: Nor
 #Category: Crossing with Curbs
 #FileID  : RoadSeg_a7394071-7bf9-429a-b1a6-81e8c90338f1
 #Modified: 06-07-2021 01:51:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

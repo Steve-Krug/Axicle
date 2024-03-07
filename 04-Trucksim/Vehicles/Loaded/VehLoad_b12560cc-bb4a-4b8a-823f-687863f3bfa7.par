@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Day-Cab Tractor-Trailers 
 #Category: Day-Cab Tractor-Trailers
 #FileID  : VehLoad_b12560cc-bb4a-4b8a-823f-687863f3bfa7
 #Modified: 06-07-2021 01:48:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SSS + SS + SS
 
 END

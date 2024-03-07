@@ -56,8 +56,8 @@ LOG_ENTRY Used Dataset: Events; { Automatic Lane Changing } D. Return to Right L
 #Category: Automatic Lane Changing
 #FileID  : Events_c95328d0-618e-43ef-b6bf-74d5e70272a6
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName I/O Channels: Write`Rollover Outputs`
+#CheckBox1 0    
+
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 1
+#RingCtrl4 0
+
+#MiscYellow0
+#Roll_A3
+#RolR_A3r
+#Ay
+#Time
+#ENDMYellow
+
+OPT_AUXOUT_CSV 1
+OPT_AUXOUT_MAT 0
+OPT_AUXOUT_ALL_WRITE_CSV 0
+WRT_Roll_A3
+WRTAUX Roll_A3
+WRT_RolR_A3r
+WRTAUX RolR_A3r
+WRT_Ay
+WRTAUX Ay
+WRT_Time
+WRTAUX Time
+
+LOG_ENTRY Used Dataset: I/O Channels: Write; Rollover Outputs
+#Library : I/O Channels: Write
+#DataSet : Rollover Outputs
+#Category: 
+#FileID  : Write_28acbdcf-7a8d-4904-9951-bfe71b0f8346
+#Created : 05-26-2023 16:59:48
+#Modified: 05-26-2023 17:19:20
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Write Channels
+
+END

@@ -1,2 +1,0 @@
-INFO - MF-Tyre/MF-Swift 2021.1  (0b4aeac7c749)
-WARNING - Override value 0.000000 for TV_MODEL is ignored, because it is not supported at fittype 60.

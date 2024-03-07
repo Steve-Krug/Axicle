@@ -329,8 +329,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Variable Width Road
 #Category: Variable Width Roads
 #FileID  : Road_306b5fa4-4f7d-4f19-859b-3e98b8169577
 #Modified: 01-21-2022 14:00:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

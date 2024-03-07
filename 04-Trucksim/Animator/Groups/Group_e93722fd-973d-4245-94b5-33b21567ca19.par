@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Pedestrians } Animated Pedestrian (As
 #Category: Pedestrians
 #FileID  : Group_e93722fd-973d-4245-94b5-33b21567ca19
 #Modified: 06-07-2021 01:54:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

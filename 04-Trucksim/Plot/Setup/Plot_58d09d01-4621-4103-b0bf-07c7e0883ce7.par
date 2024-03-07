@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Path Detector } Detected Path Offset at P
 #Category: Path Detector
 #FileID  : Plot_58d09d01-4621-4103-b0bf-07c7e0883ce7
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

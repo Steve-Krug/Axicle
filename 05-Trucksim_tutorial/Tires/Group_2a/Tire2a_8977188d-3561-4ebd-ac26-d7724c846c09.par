@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Light Truck Ti
 #FileID  : Tire2a_8977188d-3561-4ebd-ac26-d7724c846c09
 #Created : 05-14-2021 08:18:51
 #Modified: 06-07-2021 01:48:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2a Tire Group
 
 END

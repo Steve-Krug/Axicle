@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Tracking: Vehicle } Trailer
 #FileID  : Frame_264412e3-43ac-4510-a2de-b5c8b5edd764
 #Created : 12-09-2021 15:02:43
 #Modified: 12-09-2021 15:03:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

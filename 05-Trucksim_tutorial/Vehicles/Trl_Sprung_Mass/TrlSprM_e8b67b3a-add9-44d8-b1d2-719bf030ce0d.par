@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Vehicle: Trailer Sprung Mass`2A Flatbed Trailer #1 AxicleTest1`2A Trailer
+H_CG_SU 2000
+Z_LENGTH 180
+LX_CG_SU 5500
+M_SU 10000
+IXX_SU 9959.7
+IYY_SU 171336
+IZZ_SU 179992
+IXZ_SU 0
+*RX 0.998
+*RY 4.139
+*RZ 4.243
+Y_CG_SU 0
+IXY_SU 0
+IYZ_SU 0
+Y_LENGTH 2438
+H_H_FRONT 1100
+L_FRAME 12500
+W_FRAME 1000
+X_NODE 12000
+K_FRAME 2500
+C_FRAME 250
+H_NODE 528
+HT_SM 180
+WID_SM 2438
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 0
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 2A Trailer } 2A Flatbed Trailer #1 AxicleTest1
+#Library : Vehicle: Trailer Sprung Mass
+#DataSet : 2A Flatbed Trailer #1 AxicleTest1
+#Category: 2A Trailer
+#FileID  : TrlSprM_e8b67b3a-add9-44d8-b1d2-719bf030ce0d
+#Created : 04-04-2023 18:22:06
+#Modified: 04-04-2023 18:22:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Trailer Sprung Mass
+
+END

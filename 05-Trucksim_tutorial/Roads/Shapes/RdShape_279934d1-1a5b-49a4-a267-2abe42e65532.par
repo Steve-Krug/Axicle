@@ -110,8 +110,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Intersections } Right T
 #Category: Intersections
 #FileID  : RdShape_279934d1-1a5b-49a4-a267-2abe42e65532
 #Modified: 06-07-2021 01:51:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

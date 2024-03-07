@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_d763e9e6-5d15-4e37-8b4a-a2943a7eeb0e.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -84,9 +85,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Brake Tests } Braking: Advanced,
 #DataSet : Braking: Advanced, Type B Ext. ABS
 #Category: Brake Tests
 #FileID  : Run_152a7d2b-5092-407e-bbb2-e89db8ebd511
-#Modified: 12-13-2021 20:57:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Suspension: Toe Angle; { Constant } Constant: Zero Toe A
 #Category: Constant
 #FileID  : Toe_0ba9878a-093d-452a-9598-88f9888ea64f
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Toe
 
 END

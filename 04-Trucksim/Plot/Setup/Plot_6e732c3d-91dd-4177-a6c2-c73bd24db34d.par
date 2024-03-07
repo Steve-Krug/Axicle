@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Speed Controller } Speed Limit, Target, a
 #Category: Speed Controller
 #FileID  : Plot_6e732c3d-91dd-4177-a6c2-c73bd24db34d
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

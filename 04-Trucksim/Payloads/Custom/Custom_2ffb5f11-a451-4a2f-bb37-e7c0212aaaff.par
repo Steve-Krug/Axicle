@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 2.550
 *RZ 2.550
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Large Crate
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Large Crate
 #DataSet : Large Crate
 #Category: Crates
 #FileID  : Custom_2ffb5f11-a451-4a2f-bb37-e7c0212aaaff
-#Modified: 01-01-2023 16:39:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

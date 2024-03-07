@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Obstacle Avoidance } Object Offset Output
 #FileID  : Plot_266c1f91-96d2-4a50-a344-a5007d51564c
 #Created : 10-12-2021 15:12:50
 #Modified: 10-12-2021 15:12:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

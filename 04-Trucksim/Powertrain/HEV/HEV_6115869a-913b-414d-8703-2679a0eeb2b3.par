@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Paralle Hybrid, Moto
 #FileID  : HEV_6115869a-913b-414d-8703-2679a0eeb2b3
 #Created : 11-29-2021 16:31:42
 #Modified: 12-01-2021 12:02:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HEV
 
 END

@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Traffic Scenarios } Traffic:
 #Category: ADAS: Traffic Scenarios
 #FileID  : GenGrp_0c765af5-2acb-4d29-a011-2fd239b74bbc
 #Modified: 06-07-2021 01:53:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

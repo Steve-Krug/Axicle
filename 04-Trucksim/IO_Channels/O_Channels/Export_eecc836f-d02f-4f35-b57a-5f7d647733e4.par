@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { Powertrain Control and Ext. Mode
 #Category: Powertrain Control and Ext. Models
 #FileID  : Export_eecc836f-d02f-4f35-b57a-5f7d647733e4
 #Modified: 06-16-2021 12:36:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Export Channels
 
 END

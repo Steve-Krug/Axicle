@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } DLC w/ Path Preview Spee
 #Category: Driver Controls
 #FileID  : Proc_f5034a68-2468-4d21-ad69-c03e0f999e28
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Ramp } Ramp: Half Throt
 #Category: Ramp
 #FileID  : Throttle_f8c835a0-ba7a-4c04-aacd-696156e3c3c9
 #Modified: 06-07-2021 01:53:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-loop Throttle
 
 END

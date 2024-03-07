@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Events; { Braking Distance, M/C, Air } C. Stop and End R
 #Category: Braking Distance, M/C, Air
 #FileID  : Events_f89ab5aa-29d6-40e3-aec4-44f05c416b7a
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

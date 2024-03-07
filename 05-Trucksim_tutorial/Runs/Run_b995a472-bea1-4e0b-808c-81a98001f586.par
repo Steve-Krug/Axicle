@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -87,9 +88,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Simulink Models } Ext. ABS: Spli
 #DataSet : Ext. ABS: Split Mu - Multi-Port, SLX
 #Category: Simulink Models
 #FileID  : Run_b995a472-bea1-4e0b-808c-81a98001f586
-#Modified: 06-03-2022 12:05:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

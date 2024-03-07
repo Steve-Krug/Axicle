@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Tire: Overturning Moment; { Extended with Camber Details
 #Category: Extended with Camber Details
 #FileID  : TireMx_8ed3d831-0b69-4bd7-9ebd-a1baf7faf65f
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mx
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_133008a4-a19c-40b9-a05d-3a2d60437a8c.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 1
@@ -71,9 +72,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } 3A Slee
 #DataSet : 3A Sleeper Cab with Flatbed Trailer
 #Category: VS Visualizer Examples
 #FileID  : Run_d4803900-96c6-47b0-a9f9-ffa788b256f8
-#Modified: 04-25-2022 09:37:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

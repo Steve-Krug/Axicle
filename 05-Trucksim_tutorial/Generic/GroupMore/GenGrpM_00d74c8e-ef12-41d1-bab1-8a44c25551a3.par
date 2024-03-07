@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Generic Data Group (More); { Very Large Vehicles } Tires
 #Category: Very Large Vehicles
 #FileID  : GenGrpM_00d74c8e-ef12-41d1-bab1-8a44c25551a3
 #Modified: 06-07-2021 01:53:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group (More)
 
 END

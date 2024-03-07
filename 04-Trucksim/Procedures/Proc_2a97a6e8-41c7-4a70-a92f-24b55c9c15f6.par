@@ -98,8 +98,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } 0-80-0kmh, Even
 #Category: Acceleration and Braking
 #FileID  : Proc_2a97a6e8-41c7-4a70-a92f-24b55c9c15f6
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

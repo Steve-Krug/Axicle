@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Events; { Road Network Driving } N. Drive on Road 2
 #Category: Road Network Driving
 #FileID  : Events_5393448a-30ce-41bd-98d5-8f08baa85b23
 #Modified: 06-07-2021 01:49:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

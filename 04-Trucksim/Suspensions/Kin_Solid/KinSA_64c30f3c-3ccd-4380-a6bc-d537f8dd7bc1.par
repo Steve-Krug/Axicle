@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Steer Axle }
 #Category: Steer Axle
 #FileID  : KinSA_64c30f3c-3ccd-4380-a6bc-d537f8dd7bc1
 #Modified: 06-07-2021 01:49:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Solid Axle
 
 END

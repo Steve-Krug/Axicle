@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { HUD } Pk Brake Control HUD
 #Category: HUD
 #FileID  : Group_c25f90a3-dfbb-4bd9-b28b-fa72072675bf
 #Modified: 06-07-2021 01:54:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

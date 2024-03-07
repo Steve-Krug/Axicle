@@ -134,8 +134,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Vehicle Model Extensions, Powertr
 #Category: Vehicle Model Extensions, Powertrain
 #FileID  : GenVS_b0fa59a1-f922-4572-bdda-1db7f091e4a0
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

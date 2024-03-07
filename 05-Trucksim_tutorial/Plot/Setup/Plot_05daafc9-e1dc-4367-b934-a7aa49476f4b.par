@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { User-Defined Variables } PARTIAL: Steer v
 #FileID  : Plot_05daafc9-e1dc-4367-b934-a7aa49476f4b
 #Created : 06-01-2022 14:23:33
 #Modified: 06-01-2022 14:36:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

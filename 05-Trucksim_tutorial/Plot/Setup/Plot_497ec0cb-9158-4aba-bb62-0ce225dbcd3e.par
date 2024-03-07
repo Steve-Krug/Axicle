@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Forces and Moments } Spring Fo
 #Category: Suspension Forces and Moments
 #FileID  : Plot_497ec0cb-9158-4aba-bb62-0ce225dbcd3e
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -100,8 +100,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { Limited Slip and Viscou
 #Category: Limited Slip and Viscous Coupling
 #FileID  : DiffR_c642a21e-e719-4ec4-89bb-964708a0eac0
 #Modified: 06-07-2021 01:49:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rear Differential
 
 END

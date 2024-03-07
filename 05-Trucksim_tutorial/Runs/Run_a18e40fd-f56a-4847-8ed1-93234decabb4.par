@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -80,9 +81,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Brake Tests } Braking - Split Mu
 #DataSet : Braking - Split Mu: ABS
 #Category: Brake Tests
 #FileID  : Run_a18e40fd-f56a-4847-8ed1-93234decabb4
-#Modified: 07-08-2021 12:53:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

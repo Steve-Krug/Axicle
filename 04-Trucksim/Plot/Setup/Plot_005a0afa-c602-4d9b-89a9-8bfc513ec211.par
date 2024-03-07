@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS and AEB Alerts and Commands } Lane D
 #FileID  : Plot_005a0afa-c602-4d9b-89a9-8bfc513ec211
 #Created : 11-08-2021 15:43:55
 #Modified: 11-08-2021 15:44:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

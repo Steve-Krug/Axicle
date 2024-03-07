@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fa668846-ecab-4a6b-858c-7be5cd0236cf.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -109,9 +110,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Advanced: Restore State, Lineari
 #DataSet : Flat Road w/ Accel. Field, 10% Grade
 #Category: Advanced: Restore State, Linearize, Gravity
 #FileID  : Run_3e221aed-9852-4997-86e7-8c49b7f28278
-#Modified: 06-07-2021 02:06:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:16
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

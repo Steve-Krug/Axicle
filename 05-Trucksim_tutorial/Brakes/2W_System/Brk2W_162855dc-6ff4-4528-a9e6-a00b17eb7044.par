@@ -71,8 +71,8 @@ LOG_ENTRY Used Dataset: Brakes: Two-Wheel System; { Large European Van } Boost a
 #Category: Large European Van
 #FileID  : Brk2W_162855dc-6ff4-4528-a9e6-a00b17eb7044
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brakes
 
 END

@@ -96,8 +96,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { Large European Van } 
 #Category: Large European Van
 #FileID  : Lead2a_b90efe68-095d-4b4f-a78e-696813bda8f7
 #Modified: 09-01-2021 12:48:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_S
 
 END

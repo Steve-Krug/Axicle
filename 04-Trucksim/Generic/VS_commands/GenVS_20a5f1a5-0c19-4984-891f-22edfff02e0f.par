@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Lift Axle } Lift Axle 3
 #Category: Lift Axle
 #FileID  : GenVS_20a5f1a5-0c19-4984-891f-22edfff02e0f
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

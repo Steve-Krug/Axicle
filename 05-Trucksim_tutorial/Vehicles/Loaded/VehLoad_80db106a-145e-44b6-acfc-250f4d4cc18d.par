@@ -90,8 +90,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Very Large Vehicles } 2x1
 #Category: Very Large Vehicles
 #FileID  : VehLoad_80db106a-145e-44b6-acfc-250f4d4cc18d
 #Modified: 06-07-2021 01:48:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode  + dS + S + dS + S
 
 END

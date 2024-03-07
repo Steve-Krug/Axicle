@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Parking Lot 
 #Category: Parking Lot
 #FileID  : RdMapZ_af2e18e1-fd14-4e1f-aaaa-bf627c257953
 #Modified: 06-07-2021 01:51:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

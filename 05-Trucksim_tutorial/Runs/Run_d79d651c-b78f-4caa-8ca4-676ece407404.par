@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -68,9 +69,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Validation of Vehicle Data } At 
 #DataSet : At Rest
 #Category: Validation of Vehicle Data
 #FileID  : Run_d79d651c-b78f-4caa-8ca4-676ece407404
-#Modified: 06-07-2021 02:53:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:25
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

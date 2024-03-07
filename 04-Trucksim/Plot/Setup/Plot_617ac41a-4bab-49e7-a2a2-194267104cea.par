@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to F
 #Category: Tire Tester Derived Outputs
 #FileID  : Plot_617ac41a-4bab-49e7-a2a2-194267104cea
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -218,8 +218,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Test Facilities } Loadi
 #Category: Test Facilities
 #FileID  : RdShape_53b6b387-bae0-4442-a6c3-0d65f9b8c2a0
 #Modified: 06-07-2021 01:51:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

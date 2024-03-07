@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Write; Parametric Sweep (Pre/Post Process)
 #FileID  : Write_b8846e0b-ab76-4e90-8465-2a6068a327ed
 #Created : 06-10-2022 12:41:36
 #Modified: 06-10-2022 12:44:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Write Channels
 
 END

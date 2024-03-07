@@ -1,0 +1,26 @@
+2023-06-09T14:08:43 Logfile initialized.
+2023-06-09T14:08:43 (Info):    TruckSim 2023.0
+2023-06-09T14:08:43 (Info):    -
+2023-06-09T14:08:43 (Info):    command-line: 
+2023-06-09T14:08:43 (Info):    -
+2023-06-09T14:08:43 (Info):    Working Dir: C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\04-Trucksim\Batch Running\
+2023-06-09T14:08:43 (Info):    Program Dir: C:\Program Files (x86)\TruckSim2023.0_Prog\
+2023-06-09T14:08:43 (Info):    -
+2023-06-09T14:08:43 (Info):    OS Version:        6.2 (build 9200)
+2023-06-09T14:08:43 (Info):    CPU Architecture:  x64
+2023-06-09T14:08:43 (Info):    CPU Count:         20
+2023-06-09T14:08:43 (Info):    CPU Level/Rev:     6/38658
+2023-06-09T14:08:43 (Info):    Start Mem Total:   32492 MB
+2023-06-09T14:08:43 (Info):    Start Mem Used:    32%
+2023-06-09T14:08:43 (Info):    -
+2023-06-09T14:08:43 (Info):    Loaded dataset index cache in 0.00s, 0.8 megabytes.
+2023-06-09T14:08:43 (Info):    Error: A license manager is already running.
+2023-06-09T14:08:43 (Info):    License check took 0.34 seconds.
+2023-06-09T14:08:43 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2023.0".
+2023-06-09T14:08:43 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2023.0".
+2023-06-09T14:08:43 (Info):    Initial setup took 0.14 seconds.
+2023-06-09T14:08:43 (Info):    Auto updates took 0.00 seconds.
+2023-06-09T14:08:43 (Info):    Loaded last screen in 0.08 seconds.
+2023-06-09T14:08:43 (Info):    Total init time 0.70 seconds.
+2023-06-09T14:11:49 (Info):    174 index cache entries written in 0.000s
+2023-06-09T14:11:49 (Info):    Exiting application...

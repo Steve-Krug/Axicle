@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Test Rig Cameras } Tilt Table
 #Category: Test Rig Cameras
 #FileID  : Camera_38d3bcb7-a55e-4d80-9851-14df712094cb
 #Modified: 06-07-2021 01:54:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

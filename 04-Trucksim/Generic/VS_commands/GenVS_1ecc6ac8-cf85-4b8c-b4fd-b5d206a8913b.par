@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Embedded Python } Hello World
 #Category: Embedded Python
 #FileID  : GenVS_1ecc6ac8-cf85-4b8c-b4fd-b5d206a8913b
 #Modified: 03-22-2022 14:12:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Obstacle Avoidance } Sensing: Relative Di
 #FileID  : Plot_46826ad8-4dac-4900-9371-10236d208453
 #Created : 09-24-2021 14:55:12
 #Modified: 09-24-2021 14:55:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

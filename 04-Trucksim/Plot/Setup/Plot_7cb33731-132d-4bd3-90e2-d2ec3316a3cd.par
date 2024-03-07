@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Tire Compression
 #Category: Tire Kinematics
 #FileID  : Plot_7cb33731-132d-4bd3-90e2-d2ec3316a3cd
 #Modified: 06-07-2021 01:49:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

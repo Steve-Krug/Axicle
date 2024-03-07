@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Roads and Paths } Roundabout: 1m LTARG 
 #Category: Roads and Paths
 #FileID  : GenTab_34867817-a933-425e-9a54-f7f8139f46c0
 #Modified: 01-21-2022 14:00:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

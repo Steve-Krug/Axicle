@@ -1,6 +1,6 @@
 PARSFILE
 #FullDataName TruckSim Run Control`4A Sleeper+3A Trl #1`Vehicle Layout: Single Trailers
-#VEHICLECODE S_SS
+#VEHICLECODE S_SS + SS
 symbol_push  <<vehicle>> 0
 symbol_push  <<unit>> 0
 symbol_push  <<axle>> 0
@@ -14,8 +14,8 @@ IUNIT 0
 IVEHICLE 0
 OPT_INT_METHOD 0
 OPT_VS_FILETYPE 2
-PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
-#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 35 m` Vehicle Reference` , Animator camera`Camera_fba691be-6c65-4c71-b964-e852577b19ed
+PARSFILE Animator\Cameras\Camera_f5664882-e35b-4221-a8b7-d942bd306ff0.par
+#BlueLink0 Animator: Camera Setup`-340 Azm, 19 El, 95 m` Vehicle Reference` , Animator camera`Camera_f5664882-e35b-4221-a8b7-d942bd306ff0
 
 #CheckBox0 1    
 #CheckBox1 0    
@@ -26,12 +26,13 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox6 0    
 #CheckBox7 0    
 #CheckBox8 1    
-#CheckBox9 1    
+#CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
-#RingCtrl1 4
+#RingCtrl1 0
 #RingCtrl2 3
 #RingCtrl3 0
 #RingCtrl6 0
@@ -43,8 +44,7 @@ LIVE_SERVER_MAX_CONNECTIONS 0
 PARSFILE Vehicles\Loaded\VehLoad_7afa67c4-7c94-4fc6-a2c3-f9902df46be7.par
 #BlueLink2 Vehicle: Loaded Combination`3A Sleeper + Flatbed, 41k lbf payload #1` Sleeper-Cab Tractor-Trailers` , Math Model`VehLoad_7afa67c4-7c94-4fc6-a2c3-f9902df46be7
 
-PARSFILE Procedures\Proc_0e3f512d-4838-44cc-9d6a-a1db535dd85b.par
-#BlueLink28 Procedures`Crosswind Test #2` Stability Tests` , Procedure`Proc_0e3f512d-4838-44cc-9d6a-a1db535dd85b
+#BlueLink28 Procedures`On Center Test - Closed Loop Steer` Steering Tests` , Procedure`
 
 PARSFILE Generic\Group\GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546.par
 #BlueLink9 Generic Data Group`7 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546
@@ -52,9 +52,7 @@ PARSFILE Generic\Group\GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546.par
 OPT_VS_FILETYPE 4
 
 *IMAGE_TYPE PASS_THROUGH
-*IMAGE_PASS_THROUGH Vehicles\Lead_3a\Lead3a_9e25d126-51f7-4fcd-902a-89d256db0b7a.png
-
-OPT_ALL_WRITE 1
+*IMAGE_PASS_THROUGH Vehicles\Lead_3a\Lead3a_164cae34-f3ed-4382-aa43-98e6eee8a593.png
 WRITE_SENSOR_DETECT
 Title 4A Sleeper+3A Trl #1 <Vehicle Layout: Single Trailers>
 CATEGORY Vehicle Layout: Single Trailers 
@@ -75,9 +73,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Single Trailers 
 #Category: Vehicle Layout: Single Trailers
 #FileID  : Run_e070e72c-d350-4a43-b7a8-4a9007658330
 #Created : 01-15-2023 18:12:15
-#Modified: 01-19-2023 22:58:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-13-2023 12:32:28
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

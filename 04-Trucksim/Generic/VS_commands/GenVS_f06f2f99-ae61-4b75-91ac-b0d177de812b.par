@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Misc. Model Extensions } OPT_I_GE
 #Category: Misc. Model Extensions
 #FileID  : GenVS_f06f2f99-ae61-4b75-91ac-b0d177de812b
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

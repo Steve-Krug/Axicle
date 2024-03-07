@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_12afd0d3-c9b8-47b4-9b7e-1cd0582e975b.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -85,9 +86,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } Traffic
 #DataSet : Traffic Signal Facing East, Green to Red
 #Category: ADAS and Active Safety
 #FileID  : Run_0afff0d2-637c-4969-a6a9-31ed2c395c4b
-#Modified: 06-07-2021 02:06:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

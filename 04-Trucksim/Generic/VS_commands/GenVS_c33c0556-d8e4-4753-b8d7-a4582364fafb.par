@@ -50,8 +50,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { PBS Tests } PBS C11: Tilt Table V
 #Category: PBS Tests
 #FileID  : GenVS_c33c0556-d8e4-4753-b8d7-a4582364fafb
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode PBS: Tilt Table
 
 END

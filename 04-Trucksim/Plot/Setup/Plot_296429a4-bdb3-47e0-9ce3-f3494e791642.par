@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Boost Torque vs. Time
 #Category: Steering
 #FileID  : Plot_296429a4-bdb3-47e0-9ce3-f3494e791642
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

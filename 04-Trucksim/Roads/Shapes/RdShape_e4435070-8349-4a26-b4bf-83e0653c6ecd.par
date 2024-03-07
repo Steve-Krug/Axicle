@@ -190,8 +190,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Parking Lot } Surface S
 #Category: Parking Lot
 #FileID  : RdShape_e4435070-8349-4a26-b4bf-83e0653c6ecd
 #Modified: 06-07-2021 01:51:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

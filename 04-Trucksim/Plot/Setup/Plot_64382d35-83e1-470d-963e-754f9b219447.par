@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Rear Steer Control } Rear Wheel Angle
 #Category: Rear Steer Control
 #FileID  : Plot_64382d35-83e1-470d-963e-754f9b219447
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

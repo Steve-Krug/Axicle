@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Pitch Angle of Sprung Ma
 #Category: Vehicle Motion
 #FileID  : Plot_97ca903d-d92e-44e1-a2d5-f87d6e03d987
 #Modified: 09-29-2021 13:01:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

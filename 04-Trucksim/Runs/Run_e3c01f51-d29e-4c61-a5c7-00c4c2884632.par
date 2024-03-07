@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_41978f36-4f18-4d5c-ab02-fc60fe430e15.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 10
@@ -86,9 +87,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Steering System Options } OPT_I_
 #DataSet : OPT_I_GEAR_IN On
 #Category: Steering System Options
 #FileID  : Run_e3c01f51-d29e-4c61-a5c7-00c4c2884632
-#Modified: 06-07-2021 02:46:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

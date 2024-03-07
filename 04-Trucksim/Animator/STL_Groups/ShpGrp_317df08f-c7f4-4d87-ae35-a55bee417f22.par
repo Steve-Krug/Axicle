@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers } Dump Bed Trailer
 #Category: Trailers
 #FileID  : ShpGrp_317df08f-c7f4-4d87-ae35-a55bee417f22
 #Modified: 06-07-2021 01:53:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Miscellaneous Custom Controls } D
 #FileID  : GenVS_9c41436d-84a4-41ff-b004-93c7e2cbcb12
 #Created : 05-31-2022 08:31:02
 #Modified: 05-31-2022 08:31:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

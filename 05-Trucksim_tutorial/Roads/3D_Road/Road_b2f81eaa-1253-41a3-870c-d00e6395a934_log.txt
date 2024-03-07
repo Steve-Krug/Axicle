@@ -1,0 +1,24 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_b2f81eaa-1253-41a3-870c-d00e6395a934.par"
+Include PARSFILE "Roads\Center_XY\PathXY_b731e8cf-c781-4948-a5e9-abb1be977155.par"
+Used Dataset: Path: X-Y Coordinates; { Parking Lot } Parking Lot: Lot Definition Path
+Include PARSFILE "Roads\dZ_Map\RdMapZ_af2e18e1-fd14-4e1f-aaaa-bf627c257953.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Parking Lot } Parking Lot: Major Geometry
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_fc673751-9d49-47f2-ae45-bc70bc8457d1.par"
+Used Dataset: Road: Animator Surface Shapes; { Parking Lot } Pavement
+ Pavement <Parking Lot>
+Used Dataset: Road: 3D Surface (All Properties); { Parking Lot } Pavement
+
+Time to read input = 0.0005419
+
+Run started: VS output file = Roads\3D_Road\Road_b2f81eaa-1253-41a3-870c-d00e6395a934.vsb
+
+Run stopped at t = 2.48. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

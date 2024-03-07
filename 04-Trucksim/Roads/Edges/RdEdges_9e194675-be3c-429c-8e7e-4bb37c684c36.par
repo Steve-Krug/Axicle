@@ -1763,8 +1763,8 @@ LOG_ENTRY Used Dataset: Road: X-Y-Z Coordinates of Edges; X-Y-Z Edges, Looped Ro
 #Category: 
 #FileID  : RdEdges_9e194675-be3c-429c-8e7e-4bb37c684c36
 #Modified: 06-07-2021 01:50:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y-Z Coordinates of Edges
 
 END

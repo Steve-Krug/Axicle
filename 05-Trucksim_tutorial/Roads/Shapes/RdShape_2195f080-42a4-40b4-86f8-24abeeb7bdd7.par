@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Roundabout, 3D, D = 36 
 #Category: Roundabout, 3D, D = 36 m
 #FileID  : RdShape_2195f080-42a4-40b4-86f8-24abeeb7bdd7
 #Modified: 06-07-2021 01:51:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

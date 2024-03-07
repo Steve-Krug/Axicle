@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Control: Braking Pedal Force (Open Loop); { Constant } C
 #Category: Constant
 #FileID  : FbkCon_a246a03b-d1d4-4c12-9aa3-de6ced38f8e6
 #Modified: 06-07-2021 01:53:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Pedal Force
 
 END

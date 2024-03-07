@@ -100,8 +100,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { 2A Tractors } 2A Euro
 #Category: 2A Tractors
 #FileID  : Lead2a_453c9484-cd9a-4351-b1a9-9759fce1a47e
 #Modified: 04-25-2022 08:53:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode F_S_S
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } opt_clutch_mode
 #Category: Powertrain
 #FileID  : Plot_46707735-d20b-470b-8748-88b764a86362
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

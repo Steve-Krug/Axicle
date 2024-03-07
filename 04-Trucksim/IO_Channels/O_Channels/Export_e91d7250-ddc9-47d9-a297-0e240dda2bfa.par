@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { Parallel Solvers } Vehicle Posit
 #Category: Parallel Solvers
 #FileID  : Export_e91d7250-ddc9-47d9-a297-0e240dda2bfa
 #Modified: 12-08-2021 13:24:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Export Channels
 
 END

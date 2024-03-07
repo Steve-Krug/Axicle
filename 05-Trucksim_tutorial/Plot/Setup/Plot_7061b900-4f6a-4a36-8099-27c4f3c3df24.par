@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Road Wheel Steer (Axle 1) vs. 
 #Category: Steering
 #FileID  : Plot_7061b900-4f6a-4a36-8099-27c4f3c3df24
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

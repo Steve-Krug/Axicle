@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_41978f36-4f18-4d5c-ab02-fc60fe430e15.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -84,9 +85,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Steering Tests } Pwr Rack & Pini
 #DataSet : Pwr Rack & Pinion Steer, Sine Sweep
 #Category: Steering Tests
 #FileID  : Run_9c34f295-e194-402a-bc73-be3ca06894d7
-#Modified: 06-07-2021 02:46:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

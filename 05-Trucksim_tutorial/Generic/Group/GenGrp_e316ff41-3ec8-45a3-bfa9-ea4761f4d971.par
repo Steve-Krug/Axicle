@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Suspended Cab } Susp. Cab, Linear 
 #FileID  : GenGrp_e316ff41-3ec8-45a3-bfa9-ea4761f4d971
 #Created : 05-26-2021 11:39:01
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Sleeper-Cab Tractor-Trail
 #Category: Sleeper-Cab Tractor-Trailers
 #FileID  : VehLoad_dde4006b-e19a-4d6b-b1ce-05111482aff5
 #Modified: 06-07-2021 01:48:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode SS_SSS + S
 
 END

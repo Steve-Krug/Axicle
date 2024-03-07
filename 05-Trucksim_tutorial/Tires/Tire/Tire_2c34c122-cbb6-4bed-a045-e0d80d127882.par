@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Tire; { 3500 kg Rating } 522 mm Rad., S. Single (Trl.)
 #Category: 3500 kg Rating
 #FileID  : Tire_2c34c122-cbb6-4bed-a045-e0d80d127882
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

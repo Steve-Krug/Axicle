@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Tire Vertical Force
 #Category: Plot Groups
 #FileID  : GenVS_fe529a7f-c0b5-4ef3-bf67-8c6b51fc8732
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Group
 
 END

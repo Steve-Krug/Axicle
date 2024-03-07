@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -74,9 +75,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Advanced: Restore State, Lineari
 #DataSet : S-Turn, Too Slow
 #Category: Advanced: Restore State, Linearize, Gravity
 #FileID  : Run_a0f553b6-ff90-4507-96b0-3bdedd908d8f
-#Modified: 06-07-2021 02:07:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:16
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

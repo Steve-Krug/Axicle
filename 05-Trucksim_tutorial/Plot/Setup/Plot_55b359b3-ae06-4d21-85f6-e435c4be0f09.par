@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Fuel Consumed
 #Category: Powertrain
 #FileID  : Plot_55b359b3-ae06-4d21-85f6-e435c4be0f09
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

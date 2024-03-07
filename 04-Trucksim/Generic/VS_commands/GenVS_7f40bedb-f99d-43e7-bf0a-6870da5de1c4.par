@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Embedded Python } Increment One
 #Category: Embedded Python
 #FileID  : GenVS_7f40bedb-f99d-43e7-bf0a-6870da5de1c4
 #Modified: 03-22-2022 14:13:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

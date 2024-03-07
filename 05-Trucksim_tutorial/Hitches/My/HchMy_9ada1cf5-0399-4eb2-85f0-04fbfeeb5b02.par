@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Hitch: Pitch Moment; { Turntable } 500 kN-m/deg (0 deg L
 #FileID  : HchMy_9ada1cf5-0399-4eb2-85f0-04fbfeeb5b02
 #Created : 09-28-2021 17:03:23
 #Modified: 09-28-2021 17:03:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Hitch My
 
 END

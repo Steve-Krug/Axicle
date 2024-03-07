@@ -3,17 +3,17 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\pt_diff\Pt_Diff_TS9.mdl
 SIMULINK_MODEL_FILE Extensions\Simulink\pt_diff\Pt_Diff_TS9.mdl
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 0    
 *USE_ALT_DIR 0
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 1    
-#CheckBox4 1    
-OPT_IO_SYNC_FM 1
+#CheckBox5 0    
 #RingCtrl1 0
 OPT_INT_METHOD 0
-#CheckBox2 1    
-OPT_IO_UPDATE 1
 #CheckBox4 1    
 OPT_IO_SYNC_FM 1
 *TSTEP 0.0005
@@ -22,13 +22,19 @@ OPT_IO_SYNC_FM 1
 *FREQ_OUT 40
 tstep 0.0005
 iprint 50
-#CheckBox5 0    
-*MULTI_SOLVERS 0
 PARSFILE IO_Channels\I_Channels\Import_da8aa37a-c295-4a72-941c-4cabfb682d4c.par
 #BlueLink0 I/O Channels: Import`Ext. Trans. Case and Diffs: Imports (4WD)` Powertrain Control and Ext. Models` , Import`Import_da8aa37a-c295-4a72-941c-4cabfb682d4c
 
 PARSFILE IO_Channels\O_Channels\Export_a2d57ee8-ee31-4d4f-a01d-4064eee1b5c2.par
 #BlueLink1 I/O Channels: Export`Ext. Trans. Case and Diffs: Exports (4WD)` Powertrain Control and Ext. Models` , Import/Export`Export_a2d57ee8-ee31-4d4f-a01d-4064eee1b5c2
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 #MiscYellow1
 ! Include folder containing supporting .m files for Simulink powertrain differential model
@@ -54,9 +60,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; { External Powertrain } External Trans
 #DataSet : External Transfer Case and Diffs (TS 9.0)
 #Category: External Powertrain
 #FileID  : Simlink_5d4855d4-4652-4870-84b7-e4b267be9da3
-#Modified: 06-07-2021 01:52:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:37:36
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

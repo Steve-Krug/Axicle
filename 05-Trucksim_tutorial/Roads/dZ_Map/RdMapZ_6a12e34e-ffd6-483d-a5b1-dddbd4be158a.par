@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Bumps } Medi
 #Category: Bumps
 #FileID  : RdMapZ_6a12e34e-ffd6-483d-a5b1-dddbd4be158a
 #Modified: 06-07-2021 01:51:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

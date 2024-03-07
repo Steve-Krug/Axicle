@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } TBC: Alley Dock
 #Category: Driver Controls
 #FileID  : Proc_31ddfacc-7dd0-4d84-993b-569d68d330f9
 #Modified: 05-20-2022 18:40:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

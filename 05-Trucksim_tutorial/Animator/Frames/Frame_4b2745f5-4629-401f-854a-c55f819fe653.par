@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Auxiliary Steer Controller 
 #FileID  : Frame_4b2745f5-4629-401f-854a-c55f819fe653
 #Created : 12-01-2021 13:19:13
 #Modified: 12-01-2021 13:19:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

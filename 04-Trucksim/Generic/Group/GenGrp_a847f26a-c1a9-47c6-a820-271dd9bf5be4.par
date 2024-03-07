@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Traffic Scenarios } Platoon 
 #FileID  : GenGrp_a847f26a-c1a9-47c6-a820-271dd9bf5be4
 #Created : 09-14-2021 15:05:56
 #Modified: 09-29-2021 10:24:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Platoon Intruder
 
 END

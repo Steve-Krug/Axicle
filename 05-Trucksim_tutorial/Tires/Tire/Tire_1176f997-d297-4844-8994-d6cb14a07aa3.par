@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire; { Trailer and Light Truck Tires } 265/75 R16 Off-R
 #FileID  : Tire_1176f997-d297-4844-8994-d6cb14a07aa3
 #Created : 05-14-2021 08:19:21
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

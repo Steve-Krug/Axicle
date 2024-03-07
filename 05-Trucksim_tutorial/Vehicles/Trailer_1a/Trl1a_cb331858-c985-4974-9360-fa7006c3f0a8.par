@@ -114,8 +114,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 1 Axle; { Van / Container Trailers
 #FileID  : Trl1a_cb331858-c985-4974-9360-fa7006c3f0a8
 #Created : 10-28-2021 15:09:25
 #Modified: 11-10-2021 13:19:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dS + S
 
 END

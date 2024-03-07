@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Multiple Vehicles } 2 Vehicles: I_
 #Category: Multiple Vehicles
 #FileID  : GenGrp_26bc78fd-ff2b-49ea-b96a-2a581186943f
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S S_SS
 
 END

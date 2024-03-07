@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Suspension and Ride Control } Se
 #Category: Suspension and Ride Control
 #FileID  : Import_8ec4a3bb-1279-4395-84ef-988e855f326e
 #Modified: 06-07-2021 01:52:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

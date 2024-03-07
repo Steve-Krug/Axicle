@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Steering Stops
 #Category: Steering
 #FileID  : Plot_4de1fba3-79a5-40bd-bbff-00ddd5587914
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -200,8 +200,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Throttle, Brakes, Speedo w
 #Category: HUD Groups
 #FileID  : HUD_5ba74dcc-90d0-47c8-a130-8c2198e269f3
 #Modified: 03-29-2022 16:03:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; CMz =
 #Category: 
 #FileID  : AirCMz_6aa9dd11-f754-4320-89b3-570ad1ed5e1b
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Mz vs. Aero Slip
 
 END

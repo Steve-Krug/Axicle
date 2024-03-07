@@ -5,6 +5,8 @@ IDIFF 2
 opt_twin_clutch 1
 
 
+#RingCtrl0 -1
+*EV_CONTROL -1
 R_GEAR_RD 4.4
 R_EFF_F_RD 0.99
 R_EFF_R_RD 0.9
@@ -38,9 +40,9 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Twin-Clutch Differential; Gear Ratio 4.
 #DataSet : Gear Ratio 4.4 (External Control)
 #Category: 
 #FileID  : TwinR_4b5f2a5a-4003-43d3-8065-4bfffa7131fc
-#Modified: 06-07-2021 01:49:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:32
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Twin Clutches
 
 END

@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { ADAS Setups } Parameters and F
 #Category: ADAS Setups
 #FileID  : GenLink_195052a3-4217-4f30-9c92-7070995b06ff
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Groups of VS Commands
 
 END

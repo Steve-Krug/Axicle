@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Motion } Steer vs. Roll (Axle 
 #Category: Suspension Motion
 #FileID  : Plot_05a8d2a5-83e6-4906-9a28-0f20d6429586
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

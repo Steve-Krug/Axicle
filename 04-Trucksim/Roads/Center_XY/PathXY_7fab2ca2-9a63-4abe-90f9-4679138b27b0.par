@@ -422,8 +422,8 @@ LOG_ENTRY Used Dataset: Path: X-Y Coordinates; { Handling Course } Handling Cour
 #Category: Handling Course
 #FileID  : PathXY_7fab2ca2-9a63-4abe-90f9-4679138b27b0
 #Modified: 06-07-2021 01:51:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y Coordinates of Path
 
 END

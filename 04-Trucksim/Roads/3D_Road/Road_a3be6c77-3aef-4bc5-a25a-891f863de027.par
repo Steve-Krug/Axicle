@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Circular Roads } 40
 #Category: Circular Roads
 #FileID  : Road_a3be6c77-3aef-4bc5-a25a-891f863de027
 #Modified: 10-04-2021 16:58:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

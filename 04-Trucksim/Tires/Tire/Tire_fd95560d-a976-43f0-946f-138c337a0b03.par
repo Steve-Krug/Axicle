@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire; { SAE Steer Tire 2800 kg } Steer Tire, Asymmetric
 #Category: SAE Steer Tire 2800 kg
 #FileID  : Tire_fd95560d-a976-43f0-946f-138c337a0b03
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

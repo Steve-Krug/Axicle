@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Cabs } Forward Control Cab
 #Category: Cabs
 #FileID  : ShpGrp_68fccb5e-dd65-4549-97cf-49ff284f9b38
 #Modified: 06-07-2021 01:53:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

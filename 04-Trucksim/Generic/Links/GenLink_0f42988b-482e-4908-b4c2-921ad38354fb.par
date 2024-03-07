@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { K&C Testing } K&C Rig for Desi
 #Category: K&C Testing
 #FileID  : GenLink_0f42988b-482e-4908-b4c2-921ad38354fb
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Links
 
 END

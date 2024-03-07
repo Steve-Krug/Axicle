@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Rigid Truck and Dog Trail
 #FileID  : VehLoad_6271c805-9023-4f1c-9e34-17dda2034367
 #Created : 09-28-2021 16:57:47
 #Modified: 11-19-2021 08:44:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS + dS + SS
 
 END

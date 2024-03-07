@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Driver Demand Power:
 #Category: Powertrain (HEV)
 #FileID  : GenTab_90d23e81-2c53-435f-8e2c-d6503354f720
 #Modified: 06-07-2021 01:53:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

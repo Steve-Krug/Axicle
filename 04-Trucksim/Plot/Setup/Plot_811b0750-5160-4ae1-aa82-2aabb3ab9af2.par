@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Closed Loop 
 #Category: Controls: Driver
 #FileID  : Plot_811b0750-5160-4ae1-aa82-2aabb3ab9af2
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

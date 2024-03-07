@@ -2,6 +2,10 @@ PARSFILE
 #FullDataName Control: Steering by the Closed-loop Driver Model`0.3m Offset, 7s Preview, TBC`Constant Position: Non-Zero Offset
 SET_ILTARG_FOR_ID 0
 set_description LTARG_ID 0.3m Offset, 7s Preview, TBC
+INSTALL_DM_PATH_FOLLOWER
+#CheckBox4 1    
+OPT_DM 3
+INSTALL_DM_IMPORTS
 #MiscYellow0
 install_dm_tbc
 tbc_gain 5
@@ -25,11 +29,8 @@ LTARG_ID_DM LTARG_ID
 #CheckBox0 0    
 #CheckBox1 1    
 CREATE_PATH_OBJ on
-#CheckBox4 1    
 #CheckBox5 0    
 OPT_STR_BY_TRQ 0
-OPT_DM 3
-INSTALL_DM_IMPORTS
 AV_SW_MAX_DM 1200
 A_SW_MAX_DM 720
 *TPREV 7
@@ -48,9 +49,9 @@ LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Con
 #Category: Constant Position: Non-Zero Offset
 #FileID  : StrDM_239a9aa3-d8aa-4648-8acd-5629fa7c01f1
 #Created : 05-20-2022 17:35:51
-#Modified: 05-20-2022 18:31:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:47:48
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Driver Path Follower
 
 END

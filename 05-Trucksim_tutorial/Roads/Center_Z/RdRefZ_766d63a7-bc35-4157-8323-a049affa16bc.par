@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Road: Reference Line Elevation; { Hills and Valleys } Hi
 #FileID  : RdRefZ_766d63a7-bc35-4157-8323-a049affa16bc
 #Created : 05-27-2022 16:30:09
 #Modified: 05-27-2022 16:30:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Zs vs S
 
 END

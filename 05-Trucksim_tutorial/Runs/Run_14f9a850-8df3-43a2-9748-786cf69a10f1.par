@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_b7028f29-fdf7-4233-8487-abd35f8aee05.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Proving Grounds, VS Scene Builde
 #DataSet : Trailer Oscillation Test
 #Category: Proving Grounds, VS Scene Builder
 #FileID  : Run_14f9a850-8df3-43a2-9748-786cf69a10f1
-#Modified: 11-29-2021 16:03:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Pickup Trucks } DRW Picku
 #Category: Pickup Trucks
 #FileID  : VehLoad_4007d7dd-3239-46e7-9cc4-277245a7804e
 #Modified: 06-07-2021 01:48:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_S
 
 END

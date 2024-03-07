@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Magnitude: Senso
 #Category: ADAS Sensor Detections
 #FileID  : Plot_7a4900c7-68a0-40d3-8796-6256354312c8
 #Modified: 06-16-2021 09:54:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

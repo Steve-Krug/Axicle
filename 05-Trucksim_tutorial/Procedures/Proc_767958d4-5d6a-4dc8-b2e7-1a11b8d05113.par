@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Procedures; { Road Networks } Roundabout: D = 36m, Show 
 #Category: Road Networks
 #FileID  : Proc_767958d4-5d6a-4dc8-b2e7-1a11b8d05113
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

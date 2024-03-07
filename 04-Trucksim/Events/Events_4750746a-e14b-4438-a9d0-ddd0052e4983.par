@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Events; { Lane Departure Warning } 4. Drift Right
 #Category: Lane Departure Warning
 #FileID  : Events_4750746a-e14b-4438-a9d0-ddd0052e4983
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

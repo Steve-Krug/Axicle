@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Vans and Buses } Articulated
 #FileID  : ShpGrp_9f65ed29-4210-4220-805a-633692946136
 #Created : 11-17-2021 17:35:08
 #Modified: 12-10-2021 11:04:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

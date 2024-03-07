@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { 200 kW - 250 kW Powertra
 #Category: 200 kW - 250 kW Powertrains
 #FileID  : RWD_261174b1-f135-4f24-8ecc-a82bb5075a23
 #Modified: 01-06-2022 16:54:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RWD
 
 END

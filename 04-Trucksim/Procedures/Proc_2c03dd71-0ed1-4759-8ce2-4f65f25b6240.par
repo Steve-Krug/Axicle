@@ -97,8 +97,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multi-Vehicle } V2V Highway Procedure, V2V
 #FileID  : Proc_2c03dd71-0ed1-4759-8ce2-4f65f25b6240
 #Created : 10-14-2021 15:03:33
 #Modified: 11-01-2021 13:28:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

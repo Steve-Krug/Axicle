@@ -96,8 +96,8 @@ LOG_ENTRY Used Dataset: Procedures; { Handling Tests } ISO Steady-State Circle S
 #Category: Handling Tests
 #FileID  : Proc_8780e5a5-95c0-484a-b0c0-eb712ff235c5
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

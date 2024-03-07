@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Events; { Transient Response Times } F. Capture Steady S
 #Category: Transient Response Times
 #FileID  : Events_bddeede7-79ff-459b-8786-0cc28767e11b
 #Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

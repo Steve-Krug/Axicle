@@ -51,8 +51,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Road Segment Builde
 #Category: Road Segment Builder
 #FileID  : Road_bab5cf34-a537-4b55-9c02-5054df2331f2
 #Modified: 10-04-2021 16:58:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

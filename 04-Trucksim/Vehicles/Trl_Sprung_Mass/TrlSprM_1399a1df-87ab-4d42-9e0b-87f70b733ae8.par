@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { Dollies } 1A Dolly w/ Ri
 #FileID  : TrlSprM_1399a1df-87ab-4d42-9e0b-87f70b733ae8
 #Created : 09-27-2021 14:11:18
 #Modified: 03-21-2022 15:08:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Trailer Sprung Mass
 
 END

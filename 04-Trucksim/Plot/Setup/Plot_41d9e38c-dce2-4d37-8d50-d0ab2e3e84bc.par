@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire utilization } Lateral Forces
 #Category: Tire utilization
 #FileID  : Plot_41d9e38c-dce2-4d37-8d50-d0ab2e3e84bc
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -79,8 +79,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Intersections } Straigh
 #Category: Intersections
 #FileID  : RdShape_d05b70d7-5673-4cd6-a868-f384e2f9445c
 #Modified: 06-07-2021 01:51:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

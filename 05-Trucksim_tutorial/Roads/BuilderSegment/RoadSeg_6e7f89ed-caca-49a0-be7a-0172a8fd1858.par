@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Roundabout Network, Flat } Path
 #Category: Roundabout Network, Flat
 #FileID  : RoadSeg_6e7f89ed-caca-49a0-be7a-0172a8fd1858
 #Modified: 06-07-2021 01:51:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

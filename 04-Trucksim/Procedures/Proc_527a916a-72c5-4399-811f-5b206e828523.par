@@ -105,8 +105,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Medium Bump, 0.6 m incr. elev
 #Category: Ride Tests
 #FileID  : Proc_527a916a-72c5-4399-811f-5b206e828523
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -92,9 +93,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Output Options } SI Units Data O
 #DataSet : SI Units Data Output
 #Category: Output Options
 #FileID  : Run_e9a38c15-3fa9-47f7-b182-37b0c8a5e716
-#Modified: 06-07-2021 02:20:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

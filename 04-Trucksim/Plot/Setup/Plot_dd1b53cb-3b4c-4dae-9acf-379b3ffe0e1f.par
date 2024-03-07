@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Slip Ratios, Right Side
 #Category: Tire Kinematics
 #FileID  : Plot_dd1b53cb-3b4c-4dae-9acf-379b3ffe0e1f
 #Modified: 06-07-2021 01:49:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

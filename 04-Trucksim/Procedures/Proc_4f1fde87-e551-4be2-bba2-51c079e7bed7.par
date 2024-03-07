@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multiple Vehicles } Platoon Highway (Contr
 #FileID  : Proc_4f1fde87-e551-4be2-bba2-51c079e7bed7
 #Created : 09-30-2021 10:09:39
 #Modified: 11-02-2021 11:57:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

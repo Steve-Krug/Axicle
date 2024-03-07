@@ -1,0 +1,20 @@
+# Shape file for lane 8
+v -100 100 -0.075
+vt 0 0
+v -100 -100 -0.075
+vt 20 0
+v 500.00001 100 -0.075
+vt 0 60.000001
+v 500.00001 -100 -0.075
+vt 20 60.000001
+mtllib Roads\3D_Road\Road_8d80f3a3-30e0-4401-b40d-8ff26fa43d87_8.mtl
+usemtl Grass (Light)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

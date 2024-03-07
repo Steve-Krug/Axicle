@@ -1,4 +1,4 @@
-Run made by VS Road Calculator at 20:24 on January 16, 2023.
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
 Utility to calculate road and path coordinates for visualization
 Started with simfile: Roads\3D_Road\simfile_road
 
@@ -15,11 +15,11 @@ Used Dataset: Road: Animator Surface Shapes; { Roads } 1200 m One Ln Road + 100 
  152.4-m R. Circle, 10% Bank, Mu = 0.85 #1 <Circular Roads>
 Used Dataset: Road: 3D Surface (All Properties); { Circular Roads } 152.4-m R. Circle, 10% Bank, Mu = 0.85 #1
 
-Time to read input = 0.0005087
-
-Run stopped at t = 12.28. Stop time reached.
+Time to read input = 0.000429
 
 Run started: VS output file = Roads\3D_Road\Road_b375cf11-baee-4674-9fb7-88fefc8ebe48.vsb
+
+Run stopped at t = 8.72. External control (manual or external model)
 
 Computational time ratio: RTIME = inf (real time)/(simulation time)
 

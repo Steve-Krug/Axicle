@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.961
 *RZ 0.961
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Farm Tractor } Large Farm Tractor (Front)
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Farm Tractor } Large Farm Tractor (Fr
 #DataSet : Large Farm Tractor (Front)
 #Category: Farm Tractor
 #FileID  : Custom_cd316eb8-f8b8-4711-9667-44b897070273
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; CFy =
 #Category: 
 #FileID  : AirCFy_75367110-1cb1-441b-8cfa-78a1f5c47c9a
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Fy vs. Aero Slip
 
 END

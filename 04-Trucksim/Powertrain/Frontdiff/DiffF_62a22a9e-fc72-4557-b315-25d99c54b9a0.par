@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Powertrain: Front Differential; { Open } Open Differenti
 #Category: Open
 #FileID  : DiffF_62a22a9e-fc72-4557-b315-25d99c54b9a0
 #Modified: 06-07-2021 01:49:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Front Differential
 
 END

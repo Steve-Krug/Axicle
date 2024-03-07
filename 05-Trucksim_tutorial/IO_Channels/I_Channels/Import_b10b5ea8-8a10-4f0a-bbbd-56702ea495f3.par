@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Steering System Control } Steeri
 #Category: Steering System Control
 #FileID  : Import_b10b5ea8-8a10-4f0a-bbbd-56702ea495f3
 #Modified: 08-03-2021 13:32:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

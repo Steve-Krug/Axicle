@@ -9,6 +9,8 @@ NAXLES 1
 #CheckBox2 1    
 #CheckBox3 1    
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 *LDUAL 310
 *LX_H 1980
 *Y_H 0
@@ -96,9 +98,9 @@ LOG_ENTRY Used Dataset: Vehicle: Dolly with 1 Axle; 1A Dolly w/ Rigid Towbar
 #Category: 
 #FileID  : Dly1a_b71e331b-be64-467e-98a3-737e8110a5f2
 #Created : 09-27-2021 14:10:13
-#Modified: 04-25-2022 08:54:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:12
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dS
 
 END

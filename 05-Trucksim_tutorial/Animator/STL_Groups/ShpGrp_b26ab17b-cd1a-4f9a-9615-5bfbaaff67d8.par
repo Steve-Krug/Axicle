@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Artic Bus } Artic Bus: Unit 
 #FileID  : ShpGrp_b26ab17b-cd1a-4f9a-9615-5bfbaaff67d8
 #Created : 05-27-2022 17:26:00
 #Modified: 05-31-2022 10:29:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

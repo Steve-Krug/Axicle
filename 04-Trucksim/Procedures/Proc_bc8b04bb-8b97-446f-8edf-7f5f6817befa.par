@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } 5-Lane Highway Section
 #Category: Driving
 #FileID  : Proc_bc8b04bb-8b97-446f-8edf-7f5f6817befa
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

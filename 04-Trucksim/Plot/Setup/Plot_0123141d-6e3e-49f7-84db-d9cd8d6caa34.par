@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Kingpin Angle
 #FileID  : Plot_0123141d-6e3e-49f7-84db-d9cd8d6caa34
 #Created : 06-03-2022 13:14:55
 #Modified: 06-03-2022 13:15:48
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

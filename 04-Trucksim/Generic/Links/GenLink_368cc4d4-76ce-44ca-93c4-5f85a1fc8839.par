@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Tractor Trailer Vehicle Combin
 #Category: Tractor Trailer Vehicle Combinations
 #FileID  : GenLink_368cc4d4-76ce-44ca-93c4-5f85a1fc8839
 #Modified: 06-07-2021 01:53:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode s_s + s + ds + s + ds + s + ds + s + ds + s + ds + s + ds + s + ds + s
 
 END

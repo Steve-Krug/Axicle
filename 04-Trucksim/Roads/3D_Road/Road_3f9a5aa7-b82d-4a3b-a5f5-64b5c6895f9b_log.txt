@@ -1,0 +1,22 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b.par"
+Include PARSFILE "Roads\Center_XY\PathXY_b731e8cf-c781-4948-a5e9-abb1be977155.par"
+Used Dataset: Path: X-Y Coordinates; { Parking Lot } Parking Lot: Lot Definition Path
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_e4435070-8349-4a26-b4bf-83e0653c6ecd.par"
+Used Dataset: Road: Animator Surface Shapes; { Parking Lot } Surface Striping
+ Striping <Parking Lot>
+Used Dataset: Road: 3D Surface (All Properties); { Parking Lot } Striping
+
+Time to read input = 0.0004606
+
+Run started: VS output file = Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b.vsb
+
+Run stopped at t = 2.4. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

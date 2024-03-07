@@ -11,7 +11,6 @@ ROAD_ID_OBJ CURRENT_ROAD_ID
 #CheckBox1 0    
 OPT_RECYCLE_OBJ 0
 #CheckBox2 0    
-#CheckBox3 1    
 #CheckBox6 0    
 #CheckBox7 0    
 #CheckBox8 1    
@@ -36,7 +35,6 @@ REFLECT_OBJ 1
 *HEADING_VEL -120/DR
 EQ_INIT HeadO_<<o>> -120/DR
 *START gt(station,110)
-SET_RUN_COLOR 0.8 0 0
 PARSFILE Animator\Vehicles\AniVeh_64b08965-9455-4528-ba1c-f527125d89cb.par
 #BlueLink0 Animator: Vehicles and Sensor Targets`4A Dump Truck w/ Lift Axle` 4A Lead Units` , 3D Shape for Video`AniVeh_64b08965-9455-4528-ba1c-f527125d89cb
 
@@ -57,9 +55,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Sensor Targets } Dump T
 #DataSet : Dump Truck
 #Category: Sensor Targets
 #FileID  : Target_4e6a3f51-a772-4fd5-a062-d5c66783fb2b
-#Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

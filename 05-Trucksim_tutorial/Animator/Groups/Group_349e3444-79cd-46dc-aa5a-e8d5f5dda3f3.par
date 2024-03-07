@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Tire force and moment } Animate tire 
 #Category: Tire force and moment
 #FileID  : Group_349e3444-79cd-46dc-aa5a-e8d5f5dda3f3
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

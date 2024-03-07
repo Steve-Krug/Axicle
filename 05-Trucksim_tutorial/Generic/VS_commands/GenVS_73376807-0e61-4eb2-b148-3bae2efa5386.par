@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Chassis twist study } Raise one w
 #Category: Chassis twist study
 #FileID  : GenVS_73376807-0e61-4eb2-b148-3bae2efa5386
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

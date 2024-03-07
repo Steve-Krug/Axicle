@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } 175/65 R14
 #FileID  : Tire_76fe8d6a-5f7e-4855-93df-de3427664207
 #Created : 05-05-2021 14:46:16
 #Modified: 01-31-2022 10:17:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

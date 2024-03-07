@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Forces and Moments } Damping F
 #Category: Suspension Forces and Moments
 #FileID  : Plot_611d5c3a-96d6-4ce1-9480-2884389661ab
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

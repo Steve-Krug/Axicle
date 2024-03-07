@@ -1,0 +1,87 @@
+PARSFILE
+add_reference_frame The Road
+reference_frame_ghosts off
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_1.obj
+set_color 0.878 0.878 0.878
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_2.obj
+set_color 0.878 0.878 0.879
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_3.obj
+set_color 0.878 0.878 0.880
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_4.obj
+set_color 0.878 0.878 0.881
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_5.obj
+set_color 0.878 0.878 0.882
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_6.obj
+set_color 0.878 0.878 0.883
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_7.obj
+set_color 0.878 0.878 0.884
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_8.obj
+set_color 0.878 0.878 0.885
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_9.obj
+set_color 0.878 0.878 0.886
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_3f9a5aa7-b82d-4a3b-a5f5-64b5c6895f9b_10.obj
+set_color 0.878 0.878 0.887
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+
+
+END

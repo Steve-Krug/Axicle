@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } Hill Start Assist (Manual Tran
 #Category: Alerts
 #FileID  : HUD_094891c0-4027-4836-a014-d142ac2881cc
 #Modified: 03-29-2022 16:03:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

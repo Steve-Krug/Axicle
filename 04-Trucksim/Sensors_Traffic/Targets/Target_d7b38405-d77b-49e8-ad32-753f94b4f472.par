@@ -38,7 +38,6 @@ add_obj Sensors_Traffic\Poly\PolyShape_1af21791-5177-4014-ba1f-071c1f664569.obj
 set_transparency 0.5
 SET_OFFSET_Z 0.5
 SET_COLOR 0.2 0.6 0
-SET_RUN_COLOR 0.2 0.6 0
 PARSFILE Sensors_Traffic\Poly\poly_1af21791-5177-4014-ba1f-071c1f664569.par
 #BlueLink1 Polygonal Shape Coordinates`Building, Type 9, Three Stories` ` , Polygonal Coordinates`poly_1af21791-5177-4014-ba1f-071c1f664569
 
@@ -61,9 +60,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Irregularly Shaped Obje
 #DataSet : Building
 #Category: Irregularly Shaped Objects
 #FileID  : Target_d7b38405-d77b-49e8-ad32-753f94b4f472
-#Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

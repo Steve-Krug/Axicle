@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Powertrain: Fuel Consumption Rate; { Fuel Rate Map vs. E
 #Category: Fuel Rate Map vs. Engine Speed
 #FileID  : FuelRate_1303af19-bdad-48a7-98f3-65bb3f76a724
 #Modified: 06-07-2021 01:49:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Fuel Rate
 
 END

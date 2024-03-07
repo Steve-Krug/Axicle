@@ -210,8 +210,8 @@ LOG_ENTRY Used Dataset: Path/Road: Segment Builder (Simple 3D); { Paths with Ban
 #Category: Paths with Banking
 #FileID  : Build_ecc721ed-a919-471d-93c0-393c89d7df90
 #Modified: 05-27-2022 20:37:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path/Road Segment Builder
 
 END

@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Alternate Unit Systems } SI Units
 #Category: Alternate Unit Systems
 #FileID  : GenVS_5b8f12fd-813c-4065-a236-d1efe025bcad
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

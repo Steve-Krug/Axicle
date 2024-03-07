@@ -172,8 +172,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Throt, Brakes, Speed, Gear
 #Category: HUD Groups
 #FileID  : HUD_264f659d-344a-48dd-8ad1-4fbed527e0c9
 #Modified: 03-29-2022 16:03:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

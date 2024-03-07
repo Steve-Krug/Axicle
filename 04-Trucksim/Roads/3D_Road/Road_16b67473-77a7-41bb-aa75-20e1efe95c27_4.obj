@@ -1,0 +1,20 @@
+# Shape file for lane 4
+v 0 -4 0
+vt 0 0
+v 0 -100 0
+vt 9.5 0
+v 200.00001 -4 0
+vt 0 20.000001
+v 200.00001 -100 0
+vt 9.5 20.000001
+mtllib Roads\3D_Road\Road_16b67473-77a7-41bb-aa75-20e1efe95c27_4.mtl
+usemtl Grass (Light)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

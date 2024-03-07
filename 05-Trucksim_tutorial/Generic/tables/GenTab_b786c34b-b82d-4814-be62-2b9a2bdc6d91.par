@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Suspended Cab } Susp. Cab: Linear dampe
 #FileID  : GenTab_b786c34b-b82d-4814-be62-2b9a2bdc6d91
 #Created : 05-26-2021 11:39:28
 #Modified: 06-07-2021 01:53:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

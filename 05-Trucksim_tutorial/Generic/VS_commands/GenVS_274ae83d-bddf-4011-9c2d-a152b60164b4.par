@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Drive Torques (Axle
 #Category: Plot Groups
 #FileID  : GenVS_274ae83d-bddf-4011-9c2d-a152b60164b4
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Events; { Sign Detection } Restart from Stop Sign
 #Category: Sign Detection
 #FileID  : Events_cf8ff139-db98-4673-961f-2f7e9829ba5b
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

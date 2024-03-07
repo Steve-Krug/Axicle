@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Models: Transfer to Local Windows Directory`Simple Run from MatLab`
+*USE_ALT_DIR 1
+#ALTPATH C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\02-Software\MatLab
+#CheckBox1 0    
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+#RingCtrl1 1
+*X64SOLVER 1
+#RingCtrl2 -1
+#MiscYellow1
+simfile simple.sim
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+LOG_ENTRY Used Dataset: Models: Transfer to Local Windows Directory; Simple Run from MatLab
+#Library : Models: Transfer to Local Windows Directory
+#DataSet : Simple Run from MatLab
+#Category: 
+#FileID  : Local_e982b0d0-6066-47a0-8e50-3ddb709ce6dc
+#Created : 05-04-2023 20:25:16
+#Modified: 05-04-2023 20:28:56
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode 
+
+END

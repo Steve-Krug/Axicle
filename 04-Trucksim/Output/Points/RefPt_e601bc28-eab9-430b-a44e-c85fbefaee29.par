@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Custom Forces and Reference Points; { Platoon Reference 
 #Category: Platoon Reference Points
 #FileID  : RefPt_e601bc28-eab9-430b-a44e-c85fbefaee29
 #Modified: 06-07-2021 01:53:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Custom Forces
 
 END

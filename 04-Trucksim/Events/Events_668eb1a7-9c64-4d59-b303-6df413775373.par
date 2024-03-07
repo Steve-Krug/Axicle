@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Events; { Pedestrian and Bike Detection } Change LTARG_O
 #Category: Pedestrian and Bike Detection
 #FileID  : Events_668eb1a7-9c64-4d59-b303-6df413775373
 #Modified: 06-07-2021 01:49:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

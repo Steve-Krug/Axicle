@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Events; { Straight Line Braking } D. Accelerate
 #FileID  : Events_90f912cd-a705-4788-b6a6-251f78d8fc4b
 #Created : 10-15-2021 15:55:11
 #Modified: 10-15-2021 16:05:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

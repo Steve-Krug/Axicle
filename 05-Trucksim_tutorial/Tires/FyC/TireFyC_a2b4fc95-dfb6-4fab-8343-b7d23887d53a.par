@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force vs. Inclination; { Extended with Cam
 #Category: Extended with Camber Details
 #FileID  : TireFyC_a2b4fc95-dfb6-4fab-8343-b7d23887d53a
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fy
 
 END

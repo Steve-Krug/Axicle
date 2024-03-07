@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Extended with Camber Details
 #Category: Extended with Camber Details
 #FileID  : TireFx_bbeee974-4dbd-4dfb-88c8-abd1684efb14
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

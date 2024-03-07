@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } Blind Spot Alerts
 #Category: Alerts
 #FileID  : HUD_5d5f7982-ee80-49a3-98b1-add3ef4a979a
 #Modified: 06-07-2021 01:53:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

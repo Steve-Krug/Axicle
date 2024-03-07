@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Roads and Environment } 6-Lane Hwy w/
 #Category: Roads and Environment
 #FileID  : Group_37921fcd-597c-46f7-81a9-68afa2a5af4e
 #Modified: 06-07-2021 01:54:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

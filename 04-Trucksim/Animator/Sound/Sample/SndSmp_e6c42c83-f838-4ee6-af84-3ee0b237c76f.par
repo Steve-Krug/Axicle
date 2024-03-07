@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Animator: Sound Sample; { Wind Noise } Wind Noise
 #Category: Wind Noise
 #FileID  : SndSmp_e6c42c83-f838-4ee6-af84-3ee0b237c76f
 #Modified: 06-07-2021 01:53:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Sound Sample
 
 END

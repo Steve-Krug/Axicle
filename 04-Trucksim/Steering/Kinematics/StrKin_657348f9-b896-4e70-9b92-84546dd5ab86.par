@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for One Wheel; { 4 m Wheelba
 #Category: 4 m Wheelbase
 #FileID  : StrKin_657348f9-b896-4e70-9b92-84546dd5ab86
 #Modified: 06-07-2021 01:49:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Kinematics
 
 END

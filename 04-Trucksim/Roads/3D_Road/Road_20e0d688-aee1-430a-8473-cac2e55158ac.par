@@ -412,8 +412,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Scenic Roads } Curv
 #Category: Scenic Roads
 #FileID  : Road_20e0d688-aee1-430a-8473-cac2e55158ac
 #Modified: 01-21-2022 14:00:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

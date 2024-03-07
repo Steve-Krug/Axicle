@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_0ba9ec4d-0ad1-4df5-aa5e-eb9bc351a8b3.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -79,9 +80,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Chassis Twist } 003 Constant rad
 #DataSet : 003 Constant rad. and speed: Node ctr
 #Category: Chassis Twist
 #FileID  : Run_f1ecc6c7-1e1a-4831-8cad-5c2f553cacfe
-#Modified: 05-03-2022 12:53:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:16
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

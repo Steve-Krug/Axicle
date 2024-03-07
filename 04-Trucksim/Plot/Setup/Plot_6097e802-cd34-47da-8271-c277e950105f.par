@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Motion } Rebound Stop Compress
 #Category: Suspension Motion
 #FileID  : Plot_6097e802-cd34-47da-8271-c277e950105f
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Suspension: Dive Angle (Solid Axle); { Rear } 2D Dive - 
 #FileID  : DiveSA_7fb9f93a-ec3b-4047-8ffc-432dac6c5c37
 #Created : 05-17-2021 13:49:49
 #Modified: 06-07-2021 01:49:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Dive (Solid Axle)
 
 END

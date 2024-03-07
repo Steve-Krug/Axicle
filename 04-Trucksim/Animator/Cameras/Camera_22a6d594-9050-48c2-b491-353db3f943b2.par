@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } 30 Azm, 10
 #FileID  : Camera_22a6d594-9050-48c2-b491-353db3f943b2
 #Created : 11-11-2021 10:29:55
 #Modified: 11-11-2021 10:30:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

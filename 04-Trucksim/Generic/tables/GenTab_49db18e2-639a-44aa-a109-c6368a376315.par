@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Traffic } Platoon Intruder Speed
 #FileID  : GenTab_49db18e2-639a-44aa-a109-c6368a376315
 #Created : 09-14-2021 15:07:08
 #Modified: 01-21-2022 14:00:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

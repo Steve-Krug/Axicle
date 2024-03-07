@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { ADAS Sensors } ADAS Sensor:
 #Category: ADAS Sensors
 #FileID  : Frame_b8e2deb2-7eca-413e-ad8c-98ebf7bb57e7
 #Modified: 06-07-2021 01:54:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

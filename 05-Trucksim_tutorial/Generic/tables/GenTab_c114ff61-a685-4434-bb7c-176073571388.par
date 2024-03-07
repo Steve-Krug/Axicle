@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Batt. discharged res
 #Category: Powertrain (HEV)
 #FileID  : GenTab_c114ff61-a685-4434-bb7c-176073571388
 #Modified: 01-20-2022 14:26:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Sensor Setup } Tour Bus, AEB
 #FileID  : GenGrp_977dc6b4-0ea7-4127-bf78-6cfdb0d78621
 #Created : 09-24-2021 13:47:36
 #Modified: 10-12-2021 15:17:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

@@ -1,0 +1,20 @@
+# Shape file for lane 12
+v 102 7 0.01
+vt 0 0
+v 102 3.6 0.01
+vt 1 0
+v 110.00001 7 0.01
+vt 0 8.00001
+v 110.00001 3.6 0.01
+vt 1 8.00001
+mtllib Roads\3D_Road\Road_8649d26f-8985-4d34-938b-f6aca47cb2f8_12.mtl
+usemtl Road (No Lines)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

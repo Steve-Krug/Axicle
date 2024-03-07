@@ -94,8 +94,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { 2D Spline } 
 #Category: 2D Spline
 #FileID  : RdMapZ_65e60ef3-e6fa-4211-829d-86b28f99bcc6
 #Modified: 06-07-2021 01:51:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

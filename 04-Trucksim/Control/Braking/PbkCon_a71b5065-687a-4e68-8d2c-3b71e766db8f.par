@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } C
 #FileID  : PbkCon_a71b5065-687a-4e68-8d2c-3b71e766db8f
 #Created : 09-29-2021 14:16:53
 #Modified: 09-29-2021 14:17:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brake Control
 
 END

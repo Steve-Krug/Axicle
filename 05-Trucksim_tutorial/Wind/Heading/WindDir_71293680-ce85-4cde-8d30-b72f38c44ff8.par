@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Wind Heading; Constant: 1 deg
 #Category: 
 #FileID  : WindDir_71293680-ce85-4cde-8d30-b72f38c44ff8
 #Modified: 06-07-2021 01:48:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Wind Heading
 
 END

@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } CCRm Label, GVT 60 km/h
 #FileID  : HUD_76756415-c5c5-4e72-908d-3579f5f3bbc9
 #Created : 11-12-2021 11:24:48
 #Modified: 03-29-2022 16:03:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

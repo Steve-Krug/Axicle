@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Path: X-Y Coordinates; { Scene Builder Tile Paths } City
 #Category: Scene Builder Tile Paths
 #FileID  : PathXY_13bb87bd-3d56-46da-b032-d1e5bf7d464f
 #Modified: 06-07-2021 01:51:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y Coordinates of Path
 
 END

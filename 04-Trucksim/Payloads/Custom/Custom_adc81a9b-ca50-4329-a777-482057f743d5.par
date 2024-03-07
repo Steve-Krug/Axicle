@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 4.163
 *RZ 4.163
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Medium Crates } Medium Crate (Front)
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Medium Crates } Medium Crate (Front)
 #DataSet : Medium Crate (Front)
 #Category: Medium Crates
 #FileID  : Custom_adc81a9b-ca50-4329-a777-482057f743d5
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

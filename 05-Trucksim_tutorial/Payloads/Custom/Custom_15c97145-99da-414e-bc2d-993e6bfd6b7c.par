@@ -1,0 +1,58 @@
+PARSFILE
+#FullDataName Payload: Custom`Steel Coil (Single) AxicleTest1`Steel Coils
+DEFINE_PAYLOADS 1
+ILOAD = NLOAD
+OPT_PL_BODY_ID = IUNIT
+IOBJECT_SAVE
+SET_DESCRIPTION PAYLOAD_NAME Steel Coil (Single) AxicleTest1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Animator\STL\Shape_4aa68635-5b1d-43b2-b9a4-160ec2613b93.par
+#BlueLink0 Animator: Shape File Link`Covered Steel Coil` Common Vehicle Assets: Payloads` , Animator`Shape_4aa68635-5b1d-43b2-b9a4-160ec2613b93
+
+SET_OFFSET_X -7.32500034792
+SET_OFFSET_Y 0
+SET_OFFSET_Z 4.50000021374
+Z_CG_PL 4500
+LX_CG_PL 7325
+Y_CG_PL 0
+M_PL 18142
+IXX_PL 4605.763
+IYY_PL 5807.862
+IZZ_PL 5807.862
+IXZ_PL 0
+IXY_PL 0
+IYZ_PL 0
+*RX 0.504
+*RY 0.566
+*RZ 0.566
+
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
+IOBJECT_RESTORE
+
+#EMBEDDED_NOTES
+#Steel Coil properties:
+#
+#Width: 1.5m
+#OD: 1.45 m
+#ID: 0.3625 m
+#
+#Density: 8,050 kg/m^3
+#
+#Total Weight: About 41,225 lbf
+#
+#Payload is oriented so that the hollow center of the coiled steel is along the trailer sprung mass X axis.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Payload: Custom; { Steel Coils } Steel Coil (Single) AxicleTest1
+#Library : Payload: Custom
+#DataSet : Steel Coil (Single) AxicleTest1
+#Category: Steel Coils
+#FileID  : Custom_15c97145-99da-414e-bc2d-993e6bfd6b7c
+#Created : 04-04-2023 18:27:55
+#Modified: 06-13-2023 13:14:06
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Payload: Custom
+
+END

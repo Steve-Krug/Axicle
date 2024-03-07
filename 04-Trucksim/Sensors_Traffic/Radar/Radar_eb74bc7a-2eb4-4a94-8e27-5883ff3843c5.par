@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { Forward Facing Se
 #FileID  : Radar_eb74bc7a-2eb4-4a94-8e27-5883ff3843c5
 #Created : 09-30-2021 10:00:24
 #Modified: 11-10-2021 15:18:48
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ADAS Sensor
 
 END

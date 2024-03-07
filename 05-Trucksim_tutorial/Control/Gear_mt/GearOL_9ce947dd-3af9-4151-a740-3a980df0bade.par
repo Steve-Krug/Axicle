@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Control: Shifting (Open Loop); { Constant } 1st Gear, 3s
 #Category: Constant
 #FileID  : GearOL_9ce947dd-3af9-4151-a740-3a980df0bade
 #Modified: 06-07-2021 01:53:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Shift Control
 
 END

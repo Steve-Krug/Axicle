@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { 175 kW Powertrains } 175
 #Category: 175 kW Powertrains
 #FileID  : RWD_3551a6ec-31bc-44d3-b185-77304c43c045
 #Modified: 01-06-2022 16:54:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RWD
 
 END

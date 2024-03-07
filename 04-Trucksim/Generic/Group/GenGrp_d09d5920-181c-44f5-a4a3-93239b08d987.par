@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Sensor Setup } Dually Pickup
 #FileID  : GenGrp_d09d5920-181c-44f5-a4a3-93239b08d987
 #Created : 10-13-2021 13:03:22
 #Modified: 10-13-2021 16:36:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

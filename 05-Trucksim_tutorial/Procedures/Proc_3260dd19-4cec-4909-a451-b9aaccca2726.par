@@ -68,8 +68,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Model, Extended and External } Exte
 #Category: Driver Model, Extended and External
 #FileID  : Proc_3260dd19-4cec-4909-a451-b9aaccca2726
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

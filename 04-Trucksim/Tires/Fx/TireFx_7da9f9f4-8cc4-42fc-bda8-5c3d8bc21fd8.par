@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Touring Tires } 175/65 R14
 #FileID  : TireFx_7da9f9f4-8cc4-42fc-bda8-5c3d8bc21fd8
 #Created : 05-05-2021 14:47:44
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

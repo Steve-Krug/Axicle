@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Powertrain: Yaw Control Differential; Capacity 2400 N-m,
 #Category: 
 #FileID  : DiffYC_bf44b90a-48fb-4531-819f-22f0dce8508a
 #Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Yaw Control Diff.
 
 END

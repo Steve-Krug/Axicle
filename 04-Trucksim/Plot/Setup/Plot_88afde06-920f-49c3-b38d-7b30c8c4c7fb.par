@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspended Cab } Cab Mount Spring Force
 #Category: Suspended Cab
 #FileID  : Plot_88afde06-920f-49c3-b38d-7b30c8c4c7fb
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

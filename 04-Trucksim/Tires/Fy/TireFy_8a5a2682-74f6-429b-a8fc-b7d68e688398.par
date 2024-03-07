@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D 
 #Category: Normalized Tires
 #FileID  : TireFy_8a5a2682-74f6-429b-a8fc-b7d68e688398
 #Modified: 06-07-2021 01:48:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fy
 
 END

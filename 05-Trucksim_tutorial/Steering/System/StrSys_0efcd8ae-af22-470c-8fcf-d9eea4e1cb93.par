@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Steering System; { Pickup Trucks } Compact: Power, Recir
 #Category: Pickup Trucks
 #FileID  : StrSys_0efcd8ae-af22-470c-8fcf-d9eea4e1cb93
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

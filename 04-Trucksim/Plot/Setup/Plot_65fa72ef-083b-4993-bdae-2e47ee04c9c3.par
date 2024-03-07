@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { User-Defined Variables } PARTIAL: Kappa d
 #FileID  : Plot_65fa72ef-083b-4993-bdae-2e47ee04c9c3
 #Created : 06-01-2022 14:05:49
 #Modified: 06-01-2022 14:36:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

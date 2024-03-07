@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Central ClutchTorque
 #Category: Powertrain
 #FileID  : Plot_b00ded08-10b5-4697-9c96-ecb26e588c25
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

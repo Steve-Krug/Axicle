@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { LCF Vans } 2A LCF, Frame 
 #Category: LCF Vans
 #FileID  : VehLoad_cef06dce-af8e-4aae-9032-cc1a7d093f36
 #Modified: 06-07-2021 01:48:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode F_S_S
 
 END

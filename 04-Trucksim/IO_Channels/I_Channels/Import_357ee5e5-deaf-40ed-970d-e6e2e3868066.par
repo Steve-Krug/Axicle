@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Parallel Solvers } Position and 
 #Category: Parallel Solvers
 #FileID  : Import_357ee5e5-deaf-40ed-970d-e6e2e3868066
 #Modified: 12-08-2021 15:20:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

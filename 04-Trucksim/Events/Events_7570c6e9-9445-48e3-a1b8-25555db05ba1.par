@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Events; { Step Steer Test with Trailer } D. Apply Brakes
 #Category: Step Steer Test with Trailer
 #FileID  : Events_7570c6e9-9445-48e3-a1b8-25555db05ba1
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

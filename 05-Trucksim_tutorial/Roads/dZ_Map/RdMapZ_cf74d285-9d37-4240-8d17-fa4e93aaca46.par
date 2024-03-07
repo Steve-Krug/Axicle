@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Roundabout, 
 #Category: Roundabout, D = 36 m
 #FileID  : RdMapZ_cf74d285-9d37-4240-8d17-fa4e93aaca46
 #Modified: 06-07-2021 01:51:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

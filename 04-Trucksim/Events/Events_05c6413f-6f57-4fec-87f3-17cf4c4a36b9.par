@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Detection } Braking for Object v4
 #Category: ADAS Detection
 #FileID  : Events_05c6413f-6f57-4fec-87f3-17cf4c4a36b9
 #Modified: 06-07-2021 01:49:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

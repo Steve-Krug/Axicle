@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { School Buses } School Bus
 #Category: School Buses
 #FileID  : VehLoad_c8c74fdf-c09e-47a8-ab39-70dc80676ef6
 #Modified: 06-07-2021 01:48:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } Steer vs
 #FileID  : Plot_481b5a18-9c6d-47e1-a173-27d858fbff74
 #Created : 11-17-2021 08:37:15
 #Modified: 11-17-2021 08:38:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

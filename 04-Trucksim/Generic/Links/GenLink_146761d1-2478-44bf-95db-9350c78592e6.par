@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Conventional Triple Road Train
 #FileID  : GenLink_146761d1-2478-44bf-95db-9350c78592e6
 #Created : 09-29-2021 13:07:55
 #Modified: 10-04-2021 16:19:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS + SSS + dSSS + SSS + dSSS + SSS
 
 END

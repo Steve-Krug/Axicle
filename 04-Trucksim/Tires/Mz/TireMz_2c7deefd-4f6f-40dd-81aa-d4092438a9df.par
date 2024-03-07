@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Extended with Camber Details } 
 #Category: Extended with Camber Details
 #FileID  : TireMz_2c7deefd-4f6f-40dd-81aa-d4092438a9df
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mz
 
 END

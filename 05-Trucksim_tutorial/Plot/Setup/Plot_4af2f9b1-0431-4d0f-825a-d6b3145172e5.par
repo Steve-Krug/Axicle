@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Roll Angle of Sprung Mas
 #Category: Vehicle Motion
 #FileID  : Plot_4af2f9b1-0431-4d0f-825a-d6b3145172e5
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

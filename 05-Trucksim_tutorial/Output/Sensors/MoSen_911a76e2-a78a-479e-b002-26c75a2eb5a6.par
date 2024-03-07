@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { Telescopic T
 #Category: Telescopic Trailer Steer Point
 #FileID  : MoSen_911a76e2-a78a-479e-b002-26c75a2eb5a6
 #Modified: 06-07-2021 01:53:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Motion Sensors
 
 END

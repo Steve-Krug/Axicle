@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_51b19232-df25-4402-948c-54ff37ef0d68.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -97,9 +98,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Scene Import } Atlas: 3D Highway
 #DataSet : Atlas: 3D Highway Exit (Scenic)
 #Category: Scene Import
 #FileID  : Run_f1a4e329-f1b9-44a2-8750-e6f571f2a8ce
-#Modified: 12-13-2021 13:49:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

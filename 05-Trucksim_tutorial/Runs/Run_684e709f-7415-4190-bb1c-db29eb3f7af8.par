@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_db1579b8-2ceb-447d-8157-99fd59c8fd1b.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -77,9 +78,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Driver Model } 3-Point Turn
 #DataSet : 3-Point Turn
 #Category: Driver Model
 #FileID  : Run_684e709f-7415-4190-bb1c-db29eb3f7af8
-#Modified: 06-07-2021 02:10:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

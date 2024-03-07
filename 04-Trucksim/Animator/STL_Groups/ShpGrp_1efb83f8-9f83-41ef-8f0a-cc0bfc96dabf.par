@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } HD Utility Vehicle T
 #Category: Tires
 #FileID  : ShpGrp_1efb83f8-9f83-41ef-8f0a-cc0bfc96dabf
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

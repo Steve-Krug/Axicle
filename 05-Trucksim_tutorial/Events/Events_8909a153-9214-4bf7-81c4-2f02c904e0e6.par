@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Events; { Stop Conditions } Stop at Stop Sign
 #FileID  : Events_8909a153-9214-4bf7-81c4-2f02c904e0e6
 #Created : 05-31-2022 09:49:50
 #Modified: 05-31-2022 13:33:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -112,8 +112,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 3 Axles; { 3A Conventional Van }
 #Category: 3A Conventional Van
 #FileID  : Lead3a_77f7a020-a752-4698-af81-cad621d6b8fc
 #Modified: 09-01-2021 12:48:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

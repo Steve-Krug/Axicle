@@ -253,8 +253,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Throttle, Brakes, G-G, Spe
 #Category: HUD Groups
 #FileID  : HUD_647507c0-a511-41d5-8437-e3b1fc5eb87f
 #Modified: 03-29-2022 13:53:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

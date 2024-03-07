@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Opt. engine speed (p
 #FileID  : GenTab_61c8a2e9-5d80-4665-b032-d956aef2313b
 #Created : 11-30-2021 12:28:24
 #Modified: 11-30-2021 12:28:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

@@ -8328,8 +8328,8 @@ LOG_ENTRY Used Dataset: Surface: Roughness Profiles; { Road Roughness: NTC Profi
 #Category: Road Roughness: NTC Profiles
 #FileID  : Profile_db48373c-b5d6-4545-83dc-e5a0ef5a068c
 #Modified: 06-07-2021 01:50:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Roughness Profile
 
 END

@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Locked } Locked: 50/50, Gea
 #Category: Locked
 #FileID  : XC_d9f0b72e-5e3e-4a85-bfdd-9442e1fef990
 #Modified: 06-07-2021 01:49:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Transfer Case
 
 END

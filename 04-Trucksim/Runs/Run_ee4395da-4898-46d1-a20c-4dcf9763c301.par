@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -83,9 +84,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { External Control, Wrappers } FMI
 #DataSet : FMI/FMU: Simulink (Structured Ports)
 #Category: External Control, Wrappers
 #FileID  : Run_ee4395da-4898-46d1-a20c-4dcf9763c301
-#Modified: 06-07-2021 02:13:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

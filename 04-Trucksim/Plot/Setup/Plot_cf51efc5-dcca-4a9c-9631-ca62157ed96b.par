@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Sprung Mass Origin Verti
 #Category: Vehicle Motion
 #FileID  : Plot_cf51efc5-dcca-4a9c-9631-ca62157ed96b
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

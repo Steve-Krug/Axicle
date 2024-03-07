@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; { Lin
 #Category: Linear Interpolation
 #FileID  : AirCMz_69e3192e-3488-492b-a7e2-ecd10e075e83
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Mz vs. Aero Slip
 
 END

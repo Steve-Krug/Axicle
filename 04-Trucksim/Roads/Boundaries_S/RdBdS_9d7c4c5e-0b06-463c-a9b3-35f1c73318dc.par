@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: Road Boundary: New Station; { Roundabout D = 36 m } Roun
 #Category: Roundabout D = 36 m
 #FileID  : RdBdS_9d7c4c5e-0b06-463c-a9b3-35f1c73318dc
 #Modified: 06-07-2021 01:50:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundary S
 
 END

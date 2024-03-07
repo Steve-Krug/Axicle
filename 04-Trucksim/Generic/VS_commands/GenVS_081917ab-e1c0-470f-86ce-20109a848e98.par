@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Euro NCAP } ACC, CCRm VUT and GVT
 #FileID  : GenVS_081917ab-e1c0-470f-86ce-20109a848e98
 #Created : 11-12-2021 10:40:03
 #Modified: 11-12-2021 10:40:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode AEB, ACC Euro NCAP Setup
 
 END

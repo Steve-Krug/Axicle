@@ -84,8 +84,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } Accel. then Bra
 #Category: Acceleration and Braking
 #FileID  : Proc_5d9fc992-24ae-47ee-b261-84034bc83f88
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

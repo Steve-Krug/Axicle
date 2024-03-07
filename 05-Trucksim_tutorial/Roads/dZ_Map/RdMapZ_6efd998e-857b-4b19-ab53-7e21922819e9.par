@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Cur
 #Category: Gutters, Curbs, Ditches
 #FileID  : RdMapZ_6efd998e-857b-4b19-ab53-7e21922819e9
 #Modified: 06-07-2021 01:51:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

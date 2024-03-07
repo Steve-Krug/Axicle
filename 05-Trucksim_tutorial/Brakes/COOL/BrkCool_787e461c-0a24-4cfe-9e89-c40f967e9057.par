@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Brakes: Cooling Coefficient; { Large Euro Van } Front Br
 #Category: Large Euro Van
 #FileID  : BrkCool_787e461c-0a24-4cfe-9e89-c40f967e9057
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Cooling
 
 END

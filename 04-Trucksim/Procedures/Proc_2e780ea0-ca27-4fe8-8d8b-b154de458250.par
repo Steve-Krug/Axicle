@@ -107,8 +107,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } Braking: Split 
 #Category: Acceleration and Braking
 #FileID  : Proc_2e780ea0-ca27-4fe8-8d8b-b154de458250
 #Modified: 07-08-2021 12:54:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

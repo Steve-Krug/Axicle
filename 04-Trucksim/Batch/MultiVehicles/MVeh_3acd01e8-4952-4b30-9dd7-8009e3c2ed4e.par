@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Parallel VS Math Models; { Platooning } Five-Vehicle Pla
 #Category: Platooning
 #FileID  : MVeh_3acd01e8-4952-4b30-9dd7-8009e3c2ed4e
 #Modified: 12-11-2021 11:42:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode mVeh
 
 END

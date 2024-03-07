@@ -85,8 +85,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } Figure 8 with Aggressive
 #Category: Driver Controls
 #FileID  : Proc_64d150a3-0628-454b-a06c-6ec70b42fb9b
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

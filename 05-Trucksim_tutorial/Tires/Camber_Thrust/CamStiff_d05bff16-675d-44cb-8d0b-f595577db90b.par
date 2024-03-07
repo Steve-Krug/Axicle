@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/7
 #Category: Touring Tires
 #FileID  : CamStiff_d05bff16-675d-44cb-8d0b-f595577db90b
 #Modified: 06-07-2021 01:48:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camber Thrust
 
 END

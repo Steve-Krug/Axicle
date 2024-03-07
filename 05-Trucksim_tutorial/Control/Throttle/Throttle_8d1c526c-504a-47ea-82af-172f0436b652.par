@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 1.
 #FileID  : Throttle_8d1c526c-504a-47ea-82af-172f0436b652
 #Created : 01-16-2023 19:31:17
 #Modified: 01-16-2023 19:48:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-loop Throttle
 
 END

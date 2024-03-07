@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Brakes: Torque; { Chassis twist study } Base vehicle
 #Category: Chassis twist study
 #FileID  : BrkTrq_ea5ec0bc-4ca2-4de0-956c-2d2da2696a02
 #Modified: 06-07-2021 01:53:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brake Torque
 
 END

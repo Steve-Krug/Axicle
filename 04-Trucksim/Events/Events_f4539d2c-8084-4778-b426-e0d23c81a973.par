@@ -71,8 +71,8 @@ LOG_ENTRY Used Dataset: Events; { Transient Response Times } A. Accelerate to Sp
 #Category: Transient Response Times
 #FileID  : Events_f4539d2c-8084-4778-b426-e0d23c81a973
 #Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

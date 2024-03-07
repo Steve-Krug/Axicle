@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { D-Class } D-Cla
 #Category: D-Class
 #FileID  : AniVeh_185d62e8-e27d-4be3-87c4-3eeed284ad17
 #Modified: 04-18-2022 12:23:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

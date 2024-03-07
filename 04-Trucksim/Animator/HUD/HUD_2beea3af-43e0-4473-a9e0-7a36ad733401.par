@@ -143,8 +143,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Throt, Brake, Gear, RPM Te
 #Category: HUD Groups
 #FileID  : HUD_2beea3af-43e0-4473-a9e0-7a36ad733401
 #Modified: 03-29-2022 16:03:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

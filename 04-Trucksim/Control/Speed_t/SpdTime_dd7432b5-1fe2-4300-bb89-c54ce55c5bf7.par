@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { AEB C
 #Category: AEB CCRb Target Speed
 #FileID  : SpdTime_dd7432b5-1fe2-4300-bb89-c54ce55c5bf7
 #Modified: 06-07-2021 01:53:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Target Speed
 
 END

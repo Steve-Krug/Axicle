@@ -107,8 +107,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { S-Turns } Euro NCAP: Steer Assi
 #FileID  : RoadSeg_17fe9640-5fb5-4971-ae9a-6a1dfafa8843
 #Created : 11-12-2021 13:47:50
 #Modified: 11-12-2021 13:50:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Tire force and moment } Tire utili
 #Category: Tire force and moment
 #FileID  : GenGrp_498394c6-e7e0-4116-9e11-2ac309df2030
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

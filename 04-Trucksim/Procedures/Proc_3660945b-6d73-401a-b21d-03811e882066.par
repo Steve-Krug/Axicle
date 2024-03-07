@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } Open Loop Steer Torque: 
 #Category: Driver Controls
 #FileID  : Proc_3660945b-6d73-401a-b21d-03811e882066
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

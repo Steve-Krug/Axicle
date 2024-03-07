@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_6a030c0f-0bb9-408f-96f1-b927223d953f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -87,9 +88,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ACC: Euro NCAP Tests } ACC CCRb:
 #DataSet : ACC CCRb: -6 m/s^2, 40 m
 #Category: ACC: Euro NCAP Tests
 #FileID  : Run_57ac50f5-792c-44ff-bb4c-f57d09265064
-#Modified: 05-03-2022 12:41:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Events; { Opt_Engine_Running: Manual Transmission } B. B
 #Category: Opt_Engine_Running: Manual Transmission
 #FileID  : Events_b48a3b1f-c655-44b7-9c93-c36ac3f08e60
 #Modified: 06-07-2021 01:49:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

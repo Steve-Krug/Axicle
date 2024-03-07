@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Position, Accel. and Rate Sensors } Posit
 #Category: Position, Accel. and Rate Sensors
 #FileID  : Plot_9c353e25-e74e-4782-886d-496503bf320b
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

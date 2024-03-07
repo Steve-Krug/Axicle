@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Events`Initialize Variables`Iterate Variables
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 ZERO ~=
+#RingCtrl10 1
+#RingCtrl11 4
+*VALUE1 1
+DEFINE_EVENT 1 ; Events\Events_5d537a6c-f541-469c-ae4c-4863f34bbed5.par
+#BlueLink0 Events`Iterate Variables 2` Iterate Variables` , Events`Events_5d537a6c-f541-469c-ae4c-4863f34bbed5
+
+SET_EVENT_ID 0 ! reset to default
+
+LOG_ENTRY Used Dataset: Events; { Iterate Variables } Initialize Variables
+#Library : Events
+#DataSet : Initialize Variables
+#Category: Iterate Variables
+#FileID  : Events_90ccf102-6c65-4b8b-b0ed-db39ec82787c
+#Created : 06-09-2023 14:10:26
+#Modified: 06-09-2023 14:11:42
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Events
+
+END

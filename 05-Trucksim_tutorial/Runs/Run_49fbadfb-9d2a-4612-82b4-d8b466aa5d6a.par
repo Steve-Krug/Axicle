@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 1
@@ -82,9 +83,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: ICE } Open Loop Shif
 #DataSet : Open Loop Shift, Closed-loop Clutch
 #Category: Powertrain: ICE
 #FileID  : Run_49fbadfb-9d2a-4612-82b4-d8b466aa5d6a
-#Modified: 05-24-2022 13:34:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

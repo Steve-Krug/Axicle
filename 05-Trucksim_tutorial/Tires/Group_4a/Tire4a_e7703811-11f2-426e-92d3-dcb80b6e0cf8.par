@@ -142,8 +142,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 4 Axles; { TS 4A Steer / Drive 
 #Category: TS 4A Steer / Drive Tires
 #FileID  : Tire4a_e7703811-11f2-426e-92d3-dcb80b6e0cf8
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4a Tire Group
 
 END

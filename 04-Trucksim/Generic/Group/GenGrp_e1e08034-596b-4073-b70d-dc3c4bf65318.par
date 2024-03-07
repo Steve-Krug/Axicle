@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Very Large Vehicles } Telescopic T
 #Category: Very Large Vehicles
 #FileID  : GenGrp_e1e08034-596b-4073-b70d-dc3c4bf65318
 #Modified: 06-07-2021 01:53:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

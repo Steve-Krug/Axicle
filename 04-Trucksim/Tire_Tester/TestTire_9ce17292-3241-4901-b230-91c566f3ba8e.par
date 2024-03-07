@@ -68,8 +68,8 @@ LOG_ENTRY Used Dataset: Tire Tester; { Sweep Kappa +/- 1.0 } Sweep Kappa: Fz = 2
 #Category: Sweep Kappa +/- 1.0
 #FileID  : TestTire_9ce17292-3241-4901-b230-91c566f3ba8e
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire Tester
 
 END

@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Very Large Vehicles } 14 axle flat
 #Category: Very Large Vehicles
 #FileID  : GenGrp_bb06dc23-199b-4f97-ac8d-659159a1fb0c
 #Modified: 04-25-2022 08:49:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

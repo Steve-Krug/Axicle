@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Events; { Offset Backing } B. Offset Backing
 #Category: Offset Backing
 #FileID  : Events_d4274d68-59bf-4ef7-8bc8-33f849b9fcfe
 #Modified: 05-20-2022 19:12:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

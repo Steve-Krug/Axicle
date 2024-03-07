@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Hitch: Yaw Moment; 100 kN-m/deg (180 deg Lash)
 #Category: 
 #FileID  : HchMz_50b298cc-cb30-46df-b78a-f6edcd587091
 #Modified: 12-09-2021 09:45:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Hitch Mz
 
 END

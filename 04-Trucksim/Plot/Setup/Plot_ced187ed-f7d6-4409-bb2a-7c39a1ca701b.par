@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tracking } Z Coordinate: Sprung Mass Orig
 #Category: Tracking
 #FileID  : Plot_ced187ed-f7d6-4409-bb2a-7c39a1ca701b
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

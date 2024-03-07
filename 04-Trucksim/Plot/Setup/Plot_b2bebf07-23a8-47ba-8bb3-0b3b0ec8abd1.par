@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Obstacle Avoidance } ACC Validation: SC G
 #FileID  : Plot_b2bebf07-23a8-47ba-8bb3-0b3b0ec8abd1
 #Created : 09-24-2021 14:57:10
 #Modified: 09-24-2021 14:57:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

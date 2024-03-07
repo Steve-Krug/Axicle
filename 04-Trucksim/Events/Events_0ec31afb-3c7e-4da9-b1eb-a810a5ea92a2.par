@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Events; { Braking Distance, Pedal Force } A. Start at 10
 #Category: Braking Distance, Pedal Force
 #FileID  : Events_0ec31afb-3c7e-4da9-b1eb-a810a5ea92a2
 #Modified: 06-07-2021 01:49:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Position, Accel. and Rate Sensors } Heigh
 #Category: Position, Accel. and Rate Sensors
 #FileID  : Plot_d8e23465-0fa8-4913-aa4e-c04c0b2b146d
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

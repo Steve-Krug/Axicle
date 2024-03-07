@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { HUD } HUD Collision Dataset
 #Category: HUD
 #FileID  : Group_73b9c2ff-eb22-4a12-8989-31adbfccca3b
 #Modified: 06-07-2021 01:54:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

@@ -90,8 +90,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } FCW-AEB Tuning
 #FileID  : GenVS_dcdaf0cd-81b0-480c-9abc-3f5e65ec3e17
 #Created : 09-24-2021 14:06:38
 #Modified: 10-13-2021 16:33:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

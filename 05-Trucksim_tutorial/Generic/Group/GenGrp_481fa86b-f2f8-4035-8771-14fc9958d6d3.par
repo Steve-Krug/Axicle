@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Tire Skid Mark Animations } Skid M
 #Category: Tire Skid Mark Animations
 #FileID  : GenGrp_481fa86b-f2f8-4035-8771-14fc9958d6d3
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Suspended Cab } Susp. Cab Damper: Left 
 #FileID  : GenTab_9787d1d2-96f3-4009-aae6-b964ebccde6a
 #Created : 05-26-2021 11:56:26
 #Modified: 01-21-2022 14:00:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

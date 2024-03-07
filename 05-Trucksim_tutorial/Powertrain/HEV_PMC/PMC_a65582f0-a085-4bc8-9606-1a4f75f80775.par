@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric Power Management Control; Po
 #Category: 
 #FileID  : PMC_a65582f0-a085-4bc8-9606-1a4f75f80775
 #Modified: 08-03-2021 13:29:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Power Management (HEV)
 
 END

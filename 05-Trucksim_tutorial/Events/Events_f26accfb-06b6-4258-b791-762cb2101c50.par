@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Events; { Top Speed Test } C. Wait
 #Category: Top Speed Test
 #FileID  : Events_f26accfb-06b6-4258-b791-762cb2101c50
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

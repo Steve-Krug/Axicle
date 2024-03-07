@@ -98,8 +98,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { Pickup Trucks w/ Opti
 #Category: Pickup Trucks w/ Options
 #FileID  : Lead2a_693e3082-a0d7-4e8d-87aa-e8c56fa1079f
 #Modified: 02-24-2022 09:49:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_S
 
 END

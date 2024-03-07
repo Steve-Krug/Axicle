@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Events; { Straight Line Braking } A. Wait 5 seconds
 #FileID  : Events_a123c4db-7beb-4e1e-99f8-f09dfee403a4
 #Created : 09-28-2021 15:36:07
 #Modified: 09-28-2021 15:36:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

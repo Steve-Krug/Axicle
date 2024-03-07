@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Driver Sensor } Distance to Point
 #Category: Driver Sensor
 #FileID  : Plot_88df6252-2bbd-4438-8fb3-cf879005dc72
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

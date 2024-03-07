@@ -91,8 +91,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Pickup Trucks }
 #Category: Pickup Trucks
 #FileID  : AniVeh_b0c3e353-bf00-400e-8a70-a8b0c485d478
 #Modified: 04-18-2022 12:23:46
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Suspended Cab } Cab Over Tractor
 #Category: Suspended Cab
 #FileID  : Group_554d05c5-7039-45c8-ba6f-9489b2ccda00
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

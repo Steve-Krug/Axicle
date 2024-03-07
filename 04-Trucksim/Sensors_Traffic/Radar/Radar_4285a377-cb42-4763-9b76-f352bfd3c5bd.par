@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { Blind-Spot Sensor
 #Category: Blind-Spot Sensors
 #FileID  : Radar_4285a377-cb42-4763-9b76-f352bfd3c5bd
 #Modified: 06-07-2021 01:54:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ADAS Sensor
 
 END

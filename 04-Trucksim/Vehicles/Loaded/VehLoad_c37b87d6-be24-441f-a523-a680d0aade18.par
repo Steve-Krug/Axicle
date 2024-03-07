@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Cab-Over Tractor-Trailers
 #FileID  : VehLoad_c37b87d6-be24-441f-a523-a680d0aade18
 #Created : 10-14-2021 14:09:11
 #Modified: 12-13-2021 11:38:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS + SS
 
 END

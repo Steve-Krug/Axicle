@@ -1,0 +1,22 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_6c80c592-0acb-4c93-911a-1a854ac29e03.par"
+Include PARSFILE "Roads\ExScene\SceneImp_9b5a7793-bba8-47a2-8978-19ff12785807.par"
+Used Dataset: Scene: External Import; { Atlas } I-94, Exit 172 (Jackson Ave)
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_3586a32c-e988-4b9f-85fd-0ed1c9d9acbd.par"
+Used Dataset: Road: Animator Surface Shapes; { Highway Intersection } I-94 (Basic)
+ I-94 North, Near Exit 172 (Basic) <Atlas Map Downloads>
+Used Dataset: Road: 3D Surface (All Properties); { Atlas Map Downloads } I-94 North, Near Exit 172 (Basic)
+
+Time to read input = 0.0005929
+
+Run stopped at t = 17.92. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_6c80c592-0acb-4c93-911a-1a854ac29e03.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Steer / Drive 
 #Category: TS 2A Steer / Drive Tires: Camber Extensions
 #FileID  : Tire2a_42b99426-042e-4d21-a153-087f5b078776
 #Modified: 06-07-2021 01:48:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2a Tire Group
 
 END

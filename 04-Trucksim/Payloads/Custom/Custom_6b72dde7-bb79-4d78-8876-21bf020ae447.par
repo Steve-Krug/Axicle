@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.577
 *RZ 0.577
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Crate for Euro Box Van
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Crate for Euro Box Van
 #DataSet : Crate for Euro Box Van
 #Category: Crates
 #FileID  : Custom_6b72dde7-bb79-4d78-8876-21bf020ae447
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

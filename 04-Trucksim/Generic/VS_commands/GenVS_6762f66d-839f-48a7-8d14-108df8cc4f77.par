@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { K & C Testing } K & C Roll Test V
 #Category: K & C Testing
 #FileID  : GenVS_6762f66d-839f-48a7-8d14-108df8cc4f77
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

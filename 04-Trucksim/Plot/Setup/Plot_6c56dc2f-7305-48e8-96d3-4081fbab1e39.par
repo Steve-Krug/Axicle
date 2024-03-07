@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Roll vs. Lateral Accel.
 #Category: Vehicle Motion
 #FileID  : Plot_6c56dc2f-7305-48e8-96d3-4081fbab1e39
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: Procedures; { Sensors and Traffic } Lane Changes on Curv
 #Category: Sensors and Traffic
 #FileID  : Proc_fe67a8e9-fec5-4fc7-8b19-ef900dbb9f1b
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

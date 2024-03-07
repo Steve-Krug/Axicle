@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_8171e95c-812f-40a2-b50b-047399467883.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -87,9 +88,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Suspension and Ride Tests } Ind.
 #Category: Suspension and Ride Tests
 #FileID  : Run_eb26efab-74e7-47b1-83e5-c17e8c38fc64
 #Created : 11-17-2021 08:22:11
-#Modified: 05-05-2022 11:15:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:20
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

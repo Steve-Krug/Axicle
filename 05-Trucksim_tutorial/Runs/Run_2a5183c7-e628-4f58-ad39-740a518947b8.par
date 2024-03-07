@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_41978f36-4f18-4d5c-ab02-fc60fe430e15.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -86,9 +87,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Suspension and Ride Tests } Left
 #DataSet : Left / Right Bumps, Ind. Susp.: I_I + I
 #Category: Suspension and Ride Tests
 #FileID  : Run_2a5183c7-e628-4f58-ad39-740a518947b8
-#Modified: 12-09-2021 15:15:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

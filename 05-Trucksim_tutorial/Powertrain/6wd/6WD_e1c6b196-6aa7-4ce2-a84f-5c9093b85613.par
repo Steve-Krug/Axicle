@@ -79,8 +79,8 @@ LOG_ENTRY Used Dataset: Powertrain: 6-Wheel Drive; { 330 kW Powertrains } 330 kW
 #Category: 330 kW Powertrains
 #FileID  : 6WD_e1c6b196-6aa7-4ce2-a84f-5c9093b85613
 #Modified: 11-24-2021 14:13:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 6WD
 
 END

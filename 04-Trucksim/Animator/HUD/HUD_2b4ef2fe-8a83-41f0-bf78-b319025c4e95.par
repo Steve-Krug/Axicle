@@ -134,8 +134,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } ACC HUD, Collided Outputs
 #FileID  : HUD_2b4ef2fe-8a83-41f0-bf78-b319025c4e95
 #Created : 11-09-2021 10:43:34
 #Modified: 03-29-2022 16:03:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

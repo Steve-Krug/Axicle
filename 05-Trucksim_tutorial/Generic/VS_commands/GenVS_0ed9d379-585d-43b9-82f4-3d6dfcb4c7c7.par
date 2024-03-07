@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Tire Paths and Road Markings } Ti
 #Category: Tire Paths and Road Markings
 #FileID  : GenVS_0ed9d379-585d-43b9-82f4-3d6dfcb4c7c7
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

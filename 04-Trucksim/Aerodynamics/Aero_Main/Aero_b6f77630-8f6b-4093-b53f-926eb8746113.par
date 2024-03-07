@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Buses } Trailer Aero
 #FileID  : Aero_b6f77630-8f6b-4093-b53f-926eb8746113
 #Created : 01-02-2023 18:05:25
 #Modified: 01-02-2023 18:06:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

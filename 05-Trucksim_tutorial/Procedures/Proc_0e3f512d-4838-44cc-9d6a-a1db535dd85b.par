@@ -14,7 +14,7 @@ TSTART_WRITE = 0;
 TSTOP 8
 SSTOP = SSTART + 1 ;
 OPT_DIRECTION 1
-*SPEED 0
+*SPEED 100
 *TSTOP 8
 *TSTART 0
 *SSTART 0
@@ -27,7 +27,7 @@ SPEED_ID_SC = SPEED_TARGET_ID
 SPEED_TARGET_COMBINE ADD
 SPEED_TARGET_S_CONSTANT 0
 set_description SPEED_TARGET_ID Procedure: Crosswind Test #2
-SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_CONSTANT 100
 OPT_SC_ENGINE_BRAKING 0
 PARSFILE Control\Driver\StrDM_e2398fab-b956-498b-8858-93e89178bdf3.par
 #BlueLink27 Control: Steering by the Closed-loop Driver Model`0.6s Single Preview` Constant Position: No Offset` , Steering`StrDM_e2398fab-b956-498b-8858-93e89178bdf3
@@ -111,9 +111,9 @@ LOG_ENTRY Used Dataset: Procedures; { Stability Tests } Crosswind Test #2
 #Category: Stability Tests
 #FileID  : Proc_0e3f512d-4838-44cc-9d6a-a1db535dd85b
 #Created : 01-15-2023 18:24:05
-#Modified: 01-15-2023 19:14:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 16:05:51
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

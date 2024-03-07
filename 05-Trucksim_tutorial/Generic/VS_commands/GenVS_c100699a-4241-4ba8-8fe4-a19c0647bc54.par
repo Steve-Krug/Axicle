@@ -14,8 +14,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { PBS Tests } PBS: Lat Tracking Err
 #Category: PBS Tests
 #FileID  : GenVS_c100699a-4241-4ba8-8fe4-a19c0647bc54
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

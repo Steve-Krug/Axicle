@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } Sine Wave 0.2 Hz - Ramp t
 #Category: Steering Tests
 #FileID  : Proc_b2afc113-f409-474b-8433-6c367da60689
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

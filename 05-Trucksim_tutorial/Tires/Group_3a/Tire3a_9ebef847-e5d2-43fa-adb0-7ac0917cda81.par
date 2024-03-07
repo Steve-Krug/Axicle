@@ -85,8 +85,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 3 Axles; { 3A Steer / Drive Tir
 #Category: 3A Steer / Drive Tires
 #FileID  : Tire3a_9ebef847-e5d2-43fa-adb0-7ac0917cda81
 #Modified: 06-07-2021 01:48:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3a Tire Group
 
 END

@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { 160 deg Sensor } 
 #Category: 160 deg Sensor
 #FileID  : Radar_20f859dd-a34a-4c6f-a2c6-64f67345f31c
 #Modified: 06-07-2021 01:54:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ADAS Sensor
 
 END

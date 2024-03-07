@@ -65,8 +65,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } Lane Departures
 #Category: Alerts
 #FileID  : HUD_a0da4582-3f3f-4d36-a3a2-e88fc8411924
 #Modified: 03-29-2022 16:03:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

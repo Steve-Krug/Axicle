@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Events; { Step Steer Test with Trailer } A. Check Traile
 #Category: Step Steer Test with Trailer
 #FileID  : Events_c8c5a753-9ce2-49e0-a42a-9ee06841209c
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

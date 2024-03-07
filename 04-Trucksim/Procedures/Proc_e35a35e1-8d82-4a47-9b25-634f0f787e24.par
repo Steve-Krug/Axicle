@@ -90,8 +90,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Four Small Bumps, 0.3 m incr.
 #Category: Ride Tests
 #FileID  : Proc_e35a35e1-8d82-4a47-9b25-634f0f787e24
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

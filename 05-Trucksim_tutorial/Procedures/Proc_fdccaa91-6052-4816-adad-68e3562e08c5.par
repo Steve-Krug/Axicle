@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Procedures; { Handling Tests } DLC @ 50 km/h
 #Category: Handling Tests
 #FileID  : Proc_fdccaa91-6052-4816-adad-68e3562e08c5
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

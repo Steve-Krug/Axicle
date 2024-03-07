@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { Brake System Control } Master Cy
 #Category: Brake System Control
 #FileID  : Export_b5f7ef81-4b0d-4464-8881-112cd66c6112
 #Modified: 06-16-2021 12:36:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Export Channels
 
 END

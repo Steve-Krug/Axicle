@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Roundabout, D = 36 m } North En
 #Category: Roundabout, D = 36 m
 #FileID  : RoadSeg_54bf9423-3d57-4ba8-b3aa-45d2f4770104
 #Modified: 06-07-2021 01:51:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

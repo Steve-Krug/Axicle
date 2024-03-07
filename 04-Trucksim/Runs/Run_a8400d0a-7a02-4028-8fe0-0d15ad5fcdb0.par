@@ -31,6 +31,7 @@ PARSFILE Animator\Cameras\Camera_245b5580-eac8-4494-a96f-0533fd4ce892.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Performance Based Standards (PBS
 #DataSet : PBS  C2(A): Gradeability (Motion), 15%
 #Category: Performance Based Standards (PBS)
 #FileID  : Run_a8400d0a-7a02-4028-8fe0-0d15ad5fcdb0
-#Modified: 04-25-2022 09:29:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

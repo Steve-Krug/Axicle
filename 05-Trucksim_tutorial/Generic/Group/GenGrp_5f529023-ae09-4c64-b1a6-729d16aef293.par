@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Tire Path Animations } Tire Paths 
 #Category: Tire Path Animations
 #FileID  : GenGrp_5f529023-ae09-4c64-b1a6-729d16aef293
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

@@ -112,8 +112,8 @@ LOG_ENTRY Used Dataset: Procedures; { Stability Tests } Wind rollover
 #FileID  : Proc_cab72959-8e96-4623-ab10-078c80d860cc
 #Created : 01-02-2023 17:56:26
 #Modified: 01-02-2023 17:56:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

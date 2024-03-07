@@ -51,8 +51,8 @@ LOG_ENTRY Used Dataset: Procedures; { VS Scene Builder } Highway Scene
 #Category: VS Scene Builder
 #FileID  : Proc_f5176b3e-da62-43ca-a606-443cbbd77e8e
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

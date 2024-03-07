@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Test`
+
+ADD_ENTITY Plot
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS test
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Test
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; Test
+#Library : Plot: Setup
+#DataSet : Test
+#Category: 
+#FileID  : Plot_f5574237-249a-4508-9cbc-46a4ea67dc42
+#Created : 06-13-2023 13:09:47
+#Modified: 06-13-2023 13:10:03
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Plot Setup
+
+END

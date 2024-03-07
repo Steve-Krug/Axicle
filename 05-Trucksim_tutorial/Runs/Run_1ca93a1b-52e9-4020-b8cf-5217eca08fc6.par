@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_61b39158-568e-47fa-8bf6-1dd560356592.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: No Trailers } 2A
 #DataSet : 2A Conv, 8 Payloads
 #Category: Vehicle Layout: No Trailers
 #FileID  : Run_1ca93a1b-52e9-4020-b8cf-5217eca08fc6
-#Modified: 06-06-2022 11:04:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:26
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

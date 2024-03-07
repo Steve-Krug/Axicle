@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Detection } Ensure Object Collision v3
 #Category: ADAS Detection
 #FileID  : Events_acffe74c-af43-4d5f-aa62-05379a49096c
 #Modified: 06-07-2021 01:49:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

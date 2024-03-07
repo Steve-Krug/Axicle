@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspended Cab } Cab Mount Spring Compress
 #FileID  : Plot_ba0cffcd-eb70-468b-8ffe-cbb545002bef
 #Created : 05-26-2021 10:22:44
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

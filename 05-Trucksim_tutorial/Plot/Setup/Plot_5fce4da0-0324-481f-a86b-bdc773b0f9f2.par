@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Clutch Control Input
 #Category: Powertrain
 #FileID  : Plot_5fce4da0-0324-481f-a86b-bdc773b0f9f2
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

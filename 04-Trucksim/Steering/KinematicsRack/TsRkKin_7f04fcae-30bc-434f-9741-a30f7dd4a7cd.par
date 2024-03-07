@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for One Wheel, Rack & Pinion
 #Category: 
 #FileID  : TsRkKin_7f04fcae-30bc-434f-9741-a30f7dd4a7cd
 #Modified: 06-07-2021 01:49:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steer Kinematics
 
 END

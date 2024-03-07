@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Cab-Over and Cab-Forward Tractors
 #Category: Cab-Over and Cab-Forward Tractors
 #FileID  : Aero_88dd56dd-ef73-4549-9b47-1283376c29c6
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

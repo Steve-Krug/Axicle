@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Constant } Constant
 #Category: Constant
 #FileID  : SusX_20b9444d-38cc-49d2-b223-2e35a5288470
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Longitudinal Movement
 
 END

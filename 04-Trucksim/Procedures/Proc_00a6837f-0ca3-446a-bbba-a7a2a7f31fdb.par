@@ -107,8 +107,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Off-Road Hill Climb (EV)
 #FileID  : Proc_00a6837f-0ca3-446a-bbba-a7a2a7f31fdb
 #Created : 05-13-2021 11:03:17
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Hitch: Pitch Moment; 50 kN-m/deg (-1.0 to 1.0 deg Lash)
 #FileID  : HchMy_12a246e8-8c0f-47e5-b617-40149848e0fc
 #Created : 10-15-2021 15:52:43
 #Modified: 10-15-2021 15:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Hitch My
 
 END

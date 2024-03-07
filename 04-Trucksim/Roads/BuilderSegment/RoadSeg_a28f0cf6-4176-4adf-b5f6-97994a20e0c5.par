@@ -68,8 +68,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Figure 8 } Figure 8, Radius = 1
 #Category: Figure 8
 #FileID  : RoadSeg_a28f0cf6-4176-4adf-b5f6-97994a20e0c5
 #Modified: 06-07-2021 01:51:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

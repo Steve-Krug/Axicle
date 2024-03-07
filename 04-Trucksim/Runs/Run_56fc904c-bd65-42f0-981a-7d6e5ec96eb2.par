@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_245b5580-eac8-4494-a96f-0533fd4ce892.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -71,9 +72,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: ICE } Ignition Switc
 #DataSet : Ignition Switch and Transmission Park
 #Category: Powertrain: ICE
 #FileID  : Run_56fc904c-bd65-42f0-981a-7d6e5ec96eb2
-#Modified: 05-24-2022 13:34:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

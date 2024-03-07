@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_133008a4-a19c-40b9-a05d-3a2d60437a8c.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Roads and Intersections } Railro
 #DataSet : Railroad Track Crossing
 #Category: Roads and Intersections
 #FileID  : Run_792a2fc1-5946-4d87-9a77-202af1ecdd80
-#Modified: 04-25-2022 09:35:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

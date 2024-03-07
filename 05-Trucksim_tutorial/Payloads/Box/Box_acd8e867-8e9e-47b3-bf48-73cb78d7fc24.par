@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { Box Trucks } Delivery Truck Payloa
 #Category: Box Trucks
 #FileID  : Box_acd8e867-8e9e-47b3-bf48-73cb78d7fc24
 #Modified: 04-18-2022 12:18:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Box
 
 END

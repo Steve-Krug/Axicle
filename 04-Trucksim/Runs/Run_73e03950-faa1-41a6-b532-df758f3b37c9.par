@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_eafd3669-47e8-42af-8732-3e0c585fc9ee.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -84,9 +85,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } Irregul
 #DataSet : Irregularly Shaped Object Detection
 #Category: ADAS and Active Safety
 #FileID  : Run_73e03950-faa1-41a6-b532-df758f3b37c9
-#Modified: 06-07-2021 02:05:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

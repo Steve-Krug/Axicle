@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { Chassis twist study 
 #Category: Chassis twist study
 #FileID  : Tire2a_63d74229-a0d3-4b52-93a8-c398395c8aec
 #Modified: 06-07-2021 01:48:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2a Tire Group
 
 END

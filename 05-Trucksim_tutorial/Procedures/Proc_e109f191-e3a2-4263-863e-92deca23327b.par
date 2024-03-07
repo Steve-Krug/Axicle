@@ -93,8 +93,8 @@ LOG_ENTRY Used Dataset: Procedures; { Proving Ground } Sine Bumps - Out of Phase
 #Category: Proving Ground
 #FileID  : Proc_e109f191-e3a2-4263-863e-92deca23327b
 #Modified: 06-07-2021 01:49:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

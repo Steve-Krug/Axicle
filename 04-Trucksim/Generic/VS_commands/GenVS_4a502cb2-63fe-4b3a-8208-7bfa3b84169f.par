@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Euro NCAP } Euro NCAP: CCRs Curv 
 #FileID  : GenVS_4a502cb2-63fe-4b3a-8208-7bfa3b84169f
 #Created : 11-12-2021 13:46:08
 #Modified: 11-12-2021 13:46:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode AEB, ACC Euro NCAP Setup
 
 END

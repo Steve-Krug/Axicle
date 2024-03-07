@@ -104,8 +104,8 @@ LOG_ENTRY Used Dataset: Tire: Overturning Moment; { MF-Tyre / MF-Swift } MF-Tyre
 #Category: MF-Tyre / MF-Swift
 #FileID  : TireMx_80673220-a119-4d22-96be-709968a6bcc6
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mx
 
 END

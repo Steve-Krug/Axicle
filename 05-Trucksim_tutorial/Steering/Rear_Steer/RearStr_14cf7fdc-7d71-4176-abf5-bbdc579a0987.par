@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Steering System: Steer Gain vs. Speed; { Constant } Cons
 #Category: Constant
 #FileID  : RearStr_14cf7fdc-7d71-4176-abf5-bbdc579a0987
 #Modified: 06-07-2021 01:49:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steer Gain vs. Speed
 
 END

@@ -79,8 +79,8 @@ LOG_ENTRY Used Dataset: Tire; { 3000 kg Rating } 510 mm Rad. (Drive) (I = 11.82 
 #Category: 3000 kg Rating
 #FileID  : Tire_eb9e4f22-b382-468e-8df2-c935e39bb465
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

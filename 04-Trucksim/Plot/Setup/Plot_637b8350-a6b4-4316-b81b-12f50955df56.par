@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Steer Torque vs. Steer Angle
 #Category: Steering
 #FileID  : Plot_637b8350-a6b4-4316-b81b-12f50955df56
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

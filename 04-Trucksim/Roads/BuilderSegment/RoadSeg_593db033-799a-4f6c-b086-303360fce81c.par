@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Lane Change Paths } Path 2000: 
 #Category: Lane Change Paths
 #FileID  : RoadSeg_593db033-799a-4f6c-b086-303360fce81c
 #Modified: 06-07-2021 01:51:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

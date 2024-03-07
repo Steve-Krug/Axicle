@@ -38,7 +38,6 @@ add_obj Resources\Animator\3D_Shape_Files\Geometric_Shapes\Cylinders\cylinder_Za
 set_transparency 0.5
 SET_OFFSET_Z 0.5
 SET_COLOR 1 0 1
-SET_RUN_COLOR 1 0 1
 WRITE_ADD_REFERENCE_FRAME_OBJECT
 PARSFILE Animator\STL_Groups\ShpGrp_88a56281-73ea-490c-8ce2-f0fb45783c4f.par
 #BlueLink0 Animator: Shape Assembly`Potted Plant` Trees and Shrubs` , 3D Shape for Video`ShpGrp_88a56281-73ea-490c-8ce2-f0fb45783c4f
@@ -51,9 +50,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Scene Props } Potted Pl
 #DataSet : Potted Plant
 #Category: Scene Props
 #FileID  : Target_0207513a-047d-4973-b52b-0dbedd1ba3d3
-#Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

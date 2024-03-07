@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Road Boundary: New Road ID; { Roundabout  D = 36 m } Rou
 #Category: Roundabout  D = 36 m
 #FileID  : RdBdID_b3d402e4-1ea9-4080-9ab6-4baa44ec277b
 #Modified: 06-07-2021 01:50:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundary ID
 
 END

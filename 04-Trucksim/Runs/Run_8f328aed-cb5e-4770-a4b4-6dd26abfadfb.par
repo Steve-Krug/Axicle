@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 1    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -77,9 +78,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Single Trailers 
 #Category: Vehicle Layout: Single Trailers
 #FileID  : Run_8f328aed-cb5e-4770-a4b4-6dd26abfadfb
 #Created : 01-02-2023 17:54:53
-#Modified: 01-02-2023 18:21:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

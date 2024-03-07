@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Atl
 #Category: Atlas Highway Intersection
 #FileID  : StrDM_5336008e-f3d3-4bb8-b209-d24c4a8d3429
 #Modified: 06-07-2021 01:53:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Driver Path Follower
 
 END

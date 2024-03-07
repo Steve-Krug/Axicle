@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Road: Boundaries; { Road Boundary Stop Conditions } Circ
 #Category: Road Boundary Stop Conditions
 #FileID  : RdBnd_0568183c-f578-4a1d-8480-fc1d91ca5579
 #Modified: 06-07-2021 01:51:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundaries
 
 END

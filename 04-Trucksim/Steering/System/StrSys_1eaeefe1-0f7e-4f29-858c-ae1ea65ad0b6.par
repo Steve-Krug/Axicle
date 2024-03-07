@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Steering System; { Tandem Steering } Tandem Steer - Firs
 #Category: Tandem Steering
 #FileID  : StrSys_1eaeefe1-0f7e-4f29-858c-ae1ea65ad0b6
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

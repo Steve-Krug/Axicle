@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind Sound Modifiers } Frequ
 #Category: Wind Sound Modifiers
 #FileID  : SndMod_2cf289a4-c7e5-49c7-84f4-67cd1b3c591c
 #Modified: 06-07-2021 01:53:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Sound Modifier
 
 END

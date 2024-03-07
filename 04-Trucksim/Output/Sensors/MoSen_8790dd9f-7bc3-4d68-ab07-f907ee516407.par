@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { ADAS Sensors
 #Category: ADAS Sensors
 #FileID  : MoSen_8790dd9f-7bc3-4d68-ab07-f907ee516407
 #Modified: 06-07-2021 01:53:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Motion Sensors
 
 END

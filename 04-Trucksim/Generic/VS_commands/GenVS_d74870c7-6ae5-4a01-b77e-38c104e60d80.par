@@ -65,8 +65,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { HUD Gauges } Reverse Indicator
 #Category: HUD Gauges
 #FileID  : GenVS_d74870c7-6ae5-4a01-b77e-38c104e60d80
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

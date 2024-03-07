@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Lift Axles } Lift Force
 #Category: Lift Axles
 #FileID  : Plot_a8f3095b-0106-492e-b22e-5f661b6ffd49
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Suspension: Spring; { Pickup Trucks } Compact Pickup - R
 #Category: Pickup Trucks
 #FileID  : Spring_e4b6ee94-bfe2-4228-9e3e-35969e079d9e
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Spring Alone
 
 END

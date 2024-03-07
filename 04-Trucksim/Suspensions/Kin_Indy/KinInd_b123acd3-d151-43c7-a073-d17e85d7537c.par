@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Compact Uti
 #Category: Compact Utility Truck
 #FileID  : KinInd_b123acd3-d151-43c7-a073-d17e85d7537c
 #Modified: 11-17-2021 11:34:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Independent
 
 END

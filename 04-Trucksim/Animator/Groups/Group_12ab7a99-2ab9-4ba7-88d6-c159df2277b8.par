@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Test Facilities } Crosswind: Fan Spee
 #Category: Test Facilities
 #FileID  : Group_12ab7a99-2ab9-4ba7-88d6-c159df2277b8
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

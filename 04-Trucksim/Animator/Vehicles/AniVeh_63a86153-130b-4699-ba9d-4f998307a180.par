@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Chassis twist s
 #Category: Chassis twist study
 #FileID  : AniVeh_63a86153-130b-4699-ba9d-4f998307a180
 #Modified: 04-18-2022 12:23:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

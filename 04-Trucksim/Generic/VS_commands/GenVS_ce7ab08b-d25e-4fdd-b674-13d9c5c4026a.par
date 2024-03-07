@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Linearization } 52 States to Line
 #Category: Linearization
 #FileID  : GenVS_ce7ab08b-d25e-4fdd-b674-13d9c5c4026a
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

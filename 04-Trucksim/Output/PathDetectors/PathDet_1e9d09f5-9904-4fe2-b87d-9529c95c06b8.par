@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Path Detectors for External Driver Control; Three Detect
 #FileID  : PathDet_1e9d09f5-9904-4fe2-b87d-9529c95c06b8
 #Created : 11-08-2021 15:56:29
 #Modified: 11-09-2021 12:12:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Detectors
 
 END

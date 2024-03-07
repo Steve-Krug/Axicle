@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { PBS (Performance Based Standards) } C8(A)
 #Category: PBS (Performance Based Standards)
 #FileID  : Plot_b6965f71-2d2a-40c1-bf20-b299c8a0d136
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

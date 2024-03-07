@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Suspension: Spring; { Linear w/ Friction and Hysteresis 
 #Category: Linear w/ Friction and Hysteresis
 #FileID  : Spring_5edcaf8f-7380-4592-a03f-3e0dcf7d5a8a
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Spring Alone
 
 END

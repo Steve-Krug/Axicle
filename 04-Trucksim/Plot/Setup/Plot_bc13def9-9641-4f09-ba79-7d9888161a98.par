@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Kingpin Angular Rate
 #FileID  : Plot_bc13def9-9641-4f09-ba79-7d9888161a98
 #Created : 06-03-2022 13:15:13
 #Modified: 06-03-2022 13:16:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

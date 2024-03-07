@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Road Boundary: Lateral Edge; { Atlas Examples } I-94 Exi
 #Category: Atlas Examples
 #FileID  : RdBdL_c05975e4-6e67-4a11-80d1-93e154701db4
 #Modified: 06-07-2021 01:50:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road BOundary L
 
 END

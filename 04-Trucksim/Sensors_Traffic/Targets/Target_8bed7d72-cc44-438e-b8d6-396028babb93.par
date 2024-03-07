@@ -11,7 +11,6 @@ ROAD_ID_OBJ 1
 #CheckBox1 0    
 OPT_RECYCLE_OBJ 0
 #CheckBox2 0    
-#CheckBox3 0    
 #CheckBox5 1    
 #CheckBox6 0    
 #CheckBox7 0    
@@ -52,9 +51,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Deer (Crossing) } Anima
 #DataSet : Animated Deer (Walking)
 #Category: Deer (Crossing)
 #FileID  : Target_8bed7d72-cc44-438e-b8d6-396028babb93
-#Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

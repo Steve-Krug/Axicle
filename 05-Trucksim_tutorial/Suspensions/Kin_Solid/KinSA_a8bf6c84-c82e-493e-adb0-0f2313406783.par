@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Dolly Axle }
 #FileID  : KinSA_a8bf6c84-c82e-493e-adb0-0f2313406783
 #Created : 09-27-2021 14:17:02
 #Modified: 09-27-2021 14:24:46
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Solid Axle
 
 END

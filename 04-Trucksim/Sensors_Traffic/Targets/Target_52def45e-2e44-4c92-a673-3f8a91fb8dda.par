@@ -9,7 +9,6 @@ OPT_SPEED_OBJ 0
 OPT_ROAD_OBJ 0 ! Legacy pre-9
 PATH_ID_OBJ 0
 ROAD_ID_OBJ 0
-#CheckBox3 0    
 #CheckBox6 0    
 #CheckBox7 0    
 #CheckBox8 1    
@@ -49,9 +48,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Traffic Signs and Light
 #DataSet : Stop Sign
 #Category: Traffic Signs and Lights
 #FileID  : Target_52def45e-2e44-4c92-a673-3f8a91fb8dda
-#Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Brakes: Torque; { Hydraulic Brakes } 7.5 kN-m, Hydraulic
 #Category: Hydraulic Brakes
 #FileID  : BrkTrq_f98620d4-6d5f-493a-a3c3-f7fed6471d35
 #Modified: 06-07-2021 01:53:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brake Torque
 
 END

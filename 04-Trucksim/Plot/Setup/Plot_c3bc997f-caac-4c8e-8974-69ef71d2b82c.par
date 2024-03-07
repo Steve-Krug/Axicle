@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Steer Torque
 #Category: Steering
 #FileID  : Plot_c3bc997f-caac-4c8e-8974-69ef71d2b82c
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

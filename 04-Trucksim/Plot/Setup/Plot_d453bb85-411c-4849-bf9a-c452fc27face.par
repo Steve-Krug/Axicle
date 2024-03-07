@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } ACC Euro NCAP Sc
 #FileID  : Plot_d453bb85-411c-4849-bf9a-c452fc27face
 #Created : 11-09-2021 11:05:40
 #Modified: 11-09-2021 11:05:48
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

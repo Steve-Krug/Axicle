@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 1.095
 *RZ 1.095
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Small Crates } Small Crate: 5000 kg, X = 1700 mm
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Small Crates } Small Crate: 5000 kg, 
 #DataSet : Small Crate: 5000 kg, X = 1700 mm
 #Category: Small Crates
 #FileID  : Custom_c67faa88-15c3-45fa-9052-9b44512710a0
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:39
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

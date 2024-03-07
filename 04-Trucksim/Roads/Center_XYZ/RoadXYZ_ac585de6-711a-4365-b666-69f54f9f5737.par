@@ -1033,8 +1033,8 @@ LOG_ENTRY Used Dataset: Road: X-Y-Z Coordinates of Reference Line; { Unreal Engi
 #Category: Unreal Engine (UE4)
 #FileID  : RoadXYZ_ac585de6-711a-4365-b666-69f54f9f5737
 #Modified: 06-07-2021 01:50:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y-Z Coords of Ref. Line
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -70,9 +71,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers 
 #DataSet : 4A Box+2A Dolly+2A Flatbed
 #Category: Vehicle Layout: Double Trailers
 #FileID  : Run_ed39f18c-5ece-4c36-af7c-0f00327e8b20
-#Modified: 06-06-2022 11:00:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:26
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

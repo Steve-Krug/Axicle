@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } Single Point Steer Contr
 #Category: Driver Controls
 #FileID  : Proc_4281f9c6-f0a5-4703-b648-2ae9bdb62387
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

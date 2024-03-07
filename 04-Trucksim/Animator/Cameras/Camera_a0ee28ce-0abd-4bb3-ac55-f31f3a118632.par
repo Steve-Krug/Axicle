@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Shape Preview } Rear View
 #FileID  : Camera_a0ee28ce-0abd-4bb3-ac55-f31f3a118632
 #Created : 05-25-2021 15:15:26
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

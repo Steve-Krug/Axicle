@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Powertrain (HEV) } Electric Ge
 #FileID  : GenLink_725045e5-1cff-4791-86ec-efb812c86432
 #Created : 09-14-2021 12:33:02
 #Modified: 09-14-2021 12:33:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Links
 
 END

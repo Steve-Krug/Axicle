@@ -58,8 +58,8 @@ LOG_ENTRY Used Dataset: Calculator: Symbolic; { Steering } ISO 14791 Steering Pu
 #Category: Steering
 #FileID  : Calc_cc321329-5130-46d1-8a7d-39bb94eb5474
 #Modified: 12-11-2021 11:30:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Calculator
 
 END

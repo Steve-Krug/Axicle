@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Events; { Top Speed Test } B. Monitor long accel for max
 #Category: Top Speed Test
 #FileID  : Events_6f4b69e9-c279-471d-8d4b-44468261480a
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

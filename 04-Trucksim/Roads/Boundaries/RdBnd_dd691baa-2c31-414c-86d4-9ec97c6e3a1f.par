@@ -97,8 +97,8 @@ LOG_ENTRY Used Dataset: Road: Boundaries; { Roundabout D = 36 m } Roundabout, So
 #Category: Roundabout D = 36 m
 #FileID  : RdBnd_dd691baa-2c31-414c-86d4-9ec97c6e3a1f
 #Modified: 06-07-2021 01:51:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundaries
 
 END

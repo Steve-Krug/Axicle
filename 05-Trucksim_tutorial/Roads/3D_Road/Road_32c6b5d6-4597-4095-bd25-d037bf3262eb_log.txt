@@ -1,0 +1,21 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_32c6b5d6-4597-4095-bd25-d037bf3262eb.par"
+Include PARSFILE "Roads\Builder\Build_ecc721ed-a919-471d-93c0-393c89d7df90.par"
+Used Dataset: Path/Road: Segment Builder (Simple 3D); { Paths with Banking } Loop w/ Banking
+Include PARSFILE "Roads\Shapes\RdShape_6813c94a-89ea-44f6-b89a-82cffdb67e82.par"
+Used Dataset: Road: Animator Surface Shapes; { Looped Roads } 1200m Road for Loop w/ Banking
+ Looped Road with Banking <Road Segment Builder>
+Used Dataset: Road: 3D Surface (All Properties); { Road Segment Builder } Looped Road with Banking
+
+Time to read input = 0.0005355
+Function ROAD_DZ_CARPET(1) extrapolated (out of range HIGH) for X = 1047.2 m at T = 12.96
+
+Run stopped at t = 12.96. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_32c6b5d6-4597-4095-bd25-d037bf3262eb.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

@@ -1,0 +1,71 @@
+PARSFILE
+add_reference_frame The Road
+reference_frame_ghosts off
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_1.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_2.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_3.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_4.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0.8 0.8 0.8
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_5.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_6.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0.8 0.8 0.8
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_7.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_d3b30fe8-c017-4806-9e44-410ca4d32775_8.obj
+set_color 1 0 0
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Random
+
+
+
+END

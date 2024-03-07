@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { Buses } Tour Bus (Left Passengers)
 #Category: Buses
 #FileID  : Box_cf8374bb-29bb-4748-8952-7d70d9e9ed06
 #Modified: 04-18-2022 12:18:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Box
 
 END

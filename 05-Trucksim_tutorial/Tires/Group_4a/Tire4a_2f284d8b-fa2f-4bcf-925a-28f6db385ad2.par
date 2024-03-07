@@ -143,8 +143,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 4 Axles; 4A Dump Truck Tires
 #FileID  : Tire4a_2f284d8b-fa2f-4bcf-925a-28f6db385ad2
 #Created : 06-01-2022 15:56:00
 #Modified: 06-01-2022 16:52:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4a Tire Group
 
 END

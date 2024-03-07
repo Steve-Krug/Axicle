@@ -176,8 +176,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Parking Lot } West Curb
 #Category: Parking Lot
 #FileID  : RdShape_b34d1920-4e9c-4bdf-b863-1521c98ff4c5
 #Modified: 06-07-2021 01:51:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

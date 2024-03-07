@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Speed: S1, S2 (2
 #Category: ADAS Sensor Detections
 #FileID  : Plot_7172a8b6-6e45-4377-ada3-dfbab87effcc
 #Modified: 06-07-2021 01:49:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

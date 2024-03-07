@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 6-Speed Shift Schedule, 61
 #Category: 6-Speed Shift Schedule, 6100 RPM
 #FileID  : Shift_c33323f2-8f63-459f-86c0-8de16ff8d23d
 #Modified: 06-07-2021 01:49:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shift Schedule
 
 END

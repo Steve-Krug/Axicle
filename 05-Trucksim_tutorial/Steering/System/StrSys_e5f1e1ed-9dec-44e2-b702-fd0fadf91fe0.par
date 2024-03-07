@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Steering System; { Chassis twist study } Base vehicle
 #Category: Chassis twist study
 #FileID  : StrSys_e5f1e1ed-9dec-44e2-b702-fd0fadf91fe0
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

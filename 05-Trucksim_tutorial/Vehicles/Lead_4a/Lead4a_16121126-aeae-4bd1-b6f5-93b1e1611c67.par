@@ -143,8 +143,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 4 Axles; { 4A Day Cabs } 4A Day 
 #Category: 4A Day Cabs
 #FileID  : Lead4a_16121126-aeae-4bd1-b6f5-93b1e1611c67
 #Modified: 04-25-2022 08:52:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SSS
 
 END

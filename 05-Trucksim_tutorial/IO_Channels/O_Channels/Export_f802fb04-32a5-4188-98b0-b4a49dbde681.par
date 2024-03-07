@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { Suspension and Ride Control } Se
 #Category: Suspension and Ride Control
 #FileID  : Export_f802fb04-32a5-4188-98b0-b4a49dbde681
 #Modified: 06-07-2021 01:52:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Export Channels
 
 END

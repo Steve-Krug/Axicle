@@ -143,8 +143,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { Sprung Mass 
 #Category: Sprung Mass and Suspended Cab
 #FileID  : MoSen_bf274431-7219-45a5-af93-0d6cccbc03a8
 #Modified: 06-07-2021 01:53:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Motion Sensors
 
 END

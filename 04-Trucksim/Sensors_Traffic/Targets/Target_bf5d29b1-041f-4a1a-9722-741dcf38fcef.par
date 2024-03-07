@@ -9,7 +9,6 @@ OPT_SPEED_OBJ 0
 OPT_ROAD_OBJ 0 ! Legacy pre-9
 PATH_ID_OBJ 0
 ROAD_ID_OBJ 0
-#CheckBox3 0    
 #CheckBox6 0    
 #CheckBox7 0    
 #CheckBox8 1    
@@ -60,9 +59,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Multi-Vehicle } Platoon
 #Category: Multi-Vehicle
 #FileID  : Target_bf5d29b1-041f-4a1a-9722-741dcf38fcef
 #Created : 08-03-2021 14:53:39
-#Modified: 09-20-2021 13:54:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

@@ -85,8 +85,8 @@ LOG_ENTRY Used Dataset: Procedures; { Chassis twist study } Roll (Cross Slope) S
 #Category: Chassis twist study
 #FileID  : Proc_7a880672-6d49-4e1c-903c-6eccd30258b7
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

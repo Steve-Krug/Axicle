@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } Camber v
 #FileID  : Plot_ce252f35-b6bd-44e4-a6c1-159557e2d823
 #Created : 11-17-2021 08:37:06
 #Modified: 11-17-2021 08:37:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

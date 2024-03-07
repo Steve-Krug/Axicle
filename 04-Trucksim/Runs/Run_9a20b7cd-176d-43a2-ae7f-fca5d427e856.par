@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_12afd0d3-c9b8-47b4-9b7e-1cd0582e975b.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 4
@@ -97,9 +98,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Scene Import } Scene Builder: In
 #DataSet : Scene Builder: Intersection w/o ADAS
 #Category: Scene Import
 #FileID  : Run_9a20b7cd-176d-43a2-ae7f-fca5d427e856
-#Modified: 06-14-2021 16:42:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -366,8 +366,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } 6-
 #Category: Scenic Road Shapes
 #FileID  : RdShape_b6d6a6c0-fc46-4f9b-859b-1694bb0d8963
 #Modified: 06-07-2021 01:51:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

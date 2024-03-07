@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 1.808
 *RZ 1.804
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Dump Trucks and Trailers } Dirt for Dump Trailer (20,000 kg)
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Dump Trucks and Trailers } Dirt for D
 #DataSet : Dirt for Dump Trailer (20,000 kg)
 #Category: Dump Trucks and Trailers
 #FileID  : Custom_a2516b71-146b-426f-a6a0-2d8f5f3f8b74
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:46:39
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

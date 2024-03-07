@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multi-Vehicle } Tractor Trailer Platoon: B
 #FileID  : Proc_4e8c8b45-c661-49b9-ae2c-fbd4cdbc19e9
 #Created : 09-14-2021 11:10:12
 #Modified: 09-14-2021 11:27:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

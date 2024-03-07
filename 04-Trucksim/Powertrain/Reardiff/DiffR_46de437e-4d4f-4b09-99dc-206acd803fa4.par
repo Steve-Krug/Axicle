@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { Electric Motor Drive (2
 #Category: Electric Motor Drive (20 kW)
 #FileID  : DiffR_46de437e-4d4f-4b09-99dc-206acd803fa4
 #Modified: 06-07-2021 01:49:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rear Differential
 
 END

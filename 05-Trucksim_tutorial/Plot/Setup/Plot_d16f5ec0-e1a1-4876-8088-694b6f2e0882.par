@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Braking } Brake Torque (Axle 1)
 #Category: Braking
 #FileID  : Plot_d16f5ec0-e1a1-4876-8088-694b6f2e0882
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

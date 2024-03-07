@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -81,9 +82,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Simulink Models } External Four 
 #DataSet : External Four Wheel Steering
 #Category: Simulink Models
 #FileID  : Run_c10ed18c-2274-4f24-8fbe-f7856374afc2
-#Modified: 06-03-2022 12:05:48
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

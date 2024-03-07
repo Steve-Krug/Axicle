@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { Yaw Control } Ratio = 0
 #Category: Yaw Control
 #FileID  : DiffR_e481e9cf-970b-422e-a2e2-d3ec7216b0f6
 #Modified: 06-07-2021 01:49:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rear Differential
 
 END

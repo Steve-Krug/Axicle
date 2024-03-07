@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_c40f19aa-92ca-4469-8121-69574d61ada2.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -78,9 +79,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Multiple Vehicles, Parallel Solv
 #DataSet : ACC: Ext Sensor, Ext Control (Truck 2)
 #Category: Multiple Vehicles, Parallel Solvers
 #FileID  : Run_fff10c6c-446c-4559-9a1e-7b6e3a4020e6
-#Modified: 06-07-2021 02:18:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } On Center Test - Steer by
 #Category: Steering Tests
 #FileID  : Proc_2cf54374-d6a9-4ea0-bc2f-bbaedbb3f2fb
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

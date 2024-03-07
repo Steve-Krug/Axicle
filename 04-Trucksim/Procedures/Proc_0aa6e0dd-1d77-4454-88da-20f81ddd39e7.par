@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Procedures; { Chassis twist study } 80 km/h on 500 ft ci
 #Category: Chassis twist study
 #FileID  : Proc_0aa6e0dd-1d77-4454-88da-20f81ddd39e7
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -1,4 +1,4 @@
-Run made by VS Road Calculator at 22:15 on January 16, 2023.
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
 Utility to calculate road and path coordinates for visualization
 Started with simfile: Roads\3D_Road\simfile_road
 
@@ -13,7 +13,7 @@ Used Dataset: Road: Animator Surface Shapes; { Stability Test Roads } U-Road: On
  U-Road, 45.72 m (150 ft) Radius #1 <Stability Testing>
 Used Dataset: Road: 3D Surface (All Properties); { Stability Testing } U-Road, 45.72 m (150 ft) Radius #1
 
-Time to read input = 0.0004376
+Time to read input = 0.0004357
 
 Run stopped at t = 12.96. Stop time reached.
 

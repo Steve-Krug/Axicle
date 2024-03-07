@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Write; Copy Vx and Station to CSV
 #Category: 
 #FileID  : Write_78ceac55-51fd-416e-a52b-35e74e10eff6
 #Modified: 05-20-2022 16:30:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Write Channels
 
 END

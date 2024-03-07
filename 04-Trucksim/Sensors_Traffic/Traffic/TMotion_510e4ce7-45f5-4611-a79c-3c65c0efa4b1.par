@@ -337,8 +337,8 @@ LOG_ENTRY Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Forward) } 
 #Category: Traffic Vehicles (Forward)
 #FileID  : TMotion_510e4ce7-45f5-4611-a79c-3c65c0efa4b1
 #Modified: 06-07-2021 01:54:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Multiple Objects
 
 END

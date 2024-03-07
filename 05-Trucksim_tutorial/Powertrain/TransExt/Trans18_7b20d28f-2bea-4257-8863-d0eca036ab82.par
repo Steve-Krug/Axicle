@@ -103,8 +103,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transmission (18 Gears or CVT); { 5-Speed } 
 #Category: 5-Speed
 #FileID  : Trans18_7b20d28f-2bea-4257-8863-d0eca036ab82
 #Modified: 06-07-2021 01:49:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Transmission
 
 END

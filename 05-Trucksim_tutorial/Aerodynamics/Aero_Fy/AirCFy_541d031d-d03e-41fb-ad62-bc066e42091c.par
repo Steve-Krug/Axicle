@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; { Spl
 #Category: Spline Interpolation
 #FileID  : AirCFy_541d031d-d03e-41fb-ad62-bc066e42091c
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Fy vs. Aero Slip
 
 END

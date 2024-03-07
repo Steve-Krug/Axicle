@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Powertrain and Driv
 #Category: Plot Groups
 #FileID  : GenVS_df6a3319-c5aa-419a-abde-702b64bc45b2
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Group
 
 END

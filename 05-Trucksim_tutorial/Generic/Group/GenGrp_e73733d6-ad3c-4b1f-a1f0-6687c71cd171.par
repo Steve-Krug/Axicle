@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Tire Force Arrows } 16 Axle - Fx, 
 #FileID  : GenGrp_e73733d6-ad3c-4b1f-a1f0-6687c71cd171
 #Created : 12-09-2021 10:49:43
 #Modified: 12-09-2021 10:51:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

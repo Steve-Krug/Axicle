@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Steering (Front, Relative) vs.
 #Category: Steering
 #FileID  : Plot_a17179e9-2f52-4554-8867-6dc51bc954bf
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Small Smooth Bump
 #FileID  : Proc_c7e20601-1788-4b36-abf4-bcfe4b0cce6a
 #Created : 05-25-2021 18:46:42
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

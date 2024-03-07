@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Pitch Angle: Pch
 #Category: ADAS Sensor Detections
 #FileID  : Plot_fbd227d0-ee6d-4c34-a698-905ec483b8d7
 #Modified: 06-07-2021 01:49:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Animator: Group (More); { Brake Temperature } Brakes (Le
 #Category: Brake Temperature
 #FileID  : GroupM_f4964885-30ca-41dd-9620-400a0f4b8859
 #Modified: 06-07-2021 01:54:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Group (More)
 
 END

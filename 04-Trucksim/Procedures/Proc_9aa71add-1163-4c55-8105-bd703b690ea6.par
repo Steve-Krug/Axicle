@@ -100,8 +100,8 @@ LOG_ENTRY Used Dataset: Procedures; { Lift Axles } Step Steer and Lift Axle 3
 #Category: Lift Axles
 #FileID  : Proc_9aa71add-1163-4c55-8105-bd703b690ea6
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

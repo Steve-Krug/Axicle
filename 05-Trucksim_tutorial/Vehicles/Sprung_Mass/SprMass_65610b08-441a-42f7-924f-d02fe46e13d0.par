@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit Sprung Mass; { Tractors } 2A Day Cab 
 #FileID  : SprMass_65610b08-441a-42f7-924f-d02fe46e13d0
 #Created : 10-27-2021 11:15:41
 #Modified: 03-21-2022 15:09:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rigid
 
 END

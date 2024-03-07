@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 2 Axles; { Flatbed Trailers } 2A L
 #Category: Flatbed Trailers
 #FileID  : Trl2a_9b536452-b16a-4972-b6f5-4f978ecf914c
 #Modified: 09-01-2021 12:48:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode SS
 
 END

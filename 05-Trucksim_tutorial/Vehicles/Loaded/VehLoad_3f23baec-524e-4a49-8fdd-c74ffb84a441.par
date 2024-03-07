@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { LCF Vans } 2A LCF, Payloa
 #Category: LCF Vans
 #FileID  : VehLoad_3f23baec-524e-4a49-8fdd-c74ffb84a441
 #Modified: 06-07-2021 01:48:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

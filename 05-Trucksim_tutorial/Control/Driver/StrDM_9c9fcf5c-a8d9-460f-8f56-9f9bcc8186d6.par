@@ -2,6 +2,10 @@ PARSFILE
 #FullDataName Control: Steering by the Closed-loop Driver Model`ISO 14791 Lane Change (V = 88, F = 0.40)`Lane Changes
 SET_ILTARG_FOR_ID 0
 set_description LTARG_ID ISO 14791 Lane Change (V = 88, F = 0.40)
+INSTALL_DM_PATH_FOLLOWER
+#CheckBox4 1    
+OPT_DM 3
+INSTALL_DM_IMPORTS
 #RingCtrl0 0
 #RingCtrl1 SPLINE_FLAT
 #RingCtrl2 1
@@ -72,11 +76,8 @@ LTARG_ID_DM LTARG_ID
 #CheckBox0 0    
 #CheckBox1 0    
 CREATE_PATH_OBJ off
-#CheckBox4 1    
 #CheckBox5 0    
 OPT_STR_BY_TRQ 0
-OPT_DM 3
-INSTALL_DM_IMPORTS
 AV_SW_MAX_DM 1200
 A_SW_MAX_DM 720
 *TPREV 0.6
@@ -108,9 +109,9 @@ LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Lan
 #DataSet : ISO 14791 Lane Change (V = 88, F = 0.40)
 #Category: Lane Changes
 #FileID  : StrDM_9c9fcf5c-a8d9-460f-8f56-9f9bcc8186d6
-#Modified: 04-27-2022 14:27:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:47:48
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Driver Path Follower
 
 END

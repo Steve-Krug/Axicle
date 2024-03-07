@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer Sprung Mass; { 2A Trailer } 2A Flatbed 
 #Category: 2A Trailer
 #FileID  : TrlSprM_35286b99-96f0-4b1a-8063-7959a60fa752
 #Modified: 03-21-2022 15:08:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Trailer Sprung Mass
 
 END

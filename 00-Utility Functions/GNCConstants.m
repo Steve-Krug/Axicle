@@ -29,6 +29,7 @@ classdef GNCConstants
         MileToFeet = 5280;
         HourToSecond = 3600;
         SecondToHour = 1/3600;
+        SecToMillisecond = 1000;
         SecToMin = 1/60;
         MinToSec = 60;
         GpmToIn3ps = 3.85;

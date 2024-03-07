@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Intersections } Sidewal
 #Category: Intersections
 #FileID  : RdShape_9b81b0bc-ad65-47ef-997b-e9c315c46e08
 #Modified: 06-07-2021 01:51:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

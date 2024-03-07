@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Suspension: Dive Angle (Solid Axle); { Constant } Consta
 #FileID  : DiveSA_006f3f33-8699-4339-9e9d-a7284e5dd353
 #Created : 04-13-2021 11:14:08
 #Modified: 06-07-2021 01:49:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Dive (Solid Axle)
 
 END

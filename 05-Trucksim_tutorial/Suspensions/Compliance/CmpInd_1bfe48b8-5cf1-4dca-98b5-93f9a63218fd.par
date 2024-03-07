@@ -105,8 +105,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers
 #Category: Pusher Axles
 #FileID  : CmpInd_1bfe48b8-5cf1-4dca-98b5-93f9a63218fd
 #Modified: 06-07-2021 01:49:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Springs and Dampers
 
 END

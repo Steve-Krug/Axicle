@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_ac68fa20-d219-4152-a595-c9bf68f0fc39.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -72,9 +73,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } Reverse
 #DataSet : Reverse Blind Spot Warning
 #Category: ADAS and Active Safety
 #FileID  : Run_97814d87-dae4-4af5-a8ef-707634c34407
-#Modified: 06-07-2021 02:06:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

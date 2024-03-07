@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { School Bus } School B
 #Category: School Bus
 #FileID  : Lead2a_c66aa4cd-d5ab-415c-a298-440de4e9d9c5
 #Modified: 09-01-2021 12:48:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

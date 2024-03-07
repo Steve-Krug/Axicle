@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { 2A Lead Units }
 #Category: 2A Lead Units
 #FileID  : AniVeh_ce6ae7f3-6533-49c9-b787-db926285b341
 #Modified: 04-18-2022 12:23:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

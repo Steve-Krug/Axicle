@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit Sprung Mass; { 2 Axle Trucks } LCF Va
 #Category: 2 Axle Trucks
 #FileID  : SprMass_63198152-490c-4c81-ba3b-6df608bb7208
 #Modified: 03-21-2022 15:09:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rigid
 
 END

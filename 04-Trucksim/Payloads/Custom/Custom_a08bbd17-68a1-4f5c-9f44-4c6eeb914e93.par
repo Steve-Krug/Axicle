@@ -23,6 +23,8 @@ IZZ_PL 24243
 *RY 2.195
 *RZ 2.213
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; Passengers - Unit 1
@@ -31,9 +33,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; Passengers - Unit 1
 #Category: 
 #FileID  : Custom_a08bbd17-68a1-4f5c-9f44-4c6eeb914e93
 #Created : 12-08-2021 20:07:57
-#Modified: 12-10-2021 13:12:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

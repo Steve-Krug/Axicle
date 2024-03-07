@@ -130,8 +130,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Hill Hold with Parking Brake } Ro
 #Category: Hill Hold with Parking Brake
 #FileID  : GenVS_dce245b9-bbf9-4c75-805e-bf4b0b3f0e21
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

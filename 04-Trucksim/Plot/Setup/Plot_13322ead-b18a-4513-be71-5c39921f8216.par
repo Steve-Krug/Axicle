@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Aerodynamics and Wind } Aerodynamic Force
 #Category: Aerodynamics and Wind
 #FileID  : Plot_13322ead-b18a-4513-be71-5c39921f8216
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

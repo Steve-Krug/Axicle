@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Bearing Angles: 
 #Category: ADAS Sensor Detections
 #FileID  : Plot_59ad09f6-7ef8-441f-bddc-a96147e219d9
 #Modified: 06-07-2021 01:49:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

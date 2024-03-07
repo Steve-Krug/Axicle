@@ -1,0 +1,21 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_dec1ad76-94b8-4142-b4d8-6a6e0328efa7.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c.par"
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Include PARSFILE "Roads\Shapes\RdShape_2195f080-42a4-40b4-86f8-24abeeb7bdd7.par"
+Used Dataset: Road: Animator Surface Shapes; { Roundabout, 3D, D = 36 m } Big Grass, dZ = -0.3
+ Big Grass <Roundabout, Single Lane, D = 36 m>
+Used Dataset: Road: 3D Surface (All Properties); { Roundabout, Single Lane, D = 36 m } Big Grass
+
+Time to read input = 0.0003149
+
+Run stopped at t = 17.92. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_dec1ad76-94b8-4142-b4d8-6a6e0328efa7.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

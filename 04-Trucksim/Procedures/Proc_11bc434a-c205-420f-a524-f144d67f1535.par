@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } On Center Test - Closed L
 #Category: Steering Tests
 #FileID  : Proc_11bc434a-c205-420f-a524-f144d67f1535
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

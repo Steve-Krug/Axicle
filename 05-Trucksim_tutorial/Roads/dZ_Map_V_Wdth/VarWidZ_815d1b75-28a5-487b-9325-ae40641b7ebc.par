@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Highwa
 #Category: Highway Intersection Boundaries
 #FileID  : VarWidZ_815d1b75-28a5-487b-9325-ae40641b7ebc
 #Modified: 06-07-2021 01:51:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L, Variable Width
 
 END

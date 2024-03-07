@@ -620,8 +620,8 @@ LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Sine Wave } Sine Wave (
 #FileID  : StrSW_7b46b379-51e3-4d90-aaa3-3c09fa5730da
 #Created : 01-16-2023 21:49:30
 #Modified: 01-16-2023 21:52:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Steering
 
 END

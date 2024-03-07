@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Events; { Split Mu Hill Climb } Monitor Speed
 #Category: Split Mu Hill Climb
 #FileID  : Events_893e9ec3-0130-4cad-9560-b3d2d53cb1b5
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

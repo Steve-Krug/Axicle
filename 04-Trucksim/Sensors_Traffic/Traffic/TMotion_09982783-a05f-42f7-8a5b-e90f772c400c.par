@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Multiple Moving Objects; { Euro NCAP } Global Vehicle Ta
 #FileID  : TMotion_09982783-a05f-42f7-8a5b-e90f772c400c
 #Created : 11-08-2021 17:00:07
 #Modified: 11-08-2021 17:00:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Multiple Objects
 
 END

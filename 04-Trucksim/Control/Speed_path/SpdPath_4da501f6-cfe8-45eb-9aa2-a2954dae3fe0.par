@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Path Preview; { Rural
 #Category: Rural and Mountain Roads
 #FileID  : SpdPath_4da501f6-cfe8-45eb-9aa2-a2954dae3fe0
 #Modified: 06-07-2021 01:53:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Speed Using Path Preview
 
 END

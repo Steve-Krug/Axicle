@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Events; { Euro NCAP ACC Testing: CCRb } ACC CCRb A1. Wai
 #FileID  : Events_ef5fa4fb-f27b-4257-891a-a53f44a51d6d
 #Created : 11-09-2021 10:49:05
 #Modified: 11-09-2021 10:50:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

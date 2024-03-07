@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Distance: Sensor
 #FileID  : Plot_9109c5d6-5ebb-4058-996a-1950d5069655
 #Created : 10-19-2021 13:04:35
 #Modified: 10-19-2021 15:42:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

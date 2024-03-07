@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { VS Commands for Sensors and Traff
 #Category: VS Commands for Sensors and Traffic
 #FileID  : GenVS_35a84004-8fd6-476d-8942-7916f7f89924
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tracking } Road Station for Tires (Axle 2
 #Category: Tracking
 #FileID  : Plot_4e65f385-7eaf-465b-a8f4-c5854337acdf
 #Modified: 06-16-2021 09:53:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

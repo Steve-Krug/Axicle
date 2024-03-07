@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Brakes: Torque; { Air Brakes } 469 N-m, Air
 #Category: Air Brakes
 #FileID  : BrkTrq_c7b32b55-aa54-41c6-9c75-ff577dbef53a
 #Modified: 06-07-2021 01:53:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brake Torque
 
 END

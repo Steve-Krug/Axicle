@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Powertrain: Front Differential; { Electric Motor Drive (
 #Category: Electric Motor Drive (100 kW)
 #FileID  : DiffF_123b5e7d-1aa4-4a2b-b24e-66f5325403df
 #Modified: 06-07-2021 01:49:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Front Differential
 
 END

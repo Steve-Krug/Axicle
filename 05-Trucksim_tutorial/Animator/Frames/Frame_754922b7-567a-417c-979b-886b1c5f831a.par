@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Aero Forces and Moments } A
 #Category: Aero Forces and Moments
 #FileID  : Frame_754922b7-567a-417c-979b-886b1c5f831a
 #Modified: 06-07-2021 01:54:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

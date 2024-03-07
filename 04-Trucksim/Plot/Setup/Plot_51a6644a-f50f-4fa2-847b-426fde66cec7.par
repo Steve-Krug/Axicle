@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Speed Controller } Closed-Loop Speed Cont
 #Category: Speed Controller
 #FileID  : Plot_51a6644a-f50f-4fa2-847b-426fde66cec7
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

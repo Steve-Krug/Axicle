@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Ind. Susp. Kinematics } Disable I
 #FileID  : GenVS_702343df-c404-46d5-8822-de2d1ffa4e2c
 #Created : 11-17-2021 08:34:46
 #Modified: 11-17-2021 08:34:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

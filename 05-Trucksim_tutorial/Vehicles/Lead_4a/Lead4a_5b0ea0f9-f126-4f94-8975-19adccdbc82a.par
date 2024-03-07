@@ -141,8 +141,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 4 Axles; { 4A Sleeper Cabs } 4A 
 #Category: 4A Sleeper Cabs
 #FileID  : Lead4a_5b0ea0f9-f126-4f94-8975-19adccdbc82a
 #Modified: 04-25-2022 08:52:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SSS
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multi-Vehicle } Multiple Vehicles: Control
 #Category: Multi-Vehicle
 #FileID  : Proc_3176d474-e34a-4fa9-ae9e-d66c3b5b3cb4
 #Modified: 06-07-2021 01:49:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

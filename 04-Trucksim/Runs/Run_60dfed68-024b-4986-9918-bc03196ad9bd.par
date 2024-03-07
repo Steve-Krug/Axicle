@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_984a92ac-3309-4b0e-879d-d231a9148ef0.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -98,9 +99,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Beyond the GUI O
 #DataSet : Wind Turbine Blade Transportation
 #Category: Vehicle Layout: Beyond the GUI Options
 #FileID  : Run_60dfed68-024b-4986-9918-bc03196ad9bd
-#Modified: 06-06-2022 10:56:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } Total Score Output, ACC
 #FileID  : HUD_e15c9983-30e3-4b23-ae01-48227dadfb4d
 #Created : 11-09-2021 10:46:56
 #Modified: 03-29-2022 16:03:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

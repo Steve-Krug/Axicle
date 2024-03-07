@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } Static Steer Test - Brake
 #Category: Steering Tests
 #FileID  : Proc_66173eb7-7883-4f0a-90c0-cb55717e201d
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

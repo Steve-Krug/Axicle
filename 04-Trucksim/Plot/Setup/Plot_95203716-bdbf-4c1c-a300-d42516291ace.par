@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ESC } Understeer (USG Live)
 #Category: ESC
 #FileID  : Plot_95203716-bdbf-4c1c-a300-d42516291ace
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

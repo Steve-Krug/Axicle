@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Simple ACC with HU
 #Category: ADAS Support
 #FileID  : GenVS_97b0c81d-8a43-423a-9231-be8cac476627
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ACC and HUD icon
 
 END

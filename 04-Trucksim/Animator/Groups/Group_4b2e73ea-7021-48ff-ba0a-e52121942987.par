@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Suspended Cab } Cab Mount Spring Forc
 #Category: Suspended Cab
 #FileID  : Group_4b2e73ea-7021-48ff-ba0a-e52121942987
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

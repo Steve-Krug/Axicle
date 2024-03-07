@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Suspension: Solid Axle System Kinematics; { Drive Axle }
 #FileID  : KinSA_c4b71d53-6745-4237-bc7f-f22e63035f7d
 #Created : 01-02-2023 16:28:31
 #Modified: 01-02-2023 16:31:31
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Solid Axle
 
 END

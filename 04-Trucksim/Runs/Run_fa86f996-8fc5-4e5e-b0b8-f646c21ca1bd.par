@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_c40f19aa-92ca-4469-8121-69574d61ada2.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -75,9 +76,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Embedded Python } Steer Controll
 #DataSet : Steer Controller w/ Embedded Python
 #Category: Embedded Python
 #FileID  : Run_fa86f996-8fc5-4e5e-b0b8-f646c21ca1bd
-#Modified: 06-07-2021 02:11:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

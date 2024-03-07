@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Suspension: Spring; { Van Trailers } Single Axle Trailer
 #FileID  : Spring_10789ed3-de3f-42b7-93e3-6ebd87742081
 #Created : 10-28-2021 15:06:51
 #Modified: 10-28-2021 15:07:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Spring Alone
 
 END

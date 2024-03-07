@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Events; { Euro NCAP AEB Testing: CCRm,s } AEB CCRm B. Mo
 #FileID  : Events_4ba63fb0-0687-4fa0-af94-e935d24046ec
 #Created : 09-29-2021 12:24:51
 #Modified: 09-29-2021 12:34:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

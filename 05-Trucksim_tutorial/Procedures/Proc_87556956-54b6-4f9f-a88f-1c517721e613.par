@@ -97,8 +97,8 @@ LOG_ENTRY Used Dataset: Procedures; { Kinematics and Compliance Testing } K & C 
 #Category: Kinematics and Compliance Testing
 #FileID  : Proc_87556956-54b6-4f9f-a88f-1c517721e613
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

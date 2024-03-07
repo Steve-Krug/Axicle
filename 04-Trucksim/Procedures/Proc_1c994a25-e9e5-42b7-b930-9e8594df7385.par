@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multiple Vehicles } Platoon (Controls), Tr
 #FileID  : Proc_1c994a25-e9e5-42b7-b930-9e8594df7385
 #Created : 11-02-2021 10:12:38
 #Modified: 11-02-2021 11:51:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Events; { Braking in a Turn } B. Shift to Neutral
 #Category: Braking in a Turn
 #FileID  : Events_4a8a58d6-03d2-4164-9e39-aafee5fdf2bd
 #Modified: 06-07-2021 01:49:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.600
 *RZ 0.600
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Crate for Flatbed Utility Trailer
@@ -34,9 +36,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Crates } Crate for Flatbed Utility Tr
 #Category: Crates
 #FileID  : Custom_675a2633-7c8c-499c-b0e4-6866e3e3182a
 #Created : 05-25-2021 09:18:32
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

@@ -122,8 +122,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 3 Axles; { 3A Tractors } 3A Slee
 #Category: 3A Tractors
 #FileID  : Lead3a_16b444b6-5160-40f1-bdd8-d1c6717ee799
 #Modified: 04-25-2022 08:52:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

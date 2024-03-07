@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Events; { Accel. then Brake } B. Launch
 #Category: Accel. then Brake
 #FileID  : Events_6bfe5645-da98-4a01-87de-efe991938f83
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

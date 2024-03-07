@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections, Symbol Stack } Di
 #Category: ADAS Sensor Detections, Symbol Stack
 #FileID  : Plot_41c37436-b70a-4127-b371-ba3bc2474634
 #Modified: 06-16-2021 09:53:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

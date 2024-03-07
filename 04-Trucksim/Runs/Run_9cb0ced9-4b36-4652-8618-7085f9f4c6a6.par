@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_0f5c43ef-ab77-4055-86ff-be8da1e4debf.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -91,9 +92,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Roads and Intersections } 3-Way 
 #DataSet : 3-Way Intersection, 2A Tractor+1A Trl.
 #Category: Roads and Intersections
 #FileID  : Run_9cb0ced9-4b36-4652-8618-7085f9f4c6a6
-#Modified: 04-25-2022 09:33:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

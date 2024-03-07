@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Procedures; { ADAS and Active Safety } Blind Spot Detect
 #Category: ADAS and Active Safety
 #FileID  : Proc_f3b2f7ee-655e-4dd9-a16f-883a7f9e6c91
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

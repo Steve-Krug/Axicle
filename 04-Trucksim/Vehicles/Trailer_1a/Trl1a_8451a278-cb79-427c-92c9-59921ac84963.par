@@ -103,8 +103,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 1 Axle; { Very Large Vehicles } 1A
 #Category: Very Large Vehicles
 #FileID  : Trl1a_8451a278-cb79-427c-92c9-59921ac84963
 #Modified: 10-19-2021 16:36:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dS + S
 
 END

@@ -99,8 +99,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Constant Speed, Road w/ Roughnes
 #Category: Driving
 #FileID  : Proc_051b3057-0544-44ef-b945-33f3ea876417
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

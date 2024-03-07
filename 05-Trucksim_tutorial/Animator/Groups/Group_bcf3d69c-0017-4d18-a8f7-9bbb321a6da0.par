@@ -17,8 +17,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Auxiliary Steer Controller } Aux Stee
 #FileID  : Group_bcf3d69c-0017-4d18-a8f7-9bbb321a6da0
 #Created : 12-01-2021 13:18:28
 #Modified: 12-01-2021 13:20:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

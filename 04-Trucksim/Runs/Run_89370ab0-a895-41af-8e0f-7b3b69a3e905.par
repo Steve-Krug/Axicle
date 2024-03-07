@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_0b2dedc7-7ef8-4659-a29b-85fc0a17fddf.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -97,9 +98,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers 
 #DataSet : DRT, Tandem drive, tri-axle, tri-dolly
 #Category: Vehicle Layout: Double Trailers
 #FileID  : Run_89370ab0-a895-41af-8e0f-7b3b69a3e905
-#Modified: 06-06-2022 11:03:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -64,8 +64,8 @@ LOG_ENTRY Used Dataset: Road: Boundaries; { Atlas Intersection } Atlas: I-94 Exi
 #Category: Atlas Intersection
 #FileID  : RdBnd_a8b2f48f-57e3-4eba-86dd-f7739efdcad6
 #Modified: 06-07-2021 01:51:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundaries
 
 END

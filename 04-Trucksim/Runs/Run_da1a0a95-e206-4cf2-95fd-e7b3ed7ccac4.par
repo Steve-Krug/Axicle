@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 2
@@ -79,9 +80,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: Electric } Electric 
 #DataSet : Electric 4WD: O-L, Regen. Brk.
 #Category: Powertrain: Electric
 #FileID  : Run_da1a0a95-e206-4cf2-95fd-e7b3ed7ccac4
-#Modified: 05-24-2022 13:34:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

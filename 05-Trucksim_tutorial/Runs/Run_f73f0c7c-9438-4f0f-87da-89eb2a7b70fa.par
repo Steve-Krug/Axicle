@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Simulink Models } External Diffe
 #DataSet : External Differentials
 #Category: Simulink Models
 #FileID  : Run_f73f0c7c-9438-4f0f-87da-89eb2a7b70fa
-#Modified: 06-03-2022 12:05:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

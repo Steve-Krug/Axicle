@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Sensor Target ID
 #Category: ADAS Sensor Detections
 #FileID  : Plot_dc91aca7-d9b4-4b37-b1d9-e733768bfc16
 #Modified: 06-07-2021 01:49:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Events; { Hill Start Assist (Manual Trans) } B Clutch, s
 #Category: Hill Start Assist (Manual Trans)
 #FileID  : Events_c790c26c-d622-4a56-a5ef-4af7338a61a9
 #Modified: 06-07-2021 01:49:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

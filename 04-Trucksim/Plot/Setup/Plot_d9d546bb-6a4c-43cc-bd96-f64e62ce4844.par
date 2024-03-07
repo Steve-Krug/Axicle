@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Slip Ratios, Lagged (Ax
 #Category: Tire Kinematics
 #FileID  : Plot_d9d546bb-6a4c-43cc-bd96-f64e62ce4844
 #Modified: 06-07-2021 01:49:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

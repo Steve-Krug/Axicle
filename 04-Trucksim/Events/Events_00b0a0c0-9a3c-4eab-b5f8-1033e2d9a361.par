@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Events; { Rollover Test } B. Release Throttle
 #Category: Rollover Test
 #FileID  : Events_00b0a0c0-9a3c-4eab-b5f8-1033e2d9a361
 #Modified: 06-07-2021 01:49:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

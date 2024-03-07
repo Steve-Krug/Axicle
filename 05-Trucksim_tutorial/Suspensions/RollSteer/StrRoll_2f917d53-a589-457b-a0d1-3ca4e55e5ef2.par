@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Suspension: Roll Steer (Solid Axle); Spline: 0.15 deg/de
 #Category: 
 #FileID  : StrRoll_2f917d53-a589-457b-a0d1-3ca4e55e5ef2
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Axle Roll Steer
 
 END

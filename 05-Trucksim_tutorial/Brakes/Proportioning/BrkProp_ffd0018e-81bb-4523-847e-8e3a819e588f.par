@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Brakes: Proportioning / Limiting Valve; { Linear } Linea
 #Category: Linear
 #FileID  : BrkProp_ffd0018e-81bb-4523-847e-8e3a819e588f
 #Modified: 06-07-2021 01:53:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Prop / Limit Valve
 
 END

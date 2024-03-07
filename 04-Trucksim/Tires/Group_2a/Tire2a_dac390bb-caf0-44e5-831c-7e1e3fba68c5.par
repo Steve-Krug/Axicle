@@ -83,8 +83,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Lead Unit Tire
 #Category: TS 2A Lead Unit Tires: User Tire Model
 #FileID  : Tire2a_dac390bb-caf0-44e5-831c-7e1e3fba68c5
 #Modified: 06-17-2021 14:18:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2a Tire Group
 
 END

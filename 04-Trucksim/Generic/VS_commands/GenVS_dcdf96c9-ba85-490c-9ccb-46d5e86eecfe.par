@@ -153,8 +153,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Sensor Target: Col
 #Category: ADAS Support
 #FileID  : GenVS_dcdf96c9-ba85-490c-9ccb-46d5e86eecfe
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

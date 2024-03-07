@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Procedures; { Chassis twist study } 60 deg step steer
 #Category: Chassis twist study
 #FileID  : Proc_fdfca8cf-217d-48a2-a5a3-3b0dafef91aa
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

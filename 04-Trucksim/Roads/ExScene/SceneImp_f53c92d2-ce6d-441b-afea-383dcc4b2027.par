@@ -1176,8 +1176,8 @@ LOG_ENTRY Used Dataset: Scene: External Import; { VS Scene Builder } OpenDRIVE S
 #Category: VS Scene Builder
 #FileID  : SceneImp_f53c92d2-ce6d-441b-afea-383dcc4b2027
 #Modified: 06-14-2021 16:56:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Terrain Scene
 
 END

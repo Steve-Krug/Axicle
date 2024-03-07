@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Angular Rates
 #Category: Hitch
 #FileID  : Plot_c3bccf1f-980c-453e-88fc-06b3fa4c8b2d
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

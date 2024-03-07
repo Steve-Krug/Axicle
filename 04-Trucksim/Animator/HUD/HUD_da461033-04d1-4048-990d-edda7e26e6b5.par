@@ -129,8 +129,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } Hwy Perf.,Vehicle In Lane, Det
 #FileID  : HUD_da461033-04d1-4048-990d-edda7e26e6b5
 #Created : 10-12-2021 15:21:18
 #Modified: 03-29-2022 16:03:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

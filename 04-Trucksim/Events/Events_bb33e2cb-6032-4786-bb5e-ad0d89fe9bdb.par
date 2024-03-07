@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Events; { ISO Steady-State Circle Series } C. Go to Next
 #Category: ISO Steady-State Circle Series
 #FileID  : Events_bb33e2cb-6032-4786-bb5e-ad0d89fe9bdb
 #Modified: 06-07-2021 01:49:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

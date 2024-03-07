@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.816
 *RZ 0.816
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { 1A Van Trailer } Crate for 1A Van Trailer, Rear
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { 1A Van Trailer } Crate for 1A Van Tra
 #DataSet : Crate for 1A Van Trailer, Rear
 #Category: 1A Van Trailer
 #FileID  : Custom_597b16a9-d4de-40bf-82f0-b39a53f6b26c
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

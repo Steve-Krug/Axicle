@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Wind Speed; Constant: 200 km/h #1
 #FileID  : Wind_20d861a3-e5ab-4da5-8e95-de3d53fa0ce5
 #Created : 01-15-2023 18:17:55
 #Modified: 01-15-2023 18:18:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Wind Speed
 
 END

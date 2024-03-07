@@ -66,8 +66,8 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 200 kW - 270 kW Powertrains
 #Category: 200 kW - 270 kW Powertrains
 #FileID  : 4WD_fbfcb4f0-fd26-461e-bb78-c894e72a61fa
 #Modified: 01-06-2022 16:54:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4WD
 
 END

@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Events; { Brake Fade Test } C. Brake to Stop
 #Category: Brake Fade Test
 #FileID  : Events_f26032b6-bad6-4cbc-9d3d-40550ee4adfa
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

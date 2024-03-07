@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } X vs. Ti
 #FileID  : Plot_7186e098-05d0-4679-ad0e-7812512868f5
 #Created : 11-17-2021 08:37:24
 #Modified: 11-17-2021 08:38:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

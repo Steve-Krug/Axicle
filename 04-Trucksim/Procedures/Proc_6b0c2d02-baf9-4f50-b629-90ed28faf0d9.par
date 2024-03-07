@@ -107,8 +107,8 @@ LOG_ENTRY Used Dataset: Procedures; { Stability Tests } ISO 14791 Lane Change, A
 #Category: Stability Tests
 #FileID  : Proc_6b0c2d02-baf9-4f50-b629-90ed28faf0d9
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

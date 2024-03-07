@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Self-Steer Axle } Self-Steer Axle
 #FileID  : GenVS_cd8c16be-922e-4833-8fd5-8b5ef1bd77f9
 #Created : 06-03-2022 13:14:13
 #Modified: 06-03-2022 13:15:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

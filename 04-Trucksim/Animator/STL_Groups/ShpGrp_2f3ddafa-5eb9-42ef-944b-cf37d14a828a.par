@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Generic Proving Ground } Env
 #Category: Generic Proving Ground
 #FileID  : ShpGrp_2f3ddafa-5eb9-42ef-944b-cf37d14a828a
 #Modified: 06-07-2021 01:53:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

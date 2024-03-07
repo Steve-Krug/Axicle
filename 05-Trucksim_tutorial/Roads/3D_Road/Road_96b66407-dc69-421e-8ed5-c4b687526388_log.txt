@@ -1,0 +1,27 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_96b66407-dc69-421e-8ed5-c4b687526388.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_e8c30f4b-3d4d-4542-b1de-3456dab9a716.par"
+ North Entrance, 1st Exit, 1003 <Roundabout, D = 36 m>
+Used Dataset: Path: Segment Builder; { Roundabout, D = 36 m } North Entrance, 1st Exit, 1003
+Include PARSFILE "Roads\dZ_Map_V_Wdth\VarWidZ_cae79fce-7476-41ab-8d40-e09e7d478cce.par"
+Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Roundabout } Roundabout Boundary Visualization
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_fa350421-1c00-4b88-bf55-4a95bd3161bd.par"
+Used Dataset: Road: Animator Surface Shapes; { Roundabout, 3D, D = 36 m } Leg Boundary Visualization (Blue)
+Include PARSFILE "Roads\dZ_Map\RdMapZ_cf74d285-9d37-4240-8d17-fa4e93aaca46.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Roundabout, D = 36 m } Leg for Roundabout,  D = 36 m
+ Enter N, Exit W, 1003, Show Boundaries <Roundabout, Single Lane, D = 36 m>
+Used Dataset: Road: 3D Surface (All Properties); { Roundabout, Single Lane, D = 36 m } Enter N, Exit W, 1003, Show Boundaries
+
+Time to read input = 0.0006646
+
+Run started: VS output file = Roads\3D_Road\Road_96b66407-dc69-421e-8ed5-c4b687526388.vsb
+
+Run stopped at t = 7.52. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

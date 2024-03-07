@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tracking } Road ID for Tires (Axle 4)
 #Category: Tracking
 #FileID  : Plot_22838c5a-6ccb-4a11-a10e-53da4be8cc35
 #Modified: 06-16-2021 09:51:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

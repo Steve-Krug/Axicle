@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Hitch: Joint Assembly; { Turntables } Turntable, 2A Doll
 #FileID  : Hitch_1bd76c92-e5dd-4ea1-ab73-167025524dd5
 #Created : 11-21-2021 18:08:28
 #Modified: 11-21-2021 18:08:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Hitch
 
 END

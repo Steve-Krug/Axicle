@@ -103,8 +103,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Straight Driving, Constant Speed
 #Category: Driving
 #FileID  : Proc_06bad3af-f1f7-4777-8c60-a4f93f4f150a
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

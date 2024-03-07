@@ -109,8 +109,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers
 #Category: Steer Axles
 #FileID  : CmpInd_db300eff-096c-49c7-aeaf-50496ed2c192
 #Modified: 06-07-2021 01:49:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Springs and Dampers
 
 END

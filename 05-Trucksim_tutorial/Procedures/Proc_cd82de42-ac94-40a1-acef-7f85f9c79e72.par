@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Procedures; { Chassis twist study } Chassis twist test
 #Category: Chassis twist study
 #FileID  : Proc_cd82de42-ac94-40a1-acef-7f85f9c79e72
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

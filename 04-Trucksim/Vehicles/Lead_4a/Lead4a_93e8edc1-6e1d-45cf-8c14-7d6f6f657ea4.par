@@ -143,8 +143,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 4 Axles; { 4A Vans } 4A LCF Van 
 #Category: 4A Vans
 #FileID  : Lead4a_93e8edc1-6e1d-45cf-8c14-7d6f6f657ea4
 #Modified: 09-01-2021 12:48:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode SS_SS
 
 END

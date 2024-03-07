@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Rearview Mirror Location } LCF Van
 #Category: Rearview Mirror Location
 #FileID  : GenGrp_7424269f-b12b-4a28-8135-de11f2f1d496
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

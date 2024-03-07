@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Path Detection } Setup X-Y Import
 #Category: Path Detection
 #FileID  : GenVS_3fcb4317-7ed5-49e6-b8cb-c976d4880e63
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

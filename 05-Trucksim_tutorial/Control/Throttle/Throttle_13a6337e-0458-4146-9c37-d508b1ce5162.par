@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Throttle Apply and Rele
 #Category: Throttle Apply and Release
 #FileID  : Throttle_13a6337e-0458-4146-9c37-d508b1ce5162
 #Modified: 06-07-2021 01:53:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-loop Throttle
 
 END

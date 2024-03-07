@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit Sprung Mass; { 2 Axle Trucks } Articu
 #FileID  : SprMass_34ec50cd-373e-4ca6-a4db-15724255cb74
 #Created : 09-29-2021 17:27:55
 #Modified: 03-21-2022 15:09:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rigid
 
 END

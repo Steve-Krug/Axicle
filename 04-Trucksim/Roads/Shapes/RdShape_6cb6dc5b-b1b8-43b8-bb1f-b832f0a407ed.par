@@ -88,8 +88,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Lane Change Roads } Lef
 #Category: Lane Change Roads
 #FileID  : RdShape_6cb6dc5b-b1b8-43b8-bb1f-b832f0a407ed
 #Modified: 06-07-2021 01:51:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

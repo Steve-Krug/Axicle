@@ -126,8 +126,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Throttle and Speed
 #Category: HUD Groups
 #FileID  : HUD_57a6c842-a5ec-4e02-972c-e5f3c3958fdd
 #Modified: 03-29-2022 16:03:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

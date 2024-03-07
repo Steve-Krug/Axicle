@@ -85,8 +85,8 @@ LOG_ENTRY Used Dataset: Procedures; { Handling Tests } Steering Step Input #1
 #FileID  : Proc_88d781da-04c7-4ba6-82e3-26c68fef21d6
 #Created : 01-16-2023 21:31:39
 #Modified: 01-19-2023 22:33:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

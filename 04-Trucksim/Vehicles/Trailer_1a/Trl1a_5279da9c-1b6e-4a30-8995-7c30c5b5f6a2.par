@@ -88,8 +88,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 1 Axle; { Flatbed Trailers } 1A Fl
 #Category: Flatbed Trailers
 #FileID  : Trl1a_5279da9c-1b6e-4a30-8995-7c30c5b5f6a2
 #Modified: 06-07-2021 01:48:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S
 
 END

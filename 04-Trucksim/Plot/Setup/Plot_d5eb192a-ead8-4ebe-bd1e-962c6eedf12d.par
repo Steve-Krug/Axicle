@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tracking } GPS Trajectory: Lat vs Long
 #Category: Tracking
 #FileID  : Plot_d5eb192a-ead8-4ebe-bd1e-962c6eedf12d
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -119,8 +119,8 @@ LOG_ENTRY Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Low Speed, 
 #Category: Traffic Vehicles (Low Speed, Reusable)
 #FileID  : TMotion_47268db4-affd-446c-843d-72e617ced93f
 #Modified: 06-07-2021 01:54:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Multiple Objects
 
 END

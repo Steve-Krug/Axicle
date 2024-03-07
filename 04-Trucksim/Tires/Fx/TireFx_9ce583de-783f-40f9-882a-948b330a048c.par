@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalize
 #Category: Normalized Tires
 #FileID  : TireFx_9ce583de-783f-40f9-882a-948b330a048c
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

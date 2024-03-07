@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_245b5580-eac8-4494-a96f-0533fd4ce892.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 1
 #RingCtrl1 2
@@ -92,9 +93,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Handling and Stability Tests } R
 #DataSet : Rollover: Outrigger Test
 #Category: Handling and Stability Tests
 #FileID  : Run_7076426d-61ad-4248-8b5f-a1ef3d63e5e7
-#Modified: 06-10-2021 12:24:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Steering System; { Mobile Crane } 9A mobile crane steer 
 #Category: Mobile Crane
 #FileID  : StrSys_0e08700c-1ee3-497e-84b4-666725bf3be1
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

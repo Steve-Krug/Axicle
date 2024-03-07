@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { Platooning Sensor
 #FileID  : Radar_2385417c-6c52-4311-abc5-8414941bb35c
 #Created : 08-10-2021 14:26:36
 #Modified: 09-20-2021 14:02:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ADAS Sensor
 
 END

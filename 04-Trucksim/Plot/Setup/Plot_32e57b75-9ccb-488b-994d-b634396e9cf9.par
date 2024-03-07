@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Auxiliary Steer Control } Road Wheel Stee
 #FileID  : Plot_32e57b75-9ccb-488b-994d-b634396e9cf9
 #Created : 12-01-2021 12:59:05
 #Modified: 12-01-2021 12:59:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

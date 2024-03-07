@@ -95,8 +95,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { 2A Tractors } 2A Susp
 #FileID  : Lead2a_40333b1c-a2fe-4515-800d-4a40aee1ead4
 #Created : 05-26-2021 10:27:33
 #Modified: 04-25-2022 08:50:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode F_S_S
 
 END

@@ -5,8 +5,6 @@ PARSFILE
 *USE_DIFF_SOLVERS 0
 #CheckBox2 1    
 #RingCtrl0 -1
-#RingCtrl2 0
-*X64SOLVER 0
 PARSFILE IO_Channels\O_Channels\Export_35c937bb-9c77-44fc-b62e-29c711f820f4.par
 #BlueLink1 I/O Channels: Export`ABS: Vehicle Speed, M/C Pressure` Brake System Control` , Import/Export`Export_35c937bb-9c77-44fc-b62e-29c711f820f4
 
@@ -17,8 +15,6 @@ PARSFILE IO_Channels\O_Channels\Export_35c937bb-9c77-44fc-b62e-29c711f820f4.par
 
 #RingCtrl1 0
 OPT_INT_METHOD 0
-#CheckBox1 0    
-OPT_IO_UPDATE 0
 #CheckBox3 1    
 OPT_IO_SYNC_FM 1
 *TSTEP 0.0005
@@ -41,9 +37,9 @@ LOG_ENTRY Used Dataset: Models: LabVIEW for Windows (VI); Base Model
 #DataSet : Base Model
 #Category: 
 #FileID  : LabVIEW_3672ff7f-2b9f-4314-b0df-2901a27aa6df
-#Modified: 06-07-2021 01:52:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:37:35
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

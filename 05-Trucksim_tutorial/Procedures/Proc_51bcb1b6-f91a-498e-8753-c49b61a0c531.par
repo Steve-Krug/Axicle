@@ -111,8 +111,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } Brake Fade Test
 #Category: Acceleration and Braking
 #FileID  : Proc_51bcb1b6-f91a-498e-8753-c49b61a0c531
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

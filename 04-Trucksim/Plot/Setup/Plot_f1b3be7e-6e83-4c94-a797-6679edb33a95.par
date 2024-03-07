@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Distance Left Ed
 #Category: ADAS Sensor Detections
 #FileID  : Plot_f1b3be7e-6e83-4c94-a797-6679edb33a95
 #Modified: 06-07-2021 01:49:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

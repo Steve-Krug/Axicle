@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Target Properties } Messages 
 #Category: ADAS Sensor Target Properties
 #FileID  : Plot_82ed5755-6f85-4037-8e6c-61acb621b24e
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

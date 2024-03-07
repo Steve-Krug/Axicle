@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Procedures; { ADAS and Active Safety } Path created in U
 #Category: ADAS and Active Safety
 #FileID  : Proc_45da567d-f796-4c09-9c95-517ef60f61b4
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

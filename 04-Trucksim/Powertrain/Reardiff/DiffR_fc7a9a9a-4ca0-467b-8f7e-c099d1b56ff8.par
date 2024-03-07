@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear Differential; { Open } Open Differentia
 #Category: Open
 #FileID  : DiffR_fc7a9a9a-4ca0-467b-8f7e-c099d1b56ff8
 #Modified: 06-07-2021 01:49:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rear Differential
 
 END

@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; CFz = 0
 #Category: 
 #FileID  : AirCFz_8c216521-1034-4f2a-9bf1-e33ace68974f
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Lift vs. Aero Slip
 
 END

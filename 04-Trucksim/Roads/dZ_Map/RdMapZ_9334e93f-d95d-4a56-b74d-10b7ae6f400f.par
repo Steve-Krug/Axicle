@@ -627,8 +627,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Handling Cou
 #Category: Handling Course
 #FileID  : RdMapZ_9334e93f-d95d-4a56-b74d-10b7ae6f400f
 #Modified: 06-07-2021 01:51:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

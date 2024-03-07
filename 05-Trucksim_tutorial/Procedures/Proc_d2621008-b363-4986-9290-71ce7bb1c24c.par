@@ -93,8 +93,8 @@ LOG_ENTRY Used Dataset: Procedures; { Stability Tests } Yaw Damping
 #Category: Stability Tests
 #FileID  : Proc_d2621008-b363-4986-9290-71ce7bb1c24c
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

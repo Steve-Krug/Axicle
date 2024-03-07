@@ -93,8 +93,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Chassis Twist Road Sine Wave 
 #Category: Ride Tests
 #FileID  : Proc_93a9e5a5-8b1a-44f2-9bb1-aff35de226b7
 #Modified: 06-07-2021 01:49:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

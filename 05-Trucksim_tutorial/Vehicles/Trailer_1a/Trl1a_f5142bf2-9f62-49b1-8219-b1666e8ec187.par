@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 1 Axle; { Artic Bus } Bus rear, si
 #FileID  : Trl1a_f5142bf2-9f62-49b1-8219-b1666e8ec187
 #Created : 11-17-2021 17:36:03
 #Modified: 12-10-2021 16:32:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S
 
 END

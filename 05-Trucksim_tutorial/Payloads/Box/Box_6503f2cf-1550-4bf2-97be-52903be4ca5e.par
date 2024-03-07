@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { Box Trucks } Conventional/LCF Van 
 #Category: Box Trucks
 #FileID  : Box_6503f2cf-1550-4bf2-97be-52903be4ca5e
 #Modified: 04-18-2022 12:18:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Box
 
 END

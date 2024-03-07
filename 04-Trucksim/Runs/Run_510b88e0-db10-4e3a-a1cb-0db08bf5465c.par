@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -78,9 +79,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Roads and Intersections } Road w
 #DataSet : Road w/ Surface Roughness
 #Category: Roads and Intersections
 #FileID  : Run_510b88e0-db10-4e3a-a1cb-0db08bf5465c
-#Modified: 06-07-2021 02:30:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

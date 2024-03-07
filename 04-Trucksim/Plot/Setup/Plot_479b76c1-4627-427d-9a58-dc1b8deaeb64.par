@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire utilization } Longitudinal Forces
 #Category: Tire utilization
 #FileID  : Plot_479b76c1-4627-427d-9a58-dc1b8deaeb64
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

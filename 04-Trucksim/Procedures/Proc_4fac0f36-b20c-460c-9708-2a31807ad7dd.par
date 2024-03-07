@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multi-Vehicle } Platoon Trailing Trucks
 #Category: Multi-Vehicle
 #FileID  : Proc_4fac0f36-b20c-460c-9708-2a31807ad7dd
 #Modified: 06-07-2021 01:49:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multiple Vehicles } Platoon Brake Test (Co
 #FileID  : Proc_63d9d90c-6369-42bd-a921-189ff9cd9c7c
 #Created : 11-02-2021 11:38:47
 #Modified: 11-02-2021 11:56:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

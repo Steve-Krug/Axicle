@@ -111,8 +111,8 @@ LOG_ENTRY Used Dataset: Procedures; { Stability Tests } Crosswind Test
 #Category: Stability Tests
 #FileID  : Proc_48641ea9-fccd-47da-955c-ba738a288d92
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

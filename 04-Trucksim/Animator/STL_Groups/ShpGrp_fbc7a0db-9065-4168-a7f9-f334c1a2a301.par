@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Super Single for Tra
 #Category: Tires
 #FileID  : ShpGrp_fbc7a0db-9065-4168-a7f9-f334c1a2a301
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

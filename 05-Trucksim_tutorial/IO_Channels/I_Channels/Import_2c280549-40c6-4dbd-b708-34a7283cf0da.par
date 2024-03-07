@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Brake System Control } Brake Whe
 #Category: Brake System Control
 #FileID  : Import_2c280549-40c6-4dbd-b708-34a7283cf0da
 #Modified: 08-03-2021 13:32:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

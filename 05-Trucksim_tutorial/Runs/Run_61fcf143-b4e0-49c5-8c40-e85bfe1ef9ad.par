@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_c40f19aa-92ca-4469-8121-69574d61ada2.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -82,9 +83,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Steering System Options } Contro
 #DataSet : Control by Torque, VS Commands
 #Category: Steering System Options
 #FileID  : Run_61fcf143-b4e0-49c5-8c40-e85bfe1ef9ad
-#Modified: 06-07-2021 02:46:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Euro NCAP Scorin
 #FileID  : Plot_4d404510-2d40-4338-8ece-475acf6fbf11
 #Created : 09-28-2021 15:33:42
 #Modified: 09-28-2021 15:33:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

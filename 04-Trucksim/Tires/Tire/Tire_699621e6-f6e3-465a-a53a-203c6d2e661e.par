@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Tire; { Camber Extensions } 510 mm Radius (Symmetric)
 #Category: Camber Extensions
 #FileID  : Tire_699621e6-f6e3-465a-a53a-203c6d2e661e
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

@@ -14,8 +14,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { ADAS: Sensor Groups } EVT, Sen
 #Category: ADAS: Sensor Groups
 #FileID  : GenLink_1385abb8-6bdc-4fae-a193-9f24996ada4b
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Links
 
 END

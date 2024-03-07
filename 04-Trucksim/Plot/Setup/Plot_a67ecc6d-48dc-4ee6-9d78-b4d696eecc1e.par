@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Motion } Axle Roll
 #Category: Suspension Motion
 #FileID  : Plot_a67ecc6d-48dc-4ee6-9d78-b4d696eecc1e
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

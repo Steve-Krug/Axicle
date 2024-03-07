@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trucks: Cabs } LCF Van: Cab
 #Category: Trucks: Cabs
 #FileID  : Shape_f1d509b3-6256-4d31-aea4-5bab9d2ca3b6
 #Modified: 06-07-2021 01:53:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape File
 
 END

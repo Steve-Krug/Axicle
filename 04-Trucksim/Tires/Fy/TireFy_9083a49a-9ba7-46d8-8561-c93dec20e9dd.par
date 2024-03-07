@@ -105,8 +105,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { MF-Tyre / MF-Swift Example } MF-T
 #Category: MF-Tyre / MF-Swift Example
 #FileID  : TireFy_9083a49a-9ba7-46d8-8561-c93dec20e9dd
 #Modified: 06-07-2021 01:48:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fy
 
 END

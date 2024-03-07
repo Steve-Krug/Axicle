@@ -86,8 +86,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, S
 #Category: Tire Relaxation Length
 #FileID  : GenTab_d3424660-e756-4006-a08c-f39a49c14aae
 #Modified: 01-21-2022 14:00:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

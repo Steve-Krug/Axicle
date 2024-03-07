@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Procedures; { Animation Asset-based Scenarios } Parking 
 #Category: Animation Asset-based Scenarios
 #FileID  : Proc_baaf7b06-e881-446d-b650-d05bea358c05
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

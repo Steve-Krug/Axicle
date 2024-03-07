@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_245b5580-eac8-4494-a96f-0533fd4ce892.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 1
 #RingCtrl1 0
@@ -93,9 +94,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Handling and Stability Tests } R
 #DataSet : Rollover: Unloaded
 #Category: Handling and Stability Tests
 #FileID  : Run_ce3c9d2f-f5d0-4411-889f-23e150b8a3ac
-#Modified: 06-07-2021 02:17:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { K & C Testing } K & C Bounce Test
 #Category: K & C Testing
 #FileID  : GenVS_39c85f84-3107-46a7-a747-3a9e9e8dc1ae
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

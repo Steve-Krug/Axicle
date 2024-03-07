@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain (Hybrid) } Torques in Hybrid P
 #Category: Powertrain (Hybrid)
 #FileID  : Plot_096991e2-726a-4c37-b0ec-6bfbcc66e0c9
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

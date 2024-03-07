@@ -79,8 +79,8 @@ LOG_ENTRY Used Dataset: Tire; { SAE Drive Tire 2800 kg } Drive Tire, Symmetric
 #Category: SAE Drive Tire 2800 kg
 #FileID  : Tire_c3b1db4a-1e3b-418e-8466-343603059430
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

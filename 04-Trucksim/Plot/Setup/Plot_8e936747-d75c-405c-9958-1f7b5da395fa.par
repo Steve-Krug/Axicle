@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension } Fs vs. Wheel Jounce (Axle 1)
 #Category: Suspension
 #FileID  : Plot_8e936747-d75c-405c-9958-1f7b5da395fa
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

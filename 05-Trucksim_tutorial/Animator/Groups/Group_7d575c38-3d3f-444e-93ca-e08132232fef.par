@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Pickup Trucks } Pickup, Compact: Regu
 #Category: Pickup Trucks
 #FileID  : Group_7d575c38-3d3f-444e-93ca-e08132232fef
 #Modified: 06-07-2021 01:54:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

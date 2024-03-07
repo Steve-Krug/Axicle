@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Brakes: Caliper and Rotor Properties; { Large Euro Van }
 #Category: Large Euro Van
 #FileID  : BrkCal_45240244-ae22-4084-a222-2683a81410bf
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Caliper and Rotor
 
 END

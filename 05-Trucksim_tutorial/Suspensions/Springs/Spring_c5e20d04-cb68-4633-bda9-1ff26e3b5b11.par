@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Suspension: Spring; { Pickup Trucks } Pickup - Rear (HD)
 #Category: Pickup Trucks
 #FileID  : Spring_c5e20d04-cb68-4633-bda9-1ff26e3b5b11
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Spring Alone
 
 END

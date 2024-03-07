@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trucks: Chassis } Lead Unit
 #Category: Trucks: Chassis
 #FileID  : Shape_fcec2261-6a14-49c8-8ef9-c3961c118e39
 #Modified: 06-07-2021 01:53:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape File
 
 END

@@ -93,8 +93,8 @@ LOG_ENTRY Used Dataset: Powertrain: Engine; { 32 kW - 125 kW Engines } 1.5L, 43 
 #Category: 32 kW - 125 kW Engines
 #FileID  : Engine_e10a2855-e13c-4e65-bf71-c813ed38a5fb
 #Modified: 05-22-2022 16:37:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2D Table 
 
 END

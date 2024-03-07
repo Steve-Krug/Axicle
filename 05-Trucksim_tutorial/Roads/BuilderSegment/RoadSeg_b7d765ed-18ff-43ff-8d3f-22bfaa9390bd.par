@@ -84,8 +84,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Crossing with Curbs } 2002: Wes
 #Category: Crossing with Curbs
 #FileID  : RoadSeg_b7d765ed-18ff-43ff-8d3f-22bfaa9390bd
 #Modified: 06-07-2021 01:51:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

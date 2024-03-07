@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -91,9 +92,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { * VS Commands Examples } PARTIAL
 #Category: * VS Commands Examples
 #FileID  : Run_50aeeff2-8042-40bf-9080-8afaf246eaa9
 #Created : 06-01-2022 13:58:34
-#Modified: 06-13-2022 11:17:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

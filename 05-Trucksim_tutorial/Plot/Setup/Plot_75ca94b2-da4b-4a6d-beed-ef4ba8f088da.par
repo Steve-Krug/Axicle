@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspended Cab } Susp. Cab: SpringRR
 #FileID  : Plot_75ca94b2-da4b-4a6d-beed-ef4ba8f088da
 #Created : 05-26-2021 11:34:56
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

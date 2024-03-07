@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Number of Collisions Text
 #Category: HUD Groups
 #FileID  : HUD_94a13b72-9cc0-4ea2-a718-4c399879f3bf
 #Modified: 03-29-2022 16:03:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

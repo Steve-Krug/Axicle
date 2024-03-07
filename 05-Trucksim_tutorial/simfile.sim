@@ -1,9 +1,9 @@
 SIMFILE
 
-SET_MACRO $(ROOT_FILE_NAME)$ Run_e070e72c-d350-4a43-b7a8-4a9007658330
+SET_MACRO $(ROOT_FILE_NAME)$ Run_fa684ffa-3dcb-4bda-82eb-7f31c345f8be
 SET_MACRO $(OUTPUT_PATH)$ Results
 SET_MACRO $(WORK_DIR)$ .\
-SET_MACRO $(OUTPUT_FILE_PREFIX)$ Results\Run_e070e72c-d350-4a43-b7a8-4a9007658330\LastRun
+SET_MACRO $(OUTPUT_FILE_PREFIX)$ Results\Run_fa684ffa-3dcb-4bda-82eb-7f31c345f8be\LastRun
 
 FILEBASE $(OUTPUT_FILE_PREFIX)$
 INPUT Results\$(ROOT_FILE_NAME)$\Run_all.par
@@ -11,18 +11,18 @@ INPUTARCHIVE $(OUTPUT_FILE_PREFIX)$_all.par
 ECHO $(OUTPUT_FILE_PREFIX)$_echo.par
 FINAL $(OUTPUT_FILE_PREFIX)$_end.par
 LOGFILE $(OUTPUT_FILE_PREFIX)$_log.txt
-ERDFILE $(OUTPUT_FILE_PREFIX)$.csv
-PROGDIR C:\Program Files (x86)\TruckSim2022.1_Prog\
+ERDFILE $(OUTPUT_FILE_PREFIX)$.vs
+PROGDIR C:\Program Files (x86)\TruckSim2023.0_Prog\
 DATADIR C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\05-Trucksim_tutorial\
-GUI_REFRESH_V TruckSim_RefreshEvent_29128
-RESOURCEDIR C:\Program Files (x86)\TruckSim2022.1_Prog\\Resources\
+GUI_REFRESH_V TruckSim_RefreshEvent_28688
+RESOURCEDIR C:\Program Files (x86)\TruckSim2023.0_Prog\\Resources\
 PRODUCT_ID TruckSim
-PRODUCT_VER 2022.1
+PRODUCT_VER 2023.0
 ANIFILE C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\05-Trucksim_tutorial\runs\animator.par
-VEHICLE_CODE s_ss
+VEHICLE_CODE s_s
 EXT_MODEL_STEP 0.00050000
 PORTS_IMP 0
 PORTS_EXP 0
 
-DLLFILE C:\Program Files (x86)\TruckSim2022.1_Prog\Programs\solvers\trucksim_64.dll
+DLLFILE C:\Program Files (x86)\TruckSim2023.0_Prog\Programs\solvers\trucksim_64.dll
 END

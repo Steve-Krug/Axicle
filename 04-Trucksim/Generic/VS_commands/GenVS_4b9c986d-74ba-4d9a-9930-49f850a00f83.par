@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Kappa - Long. Slip,
 #Category: Plot Groups
 #FileID  : GenVS_4b9c986d-74ba-4d9a-9930-49f850a00f83
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Group
 
 END

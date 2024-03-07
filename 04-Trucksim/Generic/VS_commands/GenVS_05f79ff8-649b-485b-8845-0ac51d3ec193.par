@@ -69,8 +69,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Euro NCAP: CCRm,s 
 #FileID  : GenVS_05f79ff8-649b-485b-8845-0ac51d3ec193
 #Created : 09-29-2021 12:19:19
 #Modified: 09-29-2021 12:56:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

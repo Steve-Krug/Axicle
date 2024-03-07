@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspended Cab } Susp. Cab: DamperLF
 #FileID  : Plot_739a82e7-8e8c-426f-a2c0-2f501c24acc4
 #Created : 05-26-2021 12:09:54
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

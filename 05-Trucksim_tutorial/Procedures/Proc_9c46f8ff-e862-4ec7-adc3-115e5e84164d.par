@@ -105,8 +105,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Road w/ Median
 #Category: Driving
 #FileID  : Proc_9c46f8ff-e862-4ec7-adc3-115e5e84164d
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

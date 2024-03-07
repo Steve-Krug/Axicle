@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 2.174
 *RZ 2.168
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 #EMBEDDED_NOTES
@@ -49,9 +51,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Shipping Containers } 40-foot Dry Car
 #Category: Shipping Containers
 #FileID  : Custom_95d1408f-b696-47ab-a604-c0f092e51112
 #Created : 10-20-2021 13:20:43
-#Modified: 10-20-2021 13:23:48
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

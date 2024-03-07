@@ -185,8 +185,8 @@ LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Speed
 #Category: Speed vs. Station
 #FileID  : SpdTime_f45d7eea-b95c-4703-8d1b-ce7892c7a904
 #Modified: 06-07-2021 01:53:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Target Speed
 
 END

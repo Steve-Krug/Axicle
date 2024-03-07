@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Buses } Tour Bus, 4.5 m Ref. #1
 #FileID  : Aero_dbeb91e1-c29b-4f06-90bd-40814f40d766
 #Created : 01-15-2023 19:01:38
 #Modified: 01-15-2023 19:17:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Left / Right Bumps
 #Category: Ride Tests
 #FileID  : Proc_81270a0e-5382-413d-adf1-9d51ace597af
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

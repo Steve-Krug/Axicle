@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_31e5f92f-1c15-4ca8-bfcc-b3d172b5188e.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -74,9 +75,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Extended Models } Lift Axle - Re
 #DataSet : Lift Axle - Rear
 #Category: Extended Models
 #FileID  : Run_ba0d9dea-c61d-4663-85ae-d64cf1f6736e
-#Modified: 06-07-2021 02:11:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

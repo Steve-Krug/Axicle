@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Events`Iterate Variables 2`Iterate Variables
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 1    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 1    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl10 0
+#RingCtrl11 4
+*VALUE1 1
+OPT_INIT_CONFIG 1
+OPT_INIT_PATH 1
+OPT_INIT_SPEED 1
+#MiscYellow0
+M_PL imp_M_PL
+Z_CG_PL imp_Z_CG_PL
+#ENDMYellow
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ;
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_TARGET = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
+SET_EVENT_ID 0 ! reset to default
+
+LOG_ENTRY Used Dataset: Events; { Iterate Variables } Iterate Variables 2
+#Library : Events
+#DataSet : Iterate Variables 2
+#Category: Iterate Variables
+#FileID  : Events_5d537a6c-f541-469c-ae4c-4863f34bbed5
+#Created : 06-09-2023 14:10:57
+#Modified: 06-13-2023 13:19:14
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Events
+
+END

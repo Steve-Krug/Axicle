@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Events; { Steering control } Reverse and Turn Around
 #Category: Steering control
 #FileID  : Events_e112ba7e-4dbb-436c-8fcb-23743adb1257
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

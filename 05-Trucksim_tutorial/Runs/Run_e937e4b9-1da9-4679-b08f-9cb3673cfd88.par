@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -80,9 +81,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { LabVIEW Models } LabVIEW Ext. AB
 #DataSet : LabVIEW Ext. ABS: Split Mu
 #Category: LabVIEW Models
 #FileID  : Run_e937e4b9-1da9-4679-b08f-9cb3673cfd88
-#Modified: 06-07-2021 02:17:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

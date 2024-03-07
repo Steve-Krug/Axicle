@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Events; { Braking Distance, M/C, Air } B. Reset Postion 
 #Category: Braking Distance, M/C, Air
 #FileID  : Events_6056aeb5-09da-4833-8038-0f66bd3f103e
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

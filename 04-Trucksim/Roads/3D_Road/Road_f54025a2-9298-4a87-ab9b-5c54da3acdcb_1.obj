@@ -1,0 +1,20 @@
+# Shape file for lane 1
+v -500 4 0
+vt 0 0
+v -500 -4 0
+vt 1 0
+v 500.00001 4 0
+vt 0 50.0000005
+v 500.00001 -4 0
+vt 1 50.0000005
+mtllib Roads\3D_Road\Road_f54025a2-9298-4a87-ab9b-5c54da3acdcb_1.mtl
+usemtl Road (No Lines)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

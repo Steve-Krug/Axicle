@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { PBS (Performance Based Standards) } Traje
 #Category: PBS (Performance Based Standards)
 #FileID  : Plot_81c8c42b-9ac3-40b7-97e4-dc8955b88f41
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

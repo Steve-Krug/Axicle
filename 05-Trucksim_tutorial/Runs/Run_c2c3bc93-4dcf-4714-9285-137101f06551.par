@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_cd655b69-1aca-45bc-8c94-36a43e93f68c.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -68,9 +69,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Roads and Intersections } River 
 #DataSet : River Crossing
 #Category: Roads and Intersections
 #FileID  : Run_c2c3bc93-4dcf-4714-9285-137101f06551
-#Modified: 06-07-2021 02:29:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

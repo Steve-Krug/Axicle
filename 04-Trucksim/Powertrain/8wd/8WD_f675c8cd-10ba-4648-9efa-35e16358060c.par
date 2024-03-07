@@ -83,8 +83,8 @@ LOG_ENTRY Used Dataset: Powertrain: 8-Wheel Drive; { Electric:  50 kWx4/100 kWx2
 #Category: Electric:  50 kWx4/100 kWx2
 #FileID  : 8WD_f675c8cd-10ba-4648-9efa-35e16358060c
 #Modified: 01-26-2022 13:57:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 8WD
 
 END

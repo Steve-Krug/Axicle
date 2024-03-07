@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Procedures; { Chassis twist study } Raise one wheel, low
 #Category: Chassis twist study
 #FileID  : Proc_72c4b2bc-7df1-4f50-8050-810ba06026af
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

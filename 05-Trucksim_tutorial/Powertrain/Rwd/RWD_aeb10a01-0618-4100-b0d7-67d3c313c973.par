@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { 270 kW - 300 kW Powertra
 #Category: 270 kW - 300 kW Powertrains
 #FileID  : RWD_aeb10a01-0618-4100-b0d7-67d3c313c973
 #Modified: 01-06-2022 16:54:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RWD
 
 END

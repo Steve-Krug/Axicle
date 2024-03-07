@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } 270 deg. A
 #Category: Vehicle Reference
 #FileID  : Camera_0ba9ec4d-0ad1-4df5-aa5e-eb9bc351a8b3
 #Modified: 06-07-2021 01:54:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

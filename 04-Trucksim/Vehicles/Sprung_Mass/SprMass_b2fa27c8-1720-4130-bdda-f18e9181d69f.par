@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit Sprung Mass; { Chassis twist study } 
 #Category: Chassis twist study
 #FileID  : SprMass_b2fa27c8-1720-4130-bdda-f18e9181d69f
 #Modified: 03-21-2022 15:09:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Flexible
 
 END

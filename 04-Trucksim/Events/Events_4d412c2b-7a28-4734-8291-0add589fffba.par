@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Events; { Trailer Reversing into Loading Dock } H. Stop
 #Category: Trailer Reversing into Loading Dock
 #FileID  : Events_4d412c2b-7a28-4734-8291-0add589fffba
 #Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

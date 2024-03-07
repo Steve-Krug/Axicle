@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Models: Simulink`Rollover Sweeps 1`
+#RunMdlFile Extensions\Simulink\batch_iteration\batch_iteration_SWD_SL.mdl
+SIMULINK_MODEL_FILE Extensions\Simulink\batch_iteration\batch_iteration_SWD_SL.mdl
+#RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
+#CheckBox0 1    
+*USE_ALT_DIR 1
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 1    
+#CheckBox5 0    
+#RingCtrl1 0
+OPT_INT_METHOD 0
+#CheckBox4 0    
+OPT_IO_SYNC_FM 0
+*TSTEP 0.0005
+*FREQ_MODEL 2000
+*TSTEP_OUT 0.025
+*FREQ_OUT 40
+tstep 0.0005
+iprint 50
+#AltPath Extensions\Simulink\batch_iteration
+*ALTERNATE_PATH Extensions\Simulink\batch_iteration
+#BlueLink3 I/O Channels: Ports` ` , vs_state Ports` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports` ` , vs_ctl Ports` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports` ` , vs_kin Ports` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports` ` , vs_dyn Ports` , vs_dyn Ports`
+
+#MiscYellow1
+*cpar_include Extensions\Simulink\batch_iteration
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+LOG_ENTRY Used Dataset: Models: Simulink; Rollover Sweeps 1
+#Library : Models: Simulink
+#DataSet : Rollover Sweeps 1
+#Category: 
+#FileID  : Simlink_abdbe5e0-e74a-43ac-bb21-e15b6577d457
+#Created : 05-26-2023 16:41:24
+#Modified: 06-09-2023 12:26:10
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode 
+
+END

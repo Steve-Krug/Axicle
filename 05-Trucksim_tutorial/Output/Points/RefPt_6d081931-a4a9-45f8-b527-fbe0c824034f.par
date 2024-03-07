@@ -94,8 +94,8 @@ LOG_ENTRY Used Dataset: Custom Forces and Reference Points; { Outrigger Points }
 #Category: Outrigger Points
 #FileID  : RefPt_6d081931-a4a9-45f8-b527-fbe0c824034f
 #Modified: 06-07-2021 01:53:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Custom Forces
 
 END

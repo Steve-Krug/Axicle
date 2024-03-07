@@ -64,8 +64,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } TBC: DLC @ -5 km/h
 #FileID  : Proc_e2721ea8-cd52-419a-99ef-7cce85b0aac8
 #Created : 05-20-2022 14:00:48
 #Modified: 05-20-2022 14:03:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Powertrain: Front-Wheel Drive; { 175 kW Powertrains } 17
 #Category: 175 kW Powertrains
 #FileID  : FWD_ddbf382f-d236-468c-bb7c-a93a1e41639f
 #Modified: 01-06-2022 16:54:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode FWD
 
 END

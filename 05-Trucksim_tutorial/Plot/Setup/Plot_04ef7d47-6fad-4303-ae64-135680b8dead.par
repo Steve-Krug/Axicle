@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Motion } Jounce (Axle 1)
 #Category: Suspension Motion
 #FileID  : Plot_04ef7d47-6fad-4303-ae64-135680b8dead
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

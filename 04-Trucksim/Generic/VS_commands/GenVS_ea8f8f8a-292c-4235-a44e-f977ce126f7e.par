@@ -90,8 +90,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } FCW Alert, AEB Con
 #FileID  : GenVS_ea8f8f8a-292c-4235-a44e-f977ce126f7e
 #Created : 10-26-2021 15:12:39
 #Modified: 10-26-2021 18:06:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

@@ -1,0 +1,327 @@
+PARSFILE
+add_reference_frame The Road
+reference_frame_ghosts off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_1.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_2.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_3.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_4.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_5.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_6.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_7.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0.35 0.35 0.35
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_8.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_9.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_10.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_11.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_12.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_13.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_14.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_15.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0.35 0.35 0.35
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_16.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_17.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_18.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_19.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_20.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_21.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_22.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_23.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0.35 0.35 0.35
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_24.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_25.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_26.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_27.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_28.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_29.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_30.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_31.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0.35 0.35 0.35
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_32.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_33.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_34.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_35.obj
+set_color 0.753 0.753 0.753
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_36.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Road
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_37.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_38.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Off
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_39.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 0.35 0.35 0.35
+set_auto_detail_type Foliage
+
+add_obj Roads\3D_Road\Road_5cbefdae-63a4-4cb3-aaaf-15878a4ba284_40.obj
+set_color 1 1 1
+show_front on
+show_back off
+compute_normals on
+set_specular 1 1 1
+set_auto_detail_type Foliage
+
+
+
+END

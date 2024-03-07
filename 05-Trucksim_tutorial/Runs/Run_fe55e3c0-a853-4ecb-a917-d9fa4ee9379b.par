@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_a8c70d40-bbba-4af6-8ded-c01f83a61b6a.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -71,9 +72,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Driver Model } Target Import: Ve
 #DataSet : Target Import: Vehicle at Zero Speed
 #Category: Driver Model
 #FileID  : Run_fe55e3c0-a853-4ecb-a917-d9fa4ee9379b
-#Modified: 06-07-2021 02:11:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

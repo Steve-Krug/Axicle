@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Flat Test Pads } 5 m Gr
 #Category: Flat Test Pads
 #FileID  : RdShape_8adccc5b-a72f-4cb9-8bc7-5813975c2072
 #Modified: 06-07-2021 01:51:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

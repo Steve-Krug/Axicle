@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Brakes: Two-Wheel System; { Air Brakes } 10 kN-m Capacit
 #Category: Air Brakes
 #FileID  : Brk2W_b6f14525-7233-4fd7-b700-de03bd681ce2
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brakes
 
 END

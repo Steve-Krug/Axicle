@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers } 1A Van Trailer, 2
 #FileID  : ShpGrp_e6b3e832-6690-4ed5-84ad-9f36435dad48
 #Created : 10-28-2021 15:17:03
 #Modified: 03-30-2022 10:34:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

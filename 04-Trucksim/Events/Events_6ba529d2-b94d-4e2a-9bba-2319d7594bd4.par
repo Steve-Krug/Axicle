@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Events; { Road Network Driving } E. NW Roundabout
 #Category: Road Network Driving
 #FileID  : Events_6ba529d2-b94d-4e2a-9bba-2319d7594bd4
 #Modified: 06-07-2021 01:49:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

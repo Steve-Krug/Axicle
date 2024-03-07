@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } CCRs, Straight Road Label
 #FileID  : HUD_b8e45664-45ed-4e62-a072-8056441f7b6e
 #Created : 11-12-2021 12:51:23
 #Modified: 03-29-2022 16:03:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

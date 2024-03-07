@@ -65,8 +65,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { MF-Tyre / MF-Swift } MF-Tyre
 #Category: MF-Tyre / MF-Swift
 #FileID  : TireFx_3edd2d2d-1b33-433a-9f29-8c899cd59f49
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -79,9 +80,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Chassis Twist } 005 Step steer: 
 #DataSet : 005 Step steer: Node ctr
 #Category: Chassis Twist
 #FileID  : Run_0dbd5f0b-f3c6-4e84-8d6f-2afcfd1915cf
-#Modified: 05-03-2022 13:54:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:16
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

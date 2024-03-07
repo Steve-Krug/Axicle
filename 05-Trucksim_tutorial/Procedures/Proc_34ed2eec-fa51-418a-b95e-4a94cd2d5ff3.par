@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } Low Speed Steer Test, Fig
 #Category: Steering Tests
 #FileID  : Proc_34ed2eec-fa51-418a-b95e-4a94cd2d5ff3
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -1,0 +1,23 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_a1501dc8-ab97-4cae-aa34-5c0e29e627a0.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_74452004-3589-41a9-b5f6-c549a9c634cc.par"
+ Clothoid S-Turn <S-Turns>
+Used Dataset: Path: Segment Builder; { S-Turns } Clothoid S-Turn
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_f8cb2527-25df-425e-a7cf-7793b8ee8169.par"
+Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } Clothoid S-Turn - Wide
+ Clothoid Segments - Wide <Clothoid Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Clothoid Roads } Clothoid Segments - Wide
+
+Time to read input = 0.0004699
+
+Run stopped at t = 14.44. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_a1501dc8-ab97-4cae-aa34-5c0e29e627a0.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

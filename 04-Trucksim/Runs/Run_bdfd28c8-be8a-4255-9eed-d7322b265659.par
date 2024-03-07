@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -86,9 +87,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Extended Models } EQ_DYN: Extern
 #DataSet : EQ_DYN: External Springs DLC
 #Category: Extended Models
 #FileID  : Run_bdfd28c8-be8a-4255-9eed-d7322b265659
-#Modified: 06-07-2021 02:11:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

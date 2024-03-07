@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Generic Truck } Generic LCF 
 #Category: Generic Truck
 #FileID  : ShpGrp_42fdff45-a2ee-47ab-9b27-ccf09be65a23
 #Modified: 06-07-2021 01:53:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

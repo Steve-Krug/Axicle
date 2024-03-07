@@ -84,8 +84,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Bounce Sine Sweep Test
 #Category: Ride Tests
 #FileID  : Proc_289a6952-478f-4d9f-8885-a556b4216383
 #Modified: 06-07-2021 01:49:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

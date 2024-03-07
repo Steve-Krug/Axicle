@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_69c20d2f-6831-47ee-b906-da3ea57fa917.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 10
@@ -80,9 +81,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } Lane Ch
 #DataSet : Lane Changes in Traffic
 #Category: ADAS and Active Safety
 #FileID  : Run_af770225-52be-41b7-9adc-d883c418f43d
-#Modified: 06-07-2021 02:05:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

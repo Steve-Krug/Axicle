@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Tire; { 2000 kg Rating } 350 mm Radius (Trailer)
 #Category: 2000 kg Rating
 #FileID  : Tire_cde306e5-2a08-432e-af45-8d11344c5b50
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Dump Trucks } 3A Dump Tru
 #Category: Dump Trucks
 #FileID  : VehLoad_58c8e17c-a76f-46ea-9bf6-b11ec49767ce
 #Modified: 06-07-2021 01:48:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

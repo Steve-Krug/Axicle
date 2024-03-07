@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Ramp } Ramp: 0 to -180 
 #Category: Ramp
 #FileID  : StrSW_fa2114d0-d273-4b80-bcd7-831063ce8fa7
 #Modified: 06-07-2021 01:53:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Steering
 
 END

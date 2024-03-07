@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Events; { 3-Point Turn } G. Go forward and accelerate
 #Category: 3-Point Turn
 #FileID  : Events_c92f763c-0bcf-418f-92d4-b765f60ceb5e
 #Modified: 06-07-2021 01:49:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

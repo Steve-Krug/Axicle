@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Moments } Aligning Moments (Left Sid
 #Category: Tire Moments
 #FileID  : Plot_e4e8e3ed-2d1a-4432-98bf-531ed1d6e278
 #Modified: 06-07-2021 01:49:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

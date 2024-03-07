@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Driver Model } Driver Preview Points
 #Category: Driver Model
 #FileID  : Group_f09c62ae-681a-4a5c-a2fc-1964def44246
 #Modified: 06-07-2021 01:54:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

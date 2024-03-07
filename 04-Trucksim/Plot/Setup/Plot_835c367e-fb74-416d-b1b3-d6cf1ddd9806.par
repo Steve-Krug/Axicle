@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Braking } Brake Control: Master Cyl. Pres
 #Category: Braking
 #FileID  : Plot_835c367e-fb74-416d-b1b3-d6cf1ddd9806
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

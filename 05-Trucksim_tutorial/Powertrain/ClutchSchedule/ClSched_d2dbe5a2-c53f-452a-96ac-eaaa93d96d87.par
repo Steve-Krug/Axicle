@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Powertrain: AT Clutch Schedule; { Lock-up Torque Convert
 #Category: Lock-up Torque Converter: 7-Speed AT, 2100 RPM
 #FileID  : ClSched_d2dbe5a2-c53f-452a-96ac-eaaa93d96d87
 #Modified: 09-28-2021 11:44:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Clutch Schedule
 
 END

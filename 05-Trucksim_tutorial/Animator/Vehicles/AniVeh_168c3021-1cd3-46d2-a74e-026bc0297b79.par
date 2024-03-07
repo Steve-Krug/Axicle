@@ -104,8 +104,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Trailers: 3-axl
 #Category: Trailers: 3-axle
 #FileID  : AniVeh_168c3021-1cd3-46d2-a74e-026bc0297b79
 #Modified: 04-18-2022 12:23:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

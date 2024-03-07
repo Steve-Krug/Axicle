@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_f0846ff6-ab10-494e-8273-d18451ea4851.par"
+Include PARSFILE "Roads\Center_XY\PathXY_ff4458e7-8a36-423f-9726-28d38c3fe5b6.par"
+Used Dataset: Path: X-Y Coordinates; { Public Road Section } Alt 3 Road from FHWA
+Include PARSFILE "Roads\dZ_Map\RdMapZ_3b9e8f25-3752-4465-af6f-67e99a6b4c73.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { 2D Spline } River Bed
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_6be39677-b649-4b27-974a-9235c20792c2.par"
+Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } River Bed
+ River Bed <Scenic Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Scenic Roads } River Bed
+
+Time to read input = 0.0005541
+
+Run stopped at t = 14.44. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_f0846ff6-ab10-494e-8273-d18451ea4851.vsb
+Function ROAD_DZ_CARPET(1) extrapolated (out of range HIGH) for XCOL = 60 m at T = 14.44
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

@@ -84,8 +84,8 @@ LOG_ENTRY Used Dataset: Procedures; { Sensors and Traffic } Two Target Vehicles
 #Category: Sensors and Traffic
 #FileID  : Proc_b5c7bb12-3d01-4835-9470-9a9606a19a94
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

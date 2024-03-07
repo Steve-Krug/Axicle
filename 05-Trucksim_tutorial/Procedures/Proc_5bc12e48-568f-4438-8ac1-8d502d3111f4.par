@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Procedures; { Chassis twist study } 80 km/h Ramp steer 6
 #Category: Chassis twist study
 #FileID  : Proc_5bc12e48-568f-4438-8ac1-8d502d3111f4
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 150 kW Powertrains } 150 kW
 #Category: 150 kW Powertrains
 #FileID  : 4WD_63e17122-6ade-4b30-bbd4-241eb2ca03aa
 #Modified: 01-06-2022 16:54:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4WD
 
 END

@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Driver } Clutch: Control Input
 #Category: Controls: Driver
 #FileID  : Plot_27ad32d4-9ff0-4701-9d4d-99a04a7ff85b
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

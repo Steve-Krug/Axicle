@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Conventional Cab } Conv. Cab w/ F
 #Category: Conventional Cab
 #FileID  : Aero_ad19711c-1936-499a-b1de-fc8dcd7243ec
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

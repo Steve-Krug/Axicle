@@ -94,8 +94,8 @@ LOG_ENTRY Used Dataset: Procedures; { AEB: Automated Emergency Braking } AEB Sin
 #FileID  : Proc_13e11730-8662-41ea-9003-1caa7697ed02
 #Created : 09-29-2021 12:57:33
 #Modified: 11-10-2021 16:12:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

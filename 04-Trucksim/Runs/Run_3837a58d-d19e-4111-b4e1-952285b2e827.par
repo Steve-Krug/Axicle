@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_7a348bdb-e815-4591-91b4-2f04467edcb1.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -92,9 +93,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } Mcity: 
 #DataSet : Mcity: ADAS - Cross Traffic w/ AEB
 #Category: ADAS and Active Safety
 #FileID  : Run_3837a58d-d19e-4111-b4e1-952285b2e827
-#Modified: 06-14-2021 18:46:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

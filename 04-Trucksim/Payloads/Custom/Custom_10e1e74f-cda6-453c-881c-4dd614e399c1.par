@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 2.500
 *RZ 2.500
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Barrels and Drums } Heavy Hauler Barrel
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Barrels and Drums } Heavy Hauler Barr
 #DataSet : Heavy Hauler Barrel
 #Category: Barrels and Drums
 #FileID  : Custom_10e1e74f-cda6-453c-881c-4dd614e399c1
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

@@ -104,8 +104,8 @@ LOG_ENTRY Used Dataset: Procedures; { Ride Tests } Severe Bump Course
 #Category: Ride Tests
 #FileID  : Proc_413b8c69-89f3-4d60-921f-7144de86182b
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

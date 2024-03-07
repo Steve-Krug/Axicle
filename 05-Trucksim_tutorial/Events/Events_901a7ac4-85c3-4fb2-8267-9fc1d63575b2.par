@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Events; { Brake Fade Test } D. Hold at Stop for 2 second
 #Category: Brake Fade Test
 #FileID  : Events_901a7ac4-85c3-4fb2-8267-9fc1d63575b2
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

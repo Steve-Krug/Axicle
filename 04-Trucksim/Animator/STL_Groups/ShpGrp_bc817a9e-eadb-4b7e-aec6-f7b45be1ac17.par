@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
 #FileID  : ShpGrp_bc817a9e-eadb-4b7e-aec6-f7b45be1ac17
 #Created : 05-14-2021 08:26:42
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

@@ -31,6 +31,7 @@ PARSFILE Animator\Cameras\Camera_d14a8296-6736-4daf-8562-965531be5132.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 12
@@ -89,9 +90,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tire Models (External Software) 
 #DataSet : MF-Swift (Rigid Ring): Acc./Brk
 #Category: Tire Models (External Software)
 #FileID  : Run_969f9397-637a-47c8-8b2e-63d2546df6ef
-#Modified: 12-13-2021 22:09:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:20
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

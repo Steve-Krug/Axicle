@@ -47,7 +47,6 @@ SET_COLOR 1 0.4 0
 *SPEED Vx
 *HEADING_VEL 0
 EQ_INIT HeadO_<<o>> 0
-SET_RUN_COLOR 1 0.4 0
 PARSFILE Animator\Vehicles\AniVeh_5e99b800-fddc-4e1b-a23d-d8a55608d47a.par
 #BlueLink0 Animator: Vehicles and Sensor Targets`3A Dump Truck` 3A Lead Units` , 3D Shape for Video`AniVeh_5e99b800-fddc-4e1b-a23d-d8a55608d47a
 
@@ -76,9 +75,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { 6-Lane Highway } Single
 #DataSet : Single Vehicle on Right Access Road
 #Category: 6-Lane Highway
 #FileID  : Target_d62fe873-69e7-4a4a-97c2-3ce847078cfe
-#Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

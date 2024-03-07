@@ -72,8 +72,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { European Vans } 2A Euro V
 #FileID  : VehLoad_124a0ba3-35c8-4369-ae88-35b470fe0bf3
 #Created : 11-29-2021 14:38:13
 #Modified: 11-29-2021 18:37:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_S + SS
 
 END

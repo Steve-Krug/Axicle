@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers 
 #DataSet : Gravel Train, 3A Tractor, 2A Dolly (R)
 #Category: Vehicle Layout: Double Trailers
 #FileID  : Run_157e1258-be68-47ee-8d84-9002ee4c9f37
-#Modified: 06-06-2022 11:03:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:26
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

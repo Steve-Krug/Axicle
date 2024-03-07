@@ -66,8 +66,8 @@ LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { ADAS Sensor } Pic
 #FileID  : Radar_14510d99-c249-4339-9b58-9360f88b6cd6
 #Created : 10-13-2021 13:07:04
 #Modified: 10-13-2021 13:26:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ADAS Sensor
 
 END

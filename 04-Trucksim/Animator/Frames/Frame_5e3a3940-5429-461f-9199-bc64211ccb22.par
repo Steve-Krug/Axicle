@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Articulated Bus Simple Anim
 #FileID  : Frame_5e3a3940-5429-461f-9199-bc64211ccb22
 #Created : 03-29-2022 12:34:44
 #Modified: 03-29-2022 12:48:50
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

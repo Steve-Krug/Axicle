@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Steering: Parking Torque; { Linear } 2D Linear: 0.01 N-m
 #Category: Linear
 #FileID  : TqPark_92bb05e2-9669-4a39-9756-cc91392cde2d
 #Modified: 06-07-2021 01:49:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Parking Torque
 
 END

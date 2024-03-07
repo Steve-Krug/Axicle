@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Events; { Sign Detection } Wait 2s at Stop
 #FileID  : Events_95fdea95-2a6c-4a8d-a900-f8331fdfd2be
 #Created : 05-31-2022 09:55:25
 #Modified: 05-31-2022 13:34:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

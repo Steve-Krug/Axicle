@@ -71,8 +71,8 @@ LOG_ENTRY Used Dataset: Tire; { Touring Tires } 255/75 R16
 #Category: Touring Tires
 #FileID  : Tire_ba30c681-2df4-49ab-b236-1ab691b32cd4
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

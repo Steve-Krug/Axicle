@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Path Change Roads }
 #Category: Path Change Roads
 #FileID  : Road_750ff3d1-b9db-4706-a5d5-2048d70e3651
 #Modified: 03-18-2022 15:52:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

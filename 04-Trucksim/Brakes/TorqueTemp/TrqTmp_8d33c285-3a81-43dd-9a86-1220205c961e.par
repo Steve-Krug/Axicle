@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Brakes: Torque vs. Rotor Temperature; { Large Euro Van }
 #Category: Large Euro Van
 #FileID  : TrqTmp_8d33c285-3a81-43dd-9a86-1220205c961e
 #Modified: 06-07-2021 01:53:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brake Torque w/ Temp
 
 END

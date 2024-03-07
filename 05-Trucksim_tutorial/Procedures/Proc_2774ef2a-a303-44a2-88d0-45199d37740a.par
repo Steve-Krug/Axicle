@@ -50,8 +50,8 @@ LOG_ENTRY Used Dataset: Procedures; { VS Scene Builder } Mcity Tile Procedure
 #Category: VS Scene Builder
 #FileID  : Proc_2774ef2a-a303-44a2-88d0-45199d37740a
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

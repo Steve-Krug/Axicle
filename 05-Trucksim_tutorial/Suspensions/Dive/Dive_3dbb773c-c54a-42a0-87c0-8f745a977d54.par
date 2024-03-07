@@ -56,8 +56,8 @@ LOG_ENTRY Used Dataset: Suspension: Dive Angle (Caster Change); { Utility Vehicl
 #Category: Utility Vehicles
 #FileID  : Dive_3dbb773c-c54a-42a0-87c0-8f745a977d54
 #Modified: 06-07-2021 01:49:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Dive
 
 END

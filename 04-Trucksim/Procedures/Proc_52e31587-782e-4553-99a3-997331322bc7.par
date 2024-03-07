@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Procedures; { Road Networks } 3-Way Intersection (Articu
 #Category: Road Networks
 #FileID  : Proc_52e31587-782e-4553-99a3-997331322bc7
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

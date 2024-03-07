@@ -5,8 +5,6 @@ PARSFILE
 *USE_DIFF_SOLVERS 0
 #CheckBox2 1    
 #RingCtrl0 -1
-#RingCtrl2 0
-*X64SOLVER 0
 PARSFILE IO_Channels\I_Channels\Import_fb6f5ede-415e-4f25-bf48-5686cd190ba4.par
 #BlueLink0 I/O Channels: Import`ABS: Wheel Cylinder Pressures` Brake System Control` , Import`Import_fb6f5ede-415e-4f25-bf48-5686cd190ba4
 
@@ -20,8 +18,6 @@ PARSFILE IO_Channels\O_Channels\Export_35c937bb-9c77-44fc-b62e-29c711f820f4.par
 
 #RingCtrl1 0
 OPT_INT_METHOD 0
-#CheckBox1 0    
-OPT_IO_UPDATE 0
 #CheckBox3 1    
 OPT_IO_SYNC_FM 1
 *TSTEP 0.0005
@@ -36,9 +32,9 @@ LOG_ENTRY Used Dataset: Models: LabVIEW for Windows (VI); ABS Example
 #DataSet : ABS Example
 #Category: 
 #FileID  : LabVIEW_5dac13ca-4715-4c63-83c6-8d659e72f33b
-#Modified: 06-07-2021 01:52:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:47:43
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

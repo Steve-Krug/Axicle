@@ -65,8 +65,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { 90-deg Turns (Offtracking) } 12
 #Category: 90-deg Turns (Offtracking)
 #FileID  : RoadSeg_2d4c0798-0bcd-4d54-9501-2261ef71e2c1
 #Modified: 06-07-2021 01:51:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

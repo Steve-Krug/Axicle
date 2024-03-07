@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Large Europ
 #Category: Large European Van
 #FileID  : KinInd_20ba66a1-0a3e-4938-b623-16a60f3c85c1
 #Modified: 11-17-2021 11:34:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Independent
 
 END

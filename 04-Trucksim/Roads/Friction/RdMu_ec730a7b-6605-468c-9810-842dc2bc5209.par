@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Road: Friction Map, S-L Grid; { Road Handling Course } 1
 #Category: Road Handling Course
 #FileID  : RdMu_ec730a7b-6605-468c-9810-842dc2bc5209
 #Modified: 06-07-2021 01:51:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Mu via S-L Grid
 
 END

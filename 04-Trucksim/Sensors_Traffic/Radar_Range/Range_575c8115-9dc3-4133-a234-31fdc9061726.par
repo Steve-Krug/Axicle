@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Sensor Range and Bearing Sensitivity; { Blind Spot Detec
 #Category: Blind Spot Detection
 #FileID  : Range_575c8115-9dc3-4133-a234-31fdc9061726
 #Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Range & Bearing Sensitivity
 
 END

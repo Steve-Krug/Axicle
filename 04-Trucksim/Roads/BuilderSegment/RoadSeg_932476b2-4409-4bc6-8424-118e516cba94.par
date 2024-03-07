@@ -57,8 +57,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Circles } 152.4-m (500-ft) Radi
 #Category: Circles
 #FileID  : RoadSeg_932476b2-4409-4bc6-8424-118e516cba94
 #Modified: 06-07-2021 01:51:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

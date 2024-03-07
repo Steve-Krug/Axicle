@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Generic Table; { PBS C3: Target Distance for Acceleratio
 #Category: PBS C3: Target Distance for Acceleration
 #FileID  : GenTab_56074371-a468-4f35-bf72-b82de3401b1b
 #Modified: 01-21-2022 14:00:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

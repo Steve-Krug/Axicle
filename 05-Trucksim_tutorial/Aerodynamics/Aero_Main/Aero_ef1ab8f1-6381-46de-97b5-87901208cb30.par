@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Day Cab } Day Cab, 3.5 m referenc
 #FileID  : Aero_ef1ab8f1-6381-46de-97b5-87901208cb30
 #Created : 10-28-2021 14:57:50
 #Modified: 10-28-2021 14:58:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

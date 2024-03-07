@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_e1c31f95-b0c9-423f-af09-82016e848b91.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -128,9 +129,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Simulink Models } Live Video: IS
 #DataSet : Live Video: ISO Steady-State Circle
 #Category: Simulink Models
 #FileID  : Run_f1d0aff6-eeba-4bb9-b3b6-a501d7767cbc
-#Modified: 04-25-2022 09:36:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

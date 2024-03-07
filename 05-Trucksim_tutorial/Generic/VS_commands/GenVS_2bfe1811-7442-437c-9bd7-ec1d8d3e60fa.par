@@ -58,8 +58,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Tire Tester } Derived Outputs vs.
 #Category: Tire Tester
 #FileID  : GenVS_2bfe1811-7442-437c-9bd7-ec1d8d3e60fa
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

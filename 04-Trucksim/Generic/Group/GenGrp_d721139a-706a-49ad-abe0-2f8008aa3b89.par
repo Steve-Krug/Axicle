@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Traffic Lights } Traffic Lights fo
 #Category: Traffic Lights
 #FileID  : GenGrp_d721139a-706a-49ad-abe0-2f8008aa3b89
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

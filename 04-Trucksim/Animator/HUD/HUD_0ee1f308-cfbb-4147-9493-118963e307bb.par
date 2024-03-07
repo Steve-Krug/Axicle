@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Drive-Off OK Text
 #Category: HUD Groups
 #FileID  : HUD_0ee1f308-cfbb-4147-9493-118963e307bb
 #Modified: 03-29-2022 16:03:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

@@ -163,8 +163,8 @@ LOG_ENTRY Used Dataset: Path: X-Y Coordinates for Segment; { Clothoid Tables } C
 #Category: Clothoid Tables
 #FileID  : XYtab_3f4d4a75-e5cf-444c-bf45-055f0e4ecf9f
 #Modified: 06-07-2021 01:51:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y Coordinates of Segment
 
 END

@@ -11,7 +11,6 @@ ROAD_ID_OBJ CURRENT_ROAD_ID
 #CheckBox1 0    
 OPT_RECYCLE_OBJ 0
 #CheckBox2 0    
-#CheckBox3 1    
 #CheckBox5 0    
 #CheckBox6 0    
 #CheckBox7 0    
@@ -36,7 +35,6 @@ REFLECT_OBJ 1
 *SPEED 10
 *HEADING_VEL 70/DR
 EQ_INIT HeadO_<<o>> 70/DR
-SET_RUN_COLOR 0.2 0.6 0.4
 PARSFILE Animator\Vehicles\AniVeh_135ced7b-75b6-4a58-a554-9ed8958443d3.par
 #BlueLink0 Animator: Vehicles and Sensor Targets`2A Day Cab` 2A Lead Units` , 3D Shape for Video`AniVeh_135ced7b-75b6-4a58-a554-9ed8958443d3
 
@@ -53,9 +51,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Sensor Targets } 2A Day
 #DataSet : 2A Day Cab - S: 145 m, Head: 70 deg
 #Category: Sensor Targets
 #FileID  : Target_512dd38b-1057-45cd-9d7e-d5fae0953e5f
-#Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

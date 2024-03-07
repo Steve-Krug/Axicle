@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Vehicle Status Indicators } Simulation 
 #FileID  : HUD_131f745a-8906-43fd-92f8-417ed1b36950
 #Created : 12-09-2021 10:05:47
 #Modified: 03-29-2022 16:03:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

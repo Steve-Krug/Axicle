@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Powertrain, VS Commands } User 
 #Category: Controls: Powertrain, VS Commands
 #FileID  : Plot_13e24c06-536f-4c8c-8efe-0a40666fa307
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

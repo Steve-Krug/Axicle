@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Road Boundary: New Road ID; { Intersection, 3-Way } Left
 #Category: Intersection, 3-Way
 #FileID  : RdBdID_341c1df3-1f5b-430d-ab2d-460c4f6737d3
 #Modified: 06-07-2021 01:50:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundary ID
 
 END

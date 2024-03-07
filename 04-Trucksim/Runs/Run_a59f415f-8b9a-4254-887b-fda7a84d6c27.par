@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -75,9 +76,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: ICE } 18 spd. Full T
 #DataSet : 18 spd. Full Thrt. Accel.
 #Category: Powertrain: ICE
 #FileID  : Run_a59f415f-8b9a-4254-887b-fda7a84d6c27
-#Modified: 05-24-2022 13:34:46
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

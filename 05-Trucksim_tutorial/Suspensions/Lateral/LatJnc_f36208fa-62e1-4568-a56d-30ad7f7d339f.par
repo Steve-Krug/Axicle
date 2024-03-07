@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { Utility Ve
 #Category: Utility Vehicles
 #FileID  : LatJnc_f36208fa-62e1-4568-a56d-30ad7f7d339f
 #Modified: 06-07-2021 01:49:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Lateral Movement
 
 END

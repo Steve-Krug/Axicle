@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Sigmoid } Smooth Thrott
 #Category: Sigmoid
 #FileID  : Throttle_894cf30f-a918-471f-98f5-9dda992cde61
 #Modified: 06-07-2021 01:53:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-loop Throttle
 
 END

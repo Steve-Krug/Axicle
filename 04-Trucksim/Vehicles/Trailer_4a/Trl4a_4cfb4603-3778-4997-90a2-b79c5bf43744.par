@@ -126,8 +126,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 4 Axles; { Telescopic Trailers } 4
 #Category: Telescopic Trailers
 #FileID  : Trl4a_4cfb4603-3778-4997-90a2-b79c5bf43744
 #Modified: 06-07-2021 01:48:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode SSS_S
 
 END

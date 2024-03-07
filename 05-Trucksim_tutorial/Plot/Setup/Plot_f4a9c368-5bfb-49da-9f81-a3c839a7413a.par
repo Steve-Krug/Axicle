@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Tester } Fy vs. Kappa
 #Category: Tire Tester
 #FileID  : Plot_f4a9c368-5bfb-49da-9f81-a3c839a7413a
 #Modified: 06-07-2021 01:49:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

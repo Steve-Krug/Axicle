@@ -56,8 +56,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Write; { Tire Tester } All Outputs with Ti
 #Category: Tire Tester
 #FileID  : Write_73f85ec3-df3e-41b9-8300-c4b1c96e0f2d
 #Modified: 05-20-2022 16:30:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Write Channels
 
 END

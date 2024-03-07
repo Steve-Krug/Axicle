@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: Hybrid } RE-Electric
 #Category: Powertrain: Hybrid
 #FileID  : Run_4b7c367f-45c5-4e16-b567-6dbb6000c6da
 #Created : 09-14-2021 12:13:26
-#Modified: 06-06-2022 12:38:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

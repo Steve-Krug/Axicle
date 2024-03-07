@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Open } 40/60, Gear Ratio 1:
 #Category: Open
 #FileID  : XC_7cde1498-7380-48e9-a8c8-b8a7f12a38b0
 #Modified: 06-07-2021 01:49:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Transfer Case
 
 END

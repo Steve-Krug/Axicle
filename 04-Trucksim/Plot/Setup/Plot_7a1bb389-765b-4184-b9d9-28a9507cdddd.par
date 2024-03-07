@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Inpu
 #Category: Controls: Driver
 #FileID  : Plot_7a1bb389-765b-4184-b9d9-28a9507cdddd
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

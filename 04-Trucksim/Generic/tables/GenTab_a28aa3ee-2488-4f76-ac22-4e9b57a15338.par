@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Motor efficiency: 28
 #FileID  : GenTab_a28aa3ee-2488-4f76-ac22-4e9b57a15338
 #Created : 05-17-2021 08:15:00
 #Modified: 06-07-2021 01:53:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

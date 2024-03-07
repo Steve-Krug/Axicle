@@ -1,0 +1,25 @@
+# Shape file for lane 10
+v -36.05 -0.5 0.21
+vt 0 0
+v -31.05 -0.5 0.21
+vt 5 0
+v -36.05 4.5 0.21
+vt 0 1
+v -31.05 4.5 0.21
+vt 5 1
+v -36.05 5.85001 0.21
+vt 0 1.270002
+v -31.05 5.85001 0.21
+vt 5 1.270002
+mtllib Roads\3D_Road\Road_b2f81eaa-1253-41a3-870c-d00e6395a934_10.mtl
+usemtl Grass (Light)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+f  3/3 4/4 6/6 5/5
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

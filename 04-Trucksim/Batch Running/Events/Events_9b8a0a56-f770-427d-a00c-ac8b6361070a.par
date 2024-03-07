@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Events`Initialize Payload`
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox9 0    
+#CheckBox10 0    
+
+#RingCtrl0 ZERO ~=
+#RingCtrl10 1
+#RingCtrl11 4
+*VALUE1 1
+DEFINE_EVENT 1 ; Events\Events_ac47e5ba-fa12-4c92-9fb7-e7419f5317ec.par
+#BlueLink0 Events`Iterate Payload` ` , Events`Events_ac47e5ba-fa12-4c92-9fb7-e7419f5317ec
+
+SET_EVENT_ID 0 ! reset to default
+
+LOG_ENTRY Used Dataset: Events; Initialize Payload
+#Library : Events
+#DataSet : Initialize Payload
+#Category: 
+#FileID  : Events_9b8a0a56-f770-427d-a00c-ac8b6361070a
+#Created : 05-19-2023 09:13:43
+#Modified: 05-19-2023 09:14:00
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Events
+
+END

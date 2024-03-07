@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_7e361528-61ef-438a-b82f-ea47e91f836d.par"
+Include PARSFILE "Roads\Center_XY\PathXY_b731e8cf-c781-4948-a5e9-abb1be977155.par"
+Used Dataset: Path: X-Y Coordinates; { Parking Lot } Parking Lot: Lot Definition Path
+Include PARSFILE "Roads\dZ_Map\RdMapZ_af2e18e1-fd14-4e1f-aaaa-bf627c257953.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Parking Lot } Parking Lot: Major Geometry
+Include PARSFILE "Roads\Friction\RdMu_e7dab9d2-e6aa-4758-bc79-19823b5c238c.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.75
+Include PARSFILE "Roads\Shapes\RdShape_192dace8-6b1d-40fc-a208-b95255daa98d.par"
+Used Dataset: Road: Animator Surface Shapes; { Parking Lot } East Lawn
+ Props, Environment <Parking Lot>
+Used Dataset: Road: 3D Surface (All Properties); { Parking Lot } Props, Environment
+
+Time to read input = 0.0003933
+
+Run started: VS output file = Roads\3D_Road\Road_7e361528-61ef-438a-b82f-ea47e91f836d.vsb
+Function ROAD_DZ_CARPET(1) extrapolated (out of range LOW) for XCOL = -20 m at T = 2.48
+
+Run stopped at t = 2.48. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

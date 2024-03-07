@@ -137,8 +137,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { ACC - Adaptive Cruise Control } ACC Bar
 #FileID  : HUD_2fcb6793-9269-427d-bee7-e158ca9950b4
 #Created : 09-27-2021 16:44:15
 #Modified: 03-29-2022 16:03:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Pickup Trucks } Pickup, Compact A
 #Category: Pickup Trucks
 #FileID  : Aero_00f35450-1cc5-452d-9136-2a91bb42e9b1
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

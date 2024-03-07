@@ -64,8 +64,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Drift into Curb
 #Category: Driving
 #FileID  : Proc_9ae0d799-3198-49c6-8b8d-1f20060bcc94
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

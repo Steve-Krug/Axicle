@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Path Preview; { Inter
 #Category: Intersections
 #FileID  : SpdPath_002cdaef-396f-4f97-9630-d7a7908e35af
 #Modified: 06-07-2021 01:53:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Speed Using Path Preview
 
 END

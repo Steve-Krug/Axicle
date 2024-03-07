@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Pitch Angles
 #FileID  : Plot_d23caab8-f8e7-4c8c-a734-d992fbe8ccf2
 #Created : 10-15-2021 16:11:07
 #Modified: 10-15-2021 16:11:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

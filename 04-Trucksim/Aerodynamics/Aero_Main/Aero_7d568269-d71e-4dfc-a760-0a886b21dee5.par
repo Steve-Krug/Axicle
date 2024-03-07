@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Pickup Trucks } Pickup, Midsize A
 #Category: Pickup Trucks
 #FileID  : Aero_7d568269-d71e-4dfc-a760-0a886b21dee5
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

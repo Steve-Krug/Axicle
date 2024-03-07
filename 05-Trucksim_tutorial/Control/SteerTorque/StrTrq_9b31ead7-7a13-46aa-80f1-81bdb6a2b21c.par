@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Control: Steering Torque (Open Loop); 2.5 N-m Pulse from
 #Category: 
 #FileID  : StrTrq_9b31ead7-7a13-46aa-80f1-81bdb6a2b21c
 #Modified: 06-07-2021 01:53:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Steering Torque
 
 END

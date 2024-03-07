@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 
 #FileID  : RdMu_4c294144-c74a-4b33-81c5-a9ec046f62e8
 #Created : 01-16-2023 19:42:35
 #Modified: 01-16-2023 19:42:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Mu via S-L Grid
 
 END

@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Events; { Blind Spot Reversing } 2. Initiate Reverse
 #Category: Blind Spot Reversing
 #FileID  : Events_421bd6b6-8bd1-4662-8089-9de3ed78613a
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

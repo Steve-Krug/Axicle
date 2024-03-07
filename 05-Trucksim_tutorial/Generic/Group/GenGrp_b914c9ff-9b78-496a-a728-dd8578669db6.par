@@ -56,8 +56,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Suspension Extensions } Ind. Kinem
 #FileID  : GenGrp_b914c9ff-9b78-496a-a728-dd8578669db6
 #Created : 11-17-2021 08:29:12
 #Modified: 11-17-2021 08:47:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

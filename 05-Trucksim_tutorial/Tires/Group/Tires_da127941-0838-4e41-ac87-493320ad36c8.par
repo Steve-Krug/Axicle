@@ -183,8 +183,8 @@ LOG_ENTRY Used Dataset: Tires for Any Vehicle Unit; { TS 5A Steer / Drive Tires 
 #Category: TS 5A Steer / Drive Tires
 #FileID  : Tires_da127941-0838-4e41-ac87-493320ad36c8
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire Group
 
 END

@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Powertrain: Torque Converter; { Torque Converters: 150 k
 #Category: Torque Converters: 150 kW to 250 kW
 #FileID  : TC_98f7e37b-c4a2-404a-a254-6406f32d006a
 #Modified: 06-07-2021 01:49:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Torque Converter
 
 END

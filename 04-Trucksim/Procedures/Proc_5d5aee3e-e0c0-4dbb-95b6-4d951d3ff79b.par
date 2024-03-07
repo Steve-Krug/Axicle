@@ -90,8 +90,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multi-Vehicle } Autonomous Driving: City (
 #Category: Multi-Vehicle
 #FileID  : Proc_5d5aee3e-e0c0-4dbb-95b6-4d951d3ff79b
 #Modified: 08-05-2021 11:44:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

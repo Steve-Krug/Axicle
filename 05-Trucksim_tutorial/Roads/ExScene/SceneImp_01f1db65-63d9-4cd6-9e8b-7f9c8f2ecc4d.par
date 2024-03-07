@@ -749,8 +749,8 @@ LOG_ENTRY Used Dataset: Scene: External Import; { ADAS RP } Hilly Scenic Route
 #Category: ADAS RP
 #FileID  : SceneImp_01f1db65-63d9-4cd6-9e8b-7f9c8f2ecc4d
 #Modified: 06-04-2021 13:11:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode External Path Import
 
 END

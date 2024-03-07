@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Lift Axles } Fs (Axle 2)
 #Category: Lift Axles
 #FileID  : Plot_40f0751f-421a-4812-8d43-1575e1d996e9
 #Modified: 06-07-2021 01:49:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

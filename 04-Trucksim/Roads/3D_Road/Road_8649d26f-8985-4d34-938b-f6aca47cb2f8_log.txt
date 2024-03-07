@@ -1,0 +1,28 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_8649d26f-8985-4d34-938b-f6aca47cb2f8.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c.par"
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Include PARSFILE "Roads\dZ_Map_V_Wdth\VarWidZ_7a2b61f8-6864-4bc1-be16-a4e89311af25.par"
+Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Variable Width Roads } Railroad Tracks
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_87a0005a-b349-407a-8c3c-49f895131219.par"
+Used Dataset: Road: Animator Surface Shapes; { Japanese Environment } Japanese Environment: Main Road
+Include PARSFILE "Roads\dZ_Map\RdMapZ_7040d28d-9365-4609-ae17-05c30fa2d3c9.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Japanese Grid Environment } Japanese Environment: Roadside Lake
+ Straight Road: RR Track Crossing <Japanese Environment>
+Used Dataset: Road: 3D Surface (All Properties); { Japanese Environment } Straight Road: RR Track Crossing
+
+Time to read input = 0.0005856
+
+Run stopped at t = 10.6. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_8649d26f-8985-4d34-938b-f6aca47cb2f8.vsb
+Function ROAD_DZ_CARPET(3) extrapolated (out of range LOW) for X = -25 m at T = 10.6
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

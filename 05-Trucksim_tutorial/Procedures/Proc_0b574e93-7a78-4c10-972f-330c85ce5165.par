@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } Full Throttle A
 #Category: Acceleration and Braking
 #FileID  : Proc_0b574e93-7a78-4c10-972f-330c85ce5165
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

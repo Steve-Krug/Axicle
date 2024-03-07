@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Generic Table; { VS STI } User STI parameters (TYPARR ar
 #Category: VS STI
 #FileID  : GenTab_8b38ea92-db5e-43d5-8d0c-2ab78d118024
 #Modified: 06-07-2021 01:53:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_e1c31f95-b0c9-423f-af09-82016e848b91.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -80,9 +81,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Driver Model } Preview Speed Con
 #DataSet : Preview Speed Control, Torque Steer
 #Category: Driver Model
 #FileID  : Run_a5d726d2-7ca5-4cf5-8669-beec918c747a
-#Modified: 06-07-2021 02:10:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:16
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

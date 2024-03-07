@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Lead Unit Tire
 #Category: TS 2A Lead Unit Tires: MF-Tyre / MF-Swift
 #FileID  : Tire2a_65ce7bad-12cf-4caa-a353-a59f2fd78d58
 #Modified: 06-17-2021 14:17:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2a Tire Group
 
 END

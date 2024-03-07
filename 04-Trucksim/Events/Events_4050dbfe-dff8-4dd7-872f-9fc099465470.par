@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Events; { Steering control } Slow to Stop
 #Category: Steering control
 #FileID  : Events_4050dbfe-dff8-4dd7-872f-9fc099465470
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

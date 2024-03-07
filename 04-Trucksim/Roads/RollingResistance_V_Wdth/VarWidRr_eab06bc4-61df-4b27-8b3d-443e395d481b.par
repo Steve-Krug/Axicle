@@ -71,8 +71,8 @@ LOG_ENTRY Used Dataset: Road: Rolling Resistance Map, Variable Width; Road (1.0)
 #Category: 
 #FileID  : VarWidRr_eab06bc4-61df-4b27-8b3d-443e395d481b
 #Modified: 06-07-2021 01:51:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RR via S-L, Variable Width
 
 END

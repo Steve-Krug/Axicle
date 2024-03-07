@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Events; { Braking Distance, M/C, Air } A. Start at 100 k
 #Category: Braking Distance, M/C, Air
 #FileID  : Events_b8343cac-e89e-4715-be70-a3c0652bfd04
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

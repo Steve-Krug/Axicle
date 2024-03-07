@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 2 Axles; { TS 2A Steer / Drive 
 #Category: TS 2A Steer / Drive Tires: FTire
 #FileID  : Tire2a_9f734604-b9da-41fa-b98d-7481c4f5cc0e
 #Modified: 06-07-2021 01:48:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 2a Tire Group
 
 END

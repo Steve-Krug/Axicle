@@ -1,0 +1,224 @@
+PARSFILE
+! VS Road Calculator
+! Utility to calculate road and path coordinates for visualization
+! Revision 192897, December 7, 2022
+
+TITLE East Curbs, Exterior Grass <Parking Lot>
+
+! Echo: Roads\3D_Road\Road_fcfb5df4-8037-4e6a-929f-fe62439ee76d_echo.par
+! This run was made 17:37 on April 04, 2023.
+
+!------------------------------------------------------------------------------------
+! SYSTEM PARAMETERS (SIMULATION OPTIONS)
+!------------------------------------------------------------------------------------
+! [I] indicates that changing the parameter via an Event triggers an initialization.
+! [L] indicates that the parameter is locked once the simulation starts.
+
+ID_EVENT            0 ; - ! ID number that can be assigned to the current event
+ID_RUN              0 ; - ! ID number that can be assigned to a simulation run
+OPT_ALL_WRITE       0 ! Write all outputs to file? 1 -> all, 0 -> only activated
+                      ! outputs
+OPT_ECHO_DEFAULT    2 ! Show values that were not set by reading from a file? 1 ->
+                      ! show with [D] indicator, 0 -> show without [D], 2 -> do not
+                      ! show the property at all
+OPT_ERROR_DIALOG    0 ! Show pop-up dialog box if fatal error occurs: 1 -> yes
+                      ! (normal use), 0 -> no (for batch runs)
+OPT_WRITE           0 ; - ! Write outputs when T > TSTART_WRITE? 1 -> write, 0 ->
+                      ! don't write; change this using VS Commands or Events
+TSTART            5.6 ; s ! Starting time for the simulation clock
+TSTEP            0.04 ; s ! Time step for numerical integration [L]
+! T_DT           0.04 ; s ! CALC -- Time increment between calculations
+
+!------------------------------------------------------------------------------------
+! SYSTEM CONSTANTS
+!------------------------------------------------------------------------------------
+
+!------------------------------------------------------------------------------------
+! REFERENCE PATHS
+!------------------------------------------------------------------------------------
+! Up to 500 reference paths may be installed to provide station-based coordinate
+! systems used to define 3D road surfaces, targets for the driver model, and
+! positions of moving objects. In addition to the parameters shown in this section,
+! the paths may include spline X-Y tables (keyword = SEGMENT_XY_TABLE).
+
+! NPATH             1 ! Number of installed paths available for roads, driver model,
+                      ! and moving objects (read only)
+DEFINE_PATHS        1 ! VS Command to install reference paths
+
+OPT_PATH_LOOP(1)    1 ! Is this path looped? 0 -> no, 1 -> yes
+SPATH_START(1)      0 ; m ! Station at the start of this path
+! SPATH_LAP(1) 194.861009 ; m ! CALC -- Lap distance for this path
+! HEADING_START(1) -90 ; deg ! Heading at the start of this path
+! X_PATH_START(1) -24 ; m ! Global X coordinate at the start of this path
+! Y_PATH_START(1) 36.4 ; m ! Global Y coordinate at the start of this path
+
+NSEGMENTS(1)        1 ! Number of segments in this path
+SEGMENT_TYPE(1,1)   1 ! 0 -> straight, 1 -> table, 2 -> rho, 3 -> radius, 4 -> cloth
+XY_SEGMENT_ID(1,1)  1 ! XY_TABLE_ID number of spline table [I]
+! S_SEGMENT_END(1,1) 194.861009 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,1) -24 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,1) 36.4 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,1) -90 ; deg ! CALC -- Heading at end of segment
+DEFINE_XY_TABLES    1 ! No. of XY spline tables (see the SPLINE TABLES section)
+
+!------------------------------------------------------------------------------------
+! ROAD SURFACES
+!------------------------------------------------------------------------------------
+! Road surfaces define elevation Z and friction MU as functions of global X and Y
+! coordinates, using a station-based coordinate system defined with a Reference
+! Path. Up to 200 surfaces may be installed to represent sections, intersections,
+! multiple lanes, etc. The Z, MU, and RR_SURF values for a road surface are
+! provided with Configurable Functions MU_ROAD, ROAD_DZ, RR_SURF, and ROAD_ZS.
+! Boundaries that control automatic switching from one road surface to another make
+! use of the Configurable Functions ROAD_L_BOUNDARY, ROAD_NEW_ID, and ROAD_NEW_S.
+
+! NROAD             1 ! Number of installed road surfaces (read only)
+NROAD_DZ            1 ! Number of ROAD_DZ datasets
+DEFINE_ROADS        1 ! VS Command to define road surfaces
+
+ROAD_PATH_ID(1)     1 ! PATH_ID of reference path used for this road [I]
+ROAD_N_DZ(1)        1 ! Number of ROAD_DZ layers added to the surface
+RD_DZ_ID(1,1)       1 ! ROAD_DZ_ID for a ROAD_DZ layer added to this surface
+
+!------------------------------------------------------------------------------------
+! START AND STOP INFORMATION FOR PATH
+!------------------------------------------------------------------------------------
+PATH_ID_DM          1 ! PATH_ID of reference path for the driver and vehicle [I]
+OPT_DIRECTION       1 ! Travel direction along path PATH_ID_DM: 0 -> set to 1 or -1
+                      ! using SSTART and SSTOP values (legacy); 1 -> increasing
+                      ! station, -1 -> decreasing station [I]
+
+!------------------------------------------------------------------------------------
+! CONFIGURABLE FUNCTIONS
+!------------------------------------------------------------------------------------
+
+! MU_ROAD: 2D function that calculates MU as a function of lateral position and
+! station
+
+MU_ROAD_CONSTANT(1) 0.85 ; - ! MU component due to station
+MU_ROAD_COMBINE(1) ADD ! How to combine the two components
+MU_ROAD_L_CONSTANT(1) 0 ; - ! MU component due to lateral position
+
+! ROAD_DZ: 2D function that calculates dZ as a function of lateral position and
+! station
+
+ROAD_DZ_ID(1)       1  ! User-defined ID number for this dataset
+
+! Row 1 has "0" (place holder) followed by 4 values of lateral position (m). Other
+! rows have station (m) followed by 4 values of dZ (m).
+ROAD_DZ_CARPET(1) 2D_LINEAR
+ 0, -1, 0, 0.1, 1
+ 0, 0, 0, 0.2, 0.2
+ 100, 0, 0, 0.2, 0.2
+ENDTABLE
+
+! ROAD_NEW_ID: Function that calculates ID from S
+
+! ROAD_ZS: Function that calculates elevation from station
+
+! RR_SURF: 2D function that calculates RR_SURF as a function of lateral position and
+! station
+
+RR_SURF_CONSTANT(1) 1 ; - ! RR_SURF component due to station
+
+!------------------------------------------------------------------------------------
+! SPLINE X-Y TABLES FOR PATH SEGMENTS
+!------------------------------------------------------------------------------------
+! Following are up to 500 tables of X-Y global coordinates used to make spline
+! segments for reference paths. Tables are listed here only if used in a path. If
+! indices shown below are not used, e.g., SEGMENT_XY_TABLE(1), the current value
+! of the index ITAB_XY is used to identify the table when reading data.
+
+! NTAB_XY 1 ! CALC -- Current number of XY spline tables for path segments
+
+XY_TABLE_ID(1)      1 ! ID number for spline table segment
+SEGMENT_XY_TABLE(1) ! table with X (m), Y (m), and calculated station S (m)
+ -24, 36.4, 0
+ -24, 30.65, 5.75
+ -23.9657, 30.4778, 5.926
+ -23.8682, 30.3318, 6.101
+ -23.7222, 30.2343, 6.277
+ -23.55, 30.2, 6.452
+ -23.45, 30.2, 6.552
+ -23.2778, 30.2343, 6.728
+ -23.1318, 30.3318, 6.903
+ -23.0343, 30.4778, 7.079
+ -23, 30.65, 7.255
+ -23, 35.65, 12.255
+ -22.9429, 35.937, 12.547
+ -22.7803, 36.1803, 12.84
+ -22.537, 36.3429, 13.132
+ -22.25, 36.4, 13.425
+ -7.15, 36.4, 28.525
+ -6.863, 36.3429, 28.818
+ -6.6197, 36.1803, 29.11
+ -6.4571, 35.937, 29.403
+ -6.4, 35.65, 29.696
+ -6.4, 30.95, 34.396
+ -6.3429, 30.663, 34.688
+ -6.1803, 30.4197, 34.981
+ -5.937, 30.2571, 35.274
+ -5.65, 30.2, 35.566
+ -0.75, 30.2, 40.466
+ -0.463, 30.1429, 40.759
+ -0.2197, 29.9803, 41.051
+ -0.0571, 29.737, 41.344
+ 0, 29.45, 41.637
+ 0, 6.95, 64.137
+ -0.0571, 6.663, 64.429
+ -0.2197, 6.4197, 64.722
+ -0.463, 6.2571, 65.015
+ -0.75, 6.2, 65.307
+ -5.65, 6.2, 70.207
+ -5.937, 6.1429, 70.5
+ -6.1803, 5.9803, 70.792
+ -6.3429, 5.737, 71.085
+ -6.4, 5.45, 71.378
+ -6.4, 0.75, 76.078
+ -6.4571, 0.463, 76.37
+ -6.6197, 0.2197, 76.663
+ -6.863, 0.0571, 76.956
+ -7.15, 0, 77.248
+ -22.25, 0, 92.348
+ -22.537, 0.0571, 92.641
+ -22.7803, 0.2197, 92.933
+ -22.9429, 0.463, 93.226
+ -23, 0.75, 93.519
+ -23, 5.75, 98.519
+ -23.0343, 5.9222, 98.694
+ -23.1318, 6.0682, 98.87
+ -23.2778, 6.1657, 99.045
+ -23.45, 6.2, 99.221
+ -23.55, 6.2, 99.321
+ -23.7222, 6.1657, 99.497
+ -23.8682, 6.0682, 99.672
+ -23.9657, 5.9222, 99.848
+ -24, 5.75, 100.023
+ -24, 0, 105.773
+ -24, -0.25, 106.023
+ -23.9429, -0.537, 106.316
+ -23.7803, -0.7803, 106.609
+ -23.537, -0.9429, 106.901
+ -23.25, -1, 107.194
+ 0.25, -1, 130.694
+ 0.537, -0.9429, 130.986
+ 0.7803, -0.7803, 131.279
+ 0.9429, -0.537, 131.572
+ 1, -0.25, 131.864
+ 0.9429, 0.037, 132.157
+ 1, 36.65, 168.77
+ 0.9429, 36.937, 169.063
+ 0.7803, 37.1803, 169.355
+ 0.537, 37.3429, 169.648
+ 0.25, 37.4, 169.94
+ -23.25, 37.4, 193.44
+ -23.537, 37.3429, 193.733
+ -23.7803, 37.1803, 194.026
+ -23.9429, 36.937, 194.318
+ -24, 36.65, 194.611
+ -24, 36.4, 194.861
+ENDTABLE
+
+
+
+END

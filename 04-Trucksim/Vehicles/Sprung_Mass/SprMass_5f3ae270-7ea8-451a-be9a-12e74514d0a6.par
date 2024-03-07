@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit Sprung Mass; { Tractors } 2A Cab-Over
 #Category: Tractors
 #FileID  : SprMass_5f3ae270-7ea8-451a-be9a-12e74514d0a6
 #Modified: 03-21-2022 15:09:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Rigid
 
 END

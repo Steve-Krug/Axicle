@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Sensor Reflectiveness Map; 3 Sensor Types, 3 Target Type
 #Category: 
 #FileID  : TypeMap_397226f1-b06f-40c8-a1ad-b5d9a30b9d1d
 #Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reflectiveness Map
 
 END

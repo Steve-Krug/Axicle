@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } AEB CCRs Label, Stationary 
 #FileID  : HUD_b0040702-14a4-4f0f-9c7a-356dbdc21ea0
 #Created : 09-29-2021 12:54:58
 #Modified: 03-29-2022 16:03:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

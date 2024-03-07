@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Steering System: Steer Gain vs. Speed; Always Steered
 #Category: 
 #FileID  : RearStr_96924739-053b-4af6-9734-76f96bc8b026
 #Modified: 06-07-2021 01:49:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steer Gain vs. Speed
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 1
 #RingCtrl1 0
@@ -94,9 +95,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Double Trailers 
 #DataSet : Rocky Mtn. Dbl, 3A Tractor, Rrwrd Amp.
 #Category: Vehicle Layout: Double Trailers
 #FileID  : Run_cd0e8f4b-bc11-4b4f-bab3-8a69a448cf40
-#Modified: 06-06-2022 11:04:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:26
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

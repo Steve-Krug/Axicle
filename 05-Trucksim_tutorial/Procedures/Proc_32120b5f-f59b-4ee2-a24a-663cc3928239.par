@@ -97,8 +97,8 @@ LOG_ENTRY Used Dataset: Procedures; { Handling Tests } 500 ft Circle (10% Bank) 
 #Category: Handling Tests
 #FileID  : Proc_32120b5f-f59b-4ee2-a24a-663cc3928239
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

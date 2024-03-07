@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Export; { Brake System Control } ABS (A): 
 #Category: Brake System Control
 #FileID  : Export_17cbded3-07bc-4a95-aaa9-a049a8819846
 #Modified: 06-07-2021 01:52:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Export Channels
 
 END

@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Events; { Stop Conditions } Stop Condition: Trailer Axle
 #FileID  : Events_a8e98213-092a-45e3-bd6d-dec51b26ed4c
 #Created : 05-20-2022 17:38:38
 #Modified: 05-20-2022 17:39:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

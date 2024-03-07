@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { HUD Gauges } 4x4 Indicator
 #Category: HUD Gauges
 #FileID  : GenVS_4e0ef3de-e54e-4f5b-9e2a-b2283c8d07e5
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

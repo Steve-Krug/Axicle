@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { External Components } 150 k
 #Category: External Components
 #FileID  : 4WD_0785eb03-f2a6-4c65-88a4-33970710729a
 #Modified: 02-10-2022 14:27:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4WD
 
 END

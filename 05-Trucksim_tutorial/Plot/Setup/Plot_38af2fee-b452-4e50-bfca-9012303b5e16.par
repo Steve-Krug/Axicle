@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Rate of Sprung Masse
 #Category: Vehicle Motion
 #FileID  : Plot_38af2fee-b452-4e50-bfca-9012303b5e16
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

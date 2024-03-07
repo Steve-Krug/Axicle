@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Parallel VS Math Models; { ADAS and Active Safety } City
 #Category: ADAS and Active Safety
 #FileID  : MVeh_1410b350-3d86-4c3b-ba3c-94e929489b08
 #Modified: 12-11-2021 11:40:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode mVeh
 
 END

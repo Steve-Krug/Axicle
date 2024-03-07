@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Constant } Step: 0 to 6
 #Category: Constant
 #FileID  : StrSW_3812c7db-2280-4ca3-a244-084f637c50fb
 #Modified: 06-07-2021 01:53:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Steering
 
 END

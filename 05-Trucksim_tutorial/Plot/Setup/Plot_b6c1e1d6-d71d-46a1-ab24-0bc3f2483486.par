@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } AVy -- Wheel Spin (Axle 1)
 #Category: Powertrain
 #FileID  : Plot_b6c1e1d6-d71d-46a1-ab24-0bc3f2483486
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

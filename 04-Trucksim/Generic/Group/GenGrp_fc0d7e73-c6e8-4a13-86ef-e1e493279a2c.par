@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { LKAS, LDW, RDM } LKAS Strong Contr
 #FileID  : GenGrp_fc0d7e73-c6e8-4a13-86ef-e1e493279a2c
 #Created : 11-08-2021 15:34:51
 #Modified: 11-08-2021 15:40:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

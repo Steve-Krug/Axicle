@@ -127,8 +127,8 @@ LOG_ENTRY Used Dataset: Polygonal Shape Coordinates; { 6-Lane Highway } Right Wa
 #Category: 6-Lane Highway
 #FileID  : poly_9b620713-3f87-4ae9-8953-4d3057b14152
 #Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Polygonal Coordinates
 
 END

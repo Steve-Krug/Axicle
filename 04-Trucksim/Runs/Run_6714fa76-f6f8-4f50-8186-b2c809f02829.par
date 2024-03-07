@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_f7554333-df25-4cb0-9949-01a3d4268e99.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -103,9 +104,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Dog Trailers } 3
 #DataSet : 3A Box Truck, 3A Dolly (hinged), 3A Trl
 #Category: Vehicle Layout: Dog Trailers
 #FileID  : Run_6714fa76-f6f8-4f50-8186-b2c809f02829
-#Modified: 06-06-2022 10:58:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

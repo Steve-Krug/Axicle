@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } AEB CCRb Label: 40 m, -2 m/
 #FileID  : HUD_4a4e85f9-4e50-4a2b-8d24-a986bca22538
 #Created : 09-29-2021 10:47:30
 #Modified: 03-29-2022 16:03:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Beyond the GUI O
 #DataSet : 9A Mobile crane w/ 5 driven axles
 #Category: Vehicle Layout: Beyond the GUI Options
 #FileID  : Run_93c26620-3fde-4a8d-8f24-2976ec8d49fa
-#Modified: 06-06-2022 10:53:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:25
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -55,8 +55,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Cabs } Day Cab, Forward 3600
 #Category: Cabs
 #FileID  : ShpGrp_7e3cb4d0-6583-4b13-82e3-01a1eb1c0fcb
 #Modified: 06-07-2021 01:53:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

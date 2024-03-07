@@ -103,8 +103,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent Compliance, Springs, and Dampers
 #Category: Pickup Trucks
 #FileID  : CmpInd_f85405f0-8895-4015-bf3a-dc2a13b83e17
 #Modified: 06-07-2021 01:49:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Springs and Dampers
 
 END

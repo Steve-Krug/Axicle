@@ -50,8 +50,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Example Fx Data } Fx: 3000 k
 #Category: Example Fx Data
 #FileID  : TireFx_12dc98ca-0592-4e7b-8c8f-4751ecbba2d8
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

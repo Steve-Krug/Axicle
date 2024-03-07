@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Step } Step: 270 deg. a
 #Category: Step
 #FileID  : StrSW_38d6cad9-1b20-4683-8ab6-87d15d264c18
 #Modified: 06-07-2021 01:53:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Steering
 
 END

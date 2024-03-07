@@ -1,0 +1,20 @@
+# Shape file for lane 7
+v 177.5 8.24999246 5
+vt 0 0
+v 176 8.24999246 5
+vt -1 0
+v 177.5 -7.75001754 5
+vt 0 1.600001
+v 176 -7.75001754 5
+vt -1 1.600001
+mtllib Roads\3D_Road\Road_c7228ae3-e5ca-45ae-94d0-3050ef1f00a5_7.mtl
+usemtl Concrete (Curb)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

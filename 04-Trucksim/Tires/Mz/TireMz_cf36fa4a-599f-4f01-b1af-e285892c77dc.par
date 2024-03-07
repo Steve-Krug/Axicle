@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Touring Tires } 255/75 R16
 #Category: Touring Tires
 #FileID  : TireMz_cf36fa4a-599f-4f01-b1af-e285892c77dc
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mz
 
 END

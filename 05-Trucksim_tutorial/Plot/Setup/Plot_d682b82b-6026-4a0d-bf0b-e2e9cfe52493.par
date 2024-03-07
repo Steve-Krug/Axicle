@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Aerodynamics and Wind } Aerodynamic Momen
 #Category: Aerodynamics and Wind
 #FileID  : Plot_d682b82b-6026-4a0d-bf0b-e2e9cfe52493
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

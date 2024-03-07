@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Sensor Collision Recorder } C. Increment 
 #Category: ADAS Sensor Collision Recorder
 #FileID  : Events_216fe460-2ba2-4134-bbeb-5e393e8a6707
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 300 kW Powertrains } 300 kW
 #Category: 300 kW Powertrains
 #FileID  : 4WD_17daaa40-732b-43cf-bb45-ee6352471d11
 #Modified: 01-06-2022 16:54:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4WD
 
 END

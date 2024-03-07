@@ -11,11 +11,11 @@ OPT_STOP 0
 SSTART 0
 TSTART 0
 TSTART_WRITE = 0;
-TSTOP 37.2
+TSTOP 10
 SSTOP = SSTART + 1 ;
 OPT_DIRECTION 1
 *SPEED 40
-*TSTOP 37.2
+*TSTOP 10
 *TSTART 0
 *SSTART 0
 
@@ -77,9 +77,9 @@ LOG_ENTRY Used Dataset: Procedures; { Steering Tests } On Center Test - Closed L
 #DataSet : On Center Test - Closed Loop Steer
 #Category: Steering Tests
 #FileID  : Proc_11bc434a-c205-420f-a524-f144d67f1535
-#Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 05-04-2023 09:37:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

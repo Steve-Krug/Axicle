@@ -86,8 +86,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { Chassis twist study }
 #Category: Chassis twist study
 #FileID  : Lead2a_af819f61-74a5-4985-952c-da480c9663d7
 #Modified: 09-01-2021 12:48:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode F_I_I
 
 END

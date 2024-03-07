@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Slip Angles, Lagged (Ax
 #FileID  : Plot_6fdb2c99-9d1f-4738-9f31-b9eb06cd7e3f
 #Created : 06-03-2022 14:07:03
 #Modified: 06-03-2022 14:07:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

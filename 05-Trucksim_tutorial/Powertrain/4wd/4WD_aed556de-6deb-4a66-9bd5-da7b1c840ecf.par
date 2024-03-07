@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 330 kW Powertrains } 330 kW
 #Category: 330 kW Powertrains
 #FileID  : 4WD_aed556de-6deb-4a66-9bd5-da7b1c840ecf
 #Modified: 01-06-2022 16:54:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4WD
 
 END

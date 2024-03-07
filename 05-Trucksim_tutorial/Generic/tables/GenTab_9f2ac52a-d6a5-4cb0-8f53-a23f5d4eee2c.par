@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Non-linear Suspension Properties } Comp
 #Category: Non-linear Suspension Properties
 #FileID  : GenTab_9f2ac52a-d6a5-4cb0-8f53-a23f5d4eee2c
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

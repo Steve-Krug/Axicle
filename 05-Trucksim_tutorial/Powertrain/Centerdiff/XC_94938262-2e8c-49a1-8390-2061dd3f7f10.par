@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Powertrain: Transfer Case; { Yaw Control } Yaw Control T
 #Category: Yaw Control
 #FileID  : XC_94938262-2e8c-49a1-8390-2061dd3f7f10
 #Modified: 06-07-2021 01:49:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Transfer Case
 
 END

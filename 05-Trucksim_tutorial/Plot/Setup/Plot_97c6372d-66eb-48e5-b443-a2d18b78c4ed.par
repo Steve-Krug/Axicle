@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Characteristics } Fx vs. Slip
 #Category: Tire Characteristics
 #FileID  : Plot_97c6372d-66eb-48e5-b443-a2d18b78c4ed
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

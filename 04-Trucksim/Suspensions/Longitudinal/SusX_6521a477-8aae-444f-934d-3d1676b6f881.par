@@ -161,8 +161,8 @@ LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Tour Bus } Tour Bus
 #Category: Tour Bus
 #FileID  : SusX_6521a477-8aae-444f-934d-3d1676b6f881
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Longitudinal Movement
 
 END

@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Trailer Reference } 90 Azm, 5 
 #FileID  : Camera_20d21a94-ad6f-4e58-874e-b17e17079225
 #Created : 12-09-2021 15:02:02
 #Modified: 12-09-2021 15:03:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

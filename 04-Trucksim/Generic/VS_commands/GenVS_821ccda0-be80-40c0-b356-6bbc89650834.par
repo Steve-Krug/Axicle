@@ -117,8 +117,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Auxiliary Steer Control } Control
 #FileID  : GenVS_821ccda0-be80-40c0-b356-6bbc89650834
 #Created : 12-01-2021 13:10:16
 #Modified: 12-01-2021 13:24:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

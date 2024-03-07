@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 10
 #FileID  : JncReb_8372e516-6ed0-49cc-b82d-e8608e869423
 #Created : 11-23-2021 15:47:43
 #Modified: 11-23-2021 15:48:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

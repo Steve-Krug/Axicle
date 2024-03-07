@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { Hybrid: 43kW/40kW (Engine +
 #FileID  : 4WD_ae30ca37-ae40-4aa9-b671-4f553d844119
 #Created : 11-29-2021 16:31:19
 #Modified: 02-09-2022 16:01:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 4WD
 
 END

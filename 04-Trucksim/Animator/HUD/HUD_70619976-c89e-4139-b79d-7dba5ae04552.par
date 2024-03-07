@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Imminent Collision
 #Category: HUD Groups
 #FileID  : HUD_70619976-c89e-4139-b79d-7dba5ae04552
 #Modified: 03-29-2022 16:03:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

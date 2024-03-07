@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Setup Events } Setup for Sign Det
 #Category: Setup Events
 #FileID  : GenVS_390e4090-68bf-4277-87c2-0abef4604ed5
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Setup Events
 
 END

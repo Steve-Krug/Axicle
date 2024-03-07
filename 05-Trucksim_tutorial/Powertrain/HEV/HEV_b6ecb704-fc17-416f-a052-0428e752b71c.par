@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Range-Ext. w/ Electr
 #FileID  : HEV_b6ecb704-fc17-416f-a052-0428e752b71c
 #Created : 09-14-2021 12:30:29
 #Modified: 11-23-2021 19:31:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HEV
 
 END

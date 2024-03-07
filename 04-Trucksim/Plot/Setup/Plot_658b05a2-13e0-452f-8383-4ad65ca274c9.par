@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Spin Rates in Powertrain
 #Category: Powertrain
 #FileID  : Plot_658b05a2-13e0-452f-8383-4ad65ca274c9
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

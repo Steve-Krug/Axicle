@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; { R
 #Category: Rear
 #FileID  : LatRoll_32c683f9-4d58-45e7-830c-ba46c733eadc
 #Modified: 10-06-2021 15:14:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Lateral Movement
 
 END

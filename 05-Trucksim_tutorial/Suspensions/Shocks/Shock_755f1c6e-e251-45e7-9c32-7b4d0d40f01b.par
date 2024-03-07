@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Suspension: Shock Absorber; { Linear } Linear: 20 kN-s/m
 #Category: Linear
 #FileID  : Shock_755f1c6e-e251-45e7-9c32-7b4d0d40f01b
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shock Absorber
 
 END

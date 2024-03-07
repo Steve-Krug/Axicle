@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; { Spline In
 #Category: Spline Interpolation
 #FileID  : AirCFz_280a5089-d129-4800-84cb-13b26ff4da20
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Lift vs. Aero Slip
 
 END

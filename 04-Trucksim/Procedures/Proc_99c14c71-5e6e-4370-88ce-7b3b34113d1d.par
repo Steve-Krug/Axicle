@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Procedures; { Multiple Vehicles } Platoon Intruder Test 
 #FileID  : Proc_99c14c71-5e6e-4370-88ce-7b3b34113d1d
 #Created : 11-11-2021 09:21:28
 #Modified: 11-11-2021 09:21:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

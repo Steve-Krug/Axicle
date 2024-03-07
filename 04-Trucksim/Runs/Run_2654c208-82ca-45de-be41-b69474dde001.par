@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -104,9 +105,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Handling and Stability Tests } V
 #DataSet : Van+3A Trl, Yaw Damping, Right
 #Category: Handling and Stability Tests
 #FileID  : Run_2654c208-82ca-45de-be41-b69474dde001
-#Modified: 12-13-2021 13:48:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

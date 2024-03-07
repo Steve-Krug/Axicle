@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Pickup Trucks } Pickup, DRW:
 #Category: Pickup Trucks
 #FileID  : ShpGrp_826c110e-1542-4c5a-94a0-fab6fc4cf8cc
 #Modified: 06-07-2021 01:53:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

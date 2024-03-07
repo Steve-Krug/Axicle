@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Tire: Overturning Moment vs. Inclination; { MF-Tyre / MF
 #Category: MF-Tyre / MF-Swift
 #FileID  : TireMxC_70b45b26-fbbe-465d-ab0f-fe4bf3e79fb7
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mx
 
 END

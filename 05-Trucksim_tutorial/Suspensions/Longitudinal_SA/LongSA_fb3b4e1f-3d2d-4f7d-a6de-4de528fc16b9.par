@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement (Solid Axle); { Consta
 #FileID  : LongSA_fb3b4e1f-3d2d-4f7d-a6de-4de528fc16b9
 #Created : 04-13-2021 11:16:44
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X Movement (Solid Axle)
 
 END

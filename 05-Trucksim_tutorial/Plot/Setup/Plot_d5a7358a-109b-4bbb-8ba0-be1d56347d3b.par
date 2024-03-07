@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Road Network Driving } Distance to Waypoi
 #Category: Road Network Driving
 #FileID  : Plot_d5a7358a-109b-4bbb-8ba0-be1d56347d3b
 #Modified: 06-16-2021 09:56:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

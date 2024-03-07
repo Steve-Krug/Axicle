@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Braking } Wheel Speeds (Axle 3)
 #Category: Braking
 #FileID  : Plot_25756203-aa22-44de-b3ba-1487bf372ecd
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

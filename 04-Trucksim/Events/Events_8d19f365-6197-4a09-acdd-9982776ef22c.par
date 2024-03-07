@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Events; { Step Steer Test with Trailer } B. Set Throttle
 #Category: Step Steer Test with Trailer
 #FileID  : Events_8d19f365-6197-4a09-acdd-9982776ef22c
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -3,31 +3,37 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\Parallel_Solver\Five_Truck_Platoon_TS2020.mdl
 SIMULINK_MODEL_FILE Extensions\Simulink\Parallel_Solver\Five_Truck_Platoon_TS2020.mdl
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 1    
 *USE_ALT_DIR 1
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 1    
-#CheckBox4 0    
-OPT_IO_SYNC_FM 0
+#CheckBox5 0    
 #RingCtrl1 2
 OPT_INT_METHOD 2
 #CheckBox2 0    
 OPT_IO_UPDATE 0
-#CheckBox4 0    
-OPT_IO_SYNC_FM 0
 *TSTEP 0.001
 *FREQ_MODEL 1000
 *TSTEP_OUT 0.025
 *FREQ_OUT 40
 tstep 0.001
 iprint 25
-#CheckBox5 0    
-*MULTI_SOLVERS 0
 #AltPath Extensions\Simulink\Parallel_Solver
 *ALTERNATE_PATH Extensions\Simulink\Parallel_Solver
 PARSFILE IO_Channels\I_Channels\Import_8636abdc-85b1-4183-8812-d66cc7e3e090.par
 #BlueLink0 I/O Channels: Import`Steering Target Point (X-Y)` Parallel Solvers` , Import`Import_8636abdc-85b1-4183-8812-d66cc7e3e090
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 #MiscYellow1
 ! Include Parallel VS Math Models dataset
@@ -54,9 +60,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; { Parallel Solvers } Five-Vehicle Plat
 #DataSet : Five-Vehicle Platoon: Truck 5
 #Category: Parallel Solvers
 #FileID  : Simlink_a4a2efa1-134b-41b0-a249-fbe4bfc9c27a
-#Modified: 06-07-2021 01:52:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:37:36
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

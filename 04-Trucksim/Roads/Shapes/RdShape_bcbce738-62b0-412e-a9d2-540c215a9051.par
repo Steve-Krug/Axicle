@@ -129,8 +129,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Lane-Keeping Assist Roa
 #Category: Lane-Keeping Assist Roads
 #FileID  : RdShape_bcbce738-62b0-412e-a9d2-540c215a9051
 #Modified: 06-07-2021 01:51:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

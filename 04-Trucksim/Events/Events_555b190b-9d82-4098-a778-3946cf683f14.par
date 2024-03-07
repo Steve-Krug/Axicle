@@ -61,8 +61,8 @@ LOG_ENTRY Used Dataset: Events; { Automatic Lane Changing } B. Accelerate into t
 #Category: Automatic Lane Changing
 #FileID  : Events_555b190b-9d82-4098-a778-3946cf683f14
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

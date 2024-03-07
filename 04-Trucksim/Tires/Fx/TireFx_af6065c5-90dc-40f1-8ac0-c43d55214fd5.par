@@ -113,8 +113,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { SAE Widebase Single Tire } F
 #Category: SAE Widebase Single Tire
 #FileID  : TireFx_af6065c5-90dc-40f1-8ac0-c43d55214fd5
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

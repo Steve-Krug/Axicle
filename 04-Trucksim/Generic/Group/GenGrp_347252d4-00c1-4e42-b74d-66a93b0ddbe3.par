@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Very Large Vehicles } Mobile Crane
 #Category: Very Large Vehicles
 #FileID  : GenGrp_347252d4-00c1-4e42-b74d-66a93b0ddbe3
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

@@ -51,8 +51,8 @@ LOG_ENTRY Used Dataset: Brakes: Two-Wheel System; { Hydraulic Brakes } 7.5 kN-m 
 #Category: Hydraulic Brakes
 #FileID  : Brk2W_bf774de8-9984-4cb6-8113-abd74765a2ea
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brakes
 
 END

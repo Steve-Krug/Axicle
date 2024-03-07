@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -75,9 +76,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Suspended Cab with Tables } 2A S
 #DataSet : 2A Suspended Cab (baseline)
 #Category: Suspended Cab with Tables
 #FileID  : Run_d9de6f40-d25b-44d2-869a-6be3a6ce07fb
-#Modified: 04-25-2022 09:36:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

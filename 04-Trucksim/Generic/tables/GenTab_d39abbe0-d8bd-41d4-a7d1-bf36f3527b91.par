@@ -840,8 +840,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Crosswind Facility } Wind Speed: 100 km
 #Category: Crosswind Facility
 #FileID  : GenTab_d39abbe0-d8bd-41d4-a7d1-bf36f3527b91
 #Modified: 01-21-2022 14:00:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

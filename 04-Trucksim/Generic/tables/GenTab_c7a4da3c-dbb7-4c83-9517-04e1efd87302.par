@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Parking Brake Control } Control: Parkin
 #Category: Parking Brake Control
 #FileID  : GenTab_c7a4da3c-dbb7-4c83-9517-04e1efd87302
 #Modified: 01-21-2022 14:00:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

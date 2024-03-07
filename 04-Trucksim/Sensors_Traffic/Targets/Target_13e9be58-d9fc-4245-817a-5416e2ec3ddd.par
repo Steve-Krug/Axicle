@@ -41,7 +41,6 @@ set_transparency 0.5
 SET_OFFSET_X 0
 SET_OFFSET_Z 0.5
 SET_COLOR 0.6 0.2 0.6
-SET_RUN_COLOR 0.6 0.2 0.6
 WRITE_ADD_REFERENCE_FRAME_OBJECT
 PARSFILE Animator\STL\Shape_faa38307-24fd-4981-b224-f998a5c30bdf.par
 #BlueLink0 Animator: Shape File Link`Bus Stop` Environment: Props (1 of 2)` , 3D Shape for Video`Shape_faa38307-24fd-4981-b224-f998a5c30bdf
@@ -54,9 +53,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Scene Props } Bus Stop
 #DataSet : Bus Stop
 #Category: Scene Props
 #FileID  : Target_13e9be58-d9fc-4245-817a-5416e2ec3ddd
-#Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

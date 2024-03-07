@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Driver Sensor } Sensor Point Tracking (On
 #Category: Driver Sensor
 #FileID  : Plot_e007904c-3709-4b1e-9a49-b6093c4c0854
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

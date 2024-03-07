@@ -58,8 +58,8 @@ LOG_ENTRY Used Dataset: Control: Clutch (Open Loop); { Open Loop Shift Profiles 
 #Category: Open Loop Shift Profiles
 #FileID  : ClCon_80026a51-7356-4a78-a2fc-a0190da4fa0c
 #Modified: 06-07-2021 01:53:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Clutch
 
 END

@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { PBS Tests } Flat Surface, Mu = 1
 #Category: PBS Tests
 #FileID  : GenGrp_c7174d53-d3a6-44c3-8cc3-a9186f053c54
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

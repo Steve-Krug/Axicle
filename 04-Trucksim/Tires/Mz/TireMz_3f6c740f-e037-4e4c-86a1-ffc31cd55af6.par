@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { SAE Steer Tire } Mz; Steer Tire
 #Category: SAE Steer Tire
 #FileID  : TireMz_3f6c740f-e037-4e4c-86a1-ffc31cd55af6
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mz
 
 END

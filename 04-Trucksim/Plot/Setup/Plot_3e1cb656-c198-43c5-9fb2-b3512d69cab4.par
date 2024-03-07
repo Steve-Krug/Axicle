@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Roll Angle of Lead Unit 
 #FileID  : Plot_3e1cb656-c198-43c5-9fb2-b3512d69cab4
 #Created : 05-31-2022 08:29:34
 #Modified: 05-31-2022 08:29:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

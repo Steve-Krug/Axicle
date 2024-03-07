@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_c40f19aa-92ca-4469-8121-69574d61ada2.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -74,9 +75,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } Configu
 #DataSet : Configurable HUD w/ Gauges
 #Category: VS Visualizer Examples
 #FileID  : Run_e064224e-d69b-4058-9f9c-404babfc9d91
-#Modified: 06-07-2021 02:53:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

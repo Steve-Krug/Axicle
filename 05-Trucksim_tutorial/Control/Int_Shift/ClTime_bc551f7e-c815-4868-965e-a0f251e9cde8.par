@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Control: Clutch Shifting Timelines (Closed Loop); Clutch
 #Category: 
 #FileID  : ClTime_bc551f7e-c815-4868-965e-a0f251e9cde8
 #Modified: 05-22-2022 16:39:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shifting Times (Alt)
 
 END

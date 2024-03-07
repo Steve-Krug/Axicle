@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Tire Forces and Mom
 #Category: Plot Groups
 #FileID  : GenVS_0df15527-05d5-4381-a78c-948b316a6805
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Group
 
 END

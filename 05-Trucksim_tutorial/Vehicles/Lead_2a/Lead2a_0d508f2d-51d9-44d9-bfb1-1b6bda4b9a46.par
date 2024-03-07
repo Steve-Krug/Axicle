@@ -96,8 +96,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { Articulated Bus } Art
 #FileID  : Lead2a_0d508f2d-51d9-44d9-bfb1-1b6bda4b9a46
 #Created : 12-10-2021 12:05:29
 #Modified: 06-07-2022 16:52:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_S
 
 END

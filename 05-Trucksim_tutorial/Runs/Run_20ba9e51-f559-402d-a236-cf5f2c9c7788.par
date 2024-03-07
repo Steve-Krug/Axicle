@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -67,9 +68,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Proving Grounds, VS Scene Builde
 #DataSet : Split Mu Hill Climb w/ Driver Only
 #Category: Proving Grounds, VS Scene Builder
 #FileID  : Run_20ba9e51-f559-402d-a236-cf5f2c9c7788
-#Modified: 06-14-2021 15:04:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

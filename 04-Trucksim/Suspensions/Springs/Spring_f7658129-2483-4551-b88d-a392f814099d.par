@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Suspension: Spring; { Air Spring } Air Spring, 2000 N Fr
 #Category: Air Spring
 #FileID  : Spring_f7658129-2483-4551-b88d-a392f814099d
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Spring Alone
 
 END

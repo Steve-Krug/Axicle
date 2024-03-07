@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Suspension: Toe Angle; { Utility Vehicles } Compact Util
 #Category: Utility Vehicles
 #FileID  : Toe_d1eb6ca9-95f3-4462-8feb-a6a75c5b0549
 #Modified: 06-07-2021 01:48:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Toe
 
 END

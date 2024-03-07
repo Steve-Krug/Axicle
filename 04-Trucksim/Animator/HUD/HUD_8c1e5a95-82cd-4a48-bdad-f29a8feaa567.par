@@ -67,8 +67,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } FCW Alert (small, rt. side, hi
 #FileID  : HUD_8c1e5a95-82cd-4a48-bdad-f29a8feaa567
 #Created : 09-24-2021 14:08:54
 #Modified: 09-28-2021 16:36:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

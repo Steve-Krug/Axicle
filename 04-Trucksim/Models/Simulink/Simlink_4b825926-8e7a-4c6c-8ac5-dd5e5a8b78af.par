@@ -3,27 +3,25 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\Parallel_Solver\City_Env_2Car_TS2020.mdl
 SIMULINK_MODEL_FILE Extensions\Simulink\Parallel_Solver\City_Env_2Car_TS2020.mdl
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 1    
 *USE_ALT_DIR 1
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 1    
-#CheckBox4 0    
-OPT_IO_SYNC_FM 0
+#CheckBox5 0    
 #RingCtrl1 2
 OPT_INT_METHOD 2
 #CheckBox2 0    
 OPT_IO_UPDATE 0
-#CheckBox4 0    
-OPT_IO_SYNC_FM 0
 *TSTEP 0.001
 *FREQ_MODEL 1000
 *TSTEP_OUT 0.025
 *FREQ_OUT 40
 tstep 0.001
 iprint 25
-#CheckBox5 0    
-*MULTI_SOLVERS 0
 #AltPath Extensions\Simulink\Parallel_Solver
 *ALTERNATE_PATH Extensions\Simulink\Parallel_Solver
 PARSFILE IO_Channels\I_Channels\Import_357ee5e5-deaf-40ed-970d-e6e2e3868066.par
@@ -31,6 +29,14 @@ PARSFILE IO_Channels\I_Channels\Import_357ee5e5-deaf-40ed-970d-e6e2e3868066.par
 
 PARSFILE IO_Channels\O_Channels\Export_e91d7250-ddc9-47d9-a297-0e240dda2bfa.par
 #BlueLink1 I/O Channels: Export`Vehicle Position and Orientation` Parallel Solvers` , Import/Export`Export_e91d7250-ddc9-47d9-a297-0e240dda2bfa
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 #MiscYellow1
 ! Include Parallel VS Math Models dataset
@@ -60,9 +66,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; { Parallel Solvers } Autnomous (Detect
 #DataSet : Autnomous (Detect One Other Vehicle)
 #Category: Parallel Solvers
 #FileID  : Simlink_4b825926-8e7a-4c6c-8ac5-dd5e5a8b78af
-#Modified: 06-07-2021 01:52:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:37:36
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

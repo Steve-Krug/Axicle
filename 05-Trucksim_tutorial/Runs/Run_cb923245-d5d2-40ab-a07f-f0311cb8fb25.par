@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_12afd0d3-c9b8-47b4-9b7e-1cd0582e975b.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 5
@@ -79,9 +80,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Steering Tests } Sine Sweep Stee
 #DataSet : Sine Sweep Steer Test
 #Category: Steering Tests
 #FileID  : Run_cb923245-d5d2-40ab-a07f-f0311cb8fb25
-#Modified: 06-07-2021 02:47:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

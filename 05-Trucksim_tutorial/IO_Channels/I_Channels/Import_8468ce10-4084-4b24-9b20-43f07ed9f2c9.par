@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Steering System Control } Four W
 #Category: Steering System Control
 #FileID  : Import_8468ce10-4084-4b24-9b20-43f07ed9f2c9
 #Modified: 06-07-2021 01:52:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

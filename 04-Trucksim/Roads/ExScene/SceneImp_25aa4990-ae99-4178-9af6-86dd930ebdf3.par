@@ -1638,8 +1638,8 @@ LOG_ENTRY Used Dataset: Scene: External Import; { Atlas } Jackson Ave Near I-94,
 #Category: Atlas
 #FileID  : SceneImp_25aa4990-ae99-4178-9af6-86dd930ebdf3
 #Modified: 06-04-2021 13:11:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode External Path Import
 
 END

@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Events; { Blind Spot Reversing } 1. Sit in Parking Space
 #Category: Blind Spot Reversing
 #FileID  : Events_78312b27-d4da-473a-a687-ac0750876310
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

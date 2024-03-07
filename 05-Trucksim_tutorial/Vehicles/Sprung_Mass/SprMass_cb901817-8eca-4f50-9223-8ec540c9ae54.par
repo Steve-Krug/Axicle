@@ -73,8 +73,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit Sprung Mass; { Tractors } 2A Susp. Ca
 #FileID  : SprMass_cb901817-8eca-4f50-9223-8ec540c9ae54
 #Created : 05-26-2021 11:19:04
 #Modified: 03-21-2022 15:09:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Flexible
 
 END

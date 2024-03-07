@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { CPAR Include } CPAR_Include: Remo
 #FileID  : GenVS_7caff75d-6814-4929-97d6-be016a646b35
 #Created : 05-26-2021 17:56:14
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

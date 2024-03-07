@@ -45,7 +45,6 @@ add_obj Sensors_Traffic\Poly\PolyShape_ce627f5b-6c53-423d-9caa-7ce6a9519d10.obj
 set_transparency 0.5
 SET_OFFSET_Z 0.5
 SET_COLOR 0.2 0 1
-SET_RUN_COLOR 0.2 0 1
 PARSFILE Sensors_Traffic\Poly\poly_ce627f5b-6c53-423d-9caa-7ce6a9519d10.par
 #BlueLink1 Polygonal Shape Coordinates`2 Axle Tour Bus` ` , Polygonal Coordinates`poly_ce627f5b-6c53-423d-9caa-7ce6a9519d10
 
@@ -71,9 +70,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Irregularly Shaped Obje
 #DataSet : Bus with Custom Detection Boundary
 #Category: Irregularly Shaped Objects
 #FileID  : Target_55b64603-9637-47f7-b8f6-976c9894c5b5
-#Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

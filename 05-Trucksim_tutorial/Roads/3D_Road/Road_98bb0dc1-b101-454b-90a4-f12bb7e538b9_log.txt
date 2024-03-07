@@ -1,4 +1,4 @@
-Run made by VS Road Calculator at 21:40 on January 16, 2023.
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
 Utility to calculate road and path coordinates for visualization
 Started with simfile: Roads\3D_Road\simfile_road
 
@@ -13,7 +13,7 @@ Used Dataset: Road: Animator Surface Shapes; { Flat Test Pads } 1 km Square Chec
  1 km Square, Mu = 0.85 #1 <Flat Test Pads>
 Used Dataset: Road: 3D Surface (All Properties); { Flat Test Pads } 1 km Square, Mu = 0.85 #1
 
-Time to read input = 0.0003728
+Time to read input = 0.0004115
 
 Run stopped at t = 12.68. Stop time reached.
 

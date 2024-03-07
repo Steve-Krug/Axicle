@@ -209,8 +209,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Ride Roads and Suspensi
 #Category: Ride Roads and Suspension Testing
 #FileID  : RdShape_f4a548d0-d700-4bb1-a646-0a0d8a484e7a
 #Modified: 06-07-2021 01:51:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

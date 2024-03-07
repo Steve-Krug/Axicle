@@ -23,8 +23,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Cab Over } Cab Over: Frame  
 #Category: Cab Over
 #FileID  : ShpGrp_9f573b81-71dd-4557-a6db-d9ca41737515
 #Modified: 06-07-2021 01:53:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

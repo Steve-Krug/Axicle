@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Events; { Sign Detection } Wait at Stop Sign
 #Category: Sign Detection
 #FileID  : Events_a02aa9f0-9f3c-4dfe-bf0f-d28e546a0e0a
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

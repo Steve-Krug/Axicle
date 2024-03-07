@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_f7554333-df25-4cb0-9949-01a3d4268e99.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -85,9 +86,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tire Models } Extended Tires: Sm
 #DataSet : Extended Tires: Small Bump
 #Category: Tire Models
 #FileID  : Run_1697b72b-7ebb-4a51-9a03-fd9ec740b4d5
-#Modified: 06-07-2021 02:48:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

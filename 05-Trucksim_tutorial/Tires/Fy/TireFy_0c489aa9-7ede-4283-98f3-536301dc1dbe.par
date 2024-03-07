@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force; { Example Fy Data } Fy: 2000 kg Loa
 #Category: Example Fy Data
 #FileID  : TireFy_0c489aa9-7ede-4283-98f3-536301dc1dbe
 #Modified: 06-07-2021 01:48:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fy
 
 END

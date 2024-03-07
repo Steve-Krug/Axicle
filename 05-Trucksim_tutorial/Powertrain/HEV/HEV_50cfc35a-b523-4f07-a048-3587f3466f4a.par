@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Powertrain: Hybrid/Electric System; Electric Motors on A
 #Category: 
 #FileID  : HEV_50cfc35a-b523-4f07-a048-3587f3466f4a
 #Modified: 01-20-2022 16:23:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HEV
 
 END

@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Steering Wheel Torque; Linear: 1/20
 #Category: 
 #FileID  : TqSW_dd692404-db70-403c-8e3f-05c637cd27c1
 #Modified: 06-07-2021 01:49:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Wheel Torque
 
 END

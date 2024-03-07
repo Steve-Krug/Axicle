@@ -51,8 +51,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Parameters for Sig
 #Category: ADAS Support
 #FileID  : GenVS_2d74e0c6-b83c-48b5-80d7-d5108490de84
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Define Parameters
 
 END

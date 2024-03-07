@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Events; { PBS  C3: Acceleration } C. Accelerate
 #Category: PBS  C3: Acceleration
 #FileID  : Events_c8442024-0d9e-43b1-98ed-24a8bf0cf56f
 #Modified: 06-07-2021 01:49:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

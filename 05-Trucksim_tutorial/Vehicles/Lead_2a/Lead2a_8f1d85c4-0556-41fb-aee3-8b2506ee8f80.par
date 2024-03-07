@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 2 Axles; { 2A LCF Van } LCF Van
 #Category: 2A LCF Van
 #FileID  : Lead2a_8f1d85c4-0556-41fb-aee3-8b2506ee8f80
 #Modified: 09-01-2021 12:48:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

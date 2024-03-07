@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -75,9 +76,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Simulink Models } Ext. ABS: Spli
 #DataSet : Ext. ABS: Split Mu on Hill
 #Category: Simulink Models
 #FileID  : Run_e210cea5-7145-458b-abf1-6f0f5af1c8eb
-#Modified: 06-03-2022 12:05:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

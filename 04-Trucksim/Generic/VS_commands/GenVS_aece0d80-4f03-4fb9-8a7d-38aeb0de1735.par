@@ -142,8 +142,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { K & C Testing } K & C Design Load
 #Category: K & C Testing
 #FileID  : GenVS_aece0d80-4f03-4fb9-8a7d-38aeb0de1735
 #Modified: 06-07-2021 01:52:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

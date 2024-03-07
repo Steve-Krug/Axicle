@@ -60,8 +60,8 @@ LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { SLA } Front SLA - L
 #Category: SLA
 #FileID  : SusX_70556d85-e04b-4467-a6c5-e8e6a60a2dab
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Longitudinal Movement
 
 END

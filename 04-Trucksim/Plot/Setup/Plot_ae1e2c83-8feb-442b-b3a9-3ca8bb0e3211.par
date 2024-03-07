@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Moments
 #Category: Hitch
 #FileID  : Plot_ae1e2c83-8feb-442b-b3a9-3ca8bb0e3211
 #Modified: 12-03-2021 16:07:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

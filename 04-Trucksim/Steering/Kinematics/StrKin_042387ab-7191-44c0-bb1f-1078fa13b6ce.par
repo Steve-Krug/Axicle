@@ -217,8 +217,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for One Wheel; { Tandem Stee
 #Category: Tandem Steer, SS_SS
 #FileID  : StrKin_042387ab-7191-44c0-bb1f-1078fa13b6ce
 #Modified: 06-07-2021 01:49:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Kinematics
 
 END

@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Stability Test Roads } 
 #Category: Stability Test Roads
 #FileID  : RdShape_c45ddf86-2a95-4e99-aa2a-26bb30f87a74
 #Modified: 06-07-2021 01:51:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

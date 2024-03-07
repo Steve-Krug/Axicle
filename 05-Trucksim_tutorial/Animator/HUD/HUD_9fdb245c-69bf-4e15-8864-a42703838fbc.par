@@ -143,8 +143,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Accel., SWA, HW Torque Tex
 #Category: HUD Groups
 #FileID  : HUD_9fdb245c-69bf-4e15-8864-a42703838fbc
 #Modified: 03-29-2022 16:03:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

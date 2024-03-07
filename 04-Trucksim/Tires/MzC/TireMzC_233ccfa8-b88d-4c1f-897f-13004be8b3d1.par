@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment vs. Inclination; { Extended with C
 #Category: Extended with Camber Details
 #FileID  : TireMzC_233ccfa8-b88d-4c1f-897f-13004be8b3d1
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mz
 
 END

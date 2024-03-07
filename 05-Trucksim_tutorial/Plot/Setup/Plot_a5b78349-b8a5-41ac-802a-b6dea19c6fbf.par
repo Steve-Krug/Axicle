@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Twin Clutch Torque
 #Category: Powertrain
 #FileID  : Plot_a5b78349-b8a5-41ac-802a-b6dea19c6fbf
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

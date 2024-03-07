@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Steering: Parking Torque; { Parabolic Roll-off } 180 n-m
 #Category: Parabolic Roll-off
 #FileID  : TqPark_d1c3df4e-ec15-4cd5-a898-4723cbf2ab83
 #Modified: 06-07-2021 01:49:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Parking Torque
 
 END

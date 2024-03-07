@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Trailer and Light Truck Tires }
 #Category: Trailer and Light Truck Tires
 #FileID  : TireMz_464f563e-93d0-40b2-bb7d-297384694692
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mz
 
 END

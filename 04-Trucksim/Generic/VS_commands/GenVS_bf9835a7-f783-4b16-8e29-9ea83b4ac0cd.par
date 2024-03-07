@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Setup Events } Setup for Object D
 #Category: Setup Events
 #FileID  : GenVS_bf9835a7-f783-4b16-8e29-9ea83b4ac0cd
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Setup Events
 
 END

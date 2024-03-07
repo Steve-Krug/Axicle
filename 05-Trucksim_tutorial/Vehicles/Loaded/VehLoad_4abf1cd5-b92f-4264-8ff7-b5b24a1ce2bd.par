@@ -55,8 +55,8 @@ ANI_Pitch_2
 SET_ROLL_NAME Roll_E_2
 WRT_Roll_E_2
 ANI_Roll_E_2
-PARSFILE Payloads\Custom\Custom_2ffb5f11-a451-4a2f-bb37-e7c0212aaaff.par
-#BlueLink9 Payload: Custom`Large Crate` Crates` , Miscellaneous`Custom_2ffb5f11-a451-4a2f-bb37-e7c0212aaaff
+PARSFILE Payloads\Custom\Custom_5727fdd9-f84f-4805-b884-ad9cb92c3753.par
+#BlueLink9 Payload: Custom`Large Crate #2` Crates` , Miscellaneous`Custom_5727fdd9-f84f-4805-b884-ad9cb92c3753
 
 *IMAGE_TYPE PASS_THROUGH
 *IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_79dd38bb-ad38-4925-a7c0-279912b85968.png
@@ -66,9 +66,9 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Sleeper-Cab Tractor-Trail
 #DataSet : 4A Sleeper Cab (S_SSS) + 3A Trailer
 #Category: Sleeper-Cab Tractor-Trailers
 #FileID  : VehLoad_4abf1cd5-b92f-4264-8ff7-b5b24a1ce2bd
-#Modified: 06-07-2021 01:48:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-20-2023 15:30:31
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SSS + SSS
 
 END

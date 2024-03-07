@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Obstacle Avoidance } AEB, Obj. De
 #FileID  : GenVS_6d953eda-e72f-4f45-aebe-7e46d9179f9b
 #Created : 09-28-2021 12:29:56
 #Modified: 09-28-2021 12:30:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

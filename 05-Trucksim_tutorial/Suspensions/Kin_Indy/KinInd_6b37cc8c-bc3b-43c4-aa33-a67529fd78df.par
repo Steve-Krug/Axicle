@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Buses } Tou
 #Category: Buses
 #FileID  : KinInd_6b37cc8c-bc3b-43c4-aa33-a67529fd78df
 #Modified: 12-08-2021 19:09:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Independent
 
 END

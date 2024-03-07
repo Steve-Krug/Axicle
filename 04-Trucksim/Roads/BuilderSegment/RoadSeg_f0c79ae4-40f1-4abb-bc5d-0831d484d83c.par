@@ -66,8 +66,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Constant Radius, Straight Lead-
 #Category: Constant Radius, Straight Lead-in / Lead-out
 #FileID  : RoadSeg_f0c79ae4-40f1-4abb-bc5d-0831d484d83c
 #Modified: 06-07-2021 01:51:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

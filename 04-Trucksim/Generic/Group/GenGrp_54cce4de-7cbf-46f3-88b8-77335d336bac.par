@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { PBS Tests } Tilt Table Road and An
 #Category: PBS Tests
 #FileID  : GenGrp_54cce4de-7cbf-46f3-88b8-77335d336bac
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tilt Table Group
 
 END

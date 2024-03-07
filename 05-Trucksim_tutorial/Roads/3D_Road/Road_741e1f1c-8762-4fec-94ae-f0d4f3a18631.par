@@ -615,8 +615,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Road Edges } X-Y-Z 
 #Category: Road Edges
 #FileID  : Road_741e1f1c-8762-4fec-94ae-f0d4f3a18631
 #Modified: 01-21-2022 14:00:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

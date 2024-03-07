@@ -129,8 +129,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } V2V: Emergency Stop Detected
 #FileID  : HUD_37c80567-ab15-40c4-b774-eb58940b7805
 #Created : 10-26-2021 13:00:46
 #Modified: 03-29-2022 16:03:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

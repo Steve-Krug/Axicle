@@ -100,8 +100,8 @@ LOG_ENTRY Used Dataset: Procedures; { ADAS and Active Safety } Lane Departure us
 #Category: ADAS and Active Safety
 #FileID  : Proc_15835a6c-8a89-455e-9bcc-29b9ebdf42dd
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

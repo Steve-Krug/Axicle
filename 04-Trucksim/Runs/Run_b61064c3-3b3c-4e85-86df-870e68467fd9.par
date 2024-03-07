@@ -29,6 +29,7 @@ PARSFILE Models\Local_Dir\Local_e457f7bb-3d0a-4413-ab3e-3c32802a0a70.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { External Control, Wrappers } Unr
 #DataSet : Unreal Engine 4 Plug-in, Lead Vehicle
 #Category: External Control, Wrappers
 #FileID  : Run_b61064c3-3b3c-4e85-86df-870e68467fd9
-#Modified: 04-25-2022 09:23:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

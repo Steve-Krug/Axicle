@@ -19,8 +19,8 @@ LOG_ENTRY Used Dataset: Powertrain: Clutch with Viscous Differential; External C
 #Category: 
 #FileID  : ClVisc_45190aa7-e95c-4712-b876-daf266bdb061
 #Modified: 06-07-2021 01:49:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Differential Clutch
 
 END

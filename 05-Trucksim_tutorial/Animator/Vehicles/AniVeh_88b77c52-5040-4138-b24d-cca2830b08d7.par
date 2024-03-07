@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Artic Bus } 2A 
 #FileID  : AniVeh_88b77c52-5040-4138-b24d-cca2830b08d7
 #Created : 09-29-2021 17:27:56
 #Modified: 04-18-2022 12:23:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

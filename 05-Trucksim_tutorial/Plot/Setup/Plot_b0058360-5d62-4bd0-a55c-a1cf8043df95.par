@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Deflections
 #FileID  : Plot_b0058360-5d62-4bd0-a55c-a1cf8043df95
 #Created : 11-11-2021 11:40:04
 #Modified: 12-06-2021 15:34:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

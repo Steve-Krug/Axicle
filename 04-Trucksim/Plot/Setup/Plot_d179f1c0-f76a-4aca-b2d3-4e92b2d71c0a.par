@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Road Wheel Steer (Compliance O
 #Category: Steering
 #FileID  : Plot_d179f1c0-f76a-4aca-b2d3-4e92b2d71c0a
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

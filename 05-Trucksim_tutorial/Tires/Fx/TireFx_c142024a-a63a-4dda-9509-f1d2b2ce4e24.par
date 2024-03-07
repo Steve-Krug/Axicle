@@ -113,8 +113,8 @@ LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { SAE Steer Tire } Fx; Steer T
 #Category: SAE Steer Tire
 #FileID  : TireFx_c142024a-a63a-4dda-9509-f1d2b2ce4e24
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fx
 
 END

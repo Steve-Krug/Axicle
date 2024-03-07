@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Trans. Input / Output Shaft 
 #Category: Powertrain
 #FileID  : Plot_7b064be7-4ae7-4172-85e7-8250264b0f5f
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

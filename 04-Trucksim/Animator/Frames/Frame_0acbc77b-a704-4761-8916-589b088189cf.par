@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Chassis twist study } Frame
 #Category: Chassis twist study
 #FileID  : Frame_0acbc77b-a704-4761-8916-589b088189cf
 #Modified: 06-07-2021 01:54:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

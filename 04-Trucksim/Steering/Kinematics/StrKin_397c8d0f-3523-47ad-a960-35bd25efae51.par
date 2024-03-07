@@ -67,8 +67,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for One Wheel; { PBS Vehicle
 #Category: PBS Vehicle Steer Axles
 #FileID  : StrKin_397c8d0f-3523-47ad-a960-35bd25efae51
 #Modified: 06-07-2021 01:49:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Kinematics
 
 END

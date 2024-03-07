@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Turntables } Turntable, 2A D
 #FileID  : ShpGrp_c3a7a47c-72d5-4028-b591-0117663542e7
 #Created : 11-21-2021 18:08:52
 #Modified: 11-21-2021 21:00:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

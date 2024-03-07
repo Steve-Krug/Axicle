@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Roads and Paths } 4-Way Inters
 #Category: Roads and Paths
 #FileID  : GenLink_7b3fc6c0-ad7d-4374-86c4-5f0ba70c8548
 #Modified: 06-07-2021 01:53:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Links
 
 END

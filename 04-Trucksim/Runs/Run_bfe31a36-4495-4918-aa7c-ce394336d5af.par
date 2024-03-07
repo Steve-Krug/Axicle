@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_b7028f29-fdf7-4233-8487-abd35f8aee05.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -85,9 +86,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } ACC, 5-
 #DataSet : ACC, 5-Lane Road, 3 Lanes Fwd Traffic
 #Category: ADAS and Active Safety
 #FileID  : Run_bfe31a36-4495-4918-aa7c-ce394336d5af
-#Modified: 05-03-2022 12:52:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

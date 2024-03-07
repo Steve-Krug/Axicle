@@ -133,8 +133,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Roads } Braking Test Ro
 #Category: Roads
 #FileID  : RdShape_e011585d-4cca-4049-96ef-1bd9c237da67
 #Modified: 06-07-2021 01:51:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

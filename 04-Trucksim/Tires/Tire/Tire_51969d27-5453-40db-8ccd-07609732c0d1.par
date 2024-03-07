@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Tire; { 3000 kg Rating } 550 mm Radius
 #Category: 3000 kg Rating
 #FileID  : Tire_51969d27-5453-40db-8ccd-07609732c0d1
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

@@ -1,0 +1,20 @@
+# Shape file for lane 17
+v 15 120 -2
+vt 0 0
+v 15 15 -2
+vt 105 0
+v 480.00001 120 -2
+vt 0 465.00001
+v 480.00001 15 -2
+vt 105 465.00001
+mtllib Roads\3D_Road\Road_8649d26f-8985-4d34-938b-f6aca47cb2f8_17.mtl
+usemtl Water
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

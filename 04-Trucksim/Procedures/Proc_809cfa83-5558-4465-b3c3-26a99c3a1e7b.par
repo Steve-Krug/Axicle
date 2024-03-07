@@ -100,8 +100,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } 3-Point Turn
 #Category: Driver Controls
 #FileID  : Proc_809cfa83-5558-4465-b3c3-26a99c3a1e7b
 #Modified: 06-07-2021 01:49:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

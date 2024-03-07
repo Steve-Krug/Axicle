@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Suspension: Camber Angle; { Constant } Constant: Zero Ca
 #Category: Constant
 #FileID  : Camber_1c11b21b-4646-4b80-a78e-23e18fd042b5
 #Modified: 06-07-2021 01:49:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camber
 
 END

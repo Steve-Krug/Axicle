@@ -1,0 +1,126 @@
+PARSFILE
+#FullDataName TruckSim Run Control`3A Sleeper + Flatbed, Payload, AxicleTest1`Vehicle Layout: Single Trailers
+#VEHICLECODE S_SS + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_5419c1b2-f318-458a-8400-6a079b924524
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_abdbe5e0-e74a-43ac-bb21-e15b6577d457.par
+#BlueLink12 Models: Simulink`Rollover Sweeps 1` ` , Models`Simlink_abdbe5e0-e74a-43ac-bb21-e15b6577d457
+
+PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 35 m` Vehicle Reference` , Animator camera`Camera_fba691be-6c65-4c71-b964-e852577b19ed
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+#CheckBox12 0    
+
+#RingCtrl0 1
+#RingCtrl1 2
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_ddbf60db-dff5-4e21-bc1a-259685f15291.par
+#BlueLink2 Vehicle: Loaded Combination`3A Sleeper + Flatbed, 41k lbf payload` Sleeper-Cab Tractor-Trailers` , Math Model`VehLoad_ddbf60db-dff5-4e21-bc1a-259685f15291
+
+PARSFILE Procedures\Proc_11bc434a-c205-420f-a524-f144d67f1535.par
+#BlueLink28 Procedures`On Center Test - Closed Loop Steer` Steering Tests` , Procedure`Proc_11bc434a-c205-420f-a524-f144d67f1535
+
+PARSFILE Generic\Group\GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546.par
+#BlueLink9 Generic Data Group`7 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_f9fd1534-80bb-4017-8c4b-6f8cd81aa546
+
+PARSFILE Events\Events_90ccf102-6c65-4b8b-b0ed-db39ec82787c.par
+#BlueLink10 Events`Initialize Variables` Iterate Variables` , Miscellaneous`Events_90ccf102-6c65-4b8b-b0ed-db39ec82787c
+
+INSTALL_SPEED_CONTROLLER
+Opt_SC 3
+SET_ISPEED_FOR_ID 0
+SPEED_ID_SC = SPEED_TARGET_ID
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_S_CONSTANT 0
+set_description SPEED_TARGET_ID Set from the Run Control screen
+SPEED_TARGET_CONSTANT 96.5604
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Steer\StrSW_009c16a0-27db-48f4-b88f-6da4d982cbc5.par
+#BlueLink3 Control: Steering (Open Loop)`SWD #1` Sine With Dwell` , Steering`StrSW_009c16a0-27db-48f4-b88f-6da4d982cbc5
+
+*TSTEP 0.0005
+*FREQ_MODEL 2000
+*TSTEP_OUT 0.001
+*FREQ_OUT 1000
+tstep 0.0005
+iprint 2
+*SPEED 96.5604
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b.par
+#BlueLink15 Plot: Setup`Longitudinal Speed (Vxz_Fwd) vs. Time` Vehicle Motion` , Plot`Plot_c57af236-73b8-4f4d-aa46-3d4f4c85076b
+
+PARSFILE Plot\Setup\Plot_f5574237-249a-4508-9cbc-46a4ea67dc42.par
+#BlueLink16 Plot: Setup`Test` ` , Plot`Plot_f5574237-249a-4508-9cbc-46a4ea67dc42
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Lead_3a\Lead3a_9e25d126-51f7-4fcd-902a-89d256db0b7a.png
+PARSFILE IO_Channels\W_Channels\Write_28acbdcf-7a8d-4904-9951-bfe71b0f8346.par
+#BlueLink13 I/O Channels: Write`Rollover Outputs` ` , Output Variables`Write_28acbdcf-7a8d-4904-9951-bfe71b0f8346
+
+WRITE_SENSOR_DETECT
+Title 3A Sleeper + Flatbed, Payload, AxicleTest1 <Vehicle Layout: Single Trailers>
+CATEGORY Vehicle Layout: Single Trailers 
+DATASET_TITLE 3A Sleeper + Flatbed, Payload, AxicleTest1
+#MiscYellow0
+define_import imp_M_PL
+import imp_M_PL
+define_import imp_Z_CG_PL
+import imp_Z_CG_PL
+import imp_SPEED replace 0
+define_output test z_cg_pl
+#ENDMYellow
+
+#RingCtrl8 N
+NUM_CACHED_RUNS 10000
+#RingCtrl9 2023-06-13_13.25.04
+
+#EMBEDDED_NOTES
+#S_SSS + SSS
+#
+#4A Sleeper Cab with Tridem Load Sharing + 3A Trailer performing a crosswind test
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { Vehicle Layout: Single Trailers } 3A Sleeper + Flatbed, Payload, AxicleTest1
+#Library : TruckSim Run Control
+#DataSet : 3A Sleeper + Flatbed, Payload, AxicleTest1
+#Category: Vehicle Layout: Single Trailers
+#FileID  : Run_5419c1b2-f318-458a-8400-6a079b924524
+#Created : 04-04-2023 18:25:58
+#Modified: 06-13-2023 13:25:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Run
+
+END

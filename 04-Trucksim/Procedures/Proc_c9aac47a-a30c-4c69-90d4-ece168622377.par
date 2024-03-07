@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Railroad Track Crossing
 #Category: Driving
 #FileID  : Proc_c9aac47a-a30c-4c69-90d4-ece168622377
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

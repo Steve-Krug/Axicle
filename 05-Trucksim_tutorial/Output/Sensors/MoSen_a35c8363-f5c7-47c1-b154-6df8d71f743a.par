@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { Sprung Mass 
 #FileID  : MoSen_a35c8363-f5c7-47c1-b154-6df8d71f743a
 #Created : 03-29-2022 17:34:15
 #Modified: 03-29-2022 17:34:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Motion Sensors
 
 END

@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Road Networks } 6-Lane Highway: R
 #Category: Road Networks
 #FileID  : GenVS_5103aefe-82a6-42f7-8fb8-02fa679795c5
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road IDs
 
 END

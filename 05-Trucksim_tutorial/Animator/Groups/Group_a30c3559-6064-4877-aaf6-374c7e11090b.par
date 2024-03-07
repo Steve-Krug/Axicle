@@ -16,8 +16,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Aerodynamics: Force and Moments } Aer
 #Category: Aerodynamics: Force and Moments
 #FileID  : Group_a30c3559-6064-4877-aaf6-374c7e11090b
 #Modified: 06-07-2021 01:54:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

@@ -6,6 +6,8 @@ NAXLES 3
 
 #CheckBox0 0    
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 *LX_AXLE_2 2971
 *LX_AXLE_3 4216
 *LX_H 2971
@@ -98,9 +100,9 @@ LOG_ENTRY Used Dataset: Vehicle: Dolly with 3 Axles; 3A Dolly w/ Rigid Towbar
 #Category: 
 #FileID  : Dly3a_0e3c5125-32c2-4a6d-ae3c-c4e7074298ca
 #Created : 10-15-2021 15:40:40
-#Modified: 04-25-2022 08:55:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:35:43
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dSSS
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Path Detector } Detected Curvature at PD 
 #FileID  : Plot_65f75d12-5cc9-4c7c-8112-c047eb95fe26
 #Created : 11-08-2021 16:07:00
 #Modified: 11-08-2021 16:07:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

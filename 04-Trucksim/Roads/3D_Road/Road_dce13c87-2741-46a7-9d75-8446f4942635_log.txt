@@ -1,0 +1,29 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_dce13c87-2741-46a7-9d75-8446f4942635.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c.par"
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Include PARSFILE "Roads\dZ_Map_V_Wdth\VarWidZ_bb12cd97-5b95-40c2-ba85-e8cc683862c6.par"
+Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Variable Width Roads } Road w/ Median
+Include PARSFILE "Roads\Friction_V_Wdth\VarWidMu_b7c8f834-8703-4a45-ab70-904ca64dc0dc.par"
+Used Dataset: Road: Friction Map, Variable Width; Road (0.75) w/ Median and Grass
+Include PARSFILE "Roads\Shapes\RdShape_8167dca2-974e-4b6b-b3a1-97423e418a4d.par"
+Used Dataset: Road: Animator Surface Shapes; { Variable Width Roads } Road w/ Median
+Include PARSFILE "Roads\dZ_Map\RdMapZ_acbf33e7-fbb7-4fc9-975d-adcfa6faba4e.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Curbs, Ditches } Ditch
+Include PARSFILE "Roads\RollingResistance_V_Wdth\VarWidRr_eab06bc4-61df-4b27-8b3d-443e395d481b.par"
+Used Dataset: Road: Rolling Resistance Map, Variable Width; Road (1.0) w/ Median and Grass
+ Road w/ Median <Variable Width Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Variable Width Roads } Road w/ Median
+
+Time to read input = 0.0007313
+
+Run stopped at t = 13.28. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_dce13c87-2741-46a7-9d75-8446f4942635.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

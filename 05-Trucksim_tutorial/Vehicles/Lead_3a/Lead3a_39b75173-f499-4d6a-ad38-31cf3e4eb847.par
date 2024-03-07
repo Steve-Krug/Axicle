@@ -110,8 +110,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 3 Axles; { 3A Tour Bus } 3A Tour
 #Category: 3A Tour Bus
 #FileID  : Lead3a_39b75173-f499-4d6a-ad38-31cf3e4eb847
 #Modified: 09-01-2021 12:48:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

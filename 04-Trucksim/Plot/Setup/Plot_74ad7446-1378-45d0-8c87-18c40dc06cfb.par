@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Moments } Aligning Moments (Axle 2)
 #Category: Tire Moments
 #FileID  : Plot_74ad7446-1378-45d0-8c87-18c40dc06cfb
 #Modified: 06-07-2021 01:49:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Suspended Cab } Susp. Cab Spring: Right
 #FileID  : GenTab_cd82974e-c761-42d3-afb9-07ae794814e4
 #Created : 05-26-2021 11:29:55
 #Modified: 01-21-2022 14:00:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

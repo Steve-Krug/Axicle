@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Crosswind Facility } Wind Heading: From
 #Category: Crosswind Facility
 #FileID  : GenTab_e019bb3c-5237-4b45-8652-0f8cef9fa3c7
 #Modified: 01-21-2022 14:00:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

@@ -1,0 +1,290 @@
+PARSFILE
+! VS Road Calculator
+! Utility to calculate road and path coordinates for visualization
+! Revision 192897, December 7, 2022
+
+TITLE Looped Road with Banking <Road Segment Builder>
+
+! Echo: Roads\3D_Road\Road_32c6b5d6-4597-4095-bd25-d037bf3262eb_echo.par
+! This run was made 15:47 on April 04, 2023.
+
+!------------------------------------------------------------------------------------
+! SYSTEM PARAMETERS (SIMULATION OPTIONS)
+!------------------------------------------------------------------------------------
+! [I] indicates that changing the parameter via an Event triggers an initialization.
+! [L] indicates that the parameter is locked once the simulation starts.
+
+ID_EVENT            0 ; - ! ID number that can be assigned to the current event
+ID_RUN              0 ; - ! ID number that can be assigned to a simulation run
+OPT_ALL_WRITE       0 ! Write all outputs to file? 1 -> all, 0 -> only activated
+                      ! outputs
+OPT_ECHO_DEFAULT    2 ! Show values that were not set by reading from a file? 1 ->
+                      ! show with [D] indicator, 0 -> show without [D], 2 -> do not
+                      ! show the property at all
+OPT_ERROR_DIALOG    0 ! Show pop-up dialog box if fatal error occurs: 1 -> yes
+                      ! (normal use), 0 -> no (for batch runs)
+OPT_WRITE           0 ; - ! Write outputs when T > TSTART_WRITE? 1 -> write, 0 ->
+                      ! don't write; change this using VS Commands or Events
+TSTART          12.96 ; s ! Starting time for the simulation clock
+TSTEP            0.04 ; s ! Time step for numerical integration [L]
+TSTOP         12.9596 ; s ! Stop when this time is reached
+! T_DT           0.04 ; s ! CALC -- Time increment between calculations
+
+!------------------------------------------------------------------------------------
+! SYSTEM CONSTANTS
+!------------------------------------------------------------------------------------
+
+!------------------------------------------------------------------------------------
+! REFERENCE PATHS
+!------------------------------------------------------------------------------------
+! Up to 500 reference paths may be installed to provide station-based coordinate
+! systems used to define 3D road surfaces, targets for the driver model, and
+! positions of moving objects. In addition to the parameters shown in this section,
+! the paths may include spline X-Y tables (keyword = SEGMENT_XY_TABLE).
+
+! NPATH             1 ! Number of installed paths available for roads, driver model,
+                      ! and moving objects (read only)
+DEFINE_PATHS        1 ! VS Command to install reference paths
+
+OPT_PATH_START(1)   1 ! Set initial heading and X-Y coordinates of the path? 0 -> no
+                      ! (legacy, using table data), 1 -> yes
+OPT_PATH_LOOP(1)    1 ! Is this path looped? 0 -> no, 1 -> yes
+! SPATH_LAP(1) 1047.197551 ; m ! CALC -- Lap distance for this path
+
+NSEGMENTS(1)        4 ! Number of segments in this path
+SEGMENT_TYPE(1,1)   3 ! 0 -> straight, 1 -> table, 2 -> rho, 3 -> radius, 4 -> cloth
+SEGMENT_RADIUS(1,1) 100 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,1)   60 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,1) 104.7197551 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,1) 86.60254038 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,1) 50 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,1) 60 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,2)   3 ! 0 -> straight, 1 -> table, 2 -> rho, 3 -> radius, 4 -> cloth
+SEGMENT_RADIUS(1,2) -100 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,2)  240 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,2) 523.5987756 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,2) 173.2050808 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,2) -100 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,2) -180 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,3)   3 ! 0 -> straight, 1 -> table, 2 -> rho, 3 -> radius, 4 -> cloth
+SEGMENT_RADIUS(1,3) 100 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,3)   60 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,3) 628.3185307 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,3) 86.60254038 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,3) -150 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,3) -120 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,4)   3 ! 0 -> straight, 1 -> table, 2 -> rho, 3 -> radius, 4 -> cloth
+SEGMENT_RADIUS(1,4) -100 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,4)  240 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,4) 1047.197551 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,4) -8.526512829e-14 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,4) -8.526512829e-14 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,4) 3.816665618e-14 ; deg ! CALC -- Heading at end of segment
+
+!------------------------------------------------------------------------------------
+! ROAD SURFACES
+!------------------------------------------------------------------------------------
+! Road surfaces define elevation Z and friction MU as functions of global X and Y
+! coordinates, using a station-based coordinate system defined with a Reference
+! Path. Up to 200 surfaces may be installed to represent sections, intersections,
+! multiple lanes, etc. The Z, MU, and RR_SURF values for a road surface are
+! provided with Configurable Functions MU_ROAD, ROAD_DZ, RR_SURF, and ROAD_ZS.
+! Boundaries that control automatic switching from one road surface to another make
+! use of the Configurable Functions ROAD_L_BOUNDARY, ROAD_NEW_ID, and ROAD_NEW_S.
+
+! NROAD             1 ! Number of installed road surfaces (read only)
+NROAD_DZ            1 ! Number of ROAD_DZ datasets
+DEFINE_ROADS        1 ! VS Command to define road surfaces
+
+ROAD_PATH_ID(1)     1 ! PATH_ID of reference path used for this road [I]
+ROAD_N_DZ(1)        1 ! Number of ROAD_DZ layers added to the surface
+RD_DZ_ID(1,1)       1 ! ROAD_DZ_ID for a ROAD_DZ layer added to this surface
+
+!------------------------------------------------------------------------------------
+! START AND STOP INFORMATION FOR PATH
+!------------------------------------------------------------------------------------
+PATH_ID_DM          1 ! PATH_ID of reference path for the driver and vehicle [I]
+OPT_DIRECTION       1 ! Travel direction along path PATH_ID_DM: 0 -> set to 1 or -1
+                      ! using SSTART and SSTOP values (legacy); 1 -> increasing
+                      ! station, -1 -> decreasing station [I]
+
+!------------------------------------------------------------------------------------
+! CONFIGURABLE FUNCTIONS
+!------------------------------------------------------------------------------------
+
+! MU_ROAD: 2D function that calculates MU as a function of lateral position and
+! station
+
+! Row 1 has "0" (place holder) followed by 4 values of lateral position (m). Other
+! rows have station (m) followed by 4 values of MU (-).
+MU_ROAD_CARPET(1) 2D_LINEAR
+ 0, -10, -0.1, 0.1, 10
+ 0, 1, 1, 1, 1
+ 104.718426, 1, 1, 1, 1
+ 523.59213, 1, 1, 1, 1
+ 628.310556, 1, 1, 1, 1
+ 1047.197551, 1, 1, 1, 1
+ENDTABLE
+
+! ROAD_DZ: 2D function that calculates dZ as a function of lateral position and
+! station
+
+ROAD_DZ_ID(1)       1  ! User-defined ID number for this dataset
+
+! Row 1 has "0" (place holder) followed by 4 values of lateral position (m). Other
+! rows have station (m) followed by 4 values of dZ (m).
+ROAD_DZ_CARPET(1) 2D_LINEAR
+ 0, -5, -4, 4, 5
+ 0, 0, 0, 0, 0
+ 30, 1.2, 1.2, -1.2, -1.2
+ 74.718426, 1.2, 1.2, -1.2, -1.2
+ 134.718426, -1.2, -1.2, 1.2, 1.2
+ 493.59213, -1.2, -1.2, 1.2, 1.2
+ 553.59213, 1.2, 1.2, -1.2, -1.2
+ 598.310556, 1.2, 1.2, -1.2, -1.2
+ 658.310556, -1.2, -1.2, 1.2, 1.2
+ 1017.197551, -1.2, -1.2, 1.2, 1.2
+ 1047.197551, 0, 0, 0, 0
+ENDTABLE
+
+! ROAD_NEW_ID: Function that calculates ID from S
+
+! ROAD_ZS: Function that calculates elevation from station
+
+! Col 1 = station (m), col 2 = elevation (m)
+ROAD_ZS_TABLE(1) SPLINE ! spline interpolation and extrapolation
+ 0, -2.750677785
+ 0.001, -2.750602761
+ 3, -2.518353839
+ 6, -2.2725204
+ 9, -2.014681541
+ 12, -1.746341337
+ 15, -1.469003861
+ 18, -1.184173188
+ 21, -0.8933533909
+ 24, -0.5980485447
+ 27, -0.2997627233
+ 30, 0
+ 34.4718426, 0.4471842598
+ 38.9436852, 0.8943685196
+ 43.41552779, 1.341552779
+ 47.88737039, 1.788737039
+ 52.35921299, 2.235921299
+ 56.83105559, 2.683105559
+ 61.30289819, 3.130289819
+ 65.77474078, 3.577474078
+ 70.24658338, 4.024658338
+ 74.71842598, 4.471842598
+ 77.71842598, 4.771605321
+ 80.71842598, 5.069891143
+ 83.71842598, 5.365195989
+ 86.71842598, 5.656015786
+ 89.71842598, 5.940846459
+ 92.71842598, 6.218183935
+ 95.71842598, 6.486524139
+ 98.71842598, 6.744362998
+ 101.718426, 6.990196437
+ 104.718426, 7.222520383
+ 107.718426, 7.43983076
+ 110.718426, 7.640623496
+ 113.718426, 7.823394516
+ 116.718426, 7.986639745
+ 119.718426, 8.128855111
+ 122.718426, 8.248536538
+ 125.718426, 8.344179954
+ 128.718426, 8.414281283
+ 131.718426, 8.457336451
+ 134.718426, 8.471842598
+ 170.6057964, 8.471842598
+ 206.4931668, 8.471842598
+ 242.3805372, 8.471842598
+ 278.2679075, 8.471842598
+ 314.1552779, 8.471842598
+ 350.0426483, 8.471842598
+ 385.9300187, 8.471842598
+ 421.8173891, 8.471842598
+ 457.7047595, 8.471842598
+ 493.5921299, 8.471842598
+ 496.5921299, 8.457336451
+ 499.5921299, 8.414281283
+ 502.5921299, 8.344179954
+ 505.5921299, 8.248536538
+ 508.5921299, 8.128855111
+ 511.5921299, 7.986639745
+ 514.5921299, 7.823394516
+ 517.5921299, 7.640623496
+ 520.5921299, 7.43983076
+ 523.5921299, 7.222520383
+ 526.5921299, 6.990196437
+ 529.5921299, 6.744362998
+ 532.5921299, 6.486524139
+ 535.5921299, 6.218183935
+ 538.5921299, 5.940846459
+ 541.5921299, 5.656015786
+ 544.5921299, 5.365195989
+ 547.5921299, 5.069891143
+ 550.5921299, 4.771605321
+ 553.5921299, 4.471842598
+ 558.0639725, 4.024658338
+ 562.5358151, 3.577474078
+ 567.0076577, 3.130289819
+ 571.4795003, 2.683105559
+ 575.9513429, 2.235921299
+ 580.4231855, 1.788737039
+ 584.8950281, 1.341552779
+ 589.3668707, 0.8943685196
+ 593.8387133, 0.4471842598
+ 598.3105559, 1.33226763e-13
+ 601.3105559, -0.2997627233
+ 604.3105559, -0.5980485447
+ 607.3105559, -0.8933533909
+ 610.3105559, -1.184173188
+ 613.3105559, -1.469003861
+ 616.3105559, -1.746341337
+ 619.3105559, -2.014681541
+ 622.3105559, -2.2725204
+ 625.3105559, -2.518353839
+ 628.3105559, -2.750677785
+ 631.3105559, -2.967988162
+ 634.3105559, -3.168780898
+ 637.3105559, -3.351551918
+ 640.3105559, -3.514797147
+ 643.3105559, -3.657012513
+ 646.3105559, -3.77669394
+ 649.3105559, -3.872337356
+ 652.3105559, -3.942438684
+ 655.3105559, -3.985493853
+ 658.3105559, -4
+ 694.1992554, -4
+ 730.0879549, -4
+ 765.9766545, -4
+ 801.865354, -4
+ 837.7540535, -4
+ 873.6427531, -4
+ 909.5314526, -4
+ 945.4201521, -4
+ 981.3088517, -4
+ 1017.197551, -4
+ 1020.197551, -3.985493853
+ 1023.197551, -3.942438684
+ 1026.197551, -3.872337356
+ 1029.197551, -3.77669394
+ 1032.197551, -3.657012513
+ 1035.197551, -3.514797147
+ 1038.197551, -3.351551918
+ 1041.197551, -3.168780898
+ 1044.197551, -2.967988162
+ 1047.196551, -2.750752807
+ 1047.197551, -2.750677785
+ENDTABLE
+
+! RR_SURF: 2D function that calculates RR_SURF as a function of lateral position and
+! station
+
+RR_SURF_CONSTANT(1) 1 ; - ! RR_SURF component due to station
+
+
+END

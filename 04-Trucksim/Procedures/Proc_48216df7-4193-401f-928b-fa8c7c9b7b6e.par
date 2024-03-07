@@ -117,8 +117,8 @@ LOG_ENTRY Used Dataset: Procedures; { Mcity } Mcity ADAS Scenario, 30 km/h
 #Category: Mcity
 #FileID  : Proc_48216df7-4193-401f-928b-fa8c7c9b7b6e
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

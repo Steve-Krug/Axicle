@@ -82,8 +82,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Atlas Scenic Mountain
 #Category: Driving
 #FileID  : Proc_ac4bd127-ee1c-4fcc-a24d-7b183108d9ec
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

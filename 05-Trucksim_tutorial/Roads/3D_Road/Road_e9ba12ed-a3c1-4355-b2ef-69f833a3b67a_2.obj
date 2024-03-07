@@ -1,0 +1,20 @@
+# Shape file for lane 2
+v -100 -3.5 0
+vt 0 0
+v -100 -5.5 0
+vt -1 0
+v 500.00001 -3.5 0
+vt 0 60.000001
+v 500.00001 -5.5 0
+vt -1 60.000001
+mtllib Roads\3D_Road\Road_e9ba12ed-a3c1-4355-b2ef-69f833a3b67a_2.mtl
+usemtl Road Transition (Light)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

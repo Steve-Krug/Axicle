@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Sensor Range and Bearing Sensitivity; { Limit from Range
 #FileID  : Range_0acd492c-7519-4409-a50d-a1a5400f8771
 #Created : 09-20-2021 14:01:35
 #Modified: 09-20-2021 14:02:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Range & Bearing Sensitivity
 
 END

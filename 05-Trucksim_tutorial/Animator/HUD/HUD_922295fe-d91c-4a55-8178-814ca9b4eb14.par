@@ -123,8 +123,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } ACC Icon
 #Category: HUD Groups
 #FileID  : HUD_922295fe-d91c-4a55-8178-814ca9b4eb14
 #Modified: 03-29-2022 16:03:27
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

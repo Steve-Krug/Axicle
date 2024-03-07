@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Vertical Accel. of Sprun
 #Category: Vehicle Motion
 #FileID  : Plot_96fe6c12-4843-47e0-9c9b-19d342cf64e6
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

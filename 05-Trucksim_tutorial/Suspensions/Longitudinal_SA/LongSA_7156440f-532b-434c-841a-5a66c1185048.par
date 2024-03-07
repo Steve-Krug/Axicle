@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement (Solid Axle); { Hotchk
 #FileID  : LongSA_7156440f-532b-434c-841a-5a66c1185048
 #Created : 04-13-2021 11:17:16
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X Movement (Solid Axle)
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -76,9 +77,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tire Models } SAE Measured Tire 
 #DataSet : SAE Measured Tire Data (Symmetric)
 #Category: Tire Models
 #FileID  : Run_9a76d8ee-ca60-448d-805a-1fd20b350164
-#Modified: 04-25-2022 09:37:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

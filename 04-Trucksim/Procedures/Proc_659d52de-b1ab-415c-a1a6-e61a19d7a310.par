@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Procedures; { Sensors and Traffic } ACC: Ext Sensor, Ext
 #Category: Sensors and Traffic
 #FileID  : Proc_659d52de-b1ab-415c-a1a6-e61a19d7a310
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

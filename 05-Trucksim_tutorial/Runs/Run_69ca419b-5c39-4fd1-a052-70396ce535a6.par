@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_12afd0d3-c9b8-47b4-9b7e-1cd0582e975b.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -71,9 +72,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Scene Import } Scene Builder: Hi
 #DataSet : Scene Builder: Highway with Traffic
 #Category: Scene Import
 #FileID  : Run_69ca419b-5c39-4fd1-a052-70396ce535a6
-#Modified: 06-14-2021 16:34:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:23
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

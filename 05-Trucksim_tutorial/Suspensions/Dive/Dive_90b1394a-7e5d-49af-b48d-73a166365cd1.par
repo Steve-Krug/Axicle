@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Suspension: Dive Angle (Caster Change); { Constant } Con
 #Category: Constant
 #FileID  : Dive_90b1394a-7e5d-49af-b48d-73a166365cd1
 #Modified: 06-07-2021 01:49:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Dive
 
 END

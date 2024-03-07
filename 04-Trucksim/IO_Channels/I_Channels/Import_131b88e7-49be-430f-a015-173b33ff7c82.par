@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Traction Control for TCS and ESC
 #Category: Traction Control for TCS and ESC
 #FileID  : Import_131b88e7-49be-430f-a015-173b33ff7c82
 #Modified: 06-07-2021 01:52:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

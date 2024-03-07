@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Straight } 1200 m, 
 #Category: Straight
 #FileID  : Road_79845a11-0696-45b7-8386-fb119fcf4506
 #Modified: 10-04-2021 16:58:46
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

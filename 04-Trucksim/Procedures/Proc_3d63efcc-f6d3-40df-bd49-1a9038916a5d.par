@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Road X-Y-Z Edges
 #Category: Driving
 #FileID  : Proc_3d63efcc-f6d3-40df-bd49-1a9038916a5d
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

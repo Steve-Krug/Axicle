@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension Motion } Steer vs. Jounce (Axl
 #Category: Suspension Motion
 #FileID  : Plot_b4310ceb-bb28-4b34-b93a-38a34efc2de4
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

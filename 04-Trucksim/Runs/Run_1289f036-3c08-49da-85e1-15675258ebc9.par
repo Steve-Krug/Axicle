@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_1cda02f1-83b2-420a-a133-a4725146fd4e.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -79,9 +80,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Chassis Twist } 002 Roll sine sw
 #DataSet : 002 Roll sine sweep: Node ctr
 #Category: Chassis Twist
 #FileID  : Run_1289f036-3c08-49da-85e1-15675258ebc9
-#Modified: 05-03-2022 12:53:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:16
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

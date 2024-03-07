@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 2.258
 *RZ 2.238
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 #EMBEDDED_NOTES
@@ -48,9 +50,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Shipping Containers } 20-foot Cargo C
 #DataSet : 20-foot Cargo Container: Front (Empty)
 #Category: Shipping Containers
 #FileID  : Custom_f294f16b-848d-43df-b13b-affbdccd3884
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

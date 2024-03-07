@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Sensor Collision Recorder } A. Initialize
 #Category: ADAS Sensor Collision Recorder
 #FileID  : Events_6e7605f6-39d1-48d8-8815-591aeaeeb388
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

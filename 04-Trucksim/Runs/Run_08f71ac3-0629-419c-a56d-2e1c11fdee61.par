@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_22a6d594-9050-48c2-b491-353db3f943b2.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -68,9 +69,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tractor Trailer Platoon, Single 
 #DataSet : Platoon: Intruder Test
 #Category: Tractor Trailer Platoon, Single Solver
 #FileID  : Run_08f71ac3-0629-419c-a56d-2e1c11fdee61
-#Modified: 05-03-2022 12:50:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

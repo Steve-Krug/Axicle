@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_1cda02f1-83b2-420a-a133-a4725146fd4e.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -71,9 +72,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Suspension and Ride Tests } Smal
 #DataSet : Small Smooth Bump
 #Category: Suspension and Ride Tests
 #FileID  : Run_5c402627-4f66-4325-81dc-d8e93f530eca
-#Modified: 04-25-2022 09:36:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:24
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

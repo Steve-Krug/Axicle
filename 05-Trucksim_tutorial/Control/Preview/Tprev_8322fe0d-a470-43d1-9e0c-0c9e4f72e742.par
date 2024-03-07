@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Control: Steering Preview Time for the Driver Model; 0.6
 #FileID  : Tprev_8322fe0d-a470-43d1-9e0c-0c9e4f72e742
 #Created : 05-20-2022 19:12:03
 #Modified: 05-20-2022 19:32:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Preview Time vs. Speed
 
 END

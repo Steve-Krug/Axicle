@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { ADAS and Active Safety } Master 
 #Category: ADAS and Active Safety
 #FileID  : Import_8a9e40b0-edcc-4544-b106-f37393fb018d
 #Modified: 06-07-2021 01:52:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

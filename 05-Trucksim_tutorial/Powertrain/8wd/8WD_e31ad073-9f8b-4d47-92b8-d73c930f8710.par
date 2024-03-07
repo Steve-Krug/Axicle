@@ -102,8 +102,8 @@ LOG_ENTRY Used Dataset: Powertrain: 8-Wheel Drive; { 300 kW Powertrains } 300 kW
 #Category: 300 kW Powertrains
 #FileID  : 8WD_e31ad073-9f8b-4d47-92b8-d73c930f8710
 #Modified: 11-24-2021 14:13:35
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 8WD
 
 END

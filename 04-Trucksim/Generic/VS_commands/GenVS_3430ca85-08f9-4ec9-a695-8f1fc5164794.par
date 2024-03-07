@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Euro NCAP: FCW
 #Category: ADAS Support
 #FileID  : GenVS_3430ca85-08f9-4ec9-a695-8f1fc5164794
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands, FCW
 
 END

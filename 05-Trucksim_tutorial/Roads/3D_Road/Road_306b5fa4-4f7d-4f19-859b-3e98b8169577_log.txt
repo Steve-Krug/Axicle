@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_306b5fa4-4f7d-4f19-859b-3e98b8169577.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c.par"
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Include PARSFILE "Roads\dZ_Map_V_Wdth\VarWidZ_7a2b61f8-6864-4bc1-be16-a4e89311af25.par"
+Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Variable Width Roads } Railroad Tracks
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_d2738f5f-465d-4c2b-8e42-095700d6427c.par"
+Used Dataset: Road: Animator Surface Shapes; { Variable Width Roads } Railroad Tracks
+ Railroad Tracks <Variable Width Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Variable Width Roads } Railroad Tracks
+
+Time to read input = 0.000559
+
+Run started: VS output file = Roads\3D_Road\Road_306b5fa4-4f7d-4f19-859b-3e98b8169577.vsb
+
+Run stopped at t = 8. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

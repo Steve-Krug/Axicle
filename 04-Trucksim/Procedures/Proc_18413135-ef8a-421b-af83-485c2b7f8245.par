@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: Procedures; { Steer Controller Parameter Optimization } 
 #Category: Steer Controller Parameter Optimization
 #FileID  : Proc_18413135-ef8a-421b-af83-485c2b7f8245
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

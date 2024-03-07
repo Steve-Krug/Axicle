@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspended Cab } Cab Mount Damper Force
 #Category: Suspended Cab
 #FileID  : Plot_091a72b3-2330-464b-b8f2-8db00159fe4b
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

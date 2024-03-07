@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.557
 *RZ 0.557
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 #EMBEDDED_NOTES
@@ -47,9 +49,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Steel Coils } Steel Coil (Single)
 #DataSet : Steel Coil (Single)
 #Category: Steel Coils
 #FileID  : Custom_8059a102-d02a-49bb-ac05-4a400c98aee7
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Tire force and moment } Tir
 #Category: Tire force and moment
 #FileID  : Frame_dc308630-cca1-4a2a-8f23-8fca18da3d7b
 #Modified: 06-07-2021 01:54:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

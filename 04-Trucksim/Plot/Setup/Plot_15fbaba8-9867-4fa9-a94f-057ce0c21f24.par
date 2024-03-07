@@ -39,8 +39,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Braking } Locked Brake Status (Axle 1)
 #Category: Braking
 #FileID  : Plot_15fbaba8-9867-4fa9-a94f-057ce0c21f24
 #Modified: 06-16-2021 09:51:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

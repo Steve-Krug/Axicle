@@ -117,8 +117,8 @@ LOG_ENTRY Used Dataset: Path: X-Y Coordinates; { Parking Lot } Parking Lot: West
 #Category: Parking Lot
 #FileID  : PathXY_7520e308-e510-49db-b5af-4128203d5c5e
 #Modified: 06-07-2021 01:51:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y Coordinates of Path
 
 END

@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Powertrain: Electric Motor Torque; { Electric Motor } Ma
 #Category: Electric Motor
 #FileID  : MMotor_455e7215-9192-403f-bc30-97b72ba533e8
 #Modified: 05-06-2022 09:49:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Drive torque w/ electric motor
 
 END

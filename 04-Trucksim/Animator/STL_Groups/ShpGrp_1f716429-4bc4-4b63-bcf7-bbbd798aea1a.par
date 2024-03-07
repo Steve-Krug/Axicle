@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } 145/80 R13
 #FileID  : ShpGrp_1f716429-4bc4-4b63-bcf7-bbbd798aea1a
 #Created : 05-05-2021 15:01:26
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

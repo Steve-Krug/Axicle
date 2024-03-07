@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Straight } Path ID 1001: Straig
 #FileID  : RoadSeg_4f5df390-910d-421e-bd1f-63475bede4ac
 #Created : 09-28-2021 15:12:53
 #Modified: 09-28-2021 15:13:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Events; { Embedded Python: Obstacle Detection } New Dete
 #Category: Embedded Python: Obstacle Detection
 #FileID  : Events_ebaf790d-45e3-43c7-9382-fd1e995c4158
 #Modified: 06-07-2021 01:49:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

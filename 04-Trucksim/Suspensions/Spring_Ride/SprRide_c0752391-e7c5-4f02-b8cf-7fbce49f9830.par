@@ -62,8 +62,8 @@ LOG_ENTRY Used Dataset: Suspension: Ride Rate (Spring + Tire); 515 N/mm
 #FileID  : SprRide_c0752391-e7c5-4f02-b8cf-7fbce49f9830
 #Created : 03-08-2022 15:11:22
 #Modified: 03-15-2022 09:59:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Ride Measurement
 
 END

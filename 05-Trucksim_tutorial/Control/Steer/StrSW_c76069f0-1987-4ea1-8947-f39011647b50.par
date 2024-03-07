@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Ramp } 6 deg/sec #1
 #FileID  : StrSW_c76069f0-1987-4ea1-8947-f39011647b50
 #Created : 01-16-2023 21:42:22
 #Modified: 01-16-2023 21:44:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Steering
 
 END

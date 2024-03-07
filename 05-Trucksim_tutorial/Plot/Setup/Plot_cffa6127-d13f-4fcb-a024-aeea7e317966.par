@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Suspension - Ind. Kin. Outputs } Dive vs.
 #FileID  : Plot_cffa6127-d13f-4fcb-a024-aeea7e317966
 #Created : 11-17-2021 08:36:41
 #Modified: 11-17-2021 08:36:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

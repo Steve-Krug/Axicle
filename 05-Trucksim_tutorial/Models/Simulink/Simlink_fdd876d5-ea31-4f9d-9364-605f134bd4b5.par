@@ -3,17 +3,17 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\Mdl4ws_TS9.mdl
 SIMULINK_MODEL_FILE Extensions\Simulink\Mdl4ws_TS9.mdl
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 0    
 *USE_ALT_DIR 0
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 1    
-#CheckBox4 0    
-OPT_IO_SYNC_FM 0
+#CheckBox5 0    
 #RingCtrl1 0
 OPT_INT_METHOD 0
-#CheckBox2 1    
-OPT_IO_UPDATE 1
 #CheckBox4 0    
 OPT_IO_SYNC_FM 0
 *TSTEP 0.0005
@@ -22,13 +22,19 @@ OPT_IO_SYNC_FM 0
 *FREQ_OUT 40
 tstep 0.0005
 iprint 50
-#CheckBox5 0    
-*MULTI_SOLVERS 0
 PARSFILE IO_Channels\I_Channels\Import_8468ce10-4084-4b24-9b20-43f07ed9f2c9.par
 #BlueLink0 I/O Channels: Import`Four Wheel Steering: Import` Steering System Control` , Import`Import_8468ce10-4084-4b24-9b20-43f07ed9f2c9
 
 PARSFILE IO_Channels\O_Channels\Export_4cfda96e-43e8-471b-9a89-c6a2fb5f7f39.par
 #BlueLink1 I/O Channels: Export`Four Wheel Steering: Export` Steering System Control` , Import/Export`Export_4cfda96e-43e8-471b-9a89-c6a2fb5f7f39
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 LIVE_SERVER_UPDATE_FREQ_MAX 60
 
@@ -46,9 +52,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; { Steering } Four Wheel Steering Syste
 #DataSet : Four Wheel Steering System
 #Category: Steering
 #FileID  : Simlink_fdd876d5-ea31-4f9d-9364-605f134bd4b5
-#Modified: 06-07-2021 01:52:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:47:43
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

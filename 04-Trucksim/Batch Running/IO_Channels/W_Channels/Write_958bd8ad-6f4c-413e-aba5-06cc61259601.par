@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName I/O Channels: Write`csv outputs`
+#CheckBox1 0    
+
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 2
+#RingCtrl4 0
+
+OPT_AUXOUT_CSV 1
+OPT_AUXOUT_MAT 0
+OPT_AUXOUT_ALL_WRITE_CSV 1
+
+LOG_ENTRY Used Dataset: I/O Channels: Write; csv outputs
+#Library : I/O Channels: Write
+#DataSet : csv outputs
+#Category: 
+#FileID  : Write_958bd8ad-6f4c-413e-aba5-06cc61259601
+#Created : 05-23-2023 12:14:50
+#Modified: 05-23-2023 12:16:36
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Write Channels
+
+END

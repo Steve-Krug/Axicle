@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Tire Force Arrows } 5 Axle - Fx, F
 #Category: Tire Force Arrows
 #FileID  : GenGrp_48ee9e99-6d66-4ac6-ba87-2981947238fa
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

@@ -65,8 +65,8 @@ LOG_ENTRY Used Dataset: Steering System; { Pickup Trucks } Midsize: Power, Rack 
 #Category: Pickup Trucks
 #FileID  : StrSys_7a7c6cf4-f225-4f3e-adcc-d47e1ec362ca
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

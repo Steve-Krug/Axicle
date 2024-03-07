@@ -68,8 +68,8 @@ LOG_ENTRY Used Dataset: Events; { Transient Response Times } B. Maintain Constan
 #Category: Transient Response Times
 #FileID  : Events_45c4d402-6cff-41c5-ae91-8ecc2295816d
 #Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

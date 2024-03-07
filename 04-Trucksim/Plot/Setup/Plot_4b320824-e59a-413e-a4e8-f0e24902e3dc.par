@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Forces (X)
 #FileID  : Plot_4b320824-e59a-413e-a4e8-f0e24902e3dc
 #Created : 09-28-2021 16:16:33
 #Modified: 09-28-2021 16:16:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

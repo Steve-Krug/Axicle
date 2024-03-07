@@ -93,8 +93,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driver Controls } Update Path to Avoid Col
 #Category: Driver Controls
 #FileID  : Proc_6dd1e7aa-40e5-41cb-be3f-ec4c8bb7f995
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { European Vans } Euro Van:
 #FileID  : VehLoad_9a1c4700-fc3b-4bc0-99da-7c04f2abaf26
 #Created : 11-08-2021 14:56:45
 #Modified: 11-09-2021 10:59:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_I
 
 END

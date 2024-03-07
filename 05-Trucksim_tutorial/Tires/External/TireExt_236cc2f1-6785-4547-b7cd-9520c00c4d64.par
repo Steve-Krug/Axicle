@@ -55,8 +55,8 @@ LOG_ENTRY Used Dataset: Tire (External); { * User Tire Model } 510 mm Radius (Si
 #Category: * User Tire Model
 #FileID  : TireExt_236cc2f1-6785-4547-b7cd-9520c00c4d64
 #Modified: 06-13-2022 09:45:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire (External)
 
 END

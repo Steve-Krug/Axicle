@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Generic Table; { 4 Link w/ Track Bar } Left R-Stop Compr
 #FileID  : GenTab_1c696d9a-745c-4850-a3f0-043f4d49868c
 #Created : 05-17-2021 14:03:45
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

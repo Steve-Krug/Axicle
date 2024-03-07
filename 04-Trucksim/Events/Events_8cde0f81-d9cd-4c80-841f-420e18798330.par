@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Events; { Lift Axle 3 } B. Raise Axle 3
 #Category: Lift Axle 3
 #FileID  : Events_8cde0f81-d9cd-4c80-841f-420e18798330
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

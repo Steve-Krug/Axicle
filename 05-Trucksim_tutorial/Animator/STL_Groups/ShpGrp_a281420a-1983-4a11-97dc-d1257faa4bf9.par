@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Shipping Containers } 40-ft 
 #Category: Shipping Containers
 #FileID  : ShpGrp_a281420a-1983-4a11-97dc-d1257faa4bf9
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

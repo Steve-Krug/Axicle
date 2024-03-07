@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Driver } Trans. Control: Mode
 #Category: Controls: Driver
 #FileID  : Plot_feb438d6-67a5-4250-a093-b907acb3a479
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

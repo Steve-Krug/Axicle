@@ -1,4 +1,4 @@
-Run made by VS Road Calculator at 22:54 on January 16, 2023.
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
 Utility to calculate road and path coordinates for visualization
 Started with simfile: Roads\3D_Road\simfile_road
 
@@ -15,7 +15,7 @@ Used Dataset: Surface: Roughness Profiles; { Road Roughness: Sample Data } Rough
  DLC, Rough Road (nominal) #1 <Flat Test Pads>
 Used Dataset: Road: 3D Surface (All Properties); { Flat Test Pads } DLC, Rough Road (nominal) #1
 
-Time to read input = 0.0009946
+Time to read input = 0.0010456
 
 Run started: VS output file = Roads\3D_Road\Road_f1813038-4ddf-4fa3-853a-074a3e1213aa.vsb
 

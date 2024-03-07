@@ -5983,8 +5983,8 @@ LOG_ENTRY Used Dataset: Surface: Roughness Profiles; { Road Roughness: Sample Da
 #Category: Road Roughness: Sample Data
 #FileID  : Profile_c7863dc9-2fb3-4bdf-b541-01e1c6e1e029
 #Modified: 06-07-2021 01:50:56
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Roughness Profile
 
 END

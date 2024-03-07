@@ -31,6 +31,7 @@ PARSFILE Animator\Cameras\Camera_38d3bcb7-a55e-4d80-9851-14df712094cb.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -86,9 +87,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Performance Based Standards (PBS
 #DataSet : PBS C11: Tilt-Table Rollover Test
 #Category: Performance Based Standards (PBS)
 #FileID  : Run_5785d266-88c8-489f-9d89-94f6e9a328f5
-#Modified: 04-25-2022 09:31:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

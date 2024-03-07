@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Roads } 2000m Road+200 
 #Category: Roads
 #FileID  : RdShape_0db81c0d-1603-4bba-882c-9b8965081f2c
 #Modified: 06-07-2021 01:51:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

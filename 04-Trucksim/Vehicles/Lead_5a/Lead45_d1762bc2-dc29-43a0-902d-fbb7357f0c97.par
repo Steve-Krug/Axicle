@@ -163,8 +163,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 5 Axles; { 5-Axle Lead Units } 5
 #Category: 5-Axle Lead Units
 #FileID  : Lead45_d1762bc2-dc29-43a0-902d-fbb7357f0c97
 #Modified: 04-25-2022 08:52:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode SS_SSS
 
 END

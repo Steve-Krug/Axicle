@@ -66,8 +66,8 @@ LOG_ENTRY Used Dataset: Steering System; { Utility Vehicles } 2A Euro: Power, Re
 #Category: Utility Vehicles
 #FileID  : StrSys_05b4ed64-cc7b-46cf-896f-b2aa075a582f
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

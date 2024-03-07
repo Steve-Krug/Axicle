@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Detection } Check for Clear Path v3
 #Category: ADAS Detection
 #FileID  : Events_e01bc69a-3be7-4058-93f4-029b1d420cb0
 #Modified: 06-07-2021 01:49:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

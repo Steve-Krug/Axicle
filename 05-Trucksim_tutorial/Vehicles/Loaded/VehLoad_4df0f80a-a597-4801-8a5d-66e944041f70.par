@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Articulated Bus } Articul
 #FileID  : VehLoad_4df0f80a-a597-4801-8a5d-66e944041f70
 #Created : 11-17-2021 17:31:00
 #Modified: 05-27-2022 17:38:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode I_S + S
 
 END

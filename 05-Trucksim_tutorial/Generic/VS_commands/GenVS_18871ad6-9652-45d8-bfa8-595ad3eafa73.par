@@ -49,8 +49,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Brake Testing w/ Pe
 #Category: Plot Groups
 #FileID  : GenVS_18871ad6-9652-45d8-bfa8-595ad3eafa73
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Group
 
 END

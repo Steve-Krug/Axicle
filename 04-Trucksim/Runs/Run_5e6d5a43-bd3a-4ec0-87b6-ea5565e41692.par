@@ -25,6 +25,7 @@ OPT_VS_FILETYPE 2
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -78,9 +79,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tire Tester } Load Sensitivity a
 #DataSet : Load Sensitivity at 6000 N
 #Category: Tire Tester
 #FileID  : Run_5e6d5a43-bd3a-4ec0-87b6-ea5565e41692
-#Modified: 06-07-2021 02:51:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:20
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

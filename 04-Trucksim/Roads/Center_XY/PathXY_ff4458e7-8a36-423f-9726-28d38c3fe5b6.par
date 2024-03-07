@@ -232,8 +232,8 @@ LOG_ENTRY Used Dataset: Path: X-Y Coordinates; { Public Road Section } Alt 3 Roa
 #Category: Public Road Section
 #FileID  : PathXY_ff4458e7-8a36-423f-9726-28d38c3fe5b6
 #Modified: 06-07-2021 01:51:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode X-Y Coordinates of Path
 
 END

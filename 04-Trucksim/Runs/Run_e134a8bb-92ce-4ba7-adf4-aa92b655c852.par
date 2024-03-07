@@ -31,6 +31,7 @@ PARSFILE Animator\Cameras\Camera_2f297a2a-ddb7-42f4-ae83-067b2569451e.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -103,9 +104,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Performance Based Standards (PBS
 #DataSet : PBS C16: Directional Stability, No Trl. ABS
 #Category: Performance Based Standards (PBS)
 #FileID  : Run_e134a8bb-92ce-4ba7-adf4-aa92b655c852
-#Modified: 04-25-2022 09:32:29
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

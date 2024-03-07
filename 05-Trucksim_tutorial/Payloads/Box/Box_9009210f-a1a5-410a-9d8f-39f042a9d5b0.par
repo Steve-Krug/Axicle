@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { Trailers } Trailer (4500 kg)
 #FileID  : Box_9009210f-a1a5-410a-9d8f-39f042a9d5b0
 #Created : 05-25-2021 10:05:39
 #Modified: 04-18-2022 12:18:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Box
 
 END

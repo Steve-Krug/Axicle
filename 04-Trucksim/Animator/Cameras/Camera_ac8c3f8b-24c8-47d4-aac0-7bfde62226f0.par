@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Driver View } Fixed Rear Follo
 #Category: Driver View
 #FileID  : Camera_ac8c3f8b-24c8-47d4-aac0-7bfde62226f0
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

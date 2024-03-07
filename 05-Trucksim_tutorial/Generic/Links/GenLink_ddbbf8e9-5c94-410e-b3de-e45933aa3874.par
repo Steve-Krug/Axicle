@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Mobile Crane } 9A Mobile Crane
 #Category: Mobile Crane
 #FileID  : GenLink_ddbbf8e9-5c94-410e-b3de-e45933aa3874
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ss_sss_ss_ss
 
 END

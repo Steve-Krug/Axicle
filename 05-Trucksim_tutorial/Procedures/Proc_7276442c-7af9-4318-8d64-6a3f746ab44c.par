@@ -92,8 +92,8 @@ LOG_ENTRY Used Dataset: Procedures; { Stability Tests } 500 m Straight, 45.72 m 
 #FileID  : Proc_7276442c-7af9-4318-8d64-6a3f746ab44c
 #Created : 01-16-2023 22:12:35
 #Modified: 01-16-2023 22:43:49
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

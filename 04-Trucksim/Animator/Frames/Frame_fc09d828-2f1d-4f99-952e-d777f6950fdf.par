@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Animator: Reference Frame; { Pedestrians } Pedestrian Wa
 #Category: Pedestrians
 #FileID  : Frame_fc09d828-2f1d-4f99-952e-d777f6950fdf
 #Modified: 06-07-2021 01:54:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Reference Frame
 
 END

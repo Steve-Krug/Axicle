@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire utilization } Longitudinal force pct
 #Category: Tire utilization
 #FileID  : Plot_70aada47-0a9a-4923-be25-bbf75f183a4d
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

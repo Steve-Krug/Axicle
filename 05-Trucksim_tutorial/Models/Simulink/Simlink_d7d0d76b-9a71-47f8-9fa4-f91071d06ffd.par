@@ -3,17 +3,17 @@ PARSFILE
 #RunMdlFile Extensions\Simulink\ABS_TS9.mdl
 SIMULINK_MODEL_FILE Extensions\Simulink\ABS_TS9.mdl
 #RingCtrl0 -1
+#RingCtrl2 0
+*MULTI_SOLVERS 0
+*MULTI_S_WRAPPER 0
 #CheckBox0 0    
 *USE_ALT_DIR 0
 #CheckBox1 0    
 *USE_DIFF_SOLVERS 0
 #CheckBox3 1    
-#CheckBox4 1    
-OPT_IO_SYNC_FM 1
+#CheckBox5 0    
 #RingCtrl1 0
 OPT_INT_METHOD 0
-#CheckBox2 1    
-OPT_IO_UPDATE 1
 #CheckBox4 1    
 OPT_IO_SYNC_FM 1
 *TSTEP 0.0005
@@ -22,13 +22,19 @@ OPT_IO_SYNC_FM 1
 *FREQ_OUT 40
 tstep 0.0005
 iprint 50
-#CheckBox5 0    
-*MULTI_SOLVERS 0
 PARSFILE IO_Channels\I_Channels\Import_fb6f5ede-415e-4f25-bf48-5686cd190ba4.par
 #BlueLink0 I/O Channels: Import`ABS: Wheel Cylinder Pressures` Brake System Control` , Import`Import_fb6f5ede-415e-4f25-bf48-5686cd190ba4
 
 PARSFILE IO_Channels\O_Channels\Export_35c937bb-9c77-44fc-b62e-29c711f820f4.par
 #BlueLink1 I/O Channels: Export`ABS: Vehicle Speed, M/C Pressure` Brake System Control` , Import/Export`Export_35c937bb-9c77-44fc-b62e-29c711f820f4
+
+#BlueLink3 I/O Channels: Ports`` ` , vs_state Ports`
+
+#BlueLink4 I/O Channels: Ports`` ` , vs_ctl Ports`
+
+#BlueLink5 I/O Channels: Ports`` ` , vs_kin Ports`
+
+#BlueLink6 I/O Channels: Ports`` ` , vs_dyn Ports`
 
 LIVE_SERVER_UPDATE_FREQ_MAX 60
 
@@ -49,9 +55,9 @@ LOG_ENTRY Used Dataset: Models: Simulink; { Braking Controls } ABS Controller
 #DataSet : ABS Controller
 #Category: Braking Controls
 #FileID  : Simlink_d7d0d76b-9a71-47f8-9fa4-f91071d06ffd
-#Modified: 06-07-2021 01:52:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:47:43
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

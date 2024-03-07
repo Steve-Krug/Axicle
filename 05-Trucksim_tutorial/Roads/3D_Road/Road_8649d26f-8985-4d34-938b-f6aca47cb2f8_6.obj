@@ -1,0 +1,20 @@
+# Shape file for lane 6
+v -200 4 0
+vt 0 0
+v -200 -4 0
+vt 1 0
+v 500.00001 4 0
+vt 0 35.0000005
+v 500.00001 -4 0
+vt 1 35.0000005
+mtllib Roads\3D_Road\Road_8649d26f-8985-4d34-938b-f6aca47cb2f8_6.mtl
+usemtl Road (Medium)
+g g1
+s 1
+f  1/1 2/2 4/4 3/3
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tracking } Lateral Tracking
 #Category: Tracking
 #FileID  : Plot_31f418d3-adbb-4a29-8056-a466be0a945d
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

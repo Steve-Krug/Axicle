@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { User-Defined Variables } Ext. Springs: EQ
 #Category: User-Defined Variables
 #FileID  : Plot_9386a075-a889-4fbd-8d52-9fb9448f512e
 #Modified: 06-07-2021 01:49:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

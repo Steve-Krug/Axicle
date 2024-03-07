@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_fba691be-6c65-4c71-b964-e852577b19ed.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -75,9 +76,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } Accel a
 #DataSet : Accel and Brk Test, Engine Sounds
 #Category: VS Visualizer Examples
 #FileID  : Run_29e89f8b-a634-4030-a649-84631e8c9e71
-#Modified: 04-25-2022 09:38:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:25
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

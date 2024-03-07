@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Control: Braking Pedal Force (Open Loop); { Ramp } Ramp:
 #Category: Ramp
 #FileID  : FbkCon_6bd7abfd-37ec-4ab7-987a-c7637ea29a3b
 #Modified: 06-07-2021 01:53:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Open-Loop Pedal Force
 
 END

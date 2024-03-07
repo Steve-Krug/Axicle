@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Ind. Susp. Kinematics } Set Stati
 #FileID  : GenVS_87d3a6a0-ee96-4123-b03e-454bc6e85107
 #Created : 11-17-2021 08:25:57
 #Modified: 11-17-2021 08:26:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

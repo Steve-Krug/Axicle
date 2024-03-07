@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_0f5c43ef-ab77-4055-86ff-be8da1e4debf.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -83,9 +84,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { External Control, Wrappers } Liv
 #DataSet : Live Animation Wrapper
 #Category: External Control, Wrappers
 #FileID  : Run_56b2fe08-148e-462f-abc1-4ed53be9efd5
-#Modified: 05-05-2022 10:59:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

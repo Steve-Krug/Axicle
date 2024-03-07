@@ -122,8 +122,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 3 Axles; { 3A Box Trucks } 3A Bo
 #FileID  : Lead3a_3cb0fadb-852e-477e-93a6-b1c3a94640af
 #Created : 09-27-2021 14:06:20
 #Modified: 09-27-2021 14:43:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

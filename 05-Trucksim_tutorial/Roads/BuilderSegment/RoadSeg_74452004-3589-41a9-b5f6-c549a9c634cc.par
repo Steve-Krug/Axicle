@@ -95,8 +95,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { S-Turns } Clothoid S-Turn
 #Category: S-Turns
 #FileID  : RoadSeg_74452004-3589-41a9-b5f6-c549a9c634cc
 #Modified: 06-07-2021 01:51:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

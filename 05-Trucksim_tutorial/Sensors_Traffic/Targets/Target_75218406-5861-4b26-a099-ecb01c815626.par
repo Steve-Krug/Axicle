@@ -11,7 +11,6 @@ ROAD_ID_OBJ 1002
 #CheckBox1 0    
 OPT_RECYCLE_OBJ 0
 #CheckBox2 0    
-#CheckBox3 0    
 #CheckBox6 1    
 #CheckBox7 0    
 #CheckBox8 1    
@@ -67,9 +66,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Pedestrians Crossing } 
 #DataSet : Woman Crossing from S=-9.5, L=-5
 #Category: Pedestrians Crossing
 #FileID  : Target_75218406-5861-4b26-a099-ecb01c815626
-#Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:20
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

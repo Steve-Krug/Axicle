@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Wheel Center Forces } Bump Plot (Fx, Fz, 
 #Category: Wheel Center Forces
 #FileID  : Plot_14797ef1-a060-42fd-bbd6-372b8d561329
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

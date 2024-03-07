@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_e8334fc3-71b0-4d16-abaf-29cafb080d9a.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -76,9 +77,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } Animate
 #DataSet : Animated Deer
 #Category: ADAS and Active Safety
 #FileID  : Run_97a106e2-27c5-4ede-8323-8918cd7bf30f
-#Modified: 06-14-2021 18:51:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

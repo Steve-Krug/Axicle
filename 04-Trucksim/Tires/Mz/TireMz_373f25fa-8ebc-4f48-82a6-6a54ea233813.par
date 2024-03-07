@@ -53,8 +53,8 @@ LOG_ENTRY Used Dataset: Tire: Aligning Moment; { SAE Drive Tire } Mz; Drive Tire
 #Category: SAE Drive Tire
 #FileID  : TireMz_373f25fa-8ebc-4f48-82a6-6a54ea233813
 #Modified: 06-07-2021 01:48:54
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mz
 
 END

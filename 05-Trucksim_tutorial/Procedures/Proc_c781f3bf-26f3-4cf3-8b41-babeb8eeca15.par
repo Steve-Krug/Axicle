@@ -74,8 +74,8 @@ LOG_ENTRY Used Dataset: Procedures; { Road Networks } 3-Way Intersection (Straig
 #Category: Road Networks
 #FileID  : Proc_c781f3bf-26f3-4cf3-8b41-babeb8eeca15
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

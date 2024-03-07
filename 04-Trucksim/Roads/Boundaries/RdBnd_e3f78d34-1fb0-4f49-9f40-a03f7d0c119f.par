@@ -63,8 +63,8 @@ LOG_ENTRY Used Dataset: Road: Boundaries; { Crossing with Curbs } North and West
 #Category: Crossing with Curbs
 #FileID  : RdBnd_e3f78d34-1fb0-4f49-9f40-a03f7d0c119f
 #Modified: 06-07-2021 01:51:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundaries
 
 END

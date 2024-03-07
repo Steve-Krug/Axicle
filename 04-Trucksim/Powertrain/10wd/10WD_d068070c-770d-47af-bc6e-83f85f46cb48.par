@@ -101,8 +101,8 @@ LOG_ENTRY Used Dataset: Powertrain: 10-Wheel Drive; { Electric: 500 kW } Electri
 #Category: Electric: 500 kW
 #FileID  : 10WD_d068070c-770d-47af-bc6e-83f85f46cb48
 #Modified: 01-26-2022 13:59:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 10WD
 
 END

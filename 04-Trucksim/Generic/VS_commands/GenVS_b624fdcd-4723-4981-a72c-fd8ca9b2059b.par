@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Plot Groups } Sensor and Target P
 #Category: Plot Groups
 #FileID  : GenVS_b624fdcd-4723-4981-a72c-fd8ca9b2059b
 #Modified: 06-07-2021 01:53:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Group
 
 END

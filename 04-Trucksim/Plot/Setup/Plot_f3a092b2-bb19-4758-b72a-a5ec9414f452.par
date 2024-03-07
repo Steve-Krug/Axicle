@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Steering Wheel Angle vs. Stati
 #Category: Steering
 #FileID  : Plot_f3a092b2-bb19-4758-b72a-a5ec9414f452
 #Modified: 06-07-2021 01:49:38
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

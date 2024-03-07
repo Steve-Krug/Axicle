@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Road Boundary: New Station; { Lane Change Roads } Highwa
 #Category: Lane Change Roads
 #FileID  : RdBdS_114ba2a3-33f9-49fa-b8c3-e29d4916c576
 #Modified: 06-07-2021 01:50:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundary S
 
 END

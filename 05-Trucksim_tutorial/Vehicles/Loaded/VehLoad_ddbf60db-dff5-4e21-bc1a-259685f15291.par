@@ -51,8 +51,8 @@ ANI_Pitch_2
 SET_ROLL_NAME Roll_E_2
 WRT_Roll_E_2
 ANI_Roll_E_2
-PARSFILE Payloads\Custom\Custom_8059a102-d02a-49bb-ac05-4a400c98aee7.par
-#BlueLink9 Payload: Custom`Steel Coil (Single)` Steel Coils` , Miscellaneous`Custom_8059a102-d02a-49bb-ac05-4a400c98aee7
+PARSFILE Payloads\Custom\Custom_15c97145-99da-414e-bc2d-993e6bfd6b7c.par
+#BlueLink9 Payload: Custom`Steel Coil (Single) AxicleTest1` Steel Coils` , Miscellaneous`Custom_15c97145-99da-414e-bc2d-993e6bfd6b7c
 
 *IMAGE_TYPE PASS_THROUGH
 *IMAGE_PASS_THROUGH Vehicles\Lead_3a\Lead3a_9e25d126-51f7-4fcd-902a-89d256db0b7a.png
@@ -68,9 +68,9 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Sleeper-Cab Tractor-Trail
 #DataSet : 3A Sleeper + Flatbed, 41k lbf payload
 #Category: Sleeper-Cab Tractor-Trailers
 #FileID  : VehLoad_ddbf60db-dff5-4e21-bc1a-259685f15291
-#Modified: 10-20-2021 13:18:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 18:28:07
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS + SS
 
 END

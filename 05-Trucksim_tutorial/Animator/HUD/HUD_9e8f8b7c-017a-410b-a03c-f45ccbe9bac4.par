@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Alerts } ESC Alert
 #Category: Alerts
 #FileID  : HUD_9e8f8b7c-017a-410b-a03c-f45ccbe9bac4
 #Modified: 06-07-2021 01:53:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Control: Shifting (Closed Loop); Neutral
 #Category: 
 #FileID  : GearCL_ef540ed9-53bb-40ba-b058-cb0f7fa4bfa6
 #Modified: 06-07-2021 01:53:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Closed-Loop Shift Control
 
 END

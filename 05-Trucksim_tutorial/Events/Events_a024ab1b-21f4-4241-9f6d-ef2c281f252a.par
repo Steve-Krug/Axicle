@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Events; { Straight Line Braking } C. Smoothly Release Br
 #FileID  : Events_a024ab1b-21f4-4241-9f6d-ef2c281f252a
 #Created : 09-28-2021 15:37:45
 #Modified: 10-15-2021 15:55:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

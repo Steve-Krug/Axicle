@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Steering Wheel Torque; { Chassis twist study } Linear: 1
 #Category: Chassis twist study
 #FileID  : TqSW_82068ba7-78b3-4a7d-9c28-1e0bbbbbcc3f
 #Modified: 06-07-2021 01:49:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Wheel Torque
 
 END

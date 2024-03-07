@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_ac8c3f8b-24c8-47d4-aac0-7bfde62226f0.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } Props a
 #DataSet : Props and Environmental Objects
 #Category: VS Visualizer Examples
 #FileID  : Run_482948c9-b32c-4d30-b98e-ede037ac8daa
-#Modified: 06-07-2021 02:53:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:25
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

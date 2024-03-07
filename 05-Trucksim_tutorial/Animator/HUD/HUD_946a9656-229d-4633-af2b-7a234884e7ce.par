@@ -116,8 +116,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Speed Text Group
 #Category: HUD Groups
 #FileID  : HUD_946a9656-229d-4633-af2b-7a234884e7ce
 #Modified: 03-29-2022 16:03:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

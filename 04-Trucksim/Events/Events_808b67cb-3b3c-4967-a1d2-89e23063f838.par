@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Events; { ISO Steady-State Circle Series } B. Save Acker
 #Category: ISO Steady-State Circle Series
 #FileID  : Events_808b67cb-3b3c-4967-a1d2-89e23063f838
 #Modified: 06-07-2021 01:49:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

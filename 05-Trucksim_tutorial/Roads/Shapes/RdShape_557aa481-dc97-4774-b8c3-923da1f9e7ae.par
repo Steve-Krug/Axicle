@@ -102,8 +102,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Variable Friction } Low
 #Category: Variable Friction
 #FileID  : RdShape_557aa481-dc97-4774-b8c3-923da1f9e7ae
 #Modified: 06-07-2021 01:51:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

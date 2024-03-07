@@ -94,8 +94,8 @@ LOG_ENTRY Used Dataset: Procedures; { PBS (Performance Based Standards) } PBS: L
 #Category: PBS (Performance Based Standards)
 #FileID  : Proc_dc9da3d9-b86a-42ed-9392-b32b639e55d8
 #Modified: 06-07-2021 01:49:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

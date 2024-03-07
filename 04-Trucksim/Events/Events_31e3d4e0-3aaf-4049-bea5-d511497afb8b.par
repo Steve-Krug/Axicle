@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Events; { Lift Axle 2 } E. End Run 2
 #Category: Lift Axle 2
 #FileID  : Events_31e3d4e0-3aaf-4049-bea5-d511497afb8b
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

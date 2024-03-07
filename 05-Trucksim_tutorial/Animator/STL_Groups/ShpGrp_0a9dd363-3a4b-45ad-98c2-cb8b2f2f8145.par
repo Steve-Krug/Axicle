@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Highway Steer Tire
 #Category: Tires
 #FileID  : ShpGrp_0a9dd363-3a4b-45ad-98c2-cb8b2f2f8145
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

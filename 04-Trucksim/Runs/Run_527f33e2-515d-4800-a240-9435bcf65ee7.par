@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_637592e0-ac9e-475d-bc53-1c89c383a45e.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -75,9 +76,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } Mcity: 
 #DataSet : Mcity: North-South Path
 #Category: ADAS and Active Safety
 #FileID  : Run_527f33e2-515d-4800-a240-9435bcf65ee7
-#Modified: 06-14-2021 18:02:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

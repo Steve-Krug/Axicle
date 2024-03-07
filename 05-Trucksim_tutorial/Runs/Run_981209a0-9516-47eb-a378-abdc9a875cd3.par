@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_41978f36-4f18-4d5c-ab02-fc60fe430e15.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 1
 #RingCtrl1 10
@@ -89,9 +90,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } 2A LCF,
 #DataSet : 2A LCF, Trace Lines, Roll Sine Sweep
 #Category: VS Visualizer Examples
 #FileID  : Run_981209a0-9516-47eb-a378-abdc9a875cd3
-#Modified: 06-07-2021 02:52:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:25
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

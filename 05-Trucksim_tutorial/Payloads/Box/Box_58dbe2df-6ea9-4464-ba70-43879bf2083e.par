@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Payload: Box Shape; { Buses } Activity Bus
 #Category: Buses
 #FileID  : Box_58dbe2df-6ea9-4464-ba70-43879bf2083e
 #Modified: 04-18-2022 12:18:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Box
 
 END

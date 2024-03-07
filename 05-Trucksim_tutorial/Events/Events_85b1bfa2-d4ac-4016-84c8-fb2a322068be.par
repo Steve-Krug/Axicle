@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Events; { Opt_Engine_Running: Auto. Transmission } C. Tu
 #Category: Opt_Engine_Running: Auto. Transmission
 #FileID  : Events_85b1bfa2-d4ac-4016-84c8-fb2a322068be
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

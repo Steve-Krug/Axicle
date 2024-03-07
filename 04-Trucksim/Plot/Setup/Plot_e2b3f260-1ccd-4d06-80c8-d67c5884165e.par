@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS Sensor Detections } Heights (Z)
 #Category: ADAS Sensor Detections
 #FileID  : Plot_e2b3f260-1ccd-4d06-80c8-d67c5884165e
 #Modified: 06-07-2021 01:49:32
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

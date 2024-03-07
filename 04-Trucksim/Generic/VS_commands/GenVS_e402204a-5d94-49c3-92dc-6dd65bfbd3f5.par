@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Lane Departure War
 #Category: ADAS Support
 #FileID  : GenVS_e402204a-5d94-49c3-92dc-6dd65bfbd3f5
 #Modified: 06-07-2021 01:52:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

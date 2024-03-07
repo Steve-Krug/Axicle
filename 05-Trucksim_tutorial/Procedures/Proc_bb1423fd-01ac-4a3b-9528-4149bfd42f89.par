@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Scenic Road Driving
 #Category: Driving
 #FileID  : Proc_bb1423fd-01ac-4a3b-9528-4149bfd42f89
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Trailer Reversing into Loading D
 #Category: Driving
 #FileID  : Proc_4deaaa31-93d1-4b04-a5ca-c8b642dab03b
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

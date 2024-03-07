@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Steering: Power Assist Torque; { Gear Assist Torque } 40
 #Category: Gear Assist Torque
 #FileID  : TqBoost_51a0e084-6906-4aa0-a1d4-624eccefd73a
 #Modified: 06-07-2021 01:49:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Power Assist Torque
 
 END

@@ -59,8 +59,8 @@ LOG_ENTRY Used Dataset: Procedures; { VS Scene Builder } Rural Intersection Scen
 #Category: VS Scene Builder
 #FileID  : Proc_b0d5bcce-b2ab-4b0f-a260-a9bf88691391
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

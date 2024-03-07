@@ -32,8 +32,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Chassis twist study } Frame rails (No
 #Category: Chassis twist study
 #FileID  : Group_dc81b81d-c7c7-4b19-9235-86cde6c5ce0e
 #Modified: 06-07-2021 01:54:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

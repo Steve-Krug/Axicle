@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Powertrain } Differential Clutch Torque
 #Category: Powertrain
 #FileID  : Plot_3c547a25-d783-4563-861d-c824d9dfc38a
 #Modified: 06-07-2021 01:49:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Rear Steer Control } Target Offset
 #Category: Rear Steer Control
 #FileID  : Plot_1a3b8a4f-3476-4607-b732-fefd03eb3a28
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

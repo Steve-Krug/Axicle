@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { User-Defined Variables } PARTIAL: Fz deri
 #FileID  : Plot_8ec954e0-32f3-4d5c-a28f-b0852e9664f3
 #Created : 06-01-2022 14:21:52
 #Modified: 06-01-2022 14:22:12
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

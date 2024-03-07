@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Sensor Elevation Sensitivity; Only Down
 #Category: 
 #FileID  : SenElev_75121f3d-d175-480a-9291-7f787fff5d65
 #Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Sensor Elevation Sensitivity
 
 END

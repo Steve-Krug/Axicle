@@ -40,8 +40,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Path Detection } LKAS Strong Cont
 #FileID  : GenVS_959ae9f0-ddbc-4300-bc79-4ec2fc2478e0
 #Created : 11-08-2021 15:38:28
 #Modified: 11-08-2021 15:38:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

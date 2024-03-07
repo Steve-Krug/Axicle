@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Moving Object Relative Speed
 #Category: Driving
 #FileID  : Proc_24fc182a-5596-474a-8624-bb5c184c9c3a
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

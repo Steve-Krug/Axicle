@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -74,9 +75,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { * Impaired Driver } B. 5% Impair
 #Category: * Impaired Driver
 #FileID  : Run_9b31d222-100d-46f6-b580-bee298e96eba
 #Created : 05-31-2022 08:33:15
-#Modified: 05-31-2022 09:10:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:14
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Suspension: Shock Absorber; { Non-linear } Large Euro Va
 #Category: Non-linear
 #FileID  : Shock_6e04c449-9ac9-4bac-ab8f-295097a48f25
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shock Absorber
 
 END

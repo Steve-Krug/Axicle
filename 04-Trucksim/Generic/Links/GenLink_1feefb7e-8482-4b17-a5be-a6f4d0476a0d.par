@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { ADAS: Moving Objects, incl. Pe
 #Category: ADAS: Moving Objects, incl. Pedestrians
 #FileID  : GenLink_1feefb7e-8482-4b17-a5be-a6f4d0476a0d
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animated Pedestrian
 
 END

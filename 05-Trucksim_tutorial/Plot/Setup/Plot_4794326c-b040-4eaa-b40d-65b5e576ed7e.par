@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Road Wheel Steer Angles
 #Category: Steering
 #FileID  : Plot_4794326c-b040-4eaa-b40d-65b5e576ed7e
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

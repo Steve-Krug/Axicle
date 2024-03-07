@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } Braking from 80
 #Category: Acceleration and Braking
 #FileID  : Proc_5f40371f-c2c7-4b3c-8063-75c9be9d7f06
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Tire: Overturning Moment vs. Inclination; { Extended wit
 #Category: Extended with Camber Details
 #FileID  : TireMxC_76d1cc17-b868-411d-bf13-a2358706c561
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Mx
 
 END

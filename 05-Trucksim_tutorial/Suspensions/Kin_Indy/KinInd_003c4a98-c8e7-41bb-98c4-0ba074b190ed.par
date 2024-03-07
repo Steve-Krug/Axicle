@@ -83,8 +83,8 @@ LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Generic Com
 #Category: Generic Commercial Vehicle
 #FileID  : KinInd_003c4a98-c8e7-41bb-98c4-0ba074b190ed
 #Modified: 11-17-2021 11:34:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Independent
 
 END

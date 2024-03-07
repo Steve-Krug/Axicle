@@ -120,8 +120,8 @@ LOG_ENTRY Used Dataset: Vehicle: Lead Unit with 3 Axles; { PBS Dump Truck } 3A D
 #Category: PBS Dump Truck
 #FileID  : Lead3a_021f11f2-3656-48ba-9646-28c4782fa729
 #Modified: 11-29-2021 14:47:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_SS
 
 END

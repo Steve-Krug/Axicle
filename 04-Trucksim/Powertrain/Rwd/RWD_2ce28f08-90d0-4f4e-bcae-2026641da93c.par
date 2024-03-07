@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Powertrain: Rear-Wheel Drive; { Electric: 40 kW (Motor) 
 #Category: Electric: 40 kW (Motor)
 #FileID  : RWD_2ce28f08-90d0-4f4e-bcae-2026641da93c
 #Modified: 01-26-2022 13:53:26
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode RWD
 
 END

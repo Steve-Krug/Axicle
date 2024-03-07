@@ -44,8 +44,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Multiple Payloads } 1A Van Trailer
 #Category: Multiple Payloads
 #FileID  : GenGrp_c7795f5e-8827-472a-a4da-8a476d116775
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

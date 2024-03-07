@@ -5,8 +5,8 @@ PARSFILE
 *README_FILE Results\Run_b5930bcd-9e79-4391-85f0-db38470c7f69\Run_imp_tab.txt
 
 #MiscYellow0
-IMP_CLUTCH_D1 Add 0.0! 0
-IMP_CLT_D1_2 Add 0.0! 0
+IMP_CLUTCH_D1 Add 0.0 ! 0
+IMP_CLT_D1_2 Add 0.0 ! 0
 #ENDMYellow
 
 #BlueLink0 TruckSim Run Control`Active Transfer Case Control - Multi-Port` Simulink Models` , example run`Run_b5930bcd-9e79-4391-85f0-db38470c7f69
@@ -17,9 +17,9 @@ LOG_ENTRY Used Dataset: I/O Channels: Import; { Powertrain Control and Ext. Mode
 #DataSet : Front Differential Clutch Control
 #Category: Powertrain Control and Ext. Models
 #FileID  : Import_0859f9a3-c45c-421d-8ec7-6c9b4a127604
-#Modified: 06-07-2021 01:52:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 06-13-2023 13:20:47
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Import Channels
 
 END

@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Multiple Moving Objects; { ADAS Sensor: Collision Detect
 #Category: ADAS Sensor: Collision Detection
 #FileID  : TMotion_9835cda5-e642-46d6-ab12-0866e62be044
 #Modified: 06-07-2021 01:54:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Multiple Objects
 
 END

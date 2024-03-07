@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Path Detector } Target Points, Road Curva
 #FileID  : Plot_5d25a1ad-bee0-4f4c-a417-61638bec506b
 #Created : 11-08-2021 16:06:19
 #Modified: 11-10-2021 15:14:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

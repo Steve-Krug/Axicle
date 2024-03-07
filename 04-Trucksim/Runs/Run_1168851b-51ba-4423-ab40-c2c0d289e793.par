@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_cc83ad7c-0625-4ff8-9879-c42ff5f1abe6.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -74,9 +75,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { VS Visualizer Examples } Rearvie
 #DataSet : Rearview Mirror, LCF
 #Category: VS Visualizer Examples
 #FileID  : Run_1168851b-51ba-4423-ab40-c2c0d289e793
-#Modified: 06-07-2021 02:53:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

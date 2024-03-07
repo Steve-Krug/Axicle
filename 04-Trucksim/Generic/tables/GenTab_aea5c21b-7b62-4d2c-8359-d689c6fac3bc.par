@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } 723 V Battery, Total
 #FileID  : GenTab_aea5c21b-7b62-4d2c-8359-d689c6fac3bc
 #Created : 05-14-2021 12:05:45
 #Modified: 06-07-2021 01:53:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

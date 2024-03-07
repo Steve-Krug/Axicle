@@ -24,6 +24,8 @@ IYZ_PL 0
 *RY 0.921
 *RZ 1.275
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { Tractor Tires } Tractor Tire 1
@@ -32,9 +34,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { Tractor Tires } Tractor Tire 1
 #Category: Tractor Tires
 #FileID  : Custom_62f00f57-e717-4bcf-aee7-c68a7c2d1350
 #Created : 02-28-2022 16:26:34
-#Modified: 02-28-2022 16:29:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

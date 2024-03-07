@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_b7028f29-fdf7-4233-8487-abd35f8aee05.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -95,9 +96,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Extended Models } Changing Paths
 #DataSet : Changing Paths: Closest Point
 #Category: Extended Models
 #FileID  : Run_ec0a82f1-a82c-4a93-80bb-8d6cea26559b
-#Modified: 04-25-2022 09:23:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

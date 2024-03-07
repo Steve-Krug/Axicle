@@ -33,8 +33,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Speed Controller } Vx_Err: Speed Controll
 #Category: Speed Controller
 #FileID  : Plot_79415735-1130-417f-9b97-b8fae4a80187
 #Modified: 06-07-2021 01:49:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

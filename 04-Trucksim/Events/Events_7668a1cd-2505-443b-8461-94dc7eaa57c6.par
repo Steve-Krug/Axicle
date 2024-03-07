@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Events; { Euro NCAP AEB Testing: CCRb } CCRb B. Monitor 
 #Category: Euro NCAP AEB Testing: CCRb
 #FileID  : Events_7668a1cd-2505-443b-8461-94dc7eaa57c6
 #Modified: 06-07-2021 01:49:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

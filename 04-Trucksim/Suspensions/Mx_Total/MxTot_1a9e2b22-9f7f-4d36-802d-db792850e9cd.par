@@ -88,9 +88,9 @@ LOG_ENTRY Used Dataset: Suspension: Measured Total Roll Stiffness; Conventional 
 #DataSet : Conventional Van - Rear
 #Category: 
 #FileID  : MxTot_1a9e2b22-9f7f-4d36-802d-db792850e9cd
-#Modified: 06-02-2022 14:14:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:28
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Total Susp. (Meas.)
 
 END

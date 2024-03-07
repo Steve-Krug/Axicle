@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Obstacle Avoidance } Lead Truck Accelerat
 #FileID  : Plot_bdd34e23-e0c1-4a98-b922-29a15c4b3e30
 #Created : 10-26-2021 10:44:59
 #Modified: 10-26-2021 12:13:37
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

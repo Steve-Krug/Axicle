@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_cab1809d-9038-447e-a68d-b3432420a8f6.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -73,9 +74,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Roads and Intersections } Looped
 #DataSet : Looped Road
 #Category: Roads and Intersections
 #FileID  : Run_716f6a6c-d2d1-4f76-9e3d-4a3e67262dac
-#Modified: 04-25-2022 09:35:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:19
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

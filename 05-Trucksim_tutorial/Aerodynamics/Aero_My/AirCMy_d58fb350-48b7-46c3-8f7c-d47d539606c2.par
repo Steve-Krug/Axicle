@@ -15,8 +15,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; CMy
 #Category: 
 #FileID  : AirCMy_d58fb350-48b7-46c3-8f7c-d47d539606c2
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode My vs. Aero Slip
 
 END

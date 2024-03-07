@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_28a56568-7d9a-48ee-9c44-e7438a6eaa28.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 10
@@ -71,9 +72,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { * Trailer Backing Controller } T
 #DataSet : TBC: Offset Backing
 #Category: * Trailer Backing Controller
 #FileID  : Run_b809ff63-af8c-4d0d-a7fa-d4b14c66b758
-#Modified: 05-20-2022 18:49:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

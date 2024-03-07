@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Events; { Accel. then Brake: 0 - 70 - 0 km/h, MT } D. Br
 #Category: Accel. then Brake: 0 - 70 - 0 km/h, MT
 #FileID  : Events_aef4764a-2933-4d65-ad81-70400b323281
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

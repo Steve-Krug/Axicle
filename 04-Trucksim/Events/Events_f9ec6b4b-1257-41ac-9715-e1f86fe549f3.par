@@ -22,8 +22,8 @@ LOG_ENTRY Used Dataset: Events; { Coastdown Test } A. Monitor Vehicle Speed
 #Category: Coastdown Test
 #FileID  : Events_f9ec6b4b-1257-41ac-9715-e1f86fe549f3
 #Modified: 06-07-2021 01:49:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

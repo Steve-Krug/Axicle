@@ -1,0 +1,8 @@
+SIMFILE
+
+INPUT Suspensions\Mx_Total\MxTot_1a9e2b22-9f7f-4d36-802d-db792850e9cd.par
+ECHO Suspensions\Mx_Total\MxTot_1a9e2b22-9f7f-4d36-802d-db792850e9cd_echo.par
+LOGFILE Suspensions\Mx_Total\MxTot_1a9e2b22-9f7f-4d36-802d-db792850e9cd_log.txt
+ERDFILE Suspensions\Mx_Total\MxTot_1a9e2b22-9f7f-4d36-802d-db792850e9cd
+
+END

@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Aerodynamics and Wind } Wind Speed
 #Category: Aerodynamics and Wind
 #FileID  : Plot_d68a51eb-1a49-49c2-9934-88e71d7eb639
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

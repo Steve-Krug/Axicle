@@ -1,17 +1,40 @@
 PARSFILE
 #FullDataName Events`Stop at Speed = V_STOP`Validation Tests
 #CheckBox1 0    
-#CheckBox6 0    
-#CheckBox7 0    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 1    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 1    
 #CheckBox9 0    
 #CheckBox10 0    
 
-#RingCtrl0 >
-#RingCtrl10 1
+#RingCtrl10 0
 #RingCtrl11 4
 *NAME1 Vxz_Fwd
 *VALUE1 V_STOP
-MAKE_EVENT Vxz_Fwd > V_STOP ; 
+OPT_INIT_CONFIG 1
+OPT_INIT_PATH 1
+OPT_INIT_SPEED 1
+#MiscYellow0
+m_pl imp_m_pl
+#ENDMYellow
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ;
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_TARGET = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
 SET_EVENT_ID 0 ! reset to default
 
 LOG_ENTRY Used Dataset: Events; { Validation Tests } Stop at Speed = V_STOP
@@ -19,9 +42,9 @@ LOG_ENTRY Used Dataset: Events; { Validation Tests } Stop at Speed = V_STOP
 #DataSet : Stop at Speed = V_STOP
 #Category: Validation Tests
 #FileID  : Events_28c85c50-bc1d-4ecb-9a6f-c589bb9c035b
-#Modified: 06-07-2021 01:49:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 06-09-2023 13:08:48
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Highway Intersection } Traffic
 #Category: Highway Intersection
 #FileID  : GenLink_ff67c96d-592e-421d-8383-29f00944bac9
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Traffic Vehicles
 
 END

@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Hitch: Roll Moment; 100 kN-m/deg (1 deg lash)
 #Category: 
 #FileID  : HchMx_f7f9a25f-5efd-40bd-b479-8c8d535d5c2c
 #Modified: 01-02-2023 18:27:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Hitch Mx
 
 END

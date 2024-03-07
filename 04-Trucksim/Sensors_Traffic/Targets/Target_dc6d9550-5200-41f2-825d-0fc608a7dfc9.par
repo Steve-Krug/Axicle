@@ -7,7 +7,6 @@ SET_DESCRIPTION OBJECT_NAME IUNIT_OBJ, Platoon
 OPT_SPEED_OBJ 0
 
 IUNIT_OBJ IUNIT
-#CheckBox3 0    
 #CheckBox6 0    
 #CheckBox7 0    
 #CheckBox8 1    
@@ -47,9 +46,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { Multi-Vehicle } IUNIT_O
 #Category: Multi-Vehicle
 #FileID  : Target_dc6d9550-5200-41f2-825d-0fc608a7dfc9
 #Created : 09-30-2021 10:06:50
-#Modified: 11-02-2021 11:02:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

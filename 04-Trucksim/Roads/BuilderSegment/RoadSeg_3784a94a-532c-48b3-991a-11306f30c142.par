@@ -70,8 +70,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Highway Intersection } I-94 exi
 #Category: Highway Intersection
 #FileID  : RoadSeg_3784a94a-532c-48b3-991a-11306f30c142
 #Modified: 06-07-2021 01:51:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_01a91f54-c17b-4469-a0a5-abc41b6f538d.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -93,9 +94,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { * Self-Steer Axle } Self-Steer A
 #Category: * Self-Steer Axle
 #FileID  : Run_bfe269f9-5c3b-46b1-a6df-c78f4aaa735e
 #Created : 06-03-2022 10:56:32
-#Modified: 06-03-2022 15:45:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:21
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -1,0 +1,78 @@
+LastDS TruckSim Run Control`Run_0abe4d7f-2784-43db-acf2-d37fea911cb7
+LastDS Multiple Moving Objects`TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55
+LastDS Aerodynamics: Basic`Aero_b2fc818b-2ec7-4d9b-b486-fc66db328774
+LastDS Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`AirCFx_4678f3f7-9e3d-4163-b657-521da316c4b2
+LastDS Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip`AirCFy_541d031d-d03e-41fb-ad62-bc066e42091c
+LastDS Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`AirCFz_280a5089-d129-4800-84cb-13b26ff4da20
+LastDS Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip`AirCMx_77c19958-4dfa-4656-867e-be2bddb88f1f
+LastDS Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`AirCMy_ed11daf6-0f2d-401f-8bbf-4f24323cfdf4
+LastDS Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`AirCMz_4fd73f88-2b39-4c48-ac91-0700331ea97b
+LastDS Animator: Camera Setup`Camera_293071ae-9194-4088-8862-92255ece0a0f
+LastDS Animator: Group`Group_4f5efaa5-48a6-44f4-9aeb-41f2e02bbf04
+LastDS Animator: Reference Frame`Frame_df0b0ab3-d04d-4b57-8900-60f2a5b2f1c9
+LastDS Animator: Shape File Link`Shape_8d178adb-4dc0-4dde-ba4d-12bacdf86368
+LastDS Animator: Shape Assembly`ShpGrp_20076007-5581-497c-ba6c-a810c9ec619b
+LastDS Animator: Vehicles and Sensor Targets`AniVeh_27840585-2951-464f-b353-96d04c392c48
+LastDS Animator: Wheel Arrows and Other Indicators`Arrows_97ed6d89-3d4d-474a-aded-ffcafc358340
+LastDS Brakes: Two-Wheel System`Brk2W_8335fd63-98df-4a37-853c-a74afc0ea87a
+LastDS Brakes: Proportioning / Limiting Valve`BrkProp_6198f82e-f909-4923-8e99-7887d4b2e19a
+LastDS Brakes: Torque`BrkTrq_f98620d4-6d5f-493a-a3c3-f7fed6471d35
+LastDS Control: Braking MC Pressure (Open Loop)`PbkCon_8621b5c9-f12a-4359-b6c7-9702b0bb4047
+LastDS Control: Clutch Shifting Timelines (Closed Loop)`ClTime_bc551f7e-c815-4868-965e-a0f251e9cde8
+LastDS Control: Shifting (Closed Loop)`GearCL_1765c7ef-4e1a-4ad7-b281-6ce3dd2f4d2f
+LastDS Control: Steering by the Closed-loop Driver Model`StrDM_a20c224e-d1a6-444a-b806-f534ac8456d3
+LastDS Generic Data Group`GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991
+LastDS Generic Table`GenTab_d3424660-e756-4006-a08c-f39a49c14aae
+LastDS Hitch: Joint Assembly`Hitch_b3644bc1-2713-4996-8b86-48e8fcccef09
+LastDS Hitch: Roll Moment`HchMx_f7f9a25f-5efd-40bd-b479-8c8d535d5c2c
+LastDS Hitch: Pitch Moment`HchMy_0157f1ef-0440-4b85-83e0-5514a7e36578
+LastDS Hitch: Yaw Moment`HchMz_50b298cc-cb30-46df-b78a-f6edcd587091
+LastDS I/O Channels: Write`Write_958bd8ad-6f4c-413e-aba5-06cc61259601
+LastDS Models: Simulink`Simlink_cff82957-c758-499c-9e59-3a163c2ba2b1
+LastDS Road: 3D Surface (All Properties)`Road_744e2383-c1fd-46f8-b6d4-e3ae9a3b8ba3
+LastDS Path: Segment Builder`RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c
+LastDS Road: Animator Surface Shapes`RdShape_8c8a59c7-01ef-42eb-8aa5-a5c0c0605130
+LastDS Road: Animator Repeated Object`AniRep_bd55a27f-8f40-41d5-a89a-7d6b311c242e
+LastDS Road: Friction Map, S-L Grid`RdMu_92297166-66d2-4602-80fa-c146a38f639a
+LastDS Payload: Custom`Custom_5b361441-eeec-44c6-a732-2d9bc9341659
+LastDS Plot: Format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+LastDS Plot: Setup`Plot_38af2fee-b452-4e50-bfca-9012303b5e16
+LastDS Powertrain: 4-Wheel Drive`4WD_0785eb03-f2a6-4c65-88a4-33970710729a
+LastDS Events`Events_ac47e5ba-fa12-4c92-9fb7-e7419f5317ec
+LastDS Procedures`Proc_9a03cbe8-aae9-49d0-bc50-a22ba8f350e4
+LastDS Steering System`StrSys_3df2c03b-a121-4031-aee3-e457a7d16fa3
+LastDS Steering System: Kinematics for One Wheel`StrKin_660b59e0-9ff0-41be-9693-7e5ccf3d74c8
+LastDS Steering: Parking Torque`TqPark_d1c3df4e-ec15-4cd5-a898-4723cbf2ab83
+LastDS Steering System: Steer Gain vs. Speed`RearStr_63e8999d-8333-4c1b-ba2a-69276dcc7d8d
+LastDS Steering Column and Assist`StrCol_3d18be40-b07f-4fc6-bdaf-f267a446003d
+LastDS Steering: Power Assist Torque`TqBoost_51a0e084-6906-4aa0-a1d4-624eccefd73a
+LastDS Steering System: Compliance`StrCmp_e22de026-6640-4e25-8b53-83db9ee60217
+LastDS Suspension: Independent System Kinematics`KinInd_bf2d53f8-0f63-43ad-b7f3-53686c980965
+LastDS Suspension: Independent Compliance, Springs, and Dampers`CmpInd_307f2b80-9309-4cab-bc90-cdb24c7d2f8a
+LastDS Suspension: Solid Axle System Kinematics`KinSA_c59eefbd-92c1-4bcc-9fd2-b463474d982c
+LastDS Suspension: Solid Axle Compliance, Springs, and Dampers`CmpSA_f6e36608-197b-4cbc-93be-3927155d5a5e
+LastDS Suspension: Auxiliary Roll Moment`AuxMx_e0ec281d-6f61-4b0b-be72-77bd09aad914
+LastDS Suspension: Camber Angle`Camber_1f791aeb-5ce4-45d3-a169-3527167dadbb
+LastDS Suspension: Dive Angle (Caster Change)`Dive_81825f55-0c7c-41ee-97cb-e7fa3c4676bf
+LastDS Suspension: Dive Angle (Solid Axle)`DiveSA_006f3f33-8699-4339-9e9d-a7284e5dd353
+LastDS Suspension: Jounce and Rebound Stops`JncReb_10b2cb47-6802-4472-99a9-8496670e6ba1
+LastDS Suspension: Lateral Movement Due to Jounce`LatJnc_2ef6edf9-7a6c-4b85-b78d-89a476f0395b
+LastDS Suspension: Lateral Movement Due to Roll and Jounce`LatRoll_32c683f9-4d58-45e7-830c-ba46c733eadc
+LastDS Suspension: Longitudinal Movement`SusX_70556d85-e04b-4467-a6c5-e8e6a60a2dab
+LastDS Suspension: Longitudinal Movement (Solid Axle)`LongSA_7156440f-532b-434c-841a-5a66c1185048
+LastDS Suspension: Shock Absorber`Shock_245f93d1-5a08-4c6c-b897-6042f06cda1b
+LastDS Suspension: Spring`Spring_c5e20d04-cb68-4633-bda9-1ff26e3b5b11
+LastDS Suspension: Toe Angle`Toe_f5ed42e5-e814-4552-9dd6-c9557839a735
+LastDS Tire`Tire_c40215ea-2655-4517-831a-bea327d858d5
+LastDS Tires: Vehicle Unit with 2 Axles`Tire2a_cb657811-6249-4c04-ad65-f991c48a18b7
+LastDS Tire: Aligning Moment`TireMz_73aa9f08-9db8-4f28-a24c-38ed9294259b
+LastDS Tire: Camber Thrust Coefficient`CamStiff_2779031a-0e03-423f-af33-2c677eead968
+LastDS Tire: Lateral Force`TireFy_e3c7f9b8-f23b-4346-bca3-172666aada08
+LastDS Tire: Longitudinal Force`TireFx_f9baf123-7179-4ee1-b52a-1580d924bcd9
+LastDS Vehicle: Loaded Combination`VehLoad_965cfa48-1c52-4232-8619-0eda21a8a88e
+LastDS Vehicle: Lead Unit with 2 Axles`Lead2a_716e18e3-9486-4843-8e91-5b5c8bbf31ab
+LastDS Vehicle: Lead Unit Sprung Mass`SprMass_91601b40-521c-4f97-8acf-66025a144689
+LastDS Vehicle: Trailer with 2 Axles`Trl2a_c8f75738-b6c3-4c9c-b41f-59bf245c5b0e
+LastDS Vehicle: Trailer Sprung Mass`TrlSprM_90203a2c-346d-4dc4-9393-099eaef06f38
+LastDS Preferences`pref_70882add-9549-4667-bd9a-b74b8f1aa367
+LastScreen TruckSim Run Control

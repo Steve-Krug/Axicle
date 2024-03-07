@@ -67,8 +67,8 @@ LOG_ENTRY Used Dataset: Procedures; { Event Triggered Tests } Changing Paths: Cl
 #Category: Event Triggered Tests
 #FileID  : Proc_21db7d80-cdfd-4bbe-ab4f-5a38d8863053
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

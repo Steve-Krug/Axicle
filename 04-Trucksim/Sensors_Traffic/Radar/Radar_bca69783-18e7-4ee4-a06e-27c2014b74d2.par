@@ -74,8 +74,8 @@ LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { Moving Object Sen
 #FileID  : Radar_bca69783-18e7-4ee4-a06e-27c2014b74d2
 #Created : 10-19-2021 10:46:10
 #Modified: 10-19-2021 13:44:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode ADAS Sensor
 
 END

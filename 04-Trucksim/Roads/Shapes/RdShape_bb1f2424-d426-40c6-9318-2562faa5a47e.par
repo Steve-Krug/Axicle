@@ -119,8 +119,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Atlas } ADAS RP: Mounta
 #Category: Atlas
 #FileID  : RdShape_bb1f2424-d426-40c6-9318-2562faa5a47e
 #Modified: 06-07-2021 01:51:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

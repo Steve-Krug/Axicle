@@ -99,8 +99,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 3 Axles; { Flatbed Trailers } 18t 
 #FileID  : Trl3a_80a008a1-78db-4df6-8522-34ed801315f8
 #Created : 01-15-2023 19:20:06
 #Modified: 01-15-2023 19:20:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode SSS
 
 END

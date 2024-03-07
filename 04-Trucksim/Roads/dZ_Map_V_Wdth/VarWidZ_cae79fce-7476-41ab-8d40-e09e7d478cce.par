@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Rounda
 #Category: Roundabout
 #FileID  : VarWidZ_cae79fce-7476-41ab-8d40-e09e7d478cce
 #Modified: 06-07-2021 01:51:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L, Variable Width
 
 END

@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Tour Buses } 2A Tour Bus 
 #Category: Tour Buses
 #FileID  : VehLoad_cc71b65b-8257-41e6-b7a1-2d1ed36a3974
 #Modified: 06-07-2021 01:48:51
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

@@ -41,8 +41,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Sensor Targets 
 #Category: Sensor Targets
 #FileID  : AniVeh_aa4b13b1-b0ae-4476-b4c5-699b465d9e43
 #Modified: 04-18-2022 12:23:46
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

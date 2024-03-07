@@ -662,8 +662,8 @@ LOG_ENTRY Used Dataset: Scene: External Import; { Atlas } I-94, Exit 172 (Jackso
 #Category: Atlas
 #FileID  : SceneImp_9b5a7793-bba8-47a2-8978-19ff12785807
 #Modified: 06-04-2021 13:11:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode External Path Import
 
 END

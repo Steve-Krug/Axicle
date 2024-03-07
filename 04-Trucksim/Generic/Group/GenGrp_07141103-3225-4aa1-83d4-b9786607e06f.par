@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { ADAS: Sensor Setup } Euro Van: AEB
 #FileID  : GenGrp_07141103-3225-4aa1-83d4-b9786607e06f
 #Created : 11-08-2021 15:01:05
 #Modified: 11-10-2021 14:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

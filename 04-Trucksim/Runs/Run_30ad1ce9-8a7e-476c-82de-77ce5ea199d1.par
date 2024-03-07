@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_0672dd6d-a9ac-46cc-ac71-347cf048d447.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 0
@@ -83,9 +84,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { ADAS and Active Safety } V2V, Se
 #DataSet : V2V, Severe Braking Ahead, Avoid Collis.
 #Category: ADAS and Active Safety
 #FileID  : Run_30ad1ce9-8a7e-476c-82de-77ce5ea199d1
-#Modified: 05-05-2022 10:25:41
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:15
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

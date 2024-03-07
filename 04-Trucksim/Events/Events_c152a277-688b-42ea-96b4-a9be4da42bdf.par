@@ -51,8 +51,8 @@ LOG_ENTRY Used Dataset: Events; { Steer Controller Parameter Optimization } Rese
 #Category: Steer Controller Parameter Optimization
 #FileID  : Events_c152a277-688b-42ea-96b4-a9be4da42bdf
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

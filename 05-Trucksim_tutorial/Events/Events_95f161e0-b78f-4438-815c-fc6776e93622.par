@@ -28,8 +28,8 @@ LOG_ENTRY Used Dataset: Events; { Sign Detection } Restart and go to speed limit
 #FileID  : Events_95f161e0-b78f-4438-815c-fc6776e93622
 #Created : 05-31-2022 12:23:01
 #Modified: 05-31-2022 16:56:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

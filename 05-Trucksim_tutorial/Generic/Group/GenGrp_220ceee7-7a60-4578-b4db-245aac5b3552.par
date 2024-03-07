@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Motion Ratios from Generic Tables 
 #Category: Motion Ratios from Generic Tables
 #FileID  : GenGrp_220ceee7-7a60-4578-b4db-245aac5b3552
 #Modified: 06-07-2021 01:53:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Group
 
 END

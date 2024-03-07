@@ -71,8 +71,8 @@ LOG_ENTRY Used Dataset: Procedures; { Acceleration and Braking } Open-loop Shift
 #Category: Acceleration and Braking
 #FileID  : Proc_ecf4add4-ba91-45c4-a363-3abef2ec644e
 #Modified: 06-07-2021 01:49:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

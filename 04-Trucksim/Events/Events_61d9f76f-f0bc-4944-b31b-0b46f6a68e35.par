@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Detection } Wait to go
 #Category: ADAS Detection
 #FileID  : Events_61d9f76f-f0bc-4944-b31b-0b46f6a68e35
 #Modified: 06-07-2021 01:49:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -1,0 +1,26 @@
+Run made by VS Road Calculator at 17:37 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_c9a16d4d-8e05-479b-b46c-71feacd363c7.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_048a31e9-87ad-4676-8620-87dc87c55af1.par"
+ 16 m Radius <Circles>
+Used Dataset: Path: Segment Builder; { Circles } 16 m Radius
+Include PARSFILE "Roads\dZ_Map\RdMapZ_c56cc15f-4b76-4843-a352-d658d36a94d7.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Roundabout, D = 36 m } Inside Apron for 16 m Radius Circle
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_e6420741-2528-4e80-8880-c6656bdfdaa5.par"
+Used Dataset: Road: Animator Surface Shapes; { Roundabout, 3D, D = 36 m } R=16m, Inner Apron
+ Circle, 1000 <Roundabout, Single Lane, D = 36 m>
+Used Dataset: Road: 3D Surface (All Properties); { Roundabout, Single Lane, D = 36 m } Circle, 1000
+
+Time to read input = 0.000581
+Function ROAD_DZ_CARPET(1) extrapolated (out of range HIGH) for X = 100.531 m at T = 4.04
+
+Run started: VS output file = Roads\3D_Road\Road_c9a16d4d-8e05-479b-b46c-71feacd363c7.vsb
+
+Run stopped at t = 4.04. External control (manual or external model)
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

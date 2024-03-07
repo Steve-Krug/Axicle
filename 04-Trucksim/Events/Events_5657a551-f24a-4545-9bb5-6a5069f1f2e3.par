@@ -24,8 +24,8 @@ LOG_ENTRY Used Dataset: Events; Write to File (OPT_WRITE = 1)
 #Category: 
 #FileID  : Events_5657a551-f24a-4545-9bb5-6a5069f1f2e3
 #Modified: 06-07-2021 01:49:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

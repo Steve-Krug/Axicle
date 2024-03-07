@@ -52,8 +52,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Roundabout Network, Fla
 #Category: Roundabout Network, Flat
 #FileID  : RdShape_8fff63fe-c860-4318-aa19-0d2d210f4332
 #Modified: 06-07-2021 01:51:19
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

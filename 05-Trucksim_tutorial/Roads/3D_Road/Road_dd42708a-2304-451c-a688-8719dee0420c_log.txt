@@ -1,0 +1,25 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_dd42708a-2304-451c-a688-8719dee0420c.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c.par"
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Include PARSFILE "Roads\Center_Z\RdRefZ_e3407dc6-7a8e-45b4-8976-45a39d97e830.par"
+Used Dataset: Road: Reference Line Elevation; { Uniform Grades } Uniform Grade: 1%
+Include PARSFILE "Roads\Friction\RdMu_92297166-66d2-4602-80fa-c146a38f639a.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_0db81c0d-1603-4bba-882c-9b8965081f2c.par"
+Used Dataset: Road: Animator Surface Shapes; { Roads } 2000m Road+200 m Grass (1 Ln)
+ 2000 m, One Lane, 1% Grade, Mu = 0.85 <Straight>
+Used Dataset: Road: 3D Surface (All Properties); { Straight } 2000 m, One Lane, 1% Grade, Mu = 0.85
+
+Time to read input = 0.0004155
+
+Run stopped at t = 18.36. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_dd42708a-2304-451c-a688-8719dee0420c.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

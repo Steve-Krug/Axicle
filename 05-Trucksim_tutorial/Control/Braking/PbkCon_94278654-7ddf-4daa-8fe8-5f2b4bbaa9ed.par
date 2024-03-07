@@ -21,8 +21,8 @@ LOG_ENTRY Used Dataset: Control: Braking MC Pressure (Open Loop); { Ramp } Ramp:
 #Category: Ramp
 #FileID  : PbkCon_94278654-7ddf-4daa-8fe8-5f2b4bbaa9ed
 #Modified: 06-07-2021 01:53:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brake Control
 
 END

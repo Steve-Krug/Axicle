@@ -26,6 +26,7 @@ OPT_VS_FILETYPE 2
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -81,9 +82,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Handling and Stability Tests } I
 #DataSet : ISO Steady-State Circle, Road Reverse
 #Category: Handling and Stability Tests
 #FileID  : Run_6d0e478b-7ed4-4d38-b6ea-b73f486c25a8
-#Modified: 04-25-2022 09:28:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 15:48:22
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Tire: Lateral Force vs. Inclination; { MF-Tyre / MF-Swif
 #Category: MF-Tyre / MF-Swift
 #FileID  : TireFyC_b803c483-9ff7-4390-b46c-fee3efc0b415
 #Modified: 06-07-2021 01:48:52
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire: Fy
 
 END

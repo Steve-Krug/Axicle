@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Suspension: Shock Absorber; { Non-linear } Compact Utili
 #Category: Non-linear
 #FileID  : Shock_b88cba2b-899a-4b8d-91d4-b6be13e8dafa
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shock Absorber
 
 END

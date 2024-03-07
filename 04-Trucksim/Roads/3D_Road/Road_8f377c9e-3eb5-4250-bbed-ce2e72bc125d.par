@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { PBS Tests } PBS: 12
 #Category: PBS Tests
 #FileID  : Road_8f377c9e-3eb5-4250-bbed-ce2e72bc125d
 #Modified: 03-18-2022 15:52:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

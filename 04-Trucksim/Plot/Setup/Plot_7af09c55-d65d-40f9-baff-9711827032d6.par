@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Longit. Accel. of CG's v
 #FileID  : Plot_7af09c55-d65d-40f9-baff-9711827032d6
 #Created : 09-27-2021 16:35:16
 #Modified: 09-27-2021 16:35:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

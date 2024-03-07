@@ -81,8 +81,8 @@ LOG_ENTRY Used Dataset: Procedures; { Handling Tests } Transient Response Test
 #Category: Handling Tests
 #FileID  : Proc_230bcad6-158a-4cb5-a045-94ab7ef7094a
 #Modified: 06-07-2021 01:49:11
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

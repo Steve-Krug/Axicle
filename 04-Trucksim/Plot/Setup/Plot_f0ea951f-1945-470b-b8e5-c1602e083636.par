@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { ADAS and AEB Alerts and Commands } Alerts
 #Category: ADAS and AEB Alerts and Commands
 #FileID  : Plot_f0ea951f-1945-470b-b8e5-c1602e083636
 #Modified: 06-16-2021 09:57:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

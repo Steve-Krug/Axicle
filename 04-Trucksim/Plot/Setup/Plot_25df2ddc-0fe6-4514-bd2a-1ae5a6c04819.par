@@ -46,8 +46,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Braking } PbkCh and Chamber Pressures (Al
 #Category: Braking
 #FileID  : Plot_25df2ddc-0fe6-4514-bd2a-1ae5a6c04819
 #Modified: 06-07-2021 01:49:33
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

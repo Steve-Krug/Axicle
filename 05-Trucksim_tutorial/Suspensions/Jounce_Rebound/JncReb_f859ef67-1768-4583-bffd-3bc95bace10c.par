@@ -27,8 +27,8 @@ LOG_ENTRY Used Dataset: Suspension: Jounce and Rebound Stops; { Jounce Range: 50
 #Category: Jounce Range: 50 mm to 99 mm
 #FileID  : JncReb_f859ef67-1768-4583-bffd-3bc95bace10c
 #Modified: 06-07-2021 01:49:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Hitch: Joint Assembly; { 5th Wheel Hitches } 5th Wheel, 
 #FileID  : Hitch_9cace750-abb9-4cdd-8429-1c0dacd511b9
 #Created : 01-02-2023 18:27:23
 #Modified: 01-02-2023 18:58:53
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Hitch
 
 END

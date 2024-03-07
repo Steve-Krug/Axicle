@@ -98,8 +98,8 @@ LOG_ENTRY Used Dataset: Road: Boundaries; { Crossing with Curbs } 3-Way Intersec
 #Category: Crossing with Curbs
 #FileID  : RdBnd_aa347c8d-206c-4395-a139-addb6da9da32
 #Modified: 06-07-2021 01:51:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundaries
 
 END

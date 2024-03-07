@@ -86,8 +86,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Tilt Lateral Accel. Text
 #Category: HUD Groups
 #FileID  : HUD_b8be9317-f99c-4bce-b429-dda8cae582ed
 #Modified: 03-29-2022 16:03:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

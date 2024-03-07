@@ -152,8 +152,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } Time-To-Collision Radar, Lo
 #FileID  : HUD_ee5abe11-f690-40a5-b741-404ee29f24e1
 #Created : 11-09-2021 10:59:53
 #Modified: 03-29-2022 16:03:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

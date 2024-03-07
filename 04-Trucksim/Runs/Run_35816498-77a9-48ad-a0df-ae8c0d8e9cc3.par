@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_12afd0d3-c9b8-47b4-9b7e-1cd0582e975b.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 10
@@ -106,9 +107,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { * Automatic Clutch Control } Sto
 #Category: * Automatic Clutch Control
 #FileID  : Run_35816498-77a9-48ad-a0df-ae8c0d8e9cc3
 #Created : 05-31-2022 08:47:52
-#Modified: 06-01-2022 10:07:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:14
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

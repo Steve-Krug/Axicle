@@ -1,0 +1,17 @@
+Run made by VS Maux Calculator at 15:46 on April 04, 2023.
+Utility to calculate Maux from Mtot measured at the ground
+Started with simfile: Suspensions\Mx_Total\maux.sim
+
+Include PARSFILE "Suspensions\Mx_Total\MxTot_1a9e2b22-9f7f-4d36-802d-db792850e9cd.par"
+Include PARSFILE "Suspensions\Springs\Spring_5edcaf8f-7380-4592-a03f-3e0dcf7d5a8a.par"
+Used Dataset: Suspension: Spring; { Linear w/ Friction and Hysteresis } 700 N/mm, 5000 N Friction
+Used Dataset: Suspension: Measured Total Roll Stiffness; Conventional Van - Rear
+
+Time to read input = 0.0001606
+
+Run started: ERD output file = Suspensions\Mx_Total\MxTot_1a9e2b22-9f7f-4d36-802d-db792850e9cd.bin
+
+Run stopped at t = 0.0135. External control (manual or external model)
+
+Computational time ratio: RTIME = 0.00113333 (real time)/(simulation time)
+

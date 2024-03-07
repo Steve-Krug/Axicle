@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Pickup Trucks } Pickup, Dually: Crew 
 #Category: Pickup Trucks
 #FileID  : Group_3b7aa56c-f5a9-4564-bb06-4f844a1c5519
 #Modified: 06-07-2021 01:54:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

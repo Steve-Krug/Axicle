@@ -45,8 +45,8 @@ LOG_ENTRY Used Dataset: Events; { Brake Fade Test } E. After 8 Cycles, Hold at S
 #Category: Brake Fade Test
 #FileID  : Events_b1cd84e3-b882-4147-827a-cc245e0de864
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

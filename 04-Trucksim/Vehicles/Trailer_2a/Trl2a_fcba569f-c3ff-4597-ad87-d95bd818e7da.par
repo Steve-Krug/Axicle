@@ -76,8 +76,8 @@ LOG_ENTRY Used Dataset: Vehicle: Trailer with 2 Axles; { PBS Van / Container Tra
 #FileID  : Trl2a_fcba569f-c3ff-4597-ad87-d95bd818e7da
 #Created : 01-10-2022 15:55:01
 #Modified: 02-01-2022 12:04:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode SS
 
 END

@@ -29,8 +29,8 @@ LOG_ENTRY Used Dataset: Animator: Group; { Street Furniture } New Objects: Lamp 
 #Category: Street Furniture
 #FileID  : Group_6fbf89a7-e8e6-42a4-9699-07e9099d1fe9
 #Modified: 06-07-2021 01:54:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Animator Group
 
 END

@@ -1,0 +1,120 @@
+PARSFILE
+#FullDataName TruckSim Run Control`Batch Iteration - Payload`* Batch Iteration
+#VEHICLECODE I_S + SS
+symbol_push  <<vehicle>> 0
+symbol_push  <<unit>> 0
+symbol_push  <<axle>> 0
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_0abe4d7f-2784-43db-acf2-d37fea911cb7
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+IUNIT 0
+IVEHICLE 0
+OPT_INT_METHOD 0
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_cff82957-c758-499c-9e59-3a163c2ba2b1.par
+#BlueLink12 Models: Simulink`Batch Iteration - Simulink` ` , Models`Simlink_cff82957-c758-499c-9e59-3a163c2ba2b1
+
+PARSFILE Animator\Cameras\Camera_293071ae-9194-4088-8862-92255ece0a0f.par
+#BlueLink0 Animator: Camera Setup`13 Azm, 4.5 El, 48 m` Vehicle Reference` , Animator camera`Camera_293071ae-9194-4088-8862-92255ece0a0f
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+#CheckBox12 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_965cfa48-1c52-4232-8619-0eda21a8a88e.par
+#BlueLink2 Vehicle: Loaded Combination`DRW Pickup (Ext. PT) w/ Trailer` Pickup Trucks` , Math Model`VehLoad_965cfa48-1c52-4232-8619-0eda21a8a88e
+
+PARSFILE Procedures\Proc_9a03cbe8-aae9-49d0-bc50-a22ba8f350e4.par
+#BlueLink28 Procedures`DLC @ 70 km/h` Handling Tests` , Procedure`Proc_9a03cbe8-aae9-49d0-bc50-a22ba8f350e4
+
+PARSFILE Generic\Group\GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991.par
+#BlueLink9 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_16b19ebb-94ae-4dce-a67c-47b8e4af7991
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55.par
+#BlueLink10 Multiple Moving Objects`1 Driver Preview Point, Set by DM` Points of Interest` , Miscellaneous`TMotion_d9e11fb3-7e70-47f5-bf59-c1376909cd55
+
+PARSFILE Events\Events_9b8a0a56-f770-427d-a00c-ac8b6361070a.par
+#BlueLink11 Events`Initialize Payload` ` , Miscellaneous`Events_9b8a0a56-f770-427d-a00c-ac8b6361070a
+
+*TSTOP 1
+
+SPECIAL_PARSFILE Runs\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7.par
+#BlueLink23 TruckSim Run Control`File: 2023-05-19_09.41.30.vs` ` , Overlay run or ERD file`
+
+
+SPECIAL_PARSFILE Runs\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7.par
+#BlueLink24 TruckSim Run Control`File: 2023-05-19_09.41.32.vs` ` , Overlay run or ERD file`
+
+
+SPECIAL_PARSFILE Runs\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7.par
+#BlueLink25 TruckSim Run Control`File: 2023-05-19_09.41.34.vs` ` , Overlay run or ERD file`
+
+
+SPECIAL_PARSFILE Runs\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7.par
+#BlueLink26 TruckSim Run Control`File: 2023-05-19_09.41.36.vs` ` , Overlay run or ERD file`
+
+*ERD_FILE_1 Results\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7\2023-05-19_09.41.30.vs
+*ERD_FILE_2 Results\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7\2023-05-19_09.41.32.vs
+*ERD_FILE_3 Results\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7\2023-05-19_09.41.34.vs
+*ERD_FILE_4 Results\Run_0abe4d7f-2784-43db-acf2-d37fea911cb7\2023-05-19_09.41.36.vs
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_2a7c5c10-25ca-44b3-8034-dbf1de646707.png
+PARSFILE IO_Channels\W_Channels\Write_958bd8ad-6f4c-413e-aba5-06cc61259601.par
+#BlueLink13 I/O Channels: Write`csv outputs` ` , Output Variables`Write_958bd8ad-6f4c-413e-aba5-06cc61259601
+
+WRITE_SENSOR_DETECT
+Title Batch Iteration - Payload <* Batch Iteration>
+CATEGORY * Batch Iteration 
+DATASET_TITLE Batch Iteration - Payload
+#MiscYellow0
+define_import imp_m_pl
+import imp_m_pl
+define_import imp_h_cg_su
+import imp_h_cg_su
+#ENDMYellow
+
+#RingCtrl8 N
+NUM_CACHED_RUNS 50
+#RingCtrl9 
+
+#EMBEDDED_NOTES
+#This is a baseline example used in the TruckSim Quick Start Guide and Demo Tutorial (see Help -> Guides and Tutorials).
+#
+#The box is checked to "Write all outputs." This simplifies the use of this example as a reference for comparisons with other runs that might have different plot settings.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: TruckSim Run Control; { * Batch Iteration } Batch Iteration - Payload
+#Library : TruckSim Run Control
+#DataSet : Batch Iteration - Payload
+#Category: * Batch Iteration
+#FileID  : Run_0abe4d7f-2784-43db-acf2-d37fea911cb7
+#Modified: 05-23-2023 12:33:00
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
+#VehCode Run
+
+END

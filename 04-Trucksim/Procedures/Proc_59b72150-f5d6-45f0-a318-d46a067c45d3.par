@@ -103,8 +103,8 @@ LOG_ENTRY Used Dataset: Procedures; { Road Networks } Roundabout Network (Flat)
 #Category: Road Networks
 #FileID  : Proc_59b72150-f5d6-45f0-a318-d46a067c45d3
 #Modified: 06-07-2021 01:49:13
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

@@ -67,8 +67,8 @@ LOG_ENTRY Used Dataset: Procedures; { Validation Conditions } At Rest
 #Category: Validation Conditions
 #FileID  : Proc_9c0c8f63-e464-45f5-af09-0ea7d779beb7
 #Modified: 06-07-2021 01:49:14
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

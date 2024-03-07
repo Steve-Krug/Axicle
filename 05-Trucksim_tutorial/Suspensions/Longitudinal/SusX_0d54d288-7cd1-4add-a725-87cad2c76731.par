@@ -56,8 +56,8 @@ LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; { Utility Vehicles } 
 #Category: Utility Vehicles
 #FileID  : SusX_0d54d288-7cd1-4add-a725-87cad2c76731
 #Modified: 06-07-2021 01:48:59
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Longitudinal Movement
 
 END

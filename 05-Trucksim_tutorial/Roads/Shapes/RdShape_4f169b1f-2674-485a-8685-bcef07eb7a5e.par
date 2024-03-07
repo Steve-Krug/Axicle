@@ -139,8 +139,8 @@ LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Variable Width Roads } 
 #Category: Variable Width Roads
 #FileID  : RdShape_4f169b1f-2674-485a-8685-bcef07eb7a5e
 #Modified: 06-07-2021 01:51:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Shapes
 
 END

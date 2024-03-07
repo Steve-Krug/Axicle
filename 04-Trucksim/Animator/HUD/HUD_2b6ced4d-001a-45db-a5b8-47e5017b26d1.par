@@ -146,8 +146,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Time-to-Collision, Radar, 
 #FileID  : HUD_2b6ced4d-001a-45db-a5b8-47e5017b26d1
 #Created : 09-24-2021 14:27:37
 #Modified: 03-29-2022 16:03:44
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

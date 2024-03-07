@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Parallel VS Math Models; { Platooning } Tractor-Trailers
 #FileID  : MVeh_6ac5de20-6113-4921-92e3-993866738a03
 #Created : 09-09-2021 10:22:52
 #Modified: 12-11-2021 11:42:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode mVeh
 
 END

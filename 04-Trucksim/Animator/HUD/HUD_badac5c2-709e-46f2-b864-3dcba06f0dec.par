@@ -80,8 +80,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { Euro NCAP } CCRs, Curved Road Label
 #FileID  : HUD_badac5c2-709e-46f2-b864-3dcba06f0dec
 #Created : 11-12-2021 15:22:34
 #Modified: 03-29-2022 16:03:24
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

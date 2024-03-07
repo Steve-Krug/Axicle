@@ -218,8 +218,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for One Wheel; { 3.5 m Wheel
 #FileID  : StrKin_7b71a43d-6479-471b-a7ca-2853d7532934
 #Created : 10-27-2021 11:22:49
 #Modified: 10-27-2021 11:23:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Kinematics
 
 END

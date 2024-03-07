@@ -55,8 +55,8 @@ LOG_ENTRY Used Dataset: Brakes: Two-Wheel System; { Pickup Trucks and SUVs } Pic
 #Category: Pickup Trucks and SUVs
 #FileID  : Brk2W_8335fd63-98df-4a37-853c-a74afc0ea87a
 #Modified: 06-07-2021 01:53:15
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brakes
 
 END

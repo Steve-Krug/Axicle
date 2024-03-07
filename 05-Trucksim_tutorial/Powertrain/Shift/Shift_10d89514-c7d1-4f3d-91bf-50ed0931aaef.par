@@ -25,8 +25,8 @@ LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 5-Speed Shift Schedule, 31
 #Category: 5-Speed Shift Schedule, 3100 RPM
 #FileID  : Shift_10d89514-c7d1-4f3d-91bf-50ed0931aaef
 #Modified: 06-07-2021 01:49:25
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shift Schedule
 
 END

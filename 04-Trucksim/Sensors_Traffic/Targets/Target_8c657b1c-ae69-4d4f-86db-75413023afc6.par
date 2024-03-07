@@ -10,7 +10,6 @@ OPT_POLY_COORD 1
 OPT_ROAD_OBJ 0 ! Legacy pre-9
 PATH_ID_OBJ 0
 ROAD_ID_OBJ 0
-#CheckBox3 0    
 #CheckBox6 0    
 #CheckBox7 0    
 #CheckBox8 1    
@@ -39,9 +38,9 @@ LOG_ENTRY Used Dataset: Single Moving Object (Custom); { ADAS: Building Occlusio
 #DataSet : City Environment: Building
 #Category: ADAS: Building Occlusion
 #FileID  : Target_8c657b1c-ae69-4d4f-86db-75413023afc6
-#Modified: 06-07-2021 01:54:09
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:13
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Moving Object (Custom)
 
 END

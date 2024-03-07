@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Road Boundary: New Station; { Lane Change Roads } Entran
 #Category: Lane Change Roads
 #FileID  : RdBdS_b8a885c5-a134-4920-b0bb-9e9ae21df7cc
 #Modified: 06-07-2021 01:50:58
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Road Boundary S
 
 END

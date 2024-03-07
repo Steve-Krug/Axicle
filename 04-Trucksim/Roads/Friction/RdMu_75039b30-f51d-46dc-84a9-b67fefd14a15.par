@@ -31,8 +31,8 @@ LOG_ENTRY Used Dataset: Road: Friction Map, S-L Grid; { Split Mu } Split Mu @ 3 
 #Category: Split Mu
 #FileID  : RdMu_75039b30-f51d-46dc-84a9-b67fefd14a15
 #Modified: 06-07-2021 01:51:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Mu via S-L Grid
 
 END

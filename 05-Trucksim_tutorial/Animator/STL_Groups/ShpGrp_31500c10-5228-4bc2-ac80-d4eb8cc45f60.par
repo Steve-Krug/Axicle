@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Single w/ Stripe
 #Category: Tires
 #FileID  : ShpGrp_31500c10-5228-4bc2-ac80-d4eb8cc45f60
 #Modified: 06-07-2021 01:53:36
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

@@ -58,8 +58,8 @@ LOG_ENTRY Used Dataset: Brakes: Two-Wheel System; { Trailer Brakes } Trailer (2A
 #FileID  : Brk2W_bccc201a-3028-4048-acd0-5037c9aa79ce
 #Created : 11-29-2021 18:08:06
 #Modified: 11-29-2021 18:08:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Brakes
 
 END

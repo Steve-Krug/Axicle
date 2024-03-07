@@ -20,8 +20,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Roads and Paths } Blind Detect
 #Category: Roads and Paths
 #FileID  : GenLink_d20bf616-4a64-4f1b-a072-ff4d0f1895fa
 #Modified: 06-07-2021 01:53:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Links
 
 END

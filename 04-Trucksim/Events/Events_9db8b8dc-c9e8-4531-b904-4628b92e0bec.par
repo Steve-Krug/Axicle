@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Events; { Step Steer Test with Trailer } C. Return Steer
 #Category: Step Steer Test with Trailer
 #FileID  : Events_9db8b8dc-c9e8-4531-b904-4628b92e0bec
 #Modified: 06-07-2021 01:49:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

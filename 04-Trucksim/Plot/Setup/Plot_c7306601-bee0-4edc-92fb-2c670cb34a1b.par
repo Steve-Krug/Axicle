@@ -36,8 +36,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Longitudinal Forces
 #Category: Tire Forces
 #FileID  : Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b
 #Modified: 06-07-2021 01:49:39
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -302,8 +302,8 @@ LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Intersection, 3D Ro
 #Category: Intersection, 3D Roads with Curbs
 #FileID  : Road_4d523001-97a6-4842-813f-3782b79fb456
 #Modified: 03-18-2022 15:52:23
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3D Road
 
 END

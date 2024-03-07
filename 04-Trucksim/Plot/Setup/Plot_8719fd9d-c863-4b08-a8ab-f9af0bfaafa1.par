@@ -38,8 +38,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Angle of Sprung Mass
 #Category: Vehicle Motion
 #FileID  : Plot_8719fd9d-c863-4b08-a8ab-f9af0bfaafa1
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

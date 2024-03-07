@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Events; { Lane Change } A2. Change Lanes (Finds Local Mi
 #Category: Lane Change
 #FileID  : Events_353fd3ff-9193-4173-9991-101e5d725680
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

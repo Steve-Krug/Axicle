@@ -58,8 +58,8 @@ LOG_ENTRY Used Dataset: Procedures; { ADAS and Active Safety } 6-Lane Highway w/
 #Category: ADAS and Active Safety
 #FileID  : Proc_c5f4db05-f7a7-4c0c-a54e-f07f1233cdb7
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

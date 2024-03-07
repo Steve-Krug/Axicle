@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Generic Table; { Powertrain (HEV) } Electric Generator: 
 #FileID  : GenTab_0b34730c-2bd3-454a-a7fe-7fe6458ad10d
 #Created : 09-14-2021 12:33:40
 #Modified: 09-14-2021 12:33:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode table
 
 END

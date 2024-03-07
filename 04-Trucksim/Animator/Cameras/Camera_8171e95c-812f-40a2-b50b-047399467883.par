@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Animator: Camera Setup; { Test Rig Cameras } K & C View 
 #FileID  : Camera_8171e95c-812f-40a2-b50b-047399467883
 #Created : 11-17-2021 08:27:56
 #Modified: 11-17-2021 08:40:40
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Camera
 
 END

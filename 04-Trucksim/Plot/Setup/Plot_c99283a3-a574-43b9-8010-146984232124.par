@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Rate of Lead Unit vs
 #FileID  : Plot_c99283a3-a574-43b9-8010-146984232124
 #Created : 05-31-2022 08:30:25
 #Modified: 05-31-2022 08:30:30
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

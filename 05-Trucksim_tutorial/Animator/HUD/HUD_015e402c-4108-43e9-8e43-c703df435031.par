@@ -89,8 +89,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Accel. Only Text
 #Category: HUD Groups
 #FileID  : HUD_015e402c-4108-43e9-8e43-c703df435031
 #Modified: 03-29-2022 16:03:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

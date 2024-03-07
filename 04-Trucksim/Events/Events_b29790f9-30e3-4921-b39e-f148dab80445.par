@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Events; { Automatic Lane Changing } C. Monitor Rear Vehi
 #Category: Automatic Lane Changing
 #FileID  : Events_b29790f9-30e3-4921-b39e-f148dab80445
 #Modified: 06-07-2021 01:49:17
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Generic Data Lists; { HUD Indicators } Speedometer (RWD 
 #Category: HUD Indicators
 #FileID  : GenList_b53a229b-196f-4bb4-9af0-d04e5dadcaa8
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Generic Lists
 
 END

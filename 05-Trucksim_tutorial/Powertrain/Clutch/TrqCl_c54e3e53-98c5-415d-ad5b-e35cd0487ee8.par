@@ -26,8 +26,8 @@ LOG_ENTRY Used Dataset: Powertrain: Clutch Torque; Maximum 5000 N-m (Linear) #1
 #FileID  : TrqCl_c54e3e53-98c5-415d-ad5b-e35cd0487ee8
 #Created : 01-16-2023 19:29:37
 #Modified: 01-16-2023 19:38:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Clutch
 
 END

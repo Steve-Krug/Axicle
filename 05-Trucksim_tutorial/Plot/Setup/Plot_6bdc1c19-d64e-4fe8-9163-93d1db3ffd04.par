@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Chassis and Powertrain } Centra
 #Category: Controls: Chassis and Powertrain
 #FileID  : Plot_6bdc1c19-d64e-4fe8-9163-93d1db3ffd04
 #Modified: 06-07-2021 01:49:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Z Wheel Centers rel. to 
 #Category: Vehicle Motion
 #FileID  : Plot_600b442e-4629-4d98-9131-86c79a1ddfd0
 #Modified: 06-07-2021 01:49:42
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

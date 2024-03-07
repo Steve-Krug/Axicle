@@ -47,8 +47,8 @@ LOG_ENTRY Used Dataset: Aerodynamics: Basic; { Large European Van } Large Euro V
 #Category: Large European Van
 #FileID  : Aero_8deb8be8-29e6-4479-9cb0-c4dbd522aeeb
 #Modified: 06-07-2021 01:54:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Aerodynamics
 
 END

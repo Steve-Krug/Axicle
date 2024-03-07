@@ -438,8 +438,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Ride } Bounc
 #Category: Ride
 #FileID  : RdMapZ_cf9a0993-2cbf-41e3-a9d0-743b40ada296
 #Modified: 06-07-2021 01:51:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

@@ -75,8 +75,8 @@ LOG_ENTRY Used Dataset: Steering System; { Tandem Steer, SS_SS } Axle 2 Steer, A
 #Category: Tandem Steer, SS_SS
 #FileID  : StrSys_11a39e13-41d9-4e6c-92c7-4bb1525b62f9
 #Modified: 06-07-2021 01:49:07
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering System
 
 END

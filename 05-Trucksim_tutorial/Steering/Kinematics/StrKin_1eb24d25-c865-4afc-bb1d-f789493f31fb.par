@@ -67,8 +67,8 @@ LOG_ENTRY Used Dataset: Steering System: Kinematics for One Wheel; { Pickup, Com
 #Category: Pickup, Compact
 #FileID  : StrKin_1eb24d25-c865-4afc-bb1d-f789493f31fb
 #Modified: 06-07-2021 01:49:06
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Steering Kinematics
 
 END

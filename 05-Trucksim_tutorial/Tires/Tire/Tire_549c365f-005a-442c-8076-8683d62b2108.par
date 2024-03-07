@@ -74,8 +74,8 @@ LOG_ENTRY Used Dataset: Tire; { 3500 kg Rating } 528 mm Radius (Steer)
 #Category: 3500 kg Rating
 #FileID  : Tire_549c365f-005a-442c-8076-8683d62b2108
 #Modified: 06-07-2021 01:48:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Tire
 
 END

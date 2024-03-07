@@ -77,8 +77,8 @@ LOG_ENTRY Used Dataset: Procedures; { Driving } Curvy Road Driving
 #Category: Driving
 #FileID  : Proc_002bb025-1c6a-4d44-a302-6936dfd6053c
 #Modified: 06-07-2021 01:49:10
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

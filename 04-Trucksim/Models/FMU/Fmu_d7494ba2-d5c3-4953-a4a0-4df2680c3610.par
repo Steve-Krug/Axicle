@@ -34,8 +34,8 @@ LOG_ENTRY Used Dataset: Models: Export FMU/FMI; Baseline FMI 2.0 (Flat)
 #Category: 
 #FileID  : Fmu_d7494ba2-d5c3-4953-a4a0-4df2680c3610
 #Modified: 06-07-2021 01:52:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 
 
 END

@@ -32,6 +32,7 @@ PARSFILE Animator\Cameras\Camera_0c973cdb-2467-40fa-bb31-04d4f1c16774.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 3
@@ -88,9 +89,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Multiple Vehicles, Parallel Solv
 #DataSet : City (2 Parallel Solvers): Truck 2
 #Category: Multiple Vehicles, Parallel Solvers
 #FileID  : Run_f0756479-c969-4caa-afe5-38304797fcbf
-#Modified: 08-05-2021 11:45:22
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:17
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

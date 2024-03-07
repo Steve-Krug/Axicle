@@ -26,6 +26,8 @@ IYZ_PL 0
 *RY 0.707
 *RZ 0.707
 
+#RingCtrl0 0
+OPT_TRAILER_REF_FRAME 0
 IOBJECT_RESTORE
 
 LOG_ENTRY Used Dataset: Payload: Custom; { 1A Van Trailer } Large Drum (Row 2, Right)
@@ -33,9 +35,9 @@ LOG_ENTRY Used Dataset: Payload: Custom; { 1A Van Trailer } Large Drum (Row 2, R
 #DataSet : Large Drum (Row 2, Right)
 #Category: 1A Van Trailer
 #FileID  : Custom_2928e611-9982-403c-ba21-06a5a098406b
-#Modified: 06-07-2021 01:49:43
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:36:11
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Payload: Custom
 
 END

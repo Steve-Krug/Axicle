@@ -78,8 +78,8 @@ LOG_ENTRY Used Dataset: Animator: HUD; { HUD Groups } Collision Contact
 #Category: HUD Groups
 #FileID  : HUD_38fd8c3f-e605-42c4-a955-b9f249013bc6
 #Modified: 03-29-2022 16:03:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode HUD
 
 END

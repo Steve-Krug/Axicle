@@ -18,8 +18,8 @@ LOG_ENTRY Used Dataset: Generic Group of Links; { Multiple Vehicles } 3 Other Ve
 #Category: Multiple Vehicles
 #FileID  : GenLink_ba7415b4-26e4-4f23-8aec-c6353bbb0be6
 #Modified: 06-07-2021 01:53:03
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Autnomous Vehicle Detection
 
 END

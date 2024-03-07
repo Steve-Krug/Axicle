@@ -108,8 +108,8 @@ LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { Tour Bus }
 #Category: Tour Bus
 #FileID  : LatJnc_c27c06a5-557f-4c87-8228-8898d0915b5f
 #Modified: 06-07-2021 01:49:00
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Lateral Movement
 
 END

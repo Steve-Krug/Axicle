@@ -1,0 +1,248 @@
+2023-01-18T22:01:17 Logfile initialized.
+2023-01-18T22:01:17 (Info):    TruckSim 2022.1
+2023-01-18T22:01:17 (Info):    -
+2023-01-18T22:01:17 (Info):    command-line: 
+2023-01-18T22:01:17 (Info):    -
+2023-01-18T22:01:17 (Info):    Working Dir: C:\Users\SteveKrug\OneDrive - Axicle\Public\15. GitHub Repo\Axicle\05-Trucksim_tutorial\
+2023-01-18T22:01:17 (Info):    Program Dir: C:\Program Files (x86)\TruckSim2022.1_Prog\
+2023-01-18T22:01:17 (Info):    -
+2023-01-18T22:01:17 (Info):    OS Version:        6.2 (build 9200)
+2023-01-18T22:01:17 (Info):    CPU Architecture:  x64
+2023-01-18T22:01:17 (Info):    CPU Count:         20
+2023-01-18T22:01:17 (Info):    CPU Level/Rev:     6/38658
+2023-01-18T22:01:17 (Info):    Start Mem Total:   32492 MB
+2023-01-18T22:01:17 (Info):    Start Mem Used:    33%
+2023-01-18T22:01:17 (Info):    -
+2023-01-18T22:01:17 (Info):    Loaded dataset index cache in 0.01s, 21.3 megabytes.
+2023-01-18T22:01:17 (Info):    Feature                  Source                       Version  Acquired  Count
+2023-01-18T22:01:17 (Info):    -----------------        -----------------            -------  --------  -----
+2023-01-18T22:01:17 (Info):    trucksimus               C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-18T22:01:17 (Info):    trucksimfus              C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-18T22:01:17 (Info):    trucksimsguius           C:\FLEXlm\K126774.lic        2022     [   ]          
+2023-01-18T22:01:47 (Info):    Acquired [1] license for trucksimsguius
+2023-01-18T22:01:47 (Info):    Acquired [1] license for trucksimus
+2023-01-18T22:01:47 (Info):    Acquired [1] license for trucksimfus
+2023-01-18T22:01:47 (Info):    License check took 30.45 seconds.
+2023-01-18T22:01:47 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-18T22:01:47 (Info):    No install ID found at regkey "Software\Mechanical Simulation Corp\TruckSim 2022.1".
+2023-01-18T22:01:48 (Info):    Initial setup took 1.03 seconds.
+2023-01-18T22:01:48 (Info):    Auto updates took 0.00 seconds.
+2023-01-18T22:01:48 (Info):    Loaded last screen in 0.08 seconds.
+2023-01-18T22:01:48 (Info):    Total init time 31.73 seconds.
+2023-01-18T22:39:09 (Info):    Dataset created in "Vehicles\Sprung_Mass\": { 4 Axle Trucks } 4A Sleeper Cab #1 (UUID: SprMass_df3ca1da-7c6a-45e7-8756-a82ae3b4eb90).
+2023-01-19T21:28:39 (Info):    Dataset created in "Vehicles\Loaded\": { Sleeper-Cab Tractor-Trailers } 3A Sleeper + Flatbed, 41k lbf payload #1 (UUID: VehLoad_7afa67c4-7c94-4fc6-a2c3-f9902df46be7).
+2023-01-19T21:29:56 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:29:56 (Info):    Math model run completed.
+2023-01-19T21:30:13 (Info):    Assembling animation...
+2023-01-19T21:30:15 (Info):    Animation assembly finished.
+2023-01-19T21:43:57 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:43:57 (Info):    Math model run completed.
+2023-01-19T21:44:00 (Info):    Assembling animation...
+2023-01-19T21:44:02 (Info):    Animation assembly finished.
+2023-01-19T21:44:51 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:44:51 (Info):    Math model run completed.
+2023-01-19T21:45:44 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:45:44 (Info):    Math model run completed.
+2023-01-19T21:53:01 (Info):    Dataset created in "Vehicles\Lead_3a\": { 3A Tractors } 3A Sleeper (18 Spd) #1 (UUID: Lead3a_164cae34-f3ed-4382-aa43-98e6eee8a593).
+2023-01-19T21:54:29 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:54:29 (Info):    Math model run completed.
+2023-01-19T21:55:04 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:55:05 (Info):    Math model run completed.
+2023-01-19T21:55:54 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:55:54 (Info):    Math model run completed.
+2023-01-19T21:56:29 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T21:56:29 (Info):    Math model run completed.
+2023-01-19T22:01:10 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:01:10 (Info):    Math model run completed.
+2023-01-19T22:01:13 (Info):    Assembling animation...
+2023-01-19T22:01:13 (Info):    Animation assembly finished.
+2023-01-19T22:02:54 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:02:54 (Info):    Math model run completed.
+2023-01-19T22:03:11 (Info):    Assembling animation...
+2023-01-19T22:03:11 (Info):    Animation assembly finished.
+2023-01-19T22:04:04 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:04:05 (Info):    Math model run completed.
+2023-01-19T22:04:09 (Info):    Assembling animation...
+2023-01-19T22:04:10 (Info):    Animation assembly finished.
+2023-01-19T22:06:24 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:06:25 (Info):    Math model run completed.
+2023-01-19T22:06:45 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:06:45 (Info):    Math model run completed.
+2023-01-19T22:06:48 (Info):    Assembling animation...
+2023-01-19T22:06:51 (Info):    Animation assembly finished.
+2023-01-19T22:08:00 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:08:01 (Info):    Math model run completed.
+2023-01-19T22:08:18 (Info):    Assembling animation...
+2023-01-19T22:08:18 (Info):    Animation assembly finished.
+2023-01-19T22:09:50 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:09:50 (Info):    Math model run completed.
+2023-01-19T22:09:55 (Info):    Assembling animation...
+2023-01-19T22:09:55 (Info):    Animation assembly finished.
+2023-01-19T22:11:26 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:11:26 (Info):    Math model run completed.
+2023-01-19T22:11:27 (Info):    Assembling animation...
+2023-01-19T22:11:29 (Info):    Animation assembly finished.
+2023-01-19T22:12:47 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:12:48 (Info):    Math model run completed.
+2023-01-19T22:14:06 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:14:07 (Info):    Math model run completed.
+2023-01-19T22:14:10 (Info):    Assembling animation...
+2023-01-19T22:14:12 (Info):    Animation assembly finished.
+2023-01-19T22:15:36 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:15:37 (Info):    Math model run completed.
+2023-01-19T22:15:40 (Info):    Assembling animation...
+2023-01-19T22:15:42 (Info):    Animation assembly finished.
+2023-01-19T22:16:00 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:16:01 (Info):    Math model run completed.
+2023-01-19T22:16:04 (Info):    Assembling animation...
+2023-01-19T22:16:04 (Info):    Animation assembly finished.
+2023-01-19T22:16:14 (Info):    Assembling animation...
+2023-01-19T22:16:17 (Info):    Animation assembly finished.
+2023-01-19T22:16:38 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:16:38 (Info):    Math model run completed.
+2023-01-19T22:16:42 (Info):    Assembling animation...
+2023-01-19T22:16:43 (Info):    Animation assembly finished.
+2023-01-19T22:17:53 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:17:54 (Info):    Math model run completed.
+2023-01-19T22:17:55 (Info):    Assembling animation...
+2023-01-19T22:17:58 (Info):    Animation assembly finished.
+2023-01-19T22:20:12 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:20:12 (Info):    Math model run completed.
+2023-01-19T22:20:15 (Info):    Assembling animation...
+2023-01-19T22:20:16 (Info):    Animation assembly finished.
+2023-01-19T22:21:06 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:21:06 (Info):    Math model run completed.
+2023-01-19T22:21:09 (Info):    Assembling animation...
+2023-01-19T22:21:10 (Info):    Animation assembly finished.
+2023-01-19T22:22:00 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:22:00 (Info):    Math model run completed.
+2023-01-19T22:22:04 (Info):    Assembling animation...
+2023-01-19T22:22:05 (Info):    Animation assembly finished.
+2023-01-19T22:22:59 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:22:59 (Info):    Math model run completed.
+2023-01-19T22:23:02 (Info):    Assembling animation...
+2023-01-19T22:23:04 (Info):    Animation assembly finished.
+2023-01-19T22:23:25 (Info):    Assembling animation...
+2023-01-19T22:23:26 (Info):    Animation assembly finished.
+2023-01-19T22:25:52 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:25:53 (Info):    Math model run completed.
+2023-01-19T22:25:55 (Info):    Assembling animation...
+2023-01-19T22:25:55 (Info):    Animation assembly finished.
+2023-01-19T22:26:20 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:26:20 (Info):    Math model run completed.
+2023-01-19T22:26:23 (Info):    Assembling animation...
+2023-01-19T22:26:23 (Info):    Animation assembly finished.
+2023-01-19T22:26:44 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:26:44 (Info):    Math model run completed.
+2023-01-19T22:26:47 (Info):    Assembling animation...
+2023-01-19T22:26:47 (Info):    Animation assembly finished.
+2023-01-19T22:27:13 (Info):    Assembling animation...
+2023-01-19T22:27:13 (Info):    Animation assembly finished.
+2023-01-19T22:30:00 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:30:00 (Info):    Math model run completed.
+2023-01-19T22:30:03 (Info):    Assembling animation...
+2023-01-19T22:30:04 (Info):    Animation assembly finished.
+2023-01-19T22:31:49 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:31:49 (Info):    Math model run completed.
+2023-01-19T22:31:52 (Info):    Assembling animation...
+2023-01-19T22:31:53 (Info):    Animation assembly finished.
+2023-01-19T22:32:34 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:32:34 (Info):    Math model run completed.
+2023-01-19T22:32:38 (Info):    Assembling animation...
+2023-01-19T22:32:38 (Info):    Animation assembly finished.
+2023-01-19T22:33:19 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:33:20 (Info):    Math model run completed.
+2023-01-19T22:33:26 (Info):    Assembling animation...
+2023-01-19T22:33:26 (Info):    Animation assembly finished.
+2023-01-19T22:33:57 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:33:58 (Info):    Math model run completed.
+2023-01-19T22:34:01 (Info):    Assembling animation...
+2023-01-19T22:34:04 (Info):    Animation assembly finished.
+2023-01-19T22:35:16 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:35:16 (Info):    Math model run completed.
+2023-01-19T22:35:18 (Info):    Assembling animation...
+2023-01-19T22:35:19 (Info):    Animation assembly finished.
+2023-01-19T22:37:31 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:37:32 (Info):    Math model run completed.
+2023-01-19T22:37:33 (Info):    Assembling animation...
+2023-01-19T22:37:34 (Info):    Animation assembly finished.
+2023-01-19T22:38:59 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:39:00 (Info):    Math model run completed.
+2023-01-19T22:39:01 (Info):    Assembling animation...
+2023-01-19T22:39:02 (Info):    Animation assembly finished.
+2023-01-19T22:39:57 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:39:57 (Info):    Math model run completed.
+2023-01-19T22:39:59 (Info):    Assembling animation...
+2023-01-19T22:40:00 (Info):    Animation assembly finished.
+2023-01-19T22:40:52 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:40:52 (Info):    Math model run completed.
+2023-01-19T22:40:55 (Info):    Assembling animation...
+2023-01-19T22:40:56 (Info):    Animation assembly finished.
+2023-01-19T22:41:55 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:41:55 (Info):    Math model run completed.
+2023-01-19T22:41:58 (Info):    Assembling animation...
+2023-01-19T22:41:58 (Info):    Animation assembly finished.
+2023-01-19T22:42:54 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:42:54 (Info):    Math model run completed.
+2023-01-19T22:42:57 (Info):    Assembling animation...
+2023-01-19T22:42:58 (Info):    Animation assembly finished.
+2023-01-19T22:44:00 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:44:01 (Info):    Math model run completed.
+2023-01-19T22:44:22 (Info):    Assembling animation...
+2023-01-19T22:44:23 (Info):    Animation assembly finished.
+2023-01-19T22:45:51 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:45:52 (Info):    Math model run completed.
+2023-01-19T22:45:54 (Info):    Assembling animation...
+2023-01-19T22:45:55 (Info):    Animation assembly finished.
+2023-01-19T22:46:38 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:46:39 (Info):    Math model run completed.
+2023-01-19T22:46:41 (Info):    Assembling animation...
+2023-01-19T22:46:44 (Info):    Animation assembly finished.
+2023-01-19T22:47:24 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:47:25 (Info):    Math model run completed.
+2023-01-19T22:47:27 (Info):    Assembling animation...
+2023-01-19T22:47:28 (Info):    Animation assembly finished.
+2023-01-19T22:48:11 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:48:12 (Info):    Math model run completed.
+2023-01-19T22:48:14 (Info):    Assembling animation...
+2023-01-19T22:48:15 (Info):    Animation assembly finished.
+2023-01-19T22:49:00 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:49:00 (Info):    Math model run completed.
+2023-01-19T22:49:03 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:49:04 (Info):    Math model run completed.
+2023-01-19T22:49:58 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:49:59 (Info):    Math model run completed.
+2023-01-19T22:50:20 (Info):    Dataset created in "Vehicles\Trailer_2a\": { Flatbed Trailers } 2A Flatbed Trailer #1 (UUID: Trl2a_fefc8f3d-b510-484d-8319-04a1f60e2597).
+2023-01-19T22:51:12 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:51:13 (Info):    Math model run completed.
+2023-01-19T22:51:15 (Info):    Assembling animation...
+2023-01-19T22:51:17 (Info):    Animation assembly finished.
+2023-01-19T22:51:52 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:51:52 (Info):    Math model run completed.
+2023-01-19T22:51:55 (Info):    Assembling animation...
+2023-01-19T22:51:57 (Info):    Animation assembly finished.
+2023-01-19T22:53:24 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:53:24 (Info):    Math model run completed.
+2023-01-19T22:55:28 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:55:28 (Info):    Math model run completed.
+2023-01-19T22:55:31 (Info):    Assembling animation...
+2023-01-19T22:55:33 (Info):    Animation assembly finished.
+2023-01-19T22:56:16 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:56:17 (Info):    Math model run completed.
+2023-01-19T22:56:49 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:56:50 (Info):    Math model run completed.
+2023-01-19T22:57:22 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:57:23 (Info):    Math model run completed.
+2023-01-19T22:58:03 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:58:03 (Info):    Math model run completed.
+2023-01-19T22:58:38 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:58:38 (Info):    Math model run completed.
+2023-01-19T22:59:12 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:59:12 (Info):    Math model run completed.
+2023-01-19T22:59:14 (Info):    Assembling animation...
+2023-01-19T22:59:15 (Info):    Animation assembly finished.
+2023-01-19T22:59:51 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T22:59:52 (Info):    Math model run completed.
+2023-01-19T23:00:38 (Info):    Running math model for: { Vehicle Layout: Single Trailers } 4A Sleeper+3A Trl #1
+2023-01-19T23:00:39 (Info):    Math model run completed.
+2023-01-19T23:01:19 (Info): 

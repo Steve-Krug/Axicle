@@ -31,6 +31,7 @@ PARSFILE Animator\Cameras\Camera_d14a8296-6736-4daf-8562-965531be5132.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 12
@@ -84,9 +85,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Tire Models } MF-Tyre, Asym.: Ac
 #DataSet : MF-Tyre, Asym.: Acc./Brk
 #Category: Tire Models
 #FileID  : Run_6edd506f-a16e-4b3d-b6d3-c03e7493935b
-#Modified: 12-13-2021 22:09:04
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:20
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

@@ -88,8 +88,8 @@ LOG_ENTRY Used Dataset: Procedures; { Mcity } Mcity Outside Loop, 30 km/h
 #Category: Mcity
 #FileID  : Proc_1f431e97-e963-4d54-a076-f813987a9c98
 #Modified: 06-08-2021 12:24:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Procedure
 
 END

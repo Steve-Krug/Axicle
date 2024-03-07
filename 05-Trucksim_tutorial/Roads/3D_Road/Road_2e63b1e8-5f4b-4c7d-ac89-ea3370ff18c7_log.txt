@@ -1,0 +1,27 @@
+Run made by VS Road Calculator at 15:47 on April 04, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_2e63b1e8-5f4b-4c7d-ac89-ea3370ff18c7.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_c3839dc3-d0f4-4bc7-a58a-300aeb335c8c.par"
+ Straight Path East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight Path East
+Include PARSFILE "Roads\dZ_Map\RdMapZ_8c362854-ac45-45a8-8505-0f9fdf62c316.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { PBS Tests } 3% Cross-slope (Constant)
+Include PARSFILE "Roads\Friction\RdMu_b9002147-95c5-413a-83ea-2e94873c1c62.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant Mu } Constant: 0.8
+Include PARSFILE "Roads\Shapes\RdShape_d1bb3bb4-1111-41a4-8a0a-60eb182ccc49.par"
+Used Dataset: Road: Animator Surface Shapes; { Roads } 1200 m One Ln Road + 100 m Light Grass
+Include PARSFILE "Roads\dZ_Map\RdMapZ_9907d10e-e209-487a-81d8-06ae79bdcca2.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { PBS Tests } 1.5% Cross-slope (200-m Sine)
+ PBS C5: 3% Cross-slope with Variation <PBS Tests>
+Used Dataset: Road: 3D Surface (All Properties); { PBS Tests } PBS C5: 3% Cross-slope with Variation
+
+Time to read input = 0.000585
+
+Run stopped at t = 14.44. Stop time reached.
+
+Run started: VS output file = Roads\3D_Road\Road_2e63b1e8-5f4b-4c7d-ac89-ea3370ff18c7.vsb
+
+Computational time ratio: RTIME = inf (real time)/(simulation time)
+

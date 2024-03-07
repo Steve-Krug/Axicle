@@ -35,8 +35,8 @@ LOG_ENTRY Used Dataset: Events; { Coastdown Test } B. Apply Brakes
 #Category: Coastdown Test
 #FileID  : Events_0714cbe3-ed97-43d3-9687-e51e59450838
 #Modified: 06-07-2021 01:49:18
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

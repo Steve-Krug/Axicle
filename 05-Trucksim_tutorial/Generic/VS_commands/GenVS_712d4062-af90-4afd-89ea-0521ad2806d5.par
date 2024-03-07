@@ -58,8 +58,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Suspended Cab } Susp. Cab: Spring
 #FileID  : GenVS_712d4062-af90-4afd-89ea-0521ad2806d5
 #Created : 05-26-2021 11:31:03
 #Modified: 06-07-2021 01:53:01
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

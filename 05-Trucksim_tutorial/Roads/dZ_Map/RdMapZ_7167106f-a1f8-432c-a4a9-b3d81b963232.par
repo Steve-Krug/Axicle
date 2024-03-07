@@ -437,8 +437,8 @@ LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Ride } Chass
 #Category: Ride
 #FileID  : RdMapZ_7167106f-a1f8-432c-a4a9-b3d81b963232
 #Modified: 06-07-2021 01:51:02
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode dZ via S-L Grid
 
 END

@@ -29,6 +29,7 @@ PARSFILE Animator\Cameras\Camera_3a97376b-143b-4b6c-b830-542595e9039b.par
 #CheckBox9 0    
 #CheckBox10 0    
 #CheckBox11 0    
+#CheckBox12 0    
 
 #RingCtrl0 4
 #RingCtrl1 1
@@ -90,9 +91,9 @@ LOG_ENTRY Used Dataset: TruckSim Run Control; { Powertrain: Electric } eTractor 
 #DataSet : eTractor 10x10, 10 Motors: Intersection
 #Category: Powertrain: Electric
 #FileID  : Run_05f588c7-7c4a-4ae0-b3d6-c1cece69ef3f
-#Modified: 05-24-2022 13:34:05
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Modified: 04-04-2023 17:38:18
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Run
 
 END

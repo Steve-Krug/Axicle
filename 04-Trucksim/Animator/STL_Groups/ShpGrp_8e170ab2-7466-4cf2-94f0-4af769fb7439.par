@@ -42,8 +42,8 @@ LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Rental Trailer Tire
 #FileID  : ShpGrp_8e170ab2-7466-4cf2-94f0-4af769fb7439
 #Created : 12-02-2021 15:59:27
 #Modified: 12-02-2021 16:08:47
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Shape Assembly
 
 END

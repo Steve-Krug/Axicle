@@ -88,8 +88,8 @@ LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Mobile Crane } 
 #Category: Mobile Crane
 #FileID  : AniVeh_6f39474a-eb19-4f18-89fe-36188ccba84a
 #Modified: 04-18-2022 12:23:45
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Vehicle Shape
 
 END

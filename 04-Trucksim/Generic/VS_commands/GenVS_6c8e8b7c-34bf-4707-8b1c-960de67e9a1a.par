@@ -87,8 +87,8 @@ LOG_ENTRY Used Dataset: Generic VS Commands; { Embedded Python } Steer Controlle
 #Category: Embedded Python
 #FileID  : GenVS_6c8e8b7c-34bf-4707-8b1c-960de67e9a1a
 #Modified: 03-22-2022 15:21:21
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode VS Commands
 
 END

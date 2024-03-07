@@ -682,8 +682,8 @@ LOG_ENTRY Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Forc
 #FileID  : Arrows_9efb228e-b685-4404-875a-460f63530595
 #Created : 12-09-2021 10:28:03
 #Modified: 12-09-2021 10:28:08
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Wheel Indicators
 
 END

@@ -37,8 +37,8 @@ LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces (Axle 6, Du
 #FileID  : Plot_eacc3890-2ec9-4924-b043-53bda3677010
 #Created : 11-10-2021 13:21:22
 #Modified: 11-10-2021 13:21:34
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Plot Setup
 
 END

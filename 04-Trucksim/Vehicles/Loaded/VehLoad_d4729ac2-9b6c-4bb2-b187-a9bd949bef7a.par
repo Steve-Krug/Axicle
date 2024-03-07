@@ -48,8 +48,8 @@ LOG_ENTRY Used Dataset: Vehicle: Loaded Combination; { Conventional Vans } 2A Co
 #Category: Conventional Vans
 #FileID  : VehLoad_d4729ac2-9b6c-4bb2-b187-a9bd949bef7a
 #Modified: 05-16-2022 13:43:57
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode S_S
 
 END

@@ -43,8 +43,8 @@ LOG_ENTRY Used Dataset: Events; { ADAS Detection } Continue Driving v4
 #Category: ADAS Detection
 #FileID  : Events_317903eb-3e30-46a8-a4e8-d91978279c2f
 #Modified: 06-07-2021 01:49:16
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END

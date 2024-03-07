@@ -88,8 +88,8 @@ LOG_ENTRY Used Dataset: Tires: Vehicle Unit with 3 Axles; { Trailer and Light Tr
 #Category: Trailer and Light Truck Tires
 #FileID  : Tire3a_32534ed0-fb60-436e-81ad-7ecaa5f368c1
 #Modified: 06-07-2021 01:48:55
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode 3a Tire Group
 
 END

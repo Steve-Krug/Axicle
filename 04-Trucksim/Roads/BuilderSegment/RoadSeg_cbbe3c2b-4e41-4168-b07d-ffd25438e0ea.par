@@ -54,8 +54,8 @@ LOG_ENTRY Used Dataset: Path: Segment Builder; { Circles } 500 ft Radius Circle
 #Category: Circles
 #FileID  : RoadSeg_cbbe3c2b-4e41-4168-b07d-ffd25438e0ea
 #Modified: 06-07-2021 01:51:28
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Path Segment Builder
 
 END

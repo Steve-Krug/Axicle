@@ -30,8 +30,8 @@ LOG_ENTRY Used Dataset: Events; { Lane Departure Warning } 1. Lane Drifting Star
 #Category: Lane Departure Warning
 #FileID  : Events_5b501b98-46e9-4501-bc49-d182ba97ec2d
 #Modified: 06-07-2021 01:49:20
-#Product : TruckSim 2022.1
-#DataVer : 2022.1
+#Product : TruckSim 2023.0
+#DataVer : 2023.0
 #VehCode Events
 
 END
