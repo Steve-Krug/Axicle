@@ -43,15 +43,43 @@ void setup() {
 }
 
 void loop() {
-  float x, y, z;
+  float Ax, Ay, Az;
+  float Wx, Wy, Wz;
 
-  if (IMU.accelerationAvailable()) {
-    IMU.readAcceleration(x, y, z);
+  if (IMU.accelerationAvailable() && IMU.gyroscopeAvailable()) {
+    IMU.readAcceleration(Ax, Ay, Az);
+    IMU.readGyroscope(Wx, Wy, Wz);
 
-    Serial.print(x);
-    Serial.print('\t');
-    Serial.print(y);
-    Serial.print('\t');
-    Serial.println(z);
+    Serial.print(millis());
+    Serial.print(",\t");
+    Serial.print(Ax);
+    Serial.print(",\t");
+    Serial.print(Ay);
+    Serial.print(",\t");
+    Serial.print(Az);
+    Serial.print(",\t");
+    Serial.print(Wx);
+    Serial.print(",\t");
+    Serial.print(Wy);
+    Serial.print(",\t");
+    Serial.print(Wz);
+    ///Serial.print(",\t");
+    Serial.println();
+
+
+
+
   }
+
+
+
+  //if (IMU.gyroscopeAvailable()) {
+  //  IMU.readGyroscope(Wx, Wy, Wz);
+
+    
+ // }
+
+
+
+
 }
