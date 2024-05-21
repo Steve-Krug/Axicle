@@ -1,6 +1,6 @@
-function [freq,mag,phase] = fft_lite_v2(fs,x )
+function [freq,mag,phase] = fft_lite_v2(fs,x)
 %   Computes the fft of signal, x 
-%   Michael Kinstle, July 02, 2015 
+%   July 02, 2015 
 %   v2 - November 19, 2015
 %   Added phase angle calculations
 

@@ -87,8 +87,8 @@ VectorFloat gravity;    // [x, y, z]            gravity vector
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
 int16_t gx, gy, gz;
 int16_t ax, ay, az;
-int16_t roll_angle_in1[] =  { 0,  10,  15}; // Might want [0, 5, 10] here
-int16_t roll_angle_in2[] =  { 0,  10,  20};
+int16_t roll_angle_in1[] =  { 0,  6,  6}; // Might want [0, 5, 10] here
+int16_t roll_angle_in2[] =  { 0,  15,  20};
 int16_t roll_rate_out1[] = {20000, 1310, 0}; // 1/16.384 to get to deg/s, [1220, 80, 0]
 //int16_t roll_rate_out2[] = {20000, 1310, 0}; // 1/16.384 to get to deg/s, [1220, 80, 0]
 int16_t roll_rate_allowed1;
@@ -118,6 +118,7 @@ float thetaX_LP_Accel_deg;
 float thetaX_LP_Accel_deg_Previous = 0.0;
 float thetaX_GyroIntegration_deg;
 float thetaX_Complementary_deg;
+float thetaX_comp_offset_deg;
 float thetaX_Complementary_deg_Previous = 0.0;
 float thetaX_Integration_HP_deg;
 float thetaX_Integration_HP_deg_Previous = 0.0;
@@ -152,7 +153,7 @@ void setup() {
     // initialize serial communication
     // (115200 chosen because it is required for Teapot Demo output, but it's
     // really up to you depending on your project)
-    Serial.begin(230400);
+    Serial.begin(115200);
     while (!Serial); // wait for Leonardo enumeration, others continue immediately
 
     // NOTE: 8MHz or slower host processors, like the Teensy @ 3.3v or Ardunio
@@ -339,10 +340,12 @@ thetaX_Complementary_deg = alpha_comp*thetaX_LP_Accel_deg + (1-alpha_comp)*(thet
 
 thetaX_Complementary_deg_Previous = thetaX_Complementary_deg; //Store previous value in RAM for filtiering in next step
 
+thetaX_comp_offset_deg = thetaX_Complementary_deg + 4;
+
 if(printSerialValue == LOW){
               
               //Serial.print("CA,\t");
-              Serial.print(thetaX_Complementary_deg);Serial.print(",\t");
+              Serial.print(thetaX_comp_offset_deg);Serial.print(",\t");
               //Serial.print("AA\t");            
               //Serial.print(thetaX_Accel_deg);Serial.print(",\t");
               Serial.println();
@@ -350,7 +353,7 @@ if(printSerialValue == LOW){
 
 // ===                        Firing Logic                      ===
     
-        roll_rate_allowed1 = multiMap<int16_t>(abs(thetaX_Complementary_deg), roll_angle_in1, roll_rate_out1, 3); // Replaced ypr[rollIdx] with complementary filtered roll angle.
+        roll_rate_allowed1 = multiMap<int16_t>(abs(thetaX_comp_offset_deg), roll_angle_in1, roll_rate_out1, 3); // Replaced ypr[rollIdx] with complementary filtered roll angle.
         
         if ((gy >= roll_rate_allowed1 && gy>=0) || (-gy >= roll_rate_allowed1 && gy<0)){ //check if actual roll rate is outside the allowed range, still using absolute value for now
           if (printSerialValue == LOW){

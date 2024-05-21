@@ -16,7 +16,7 @@ k = 1;
 %folder_path = uigetdir(); %C:\Users\SteveKrug\OneDrive - Axicle\Public\6. Engineering\TruckSim\Saved_results\Steer_sine
 % folder_path = "C:\Users\SteveKrug\OneDrive - Axicle\Public\6. Engineering\TruckSim\Saved_Results\Test Plan\All\";
 
-folder_path = "C:\Users\SteveKrug\Documents\TruckSim\05-Trucksim_DesktopDatabase\Results\Run_5419c1b2-f318-458a-8400-6a079b924524";
+folder_path = "C:\Users\SteveKrug\Documents\TruckSim\05-Trucksim_DesktopDatabase\Results\Run_a0fce707-309d-407a-802b-3f64ce4495df";
 
 files = dir(fullfile(folder_path, '*.csv'));
 h = waitbar(0,'Loading data...');
@@ -66,14 +66,14 @@ Plotter(1)
 hold all
 
 
-figure(5)
-title('Figure 8')
-hold on
-plot(data{1,runIndex}.Time, data{1,runIndex}.AVx);
-xlabel('Time [s]')
-ylabel('Roll Rate [mps2]');
-Plotter(1)
-hold all
+% figure(5)
+% title('Figure 8')
+% hold on
+% plot(data{1,runIndex}.Time, data{1,runIndex}.AVx);
+% xlabel('Time [s]')
+% ylabel('Roll Rate [mps2]');
+% Plotter(1)
+% hold all
 
 
 

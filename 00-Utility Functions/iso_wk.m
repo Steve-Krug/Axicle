@@ -1,6 +1,4 @@
 function y = iso_wk(x,fs) 
-% by Yang Wang 
-% email wangya@tesla.com
 % the code is used for vertical direction general vehicle vibration
 % refer ISO 2631- vertical acceleration discomfort filter.
 % ISOFILWK    

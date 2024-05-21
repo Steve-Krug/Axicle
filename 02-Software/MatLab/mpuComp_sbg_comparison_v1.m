@@ -10,7 +10,7 @@ sbgData = readtable('240213_SBGbenchtest_v2.txt');
 
 % asmData = load('240212_AxicleExport_151pm.mat'); %Asm data time histories don't line up. time array might not be calc'ing properly.
 % time, rpy rate, ax,ay,az, comp angle, accel angle
-startOffset_sbg = 1+ 2.1430; %sec
+startOffset_sbg = 1 + 2.1430; %sec
 
 dt_mpu = 1/66.6667;
 

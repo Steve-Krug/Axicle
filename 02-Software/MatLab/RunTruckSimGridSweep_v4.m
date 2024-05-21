@@ -18,25 +18,25 @@ factor_three_steps = 2;
 factor_four_steps = 2;
 
 masspayload_increments = factor_one_steps; %qty. of steps
-masspayload_high_kg = 15050; %kg
-masspayload_low_kg = 15000; %kg
+masspayload_high_kg = 2722; %kg
+masspayload_low_kg = 2722; %kg
 MASSPAYLOAD = linspace(masspayload_low_kg, masspayload_high_kg, masspayload_increments);
 
 zcgpayload_increments = factor_two_steps; %qty. of steps
-zcgpayload_high_mm = 2.25; %m %it's parsed as mm in sim, but put m here.
-zcgpayload_low_mm = 2.2; %m
+zcgpayload_high_mm = 1.527; %m %it's parsed as mm in sim, but put m here low: 1.527
+zcgpayload_low_mm = 1.527; %m
 ZCGPAYLOAD = linspace(zcgpayload_low_mm, zcgpayload_high_mm, zcgpayload_increments);
 
 
 windspeed_increments = factor_three_steps;
-windspeed_high_kph = 0.2; %kph %100kph is the normal windspeed input
+windspeed_high_kph = 0.1; %kph %100kph is the normal windspeed input
 windspeed_low_kph = 0.1; %kph
 WINDSPEED = linspace(windspeed_low_kph,windspeed_high_kph, windspeed_increments);
 
 
 vx_increments = factor_four_steps; %qty. of steps
-vx_high_kph = 40; %kph
-vx_low_kph = 39; %kph
+vx_high_kph = 50; %kph
+vx_low_kph = 50; %kph
 SPEEDTARGETCONSTANT = linspace(vx_low_kph, vx_high_kph, vx_increments);
 
 
@@ -52,7 +52,7 @@ total_runs = length(run_input_array);
 % simIn(1:length(run_input_array)) = Simulink.Simulation('batch_iteration_SWD_SL');
 % f = waitbar(0,'Progress...');
 % open_system('batch_iteration_SWD_SL')
-for i = 1:total_runs
+for i = 1:1
 % Extensions\Simulink\batch_iteration\batch_iteration_SWD_SL.mdl
     
     MASSPAYLOAD = run_input_array(i,1);
